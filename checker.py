@@ -343,6 +343,62 @@ def normalize_history_date(update_text, date_text, fallback_text, today):
     return None
 
 
+ISO_DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+
+
+def renormalize_history_dates(history, today):
+    """前回 latest.json から引き継いだ履歴の日付を ISO 形式に直す。
+
+    v2 以前のパーサは date に「11月11日」のような元の表記をそのまま
+    保存していた。詳細を取り直さない作品（needs_detail が False）では
+    履歴がそのまま引き継がれるため、パーサを通らず旧表記が残り続けて
+    いた（第3回チェック後の latest.json で多数確認）。
+    絶対日付／月日表記が読み取れるものだけを ISO 化して置き換える。
+    相対表記（◯日前など）は旧実行日を基準にしないと換算できないため、
+    従来通り元のテキストのまま残す。
+    戻り値: (履歴, 直した件数)。元の辞書は書き換えず、直した要素だけ
+    コピーして差し替える。
+    """
+    fixed = 0
+    out = []
+    for item in history or []:
+        if not isinstance(item, dict):
+            out.append(item)
+            continue
+        raw = item.get("date")
+        if raw and ISO_DATE_RE.match(str(raw)):
+            out.append(item)
+            continue
+        srcs = [str(raw or ""), item.get("label") or "",
+                item.get("title") or ""]
+        iso = None
+        for src in srcs:  # (a) 絶対日付
+            m = ABS_DATE_RE.search(src)
+            if m:
+                iso = _iso_or_none(
+                    int(m.group(1)), int(m.group(2)), int(m.group(3)))
+                if iso:
+                    break
+        if iso is None:  # (b) 月日表記（未来なら前年）
+            for src in srcs:
+                m = MONTH_DAY_RE.search(src)
+                if not m:
+                    continue
+                mo, da = int(m.group(1)), int(m.group(2))
+                r = _iso_or_none(today.year, mo, da)
+                if r is None:
+                    continue
+                if date(today.year, mo, da) > today:
+                    r = _iso_or_none(today.year - 1, mo, da)
+                iso = r
+                break
+        if iso:
+            item = dict(item, date=iso)
+            fixed += 1
+        out.append(item)
+    return out, fixed
+
+
 # ---------------------------------------------------------------- 詳細ページ解析
 
 def _find_update_list(root):
@@ -496,40 +552,37 @@ def read_json(path, default):
         return default
 
 
-# ---------------------------------------------------------- デバッグ保存
-# 【暫定機能（2026-11-13追加）】実HTMLの構造が想定と違い、詳細ページの
-# 履歴解析が空になる作品が出たため、原因確認用に raw HTML を
-# data/thumbs/ 配下へ保存する（ワークフローの git add 対象範囲内）。
-# v3 でパーサは実構造に合わせて直したが、次回実行でエラーが本当に
-# 消えたかを確認するまでは、詳細ページ分のみ残す（ブックマーク分は削除済み）。
-# 確認が取れたら、この保存処理は削除する予定。
+# ------------------------------------------------- デバッグファイル掃除
+# v2〜v3 では実HTMLの構造確認用に data/thumbs/_debug_*.html を保存して
+# いたが、第3回チェックで取り込み完成（346件・エラー0）を確認したため
+# 保存処理は v4 で撤去した。既にコミット済みのデバッグファイルは、
+# 起動時にここで削除する（ワークフローが data/thumbs を git add する
+# ため、削除も bot コミットに乗ってリポジトリから消える）。
 
-DEBUG_MAX_DETAIL_FILES = 20
-
-
-def save_debug_html(filename, html):
-    """デバッグ用に raw HTML を THUMBS_DIR 配下へ保存する（失敗しても継続）。"""
-    try:
-        os.makedirs(THUMBS_DIR, exist_ok=True)
-        with open(os.path.join(THUMBS_DIR, filename), "w", encoding="utf-8") as f:
-            f.write(html)
-        print(f"[checker] debug html saved: data/thumbs/{filename}")
-    except OSError as e:
-        print(f"[checker] debug html save failed ({filename}): {e}",
-              file=sys.stderr)
-
-
-def debug_detail_filename(detail_url):
-    """詳細URLの末尾セグメントからデバッグ用ファイル名を作る。"""
-    seg = (detail_url or "").rstrip("/").rsplit("/", 1)[-1]
-    seg = re.sub(r"[^A-Za-z0-9_-]", "", seg) or "unknown"
-    return f"_debug_detail_{seg}.html"
+def cleanup_debug_files():
+    """THUMBS_DIR に残っている _debug_*.html を削除し、削除件数を返す。"""
+    removed = 0
+    if os.path.isdir(THUMBS_DIR):
+        for name in os.listdir(THUMBS_DIR):
+            if name.startswith("_debug_") and name.endswith(".html"):
+                try:
+                    os.remove(os.path.join(THUMBS_DIR, name))
+                    removed += 1
+                except OSError as e:
+                    print(f"[checker] debug cleanup failed ({name}): {e}",
+                          file=sys.stderr)
+    if removed:
+        print(f"[checker] removed {removed} leftover debug html file(s)")
+    return removed
 
 
 def main():
     now = datetime.now(JST)
     today = now.date()
     print(f"[checker] start {now.isoformat()} bookmark={BOOKMARK_URL}")
+
+    # v2〜v3 の暫定デバッグファイルが残っていれば掃除する
+    cleanup_debug_files()
 
     library = read_json(LIBRARY_PATH, {"version": 1, "works": {}, "added": []})
     added_urls = []
@@ -591,7 +644,7 @@ def main():
     out_works = []
     detail_count = 0
     thumb_count = 0
-    debug_detail_saved = 0  # 【暫定】デバッグHTML保存数（上限あり）
+    dates_fixed_total = 0  # 引き継ぎ履歴の日付を ISO 化した件数
 
     for w in works:
         prev = prev_by_url.get(w["detailUrl"])
@@ -614,15 +667,8 @@ def main():
                     html, today)
                 if new_history:
                     history = new_history
-                else:
-                    # 【暫定】履歴が空＝実構造が想定と違う可能性。
-                    # 原因確認用に raw HTML を保存する（上限20件、削除予定）
-                    if debug_detail_saved < DEBUG_MAX_DETAIL_FILES:
-                        save_debug_html(
-                            debug_detail_filename(w["detailUrl"]), html)
-                        debug_detail_saved += 1
-                    if not history:
-                        error = "更新履歴を取得できませんでした"
+                elif not history:
+                    error = "更新履歴を取得できませんでした"
                 if not title and work_title:
                     # ブックマーク側でタイトルが取れなかった作品を
                     # 詳細ページの <title> 由来タイトルで補完する
@@ -632,6 +678,11 @@ def main():
             except Exception as e:
                 error = f"詳細ページ取得失敗: {e}"
                 polite_sleep()
+
+        # 引き継いだ履歴に旧パーサの生表記（「11月11日」など）が残って
+        # いれば ISO 化する（取り直した履歴は元から ISO なので無変化）
+        history, n_fixed = renormalize_history_dates(history, today)
+        dates_fixed_total += n_fixed
 
         # サムネイル（無ければダウンロード）
         thumb_file = None
@@ -682,7 +733,8 @@ def main():
     errors = sum(1 for w in out_works if w["error"])
     print(
         f"[checker] done: works={len(out_works)} detailFetched={detail_count} "
-        f"thumbsDownloaded={thumb_count} errors={errors}"
+        f"thumbsDownloaded={thumb_count} errors={errors} "
+        f"datesFixed={dates_fixed_total}"
     )
     return 0
 
