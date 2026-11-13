@@ -20,6 +20,12 @@
   header .meta{font-size:12.5px; color:#c9cdd8; display:flex; flex-wrap:wrap; gap:6px 14px}
   header .meta button{font:inherit; color:#fff; background:rgba(255,255,255,.14); border:1px solid rgba(255,255,255,.35); border-radius:999px; padding:0 10px; cursor:pointer; line-height:1.7}
   header .meta button:hover{background:rgba(255,255,255,.25)}
+  header .meta .rightend{margin-left:auto}
+  header .meta .sortbtn{display:inline-flex; align-items:center; padding:2px 8px}
+  header .meta .sortbtn svg{display:block}
+  header .meta .sortbtn .arr{opacity:.35}
+  header .meta .sortbtn[data-dir="desc"] .arr-dn{opacity:1}
+  header .meta .sortbtn[data-dir="asc"] .arr-up{opacity:1}
   header .meta b{color:#fff}
   .banner{background:#fff4e0; border:1px solid #f0d9a8; color:#7a5a12; font-size:12.5px;
     border-radius:8px; padding:8px 10px; margin:12px 0}
@@ -101,6 +107,7 @@
       <span>最終チェック <b id="hChecked">-</b></span>
       <span>次回 <b id="hNext">-</b></span>
       <span><button onclick="runCheckNow(true)">今すぐ更新</button></span>
+      <span class="rightend"><button id="sortBtn" class="sortbtn" data-dir="desc" title="並び替え：更新の新しい順" onclick="toggleSort()"><svg width="11" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path class="arr arr-up" d="M3 10.5v-8M1.4 4 3 2.4 4.6 4"/><path class="arr arr-dn" d="M9 1.5v8M7.4 8 9 9.6 10.6 8"/></svg></button></span>
     </div>
   </header>
 
@@ -442,7 +449,23 @@ function computeView(){
     });
   }
 }
-function unreadWorks(){ return view.filter(w => w.unread.length > 0); }
+// 並び替え（更新日時）：データの並び自体が「更新の新しい順」なので、昇順はその反転。
+// 両タブ共通で、選択は端末に保存する。
+let sortAsc = localStorage.getItem("webcomic-sort-v1") === "asc";
+function orderedList(list){ return sortAsc ? list.slice().reverse() : list; }
+function applySortBtn(){
+  const b = document.getElementById("sortBtn");
+  if(!b) return;
+  b.dataset.dir = sortAsc ? "asc" : "desc";
+  b.title = sortAsc ? "並び替え：更新の古い順（押すと新しい順）" : "並び替え：更新の新しい順（押すと古い順）";
+}
+function toggleSort(){
+  sortAsc = !sortAsc;
+  localStorage.setItem("webcomic-sort-v1", sortAsc ? "asc" : "desc");
+  applySortBtn();
+  rerender();
+}
+function unreadWorks(){ return orderedList(view.filter(w => w.unread.length > 0)); }
 function unreadEps(){ return view.reduce((s, w) => s + w.unread.length, 0); }
 
 // ===== 描画 =====
@@ -542,7 +565,7 @@ function renderUnread(){
 }
 function renderAll(){
   const q = (document.getElementById("q").value || "").trim();
-  const list = view.filter(w => !q || w.title.includes(q) || (w.site || "").includes(q));
+  const list = orderedList(view.filter(w => !q || w.title.includes(q) || (w.site || "").includes(q)));
   const el = document.getElementById("allList");
   el.innerHTML = list.length ? list.map(w => cardHTML(w, "all")).join("")
     : '<div class="empty">該当する作品がありません</div>';
@@ -797,6 +820,7 @@ function hideToast(){ document.getElementById("toast").classList.remove("show");
   } else {
     document.getElementById("view-connect").classList.add("active");
   }
+  applySortBtn();
   syncHeader();
 })();
 </script>
