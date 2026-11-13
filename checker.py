@@ -13,6 +13,9 @@
   5. latest.json を書き出す（このファイルと thumbs/ の書き手は checker だけ）
   6. マンガワン作品だけは履歴に話URLが無いため、公式の話一覧から
      話ラベルを照合して話URLを補完する（専用処理の節を参照）
+  7. イラスト・告知等の「話でない更新」は履歴に残しつつ extra の印を
+     付け、latest（最新話表示用）は本編エントリから選ぶ（案2。専用処理
+     の節を参照）
 
 Python 標準ライブラリのみで動作する。
 パーサは実HTML（2026-11-13 の実地サンプル）に基づく構造解析：
@@ -704,6 +707,72 @@ def enrich_mangaone_history(history, publisher_url):
     return history, filled
 
 
+# ---------------------------------------------------------------- 非本編の分類（案2）
+# webcomics.jp の「最近の更新」には、本編の話だけでなくイラスト・
+# 人気投票企画・休載のお知らせ等の「話でない更新」も並ぶ。これらが
+# 履歴の先頭に来ると、従来は latest（＝アプリの「最新話」表示）まで
+# 非本編になってしまい、本編の最新話と誤認される（2026-11-14 に
+# 『魔都精兵のスレイブ』の「[イラスト+第3回人気投票企画]」で報告）。
+#
+# ユーザー決定の案2（2026-11-14）:
+#   - 非本編も履歴には残し、未読判定・未読件数は従来どおり数える
+#   - 非本編エントリには "extra": true の印を付ける（アプリ側は
+#     この印を見て「続きを読む」の飛び先を本編から選ぶ）
+#   - latest は履歴の中で最も新しい本編エントリにする。履歴の
+#     全てが非本編の作品では従来どおり先頭にする（空にしない）
+#
+# 非本編とみなすキーワード（ラベル／タイトルへの部分一致）。
+# 本編のラベル（「更新」「2026/11/13 更新」「11.13(金)」
+# 「[第122話]…」等）は、いずれのキーワードも含まない。
+
+EXTRA_LABEL_KEYWORDS = (
+    "イラスト", "人気投票", "お知らせ", "休載", "告知",
+    "企画", "アンケート", "募集", "発売記念",
+)
+
+
+def is_extra_entry(entry):
+    """履歴エントリが「話でない更新」（非本編）かどうか。
+
+    既に "extra" の印が付いているものはそのまま非本編として扱い、
+    印が無いものはラベル／タイトルにキーワードを含むかで判定する。
+    """
+    if not isinstance(entry, dict):
+        return False
+    if entry.get("extra"):
+        return True
+    text = " ".join([entry.get("label") or "", entry.get("title") or ""])
+    return any(kw in text for kw in EXTRA_LABEL_KEYWORDS)
+
+
+def mark_extra_entries(history):
+    """非本編エントリに "extra": True の印を付けた履歴を返す。
+
+    本編エントリには印を付けない（印が無い＝本編、という後方互換。
+    旧データの履歴も、チェックのたびにこの処理を通すことで印が
+    付く）。元の辞書は書き換えず、印を付ける要素だけコピーして
+    差し替える。
+    """
+    out = []
+    for entry in history or []:
+        if is_extra_entry(entry) and not entry.get("extra"):
+            entry = dict(entry, extra=True)
+        out.append(entry)
+    return out
+
+
+def select_latest(history):
+    """latest（最新話表示用）に使うエントリを選ぶ。
+
+    履歴の中で最も新しい本編エントリ。全部が非本編なら先頭
+    （従来どおり）。履歴が空なら None。
+    """
+    for entry in history or []:
+        if not is_extra_entry(entry):
+            return entry
+    return history[0] if history else None
+
+
 # ---------------------------------------------------------------- 判定ヘルパ
 
 def is_fresh(when_text, today):
@@ -851,6 +920,7 @@ def main():
     thumb_count = 0
     dates_fixed_total = 0  # 引き継ぎ履歴の日付を ISO 化した件数
     mangaone_filled_total = 0  # マンガワン作品で話URLを補完した件数
+    extra_entries_total = 0  # 非本編（extra）の印が付いた履歴件数
 
     for w in works:
         prev = prev_by_url.get(w["detailUrl"])
@@ -897,6 +967,13 @@ def main():
                 history, publisher_url)
             mangaone_filled_total += n_filled
 
+        # 非本編の分類（案2）：履歴が確定した最終ステップとして、
+        # イラスト・告知等の「話でない更新」に印を付ける。履歴自体と
+        # 未読判定は従来どおりで、latest の再選択（下の out_works 側）
+        # とアプリの飛び先選択だけがこの印を使う
+        history = mark_extra_entries(history)
+        extra_entries_total += sum(1 for h in history if h.get("extra"))
+
         # サムネイル（無ければダウンロード）
         thumb_file = None
         fname = thumb_filename(thumb_url)
@@ -928,7 +1005,9 @@ def main():
                 "publisherUrl": publisher_url,
                 "comicNo": comic_no,
                 "history": history,
-                "latest": history[0] if history else None,
+                # 案2：最新話表示は本編から選ぶ（履歴先頭がイラスト・
+                # 告知等の非本編でも、本編の最新話を指すようにする）
+                "latest": select_latest(history),
                 "error": error,
             }
         )
@@ -947,7 +1026,8 @@ def main():
     print(
         f"[checker] done: works={len(out_works)} detailFetched={detail_count} "
         f"thumbsDownloaded={thumb_count} errors={errors} "
-        f"datesFixed={dates_fixed_total} mangaoneFilled={mangaone_filled_total}"
+        f"datesFixed={dates_fixed_total} mangaoneFilled={mangaone_filled_total} "
+        f"extraEntries={extra_entries_total}"
     )
     return 0
 

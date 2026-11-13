@@ -255,6 +255,18 @@ function histFpDate(h){
   if(!h) return "";
   return "date:" + (h.date || "") + "|" + (h.label || h.title || "");
 }
+// 「話でない更新」（イラスト・告知・休載お知らせ等）かどうか。
+// checker が履歴エントリに付けた extra の印で判定する
+// （印が無いエントリは本編として扱う）
+function isExtraEp(h){ return !!(h && h.extra); }
+// 「続きを読む」で開くエントリ：未読の中で一番古い本編。
+// 未読が非本編だけのときは、本編の最新話（latestEp）を開く。
+// 未読が無ければ null（w.unread は古い順に並んでいる）
+function continueEp(w){
+  if(!w || !w.unread || !w.unread.length) return null;
+  for(const h of w.unread){ if(!isExtraEp(h)) return h; }
+  return w.latestEp || w.unread[0];
+}
 function b64encodeUtf8(str){
   const bytes = new TextEncoder().encode(str);
   let bin = "";
@@ -445,21 +457,28 @@ function computeView(){
         else unread = history.slice(0, idx).reverse();
       }
     }
-    view.push({
+    const item = {
       detailUrl: w.detailUrl,
       title: w.title || "（タイトル未取得）",
       site: w.site || "",
       thumbFile: w.thumbFile || null,
       history: history,
-      latestEp: history.length ? history[0] : (w.latest || null),
+      // 最新話表示は checker が本編から選んだ w.latest を優先する。
+      // 履歴の先頭（history[0]）はイラスト・告知等の非本編のことが
+      // あるため、表示やリンク先には使わない（読了位置の保存には
+      // 従来どおり history[0] を使う。openWork を参照）
+      latestEp: w.latest || (history.length ? history[0] : null),
       error: w.error || null,
       publisherUrl: w.publisherUrl || null,
       lastReadUrl: lib ? (lib.lastReadUrl || "") : null,
       lastReadTitle: lib ? (lib.lastReadTitle || "") : null,
       lastReadFp: lib ? (lib.lastReadFp || "") : null,
       unread: unread,
-      notFound: notFound
-    });
+      notFound: notFound,
+      nextEp: null
+    };
+    item.nextEp = continueEp(item);
+    view.push(item);
   }
 }
 // 並び替え（更新日時）：データの並び自体が「更新の新しい順」なので、昇順はその反転。
@@ -509,7 +528,7 @@ function cardHTML(w, mode){
                   : '<span class="badge read">最新話まで読了</span>';
   let head, btns;
   if(n){
-    const first = w.unread[0];
+    const first = w.nextEp || w.unread[0];
     head = '<div class="next">次は <b>' + esc(epLabel(first)) + "</b>（" + esc(epDate(first)) + "）</div>"
          + '<div class="sub"><span>最新 ' + esc(epLabel(w.latestEp)) + " ／ 読了済み " + esc(w.lastReadTitle || "―") + "</span></div>";
     btns = '<button class="read' + (n > 1 ? " multi" : "") + '" data-act="read" data-url="' + esc(w.detailUrl) + '">続きを読む（' + esc(epLabel(first)) + "）"
@@ -649,18 +668,23 @@ async function undoLast(){
 async function openWork(detailUrl, btn){
   const w = view.find(x => x.detailUrl === detailUrl);
   if(!w || !w.unread.length || !w.latestEp) return;
-  const first = w.unread[0];
-  // 開くURL：最古の未読話 → 公式の作品ページ → 詳細ページ の順
-  // （話URLを持たない作品では publisherUrl が続きの入口になる）
+  // 開くエントリ：未読の中で一番古い本編（未読が非本編だけなら
+  // 本編の最新話）。URLは その話 → 公式の作品ページ → 詳細ページ
+  // の順（話URLを持たない作品では publisherUrl が続きの入口になる）
+  const first = w.nextEp || w.unread[0];
   const target = first.url || w.publisherUrl || w.detailUrl;
   window.open(target, "_blank", "noopener");
   if(btn){
     const card = btn.closest(".card");
     if(card) card.classList.add("bye");
   }
+  // 読了位置は履歴の先頭（非本編を含む最新の更新）まで進める。
+  // 本編の最新話（latestEp）で保存すると、先頭にある非本編の
+  // 未読が残り続けてしまうため、ここは意図的に先頭を使う
+  const head = w.history[0] || w.latestEp;
   const ok = await saveLibrary(d => {
     d.works = d.works || {};
-    d.works[detailUrl] = { lastReadUrl: w.latestEp.url || "", lastReadTitle: epLabel(w.latestEp), lastReadFp: histFp(w.latestEp) };
+    d.works[detailUrl] = { lastReadUrl: head.url || "", lastReadTitle: epLabel(head), lastReadFp: histFp(head) };
   }, "webcomic: read " + w.title, true);
   if(ok) toast("「" + epLabel(first) + "」を開きました。この作品は最新話まで読了にしました", true);
 }
