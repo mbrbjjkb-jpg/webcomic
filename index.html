@@ -246,7 +246,14 @@ function epDate(h){
 function histFp(h){
   if(!h) return "";
   return h.url ? (h.url + "|" + (h.title || h.label || ""))
-               : ("date:" + (h.date || "") + "|" + (h.label || h.title || ""));
+               : histFpDate(h);
+}
+// 日付形式の指紋（URLの有無に依らない）。チェッカーの対応追加で後から
+// 話URLが付くようになった作品（マンガワン等）では、保存済みの指紋が
+// この形式のまま残っているため、移行用にこちらでも照合できるようにする
+function histFpDate(h){
+  if(!h) return "";
+  return "date:" + (h.date || "") + "|" + (h.label || h.title || "");
 }
 function b64encodeUtf8(str){
   const bytes = new TextEncoder().encode(str);
@@ -420,6 +427,12 @@ function computeView(){
         let idx = -1;
         if(lib.lastReadFp){
           idx = history.findIndex(h => histFp(h) === lib.lastReadFp);
+          if(idx === -1 && lib.lastReadFp.indexOf("date:") === 0){
+            // 後から話URLが付いた作品（マンガワン等）では保存済み指紋が
+            // 日付形式のまま残っているので、URLに依らない日付形式の
+            // 指紋でも照合する（移行対策。これが無いと全話未読になる）
+            idx = history.findIndex(h => histFpDate(h) === lib.lastReadFp);
+          }
         }
         if(idx === -1 && lib.lastReadTitle){
           idx = history.findIndex(h => h.url === lib.lastReadUrl

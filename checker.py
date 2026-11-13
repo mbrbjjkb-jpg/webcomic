@@ -11,6 +11,8 @@
      「最近の更新」から更新履歴（最大30件）を取得する。それ以外は前回結果を再利用
   4. サムネイルが thumbs/ に無ければダウンロードして保存する
   5. latest.json を書き出す（このファイルと thumbs/ の書き手は checker だけ）
+  6. マンガワン作品だけは履歴に話URLが無いため、公式の話一覧から
+     話ラベルを照合して話URLを補完する（専用処理の節を参照）
 
 Python 標準ライブラリのみで動作する。
 パーサは実HTML（2026-11-13 の実地サンプル）に基づく構造解析：
@@ -85,6 +87,22 @@ def fetch_bytes(url):
 
 def fetch_text(url):
     return fetch_bytes(url).decode("utf-8", errors="replace")
+
+
+def fetch_final_url(url):
+    """GET してリダイレクトを追従し、最終URLを返す（本体は読み捨てる）。"""
+    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    with urllib.request.urlopen(req, timeout=TIMEOUT) as res:
+        res.read()
+        return res.geturl()
+
+
+def fetch_post_bytes(url):
+    """ボディ無しの POST でバイト列を取得する（マンガワンAPI用）。"""
+    req = urllib.request.Request(
+        url, data=b"", headers={"User-Agent": USER_AGENT}, method="POST")
+    with urllib.request.urlopen(req, timeout=TIMEOUT) as res:
+        return res.read()
 
 
 def polite_sleep():
@@ -499,6 +517,193 @@ def parse_detail_page(html, today=None):
     return history, page_title, publisher_url
 
 
+# ---------------------------------------------------------------- マンガワン専用対応
+# webcomics.jp の履歴ではマンガワン作品の話URLが全件 None になるため、
+# 公式サイトのビューアAPIから話一覧（話ラベル→章ID）を取得して補完する。
+#
+# 仕組み（2026-11-14 に実地確認）:
+#   - publisherUrl（https://manga-one.com/viewer/<番号>）は
+#     https://manga-one.com/manga/<title_id>/chapter/<chapter_id> へ
+#     リダイレクトされる。ここから title_id と起点の chapter_id を得る
+#   - 話一覧はサイトの内部API（protobuf形式）で得られる:
+#       POST https://manga-one.com/api/client?rq=viewer_v2
+#         &title_id=..&chapter_id=..&list_type=chapter&sort_type=desc
+#         &page=N&limit=10
+#     応答（WebViewerResponse）の field 11 が話一覧セクションで、
+#     その field 1（繰り返し）が各話: 1=章ID(varint), 2=話ラベル,
+#     3=サブタイトル, 5=公開日。保存する話URLは
+#     https://manga-one.com/manga/<title_id>/chapter/<章ID>（クエリ無し）
+#   - ページ送りは未補完の履歴が残る場合のみ。最大3ページ（30話分）まで
+
+MANGAONE_API_URL = "https://manga-one.com/api/client"
+MANGAONE_MAX_PAGES = 3
+MANGAONE_PAGE_LIMIT = 10
+MANGAONE_CHAPTER_URL_RE = re.compile(r"/manga/(\d+)/chapter/(\d+)")
+_EPISODE_PART_RE = re.compile(r"^(前編|中編|後編)")
+
+
+def _pb_read_varint(buf, pos):
+    shift = 0
+    val = 0
+    while True:
+        if pos >= len(buf):
+            raise ValueError("protobuf: varint が途中で切れている")
+        b = buf[pos]
+        pos += 1
+        val |= (b & 0x7F) << shift
+        if not (b & 0x80):
+            return val, pos
+        shift += 7
+        if shift > 63:
+            raise ValueError("protobuf: varint が長すぎる")
+
+
+def _pb_fields(buf):
+    """protobuf の wire 形式を (フィールド番号, wire種別, 値) の列にする。
+
+    varint は int、length-delimited は bytes、それ以外（固定長）は
+    bytes のまま返す。壊れた入力では例外にする。
+    """
+    pos = 0
+    out = []
+    while pos < len(buf):
+        key, pos = _pb_read_varint(buf, pos)
+        field, wt = key >> 3, key & 7
+        if field == 0:
+            raise ValueError("protobuf: フィールド番号0")
+        if wt == 0:
+            val, pos = _pb_read_varint(buf, pos)
+            out.append((field, wt, val))
+        elif wt == 2:
+            ln, pos = _pb_read_varint(buf, pos)
+            if pos + ln > len(buf):
+                raise ValueError("protobuf: 長さ超過")
+            out.append((field, wt, buf[pos:pos + ln]))
+            pos += ln
+        elif wt == 1:
+            out.append((field, wt, buf[pos:pos + 8]))
+            pos += 8
+        elif wt == 5:
+            out.append((field, wt, buf[pos:pos + 4]))
+            pos += 4
+        else:
+            raise ValueError(f"protobuf: 未対応の wire 種別 {wt}")
+    return out
+
+
+def parse_mangaone_chapter_list(data):
+    """ビューアAPI応答から話一覧 [(章ID, 話ラベル, サブタイトル)] を取り出す。
+
+    WebViewerResponse の field 11（話一覧セクション）の field 1 が各話。
+    各話メッセージ: 1=章ID(varint), 2=話ラベル, 3=サブタイトル（任意）。
+    取れなければ空リスト。
+    """
+    entries = []
+    try:
+        for field, wt, val in _pb_fields(data):
+            if field != 11 or wt != 2:
+                continue
+            for f1, w1, v1 in _pb_fields(val):
+                if f1 != 1 or w1 != 2:
+                    continue
+                chapter_id = None
+                label = None
+                subtitle = None
+                for f2, w2, v2 in _pb_fields(v1):
+                    if f2 == 1 and w2 == 0:
+                        chapter_id = v2
+                    elif f2 == 2 and w2 == 2:
+                        label = v2.decode("utf-8", errors="replace")
+                    elif f2 == 3 and w2 == 2:
+                        subtitle = v2.decode("utf-8", errors="replace")
+                if chapter_id is not None and label:
+                    entries.append((chapter_id, label, subtitle))
+    except ValueError:
+        return []
+    return entries
+
+
+def _mangaone_label_key(label):
+    """話ラベルの照合キー（空白除去・全角数字を半角化）。"""
+    s = "".join((label or "").split())
+    return s.translate(str.maketrans("０１２３４５６７８９", "0123456789"))
+
+
+def is_mangaone_work(site, publisher_url):
+    if site and "マンガワン" in site:
+        return True
+    return bool(publisher_url) and "manga-one.com" in publisher_url
+
+
+def enrich_mangaone_history(history, publisher_url):
+    """マンガワン作品の履歴に話URLを補完する。(履歴, 補完件数) を返す。
+
+    補完できないエントリ（話一覧に無い「休載のお知らせ」等）は
+    url=None のまま残す。失敗しても履歴は壊さず、元のまま返す。
+    """
+    missing = [h for h in history if not h.get("url")]
+    if not missing or not publisher_url:
+        return history, 0
+    try:
+        final_url = fetch_final_url(publisher_url)
+        polite_sleep()
+        m = MANGAONE_CHAPTER_URL_RE.search(final_url or "")
+        if not m:
+            print(f"[checker] mangaone: リダイレクト先からIDを取れません "
+                  f"({publisher_url} -> {final_url})", file=sys.stderr)
+            return history, 0
+        title_id, first_chapter_id = m.group(1), m.group(2)
+
+        mapping = {}
+        for page in range(1, MANGAONE_MAX_PAGES + 1):
+            api_url = (
+                f"{MANGAONE_API_URL}?rq=viewer_v2&title_id={title_id}"
+                f"&chapter_id={first_chapter_id}&list_type=chapter"
+                f"&sort_type=desc&page={page}&limit={MANGAONE_PAGE_LIMIT}"
+            )
+            data = fetch_post_bytes(api_url)
+            polite_sleep()
+            entries = parse_mangaone_chapter_list(data)
+            if not entries:
+                break
+            for chapter_id, label, subtitle in entries:
+                url = (f"https://manga-one.com/manga/{title_id}"
+                       f"/chapter/{chapter_id}")
+                key = _mangaone_label_key(label)
+                if key and key not in mapping:
+                    mapping[key] = url
+                # 分割話（第N話＋サブタイトル先頭の前編/中編/後編）用に
+                # 合成キーも登録する（履歴ラベルが「第34話前編」形式の
+                # 場合に、公式ラベル「第34話」と食い違うため）
+                if subtitle:
+                    pm = _EPISODE_PART_RE.match(subtitle.strip())
+                    if pm:
+                        pkey = _mangaone_label_key(label + pm.group(1))
+                        if pkey and pkey not in mapping:
+                            mapping[pkey] = url
+            if len(entries) < MANGAONE_PAGE_LIMIT:
+                break  # 最終ページ
+            if all(
+                _mangaone_label_key(h.get("label") or h.get("title")) in mapping
+                for h in missing
+            ):
+                break  # 未補完分がすべて解決した
+    except Exception as e:
+        print(f"[checker] mangaone enrich failed ({publisher_url}): {e}",
+              file=sys.stderr)
+        return history, 0
+
+    filled = 0
+    for h in history:
+        if not h.get("url"):
+            url = mapping.get(
+                _mangaone_label_key(h.get("label") or h.get("title")))
+            if url:
+                h["url"] = url
+                filled += 1
+    return history, filled
+
+
 # ---------------------------------------------------------------- 判定ヘルパ
 
 def is_fresh(when_text, today):
@@ -645,6 +850,7 @@ def main():
     detail_count = 0
     thumb_count = 0
     dates_fixed_total = 0  # 引き継ぎ履歴の日付を ISO 化した件数
+    mangaone_filled_total = 0  # マンガワン作品で話URLを補完した件数
 
     for w in works:
         prev = prev_by_url.get(w["detailUrl"])
@@ -683,6 +889,13 @@ def main():
         # いれば ISO 化する（取り直した履歴は元から ISO なので無変化）
         history, n_fixed = renormalize_history_dates(history, today)
         dates_fixed_total += n_fixed
+
+        # マンガワン専用対応：履歴に話URLが無いマンガワン作品は、
+        # 公式の話一覧から話URLを補完する（他サイトには影響しない）
+        if history and is_mangaone_work(site, publisher_url):
+            history, n_filled = enrich_mangaone_history(
+                history, publisher_url)
+            mangaone_filled_total += n_filled
 
         # サムネイル（無ければダウンロード）
         thumb_file = None
@@ -734,7 +947,7 @@ def main():
     print(
         f"[checker] done: works={len(out_works)} detailFetched={detail_count} "
         f"thumbsDownloaded={thumb_count} errors={errors} "
-        f"datesFixed={dates_fixed_total}"
+        f"datesFixed={dates_fixed_total} mangaoneFilled={mangaone_filled_total}"
     )
     return 0
 
