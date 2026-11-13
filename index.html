@@ -316,7 +316,15 @@ function computeView(){
       } else if(!lib.lastReadUrl){
         unread = history.slice().reverse();
       } else {
-        const idx = history.findIndex(h => h.url === lib.lastReadUrl);
+        // 複合キーで照合する。話URLが全話共通になるサイト（ニコニコ静画など、
+        // 全話が「最新話へのURL」）ではURLだけでは位置を特定できないため、
+        // まず (URL + 話タイトル) で探し、無ければ URL のみの一致に落とす。
+        let idx = -1;
+        if(lib.lastReadTitle){
+          idx = history.findIndex(h => h.url === lib.lastReadUrl
+            && (h.title === lib.lastReadTitle || h.label === lib.lastReadTitle));
+        }
+        if(idx === -1) idx = history.findIndex(h => h.url === lib.lastReadUrl);
         if(idx === -1){ unread = history.slice().reverse(); notFound = true; }
         else unread = history.slice(0, idx).reverse();
       }
