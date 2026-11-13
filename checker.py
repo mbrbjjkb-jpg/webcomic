@@ -189,6 +189,76 @@ def is_detail_url(url):
     return bool(m) and m.group(1) not in NON_DETAIL_SEGMENTS
 
 
+HREF_RE = re.compile(r"""href\s*=\s*(?:"([^"]*)"|'([^']*)')""", re.I)
+
+
+def extract_detail_urls(html):
+    """raw HTML 内の href から詳細ページURLを文書順・重複なしで取り出す。
+
+    パーサ（parse_bookmark_page）が作品として組み立てられたかによらず、
+    ページ内に詳細URLがいくつ存在するかの物差しとして使う。
+    相対パス（/slug/123 形式）も絶対URLに直して判定する。
+    """
+    urls = []
+    seen = set()
+    for m in HREF_RE.finditer(html or ""):
+        href = m.group(1) if m.group(1) is not None else m.group(2) or ""
+        if href.startswith("/"):
+            href = "https://webcomics.jp" + href
+        if is_detail_url(href):
+            nu = normalize_detail_url(href)
+            if nu not in seen:
+                seen.add(nu)
+                urls.append(nu)
+    return urls
+
+
+def should_continue_bookmark(new_works_count, raw_detail_links, page):
+    """ブックマークのページ送りを続けるかどうか。
+
+    継続ルール：そのページの raw HTML 内に詳細URLが1つでも取れる間は続ける。
+    詳細URLが0件のページに当たったら終了。上限は MAX_BOOKMARK_PAGES。
+    （旧実装は「解析できた作品数 < 50 で終了」だったため、解析が45件に
+    欠けた1ページ目で誤って打ち切られた。new_works_count はログ・将来の
+    判定材料として受け取るだけで、継続可否には使わない）
+    """
+    if page >= MAX_BOOKMARK_PAGES:
+        return False
+    return raw_detail_links > 0
+
+
+def supplement_bookmark_works(page_works, raw_urls):
+    """解析で取りこぼした詳細URLを、最小限の作品エントリで補う。
+
+    戻り値: (補完後の作品リスト, 補った件数)。
+    補った作品は title 空・site/thumbUrl/whenText が None で、
+    前回結果が無いため詳細取得の対象になる（タイトルは詳細側で補完）。
+    """
+    known = {w["detailUrl"] for w in page_works}
+    supplemented = 0
+    for u in raw_urls:
+        if u not in known:
+            known.add(u)
+            page_works.append(
+                {"detailUrl": u, "title": "", "site": None,
+                 "thumbUrl": None, "whenText": None}
+            )
+            supplemented += 1
+    return page_works, supplemented
+
+
+def clean_page_title(page_title):
+    """詳細ページの <title> から作品タイトルを取り出す。
+
+    末尾の「 - Web漫画アンテナ」「 | Web漫画アンテナ」等のサイト名を取り除く。
+    """
+    t = (page_title or "").strip()
+    t = re.sub(r"\s*[-|｜–—]\s*Web漫画アンテナ.*$", "", t).strip()
+    if t == "Web漫画アンテナ":
+        t = ""
+    return t
+
+
 def find_time_text(text):
     m = TIME_TEXT_RE.search(text or "")
     return m.group(1).replace(" ", "") if m else None
@@ -292,10 +362,12 @@ def _netloc(url):
 # ---------------------------------------------------------------- 詳細ページ解析
 
 def parse_detail_page(html):
-    """詳細ページから「最近の更新」の履歴（新しい順・最大30件）とページタイトルを返す。
+    """詳細ページから「最近の更新」の履歴（新しい順・最大30件）と作品タイトルを返す。
 
     履歴の各要素: {"date": 日付表示, "label": リンク表示文字列,
                   "title": title属性 or label, "url": 話ページURL}
+    第2戻り値は <title> からサイト名（「 - Web漫画アンテナ」等）を取り除いた
+    作品タイトル。ブックマーク側でタイトルが取れなかった作品の補完に使う。
     """
     tokens, page_title = tokenize(html)
     history = []
@@ -329,7 +401,7 @@ def parse_detail_page(html):
             last_date = None
             if len(history) >= MAX_HISTORY:
                 break
-    return history, page_title
+    return history, clean_page_title(page_title)
 
 
 # ---------------------------------------------------------------- 判定ヘルパ
@@ -385,6 +457,34 @@ def read_json(path, default):
         return default
 
 
+# ---------------------------------------------------------- デバッグ保存
+# 【暫定機能（2026-11-13追加）】実HTMLの構造が想定と違い、詳細ページの
+# 履歴解析が空になる作品が出たため、原因確認用に raw HTML を
+# data/thumbs/ 配下へ保存する（ワークフローの git add 対象範囲内）。
+# 構造を確認してパーサを直したら、この保存処理は削除する予定。
+
+DEBUG_MAX_DETAIL_FILES = 20
+
+
+def save_debug_html(filename, html):
+    """デバッグ用に raw HTML を THUMBS_DIR 配下へ保存する（失敗しても継続）。"""
+    try:
+        os.makedirs(THUMBS_DIR, exist_ok=True)
+        with open(os.path.join(THUMBS_DIR, filename), "w", encoding="utf-8") as f:
+            f.write(html)
+        print(f"[checker] debug html saved: data/thumbs/{filename}")
+    except OSError as e:
+        print(f"[checker] debug html save failed ({filename}): {e}",
+              file=sys.stderr)
+
+
+def debug_detail_filename(detail_url):
+    """詳細URLの末尾セグメントからデバッグ用ファイル名を作る。"""
+    seg = (detail_url or "").rstrip("/").rsplit("/", 1)[-1]
+    seg = re.sub(r"[^A-Za-z0-9_-]", "", seg) or "unknown"
+    return f"_debug_detail_{seg}.html"
+
+
 def main():
     now = datetime.now(JST)
     today = now.date()
@@ -405,6 +505,8 @@ def main():
             prev_by_url[w["detailUrl"]] = w
 
     # --- 第1段階: ブックマーク全ページ
+    # 継続条件は「raw HTML 内に詳細URLが取れる間」（should_continue_bookmark）。
+    # 解析件数の過不足で打ち切らないこと（v1 の不具合：45件解析で誤終了）。
     works = []
     seen = set()
     sep = "&" if "?" in BOOKMARK_URL else "?"
@@ -416,13 +518,22 @@ def main():
             print(f"[checker] bookmark page {page} failed: {e}", file=sys.stderr)
             break
         polite_sleep()
+        # 【暫定】構造確認用に1・2ページ目の raw HTML を保存（削除予定）
+        if page in (1, 2):
+            save_debug_html(f"_debug_bookmark_{page}.html", html)
         page_works = parse_bookmark_page(html)
-        print(f"[checker] bookmark page {page}: {len(page_works)} works")
+        raw_urls = extract_detail_urls(html)
+        page_works, supplemented = supplement_bookmark_works(page_works, raw_urls)
+        print(
+            f"[checker] bookmark page {page}: parsed={len(page_works)} works "
+            f"(supplemented={supplemented}) rawDetailUrls={len(raw_urls)}"
+        )
         for w in page_works:
             if w["detailUrl"] not in seen:
                 seen.add(w["detailUrl"])
                 works.append(w)
-        if len(page_works) < 50:
+        if not should_continue_bookmark(len(page_works), len(raw_urls), page):
+            print(f"[checker] bookmark paging stopped at page {page}")
             break
 
     # --- アプリから追加された作品（ブックマークに無いもの）
@@ -445,6 +556,7 @@ def main():
     out_works = []
     detail_count = 0
     thumb_count = 0
+    debug_detail_saved = 0  # 【暫定】デバッグHTML保存数（上限あり）
 
     for w in works:
         prev = prev_by_url.get(w["detailUrl"])
@@ -459,14 +571,22 @@ def main():
             try:
                 html = fetch_text(w["detailUrl"])
                 polite_sleep()
-                new_history, page_title = parse_detail_page(html)
+                new_history, work_title = parse_detail_page(html)
                 if new_history:
                     history = new_history
-                elif not history:
-                    error = "更新履歴を取得できませんでした"
-                if not title and page_title:
-                    # ページタイトルからサイト名らしい末尾を取り除く
-                    title = re.split(r"\s*[|｜]\s*", page_title)[0].strip()
+                else:
+                    # 【暫定】履歴が空＝実構造が想定と違う可能性。
+                    # 原因確認用に raw HTML を保存する（上限20件、削除予定）
+                    if debug_detail_saved < DEBUG_MAX_DETAIL_FILES:
+                        save_debug_html(
+                            debug_detail_filename(w["detailUrl"]), html)
+                        debug_detail_saved += 1
+                    if not history:
+                        error = "更新履歴を取得できませんでした"
+                if not title and work_title:
+                    # ブックマーク側でタイトルが取れなかった作品を
+                    # 詳細ページの <title> 由来タイトルで補完する
+                    title = work_title
             except Exception as e:
                 error = f"詳細ページ取得失敗: {e}"
                 polite_sleep()
