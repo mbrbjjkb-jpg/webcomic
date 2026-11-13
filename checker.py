@@ -13,8 +13,11 @@
   5. latest.json を書き出す（このファイルと thumbs/ の書き手は checker だけ）
 
 Python 標準ライブラリのみで動作する。
-パーサは webcomics.jp の生HTMLのタグ構造に依存しすぎないよう、
-文書順の要素列（画像・リンク・テキスト）を走査する寛容な実装にしている。
+パーサは実HTML（2026-11-13 の実地サンプル）に基づく構造解析：
+  - ブックマークは div.entry[data-comic-no] の行ブロック単位で切り分ける
+  - 詳細ページは「最近の更新」の ul/li を走査する。話リンクを持つ li と、
+    日付＋更新テキストだけの li（話URLを持たないサイト）の両方に対応し、
+    日付は ISO 形式（YYYY-MM-DD）に正規化する
 """
 
 import json
@@ -24,7 +27,7 @@ import sys
 import time
 import urllib.error
 import urllib.request
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
 from html.parser import HTMLParser
 
 JST = timezone(timedelta(hours=9))
@@ -47,25 +50,29 @@ LIBRARY_PATH = os.path.join(DATA_DIR, "library.json")
 LATEST_PATH = os.path.join(DATA_DIR, "latest.json")
 THUMBS_DIR = os.path.join(DATA_DIR, "thumbs")
 
-# 作品詳細ページ: https://webcomics.jp/<サイト略称>/<数字ID>
-DETAIL_URL_RE = re.compile(r"^https://webcomics\.jp/([A-Za-z0-9_-]+)/\d+/?$")
+# 作品詳細ページ: https://webcomics.jp/<サイト略称>/<作品ID>
+# 作品IDの形式はサイトごとに様々（数字のみとは限らない）：
+#   数字:        seiga/27620
+#   16進風:      mangacross/82594f4a166ec
+#   英数字混在:  comic-walker/KC_003957_S、dre/CD00007
+#   スラッグ:    kurage-bunch/yamashoku、kirapo/mashirochan、omocoro-comic/view
+DETAIL_URL_RE = re.compile(r"^https://webcomics\.jp/([a-z0-9-]+)/([A-Za-z0-9_-]+)/?$")
 # 詳細ページではないことが分かっている第1セグメント
 # （ブックマーク行にはコメントへのリンク comment/<数字> も並ぶため除外が必須）
 NON_DETAIL_SEGMENTS = {
-    "comment", "bookmark", "mylist", "img", "static", "css", "js",
+    "comment", "bookmark", "mylist", "data", "img", "static", "css", "js",
     "search", "tag", "tags", "author", "about", "help", "login",
     "user", "users", "site", "sites", "ranking", "new", "info",
+    "api", "feed", "rss", "policy", "terms", "contact", "settings",
+    "history", "genre", "publisher",
 }
-# 相対・絶対の日時ラベル
-TIME_TEXT_RE = re.compile(
-    r"(\d+\s*分前|\d+\s*時間前|\d+\s*日前|\d+\s*週間前|\d+\s*か月前|"
-    r"\d{1,2}月\d{1,2}日|\d{4}年\d{1,2}月\d{1,2}日)"
-)
 MONTH_DAY_RE = re.compile(r"(\d{1,2})月(\d{1,2})日")
-# 出版社ドメインらしい文字列（例: tonarinoyj.jp）
-DOMAIN_TEXT_RE = re.compile(
-    r"^([A-Za-z0-9-]+\.)+(jp|com|net|org|io|co\.jp)(/.*)?$"
-)
+# 絶対日付（2026.11.13 / 2026/11/11 / 2026年11月11日 のいずれも拾う）
+ABS_DATE_RE = re.compile(r"(\d{4})[./年](\d{1,2})[./月](\d{1,2})")
+REL_MIN_RE = re.compile(r"(\d+)\s*分前")
+REL_HOUR_RE = re.compile(r"(\d+)\s*時間前")
+REL_DAY_RE = re.compile(r"(\d+)\s*日前")
+REL_WEEK_RE = re.compile(r"(\d+)\s*週間前")
 
 
 # ---------------------------------------------------------------- HTTP
@@ -84,167 +91,109 @@ def polite_sleep():
     time.sleep(REQUEST_INTERVAL)
 
 
-# ---------------------------------------------------------------- HTML 走査
+# ---------------------------------------------------------------- 簡易DOM
+# webcomics.jp の実HTMLは div / span の入れ子構造が情報の単位になっている
+# （ブックマークの行、詳細ページの更新リストなど）ため、タグ構造を保持する
+# 最小限の DOM で解析する。タグの対応が崩れた HTML でも落ちない寛容な実装。
 
-class Tokenizer(HTMLParser):
-    """HTMLを文書順のトークン列に変換する。
+VOID_TAGS = {"img", "br", "hr", "meta", "link", "input", "source", "wbr"}
 
-    トークン:
-      ("img", src)
-      ("a", {"href":..., "text":..., "title":..., "img": <内包するimgのsrc or None>})
-      ("text", 文字列)   … リンク外のテキスト
-      ("heading", 文字列)… h1〜h4 の見出しテキスト
-    """
 
+class _El:
+    __slots__ = ("tag", "attrs", "children")
+
+    def __init__(self, tag, attrs):
+        self.tag = tag
+        self.attrs = attrs
+        self.children = []  # _El と str の混在リスト（文書順）
+
+
+class _DomBuilder(HTMLParser):
     def __init__(self):
         super().__init__(convert_charrefs=True)
-        self.tokens = []
-        self._a_stack = []       # 現在開いている <a> の情報
-        self._heading_depth = 0  # 見出しタグの中にいる深さ
-        self._heading_buf = []
-        self.page_title = ""
+        self.root = _El("#root", {})
+        self._stack = [self.root]
 
-    # -- 内部ヘルパ
-    def _emit_text(self, data):
-        text = " ".join(data.split())
-        if not text:
-            return
-        if self._heading_depth:
-            self._heading_buf.append(text)
-            return
-        if self._a_stack:
-            self._a_stack[-1]["text_parts"].append(text)
-            return
-        self.tokens.append(("text", text))
-
-    # -- HTMLParser フック
     def handle_starttag(self, tag, attrs):
-        attrs = dict(attrs)
-        if tag == "a":
-            self._a_stack.append(
-                {
-                    "href": attrs.get("href", "") or "",
-                    "title": attrs.get("title", "") or "",
-                    "text_parts": [],
-                    "img": None,
-                }
-            )
-        elif tag == "img":
-            src = attrs.get("src", "") or ""
-            if src:
-                if self._a_stack and self._a_stack[-1]["img"] is None:
-                    self._a_stack[-1]["img"] = src
-                self.tokens.append(("img", src))
-        elif tag in ("h1", "h2", "h3", "h4"):
-            self._heading_depth += 1
-            self._heading_buf = []
-
-    def handle_endtag(self, tag):
-        if tag == "a" and self._a_stack:
-            a = self._a_stack.pop()
-            self.tokens.append(
-                (
-                    "a",
-                    {
-                        "href": a["href"],
-                        "text": " ".join(a["text_parts"]).strip(),
-                        "title": a["title"].strip(),
-                        "img": a["img"],
-                    },
-                )
-            )
-        elif tag in ("h1", "h2", "h3", "h4") and self._heading_depth:
-            self._heading_depth -= 1
-            if self._heading_depth == 0:
-                text = " ".join(self._heading_buf).strip()
-                if text:
-                    self.tokens.append(("heading", text))
-                self._heading_buf = []
-
-    def handle_data(self, data):
-        self._emit_text(data)
+        el = _El(tag, dict(attrs))
+        self._stack[-1].children.append(el)
+        if tag not in VOID_TAGS:
+            self._stack.append(el)
 
     def handle_startendtag(self, tag, attrs):
-        # <img ... /> のような自己完結タグ
-        if tag == "img":
-            self.handle_starttag(tag, attrs)
+        self._stack[-1].children.append(_El(tag, dict(attrs)))
+
+    def handle_endtag(self, tag):
+        # 対応する開始タグまで巻き戻す（閉じタグの過不足に耐える）
+        for i in range(len(self._stack) - 1, 0, -1):
+            if self._stack[i].tag == tag:
+                del self._stack[i:]
+                return
+
+    def handle_data(self, data):
+        if data:
+            self._stack[-1].children.append(data)
 
 
-def tokenize(html):
-    tk = Tokenizer()
-    tk.feed(html)
-    tk.close()
-    title_m = re.search(r"<title[^>]*>(.*?)</title>", html, re.S | re.I)
-    if title_m:
-        tk.page_title = " ".join(title_m.group(1).split())
-    return tk.tokens, tk.page_title
+def parse_dom(html):
+    builder = _DomBuilder()
+    builder.feed(html or "")
+    builder.close()
+    return builder.root
 
+
+def el_text(el):
+    """要素内のテキストを空白正規化して連結した文字列を返す。"""
+    parts = []
+
+    def rec(node):
+        for c in node.children:
+            if isinstance(c, str):
+                parts.append(c)
+            else:
+                rec(c)
+
+    rec(el)
+    return " ".join(" ".join(parts).split())
+
+
+def has_class(el, name):
+    return name in (el.attrs.get("class") or "").split()
+
+
+def iter_els(el):
+    """要素を文書順（深さ優先）に列挙する。"""
+    yield el
+    for c in el.children:
+        if not isinstance(c, str):
+            yield from iter_els(c)
+
+
+def find_first(el, pred):
+    for e in iter_els(el):
+        if pred(e):
+            return e
+    return None
+
+
+def find_all(el, pred):
+    return [e for e in iter_els(el) if pred(e)]
+
+
+def _is_external(href):
+    """webcomics.jp 以外への http(s) リンクかどうか。"""
+    return bool(href) and href.startswith("http") and "webcomics.jp" not in href
+
+
+# ---------------------------------------------------------------- URL判定
 
 def normalize_detail_url(url):
-    return url.rstrip("/")
+    return (url or "").strip().rstrip("/")
 
 
 def is_detail_url(url):
     m = DETAIL_URL_RE.match(url or "")
     return bool(m) and m.group(1) not in NON_DETAIL_SEGMENTS
-
-
-HREF_RE = re.compile(r"""href\s*=\s*(?:"([^"]*)"|'([^']*)')""", re.I)
-
-
-def extract_detail_urls(html):
-    """raw HTML 内の href から詳細ページURLを文書順・重複なしで取り出す。
-
-    パーサ（parse_bookmark_page）が作品として組み立てられたかによらず、
-    ページ内に詳細URLがいくつ存在するかの物差しとして使う。
-    相対パス（/slug/123 形式）も絶対URLに直して判定する。
-    """
-    urls = []
-    seen = set()
-    for m in HREF_RE.finditer(html or ""):
-        href = m.group(1) if m.group(1) is not None else m.group(2) or ""
-        if href.startswith("/"):
-            href = "https://webcomics.jp" + href
-        if is_detail_url(href):
-            nu = normalize_detail_url(href)
-            if nu not in seen:
-                seen.add(nu)
-                urls.append(nu)
-    return urls
-
-
-def should_continue_bookmark(new_works_count, raw_detail_links, page):
-    """ブックマークのページ送りを続けるかどうか。
-
-    継続ルール：そのページの raw HTML 内に詳細URLが1つでも取れる間は続ける。
-    詳細URLが0件のページに当たったら終了。上限は MAX_BOOKMARK_PAGES。
-    （旧実装は「解析できた作品数 < 50 で終了」だったため、解析が45件に
-    欠けた1ページ目で誤って打ち切られた。new_works_count はログ・将来の
-    判定材料として受け取るだけで、継続可否には使わない）
-    """
-    if page >= MAX_BOOKMARK_PAGES:
-        return False
-    return raw_detail_links > 0
-
-
-def supplement_bookmark_works(page_works, raw_urls):
-    """解析で取りこぼした詳細URLを、最小限の作品エントリで補う。
-
-    戻り値: (補完後の作品リスト, 補った件数)。
-    補った作品は title 空・site/thumbUrl/whenText が None で、
-    前回結果が無いため詳細取得の対象になる（タイトルは詳細側で補完）。
-    """
-    known = {w["detailUrl"] for w in page_works}
-    supplemented = 0
-    for u in raw_urls:
-        if u not in known:
-            known.add(u)
-            page_works.append(
-                {"detailUrl": u, "title": "", "site": None,
-                 "thumbUrl": None, "whenText": None}
-            )
-            supplemented += 1
-    return page_works, supplemented
 
 
 def clean_page_title(page_title):
@@ -259,149 +208,239 @@ def clean_page_title(page_title):
     return t
 
 
-def find_time_text(text):
-    m = TIME_TEXT_RE.search(text or "")
-    return m.group(1).replace(" ", "") if m else None
-
-
 # ---------------------------------------------------------------- ブックマーク解析
 
 def parse_bookmark_page(html):
     """ブックマーク1ページ分から作品リストを取り出す。
 
-    詳細ページリンクを基点（=行の締め）とし、それまでに現れた
-    サムネイル・タイトルリンク・ドメイン文字列・時刻文字列をひも付ける。
-    詳細リンクの直後に時刻やドメインが来る並びにも対応するため、
-    締めた直後のレコードへも不足分を補完する。
+    作品行は <div class="entry" data-comic-no="..."> 単位で切り分け、
+    行内の決まった位置から各項目を取る（実HTMLで確認済みの構造）：
+      - detailUrl:    span.entry-detail の <a href>（ID形式では弾かない）
+      - title:        div.entry-title の <a> テキスト
+      - publisherUrl: div.entry-title の <a href>（最新話へのリンク）
+      - site:         div.entry-site の <a> テキスト（掲載サイト名）
+      - thumbUrl:     div.entry-thumb の <img src>
+      - whenText:     div.entry-date のテキスト（相対時刻表示）
+      - comicNo:      data-comic-no
+    行の外にあるリンク（サイドバー等）は拾わない。
     """
-    tokens, _ = tokenize(html)
+    root = parse_dom(html)
     works = []
-    by_url = {}
+    seen = set()
+    entries = find_all(
+        root,
+        lambda e: e.tag == "div" and has_class(e, "entry")
+        and e.attrs.get("data-comic-no"),
+    )
+    for entry in entries:
+        detail_box = find_first(entry, lambda e: has_class(e, "entry-detail"))
+        detail_a = (
+            find_first(detail_box, lambda e: e.tag == "a" and e.attrs.get("href"))
+            if detail_box is not None else None
+        )
+        if detail_a is None:
+            continue
+        detail_url = normalize_detail_url(detail_a.attrs["href"])
+        if not detail_url or detail_url in seen:
+            continue
+        seen.add(detail_url)
 
-    cur = {"title": None, "site": None, "thumbUrl": None, "whenText": None}
-    last = None  # 直前に締めたレコード（後続テキストでの補完用）
+        title = ""
+        publisher_url = None
+        title_box = find_first(entry, lambda e: has_class(e, "entry-title"))
+        if title_box is not None:
+            a = find_first(title_box, lambda e: e.tag == "a")
+            if a is not None:
+                title = el_text(a)
+                publisher_url = (a.attrs.get("href") or "").strip() or None
 
-    def attach_text(text):
-        """時刻・ドメイン文字列を、現在の行 or 直前のレコードへ割り当てる。"""
-        nonlocal last
-        t = find_time_text(text)
-        if t:
-            if cur["whenText"] is None and (
-                cur["title"] is not None or cur["thumbUrl"] is not None
-            ):
-                cur["whenText"] = t
-            elif last is not None and last["whenText"] is None:
-                last["whenText"] = t
-            return
-        if DOMAIN_TEXT_RE.match(text or ""):
-            if cur["site"] is None and cur["title"] is not None:
-                cur["site"] = text
-            elif last is not None and last["site"] is None:
-                last["site"] = text
+        site = None
+        site_box = find_first(entry, lambda e: has_class(e, "entry-site"))
+        if site_box is not None:
+            a = find_first(site_box, lambda e: e.tag == "a")
+            site = (el_text(a) if a is not None else el_text(site_box)) or None
 
-    for kind, val in tokens:
-        if kind == "img":
-            if "/img/thumb/" in val:
-                cur["thumbUrl"] = val
-                last = None
-        elif kind == "text":
-            attach_text(val)
-        elif kind == "a":
-            href = val["href"] or ""
-            if is_detail_url(href):
-                if val["img"]:
-                    # サムネイル画像を包む詳細リンクは行の締めにしない
-                    if "/img/thumb/" in val["img"]:
-                        cur["thumbUrl"] = val["img"]
-                    continue
-                if cur["title"] is None and not val["text"]:
-                    continue  # 中身のない詳細リンクは締めにしない
-                rec = {
-                    "detailUrl": normalize_detail_url(href),
-                    "title": cur["title"] or val["text"] or "",
-                    "site": cur["site"],
-                    "thumbUrl": cur["thumbUrl"],
-                    "whenText": cur["whenText"],
-                }
-                if not rec["site"] and cur.get("titleHref"):
-                    rec["site"] = _netloc(cur["titleHref"])
-                if rec["detailUrl"] in by_url:
-                    # 同じ作品の重複行は、先に取れた情報で不足を補うだけにする
-                    old = by_url[rec["detailUrl"]]
-                    for k in ("title", "site", "thumbUrl", "whenText"):
-                        if not old.get(k) and rec.get(k):
-                            old[k] = rec[k]
-                    last = old
-                else:
-                    works.append(rec)
-                    by_url[rec["detailUrl"]] = rec
-                    last = rec
-                cur = {"title": None, "site": None, "thumbUrl": None,
-                       "whenText": None}
-            elif href.startswith("http") and "webcomics.jp" not in href:
-                # 出版社サイトへのリンク = タイトルリンク候補
-                if cur["title"] is None and val["text"]:
-                    cur["title"] = val["text"]
-                    cur["titleHref"] = href
-                    last = None
-                elif val["text"]:
-                    attach_text(val["text"])
-            else:
-                # webcomics.jp 内部リンク（コメント等）のテキストは
-                # 時刻・ドメインだけ拾う
-                if val["text"]:
-                    attach_text(val["text"])
+        thumb_url = None
+        thumb_box = find_first(entry, lambda e: has_class(e, "entry-thumb"))
+        if thumb_box is not None:
+            img = find_first(thumb_box, lambda e: e.tag == "img")
+            if img is not None:
+                thumb_url = (img.attrs.get("src") or "").strip() or None
+
+        when_text = None
+        date_box = find_first(entry, lambda e: has_class(e, "entry-date"))
+        if date_box is not None:
+            when_text = el_text(date_box) or None
+
+        raw_no = entry.attrs.get("data-comic-no")
+        try:
+            comic_no = int(raw_no)
+        except (TypeError, ValueError):
+            comic_no = raw_no
+
+        works.append(
+            {
+                "detailUrl": detail_url,
+                "title": title,
+                "site": site,
+                "thumbUrl": thumb_url,
+                "whenText": when_text,
+                "publisherUrl": publisher_url,
+                "comicNo": comic_no,
+            }
+        )
     return works
 
 
-def _netloc(url):
-    m = re.match(r"^https?://([^/]+)", url or "")
-    return m.group(1) if m else ""
+# ---------------------------------------------------------------- 日付の正規化
+
+def _iso_or_none(y, m, d):
+    try:
+        return date(y, m, d).isoformat()
+    except ValueError:
+        return None
+
+
+def normalize_history_date(update_text, date_text, fallback_text, today):
+    """履歴1件の日付を ISO 形式（YYYY-MM-DD）に正規化する。
+
+    優先順位（today は実行日。テスト可能性のため引数で受け取る）：
+      (a) 絶対日付 `2026.11.13` / `2026/11/11` / `2026年11月11日`
+          … comic-update-text を最優先に各テキストから探す
+      (b) 月日表記（11月11日）… 今年の日付にし、未来なら前年にする
+      (c) 相対表記（◯分前・◯時間前 → 今日、◯日前 → today−N、◯週間前 → today−7N）
+    どれにも合わなければ None。
+    """
+    # (a) 絶対日付
+    for src in (update_text, date_text, fallback_text):
+        m = ABS_DATE_RE.search(src or "")
+        if m:
+            r = _iso_or_none(int(m.group(1)), int(m.group(2)), int(m.group(3)))
+            if r:
+                return r
+    # (b) 月日表記
+    for src in (date_text, update_text, fallback_text):
+        m = MONTH_DAY_RE.search(src or "")
+        if m:
+            mo, da = int(m.group(1)), int(m.group(2))
+            r = _iso_or_none(today.year, mo, da)
+            if r is None:
+                continue
+            if date(today.year, mo, da) > today:
+                r = _iso_or_none(today.year - 1, mo, da)
+            return r
+    # (c) 相対表記
+    for src in (date_text, update_text, fallback_text):
+        s = src or ""
+        if REL_MIN_RE.search(s) or REL_HOUR_RE.search(s):
+            return today.isoformat()
+        m = REL_DAY_RE.search(s)
+        if m:
+            return (today - timedelta(days=int(m.group(1)))).isoformat()
+        m = REL_WEEK_RE.search(s)
+        if m:
+            return (today - timedelta(days=7 * int(m.group(1)))).isoformat()
+    return None
 
 
 # ---------------------------------------------------------------- 詳細ページ解析
 
-def parse_detail_page(html):
-    """詳細ページから「最近の更新」の履歴（新しい順・最大30件）と作品タイトルを返す。
+def _find_update_list(root):
+    """「最近の更新」の ul 要素を探す。
 
-    履歴の各要素: {"date": 日付表示, "label": リンク表示文字列,
-                  "title": title属性 or label, "url": 話ページURL}
-    第2戻り値は <title> からサイト名（「 - Web漫画アンテナ」等）を取り除いた
-    作品タイトル。ブックマーク側でタイトルが取れなかった作品の補完に使う。
+    実HTMLでは div.comic-update の中に見出しと ul が入っている。
+    見つからなければ「最近の更新」見出しの直後にある ul を使う。
     """
-    tokens, page_title = tokenize(html)
-    history = []
-    in_section = False
-    last_date = None
+    box = find_first(root, lambda e: has_class(e, "comic-update"))
+    if box is not None:
+        ul = find_first(box, lambda e: e.tag == "ul")
+        if ul is not None:
+            return ul
+    els = list(iter_els(root))
+    for i, e in enumerate(els):
+        if e.tag in ("h1", "h2", "h3", "h4") and "最近の更新" in el_text(e):
+            for nxt in els[i + 1:]:
+                if nxt.tag == "ul":
+                    return nxt
+            break
+    return None
 
-    for kind, val in tokens:
-        if kind == "heading":
-            if "最近の更新" in val:
-                in_section = True
+
+def _parse_update_item(li, today):
+    """「最近の更新」の li 1件を履歴アイテムに変換する。
+
+    話リンクを持つ li:  url=リンク先、label=リンクテキスト、
+                        title=title属性（無ければ label）
+    話リンクを持たない li: url=None、label=comic-update-text のテキスト
+    date は normalize_history_date で ISO 形式に正規化する。
+    """
+    a = find_first(li, lambda e: e.tag == "a" and _is_external(e.attrs.get("href")))
+    date_box = find_first(li, lambda e: has_class(e, "comic-update-date"))
+    text_box = find_first(li, lambda e: has_class(e, "comic-update-text"))
+    date_text = el_text(date_box) if date_box is not None else ""
+    update_text = el_text(text_box) if text_box is not None else ""
+    iso = normalize_history_date(update_text, date_text, el_text(li), today)
+
+    if a is not None:
+        url = (a.attrs.get("href") or "").strip()
+        label = el_text(a)
+        title = (a.attrs.get("title") or "").strip() or label
+    else:
+        url = None
+        label = update_text or el_text(li)
+        title = label
+    if not url and not label:
+        return None
+    return {"date": iso, "label": label, "title": title, "url": url}
+
+
+def parse_detail_page(html, today=None):
+    """詳細ページを解析する。
+
+    戻り値: (履歴, 作品タイトル, 公式作品ページURL)
+      - 履歴: 「最近の更新」の新しい順・最大30件。
+              各要素は {"date": ISO日付 or None, "label": 表示文字列,
+                        "title": 話タイトル or label, "url": 話URL or None}
+      - 作品タイトル: <title> からサイト名を取り除いたもの（補完用）
+      - 公式作品ページURL: div.comic-title 内の外部リンク（サムネイル側の
+        div.comic-thumb のリンクでも可）。取れなければ None。
+    today は日付正規化の基準日（省略時は JST の今日）。
+    """
+    if today is None:
+        today = datetime.now(JST).date()
+    root = parse_dom(html)
+
+    title_m = re.search(r"<title[^>]*>(.*?)</title>", html or "", re.S | re.I)
+    page_title = clean_page_title(
+        " ".join(title_m.group(1).split()) if title_m else ""
+    )
+
+    # 公式の作品ページURL（comic-title の見出しリンクが本命。
+    # 実HTMLでは comic-thumb のサムネイルリンクも同じURLを指す）
+    publisher_url = None
+    for cls in ("comic-title", "comic-thumb"):
+        box = find_first(root, lambda e, c=cls: has_class(e, c))
+        if box is None:
+            continue
+        a = find_first(
+            box, lambda e: e.tag == "a" and _is_external(e.attrs.get("href"))
+        )
+        if a is not None:
+            publisher_url = (a.attrs.get("href") or "").strip() or None
+            break
+
+    history = []
+    ul = _find_update_list(root)
+    if ul is not None:
+        for li in ul.children:
+            if isinstance(li, str) or li.tag != "li":
                 continue
-            if in_section:
-                break  # 次の見出しに来たら「最近の更新」は終わり
-            continue
-        if not in_section:
-            continue
-        if kind == "text":
-            t = find_time_text(val)
-            if t:
-                last_date = t
-        elif kind == "a":
-            href = val["href"] or ""
-            if not href.startswith("http") or "webcomics.jp" in href:
-                continue  # 「全表示」などの内部リンクは話ではない
-            label = val["text"] or ""
-            title = val["title"] or label
-            date = last_date or label
-            history.append(
-                {"date": date, "label": label, "title": title, "url": href}
-            )
-            last_date = None
+            item = _parse_update_item(li, today)
+            if item is not None:
+                history.append(item)
             if len(history) >= MAX_HISTORY:
                 break
-    return history, clean_page_title(page_title)
+    return history, page_title, publisher_url
 
 
 # ---------------------------------------------------------------- 判定ヘルパ
@@ -461,7 +500,9 @@ def read_json(path, default):
 # 【暫定機能（2026-11-13追加）】実HTMLの構造が想定と違い、詳細ページの
 # 履歴解析が空になる作品が出たため、原因確認用に raw HTML を
 # data/thumbs/ 配下へ保存する（ワークフローの git add 対象範囲内）。
-# 構造を確認してパーサを直したら、この保存処理は削除する予定。
+# v3 でパーサは実構造に合わせて直したが、次回実行でエラーが本当に
+# 消えたかを確認するまでは、詳細ページ分のみ残す（ブックマーク分は削除済み）。
+# 確認が取れたら、この保存処理は削除する予定。
 
 DEBUG_MAX_DETAIL_FILES = 20
 
@@ -505,8 +546,9 @@ def main():
             prev_by_url[w["detailUrl"]] = w
 
     # --- 第1段階: ブックマーク全ページ
-    # 継続条件は「raw HTML 内に詳細URLが取れる間」（should_continue_bookmark）。
-    # 解析件数の過不足で打ち切らないこと（v1 の不具合：45件解析で誤終了）。
+    # 行（div.entry）が0件のページに当たったら終了する。
+    # （v1 の不具合：解析件数 < 50 で誤終了。v2 の不具合：行の外の
+    #   サイドバーリンクを数えて最終ページ以降も回り続けた）
     works = []
     seen = set()
     sep = "&" if "?" in BOOKMARK_URL else "?"
@@ -518,23 +560,15 @@ def main():
             print(f"[checker] bookmark page {page} failed: {e}", file=sys.stderr)
             break
         polite_sleep()
-        # 【暫定】構造確認用に1・2ページ目の raw HTML を保存（削除予定）
-        if page in (1, 2):
-            save_debug_html(f"_debug_bookmark_{page}.html", html)
         page_works = parse_bookmark_page(html)
-        raw_urls = extract_detail_urls(html)
-        page_works, supplemented = supplement_bookmark_works(page_works, raw_urls)
-        print(
-            f"[checker] bookmark page {page}: parsed={len(page_works)} works "
-            f"(supplemented={supplemented}) rawDetailUrls={len(raw_urls)}"
-        )
+        print(f"[checker] bookmark page {page}: rows={len(page_works)}")
+        if not page_works:
+            print(f"[checker] bookmark paging stopped at page {page} (no rows)")
+            break
         for w in page_works:
             if w["detailUrl"] not in seen:
                 seen.add(w["detailUrl"])
                 works.append(w)
-        if not should_continue_bookmark(len(page_works), len(raw_urls), page):
-            print(f"[checker] bookmark paging stopped at page {page}")
-            break
 
     # --- アプリから追加された作品（ブックマークに無いもの）
     for u in added_urls:
@@ -542,7 +576,8 @@ def main():
             seen.add(u)
             works.append(
                 {"detailUrl": u, "title": "", "site": None,
-                 "thumbUrl": None, "whenText": None, "added": True}
+                 "thumbUrl": None, "whenText": None,
+                 "publisherUrl": None, "comicNo": None, "added": True}
             )
         else:
             for w in works:
@@ -565,13 +600,18 @@ def main():
         title = w.get("title") or (prev or {}).get("title") or ""
         site = w.get("site") or (prev or {}).get("site") or ""
         thumb_url = w.get("thumbUrl")
+        publisher_url = (prev or {}).get("publisherUrl") or w.get("publisherUrl")
+        comic_no = w.get("comicNo")
+        if comic_no is None:
+            comic_no = (prev or {}).get("comicNo")
 
         if needs_detail(w, prev, today):
             detail_count += 1
             try:
                 html = fetch_text(w["detailUrl"])
                 polite_sleep()
-                new_history, work_title = parse_detail_page(html)
+                new_history, work_title, detail_publisher = parse_detail_page(
+                    html, today)
                 if new_history:
                     history = new_history
                 else:
@@ -587,6 +627,8 @@ def main():
                     # ブックマーク側でタイトルが取れなかった作品を
                     # 詳細ページの <title> 由来タイトルで補完する
                     title = work_title
+                if detail_publisher:
+                    publisher_url = detail_publisher
             except Exception as e:
                 error = f"詳細ページ取得失敗: {e}"
                 polite_sleep()
@@ -619,6 +661,8 @@ def main():
                 "title": title,
                 "site": site,
                 "thumbFile": thumb_file,
+                "publisherUrl": publisher_url,
+                "comicNo": comic_no,
                 "history": history,
                 "latest": history[0] if history else None,
                 "error": error,
