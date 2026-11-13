@@ -408,7 +408,7 @@ function cardHTML(w, mode){
   if(w.notFound) notes += '<div class="note-warn">読了位置が履歴に見つかりませんでした。履歴の全話を未読として表示しています。</div>';
   if(w.error) notes += '<div class="note-err">取得エラー：' + esc(w.error) + "</div>";
   const thumb = w.thumbFile
-    ? '<img class="thumb" alt="" loading="lazy" data-thumb="' + esc(w.thumbFile) + '" style="display:none">'
+    ? '<img class="thumb" alt="" loading="lazy" data-thumb="' + esc(w.thumbFile) + '" style="visibility:hidden">'
     : "";
   return '<div class="card">'
     + '<div class="thumbwrap"><span>' + esc(w.title.slice(0, 1)) + "</span>" + thumb + "</div>"
@@ -428,7 +428,7 @@ async function loadThumb(img){
   if(!path) return;
   try {
     img.src = await ghGetThumbUrl(path);
-    img.style.display = "";
+    img.style.visibility = "";
     img.onerror = () => { img.remove(); };
   } catch(e) { /* 失敗時は頭文字プレースホルダのまま */ }
 }
