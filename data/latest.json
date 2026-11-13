@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-14T07:47:37+09:00",
+ "checkedAt": "2026-11-14T08:11:33+09:00",
  "bookmarkUrl": "https://webcomics.jp/bookmark/3682scqd",
  "works": [
   {
@@ -14,7 +14,8 @@
      "date": "2026-11-14",
      "label": "[イラスト+第3回人気投票企画]魔都精兵のスレイブ",
      "title": "[イラスト+第3回人気投票企画]魔都精兵のスレイブ",
-     "url": "https://shonenjumpplus.com/episode/11990162089564825418"
+     "url": "https://shonenjumpplus.com/episode/11990162089564825418",
+     "extra": true
     },
     {
      "date": "2026-10-03",
@@ -102,10 +103,10 @@
     }
    ],
    "latest": {
-    "date": "2026-11-14",
-    "label": "[イラスト+第3回人気投票企画]魔都精兵のスレイブ",
-    "title": "[イラスト+第3回人気投票企画]魔都精兵のスレイブ",
-    "url": "https://shonenjumpplus.com/episode/11990162089564825418"
+    "date": "2026-10-03",
+    "label": "更新",
+    "title": "更新",
+    "url": "https://shonenjumpplus.com/episode/9253191256784142533"
    },
    "error": null
   },
@@ -341,7 +342,8 @@
      "date": "2026-10-10",
      "label": "休載のお知らせ",
      "title": "休載のお知らせ",
-     "url": "https://manga-one.com/manga/26481/chapter/360496"
+     "url": "https://manga-one.com/manga/26481/chapter/360496",
+     "extra": true
     },
     {
      "date": "2026-10-10",
@@ -2226,7 +2228,8 @@
      "date": "2026-07-24",
      "label": "特別イラスト",
      "title": "特別イラスト",
-     "url": "https://championcross.jp/episodes/901f7ead82aa9"
+     "url": "https://championcross.jp/episodes/901f7ead82aa9",
+     "extra": true
     },
     {
      "date": "2026-07-11",
@@ -2695,7 +2698,8 @@
      "date": "2026-11-08",
      "label": "単行本3巻発売記念イラスト",
      "title": "単行本3巻発売記念イラスト",
-     "url": "https://heros-web.com/episodes/76681001b6d71"
+     "url": "https://heros-web.com/episodes/76681001b6d71",
+     "extra": true
     },
     {
      "date": "2026-10-31",
@@ -2773,7 +2777,8 @@
      "date": "2026-05-01",
      "label": "単行本2巻発売記念イラスト",
      "title": "単行本2巻発売記念イラスト",
-     "url": "https://viewer.heros-web.com/episode/2551460909653355762"
+     "url": "https://viewer.heros-web.com/episode/2551460909653355762",
+     "extra": true
     }
    ],
    "latest": {
@@ -5828,7 +5833,8 @@
      "date": "2026-05-29",
      "label": "コミックス発売のお知らせ",
      "title": "コミックス発売のお知らせ",
-     "url": "https://comic-walker.com/detail/KC_006759_S/episodes/KC_0067590001300011_E?episodeType=latest"
+     "url": "https://comic-walker.com/detail/KC_006759_S/episodes/KC_0067590001300011_E?episodeType=latest",
+     "extra": true
     },
     {
      "date": "2026-05-12",
@@ -5929,7 +5935,8 @@
      "date": "2026-09-09",
      "label": "コミックス告知",
      "title": "コミックス告知",
-     "url": "https://comic-walker.com/detail/KC_001662_S/episodes/KC_0016620005300011_E?episodeType=latest"
+     "url": "https://comic-walker.com/detail/KC_001662_S/episodes/KC_0016620005300011_E?episodeType=latest",
+     "extra": true
     },
     {
      "date": "2026-08-18",
@@ -6006,7 +6013,8 @@
      "date": "2026-11-10",
      "label": "12巻発売告知",
      "title": "12巻発売告知",
-     "url": "https://comic-walker.com/detail/KC_001643_S/episodes/KC_0016430007600011_E?episodeType=latest"
+     "url": "https://comic-walker.com/detail/KC_001643_S/episodes/KC_0016430007600011_E?episodeType=latest",
+     "extra": true
     },
     {
      "date": "2026-09-25",
@@ -6048,7 +6056,8 @@
      "date": "2026-05-03",
      "label": "11巻発売告知",
      "title": "11巻発売告知",
-     "url": "https://comic-walker.com/detail/KC_001643_S/episodes/KC_0016430007100011_E?episodeType=latest"
+     "url": "https://comic-walker.com/detail/KC_001643_S/episodes/KC_0016430007100011_E?episodeType=latest",
+     "extra": true
     },
     {
      "date": "2026-04-24",
@@ -6094,10 +6103,10 @@
     }
    ],
    "latest": {
-    "date": "2026-11-10",
-    "label": "12巻発売告知",
-    "title": "12巻発売告知",
-    "url": "https://comic-walker.com/detail/KC_001643_S/episodes/KC_0016430007600011_E?episodeType=latest"
+    "date": "2026-09-25",
+    "label": "第60話-1",
+    "title": "第60話-1",
+    "url": "https://comic-walker.com/detail/KC_001643_S/episodes/KC_0016430007400011_E?episodeType=latest"
    },
    "error": null
   },
@@ -6161,7 +6170,8 @@
      "date": "2025-12-05",
      "label": "コミックス8巻発売記念特別編",
      "title": "コミックス8巻発売記念特別編",
-     "url": "https://comic-walker.com/detail/KC_002658_S/episodes/KC_0026580005200011_E?co=true&episodeType=latest"
+     "url": "https://comic-walker.com/detail/KC_002658_S/episodes/KC_0026580005200011_E?co=true&episodeType=latest",
+     "extra": true
     },
     {
      "date": "2025-11-21",
@@ -6173,7 +6183,8 @@
      "date": "2025-10-10",
      "label": "「スーパーカブ」コミックス11巻発売記念イラスト",
      "title": "「スーパーカブ」コミックス11巻発売記念イラスト",
-     "url": "https://comic-walker.com/detail/KC_002658_S/episodes/KC_0026580007100011_E?episodeType=latest"
+     "url": "https://comic-walker.com/detail/KC_002658_S/episodes/KC_0026580007100011_E?episodeType=latest",
+     "extra": true
     },
     {
      "date": "2025-09-13",
@@ -7094,7 +7105,8 @@
      "date": "2026-10-19",
      "label": "コミックス秘蔵イラスト集",
      "title": "コミックス秘蔵イラスト集",
-     "url": "https://www.sunday-webry.com/episode/12207421984387325811"
+     "url": "https://www.sunday-webry.com/episode/12207421984387325811",
+     "extra": true
     },
     {
      "date": "2026-10-12",
@@ -8146,7 +8158,8 @@
      "date": "2026-11-06",
      "label": "コミックス2巻発売告知イラスト",
      "title": "コミックス2巻発売告知イラスト",
-     "url": "https://comic-walker.com/detail/KC_005747_S/episodes/KC_0057470001500011_E?episodeType=latest"
+     "url": "https://comic-walker.com/detail/KC_005747_S/episodes/KC_0057470001500011_E?episodeType=latest",
+     "extra": true
     },
     {
      "date": "2026-09-10",
@@ -8234,10 +8247,10 @@
     }
    ],
    "latest": {
-    "date": "2026-11-06",
-    "label": "コミックス2巻発売告知イラスト",
-    "title": "コミックス2巻発売告知イラスト",
-    "url": "https://comic-walker.com/detail/KC_005747_S/episodes/KC_0057470001500011_E?episodeType=latest"
+    "date": "2026-09-10",
+    "label": "第11話-3",
+    "title": "第11話-3",
+    "url": "https://comic-walker.com/detail/KC_005747_S/episodes/KC_0057470001400031_E?episodeType=latest"
    },
    "error": null
   },
@@ -8253,7 +8266,8 @@
      "date": "2026-11-06",
      "label": "コミックス告知",
      "title": "コミックス告知",
-     "url": "https://comic-walker.com/detail/KC_005544_S/episodes/KC_0055440004600011_E?episodeType=latest"
+     "url": "https://comic-walker.com/detail/KC_005544_S/episodes/KC_0055440004600011_E?episodeType=latest",
+     "extra": true
     },
     {
      "date": "2026-10-31",
@@ -8289,7 +8303,8 @@
      "date": "2026-08-15",
      "label": "休載イラスト",
      "title": "休載イラスト",
-     "url": "https://comic-walker.com/detail/KC_005544_S/episodes/KC_0055440004200011_E?episodeType=latest"
+     "url": "https://comic-walker.com/detail/KC_005544_S/episodes/KC_0055440004200011_E?episodeType=latest",
+     "extra": true
     },
     {
      "date": "2026-08-01",
@@ -8337,14 +8352,15 @@
      "date": "2026-05-01",
      "label": "コミックス告知",
      "title": "コミックス告知",
-     "url": "https://comic-walker.com/detail/KC_005544_S/episodes/KC_0055440003800011_E?episodeType=latest"
+     "url": "https://comic-walker.com/detail/KC_005544_S/episodes/KC_0055440003800011_E?episodeType=latest",
+     "extra": true
     }
    ],
    "latest": {
-    "date": "2026-11-06",
-    "label": "コミックス告知",
-    "title": "コミックス告知",
-    "url": "https://comic-walker.com/detail/KC_005544_S/episodes/KC_0055440004600011_E?episodeType=latest"
+    "date": "2026-10-31",
+    "label": "番外編",
+    "title": "番外編",
+    "url": "https://comic-walker.com/detail/KC_005544_S/episodes/KC_0055440004500011_E?episodeType=latest"
    },
    "error": null
   },
@@ -8390,7 +8406,8 @@
      "date": "2026-06-30",
      "label": "コミックス告知",
      "title": "コミックス告知",
-     "url": "https://comic-walker.com/detail/KC_003301_S/episodes/KC_0033010005000011_E?episodeType=latest"
+     "url": "https://comic-walker.com/detail/KC_003301_S/episodes/KC_0033010005000011_E?episodeType=latest",
+     "extra": true
     },
     {
      "date": "2026-06-05",
@@ -9127,7 +9144,8 @@
      "date": "2026-09-04",
      "label": "特別イラスト②",
      "title": "特別イラスト②",
-     "url": "https://comic-growl.com/episodes/c73bfff90ff72"
+     "url": "https://comic-growl.com/episodes/c73bfff90ff72",
+     "extra": true
     },
     {
      "date": "2026-08-23",
@@ -10637,7 +10655,8 @@
      "date": "2026-08-25",
      "label": "休載イラスト",
      "title": "休載イラスト",
-     "url": "https://comic-days.com/episode/2550912965592784011"
+     "url": "https://comic-days.com/episode/2550912965592784011",
+     "extra": true
     },
     {
      "date": "2026-08-11",
@@ -10756,7 +10775,8 @@
      "date": "2026-07-19",
      "label": "休載イラスト",
      "title": "休載イラスト",
-     "url": "https://comic-walker.com/detail/KC_002683_S/episodes/KC_0026830009200011_E?episodeType=latest"
+     "url": "https://comic-walker.com/detail/KC_002683_S/episodes/KC_0026830009200011_E?episodeType=latest",
+     "extra": true
     },
     {
      "date": "2026-07-04",
@@ -11618,13 +11638,15 @@
      "date": "2026-06-01",
      "label": "単行本5巻発売告知漫画②",
      "title": "単行本5巻発売告知漫画②",
-     "url": "https://comicpash.jp/episodes/539738f0db0fa"
+     "url": "https://comicpash.jp/episodes/539738f0db0fa",
+     "extra": true
     },
     {
      "date": "2026-05-29",
      "label": "単行本5巻発売告知漫画①",
      "title": "単行本5巻発売告知漫画①",
-     "url": "https://comicpash.jp/episodes/b508605cabf62"
+     "url": "https://comicpash.jp/episodes/b508605cabf62",
+     "extra": true
     },
     {
      "date": "2026-05-18",
@@ -11636,7 +11658,8 @@
      "date": "2026-04-21",
      "label": "単行本5巻発売告知漫画",
      "title": "単行本5巻発売告知漫画",
-     "url": "https://comicpash.jp/episodes/8d9015114cbd5"
+     "url": "https://comicpash.jp/episodes/8d9015114cbd5",
+     "extra": true
     },
     {
      "date": "2026-03-02",
@@ -12504,7 +12527,8 @@
      "date": "2026-06-19",
      "label": "描き下ろしイラスト公開!⑯",
      "title": "描き下ろしイラスト公開!⑯",
-     "url": "https://comic-walker.com/detail/KC_005278_S/episodes/KC_0052780004800011_E?episodeType=latest"
+     "url": "https://comic-walker.com/detail/KC_005278_S/episodes/KC_0052780004800011_E?episodeType=latest",
+     "extra": true
     },
     {
      "date": "2026-06-12",
@@ -13746,13 +13770,15 @@
      "date": "2026-07-27",
      "label": "コミックス2巻のお知らせ",
      "title": "コミックス2巻のお知らせ",
-     "url": "https://comic-walker.com/detail/KC_006262_S/episodes/KC_0062620002000011_E?episodeType=latest"
+     "url": "https://comic-walker.com/detail/KC_006262_S/episodes/KC_0062620002000011_E?episodeType=latest",
+     "extra": true
     },
     {
      "date": "2026-06-23",
      "label": "休載イラスト",
      "title": "休載イラスト",
-     "url": "https://comic-walker.com/detail/KC_006262_S/episodes/KC_0062620001900011_E?episodeType=latest"
+     "url": "https://comic-walker.com/detail/KC_006262_S/episodes/KC_0062620001900011_E?episodeType=latest",
+     "extra": true
     },
     {
      "date": "2026-05-19",
@@ -13895,7 +13921,8 @@
      "date": "2026-02-13",
      "label": "休載告知",
      "title": "休載告知",
-     "url": "https://comic-zenon.com/episode/12207421983380289225"
+     "url": "https://comic-zenon.com/episode/12207421983380289225",
+     "extra": true
     },
     {
      "date": "2026-01-23",
@@ -15214,7 +15241,8 @@
      "date": "2026-10-16",
      "label": "コミックス第16巻発売告知",
      "title": "コミックス第16巻発売告知",
-     "url": "https://comic-walker.com/detail/KC_003631_S/episodes/KC_0036310013300011_E?episodeType=latest"
+     "url": "https://comic-walker.com/detail/KC_003631_S/episodes/KC_0036310013300011_E?episodeType=latest",
+     "extra": true
     },
     {
      "date": "2026-10-02",
@@ -15256,7 +15284,8 @@
      "date": "2026-04-17",
      "label": "コミックス第15巻発売告知",
      "title": "コミックス第15巻発売告知",
-     "url": "https://comic-walker.com/detail/KC_003631_S/episodes/KC_0036310012400011_E?episodeType=latest"
+     "url": "https://comic-walker.com/detail/KC_003631_S/episodes/KC_0036310012400011_E?episodeType=latest",
+     "extra": true
     },
     {
      "date": "2026-03-27",
@@ -15345,13 +15374,15 @@
      "date": "2026-08-07",
      "label": "特別イラスト2",
      "title": "特別イラスト2",
-     "url": "https://comic-walker.com/detail/KC_005090_S/episodes/KC_0050900003800011_E?episodeType=latest"
+     "url": "https://comic-walker.com/detail/KC_005090_S/episodes/KC_0050900003800011_E?episodeType=latest",
+     "extra": true
     },
     {
      "date": "2026-07-03",
      "label": "特別イラスト",
      "title": "特別イラスト",
-     "url": "https://comic-walker.com/detail/KC_005090_S/episodes/KC_0050900003700011_E?episodeType=latest"
+     "url": "https://comic-walker.com/detail/KC_005090_S/episodes/KC_0050900003700011_E?episodeType=latest",
+     "extra": true
     },
     {
      "date": "2026-06-19",
@@ -15393,7 +15424,8 @@
      "date": "2026-04-01",
      "label": "特別イラスト",
      "title": "特別イラスト",
-     "url": "https://comic-walker.com/detail/KC_005090_S/episodes/KC_0050900001900011_E?co=true&episodeType=latest"
+     "url": "https://comic-walker.com/detail/KC_005090_S/episodes/KC_0050900001900011_E?co=true&episodeType=latest",
+     "extra": true
     },
     {
      "date": "2026-03-20",
@@ -16343,7 +16375,8 @@
      "date": "2026-09-18",
      "label": "第9巻発売のお知らせ",
      "title": "第9巻発売のお知らせ",
-     "url": "https://comic-walker.com/detail/KC_003348_S/episodes/KC_0033480005600011_E?episodeType=latest"
+     "url": "https://comic-walker.com/detail/KC_003348_S/episodes/KC_0033480005600011_E?episodeType=latest",
+     "extra": true
     },
     {
      "date": "2026-05-12",
@@ -17152,7 +17185,8 @@
      "date": "2025-07-10",
      "label": "バレンタイン特別イラスト&お知らせ",
      "title": "バレンタイン特別イラスト&お知らせ",
-     "url": "https://comic-walker.com/detail/KC_002221_S/episodes/KC_0022210004800011_E?co=true&episodeType=latest"
+     "url": "https://comic-walker.com/detail/KC_002221_S/episodes/KC_0022210004800011_E?co=true&episodeType=latest",
+     "extra": true
     },
     {
      "date": "2025-06-19",
@@ -17211,7 +17245,8 @@
      "date": "2026-04-03",
      "label": "毎日♪衛宮さんちの今日のごはん発売記念",
      "title": "毎日♪衛宮さんちの今日のごはん発売記念",
-     "url": "https://comic-walker.com/detail/KC_004033_S/episodes/KC_0040330009500011_E?co=true&episodeType=latest"
+     "url": "https://comic-walker.com/detail/KC_004033_S/episodes/KC_0040330009500011_E?co=true&episodeType=latest",
+     "extra": true
     },
     {
      "date": "2026-04-03",
@@ -17449,7 +17484,8 @@
      "date": "2025-06-02",
      "label": "1巻発売のお知らせ",
      "title": "1巻発売のお知らせ",
-     "url": "https://comic-walker.com/detail/KC_001889_S/episodes/KC_0018890000700011_E?co=true"
+     "url": "https://comic-walker.com/detail/KC_001889_S/episodes/KC_0018890000700011_E?co=true",
+     "extra": true
     },
     {
      "date": "2025-06-02",
@@ -18061,7 +18097,8 @@
      "date": "2026-08-29",
      "label": "異世界還りのおっさんは終末世界で無双する【連載再開イラスト】",
      "title": "異世界還りのおっさんは終末世界で無双する【連載再開イラスト】",
-     "url": null
+     "url": null,
+     "extra": true
     },
     {
      "date": "2026-04-18",
@@ -18192,7 +18229,8 @@
      "date": "2025-05-23",
      "label": "コミックス第1巻発売告知",
      "title": "コミックス第1巻発売告知",
-     "url": "https://comic-walker.com/detail/KC_005148_S/episodes/KC_0051480000600011_E?episodeType=latest"
+     "url": "https://comic-walker.com/detail/KC_005148_S/episodes/KC_0051480000600011_E?episodeType=latest",
+     "extra": true
     },
     {
      "date": "2025-04-25",
@@ -18697,7 +18735,8 @@
      "date": "2026-08-22",
      "label": "オルクセン王国史【休載イラスト04】",
      "title": "オルクセン王国史【休載イラスト04】",
-     "url": null
+     "url": null,
+     "extra": true
     },
     {
      "date": "2026-08-01",
@@ -18733,7 +18772,8 @@
      "date": "2025-12-06",
      "label": "オルクセン王国史【休載イラスト03】",
      "title": "オルクセン王国史【休載イラスト03】",
-     "url": null
+     "url": null,
+     "extra": true
     },
     {
      "date": "2025-11-15",
@@ -18745,13 +18785,15 @@
      "date": "2025-09-26",
      "label": "【休載イラスト02】 2025年09月26日更新",
      "title": "【休載イラスト02】 2025年09月26日更新",
-     "url": null
+     "url": null,
+     "extra": true
     },
     {
      "date": "2025-09-27",
      "label": "オルクセン王国史【休載イラスト02】",
      "title": "オルクセン王国史【休載イラスト02】",
-     "url": null
+     "url": null,
+     "extra": true
     },
     {
      "date": "2025-08-29",
@@ -18858,7 +18900,8 @@
      "date": "2025-08-28",
      "label": "コミックス1巻発売告知",
      "title": "コミックス1巻発売告知",
-     "url": "https://comic-walker.com/detail/KC_006137_S/episodes/KC_0061370000800011_E?episodeType=latest"
+     "url": "https://comic-walker.com/detail/KC_006137_S/episodes/KC_0061370000800011_E?episodeType=latest",
+     "extra": true
     },
     {
      "date": "2025-08-22",
@@ -19012,7 +19055,8 @@
      "date": "2026-10-01",
      "label": "休載イラスト",
      "title": "休載イラスト",
-     "url": "https://comic-walker.com/detail/KC_002644_S/episodes/KC_0026440008700011_E?episodeType=latest"
+     "url": "https://comic-walker.com/detail/KC_002644_S/episodes/KC_0026440008700011_E?episodeType=latest",
+     "extra": true
     },
     {
      "date": "2026-09-17",
@@ -19100,10 +19144,10 @@
     }
    ],
    "latest": {
-    "date": "2026-10-01",
-    "label": "休載イラスト",
-    "title": "休載イラスト",
-    "url": "https://comic-walker.com/detail/KC_002644_S/episodes/KC_0026440008700011_E?episodeType=latest"
+    "date": "2026-09-17",
+    "label": "第77話後半",
+    "title": "第77話後半",
+    "url": "https://comic-walker.com/detail/KC_002644_S/episodes/KC_0026440008600011_E?episodeType=latest"
    },
    "error": null
   },
@@ -20866,7 +20910,8 @@
      "date": "2025-07-25",
      "label": "休載イラスト",
      "title": "休載イラスト",
-     "url": "https://comic-walker.com/detail/KC_005923_S/episodes/KC_0059230001100011_E?episodeType=latest"
+     "url": "https://comic-walker.com/detail/KC_005923_S/episodes/KC_0059230001100011_E?episodeType=latest",
+     "extra": true
     },
     {
      "date": "2025-06-27",
@@ -20890,7 +20935,8 @@
      "date": "2025-02-28",
      "label": "休載イラスト",
      "title": "休載イラスト",
-     "url": "https://comic-walker.com/detail/KC_005923_S/episodes/KC_0059230000700011_E?episodeType=latest"
+     "url": "https://comic-walker.com/detail/KC_005923_S/episodes/KC_0059230000700011_E?episodeType=latest",
+     "extra": true
     }
    ],
    "latest": {
@@ -20919,7 +20965,8 @@
      "date": "2026-08-27",
      "label": "第1巻発売記念むちまろ先生特別寄稿イラスト",
      "title": "第1巻発売記念むちまろ先生特別寄稿イラスト",
-     "url": "https://comic-days.com/episode/2550912964546625206"
+     "url": "https://comic-days.com/episode/2550912964546625206",
+     "extra": true
     },
     {
      "date": "2026-03-13",
@@ -21020,7 +21067,8 @@
      "date": "2026-08-22",
      "label": "コミックス第4巻!発売記念イラスト",
      "title": "コミックス第4巻!発売記念イラスト",
-     "url": "https://comic-walker.com/detail/KC_000816_S/episodes/KC_0008160002200011_E?co=true&episodeType=latest"
+     "url": "https://comic-walker.com/detail/KC_000816_S/episodes/KC_0008160002200011_E?co=true&episodeType=latest",
+     "extra": true
     },
     {
      "date": "2026-08-07",
@@ -21108,10 +21156,10 @@
     }
    ],
    "latest": {
-    "date": "2026-08-22",
-    "label": "コミックス第4巻!発売記念イラスト",
-    "title": "コミックス第4巻!発売記念イラスト",
-    "url": "https://comic-walker.com/detail/KC_000816_S/episodes/KC_0008160002200011_E?co=true&episodeType=latest"
+    "date": "2026-08-07",
+    "label": "第31話",
+    "title": "第31話",
+    "url": "https://comic-walker.com/detail/KC_000816_S/episodes/KC_0008160003400011_E?episodeType=latest"
    },
    "error": null
   },
@@ -21157,7 +21205,8 @@
      "date": "2025-02-20",
      "label": "コミックス第6巻発売告知",
      "title": "コミックス第6巻発売告知",
-     "url": "https://comic-walker.com/detail/KC_001699_S/episodes/KC_0016990004800011_E?episodeType=latest"
+     "url": "https://comic-walker.com/detail/KC_001699_S/episodes/KC_0016990004800011_E?episodeType=latest",
+     "extra": true
     },
     {
      "date": "2025-02-06",
@@ -21205,7 +21254,8 @@
      "date": "2024-03-23",
      "label": "コミックス5巻発売告知",
      "title": "コミックス5巻発売告知",
-     "url": "https://comic-walker.com/detail/KC_001699_S/episodes/KC_0016990003900011_E?episodeType=latest"
+     "url": "https://comic-walker.com/detail/KC_001699_S/episodes/KC_0016990003900011_E?episodeType=latest",
+     "extra": true
     },
     {
      "date": "2024-01-25",
@@ -22084,7 +22134,8 @@
      "date": "2025-03-27",
      "label": "[イラスト4]正反対な君と僕",
      "title": "[イラスト4]正反対な君と僕",
-     "url": "https://shonenjumpplus.com/episode/14079602755456690813"
+     "url": "https://shonenjumpplus.com/episode/14079602755456690813",
+     "extra": true
     },
     {
      "date": "2024-11-25",
@@ -24697,7 +24748,8 @@
      "date": "2025-10-31",
      "label": "単行本②告知",
      "title": "単行本②告知",
-     "url": "https://comic-walker.com/detail/KC_005561_S/episodes/KC_0055610001900011_E?episodeType=latest"
+     "url": "https://comic-walker.com/detail/KC_005561_S/episodes/KC_0055610001900011_E?episodeType=latest",
+     "extra": true
     },
     {
      "date": "2025-09-26",
@@ -24757,7 +24809,8 @@
      "date": "2024-12-27",
      "label": "単行本①告知",
      "title": "単行本①告知",
-     "url": "https://comic-walker.com/detail/KC_005561_S/episodes/KC_0055610000900011_E"
+     "url": "https://comic-walker.com/detail/KC_005561_S/episodes/KC_0055610000900011_E",
+     "extra": true
     },
     {
      "date": "2024-11-29",
@@ -24785,10 +24838,10 @@
     }
    ],
    "latest": {
-    "date": "2025-10-31",
-    "label": "単行本②告知",
-    "title": "単行本②告知",
-    "url": "https://comic-walker.com/detail/KC_005561_S/episodes/KC_0055610001900011_E?episodeType=latest"
+    "date": "2025-09-26",
+    "label": "第15話",
+    "title": "第15話",
+    "url": "https://comic-walker.com/detail/KC_005561_S/episodes/KC_0055610001800011_E?episodeType=latest"
    },
    "error": null
   },
@@ -25350,7 +25403,8 @@
      "date": "2025-07-28",
      "label": "[イラスト3]ちえりの恋は8メートル",
      "title": "[イラスト3]ちえりの恋は8メートル",
-     "url": "https://shonenjumpplus.com/episode/9324103629633084528"
+     "url": "https://shonenjumpplus.com/episode/9324103629633084528",
+     "extra": true
     },
     {
      "date": "2025-07-28",
@@ -25439,9 +25493,9 @@
    ],
    "latest": {
     "date": "2025-07-28",
-    "label": "[イラスト3]ちえりの恋は8メートル",
-    "title": "[イラスト3]ちえりの恋は8メートル",
-    "url": "https://shonenjumpplus.com/episode/9324103629633084528"
+    "label": "[番外編19]ちえりの恋は8メートル",
+    "title": "[番外編19]ちえりの恋は8メートル",
+    "url": "https://shonenjumpplus.com/episode/11990162089556162043"
    },
    "error": null
   },
@@ -25570,7 +25624,8 @@
      "date": "2024-10-10",
      "label": "コミックス⑤巻告知イラスト",
      "title": "コミックス⑤巻告知イラスト",
-     "url": "https://comic-walker.com/detail/KC_003969_S/episodes/KC_0039690003500011_E?episodeType=latest"
+     "url": "https://comic-walker.com/detail/KC_003969_S/episodes/KC_0039690003500011_E?episodeType=latest",
+     "extra": true
     },
     {
      "date": "2024-10-01",
@@ -25582,7 +25637,8 @@
      "date": "2024-09-30",
      "label": "ジュンタロー氏からお知らせ",
      "title": "ジュンタロー氏からお知らせ",
-     "url": "https://comic-walker.com/detail/KC_003969_S/episodes/KC_0039690003300011_E?episodeType=latest"
+     "url": "https://comic-walker.com/detail/KC_003969_S/episodes/KC_0039690003300011_E?episodeType=latest",
+     "extra": true
     },
     {
      "date": "2024-06-05",
@@ -25778,19 +25834,22 @@
      "date": "2025-06-11",
      "label": "休載イラスト",
      "title": "休載イラスト",
-     "url": "https://comic-walker.com/detail/KC_003463_S/episodes/KC_0034630001900011_E?co=true"
+     "url": "https://comic-walker.com/detail/KC_003463_S/episodes/KC_0034630001900011_E?co=true",
+     "extra": true
     },
     {
      "date": "2025-06-11",
      "label": "休載イラスト",
      "title": "休載イラスト",
-     "url": "https://comic-walker.com/detail/KC_003463_S/episodes/KC_0034630001600011_E?co=true"
+     "url": "https://comic-walker.com/detail/KC_003463_S/episodes/KC_0034630001600011_E?co=true",
+     "extra": true
     },
     {
      "date": "2025-05-06",
      "label": "コミックス告知",
      "title": "コミックス告知",
-     "url": "https://comic-walker.com/detail/KC_003463_S/episodes/KC_0034630004300011_E?co=true&episodeType=latest"
+     "url": "https://comic-walker.com/detail/KC_003463_S/episodes/KC_0034630004300011_E?co=true&episodeType=latest",
+     "extra": true
     },
     {
      "date": "2024-08-09",
@@ -25866,10 +25925,10 @@
     }
    ],
    "latest": {
-    "date": "2025-06-11",
-    "label": "休載イラスト",
-    "title": "休載イラスト",
-    "url": "https://comic-walker.com/detail/KC_003463_S/episodes/KC_0034630001900011_E?co=true"
+    "date": "2024-08-09",
+    "label": "Round32",
+    "title": "Round32",
+    "url": "https://comic-walker.com/detail/KC_003463_S/episodes/KC_0034630004200011_E?episodeType=latest"
    },
    "error": null
   },
@@ -25885,7 +25944,8 @@
      "date": "2025-06-06",
      "label": "【休載のお知らせ】",
      "title": "【休載のお知らせ】",
-     "url": "https://pocket.shonenmagazine.com/title/02538/episode/405741"
+     "url": "https://pocket.shonenmagazine.com/title/02538/episode/405741",
+     "extra": true
     },
     {
      "date": "2025-06-06",
@@ -25903,7 +25963,8 @@
      "date": "2024-11-17",
      "label": "【休載のお知らせ】",
      "title": "【休載のお知らせ】",
-     "url": "https://pocket.shonenmagazine.com/episode/2550912964824265434"
+     "url": "https://pocket.shonenmagazine.com/episode/2550912964824265434",
+     "extra": true
     },
     {
      "date": "2024-11-07",
@@ -25956,9 +26017,9 @@
    ],
    "latest": {
     "date": "2025-06-06",
-    "label": "【休載のお知らせ】",
-    "title": "【休載のお知らせ】",
-    "url": "https://pocket.shonenmagazine.com/title/02538/episode/405741"
+    "label": "【第8話】まやかと学校見学",
+    "title": "【第8話】まやかと学校見学",
+    "url": "https://pocket.shonenmagazine.com/title/02538/episode/404328"
    },
    "error": null
   },
@@ -26408,7 +26469,8 @@
      "date": "2024-07-26",
      "label": "ジュンタロー氏からお知らせ",
      "title": "ジュンタロー氏からお知らせ",
-     "url": "https://comic.webnewtype.com/contents/nabetama/285/"
+     "url": "https://comic.webnewtype.com/contents/nabetama/285/",
+     "extra": true
     },
     {
      "date": "2024-05-31",
@@ -26456,7 +26518,8 @@
      "date": "2023-08-04",
      "label": "お知らせ",
      "title": "お知らせ",
-     "url": "https://comic.webnewtype.com/contents/nabetama/215/"
+     "url": "https://comic.webnewtype.com/contents/nabetama/215/",
+     "extra": true
     },
     {
      "date": "2023-07-07",
