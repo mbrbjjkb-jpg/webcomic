@@ -18,6 +18,8 @@
   header{background:var(--dark); color:#fff; margin:0 -12px; padding:14px 16px 12px}
   header h1{font-size:19px; margin:0 0 4px}
   header .meta{font-size:12.5px; color:#c9cdd8; display:flex; flex-wrap:wrap; gap:6px 14px}
+  header .meta button{font:inherit; color:#fff; background:rgba(255,255,255,.14); border:1px solid rgba(255,255,255,.35); border-radius:999px; padding:0 10px; cursor:pointer; line-height:1.7}
+  header .meta button:hover{background:rgba(255,255,255,.25)}
   header .meta b{color:#fff}
   .banner{background:#fff4e0; border:1px solid #f0d9a8; color:#7a5a12; font-size:12.5px;
     border-radius:8px; padding:8px 10px; margin:12px 0}
@@ -98,6 +100,7 @@
       <span>登録 <b id="hCount">-</b> 件</span>
       <span>最終チェック <b id="hChecked">-</b></span>
       <span>次回 <b id="hNext">-</b></span>
+      <span><button onclick="runCheckNow(true)">今すぐ更新</button></span>
     </div>
   </header>
 
@@ -171,7 +174,7 @@
         <p class="note">チェックは GitHub Actions が自動で行います。各作品の更新履歴から
         「前回読了した話より後の話」を未読として数えるので、数話まとめて溜まっても続きから読めます。</p>
         <div style="height:8px"></div>
-        <button class="btn" onclick="runCheckNow()">今すぐチェックを実行</button>
+        <button class="btn" onclick="runCheckNow(false)">今すぐチェックを実行</button>
         <div class="msg" id="checkMsg"></div>
         <p class="note">ボタンを押すと合図ファイル（data/trigger.txt）を更新してチェックを開始します。
         反映まで3〜4分かかります。前回のチェックから10分以内のときは実行しません。</p>
@@ -303,15 +306,19 @@ async function ghGetSha(path){
   return j.sha || null;
 }
 // 「今すぐチェック」：合図ファイル（data/trigger.txt）を更新し、その push でワークフローを起動する
-async function runCheckNow(){
-  const msg = document.getElementById("checkMsg");
-  if(!token){ msg.textContent = "未接続です。先にトークンで接続してください。"; return; }
+async function runCheckNow(fromHeader){
+  const say = (t, isErr) => {
+    const m = document.getElementById("checkMsg");
+    if(m) m.textContent = t;
+    if(fromHeader) globalMsg(t, isErr ? "err" : "");
+  };
+  if(!token){ say("未接続です。先にトークンで接続してください。", true); return; }
   const ca = latest && latest.data && latest.data.checkedAt ? Date.parse(latest.data.checkedAt) : 0;
   if(ca && Date.now() - ca < 10 * 60 * 1000){
-    msg.textContent = "前回のチェックから10分経っていないので、今は実行しません。";
+    say("前回のチェックから10分経っていないので、今は実行しません。", false);
     return;
   }
-  msg.textContent = "チェックを開始しています…";
+  say("チェックを開始しています…", false);
   try {
     let sha = null;
     try { sha = await ghGetSha(TRIGGER_PATH); }
@@ -319,9 +326,9 @@ async function runCheckNow(){
     const body = { message: "webcomic: manual check trigger", content: b64encodeUtf8(new Date().toISOString() + "\n") };
     if(sha) body.sha = sha;
     await ghFetch(TRIGGER_PATH, { method: "PUT", body: JSON.stringify(body) });
-    msg.textContent = "チェックを開始しました。反映まで3〜4分かかります。しばらくしてから再読み込みしてください。";
+    say("チェックを開始しました。反映まで3〜4分かかります。しばらくしてから再読み込みしてください。", false);
   } catch(e){
-    msg.textContent = "開始できませんでした：" + e.message;
+    say("開始できませんでした：" + e.message, true);
   }
 }
 async function ghPutJson(path, dataObj, sha, message){
