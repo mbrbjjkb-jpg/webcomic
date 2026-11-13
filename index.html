@@ -177,7 +177,7 @@
         <button class="btn" onclick="runCheckNow(false)">今すぐチェックを実行</button>
         <div class="msg" id="checkMsg"></div>
         <p class="note">ボタンを押すと合図ファイル（data/trigger.txt）を更新してチェックを開始します。
-        反映まで3〜4分かかります。前回のチェックから10分以内のときは実行しません。</p>
+        終わり次第、自動で画面に反映します（3〜4分ほど）。前回のチェックから10分以内のときは実行しません。</p>
       </div>
       <div class="panel">
         <h2>同期（GitHub）</h2>
@@ -319,6 +319,7 @@ async function runCheckNow(fromHeader){
     return;
   }
   say("チェックを開始しています…", false);
+  const baseCheckedAt = latest && latest.data ? latest.data.checkedAt : null;
   try {
     let sha = null;
     try { sha = await ghGetSha(TRIGGER_PATH); }
@@ -326,10 +327,48 @@ async function runCheckNow(fromHeader){
     const body = { message: "webcomic: manual check trigger", content: b64encodeUtf8(new Date().toISOString() + "\n") };
     if(sha) body.sha = sha;
     await ghFetch(TRIGGER_PATH, { method: "PUT", body: JSON.stringify(body) });
-    say("チェックを開始しました。反映まで3〜4分かかります。しばらくしてから再読み込みしてください。", false);
+    say("チェックを開始しました。終わり次第、自動で画面に反映します（3〜4分ほど）。", false);
+    startCheckPolling(baseCheckedAt);
   } catch(e){
     say("開始できませんでした：" + e.message, true);
   }
+}
+// チェック完了の自動反映：latest.json の checkedAt が新しくなるまで定期確認し、変わったら再描画する
+let checkPollTimer = null;
+let checkPollVis = null;
+function pollNotify(t, isErr){
+  const m = document.getElementById("checkMsg");
+  if(m) m.textContent = t;
+  globalMsg(t, isErr ? "err" : "");
+}
+function stopCheckPolling(){
+  if(checkPollTimer){ clearInterval(checkPollTimer); checkPollTimer = null; }
+  if(checkPollVis){ document.removeEventListener("visibilitychange", checkPollVis); checkPollVis = null; }
+}
+function startCheckPolling(baseCheckedAt){
+  stopCheckPolling();
+  const started = Date.now();
+  const tick = async () => {
+    if(!token){ stopCheckPolling(); return; }
+    if(Date.now() - started > 12 * 60 * 1000){
+      stopCheckPolling();
+      pollNotify("チェックの反映を確認できませんでした。しばらくして手動で再読み込みしてください。", true);
+      return;
+    }
+    try {
+      const fresh = await ghGetJson(LAT_PATH);
+      if(fresh.data && fresh.data.checkedAt && fresh.data.checkedAt !== baseCheckedAt){
+        stopCheckPolling();
+        latest = fresh;
+        rerender();
+        pollNotify("チェックが反映されました（最終チェック " + fmtCheckedAt(fresh.data.checkedAt) + "）。", false);
+      }
+    } catch(e){ /* 一時的な取得失敗は無視して次の周期で再試行 */ }
+  };
+  checkPollTimer = setInterval(tick, 30000);
+  // バックグラウンドから戻った瞬間にも1回確認する（タイマーが絞られていても取りこぼさない）
+  checkPollVis = () => { if(!document.hidden) tick(); };
+  document.addEventListener("visibilitychange", checkPollVis);
 }
 async function ghPutJson(path, dataObj, sha, message){
   const body = { message: message, content: b64encodeUtf8(JSON.stringify(dataObj, null, 1)) };
