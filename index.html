@@ -199,7 +199,7 @@ const LS_KEY = "webcomic-app-v1";
 const LIB_PATH = "data/library.json";
 const LAT_PATH = "data/latest.json";
 const API = "https://api.github.com/repos/" + OWNER + "/" + DATA_REPO + "/contents/";
-const DETAIL_URL_RE = /^https:\/\/webcomics\.jp\/[A-Za-z0-9_-]+\/\d+\/?$/;
+const DETAIL_URL_RE = /^https:\/\/webcomics\.jp\/[a-z0-9-]+\/[A-Za-z0-9_-]+\/?$/;
 
 // ===== 状態 =====
 let token = localStorage.getItem(LS_KEY) || "";
@@ -220,6 +220,13 @@ function epLabel(h){
 function epDate(h){
   if(!h) return "";
   return h.date || h.label || "";
+}
+// 履歴アイテムの指紋。話URLがある作品は URL+タイトル、話URLを持たない
+// 作品（日付＋更新テキストだけが履歴になるサイト）は 日付+ラベル で照合する
+function histFp(h){
+  if(!h) return "";
+  return h.url ? (h.url + "|" + (h.title || h.label || ""))
+               : ("date:" + (h.date || "") + "|" + (h.label || h.title || ""));
 }
 function b64encodeUtf8(str){
   const bytes = new TextEncoder().encode(str);
@@ -313,18 +320,23 @@ function computeView(){
     if(history.length){
       if(!lib){
         unread = []; // 初期化で作られる想定。無い場合は読了扱いにせず空（初期化処理が別途走る）
-      } else if(!lib.lastReadUrl){
+      } else if(!lib.lastReadUrl && !lib.lastReadFp){
         unread = history.slice().reverse();
       } else {
-        // 複合キーで照合する。話URLが全話共通になるサイト（ニコニコ静画など、
-        // 全話が「最新話へのURL」）ではURLだけでは位置を特定できないため、
-        // まず (URL + 話タイトル) で探し、無ければ URL のみの一致に落とす。
+        // 照合は指紋→複合キー→URLのみの順。話URLが全話共通になるサイト
+        // （ニコニコ静画など）や、話URL自体を持たないサイト（日付だけが
+        // 履歴になる）ではURLだけでは位置を特定できないため指紋で探す。
         let idx = -1;
-        if(lib.lastReadTitle){
+        if(lib.lastReadFp){
+          idx = history.findIndex(h => histFp(h) === lib.lastReadFp);
+        }
+        if(idx === -1 && lib.lastReadTitle){
           idx = history.findIndex(h => h.url === lib.lastReadUrl
             && (h.title === lib.lastReadTitle || h.label === lib.lastReadTitle));
         }
-        if(idx === -1) idx = history.findIndex(h => h.url === lib.lastReadUrl);
+        if(idx === -1 && lib.lastReadUrl){
+          idx = history.findIndex(h => h.url === lib.lastReadUrl);
+        }
         if(idx === -1){ unread = history.slice().reverse(); notFound = true; }
         else unread = history.slice(0, idx).reverse();
       }
@@ -337,8 +349,10 @@ function computeView(){
       history: history,
       latestEp: history.length ? history[0] : (w.latest || null),
       error: w.error || null,
+      publisherUrl: w.publisherUrl || null,
       lastReadUrl: lib ? (lib.lastReadUrl || "") : null,
       lastReadTitle: lib ? (lib.lastReadTitle || "") : null,
+      lastReadFp: lib ? (lib.lastReadFp || "") : null,
       unread: unread,
       notFound: notFound
     });
@@ -510,14 +524,17 @@ async function openWork(detailUrl, btn){
   const w = view.find(x => x.detailUrl === detailUrl);
   if(!w || !w.unread.length || !w.latestEp) return;
   const first = w.unread[0];
-  window.open(first.url, "_blank", "noopener");
+  // 開くURL：最古の未読話 → 公式の作品ページ → 詳細ページ の順
+  // （話URLを持たない作品では publisherUrl が続きの入口になる）
+  const target = first.url || w.publisherUrl || w.detailUrl;
+  window.open(target, "_blank", "noopener");
   if(btn){
     const card = btn.closest(".card");
     if(card) card.classList.add("bye");
   }
   const ok = await saveLibrary(d => {
     d.works = d.works || {};
-    d.works[detailUrl] = { lastReadUrl: w.latestEp.url, lastReadTitle: epLabel(w.latestEp) };
+    d.works[detailUrl] = { lastReadUrl: w.latestEp.url || "", lastReadTitle: epLabel(w.latestEp), lastReadFp: histFp(w.latestEp) };
   }, "webcomic: read " + w.title, true);
   if(ok) toast("「" + epLabel(first) + "」を開きました。この作品は最新話まで読了にしました", true);
 }
@@ -526,8 +543,8 @@ async function markUnread(detailUrl){
   if(!w || !w.history.length) { toast("履歴がないため未読に戻せません", false); return; }
   const hist = w.history;
   const target = hist.length >= 2
-    ? { lastReadUrl: hist[1].url, lastReadTitle: epLabel(hist[1]) }
-    : { lastReadUrl: "", lastReadTitle: "" }; // 履歴が1件だけなら全件未読扱い
+    ? { lastReadUrl: hist[1].url || "", lastReadTitle: epLabel(hist[1]), lastReadFp: histFp(hist[1]) }
+    : { lastReadUrl: "", lastReadTitle: "", lastReadFp: "" }; // 履歴が1件だけなら全件未読扱い
   const ok = await saveLibrary(d => {
     d.works = d.works || {};
     d.works[detailUrl] = target;
@@ -596,7 +613,7 @@ async function maybeInitialize(){
   for(const w of latest.data.works){
     const hist = w.history || [];
     if(hist.length){
-      data.works[w.detailUrl] = { lastReadUrl: hist[0].url, lastReadTitle: epLabel(hist[0]) };
+      data.works[w.detailUrl] = { lastReadUrl: hist[0].url || "", lastReadTitle: epLabel(hist[0]), lastReadFp: histFp(hist[0]) };
       made++;
     }
   }
