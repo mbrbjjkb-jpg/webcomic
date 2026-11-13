@@ -1,7 +1,328 @@
 {
- "checkedAt": "2026-11-14T02:07:40+09:00",
+ "checkedAt": "2026-11-14T07:47:37+09:00",
  "bookmarkUrl": "https://webcomics.jp/bookmark/3682scqd",
  "works": [
+  {
+   "detailUrl": "https://webcomics.jp/shonenjump-plus/10834108156641784254",
+   "title": "魔都精兵のスレイブ",
+   "site": "少年ジャンプ+",
+   "thumbFile": "data/thumbs/84914.jpg",
+   "publisherUrl": "https://shonenjumpplus.com/episode/10834108156641784254",
+   "comicNo": 84914,
+   "history": [
+    {
+     "date": "2026-11-14",
+     "label": "[イラスト+第3回人気投票企画]魔都精兵のスレイブ",
+     "title": "[イラスト+第3回人気投票企画]魔都精兵のスレイブ",
+     "url": "https://shonenjumpplus.com/episode/11990162089564825418"
+    },
+    {
+     "date": "2026-10-03",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191256784142533"
+    },
+    {
+     "date": "2026-09-19",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191256637716443"
+    },
+    {
+     "date": "2026-09-05",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191256340472744"
+    },
+    {
+     "date": "2026-08-22",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191255890794478"
+    },
+    {
+     "date": "2026-07-25",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191255348930616"
+    },
+    {
+     "date": "2026-07-11",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191254933946867"
+    },
+    {
+     "date": "2026-06-27",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191254640655710"
+    },
+    {
+     "date": "2026-06-13",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191254350319716"
+    },
+    {
+     "date": "2026-06-04",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/10834108156641784254"
+    },
+    {
+     "date": "2026-05-30",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191254047172665"
+    },
+    {
+     "date": "2026-05-02",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/17107419589696004719"
+    },
+    {
+     "date": "2026-04-18",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/17107419589372004173"
+    },
+    {
+     "date": "2026-04-04",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/17107094915405397148"
+    },
+    {
+     "date": "2026-03-27",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/3270375685344689608"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-14",
+    "label": "[イラスト+第3回人気投票企画]魔都精兵のスレイブ",
+    "title": "[イラスト+第3回人気投票企画]魔都精兵のスレイブ",
+    "url": "https://shonenjumpplus.com/episode/11990162089564825418"
+   },
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/takecomic/4837b13228cb2",
+   "title": "うめともものふつうの暮らし",
+   "site": "竹コミ‎‏‎",
+   "thumbFile": "data/thumbs/101251.jpg",
+   "publisherUrl": "https://takecomic.jp/series/4837b13228cb2",
+   "comicNo": 101251,
+   "history": [
+    {
+     "date": "2026-11-14",
+     "label": "127話",
+     "title": "127話",
+     "url": "https://takecomic.jp/episodes/483406050427d"
+    },
+    {
+     "date": "2026-10-30",
+     "label": "126話",
+     "title": "126話",
+     "url": "https://takecomic.jp/episodes/e170226ccf9c6"
+    },
+    {
+     "date": "2026-10-09",
+     "label": "125話",
+     "title": "125話",
+     "url": "https://takecomic.jp/episodes/3dacf803c2280"
+    },
+    {
+     "date": "2026-09-27",
+     "label": "124話",
+     "title": "124話",
+     "url": "https://takecomic.jp/episodes/a10b15f124fb9"
+    },
+    {
+     "date": "2026-08-29",
+     "label": "123話",
+     "title": "123話",
+     "url": "https://takecomic.jp/episodes/15e48cdf0bb04"
+    },
+    {
+     "date": "2026-08-15",
+     "label": "122話",
+     "title": "122話",
+     "url": "https://takecomic.jp/episodes/6a0524e6aee77"
+    },
+    {
+     "date": "2026-07-24",
+     "label": "121.5話",
+     "title": "121.5話",
+     "url": "https://takecomic.jp/episodes/632381ae83d9d"
+    },
+    {
+     "date": "2026-07-03",
+     "label": "121話",
+     "title": "121話",
+     "url": "https://takecomic.jp/episodes/79981d2466616"
+    },
+    {
+     "date": "2026-06-13",
+     "label": "120話",
+     "title": "120話",
+     "url": "https://takecomic.jp/episodes/dfec25c901acb"
+    },
+    {
+     "date": "2026-05-23",
+     "label": "119話",
+     "title": "119話",
+     "url": "https://takecomic.jp/episodes/4098ca3c50485"
+    },
+    {
+     "date": "2026-05-09",
+     "label": "118話",
+     "title": "118話",
+     "url": "https://takecomic.jp/episodes/dd72a3a21fde3"
+    },
+    {
+     "date": "2026-04-25",
+     "label": "117話",
+     "title": "117話",
+     "url": "https://takecomic.jp/episodes/625eb4938d541"
+    },
+    {
+     "date": "2026-04-12",
+     "label": "116話",
+     "title": "116話",
+     "url": "https://takecomic.jp/episodes/118db403a92fa"
+    },
+    {
+     "date": "2026-03-27",
+     "label": "115話",
+     "title": "115話",
+     "url": "https://takecomic.jp/episodes/9f4265c2cb276"
+    },
+    {
+     "date": "2026-03-02",
+     "label": "114話",
+     "title": "114話",
+     "url": "https://takecomic.jp/episodes/ebc7ab46dece5"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-14",
+    "label": "127話",
+    "title": "127話",
+    "url": "https://takecomic.jp/episodes/483406050427d"
+   },
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/heros/869404116a11a",
+   "title": "さまよい令嬢道中記",
+   "site": "HERO'S Web",
+   "thumbFile": "data/thumbs/169245.jpg",
+   "publisherUrl": "https://heros-web.com/series/869404116a11a",
+   "comicNo": 169245,
+   "history": [
+    {
+     "date": "2026-11-14",
+     "label": "第三十一話「令嬢と相談事」",
+     "title": "第三十一話「令嬢と相談事」",
+     "url": "https://heros-web.com/episodes/d8a94794cb0b3"
+    },
+    {
+     "date": "2026-09-08",
+     "label": "第三十話「令嬢と闇ルート」",
+     "title": "第三十話「令嬢と闇ルート」",
+     "url": "https://heros-web.com/episodes/ac48bf2788ede"
+    },
+    {
+     "date": "2026-06-26",
+     "label": "最終話「令嬢と一件落着」",
+     "title": "最終話「令嬢と一件落着」",
+     "url": "https://heros-web.com/episodes/322b00503f155"
+    },
+    {
+     "date": "2026-06-10",
+     "label": "第四十七話「令嬢とトラック」",
+     "title": "第四十七話「令嬢とトラック」",
+     "url": "https://heros-web.com/episodes/34e6d8e403e79"
+    },
+    {
+     "date": "2026-06-06",
+     "label": "第一話 「令嬢と魔法学校」",
+     "title": "第一話 「令嬢と魔法学校」",
+     "url": "https://heros-web.com/episodes/9cd375bc09cde"
+    },
+    {
+     "date": "2026-05-26",
+     "label": "第四十六話「令嬢と包囲網」",
+     "title": "第四十六話「令嬢と包囲網」",
+     "url": "https://viewer.heros-web.com/episode/12207421983711711481"
+    },
+    {
+     "date": "2026-05-12",
+     "label": "第四十五話「令嬢と隠れ家」",
+     "title": "第四十五話「令嬢と隠れ家」",
+     "url": "https://viewer.heros-web.com/episode/12207421983604118233"
+    },
+    {
+     "date": "2026-04-28",
+     "label": "第四十四話「令嬢と幽閉」",
+     "title": "第四十四話「令嬢と幽閉」",
+     "url": "https://viewer.heros-web.com/episode/12207421983604118230"
+    },
+    {
+     "date": "2026-04-14",
+     "label": "第四十三話「令嬢と公務員」",
+     "title": "第四十三話「令嬢と公務員」",
+     "url": "https://viewer.heros-web.com/episode/12207421983473866269"
+    },
+    {
+     "date": "2026-03-24",
+     "label": "第四十二話「令嬢と仲間」",
+     "title": "第四十二話「令嬢と仲間」",
+     "url": "https://viewer.heros-web.com/episode/12207421983473866265"
+    },
+    {
+     "date": "2026-03-10",
+     "label": "第四十一話「令嬢と海」",
+     "title": "第四十一話「令嬢と海」",
+     "url": "https://viewer.heros-web.com/episode/12207421983368302544"
+    },
+    {
+     "date": "2026-02-24",
+     "label": "第四十話「令嬢とスローライフ」",
+     "title": "第四十話「令嬢とスローライフ」",
+     "url": "https://viewer.heros-web.com/episode/2550689798473901185"
+    },
+    {
+     "date": "2026-02-10",
+     "label": "第三十九話「令嬢と隠れ里」",
+     "title": "第三十九話「令嬢と隠れ里」",
+     "url": "https://viewer.heros-web.com/episode/2550689798473901178"
+    },
+    {
+     "date": "2026-01-23",
+     "label": "第三十八話「令嬢と百鬼夜行」",
+     "title": "第三十八話「令嬢と百鬼夜行」",
+     "url": "https://viewer.heros-web.com/episode/2550689798473901174"
+    },
+    {
+     "date": "2026-01-09",
+     "label": "第三十七話「令嬢と村」",
+     "title": "第三十七話「令嬢と村」",
+     "url": "https://viewer.heros-web.com/episode/2550689798473901170"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-14",
+    "label": "第三十一話「令嬢と相談事」",
+    "title": "第三十一話「令嬢と相談事」",
+    "url": "https://heros-web.com/episodes/d8a94794cb0b3"
+   },
+   "error": null
+  },
   {
    "detailUrl": "https://webcomics.jp/manga-one/277699",
    "title": "ミハルの戦場",
@@ -14,98 +335,98 @@
      "date": "2026-11-14",
      "label": "第34話前編",
      "title": "第34話前編",
-     "url": null
+     "url": "https://manga-one.com/manga/26481/chapter/360499"
     },
     {
      "date": "2026-10-10",
      "label": "休載のお知らせ",
      "title": "休載のお知らせ",
-     "url": null
+     "url": "https://manga-one.com/manga/26481/chapter/360496"
     },
     {
      "date": "2026-10-10",
      "label": "第33話後編",
      "title": "第33話後編",
-     "url": null
+     "url": "https://manga-one.com/manga/26481/chapter/359851"
     },
     {
      "date": "2026-09-26",
      "label": "第33話中編",
      "title": "第33話中編",
-     "url": null
+     "url": "https://manga-one.com/manga/26481/chapter/359692"
     },
     {
      "date": "2026-09-19",
      "label": "第33話前編",
      "title": "第33話前編",
-     "url": null
+     "url": "https://manga-one.com/manga/26481/chapter/359368"
     },
     {
      "date": "2026-09-12",
      "label": "第32話後編",
      "title": "第32話後編",
-     "url": null
+     "url": "https://manga-one.com/manga/26481/chapter/358726"
     },
     {
      "date": "2026-08-29",
      "label": "第32話前編",
      "title": "第32話前編",
-     "url": null
+     "url": "https://manga-one.com/manga/26481/chapter/358243"
     },
     {
      "date": "2026-08-15",
      "label": "第31話後編",
      "title": "第31話後編",
-     "url": null
+     "url": "https://manga-one.com/manga/26481/chapter/357754"
     },
     {
      "date": "2026-08-01",
      "label": "第31話前編",
      "title": "第31話前編",
-     "url": null
+     "url": "https://manga-one.com/manga/26481/chapter/357118"
     },
     {
      "date": "2026-07-18",
      "label": "第30話後編",
      "title": "第30話後編",
-     "url": null
+     "url": "https://manga-one.com/manga/26481/chapter/356665"
     },
     {
      "date": "2026-07-04",
      "label": "第30話前編",
      "title": "第30話前編",
-     "url": null
+     "url": "https://manga-one.com/manga/26481/chapter/356419"
     },
     {
      "date": "2026-06-27",
      "label": "第29話後編",
      "title": "第29話後編",
-     "url": null
+     "url": "https://manga-one.com/manga/26481/chapter/355879"
     },
     {
      "date": "2026-06-13",
      "label": "第29話前編",
      "title": "第29話前編",
-     "url": null
+     "url": "https://manga-one.com/manga/26481/chapter/355648"
     },
     {
      "date": "2026-06-06",
      "label": "第28話後編",
      "title": "第28話後編",
-     "url": null
+     "url": "https://manga-one.com/manga/26481/chapter/355048"
     },
     {
      "date": "2026-05-23",
      "label": "第28話前編",
      "title": "第28話前編",
-     "url": null
+     "url": "https://manga-one.com/manga/26481/chapter/354859"
     }
    ],
    "latest": {
     "date": "2026-11-14",
     "label": "第34話前編",
     "title": "第34話前編",
-    "url": null
+    "url": "https://manga-one.com/manga/26481/chapter/360499"
    },
    "error": null
   },
@@ -121,98 +442,98 @@
      "date": "2026-11-14",
      "label": "第102話",
      "title": "第102話",
-     "url": null
+     "url": "https://manga-one.com/manga/1927/chapter/361591"
     },
     {
      "date": "2026-10-31",
      "label": "第101話",
      "title": "第101話",
-     "url": null
+     "url": "https://manga-one.com/manga/1927/chapter/360799"
     },
     {
      "date": "2026-10-17",
      "label": "第100話",
      "title": "第100話",
-     "url": null
+     "url": "https://manga-one.com/manga/1927/chapter/359542"
     },
     {
      "date": "2026-09-19",
      "label": "第99話",
      "title": "第99話",
-     "url": null
+     "url": "https://manga-one.com/manga/1927/chapter/359077"
     },
     {
      "date": "2026-09-05",
      "label": "第98話",
      "title": "第98話",
-     "url": null
+     "url": "https://manga-one.com/manga/1927/chapter/358528"
     },
     {
      "date": "2026-08-22",
      "label": "第97話",
      "title": "第97話",
-     "url": null
+     "url": "https://manga-one.com/manga/1927/chapter/357928"
     },
     {
      "date": "2026-08-08",
      "label": "第96話",
      "title": "第96話",
-     "url": null
+     "url": "https://manga-one.com/manga/1927/chapter/357394"
     },
     {
      "date": "2026-07-25",
      "label": "第95話",
      "title": "第95話",
-     "url": null
+     "url": "https://manga-one.com/manga/1927/chapter/356866"
     },
     {
      "date": "2026-07-11",
      "label": "第94話",
      "title": "第94話",
-     "url": null
+     "url": "https://manga-one.com/manga/1927/chapter/356422"
     },
     {
      "date": "2026-07-04",
      "label": "10巻コミックPR",
      "title": "10巻コミックPR",
-     "url": null
+     "url": "https://manga-one.com/manga/1927/chapter/356551"
     },
     {
      "date": "2026-06-27",
      "label": "第93話",
      "title": "第93話",
-     "url": null
+     "url": "https://manga-one.com/manga/1927/chapter/355882"
     },
     {
      "date": "2026-06-13",
      "label": "第92話",
      "title": "第92話",
-     "url": null
+     "url": "https://manga-one.com/manga/1927/chapter/354856"
     },
     {
      "date": "2026-05-16",
      "label": "第91話",
      "title": "第91話",
-     "url": null
+     "url": "https://manga-one.com/manga/1927/chapter/354466"
     },
     {
      "date": "2026-05-02",
      "label": "第90話",
      "title": "第90話",
-     "url": null
+     "url": "https://manga-one.com/manga/1927/chapter/353941"
     },
     {
      "date": "2026-04-18",
      "label": "第89話",
      "title": "第89話",
-     "url": null
+     "url": "https://manga-one.com/manga/1927/chapter/352602"
     }
    ],
    "latest": {
     "date": "2026-11-14",
     "label": "第102話",
     "title": "第102話",
-    "url": null
+    "url": "https://manga-one.com/manga/1927/chapter/361591"
    },
    "error": null
   },
@@ -1830,7 +2151,7 @@
    "comicNo": 120798,
    "history": [
     {
-     "date": "2026-11-14",
+     "date": "2026-11-13",
      "label": "第241話 連れてって",
      "title": "第241話 連れてって",
      "url": "https://championcross.jp/episodes/84a65c9c8cb9c"
@@ -1921,7 +2242,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-14",
+    "date": "2026-11-13",
     "label": "第241話 連れてって",
     "title": "第241話 連れてって",
     "url": "https://championcross.jp/episodes/84a65c9c8cb9c"
@@ -6862,98 +7183,98 @@
      "date": "2026-11-09",
      "label": "第89話",
      "title": "第89話",
-     "url": null
+     "url": "https://manga-one.com/manga/2275/chapter/359152"
     },
     {
      "date": "2026-10-26",
      "label": "第88話",
      "title": "第88話",
-     "url": null
+     "url": "https://manga-one.com/manga/2275/chapter/358579"
     },
     {
      "date": "2026-10-12",
      "label": "第87話",
      "title": "第87話",
-     "url": null
+     "url": "https://manga-one.com/manga/2275/chapter/357985"
     },
     {
      "date": "2026-09-28",
      "label": "第86話",
      "title": "第86話",
-     "url": null
+     "url": "https://manga-one.com/manga/2275/chapter/357169"
     },
     {
      "date": "2026-09-14",
      "label": "第85話",
      "title": "第85話",
-     "url": null
+     "url": "https://manga-one.com/manga/2275/chapter/356692"
     },
     {
      "date": "2026-08-31",
      "label": "第84話",
      "title": "第84話",
-     "url": null
+     "url": "https://manga-one.com/manga/2275/chapter/356122"
     },
     {
      "date": "2026-08-17",
      "label": "第83話",
      "title": "第83話",
-     "url": null
+     "url": "https://manga-one.com/manga/2275/chapter/355690"
     },
     {
      "date": "2026-08-03",
      "label": "7巻コミックPR",
      "title": "7巻コミックPR",
-     "url": null
+     "url": "https://manga-one.com/manga/2275/chapter/357709"
     },
     {
      "date": "2026-08-03",
      "label": "第82話",
      "title": "第82話",
-     "url": null
+     "url": "https://manga-one.com/manga/2275/chapter/354907"
     },
     {
      "date": "2026-07-20",
      "label": "第81話",
      "title": "第81話",
-     "url": null
+     "url": "https://manga-one.com/manga/2275/chapter/354532"
     },
     {
      "date": "2026-07-06",
      "label": "第80話",
      "title": "第80話",
-     "url": null
+     "url": "https://manga-one.com/manga/2275/chapter/353782"
     },
     {
      "date": "2026-06-22",
      "label": "第79話",
      "title": "第79話",
-     "url": null
+     "url": "https://manga-one.com/manga/2275/chapter/353284"
     },
     {
      "date": "2026-06-08",
      "label": "第78話",
      "title": "第78話",
-     "url": null
+     "url": "https://manga-one.com/manga/2275/chapter/352842"
     },
     {
      "date": "2026-05-25",
      "label": "第77話",
      "title": "第77話",
-     "url": null
+     "url": "https://manga-one.com/manga/2275/chapter/352101"
     },
     {
      "date": "2026-05-11",
      "label": "第76話",
      "title": "第76話",
-     "url": null
+     "url": "https://manga-one.com/manga/2275/chapter/345753"
     }
    ],
    "latest": {
     "date": "2026-11-09",
     "label": "第89話",
     "title": "第89話",
-    "url": null
+    "url": "https://manga-one.com/manga/2275/chapter/359152"
    },
    "error": null
   },
@@ -12094,113 +12415,6 @@
    "error": null
   },
   {
-   "detailUrl": "https://webcomics.jp/takecomic/4837b13228cb2",
-   "title": "うめともものふつうの暮らし",
-   "site": "竹コミ‎‏‎",
-   "thumbFile": "data/thumbs/101251.jpg",
-   "publisherUrl": "https://takecomic.jp/series/4837b13228cb2",
-   "comicNo": 101251,
-   "history": [
-    {
-     "date": "2026-10-30",
-     "label": "126話",
-     "title": "126話",
-     "url": "https://takecomic.jp/episodes/e170226ccf9c6"
-    },
-    {
-     "date": "2026-10-09",
-     "label": "125話",
-     "title": "125話",
-     "url": "https://takecomic.jp/episodes/3dacf803c2280"
-    },
-    {
-     "date": "2026-09-27",
-     "label": "124話",
-     "title": "124話",
-     "url": "https://takecomic.jp/episodes/a10b15f124fb9"
-    },
-    {
-     "date": "2026-08-29",
-     "label": "123話",
-     "title": "123話",
-     "url": "https://takecomic.jp/episodes/15e48cdf0bb04"
-    },
-    {
-     "date": "2026-08-15",
-     "label": "122話",
-     "title": "122話",
-     "url": "https://takecomic.jp/episodes/6a0524e6aee77"
-    },
-    {
-     "date": "2026-07-24",
-     "label": "121.5話",
-     "title": "121.5話",
-     "url": "https://takecomic.jp/episodes/632381ae83d9d"
-    },
-    {
-     "date": "2026-07-03",
-     "label": "121話",
-     "title": "121話",
-     "url": "https://takecomic.jp/episodes/79981d2466616"
-    },
-    {
-     "date": "2026-06-13",
-     "label": "120話",
-     "title": "120話",
-     "url": "https://takecomic.jp/episodes/dfec25c901acb"
-    },
-    {
-     "date": "2026-05-23",
-     "label": "119話",
-     "title": "119話",
-     "url": "https://takecomic.jp/episodes/4098ca3c50485"
-    },
-    {
-     "date": "2026-05-09",
-     "label": "118話",
-     "title": "118話",
-     "url": "https://takecomic.jp/episodes/dd72a3a21fde3"
-    },
-    {
-     "date": "2026-04-25",
-     "label": "117話",
-     "title": "117話",
-     "url": "https://takecomic.jp/episodes/625eb4938d541"
-    },
-    {
-     "date": "2026-04-12",
-     "label": "116話",
-     "title": "116話",
-     "url": "https://takecomic.jp/episodes/118db403a92fa"
-    },
-    {
-     "date": "2026-03-27",
-     "label": "115話",
-     "title": "115話",
-     "url": "https://takecomic.jp/episodes/9f4265c2cb276"
-    },
-    {
-     "date": "2026-03-02",
-     "label": "114話",
-     "title": "114話",
-     "url": "https://takecomic.jp/episodes/ebc7ab46dece5"
-    },
-    {
-     "date": "2026-02-13",
-     "label": "113話",
-     "title": "113話",
-     "url": "https://takecomic.jp/episodes/45d88807e87d5"
-    }
-   ],
-   "latest": {
-    "date": "2026-10-30",
-    "label": "126話",
-    "title": "126話",
-    "url": "https://takecomic.jp/episodes/e170226ccf9c6"
-   },
-   "error": null
-  },
-  {
    "detailUrl": "https://webcomics.jp/comic-walker/KC_005278_S",
    "title": "ノロマ魔法と呼ばれた魔法使いは重力魔法で無双する ～まだ重力の概念のない世界にて、少年は万有引力の王...",
    "site": "カドコミ",
@@ -12854,98 +13068,98 @@
      "date": "2026-10-30",
      "label": "第53話(後編)",
      "title": "第53話(後編)",
-     "url": null
+     "url": "https://manga-one.com/manga/2341/chapter/360304"
     },
     {
      "date": "2026-10-23",
      "label": "第53話(前編)",
      "title": "第53話(前編)",
-     "url": null
+     "url": "https://manga-one.com/manga/2341/chapter/359872"
     },
     {
      "date": "2026-10-09",
      "label": "第52話(後編)",
      "title": "第52話(後編)",
-     "url": null
+     "url": "https://manga-one.com/manga/2341/chapter/359149"
     },
     {
      "date": "2026-10-02",
      "label": "第52話(中編)",
      "title": "第52話(中編)",
-     "url": null
+     "url": "https://manga-one.com/manga/2341/chapter/358948"
     },
     {
      "date": "2026-09-11",
      "label": "第52話(前編)",
      "title": "第52話(前編)",
-     "url": null
+     "url": "https://manga-one.com/manga/2341/chapter/358603"
     },
     {
      "date": "2026-09-04",
      "label": "第51話(後編)",
      "title": "第51話(後編)",
-     "url": null
+     "url": "https://manga-one.com/manga/2341/chapter/358093"
     },
     {
      "date": "2026-08-14",
      "label": "第51話(前編)",
      "title": "第51話(前編)",
-     "url": null
+     "url": "https://manga-one.com/manga/2341/chapter/357601"
     },
     {
      "date": "2026-08-07",
      "label": "第50話(後編)",
      "title": "第50話(後編)",
-     "url": null
+     "url": "https://manga-one.com/manga/2341/chapter/357232"
     },
     {
      "date": "2026-07-31",
      "label": "7巻コミックPR",
      "title": "7巻コミックPR",
-     "url": null
+     "url": "https://manga-one.com/manga/2341/chapter/357628"
     },
     {
      "date": "2026-07-31",
      "label": "第50話(前編)",
      "title": "第50話(前編)",
-     "url": null
+     "url": "https://manga-one.com/manga/2341/chapter/356650"
     },
     {
      "date": "2026-07-10",
      "label": "第49話(後編)",
      "title": "第49話(後編)",
-     "url": null
+     "url": "https://manga-one.com/manga/2341/chapter/356218"
     },
     {
      "date": "2026-07-03",
      "label": "第49話(前編)",
      "title": "第49話(前編)",
-     "url": null
+     "url": "https://manga-one.com/manga/2341/chapter/355618"
     },
     {
      "date": "2026-06-12",
      "label": "第48話(後編)",
      "title": "第48話(後編)",
-     "url": null
+     "url": "https://manga-one.com/manga/2341/chapter/355345"
     },
     {
      "date": "2026-06-05",
      "label": "第48話(前編)",
      "title": "第48話(前編)",
-     "url": null
+     "url": "https://manga-one.com/manga/2341/chapter/354631"
     },
     {
      "date": "2026-05-15",
      "label": "第47話(後編)",
      "title": "第47話(後編)",
-     "url": null
+     "url": "https://manga-one.com/manga/2341/chapter/354331"
     }
    ],
    "latest": {
     "date": "2026-10-30",
     "label": "第53話(後編)",
     "title": "第53話(後編)",
-    "url": null
+    "url": "https://manga-one.com/manga/2341/chapter/360304"
    },
    "error": null
   },
@@ -18573,113 +18787,6 @@
    "error": null
   },
   {
-   "detailUrl": "https://webcomics.jp/shonenjump-plus/10834108156641784254",
-   "title": "魔都精兵のスレイブ",
-   "site": "少年ジャンプ+",
-   "thumbFile": "data/thumbs/84914.jpg",
-   "publisherUrl": "https://shonenjumpplus.com/episode/10834108156641784254",
-   "comicNo": 84914,
-   "history": [
-    {
-     "date": "2026-10-03",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191256784142533"
-    },
-    {
-     "date": "2026-09-19",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191256637716443"
-    },
-    {
-     "date": "2026-09-05",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191256340472744"
-    },
-    {
-     "date": "2026-08-22",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191255890794478"
-    },
-    {
-     "date": "2026-07-25",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191255348930616"
-    },
-    {
-     "date": "2026-07-11",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191254933946867"
-    },
-    {
-     "date": "2026-06-27",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191254640655710"
-    },
-    {
-     "date": "2026-06-13",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191254350319716"
-    },
-    {
-     "date": "2026-06-04",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/10834108156641784254"
-    },
-    {
-     "date": "2026-05-30",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191254047172665"
-    },
-    {
-     "date": "2026-05-02",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/17107419589696004719"
-    },
-    {
-     "date": "2026-04-18",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/17107419589372004173"
-    },
-    {
-     "date": "2026-04-04",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/17107094915405397148"
-    },
-    {
-     "date": "2026-03-27",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/3270375685344689608"
-    },
-    {
-     "date": "2026-03-21",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/17107094915098862105"
-    }
-   ],
-   "latest": {
-    "date": "2026-10-03",
-    "label": "更新",
-    "title": "更新",
-    "url": "https://shonenjumpplus.com/episode/9253191256784142533"
-   },
-   "error": null
-  },
-  {
    "detailUrl": "https://webcomics.jp/comic-walker/KC_006137_S",
    "title": "サイバーパンク: エッジランナーズ MADNESS",
    "site": "カドコミ",
@@ -20470,113 +20577,6 @@
     "label": "第90話",
     "title": "第90話",
     "url": "https://comic-boost.com/product/00290102"
-   },
-   "error": null
-  },
-  {
-   "detailUrl": "https://webcomics.jp/heros/869404116a11a",
-   "title": "さまよい令嬢道中記",
-   "site": "HERO'S Web",
-   "thumbFile": "data/thumbs/169245.jpg",
-   "publisherUrl": "https://heros-web.com/series/869404116a11a",
-   "comicNo": 169245,
-   "history": [
-    {
-     "date": "2026-09-08",
-     "label": "第三十話「令嬢と闇ルート」",
-     "title": "第三十話「令嬢と闇ルート」",
-     "url": "https://heros-web.com/episodes/ac48bf2788ede"
-    },
-    {
-     "date": "2026-06-26",
-     "label": "最終話「令嬢と一件落着」",
-     "title": "最終話「令嬢と一件落着」",
-     "url": "https://heros-web.com/episodes/322b00503f155"
-    },
-    {
-     "date": "2026-06-10",
-     "label": "第四十七話「令嬢とトラック」",
-     "title": "第四十七話「令嬢とトラック」",
-     "url": "https://heros-web.com/episodes/34e6d8e403e79"
-    },
-    {
-     "date": "2026-06-06",
-     "label": "第一話 「令嬢と魔法学校」",
-     "title": "第一話 「令嬢と魔法学校」",
-     "url": "https://heros-web.com/episodes/9cd375bc09cde"
-    },
-    {
-     "date": "2026-05-26",
-     "label": "第四十六話「令嬢と包囲網」",
-     "title": "第四十六話「令嬢と包囲網」",
-     "url": "https://viewer.heros-web.com/episode/12207421983711711481"
-    },
-    {
-     "date": "2026-05-12",
-     "label": "第四十五話「令嬢と隠れ家」",
-     "title": "第四十五話「令嬢と隠れ家」",
-     "url": "https://viewer.heros-web.com/episode/12207421983604118233"
-    },
-    {
-     "date": "2026-04-28",
-     "label": "第四十四話「令嬢と幽閉」",
-     "title": "第四十四話「令嬢と幽閉」",
-     "url": "https://viewer.heros-web.com/episode/12207421983604118230"
-    },
-    {
-     "date": "2026-04-14",
-     "label": "第四十三話「令嬢と公務員」",
-     "title": "第四十三話「令嬢と公務員」",
-     "url": "https://viewer.heros-web.com/episode/12207421983473866269"
-    },
-    {
-     "date": "2026-03-24",
-     "label": "第四十二話「令嬢と仲間」",
-     "title": "第四十二話「令嬢と仲間」",
-     "url": "https://viewer.heros-web.com/episode/12207421983473866265"
-    },
-    {
-     "date": "2026-03-10",
-     "label": "第四十一話「令嬢と海」",
-     "title": "第四十一話「令嬢と海」",
-     "url": "https://viewer.heros-web.com/episode/12207421983368302544"
-    },
-    {
-     "date": "2026-02-24",
-     "label": "第四十話「令嬢とスローライフ」",
-     "title": "第四十話「令嬢とスローライフ」",
-     "url": "https://viewer.heros-web.com/episode/2550689798473901185"
-    },
-    {
-     "date": "2026-02-10",
-     "label": "第三十九話「令嬢と隠れ里」",
-     "title": "第三十九話「令嬢と隠れ里」",
-     "url": "https://viewer.heros-web.com/episode/2550689798473901178"
-    },
-    {
-     "date": "2026-01-23",
-     "label": "第三十八話「令嬢と百鬼夜行」",
-     "title": "第三十八話「令嬢と百鬼夜行」",
-     "url": "https://viewer.heros-web.com/episode/2550689798473901174"
-    },
-    {
-     "date": "2026-01-09",
-     "label": "第三十七話「令嬢と村」",
-     "title": "第三十七話「令嬢と村」",
-     "url": "https://viewer.heros-web.com/episode/2550689798473901170"
-    },
-    {
-     "date": "2025-12-19",
-     "label": "第三十六話「令嬢と霊場」",
-     "title": "第三十六話「令嬢と霊場」",
-     "url": "https://viewer.heros-web.com/episode/2550689798473901165"
-    }
-   ],
-   "latest": {
-    "date": "2026-09-08",
-    "label": "第三十話「令嬢と闇ルート」",
-    "title": "第三十話「令嬢と闇ルート」",
-    "url": "https://heros-web.com/episodes/ac48bf2788ede"
    },
    "error": null
   },
