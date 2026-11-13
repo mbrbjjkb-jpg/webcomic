@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Webコミック管理</title>
+<style>
+  :root{
+    --bg:#f4f4f6; --card:#fff; --ink:#22242a; --sub:#6b6f7a;
+    --line:#e3e4e9; --accent:#e8532f; --accent-ink:#fff;
+    --dark:#232733; --chip:#eef0f4; --ok:#2e8b57; --warn:#c77400;
+  }
+  *{box-sizing:border-box; -webkit-tap-highlight-color:transparent}
+  body{margin:0; font-family:"Hiragino Kaku Gothic ProN","Noto Sans JP",sans-serif; background:var(--bg); color:var(--ink)}
+  .wrap{max-width:880px; margin:0 auto; padding:0 12px 40px}
+  header{background:var(--dark); color:#fff; margin:0 -12px; padding:14px 16px 12px}
+  header h1{font-size:19px; margin:0 0 4px}
+  header .meta{font-size:12.5px; color:#c9cdd8; display:flex; flex-wrap:wrap; gap:6px 14px}
+  header .meta b{color:#fff}
+  .banner{background:#fff4e0; border:1px solid #f0d9a8; color:#7a5a12; font-size:12.5px;
+    border-radius:8px; padding:8px 10px; margin:12px 0}
+  .banner.err{background:#fdecea; border-color:#f2b8b0; color:#8f2d20}
+  .banner.ok{background:#e9f6ee; border-color:#bfe3cc; color:#256b41}
+  nav.tabs{display:flex; gap:8px; margin:12px 0}
+  nav.tabs button{flex:1; padding:10px 4px; font-size:15px; border:1px solid var(--line);
+    background:var(--card); border-radius:10px; cursor:pointer; color:var(--ink)}
+  nav.tabs button.active{background:var(--dark); color:#fff; border-color:var(--dark); font-weight:700}
+  nav.tabs .cnt{background:var(--accent); color:#fff; border-radius:999px; font-size:12px;
+    padding:1px 7px; margin-left:4px; vertical-align:1px}
+  .toolbar{display:flex; gap:8px; margin:0 0 10px}
+  .toolbar input[type=search]{flex:1; padding:9px 10px; font-size:15px; border:1px solid var(--line); border-radius:8px}
+  .btn{padding:9px 12px; font-size:14px; border:1px solid var(--line);
+    background:var(--card); border-radius:8px; cursor:pointer}
+  .btn.primary{background:var(--dark); color:#fff; border-color:var(--dark); font-weight:700}
+  .card{background:var(--card); border:1px solid var(--line); border-radius:12px;
+    padding:10px; display:flex; gap:10px; margin-bottom:10px; align-items:stretch;
+    transition:opacity .25s, transform .25s}
+  .card.bye{opacity:0; transform:translateX(24px)}
+  .thumbwrap{position:relative; width:62px; height:82px; border-radius:6px; flex:none; overflow:hidden;
+    background:linear-gradient(135deg,#414a61,#232733)}
+  .thumbwrap span{position:absolute; inset:0; display:flex; align-items:center; justify-content:center;
+    color:#fff; font-size:24px; font-weight:700}
+  .thumb{position:absolute; inset:0; width:100%; height:100%; object-fit:cover}
+  .body{flex:1; min-width:0; display:flex; flex-direction:column}
+  .title{font-size:15.5px; font-weight:700; line-height:1.35; margin:1px 0 3px}
+  .next{font-size:14.5px}
+  .next b{color:var(--accent); font-size:15.5px}
+  .sub{font-size:12.5px; color:var(--sub); margin-top:3px; display:flex; gap:8px; flex-wrap:wrap; align-items:center}
+  .chip{background:var(--chip); border-radius:999px; padding:1px 8px; font-size:12px; color:#444a57}
+  .note-warn{font-size:12.5px; color:var(--warn); margin-top:4px}
+  .note-err{font-size:12.5px; color:#b03a2a; margin-top:4px}
+  .acts{display:flex; gap:8px; margin-top:auto; padding-top:8px; flex-wrap:wrap}
+  .acts .read{flex:1; min-width:170px; background:var(--accent); color:var(--accent-ink); border:none;
+    padding:9px; font-size:14.5px; font-weight:700; border-radius:8px; cursor:pointer}
+  .acts .read.multi{background:#5b3df5}
+  .acts .read .pill{background:rgba(255,255,255,.28); border-radius:999px;
+    padding:1px 9px; margin-left:8px; font-size:13px}
+  .acts .undo{padding:9px 12px; font-size:13.5px; border:1px solid var(--line);
+    background:#fff; border-radius:8px; cursor:pointer}
+  .badge{font-size:11.5px; font-weight:700; border-radius:999px; padding:2px 8px}
+  .badge.unread{background:#fde9e2; color:var(--accent)}
+  .badge.read{background:#e6f2ec; color:var(--ok)}
+  .empty{background:var(--card); border:1px dashed var(--line); border-radius:12px;
+    padding:28px 12px; text-align:center; color:var(--sub); font-size:14.5px}
+  section.view{display:none}
+  section.view.active{display:block}
+  .panel{background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px; margin-bottom:12px}
+  .panel h2{font-size:15px; margin:0 0 10px}
+  .panel label{display:block; font-size:13px; color:var(--sub); margin:10px 0 4px}
+  .panel input[type=text], .panel input[type=password], .panel select{width:100%; padding:9px 10px; font-size:14.5px;
+    border:1px solid var(--line); border-radius:8px; background:#fff}
+  .panel .note{font-size:12.5px; color:var(--sub); line-height:1.6}
+  .panel .note li{margin:3px 0}
+  .panel .note ol, .panel .note ul{padding-left:20px; margin:6px 0}
+  .msg{font-size:13px; margin-top:8px; min-height:1em}
+  .msg.err{color:#b03a2a}
+  .msg.ok{color:var(--ok)}
+  .kv{font-size:13.5px; line-height:1.9}
+  .kv b{display:inline-block; min-width:118px; color:var(--sub); font-weight:400}
+  #toast{position:fixed; left:50%; bottom:18px; transform:translateX(-50%) translateY(80px);
+    background:var(--dark); color:#fff; padding:11px 14px; border-radius:10px; font-size:14px;
+    display:flex; gap:12px; align-items:center; transition:transform .25s; max-width:92vw; z-index:9}
+  #toast.show{transform:translateX(-50%) translateY(0)}
+  #toast button{background:none; border:none; color:#ffb59d; font-size:14px; font-weight:700; cursor:pointer}
+  .foot{font-size:12px; color:var(--sub); text-align:center; margin-top:16px; line-height:1.7}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>📚 Webコミック管理</h1>
+    <div class="meta">
+      <span>未読 <b id="hUnread">-</b></span>
+      <span>登録 <b id="hCount">-</b> 件</span>
+      <span>最終チェック <b id="hChecked">-</b></span>
+      <span>次回 <b id="hNext">-</b></span>
+    </div>
+  </header>
+
+  <div id="globalMsg"></div>
+
+  <!-- 未接続：接続パネル -->
+  <section id="view-connect" class="view">
+    <div class="panel">
+      <h2>GitHub に接続</h2>
+      <p class="note">データ置き場（リポジトリ <b>webcomic</b>）とつなぐため、
+      専用のアクセストークンを1回だけ入力します。トークンはこの端末のブラウザ内にだけ保存され、
+      コードやリポジトリには含まれません。</p>
+      <label>Fine-grained Personal Access Token</label>
+      <input type="password" id="tokenInput" placeholder="github_pat_…" autocomplete="off">
+      <div style="height:10px"></div>
+      <button class="btn primary" onclick="connect()">接続</button>
+      <div class="msg" id="connectMsg"></div>
+      <p class="note" style="margin-top:14px"><b>トークンの作り方</b></p>
+      <ol class="note">
+        <li>GitHub にログイン → 右上のアイコン → <b>Settings</b></li>
+        <li>左下の <b>Developer settings</b> → <b>Personal access tokens</b> → <b>Fine-grained tokens</b> → <b>Generate new token</b></li>
+        <li>Repository access で <b>Only select repositories</b> を選び、<b>webcomic</b> だけを指定</li>
+        <li>Permissions → Repository permissions → <b>Contents</b> を <b>Read and write</b> に設定</li>
+        <li>発行されたトークンを、上の欄に貼り付けて「接続」</li>
+      </ol>
+    </div>
+  </section>
+
+  <div id="mainUi" style="display:none">
+    <nav class="tabs">
+      <button id="tab-unread" class="active" onclick="show('unread')">未読リスト<span class="cnt" id="tabCnt">-</span></button>
+      <button id="tab-all" onclick="show('all')">全作品</button>
+      <button id="tab-set" onclick="show('set')">設定</button>
+    </nav>
+
+    <!-- 未読リスト -->
+    <section id="view-unread" class="view active">
+      <div id="unreadList"></div>
+      <div id="unreadEmpty" class="empty" style="display:none">未読はありません 🎉<br>新しい更新があると、ここに自動で載ります。</div>
+    </section>
+
+    <!-- 全作品 -->
+    <section id="view-all" class="view">
+      <div class="toolbar">
+        <input type="search" id="q" placeholder="タイトル・掲載サイトで検索" oninput="renderAll()">
+      </div>
+      <div id="allList"></div>
+    </section>
+
+    <!-- 設定 -->
+    <section id="view-set" class="view">
+      <div class="panel">
+        <h2>作品の追加</h2>
+        <label>webcomics.jp の作品ページ（詳細ページ）のURL</label>
+        <input type="text" id="addUrl" placeholder="https://webcomics.jp/…">
+        <div style="height:8px"></div>
+        <button class="btn" onclick="addWork()">＋ 作品を追加</button>
+        <div class="msg" id="addMsg"></div>
+        <p class="note">追加した作品は次回の更新チェック（1日4回）で取り込まれます。
+        Web漫画アンテナのブックマークに入れた作品は、ブックマーク経由で自動的に取り込まれるので追加は不要です。</p>
+      </div>
+      <div class="panel">
+        <h2>更新チェック</h2>
+        <div class="kv">
+          <div><b>情報源</b>Web漫画アンテナ（公開ブックマーク）</div>
+          <div><b>チェック頻度</b>1日4回（0時・6時・12時・18時）</div>
+          <div><b>最終チェック</b><span id="setChecked">-</span></div>
+          <div><b>登録件数</b><span id="setCount">-</span></div>
+        </div>
+        <p class="note">チェックは GitHub Actions が自動で行います。各作品の更新履歴から
+        「前回読了した話より後の話」を未読として数えるので、数話まとめて溜まっても続きから読めます。</p>
+      </div>
+      <div class="panel">
+        <h2>同期（GitHub）</h2>
+        <div class="kv">
+          <div><b>接続状態</b><span id="setConn" style="color:var(--warn); font-weight:700">未接続</span></div>
+          <div><b>データ置き場</b><a id="repoLink" href="#" target="_blank" rel="noopener">webcomic</a></div>
+        </div>
+        <label>トークンの変更（再入力）</label>
+        <input type="password" id="tokenChange" placeholder="github_pat_…" autocomplete="off">
+        <div style="height:8px"></div>
+        <button class="btn" onclick="changeToken()">トークンを変更して再接続</button>
+        <span style="display:inline-block; width:8px"></span>
+        <button class="btn" onclick="disconnect()">接続解除</button>
+        <div class="msg" id="connMsg"></div>
+        <p class="note">トークンはこの端末のブラウザ内にだけ保存されています。
+        接続解除するとこの端末からトークンが消えます（データ自体は GitHub に残ります）。</p>
+      </div>
+    </section>
+  </div>
+
+  <p class="foot">Webコミック管理<br>データ保存：GitHub（webcomic）</p>
+</div>
+
+<div id="toast"><span id="toastMsg"></span><button id="toastBtn" style="display:none" onclick="undoLast()">元に戻す</button></div>
+
+<script>
+"use strict";
+// ===== 定数 =====
+const OWNER = "mbrbjjkb-jpg";
+const DATA_REPO = "webcomic";
+const LS_KEY = "webcomic-app-v1";
+const LIB_PATH = "data/library.json";
+const LAT_PATH = "data/latest.json";
+const API = "https://api.github.com/repos/" + OWNER + "/" + DATA_REPO + "/contents/";
+const DETAIL_URL_RE = /^https:\/\/webcomics\.jp\/[A-Za-z0-9_-]+\/\d+\/?$/;
+
+// ===== 状態 =====
+let token = localStorage.getItem(LS_KEY) || "";
+let library = null;   // {data, sha}
+let latest = null;    // {data, sha}
+let view = [];        // 表示用に計算した作品配列
+let undoSnapshot = null; // library.json の変更前JSON文字列
+let busy = false;
+
+// ===== ユーティリティ =====
+function esc(s){
+  return String(s == null ? "" : s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+}
+function epLabel(h){
+  if(!h) return "―";
+  return h.title || h.label || h.date || "（タイトル不明）";
+}
+function epDate(h){
+  if(!h) return "";
+  return h.date || h.label || "";
+}
+function b64encodeUtf8(str){
+  const bytes = new TextEncoder().encode(str);
+  let bin = "";
+  const CHUNK = 0x8000;
+  for(let i = 0; i < bytes.length; i += CHUNK){
+    bin += String.fromCharCode.apply(null, bytes.subarray(i, i + CHUNK));
+  }
+  return btoa(bin);
+}
+function b64decodeUtf8(b64){
+  const bin = atob(String(b64).replace(/\s/g, ""));
+  const bytes = new Uint8Array(bin.length);
+  for(let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+  return new TextDecoder().decode(bytes);
+}
+function fmtCheckedAt(iso){
+  if(!iso) return "未チェック";
+  const d = new Date(iso);
+  if(isNaN(d)) return iso;
+  return d.toLocaleString("ja-JP", {timeZone:"Asia/Tokyo", month:"numeric", day:"numeric", hour:"2-digit", minute:"2-digit"});
+}
+function nextCheckText(iso){
+  // チェックは JST 0:05/6:05/12:05/18:05。次回目安を返す
+  const base = iso ? new Date(iso) : new Date();
+  const jst = new Date(base.getTime() + 9 * 60 * 60 * 1000);
+  const slots = [0, 6, 12, 18];
+  for(const h of slots){
+    const cand = new Date(Date.UTC(jst.getUTCFullYear(), jst.getUTCMonth(), jst.getUTCDate(), h, 5));
+    if(cand > jst) return h + ":05";
+  }
+  return "0:05";
+}
+function globalMsg(html, kind){
+  const el = document.getElementById("globalMsg");
+  if(!html){ el.innerHTML = ""; return; }
+  el.innerHTML = '<div class="banner ' + (kind || "") + '">' + html + "</div>";
+}
+
+// ===== GitHub Contents API =====
+class GhError extends Error {
+  constructor(status, message){ super(message || ("HTTP " + status)); this.status = status; }
+}
+async function ghFetch(path, opts){
+  opts = opts || {};
+  const headers = Object.assign({
+    "Authorization": "Bearer " + token,
+    "Accept": "application/vnd.github+json",
+    "X-GitHub-Api-Version": "2022-11-28"
+  }, opts.headers || {});
+  const res = await fetch(API + path, Object.assign({}, opts, {headers}));
+  if(!res.ok) throw new GhError(res.status, "GitHub API " + res.status + " (" + path + ")");
+  return res;
+}
+async function ghGetJson(path){
+  const res = await ghFetch(path);
+  const j = await res.json();
+  return { data: JSON.parse(b64decodeUtf8(j.content)), sha: j.sha };
+}
+async function ghPutJson(path, dataObj, sha, message){
+  const body = { message: message, content: b64encodeUtf8(JSON.stringify(dataObj, null, 1)) };
+  if(sha) body.sha = sha;
+  const res = await ghFetch(path, { method: "PUT", body: JSON.stringify(body) });
+  const j = await res.json();
+  return j.content && j.content.sha ? j.content.sha : null;
+}
+const thumbCache = new Map(); // thumbFile -> objectURL
+async function ghGetThumbUrl(path){
+  if(thumbCache.has(path)) return thumbCache.get(path);
+  const res = await ghFetch(path, { headers: { "Accept": "application/vnd.github.raw+json" } });
+  const blob = await res.blob();
+  const url = URL.createObjectURL(blob);
+  thumbCache.set(path, url);
+  return url;
+}
+function isAuthError(e){ return e instanceof GhError && (e.status === 401 || e.status === 403); }
+function authGuidance(){
+  globalMsg("トークンが無効か期限切れのようです。設定タブでトークンを再入力するか、一度接続解除してから新しいトークンで接続し直してください。", "err");
+  show("set");
+}
+
+// ===== 未読計算 =====
+function computeView(){
+  view = [];
+  if(!latest || !latest.data) return;
+  const works = latest.data.works || [];
+  for(const w of works){
+    const history = w.history || [];
+    const lib = library && library.data && library.data.works ? library.data.works[w.detailUrl] : null;
+    let unread = [], notFound = false;
+    if(history.length){
+      if(!lib){
+        unread = []; // 初期化で作られる想定。無い場合は読了扱いにせず空（初期化処理が別途走る）
+      } else if(!lib.lastReadUrl){
+        unread = history.slice().reverse();
+      } else {
+        const idx = history.findIndex(h => h.url === lib.lastReadUrl);
+        if(idx === -1){ unread = history.slice().reverse(); notFound = true; }
+        else unread = history.slice(0, idx).reverse();
+      }
+    }
+    view.push({
+      detailUrl: w.detailUrl,
+      title: w.title || "（タイトル未取得）",
+      site: w.site || "",
+      thumbFile: w.thumbFile || null,
+      history: history,
+      latestEp: history.length ? history[0] : (w.latest || null),
+      error: w.error || null,
+      lastReadUrl: lib ? (lib.lastReadUrl || "") : null,
+      lastReadTitle: lib ? (lib.lastReadTitle || "") : null,
+      unread: unread,
+      notFound: notFound
+    });
+  }
+}
+function unreadWorks(){ return view.filter(w => w.unread.length > 0); }
+function unreadEps(){ return view.reduce((s, w) => s + w.unread.length, 0); }
+
+// ===== 描画 =====
+function show(v){
+  for(const n of ["unread", "all", "set"]){
+    document.getElementById("view-" + n).classList.toggle("active", n === v);
+    document.getElementById("tab-" + n).classList.toggle("active", n === v);
+  }
+  if(v === "unread") renderUnread();
+  if(v === "all") renderAll();
+}
+function syncHeader(){
+  document.getElementById("hUnread").textContent = unreadWorks().length + "作品・" + unreadEps() + "話";
+  document.getElementById("hCount").textContent = view.length;
+  document.getElementById("tabCnt").textContent = unreadWorks().length;
+  const ca = latest && latest.data ? latest.data.checkedAt : null;
+  document.getElementById("hChecked").textContent = fmtCheckedAt(ca);
+  document.getElementById("hNext").textContent = nextCheckText(ca) + "頃";
+  document.getElementById("setChecked").textContent = fmtCheckedAt(ca);
+  document.getElementById("setCount").textContent = view.length + "件";
+  document.getElementById("setConn").innerHTML = token
+    ? '<span style="color:var(--ok)">接続済み</span>' : "未接続";
+  document.getElementById("repoLink").href = "https://github.com/" + OWNER + "/" + DATA_REPO;
+}
+function cardHTML(w, mode){
+  const n = w.unread.length;
+  const badge = n ? '<span class="badge unread">未読 ' + n + '話</span>'
+                  : '<span class="badge read">最新話まで読了</span>';
+  let head, btns;
+  if(n){
+    const first = w.unread[0];
+    head = '<div class="next">次は <b>' + esc(epLabel(first)) + "</b>（" + esc(epDate(first)) + "）</div>"
+         + '<div class="sub"><span>最新 ' + esc(epLabel(w.latestEp)) + " ／ 読了済み " + esc(w.lastReadTitle || "―") + "</span></div>";
+    btns = '<button class="read' + (n > 1 ? " multi" : "") + '" data-act="read" data-url="' + esc(w.detailUrl) + '">続きを読む（' + esc(epLabel(first)) + "）"
+         + (n > 1 ? '<span class="pill">未読' + n + "話</span>" : "") + "</button>";
+  } else if(w.latestEp){
+    head = '<div class="next">最新 <b>' + esc(epLabel(w.latestEp)) + "</b> まで読了</div>";
+    btns = '<button class="undo" data-act="mark" data-url="' + esc(w.detailUrl) + '">未読に戻す</button>';
+  } else {
+    head = '<div class="next">更新履歴はまだ取得できていません</div>';
+    btns = "";
+  }
+  let notes = "";
+  if(w.notFound) notes += '<div class="note-warn">読了位置が履歴に見つかりませんでした。履歴の全話を未読として表示しています。</div>';
+  if(w.error) notes += '<div class="note-err">取得エラー：' + esc(w.error) + "</div>";
+  const thumb = w.thumbFile
+    ? '<img class="thumb" alt="" loading="lazy" data-thumb="' + esc(w.thumbFile) + '" style="display:none">'
+    : "";
+  return '<div class="card">'
+    + '<div class="thumbwrap"><span>' + esc(w.title.slice(0, 1)) + "</span>" + thumb + "</div>"
+    + '<div class="body"><div class="title">' + esc(w.title) + "</div>"
+    + head + notes
+    + '<div class="sub"><span class="chip">' + esc(w.site || "webcomics.jp") + "</span>" + badge + "</div>"
+    + '<div class="acts">' + btns + "</div></div></div>";
+}
+// サムネイルの遅延読み込み（表示されたカード分だけ Contents API から取得）
+const thumbObserver = ("IntersectionObserver" in window) ? new IntersectionObserver(entries => {
+  for(const e of entries){
+    if(e.isIntersecting){ loadThumb(e.target); thumbObserver.unobserve(e.target); }
+  }
+}, {rootMargin: "200px"}) : null;
+async function loadThumb(img){
+  const path = img.getAttribute("data-thumb");
+  if(!path) return;
+  try {
+    img.src = await ghGetThumbUrl(path);
+    img.style.display = "";
+    img.onerror = () => { img.remove(); };
+  } catch(e) { /* 失敗時は頭文字プレースホルダのまま */ }
+}
+function observeThumbs(root){
+  const imgs = root.querySelectorAll("img[data-thumb]");
+  imgs.forEach(img => { if(thumbObserver) thumbObserver.observe(img); else loadThumb(img); });
+}
+function bindCardButtons(root){
+  root.querySelectorAll("button[data-act]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const url = btn.getAttribute("data-url");
+      if(btn.getAttribute("data-act") === "read") openWork(url, btn);
+      else markUnread(url);
+    });
+  });
+}
+function renderUnread(){
+  const list = unreadWorks();
+  const el = document.getElementById("unreadList");
+  el.innerHTML = list.map(w => cardHTML(w, "unread")).join("");
+  document.getElementById("unreadEmpty").style.display = list.length ? "none" : "block";
+  bindCardButtons(el); observeThumbs(el);
+  syncHeader();
+}
+function renderAll(){
+  const q = (document.getElementById("q").value || "").trim();
+  const list = view.filter(w => !q || w.title.includes(q) || (w.site || "").includes(q));
+  const el = document.getElementById("allList");
+  el.innerHTML = list.length ? list.map(w => cardHTML(w, "all")).join("")
+    : '<div class="empty">該当する作品がありません</div>';
+  bindCardButtons(el); observeThumbs(el);
+  syncHeader();
+}
+function rerender(){
+  computeView();
+  renderUnread();
+  if(document.getElementById("view-all").classList.contains("active")) renderAll();
+}
+
+// ===== library.json の保存（楽観的更新＋競合時1回リトライ＋Undo） =====
+async function saveLibrary(mutate, message, undoable){
+  if(busy) { toast("保存中です。少し待ってください", false); return false; }
+  busy = true;
+  const snapshot = JSON.stringify(library.data);
+  mutate(library.data);
+  rerender();
+  try {
+    library.sha = await ghPutJson(LIB_PATH, library.data, library.sha, message);
+    if(undoable) undoSnapshot = snapshot;
+    busy = false;
+    return true;
+  } catch(e) {
+    if(e instanceof GhError && (e.status === 409 || e.status === 422)){
+      // sha 不一致：最新を取り直してから、同じ変更を1回だけやり直す
+      try {
+        const fresh = await ghGetJson(LIB_PATH);
+        const draft = fresh.data;
+        mutate(draft);
+        library = { data: draft, sha: fresh.sha };
+        library.sha = await ghPutJson(LIB_PATH, library.data, library.sha, message);
+        if(undoable) undoSnapshot = snapshot;
+        rerender();
+        busy = false;
+        return true;
+      } catch(e2) { e = e2; }
+    }
+    library.data = JSON.parse(snapshot); // 失敗したら表示も元に戻す
+    rerender();
+    busy = false;
+    if(isAuthError(e)) authGuidance();
+    else globalMsg("保存に失敗しました（" + esc(e.message) + "）。通信状態を確認して、もう一度お試しください。", "err");
+    return false;
+  }
+}
+async function undoLast(){
+  if(!undoSnapshot || busy) return;
+  const target = undoSnapshot;
+  undoSnapshot = null;
+  busy = true;
+  const current = JSON.stringify(library.data);
+  library.data = JSON.parse(target);
+  rerender();
+  try {
+    library.sha = await ghPutJson(LIB_PATH, library.data, library.sha, "webcomic: undo");
+    toast("元に戻しました", false);
+  } catch(e) {
+    library.data = JSON.parse(current);
+    rerender();
+    if(isAuthError(e)) authGuidance(); else toast("元に戻す保存に失敗しました", false);
+  }
+  busy = false;
+}
+
+// ===== 操作 =====
+async function openWork(detailUrl, btn){
+  const w = view.find(x => x.detailUrl === detailUrl);
+  if(!w || !w.unread.length || !w.latestEp) return;
+  const first = w.unread[0];
+  window.open(first.url, "_blank", "noopener");
+  if(btn){
+    const card = btn.closest(".card");
+    if(card) card.classList.add("bye");
+  }
+  const ok = await saveLibrary(d => {
+    d.works = d.works || {};
+    d.works[detailUrl] = { lastReadUrl: w.latestEp.url, lastReadTitle: epLabel(w.latestEp) };
+  }, "webcomic: read " + w.title, true);
+  if(ok) toast("「" + epLabel(first) + "」を開きました。この作品は最新話まで読了にしました", true);
+}
+async function markUnread(detailUrl){
+  const w = view.find(x => x.detailUrl === detailUrl);
+  if(!w || !w.history.length) { toast("履歴がないため未読に戻せません", false); return; }
+  const hist = w.history;
+  const target = hist.length >= 2
+    ? { lastReadUrl: hist[1].url, lastReadTitle: epLabel(hist[1]) }
+    : { lastReadUrl: "", lastReadTitle: "" }; // 履歴が1件だけなら全件未読扱い
+  const ok = await saveLibrary(d => {
+    d.works = d.works || {};
+    d.works[detailUrl] = target;
+  }, "webcomic: mark unread " + w.title, true);
+  if(ok) toast(hist.length >= 2 ? "最新話を未読に戻しました" : "最新話を未読に戻しました（履歴が1話のみのため、その話が未読になります）", true);
+}
+async function addWork(){
+  const input = document.getElementById("addUrl");
+  const msg = document.getElementById("addMsg");
+  const v = input.value.trim().replace(/\/$/, "");
+  msg.className = "msg";
+  if(!DETAIL_URL_RE.test(v)){
+    msg.className = "msg err";
+    msg.textContent = "webcomics.jp の作品ページ（詳細ページ）のURLを入力してください。例：https://webcomics.jp/…/1234567890";
+    return;
+  }
+  if(library.data.added && library.data.added.includes(v)){
+    msg.className = "msg err"; msg.textContent = "その作品はすでに追加済みです。"; return;
+  }
+  if(view.some(w => w.detailUrl === v)){
+    msg.className = "msg err"; msg.textContent = "その作品はすでに登録されています。"; return;
+  }
+  const ok = await saveLibrary(d => {
+    d.added = d.added || [];
+    d.added.push(v);
+  }, "webcomic: add work", false);
+  if(ok){
+    input.value = "";
+    msg.className = "msg ok";
+    msg.textContent = "追加しました。次回の更新チェック（1日4回）で取り込まれます。";
+  }
+}
+
+// ===== 接続・読み込み =====
+async function loadAll(){
+  globalMsg("");
+  try { library = await ghGetJson(LIB_PATH); }
+  catch(e) {
+    if(e instanceof GhError && e.status === 404){
+      const init = { version: 1, works: {}, added: [] };
+      const sha = await ghPutJson(LIB_PATH, init, null, "webcomic: init library");
+      library = { data: init, sha: sha };
+    } else throw e;
+  }
+  try { latest = await ghGetJson(LAT_PATH); }
+  catch(e) {
+    if(e instanceof GhError && e.status === 404) latest = { data: { checkedAt: null, works: [] }, sha: null };
+    else throw e;
+  }
+  document.getElementById("view-connect").classList.remove("active");
+  document.getElementById("view-connect").style.display = "none";
+  document.getElementById("mainUi").style.display = "";
+  await maybeInitialize();
+  rerender();
+}
+async function maybeInitialize(){
+  // library.works が空で latest に作品がある初回だけ：
+  // 全作品を「現時点の最新話まで読了」で初期化し、未読ゼロから始める
+  if(!library || !latest) return;
+  const worksInLib = library.data.works ? Object.keys(library.data.works).length : 0;
+  const worksInLatest = (latest.data.works || []).length;
+  if(worksInLib > 0 || worksInLatest === 0) return;
+  const data = library.data;
+  data.works = data.works || {};
+  let made = 0;
+  for(const w of latest.data.works){
+    const hist = w.history || [];
+    if(hist.length){
+      data.works[w.detailUrl] = { lastReadUrl: hist[0].url, lastReadTitle: epLabel(hist[0]) };
+      made++;
+    }
+  }
+  if(!made) return;
+  library.sha = await ghPutJson(LIB_PATH, data, library.sha, "webcomic: initialize library");
+  globalMsg("初期化しました：全" + made + "作品を、現時点の最新話まで読了として登録しました。これからの更新だけが未読に溜まります。", "ok");
+}
+async function connect(){
+  const input = document.getElementById("tokenInput");
+  const msg = document.getElementById("connectMsg");
+  const v = input.value.trim();
+  msg.className = "msg";
+  if(!v){ msg.className = "msg err"; msg.textContent = "トークンを入力してください。"; return; }
+  token = v;
+  try {
+    await loadAll();
+    localStorage.setItem(LS_KEY, token);
+    input.value = "";
+  } catch(e) {
+    token = localStorage.getItem(LS_KEY) || "";
+    if(isAuthError(e)){
+      msg.className = "msg err";
+      msg.textContent = "接続できませんでした。トークンが無効か、webcomic への Contents 権限（Read and write）がない可能性があります。";
+    } else if(e instanceof GhError && e.status === 404){
+      msg.className = "msg err";
+      msg.textContent = "データ置き場（webcomic）が見つかりません。トークンの対象リポジトリに webcomic が含まれているか確認してください。";
+    } else {
+      msg.className = "msg err";
+      msg.textContent = "接続に失敗しました（" + e.message + "）。";
+    }
+  }
+}
+async function changeToken(){
+  const input = document.getElementById("tokenChange");
+  const msg = document.getElementById("connMsg");
+  const v = input.value.trim();
+  msg.className = "msg";
+  if(!v){ msg.className = "msg err"; msg.textContent = "新しいトークンを入力してください。"; return; }
+  const old = token;
+  token = v;
+  try {
+    await loadAll();
+    localStorage.setItem(LS_KEY, token);
+    input.value = "";
+    msg.className = "msg ok"; msg.textContent = "トークンを変更して再接続しました。";
+  } catch(e) {
+    token = old;
+    msg.className = "msg err";
+    msg.textContent = isAuthError(e) ? "そのトークンでは接続できませんでした（無効か権限不足）。" : "再接続に失敗しました（" + e.message + "）。";
+  }
+}
+function disconnect(){
+  localStorage.removeItem(LS_KEY);
+  token = ""; library = null; latest = null; view = [];
+  thumbCache.forEach(url => URL.revokeObjectURL(url));
+  thumbCache.clear();
+  document.getElementById("mainUi").style.display = "none";
+  const c = document.getElementById("view-connect");
+  c.style.display = ""; c.classList.add("active");
+  syncHeader();
+}
+
+// ===== トースト =====
+let toastTimer = null;
+function toast(msgText, withUndo){
+  document.getElementById("toastMsg").textContent = msgText;
+  document.getElementById("toastBtn").style.display = withUndo && undoSnapshot ? "inline" : "none";
+  const t = document.getElementById("toast");
+  t.classList.add("show");
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(hideToast, 8000);
+}
+function hideToast(){ document.getElementById("toast").classList.remove("show"); }
+
+// ===== 起動 =====
+(async function boot(){
+  if(token){
+    try { await loadAll(); }
+    catch(e) {
+      if(isAuthError(e) || (e instanceof GhError && e.status === 404)){
+        const c = document.getElementById("view-connect");
+        c.classList.add("active");
+        const msg = document.getElementById("connectMsg");
+        msg.className = "msg err";
+        msg.textContent = "保存済みトークンで接続できませんでした。トークンが無効か期限切れの可能性があります。新しいトークンを入力してください。";
+      } else {
+        globalMsg("データの取得に失敗しました（" + esc(e.message) + "）。通信状態を確認して再読み込みしてください。", "err");
+        document.getElementById("view-connect").classList.add("active");
+      }
+    }
+  } else {
+    document.getElementById("view-connect").classList.add("active");
+  }
+  syncHeader();
+})();
+</script>
+</body>
+</html>
