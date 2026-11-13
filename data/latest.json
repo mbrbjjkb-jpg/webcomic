@@ -1,1 +1,3399 @@
-{"checkedAt":null,"works":[]}
+{
+ "checkedAt": "2026-11-13T15:20:39+09:00",
+ "bookmarkUrl": "https://webcomics.jp/bookmark/3682scqd",
+ "works": [
+  {
+   "detailUrl": "https://webcomics.jp/seiga/27620",
+   "title": "老後に備えて異世界で8万枚の金貨を貯めます",
+   "site": "manga.nicovideo.jp",
+   "thumbFile": "data/thumbs/65605.jpg",
+   "history": [
+    {
+     "date": "4分前",
+     "label": "2026/11/13 更新",
+     "title": "2026/11/13 更新",
+     "url": "https://manga.nicovideo.jp/comic/27620/new"
+    },
+    {
+     "date": "10月23日",
+     "label": "2026/10/23 更新",
+     "title": "2026/10/23 更新",
+     "url": "https://manga.nicovideo.jp/comic/27620/new"
+    },
+    {
+     "date": "9月9日",
+     "label": "2026/09/09 更新",
+     "title": "2026/09/09 更新",
+     "url": "https://manga.nicovideo.jp/comic/27620/new"
+    },
+    {
+     "date": "8月14日",
+     "label": "2026/08/14 更新",
+     "title": "2026/08/14 更新",
+     "url": "https://manga.nicovideo.jp/comic/27620/new"
+    },
+    {
+     "date": "7月24日",
+     "label": "2026/07/24 更新",
+     "title": "2026/07/24 更新",
+     "url": "https://manga.nicovideo.jp/comic/27620/new"
+    },
+    {
+     "date": "7月10日",
+     "label": "2026/07/10 更新",
+     "title": "2026/07/10 更新",
+     "url": "https://manga.nicovideo.jp/comic/27620/new"
+    },
+    {
+     "date": "6月12日",
+     "label": "2026/06/12 更新",
+     "title": "2026/06/12 更新",
+     "url": "https://manga.nicovideo.jp/comic/27620/new"
+    },
+    {
+     "date": "2026年5月8日",
+     "label": "2026/05/08 更新",
+     "title": "2026/05/08 更新",
+     "url": "https://manga.nicovideo.jp/comic/27620/new"
+    },
+    {
+     "date": "2026年4月10日",
+     "label": "2026/04/10 更新",
+     "title": "2026/04/10 更新",
+     "url": "https://manga.nicovideo.jp/comic/27620/new"
+    },
+    {
+     "date": "2026年2月13日",
+     "label": "2026/02/13 更新",
+     "title": "2026/02/13 更新",
+     "url": "https://manga.nicovideo.jp/comic/27620/new"
+    },
+    {
+     "date": "2026年1月23日",
+     "label": "2026/01/23 更新",
+     "title": "2026/01/23 更新",
+     "url": "https://manga.nicovideo.jp/comic/27620/new"
+    },
+    {
+     "date": "2025年12月27日",
+     "label": "2025/12/27 更新",
+     "title": "2025/12/27 更新",
+     "url": "https://manga.nicovideo.jp/comic/27620/new"
+    },
+    {
+     "date": "2025年12月12日",
+     "label": "2025/12/12 更新",
+     "title": "2025/12/12 更新",
+     "url": "https://manga.nicovideo.jp/comic/27620/new"
+    },
+    {
+     "date": "2025年11月28日",
+     "label": "2025/11/28 更新",
+     "title": "2025/11/28 更新",
+     "url": "https://manga.nicovideo.jp/comic/27620/new"
+    },
+    {
+     "date": "2025年10月24日",
+     "label": "2025/10/24 更新",
+     "title": "2025/10/24 更新",
+     "url": "https://manga.nicovideo.jp/comic/27620/new"
+    }
+   ],
+   "latest": {
+    "date": "4分前",
+    "label": "2026/11/13 更新",
+    "title": "2026/11/13 更新",
+    "url": "https://manga.nicovideo.jp/comic/27620/new"
+   },
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/seiga/43977",
+   "title": "よくわからないけれど異世界に転生していたようです",
+   "site": "manga.nicovideo.jp",
+   "thumbFile": "data/thumbs/95493.jpg",
+   "history": [
+    {
+     "date": "5分前",
+     "label": "2026/11/13 更新",
+     "title": "2026/11/13 更新",
+     "url": "https://manga.nicovideo.jp/comic/43977/new"
+    },
+    {
+     "date": "11月6日",
+     "label": "2026/11/06 更新",
+     "title": "2026/11/06 更新",
+     "url": "https://manga.nicovideo.jp/comic/43977/new"
+    },
+    {
+     "date": "10月30日",
+     "label": "2026/10/30 更新",
+     "title": "2026/10/30 更新",
+     "url": "https://manga.nicovideo.jp/comic/43977/new"
+    },
+    {
+     "date": "10月23日",
+     "label": "2026/10/23 更新",
+     "title": "2026/10/23 更新",
+     "url": "https://manga.nicovideo.jp/comic/43977/new"
+    },
+    {
+     "date": "10月16日",
+     "label": "2026/10/16 更新",
+     "title": "2026/10/16 更新",
+     "url": "https://manga.nicovideo.jp/comic/43977/new"
+    },
+    {
+     "date": "10月9日",
+     "label": "2026/10/09 更新",
+     "title": "2026/10/09 更新",
+     "url": "https://manga.nicovideo.jp/comic/43977/new"
+    },
+    {
+     "date": "10月2日",
+     "label": "2026/10/02 更新",
+     "title": "2026/10/02 更新",
+     "url": "https://manga.nicovideo.jp/comic/43977/new"
+    },
+    {
+     "date": "9月25日",
+     "label": "2026/09/25 更新",
+     "title": "2026/09/25 更新",
+     "url": "https://manga.nicovideo.jp/comic/43977/new"
+    },
+    {
+     "date": "9月18日",
+     "label": "2026/09/18 更新",
+     "title": "2026/09/18 更新",
+     "url": "https://manga.nicovideo.jp/comic/43977/new"
+    },
+    {
+     "date": "9月11日",
+     "label": "2026/09/11 更新",
+     "title": "2026/09/11 更新",
+     "url": "https://manga.nicovideo.jp/comic/43977/new"
+    },
+    {
+     "date": "9月4日",
+     "label": "2026/09/04 更新",
+     "title": "2026/09/04 更新",
+     "url": "https://manga.nicovideo.jp/comic/43977/new"
+    },
+    {
+     "date": "8月28日",
+     "label": "2026/08/28 更新",
+     "title": "2026/08/28 更新",
+     "url": "https://manga.nicovideo.jp/comic/43977/new"
+    },
+    {
+     "date": "8月21日",
+     "label": "2026/08/21 更新",
+     "title": "2026/08/21 更新",
+     "url": "https://manga.nicovideo.jp/comic/43977/new"
+    },
+    {
+     "date": "7月31日",
+     "label": "2026/07/31 更新",
+     "title": "2026/07/31 更新",
+     "url": "https://manga.nicovideo.jp/comic/43977/new"
+    },
+    {
+     "date": "7月24日",
+     "label": "2026/07/24 更新",
+     "title": "2026/07/24 更新",
+     "url": "https://manga.nicovideo.jp/comic/43977/new"
+    }
+   ],
+   "latest": {
+    "date": "5分前",
+    "label": "2026/11/13 更新",
+    "title": "2026/11/13 更新",
+    "url": "https://manga.nicovideo.jp/comic/43977/new"
+   },
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/seiga/43287",
+   "title": "解雇された暗黒兵士(30代)のスローなセカンドライフ",
+   "site": "manga.nicovideo.jp",
+   "thumbFile": "data/thumbs/94619.jpg",
+   "history": [
+    {
+     "date": "5分前",
+     "label": "2026/11/13 更新",
+     "title": "2026/11/13 更新",
+     "url": "https://manga.nicovideo.jp/comic/43287/new"
+    },
+    {
+     "date": "10月23日",
+     "label": "2026/10/23 更新",
+     "title": "2026/10/23 更新",
+     "url": "https://manga.nicovideo.jp/comic/43287/new"
+    },
+    {
+     "date": "10月9日",
+     "label": "2026/10/09 更新",
+     "title": "2026/10/09 更新",
+     "url": "https://manga.nicovideo.jp/comic/43287/new"
+    },
+    {
+     "date": "9月25日",
+     "label": "2026/09/25 更新",
+     "title": "2026/09/25 更新",
+     "url": "https://manga.nicovideo.jp/comic/43287/new"
+    },
+    {
+     "date": "9月11日",
+     "label": "2026/09/11 更新",
+     "title": "2026/09/11 更新",
+     "url": "https://manga.nicovideo.jp/comic/43287/new"
+    },
+    {
+     "date": "8月28日",
+     "label": "2026/08/28 更新",
+     "title": "2026/08/28 更新",
+     "url": "https://manga.nicovideo.jp/comic/43287/new"
+    },
+    {
+     "date": "8月14日",
+     "label": "2026/08/14 更新",
+     "title": "2026/08/14 更新",
+     "url": "https://manga.nicovideo.jp/comic/43287/new"
+    },
+    {
+     "date": "7月24日",
+     "label": "2026/07/24 更新",
+     "title": "2026/07/24 更新",
+     "url": "https://manga.nicovideo.jp/comic/43287/new"
+    },
+    {
+     "date": "7月10日",
+     "label": "2026/07/10 更新",
+     "title": "2026/07/10 更新",
+     "url": "https://manga.nicovideo.jp/comic/43287/new"
+    },
+    {
+     "date": "6月26日",
+     "label": "2026/06/26 更新",
+     "title": "2026/06/26 更新",
+     "url": "https://manga.nicovideo.jp/comic/43287/new"
+    },
+    {
+     "date": "6月12日",
+     "label": "2026/06/12 更新",
+     "title": "2026/06/12 更新",
+     "url": "https://manga.nicovideo.jp/comic/43287/new"
+    },
+    {
+     "date": "5月22日",
+     "label": "2026/05/22 更新",
+     "title": "2026/05/22 更新",
+     "url": "https://manga.nicovideo.jp/comic/43287/new"
+    },
+    {
+     "date": "2026年5月8日",
+     "label": "2026/05/08 更新",
+     "title": "2026/05/08 更新",
+     "url": "https://manga.nicovideo.jp/comic/43287/new"
+    },
+    {
+     "date": "2026年4月24日",
+     "label": "2026/04/24 更新",
+     "title": "2026/04/24 更新",
+     "url": "https://manga.nicovideo.jp/comic/43287/new"
+    },
+    {
+     "date": "2026年4月10日",
+     "label": "2026/04/10 更新",
+     "title": "2026/04/10 更新",
+     "url": "https://manga.nicovideo.jp/comic/43287/new"
+    }
+   ],
+   "latest": {
+    "date": "5分前",
+    "label": "2026/11/13 更新",
+    "title": "2026/11/13 更新",
+    "url": "https://manga.nicovideo.jp/comic/43287/new"
+   },
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/seiga/40404",
+   "title": "Aランク冒険者のスローライフ",
+   "site": "manga.nicovideo.jp",
+   "thumbFile": "data/thumbs/90096.jpg",
+   "history": [
+    {
+     "date": "5分前",
+     "label": "2026/11/13 更新",
+     "title": "2026/11/13 更新",
+     "url": "https://manga.nicovideo.jp/comic/40404/new"
+    },
+    {
+     "date": "10月30日",
+     "label": "2026/10/30 更新",
+     "title": "2026/10/30 更新",
+     "url": "https://manga.nicovideo.jp/comic/40404/new"
+    },
+    {
+     "date": "10月16日",
+     "label": "2026/10/16 更新",
+     "title": "2026/10/16 更新",
+     "url": "https://manga.nicovideo.jp/comic/40404/new"
+    },
+    {
+     "date": "10月2日",
+     "label": "2026/10/02 更新",
+     "title": "2026/10/02 更新",
+     "url": "https://manga.nicovideo.jp/comic/40404/new"
+    },
+    {
+     "date": "9月18日",
+     "label": "2026/09/18 更新",
+     "title": "2026/09/18 更新",
+     "url": "https://manga.nicovideo.jp/comic/40404/new"
+    },
+    {
+     "date": "9月4日",
+     "label": "2026/09/04 更新",
+     "title": "2026/09/04 更新",
+     "url": "https://manga.nicovideo.jp/comic/40404/new"
+    },
+    {
+     "date": "8月21日",
+     "label": "2026/08/21 更新",
+     "title": "2026/08/21 更新",
+     "url": "https://manga.nicovideo.jp/comic/40404/new"
+    },
+    {
+     "date": "8月7日",
+     "label": "2026/08/07 更新",
+     "title": "2026/08/07 更新",
+     "url": "https://manga.nicovideo.jp/comic/40404/new"
+    },
+    {
+     "date": "7月24日",
+     "label": "2026/07/24 更新",
+     "title": "2026/07/24 更新",
+     "url": "https://manga.nicovideo.jp/comic/40404/new"
+    },
+    {
+     "date": "7月10日",
+     "label": "2026/07/10 更新",
+     "title": "2026/07/10 更新",
+     "url": "https://manga.nicovideo.jp/comic/40404/new"
+    },
+    {
+     "date": "6月26日",
+     "label": "2026/06/26 更新",
+     "title": "2026/06/26 更新",
+     "url": "https://manga.nicovideo.jp/comic/40404/new"
+    },
+    {
+     "date": "6月12日",
+     "label": "2026/06/12 更新",
+     "title": "2026/06/12 更新",
+     "url": "https://manga.nicovideo.jp/comic/40404/new"
+    },
+    {
+     "date": "5月29日",
+     "label": "2026/05/29 更新",
+     "title": "2026/05/29 更新",
+     "url": "https://manga.nicovideo.jp/comic/40404/new"
+    },
+    {
+     "date": "2026年5月15日",
+     "label": "2026/05/15 更新",
+     "title": "2026/05/15 更新",
+     "url": "https://manga.nicovideo.jp/comic/40404/new"
+    },
+    {
+     "date": "2026年5月1日",
+     "label": "2026/05/01 更新",
+     "title": "2026/05/01 更新",
+     "url": "https://manga.nicovideo.jp/comic/40404/new"
+    }
+   ],
+   "latest": {
+    "date": "5分前",
+    "label": "2026/11/13 更新",
+    "title": "2026/11/13 更新",
+    "url": "https://manga.nicovideo.jp/comic/40404/new"
+   },
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/seiga/37144",
+   "title": "便利屋斎藤さん、異世界に行く",
+   "site": "manga.nicovideo.jp",
+   "thumbFile": "data/thumbs/82345.jpg",
+   "history": [
+    {
+     "date": "5分前",
+     "label": "2026/11/13 更新",
+     "title": "2026/11/13 更新",
+     "url": "https://manga.nicovideo.jp/comic/37144/new"
+    },
+    {
+     "date": "11月6日",
+     "label": "2026/11/06 更新",
+     "title": "2026/11/06 更新",
+     "url": "https://manga.nicovideo.jp/comic/37144/new"
+    },
+    {
+     "date": "10月30日",
+     "label": "2026/10/30 更新",
+     "title": "2026/10/30 更新",
+     "url": "https://manga.nicovideo.jp/comic/37144/new"
+    },
+    {
+     "date": "10月23日",
+     "label": "2026/10/23 更新",
+     "title": "2026/10/23 更新",
+     "url": "https://manga.nicovideo.jp/comic/37144/new"
+    },
+    {
+     "date": "10月16日",
+     "label": "2026/10/16 更新",
+     "title": "2026/10/16 更新",
+     "url": "https://manga.nicovideo.jp/comic/37144/new"
+    },
+    {
+     "date": "10月9日",
+     "label": "2026/10/09 更新",
+     "title": "2026/10/09 更新",
+     "url": "https://manga.nicovideo.jp/comic/37144/new"
+    },
+    {
+     "date": "10月2日",
+     "label": "2026/10/02 更新",
+     "title": "2026/10/02 更新",
+     "url": "https://manga.nicovideo.jp/comic/37144/new"
+    },
+    {
+     "date": "9月25日",
+     "label": "2026/09/25 更新",
+     "title": "2026/09/25 更新",
+     "url": "https://manga.nicovideo.jp/comic/37144/new"
+    },
+    {
+     "date": "9月18日",
+     "label": "2026/09/18 更新",
+     "title": "2026/09/18 更新",
+     "url": "https://manga.nicovideo.jp/comic/37144/new"
+    },
+    {
+     "date": "9月11日",
+     "label": "2026/09/11 更新",
+     "title": "2026/09/11 更新",
+     "url": "https://manga.nicovideo.jp/comic/37144/new"
+    },
+    {
+     "date": "9月4日",
+     "label": "2026/09/04 更新",
+     "title": "2026/09/04 更新",
+     "url": "https://manga.nicovideo.jp/comic/37144/new"
+    },
+    {
+     "date": "8月28日",
+     "label": "2026/08/28 更新",
+     "title": "2026/08/28 更新",
+     "url": "https://manga.nicovideo.jp/comic/37144/new"
+    },
+    {
+     "date": "8月21日",
+     "label": "2026/08/21 更新",
+     "title": "2026/08/21 更新",
+     "url": "https://manga.nicovideo.jp/comic/37144/new"
+    },
+    {
+     "date": "8月14日",
+     "label": "2026/08/14 更新",
+     "title": "2026/08/14 更新",
+     "url": "https://manga.nicovideo.jp/comic/37144/new"
+    },
+    {
+     "date": "8月7日",
+     "label": "2026/08/07 更新",
+     "title": "2026/08/07 更新",
+     "url": "https://manga.nicovideo.jp/comic/37144/new"
+    }
+   ],
+   "latest": {
+    "date": "5分前",
+    "label": "2026/11/13 更新",
+    "title": "2026/11/13 更新",
+    "url": "https://manga.nicovideo.jp/comic/37144/new"
+   },
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/tonarinoyj/2551460909476438255",
+   "title": "転生格ゲーマー ～オジでも勝てる異世界攻略～",
+   "site": "tonarinoyj.jp",
+   "thumbFile": "data/thumbs/193078.jpg",
+   "history": [
+    {
+     "date": "3時間前",
+     "label": "11.13(金)",
+     "title": "11.13(金)",
+     "url": "https://tonarinoyj.jp/episode/12207421984504172708"
+    },
+    {
+     "date": "10月30日",
+     "label": "10.30(金)",
+     "title": "10.30(金)",
+     "url": "https://tonarinoyj.jp/episode/12207421984436708485"
+    },
+    {
+     "date": "10月19日",
+     "label": "10.18(日)",
+     "title": "10.18(日)",
+     "url": "https://tonarinoyj.jp/episode/2551460909476438255"
+    },
+    {
+     "date": "10月16日",
+     "label": "10.16(金)",
+     "title": "10.16(金)",
+     "url": "https://tonarinoyj.jp/episode/12207421984350205609"
+    },
+    {
+     "date": "10月2日",
+     "label": "10.02(金)",
+     "title": "10.02(金)",
+     "url": "https://tonarinoyj.jp/episode/12207421984304051553"
+    },
+    {
+     "date": "9月18日",
+     "label": "09.18(金)",
+     "title": "09.18(金)",
+     "url": "https://tonarinoyj.jp/episode/12207421984236965136"
+    },
+    {
+     "date": "9月4日",
+     "label": "09.04(金)",
+     "title": "09.04(金)",
+     "url": "https://tonarinoyj.jp/episode/12207421984173978540"
+    },
+    {
+     "date": "8月21日",
+     "label": "08.21(金)",
+     "title": "08.21(金)",
+     "url": "https://tonarinoyj.jp/episode/12207421984112253202"
+    },
+    {
+     "date": "8月7日",
+     "label": "08.07(金)",
+     "title": "08.07(金)",
+     "url": "https://tonarinoyj.jp/episode/12207421984051970434"
+    },
+    {
+     "date": "7月24日",
+     "label": "07.24(金)",
+     "title": "07.24(金)",
+     "url": "https://tonarinoyj.jp/episode/12207421983997602780"
+    },
+    {
+     "date": "7月10日",
+     "label": "07.10(金)",
+     "title": "07.10(金)",
+     "url": "https://tonarinoyj.jp/episode/12207421983914838728"
+    },
+    {
+     "date": "6月26日",
+     "label": "06.26(金)",
+     "title": "06.26(金)",
+     "url": "https://tonarinoyj.jp/episode/12207421983865476145"
+    },
+    {
+     "date": "6月12日",
+     "label": "06.12(金)",
+     "title": "06.12(金)",
+     "url": "https://tonarinoyj.jp/episode/12207421983824961301"
+    },
+    {
+     "date": "5月29日",
+     "label": "05.29(金)",
+     "title": "05.29(金)",
+     "url": "https://tonarinoyj.jp/episode/12207421983769069935"
+    },
+    {
+     "date": "2026年5月15日",
+     "label": "05.15(金)",
+     "title": "05.15(金)",
+     "url": "https://tonarinoyj.jp/episode/12207421983714390192"
+    }
+   ],
+   "latest": {
+    "date": "3時間前",
+    "label": "11.13(金)",
+    "title": "11.13(金)",
+    "url": "https://tonarinoyj.jp/episode/12207421984504172708"
+   },
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/tonarinoyj/2550689798814983672",
+   "title": "生意気なギャル姉を解らせる話",
+   "site": "tonarinoyj.jp",
+   "thumbFile": "data/thumbs/172224.jpg",
+   "history": [
+    {
+     "date": "3時間前",
+     "label": "11.13(金)",
+     "title": "11.13(金)",
+     "url": "https://tonarinoyj.jp/episode/12207421984486492602"
+    },
+    {
+     "date": "10月30日",
+     "label": "10.30(金)",
+     "title": "10.30(金)",
+     "url": "https://tonarinoyj.jp/episode/12207421984415780124"
+    },
+    {
+     "date": "10月16日",
+     "label": "10.16(金)",
+     "title": "10.16(金)",
+     "url": "https://tonarinoyj.jp/episode/12207421984344664077"
+    },
+    {
+     "date": "10月2日",
+     "label": "10.02(金)",
+     "title": "10.02(金)",
+     "url": "https://tonarinoyj.jp/episode/12207421984308711714"
+    },
+    {
+     "date": "9月18日",
+     "label": "09.18(金)",
+     "title": "09.18(金)",
+     "url": "https://tonarinoyj.jp/episode/12207421984247094374"
+    },
+    {
+     "date": "9月17日",
+     "label": "09.16(水)",
+     "title": "09.16(水)",
+     "url": "https://tonarinoyj.jp/episode/2550689798814983672"
+    },
+    {
+     "date": "9月4日",
+     "label": "09.04(金)",
+     "title": "09.04(金)",
+     "url": "https://tonarinoyj.jp/episode/12207421984187040714"
+    },
+    {
+     "date": "8月28日",
+     "label": "08.28(金)",
+     "title": "08.28(金)",
+     "url": "https://tonarinoyj.jp/episode/12207421984152406619"
+    },
+    {
+     "date": "8月21日",
+     "label": "08.21(金)",
+     "title": "08.21(金)",
+     "url": "https://tonarinoyj.jp/episode/12207421984121293003"
+    },
+    {
+     "date": "7月31日",
+     "label": "07.31(金)",
+     "title": "07.31(金)",
+     "url": "https://tonarinoyj.jp/episode/12207421984031655083"
+    },
+    {
+     "date": "7月17日",
+     "label": "07.17(金)",
+     "title": "07.17(金)",
+     "url": "https://tonarinoyj.jp/episode/12207421983971648122"
+    },
+    {
+     "date": "7月10日",
+     "label": "07.10(金)",
+     "title": "07.10(金)",
+     "url": "https://tonarinoyj.jp/episode/12207421983946900948"
+    },
+    {
+     "date": "7月3日",
+     "label": "07.03(金)",
+     "title": "07.03(金)",
+     "url": "https://tonarinoyj.jp/episode/12207421983918314566"
+    },
+    {
+     "date": "6月19日",
+     "label": "06.19(金)",
+     "title": "06.19(金)",
+     "url": "https://tonarinoyj.jp/episode/12207421983858536474"
+    },
+    {
+     "date": "6月12日",
+     "label": "06.12(金)",
+     "title": "06.12(金)",
+     "url": "https://tonarinoyj.jp/episode/12207421983828651057"
+    }
+   ],
+   "latest": {
+    "date": "3時間前",
+    "label": "11.13(金)",
+    "title": "11.13(金)",
+    "url": "https://tonarinoyj.jp/episode/12207421984486492602"
+   },
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/tonarinoyj/13932016480028986061",
+   "title": "明日ちゃんのセーラー服",
+   "site": "tonarinoyj.jp",
+   "thumbFile": "data/thumbs/51593.jpg",
+   "history": [
+    {
+     "date": "3時間前",
+     "label": "11.13(金)",
+     "title": "11.13(金)",
+     "url": "https://tonarinoyj.jp/episode/12207421984486492593"
+    },
+    {
+     "date": "9月25日",
+     "label": "09.25(金)",
+     "title": "09.25(金)",
+     "url": "https://tonarinoyj.jp/episode/12207421984250783481"
+    },
+    {
+     "date": "8月21日",
+     "label": "08.21(金)",
+     "title": "08.21(金)",
+     "url": "https://tonarinoyj.jp/episode/12207421984112253227"
+    },
+    {
+     "date": "7月17日",
+     "label": "07.17(金)",
+     "title": "07.17(金)",
+     "url": "https://tonarinoyj.jp/episode/12207421983966650782"
+    },
+    {
+     "date": "6月5日",
+     "label": "06.05(金)",
+     "title": "06.05(金)",
+     "url": "https://tonarinoyj.jp/episode/12207421983805625487"
+    },
+    {
+     "date": "5月19日",
+     "label": "05.18(月)",
+     "title": "05.18(月)",
+     "url": "https://tonarinoyj.jp/episode/13932016480028986061"
+    },
+    {
+     "date": "2026年3月13日",
+     "label": "03.13(金)",
+     "title": "03.13(金)",
+     "url": "https://tonarinoyj.jp/episode/12207421983473735191"
+    },
+    {
+     "date": "2026年1月1日",
+     "label": "01.01(木)",
+     "title": "01.01(木)",
+     "url": "https://tonarinoyj.jp/episode/2551460909939396188"
+    },
+    {
+     "date": "2025年12月27日",
+     "label": "12.26(金)",
+     "title": "12.26(金)",
+     "url": "https://tonarinoyj.jp/episode/13932016480028986061"
+    },
+    {
+     "date": "2025年11月14日",
+     "label": "11.14(金)",
+     "title": "11.14(金)",
+     "url": "https://tonarinoyj.jp/episode/2551460909806523843"
+    },
+    {
+     "date": "2025年8月29日",
+     "label": "08.29(金)",
+     "title": "08.29(金)",
+     "url": "https://tonarinoyj.jp/episode/2551460909509035991"
+    },
+    {
+     "date": "2025年7月4日",
+     "label": "07.04(金)",
+     "title": "07.04(金)",
+     "url": "https://tonarinoyj.jp/episode/2550912965922450794"
+    },
+    {
+     "date": "2025年5月19日",
+     "label": "05.18(日)",
+     "title": "05.18(日)",
+     "url": "https://tonarinoyj.jp/episode/13932016480028986061"
+    },
+    {
+     "date": "2025年4月25日",
+     "label": "04.25(金)",
+     "title": "04.25(金)",
+     "url": "https://tonarinoyj.jp/episode/2550912965574723627"
+    },
+    {
+     "date": "2025年2月21日",
+     "label": "02.21(金)",
+     "title": "02.21(金)",
+     "url": "https://tonarinoyj.jp/episode/2550912965312793993"
+    }
+   ],
+   "latest": {
+    "date": "3時間前",
+    "label": "11.13(金)",
+    "title": "11.13(金)",
+    "url": "https://tonarinoyj.jp/episode/12207421984486492593"
+   },
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/kurage-bunch/10834108156739758650",
+   "title": "沖縄で好きになった子が方言すぎてツラすぎる",
+   "site": "kuragebunch.com",
+   "thumbFile": "data/thumbs/98790.jpg",
+   "history": [
+    {
+     "date": "3時間前",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/12207421984412058835"
+    },
+    {
+     "date": "11月6日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/12207421984412058828"
+    },
+    {
+     "date": "10月16日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/12207421984160750619"
+    },
+    {
+     "date": "9月25日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/12207421984065159659"
+    },
+    {
+     "date": "9月4日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/12207421983977993326"
+    },
+    {
+     "date": "8月14日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/12207421983893267908"
+    },
+    {
+     "date": "7月24日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/12207421983797478423"
+    },
+    {
+     "date": "7月3日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/12207421983721974246"
+    },
+    {
+     "date": "6月12日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/12207421983659638312"
+    },
+    {
+     "date": "5月22日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/12207421983368541832"
+    },
+    {
+     "date": "2026年5月8日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/2551460909942626324"
+    },
+    {
+     "date": "2026年3月27日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/12207421983526472328"
+    },
+    {
+     "date": "2026年2月20日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/2551460909913523958"
+    },
+    {
+     "date": "2026年2月6日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/2551460909942626311"
+    },
+    {
+     "date": "2026年1月16日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/2551460909784180196"
+    }
+   ],
+   "latest": {
+    "date": "3時間前",
+    "label": "更新",
+    "title": "更新",
+    "url": "https://kuragebunch.com/episode/12207421984412058835"
+   },
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/gardo/3269754496561201630",
+   "title": "山と食欲と私",
+   "site": "kuragebunch.com",
+   "thumbFile": "data/thumbs/86130.jpg",
+   "history": [
+    {
+     "date": "3時間前",
+     "label": "第154話「【大学生編】第26話」",
+     "title": "第154話「【大学生編】第26話」",
+     "url": "https://comic-gardo.com/episode/12207421984125549170"
+    },
+    {
+     "date": "10月2日",
+     "label": "第153話「【大学生編】第25話」",
+     "title": "第153話「【大学生編】第25話」",
+     "url": "https://comic-gardo.com/episode/12207421983943928752"
+    },
+    {
+     "date": "8月28日",
+     "label": "第152話「【大学生編】第24話」",
+     "title": "第152話「【大学生編】第24話」",
+     "url": "https://comic-gardo.com/episode/12207421983834474126"
+    },
+    {
+     "date": "7月17日",
+     "label": "第151話「【大学生編】第23話」",
+     "title": "第151話「【大学生編】第23話」",
+     "url": "https://comic-gardo.com/episode/12207421983722802592"
+    },
+    {
+     "date": "6月19日",
+     "label": "第150話「【大学生編】第22話」",
+     "title": "第150話「【大学生編】第22話」",
+     "url": "https://comic-gardo.com/episode/12207421983588323122"
+    },
+    {
+     "date": "5月22日",
+     "label": "第149話「【大学生編】第21話」",
+     "title": "第149話「【大学生編】第21話」",
+     "url": "https://comic-gardo.com/episode/12207421983480066664"
+    },
+    {
+     "date": "2026年4月17日",
+     "label": "第148話「【大学生編】第20話」",
+     "title": "第148話「【大学生編】第20話」",
+     "url": "https://comic-gardo.com/episode/12207421983351634746"
+    },
+    {
+     "date": "2026年3月20日",
+     "label": "第147話「【大学生編】第19話」",
+     "title": "第147話「【大学生編】第19話」",
+     "url": "https://comic-gardo.com/episode/2551460910042358466"
+    },
+    {
+     "date": "2026年1月16日",
+     "label": "第146話「【大学生編】第18話」",
+     "title": "第146話「【大学生編】第18話」",
+     "url": "https://comic-gardo.com/episode/2551460909813703952"
+    },
+    {
+     "date": "2025年11月14日",
+     "label": "第145話「【大学生編】第17話」",
+     "title": "第145話「【大学生編】第17話」",
+     "url": "https://comic-gardo.com/episode/2551460909681884108"
+    },
+    {
+     "date": "2025年10月10日",
+     "label": "第144話「【大学生編】第16話」",
+     "title": "第144話「【大学生編】第16話」",
+     "url": "https://comic-gardo.com/episode/2551460909483403760"
+    },
+    {
+     "date": "2025年8月22日",
+     "label": "第143話「【大学生編】第15話」",
+     "title": "第143話「【大学生編】第15話」",
+     "url": "https://comic-gardo.com/episode/2550912965983448594"
+    },
+    {
+     "date": "2025年7月18日",
+     "label": "第142話「【大学生編】第14話」",
+     "title": "第142話「【大学生編】第14話」",
+     "url": "https://comic-gardo.com/episode/2550912965854838757"
+    },
+    {
+     "date": "2025年6月20日",
+     "label": "第141話「【大学生編】第13話」",
+     "title": "第141話「【大学生編】第13話」",
+     "url": "https://comic-gardo.com/episode/2550912965607840063"
+    },
+    {
+     "date": "2025年4月25日",
+     "label": "第140話「【大学生編】第12話」",
+     "title": "第140話「【大学生編】第12話」",
+     "url": "https://comic-gardo.com/episode/2550912965479359100"
+    }
+   ],
+   "latest": {
+    "date": "3時間前",
+    "label": "第154話「【大学生編】第26話」",
+    "title": "第154話「【大学生編】第26話」",
+    "url": "https://comic-gardo.com/episode/12207421984125549170"
+   },
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/kurage-bunch/14079602755061194064",
+   "title": "133cmの景色",
+   "site": "kuragebunch.com",
+   "thumbFile": "data/thumbs/155718.jpg",
+   "history": [
+    {
+     "date": "3時間前",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/12207421984238014667"
+    },
+    {
+     "date": "10月30日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/12207421984238014654"
+    },
+    {
+     "date": "10月9日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/12207421984000504933"
+    },
+    {
+     "date": "9月25日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/12207421984000504926"
+    },
+    {
+     "date": "9月11日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/12207421983854440125"
+    },
+    {
+     "date": "7月31日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/12207421983854440111"
+    },
+    {
+     "date": "7月10日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/12207421983749279836"
+    },
+    {
+     "date": "6月26日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/12207421983749279831"
+    },
+    {
+     "date": "6月12日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/12207421983555941353"
+    },
+    {
+     "date": "5月29日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/12207421983555941345"
+    },
+    {
+     "date": "2026年5月8日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/12207421983502359181"
+    },
+    {
+     "date": "2026年4月24日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/12207421983502359171"
+    },
+    {
+     "date": "2026年4月10日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/12207421983395218469"
+    },
+    {
+     "date": "2026年3月27日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/12207421983395218464"
+    },
+    {
+     "date": "2026年3月13日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/2551460909938894175"
+    }
+   ],
+   "latest": {
+    "date": "3時間前",
+    "label": "更新",
+    "title": "更新",
+    "url": "https://kuragebunch.com/episode/12207421984238014667"
+   },
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/border/316190247000693368",
+   "title": "魔境斬刻録 隣り合わせの灰と青春",
+   "site": "comicborder.com",
+   "thumbFile": "data/thumbs/144232.jpg",
+   "history": [
+    {
+     "date": "3時間前",
+     "label": "最終更新:11/13",
+     "title": "最終更新:11/13",
+     "url": "https://comicborder.com/episode/12207421984500286285"
+    },
+    {
+     "date": "8月28日",
+     "label": "最終更新:08/28",
+     "title": "最終更新:08/28",
+     "url": "https://comicborder.com/episode/12207421984156159027"
+    },
+    {
+     "date": "8月27日",
+     "label": "最終更新:08/26",
+     "title": "最終更新:08/26",
+     "url": "https://comicborder.com/episode/2551460909537676750"
+    },
+    {
+     "date": "8月15日",
+     "label": "最終更新:12/15",
+     "title": "最終更新:12/15",
+     "url": "https://comicborder.com/episode/2550689798406461231"
+    },
+    {
+     "date": "6月26日",
+     "label": "最終更新:06/26",
+     "title": "最終更新:06/26",
+     "url": "https://comicborder.com/episode/12207421983854962762"
+    },
+    {
+     "date": "2026年4月24日",
+     "label": "最終更新:04/24",
+     "title": "最終更新:04/24",
+     "url": "https://comicborder.com/episode/12207421983629831027"
+    },
+    {
+     "date": "2026年2月20日",
+     "label": "最終更新:02/20",
+     "title": "最終更新:02/20",
+     "url": "https://comicborder.com/episode/12207421983368530832"
+    },
+    {
+     "date": "2025年12月15日",
+     "label": "最終更新:12/15",
+     "title": "最終更新:12/15",
+     "url": "https://comicborder.com/episode/316190247046420847"
+    },
+    {
+     "date": "2025年12月5日",
+     "label": "最終更新:12/05",
+     "title": "最終更新:12/05",
+     "url": "https://comicborder.com/episode/2551460909865911330"
+    },
+    {
+     "date": "2025年10月24日",
+     "label": "最終更新:10/24",
+     "title": "最終更新:10/24",
+     "url": "https://comicborder.com/episode/2551460909725624903"
+    },
+    {
+     "date": "2025年9月19日",
+     "label": "最終更新:09/19",
+     "title": "最終更新:09/19",
+     "url": "https://comicborder.com/episode/2551460909537676750"
+    },
+    {
+     "date": "2025年9月12日",
+     "label": "最終更新:09/12",
+     "title": "最終更新:09/12",
+     "url": "https://comicborder.com/episode/316190247046420847"
+    },
+    {
+     "date": "2025年7月4日",
+     "label": "最終更新:07/04",
+     "title": "最終更新:07/04",
+     "url": "https://comicborder.com/episode/2550912965918107002"
+    },
+    {
+     "date": "2025年5月2日",
+     "label": "最終更新:05/02",
+     "title": "最終更新:05/02",
+     "url": "https://comicborder.com/episode/2550912965630149883"
+    },
+    {
+     "date": "2025年2月28日",
+     "label": "最終更新:02/28",
+     "title": "最終更新:02/28",
+     "url": "https://comicborder.com/episode/2550912965349663450"
+    }
+   ],
+   "latest": {
+    "date": "3時間前",
+    "label": "最終更新:11/13",
+    "title": "最終更新:11/13",
+    "url": "https://comicborder.com/episode/12207421984500286285"
+   },
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/action/4856001361584756651",
+   "title": "放課後帰宅びより",
+   "site": "comic-action.com",
+   "thumbFile": "data/thumbs/155523.jpg",
+   "history": [
+    {
+     "date": "3時間前",
+     "label": "最新話を読む",
+     "title": "最新話を読む",
+     "url": "https://comic-action.com/episode/12207421984411755235"
+    },
+    {
+     "date": "10月23日",
+     "label": "最新話を読む",
+     "title": "最新話を読む",
+     "url": "https://comic-action.com/episode/12207421984252214261"
+    },
+    {
+     "date": "10月9日",
+     "label": "最新話を読む",
+     "title": "最新話を読む",
+     "url": "https://comic-action.com/episode/12207421984213076656"
+    },
+    {
+     "date": "9月25日",
+     "label": "最新話を読む",
+     "title": "最新話を読む",
+     "url": "https://comic-action.com/episode/12207421984152696679"
+    },
+    {
+     "date": "9月11日",
+     "label": "最新話を読む",
+     "title": "最新話を読む",
+     "url": "https://comic-action.com/episode/12207421984090057829"
+    },
+    {
+     "date": "8月28日",
+     "label": "最新話を読む",
+     "title": "最新話を読む",
+     "url": "https://comic-action.com/episode/12207421983997521464"
+    },
+    {
+     "date": "8月14日",
+     "label": "最新話を読む",
+     "title": "最新話を読む",
+     "url": "https://comic-action.com/episode/12207421983938872814"
+    },
+    {
+     "date": "7月24日",
+     "label": "最新話を読む",
+     "title": "最新話を読む",
+     "url": "https://comic-action.com/episode/12207421983881261183"
+    },
+    {
+     "date": "7月10日",
+     "label": "最新話を読む",
+     "title": "最新話を読む",
+     "url": "https://comic-action.com/episode/12207421983825422664"
+    },
+    {
+     "date": "6月26日",
+     "label": "最新話を読む",
+     "title": "最新話を読む",
+     "url": "https://comic-action.com/episode/12207421983769843814"
+    },
+    {
+     "date": "6月12日",
+     "label": "最新話を読む",
+     "title": "最新話を読む",
+     "url": "https://comic-action.com/episode/12207421983715036322"
+    },
+    {
+     "date": "5月29日",
+     "label": "最新話を読む",
+     "title": "最新話を読む",
+     "url": "https://comic-action.com/episode/12207421983637838490"
+    },
+    {
+     "date": "2026年5月15日",
+     "label": "最新話を読む",
+     "title": "最新話を読む",
+     "url": "https://comic-action.com/episode/12207421983585249656"
+    },
+    {
+     "date": "2026年4月24日",
+     "label": "最新話を読む",
+     "title": "最新話を読む",
+     "url": "https://comic-action.com/episode/12207421983526486482"
+    },
+    {
+     "date": "2026年4月10日",
+     "label": "最新話を読む",
+     "title": "最新話を読む",
+     "url": "https://comic-action.com/episode/12207421983480567445"
+    }
+   ],
+   "latest": {
+    "date": "3時間前",
+    "label": "最新話を読む",
+    "title": "最新話を読む",
+    "url": "https://comic-action.com/episode/12207421984411755235"
+   },
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/magapoke/01349",
+   "title": "はるかリセット",
+   "site": "championcross.jp",
+   "thumbFile": "data/thumbs/118190.jpg",
+   "history": [
+    {
+     "date": "15時間前",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/01349/episode/446087"
+    },
+    {
+     "date": "11月6日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/01349/episode/445528"
+    },
+    {
+     "date": "10月23日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/01349/episode/444686"
+    },
+    {
+     "date": "10月9日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/01349/episode/444101"
+    },
+    {
+     "date": "9月25日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/01349/episode/443458"
+    },
+    {
+     "date": "9月11日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/01349/episode/443087"
+    },
+    {
+     "date": "9月4日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/01349/episode/442469"
+    },
+    {
+     "date": "9月4日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/01349/episode/443366"
+    },
+    {
+     "date": "8月21日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/01349/episode/442031"
+    },
+    {
+     "date": "8月7日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/01349/episode/441621"
+    },
+    {
+     "date": "7月31日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/01349/episode/441280"
+    },
+    {
+     "date": "7月24日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/01349/episode/388399"
+    },
+    {
+     "date": "7月17日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/01349/episode/440234"
+    },
+    {
+     "date": "7月3日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/01349/episode/439987"
+    },
+    {
+     "date": "6月26日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/01349/episode/439665"
+    }
+   ],
+   "latest": {
+    "date": "15時間前",
+    "label": "更新",
+    "title": "更新",
+    "url": "https://pocket.shonenmagazine.com/title/01349/episode/446087"
+   },
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/magapoke/01152",
+   "title": "転生貴族、鑑定スキルで成り上がる～弱小領地を受け継いだので、優秀な人材を増やしていたら、最強領地にな...",
+   "site": "pocket.shonenmagazine.com",
+   "thumbFile": "data/thumbs/105724.jpg",
+   "history": [
+    {
+     "date": "15時間前",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/01152/episode/445527"
+    },
+    {
+     "date": "11月7日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/01152/episode/444548"
+    },
+    {
+     "date": "10月23日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/01152/episode/312616"
+    },
+    {
+     "date": "10月2日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/01152/episode/443457"
+    },
+    {
+     "date": "9月27日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/01152/episode/346712"
+    },
+    {
+     "date": "9月11日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/01152/episode/442468"
+    },
+    {
+     "date": "8月21日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/01152/episode/441620"
+    },
+    {
+     "date": "7月31日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/01152/episode/440677"
+    },
+    {
+     "date": "7月10日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/01152/episode/439664"
+    },
+    {
+     "date": "6月19日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/01152/episode/438336"
+    },
+    {
+     "date": "6月5日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/01152/episode/439030"
+    },
+    {
+     "date": "5月29日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/01152/episode/436358"
+    },
+    {
+     "date": "5月21日",
+     "label": "【第174話】飛行船",
+     "title": "【第174話】飛行船",
+     "url": "https://pocket.shonenmagazine.com/title/01152/episode/432245"
+    },
+    {
+     "date": "2026年5月1日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/01152/episode/434698"
+    },
+    {
+     "date": "2026年4月30日",
+     "label": "【第173話】鑑定眼",
+     "title": "【第173話】鑑定眼",
+     "url": "https://pocket.shonenmagazine.com/title/01152/episode/431643"
+    }
+   ],
+   "latest": {
+    "date": "15時間前",
+    "label": "更新",
+    "title": "更新",
+    "url": "https://pocket.shonenmagazine.com/title/01152/episode/445527"
+   },
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/ganganonline/1863",
+   "title": "異世界刀匠の魔剣製作ぐらし",
+   "site": "www.ganganonline.com",
+   "thumbFile": "data/thumbs/164154.jpg",
+   "history": [],
+   "latest": null,
+   "error": "更新履歴を取得できませんでした"
+  },
+  {
+   "detailUrl": "https://webcomics.jp/comic-days/14079602755444925507",
+   "title": "あくまでクジャクの話です。",
+   "site": "comic-days.com",
+   "thumbFile": "data/thumbs/160957.jpg",
+   "history": [
+    {
+     "date": "11月12日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983379583767"
+    },
+    {
+     "date": "10月29日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983379583754"
+    },
+    {
+     "date": "10月1日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983379583741"
+    },
+    {
+     "date": "9月17日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983379583732"
+    },
+    {
+     "date": "9月3日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983379583723"
+    },
+    {
+     "date": "8月6日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983379583714"
+    },
+    {
+     "date": "7月23日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983379583705"
+    },
+    {
+     "date": "7月9日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983379583696"
+    },
+    {
+     "date": "6月27日",
+     "label": "#1/性淘汰",
+     "title": "#1/性淘汰",
+     "url": "https://comic-days.com/episode/14079602755444925507"
+    },
+    {
+     "date": "6月21日",
+     "label": "#11/反応閾値(後編)",
+     "title": "#11/反応閾値(後編)",
+     "url": "https://comic-days.com/episode/14079602755444925580"
+    },
+    {
+     "date": "6月11日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/2551460909617418670"
+    },
+    {
+     "date": "5月28日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/2551460909617418662"
+    },
+    {
+     "date": "2026年5月10日",
+     "label": "#19/赤の女王仮説(前編)",
+     "title": "#19/赤の女王仮説(前編)",
+     "url": "https://comic-days.com/episode/14079602755444925633"
+    },
+    {
+     "date": "2026年4月30日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/2551460909617418656"
+    },
+    {
+     "date": "2026年4月16日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/2551460909617418650"
+    }
+   ],
+   "latest": {
+    "date": "11月12日",
+    "label": "更新",
+    "title": "更新",
+    "url": "https://comic-days.com/episode/12207421983379583767"
+   },
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/comic-days/2550689798348951957",
+   "title": "歴史に残る悪女になるぞ 悪役令嬢になるほど王子の溺愛は加速するようです!",
+   "site": "comic-walker.com",
+   "thumbFile": "data/thumbs/170296.jpg",
+   "history": [
+    {
+     "date": "11月12日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/2551460909859039676"
+    },
+    {
+     "date": "10月29日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421984382492933"
+    },
+    {
+     "date": "10月8日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/2551460909859039670"
+    },
+    {
+     "date": "9月10日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/2551460909859039659"
+    },
+    {
+     "date": "8月13日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/2551460909859039650"
+    },
+    {
+     "date": "7月30日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/2551460909859039639"
+    },
+    {
+     "date": "7月9日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/2551460909859039630"
+    },
+    {
+     "date": "6月11日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/2550912965796657997"
+    },
+    {
+     "date": "2026年5月14日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/2550912965796657991"
+    },
+    {
+     "date": "2026年4月30日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/2550912965796657982"
+    },
+    {
+     "date": "2026年4月9日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/2550912965796657972"
+    },
+    {
+     "date": "2026年3月12日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/2550912965796657961"
+    },
+    {
+     "date": "2026年2月12日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/2550912965796657954"
+    },
+    {
+     "date": "2026年2月5日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/2551460910044106674"
+    },
+    {
+     "date": "2026年1月15日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/2550912965796657941"
+    }
+   ],
+   "latest": {
+    "date": "11月12日",
+    "label": "更新",
+    "title": "更新",
+    "url": "https://comic-days.com/episode/2551460909859039676"
+   },
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/seiga/49497",
+   "title": "雑用付与術師が自分の最強に気付くまで",
+   "site": "gaugau.futabanet.jp",
+   "thumbFile": "data/thumbs/109395.jpg",
+   "history": [
+    {
+     "date": "11月12日",
+     "label": "2026/11/12 更新",
+     "title": "2026/11/12 更新",
+     "url": "https://manga.nicovideo.jp/comic/49497/new"
+    },
+    {
+     "date": "11月5日",
+     "label": "2026/11/05 更新",
+     "title": "2026/11/05 更新",
+     "url": "https://manga.nicovideo.jp/comic/49497/new"
+    },
+    {
+     "date": "10月22日",
+     "label": "2026/10/22 更新",
+     "title": "2026/10/22 更新",
+     "url": "https://manga.nicovideo.jp/comic/49497/new"
+    },
+    {
+     "date": "10月8日",
+     "label": "2026/10/08 更新",
+     "title": "2026/10/08 更新",
+     "url": "https://manga.nicovideo.jp/comic/49497/new"
+    },
+    {
+     "date": "9月25日",
+     "label": "2026/09/25 更新",
+     "title": "2026/09/25 更新",
+     "url": "https://manga.nicovideo.jp/comic/49497/new"
+    },
+    {
+     "date": "9月10日",
+     "label": "2026/09/10 更新",
+     "title": "2026/09/10 更新",
+     "url": "https://manga.nicovideo.jp/comic/49497/new"
+    },
+    {
+     "date": "8月27日",
+     "label": "2026/08/27 更新",
+     "title": "2026/08/27 更新",
+     "url": "https://manga.nicovideo.jp/comic/49497/new"
+    },
+    {
+     "date": "7月9日",
+     "label": "2026/07/09 更新",
+     "title": "2026/07/09 更新",
+     "url": "https://manga.nicovideo.jp/comic/49497/new"
+    },
+    {
+     "date": "6月25日",
+     "label": "2026/06/25 更新",
+     "title": "2026/06/25 更新",
+     "url": "https://manga.nicovideo.jp/comic/49497/new"
+    },
+    {
+     "date": "6月11日",
+     "label": "2026/06/11 更新",
+     "title": "2026/06/11 更新",
+     "url": "https://manga.nicovideo.jp/comic/49497/new"
+    },
+    {
+     "date": "5月28日",
+     "label": "2026/05/28 更新",
+     "title": "2026/05/28 更新",
+     "url": "https://manga.nicovideo.jp/comic/49497/new"
+    },
+    {
+     "date": "2026年5月14日",
+     "label": "2026/05/14 更新",
+     "title": "2026/05/14 更新",
+     "url": "https://manga.nicovideo.jp/comic/49497/new"
+    },
+    {
+     "date": "2026年5月7日",
+     "label": "2026/05/07 更新",
+     "title": "2026/05/07 更新",
+     "url": "https://manga.nicovideo.jp/comic/49497/new"
+    },
+    {
+     "date": "2026年4月23日",
+     "label": "2026/04/23 更新",
+     "title": "2026/04/23 更新",
+     "url": "https://manga.nicovideo.jp/comic/49497/new"
+    },
+    {
+     "date": "2026年4月9日",
+     "label": "2026/04/09 更新",
+     "title": "2026/04/09 更新",
+     "url": "https://manga.nicovideo.jp/comic/49497/new"
+    }
+   ],
+   "latest": {
+    "date": "11月12日",
+    "label": "2026/11/12 更新",
+    "title": "2026/11/12 更新",
+    "url": "https://manga.nicovideo.jp/comic/49497/new"
+   },
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/comic-days/13932016480029400596",
+   "title": "サタノファニ",
+   "site": "comic-days.com",
+   "thumbFile": "data/thumbs/107105.jpg",
+   "history": [
+    {
+     "date": "11月12日",
+     "label": "第343話① 「可哀想な人」",
+     "title": "第343話① 「可哀想な人」",
+     "url": "https://comic-days.com/episode/12207421983566481766"
+    },
+    {
+     "date": "11月4日",
+     "label": "第342話 「逸した洞察」",
+     "title": "第342話 「逸した洞察」",
+     "url": "https://comic-days.com/episode/12207421983566481761"
+    },
+    {
+     "date": "10月29日",
+     "label": "第341話 「エンペラーオブレイパー」",
+     "title": "第341話 「エンペラーオブレイパー」",
+     "url": "https://comic-days.com/episode/12207421983566481756"
+    },
+    {
+     "date": "10月23日",
+     "label": "第340話 「キングレイパー」",
+     "title": "第340話 「キングレイパー」",
+     "url": "https://comic-days.com/episode/12207421983566481752"
+    },
+    {
+     "date": "10月17日",
+     "label": "第339話② 「射銃」",
+     "title": "第339話② 「射銃」",
+     "url": "https://comic-days.com/episode/12207421983566481748"
+    },
+    {
+     "date": "10月11日",
+     "label": "第339話① 「射銃」",
+     "title": "第339話① 「射銃」",
+     "url": "https://comic-days.com/episode/12207421983566481744"
+    },
+    {
+     "date": "10月5日",
+     "label": "第338話 「発破」",
+     "title": "第338話 「発破」",
+     "url": "https://comic-days.com/episode/12207421983566481739"
+    },
+    {
+     "date": "9月29日",
+     "label": "第337話 「仇討ち」",
+     "title": "第337話 「仇討ち」",
+     "url": "https://comic-days.com/episode/12207421983566481732"
+    },
+    {
+     "date": "9月17日",
+     "label": "第336話 「人たらしめるもの」",
+     "title": "第336話 「人たらしめるもの」",
+     "url": "https://comic-days.com/episode/12207421983566481726"
+    },
+    {
+     "date": "8月28日",
+     "label": "第335話 「高IQレスラー」",
+     "title": "第335話 「高IQレスラー」",
+     "url": "https://comic-days.com/episode/12207421983566481722"
+    },
+    {
+     "date": "8月16日",
+     "label": "第334話 「身体の主導権」",
+     "title": "第334話 「身体の主導権」",
+     "url": "https://comic-days.com/episode/12207421983566481716"
+    },
+    {
+     "date": "8月4日",
+     "label": "第333話 「起死回生」",
+     "title": "第333話 「起死回生」",
+     "url": "https://comic-days.com/episode/12207421983566481712"
+    },
+    {
+     "date": "7月22日",
+     "label": "第332話 「正面突破」",
+     "title": "第332話 「正面突破」",
+     "url": "https://comic-days.com/episode/12207421983566481706"
+    },
+    {
+     "date": "7月2日",
+     "label": "第331話 「愛の力」",
+     "title": "第331話 「愛の力」",
+     "url": "https://comic-days.com/episode/12207421983566481702"
+    },
+    {
+     "date": "6月25日",
+     "label": "第330話 「公開処刑」",
+     "title": "第330話 「公開処刑」",
+     "url": "https://comic-days.com/episode/12207421983566481696"
+    }
+   ],
+   "latest": {
+    "date": "11月12日",
+    "label": "第343話① 「可哀想な人」",
+    "title": "第343話① 「可哀想な人」",
+    "url": "https://comic-days.com/episode/12207421983566481766"
+   },
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/comic-fuz/3542",
+   "title": "チハヤリスタート!",
+   "site": "comic-fuz.com",
+   "thumbFile": "data/thumbs/172771.jpg",
+   "history": [],
+   "latest": null,
+   "error": "更新履歴を取得できませんでした"
+  },
+  {
+   "detailUrl": "https://webcomics.jp/ganganonline/11",
+   "title": "スライム倒して300年、知らないうちにレベルMAXになってました",
+   "site": "www.ganganonline.com",
+   "thumbFile": "data/thumbs/66008.jpg",
+   "history": [],
+   "latest": null,
+   "error": "更新履歴を取得できませんでした"
+  },
+  {
+   "detailUrl": "https://webcomics.jp/alphapolis/48000051",
+   "title": "月が導く異世界道中",
+   "site": "www.alphapolis.co.jp",
+   "thumbFile": "data/thumbs/24985.jpg",
+   "history": [],
+   "latest": null,
+   "error": "更新履歴を取得できませんでした"
+  },
+  {
+   "detailUrl": "https://webcomics.jp/tonarinoyj/10044607041237644941",
+   "title": "オタク同僚と偽装結婚した結果、毎日がメッチャ楽しいんだけど!",
+   "site": "comic-walker.com",
+   "thumbFile": "data/thumbs/163810.jpg",
+   "history": [
+    {
+     "date": "11月11日",
+     "label": "11.11(水)",
+     "title": "11.11(水)",
+     "url": "https://tonarinoyj.jp/episode/12207421984475669016"
+    },
+    {
+     "date": "10月28日",
+     "label": "10.28(水)",
+     "title": "10.28(水)",
+     "url": "https://tonarinoyj.jp/episode/12207421984415780113"
+    },
+    {
+     "date": "10月21日",
+     "label": "10.21(水)",
+     "title": "10.21(水)",
+     "url": "https://tonarinoyj.jp/episode/12207421984373430151"
+    },
+    {
+     "date": "10月19日",
+     "label": "10.18(日)",
+     "title": "10.18(日)",
+     "url": "https://tonarinoyj.jp/episode/10044607041237644941"
+    },
+    {
+     "date": "10月14日",
+     "label": "10.14(水)",
+     "title": "10.14(水)",
+     "url": "https://tonarinoyj.jp/episode/12207421984340720089"
+    },
+    {
+     "date": "9月30日",
+     "label": "09.30(水)",
+     "title": "09.30(水)",
+     "url": "https://tonarinoyj.jp/episode/12207421984284937393"
+    },
+    {
+     "date": "9月23日",
+     "label": "09.23(水)",
+     "title": "09.23(水)",
+     "url": "https://tonarinoyj.jp/episode/12207421984242199418"
+    },
+    {
+     "date": "9月16日",
+     "label": "09.16(水)",
+     "title": "09.16(水)",
+     "url": "https://tonarinoyj.jp/episode/12207421984212870810"
+    },
+    {
+     "date": "9月2日",
+     "label": "09.02(水)",
+     "title": "09.02(水)",
+     "url": "https://tonarinoyj.jp/episode/12207421984152908709"
+    },
+    {
+     "date": "8月26日",
+     "label": "08.26(水)",
+     "title": "08.26(水)",
+     "url": "https://tonarinoyj.jp/episode/12207421984121293008"
+    },
+    {
+     "date": "8月19日",
+     "label": "08.19(水)",
+     "title": "08.19(水)",
+     "url": "https://tonarinoyj.jp/episode/12207421984093802428"
+    },
+    {
+     "date": "8月5日",
+     "label": "08.05(水)",
+     "title": "08.05(水)",
+     "url": "https://tonarinoyj.jp/episode/12207421984027215029"
+    },
+    {
+     "date": "7月29日",
+     "label": "07.29(水)",
+     "title": "07.29(水)",
+     "url": "https://tonarinoyj.jp/episode/12207421984001385906"
+    },
+    {
+     "date": "7月22日",
+     "label": "07.22(水)",
+     "title": "07.22(水)",
+     "url": "https://tonarinoyj.jp/episode/12207421983972478474"
+    },
+    {
+     "date": "7月8日",
+     "label": "07.08(水)",
+     "title": "07.08(水)",
+     "url": "https://tonarinoyj.jp/episode/12207421983910526846"
+    }
+   ],
+   "latest": {
+    "date": "11月11日",
+    "label": "11.11(水)",
+    "title": "11.11(水)",
+    "url": "https://tonarinoyj.jp/episode/12207421984475669016"
+   },
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/pixiv-comic/7452",
+   "title": "獣上司に実は認められていた話",
+   "site": "comic.pixiv.net",
+   "thumbFile": "data/thumbs/117818.jpg",
+   "history": [],
+   "latest": null,
+   "error": "更新履歴を取得できませんでした"
+  },
+  {
+   "detailUrl": "https://webcomics.jp/seiga/40386",
+   "title": "嘘彼氏でもいいからとにかくシたいましろちゃん",
+   "site": "kirapo.jp",
+   "thumbFile": "data/thumbs/89045.jpg",
+   "history": [
+    {
+     "date": "11月11日",
+     "label": "2026/11/11 更新",
+     "title": "2026/11/11 更新",
+     "url": "https://manga.nicovideo.jp/comic/40386/new"
+    },
+    {
+     "date": "11月4日",
+     "label": "2026/11/04 更新",
+     "title": "2026/11/04 更新",
+     "url": "https://manga.nicovideo.jp/comic/40386/new"
+    },
+    {
+     "date": "10月28日",
+     "label": "2026/10/28 更新",
+     "title": "2026/10/28 更新",
+     "url": "https://manga.nicovideo.jp/comic/40386/new"
+    },
+    {
+     "date": "10月21日",
+     "label": "2026/10/21 更新",
+     "title": "2026/10/21 更新",
+     "url": "https://manga.nicovideo.jp/comic/40386/new"
+    },
+    {
+     "date": "10月14日",
+     "label": "2026/10/14 更新",
+     "title": "2026/10/14 更新",
+     "url": "https://manga.nicovideo.jp/comic/40386/new"
+    },
+    {
+     "date": "10月7日",
+     "label": "2026/10/07 更新",
+     "title": "2026/10/07 更新",
+     "url": "https://manga.nicovideo.jp/comic/40386/new"
+    },
+    {
+     "date": "9月30日",
+     "label": "2026/09/30 更新",
+     "title": "2026/09/30 更新",
+     "url": "https://manga.nicovideo.jp/comic/40386/new"
+    },
+    {
+     "date": "9月23日",
+     "label": "2026/09/23 更新",
+     "title": "2026/09/23 更新",
+     "url": "https://manga.nicovideo.jp/comic/40386/new"
+    },
+    {
+     "date": "9月16日",
+     "label": "2026/09/16 更新",
+     "title": "2026/09/16 更新",
+     "url": "https://manga.nicovideo.jp/comic/40386/new"
+    },
+    {
+     "date": "9月9日",
+     "label": "2026/09/09 更新",
+     "title": "2026/09/09 更新",
+     "url": "https://manga.nicovideo.jp/comic/40386/new"
+    },
+    {
+     "date": "9月2日",
+     "label": "2026/09/02 更新",
+     "title": "2026/09/02 更新",
+     "url": "https://manga.nicovideo.jp/comic/40386/new"
+    },
+    {
+     "date": "8月26日",
+     "label": "2026/08/26 更新",
+     "title": "2026/08/26 更新",
+     "url": "https://manga.nicovideo.jp/comic/40386/new"
+    },
+    {
+     "date": "8月19日",
+     "label": "2026/08/19 更新",
+     "title": "2026/08/19 更新",
+     "url": "https://manga.nicovideo.jp/comic/40386/new"
+    },
+    {
+     "date": "8月12日",
+     "label": "2026/08/12 更新",
+     "title": "2026/08/12 更新",
+     "url": "https://manga.nicovideo.jp/comic/40386/new"
+    },
+    {
+     "date": "8月5日",
+     "label": "2026/08/05 更新",
+     "title": "2026/08/05 更新",
+     "url": "https://manga.nicovideo.jp/comic/40386/new"
+    }
+   ],
+   "latest": {
+    "date": "11月11日",
+    "label": "2026/11/11 更新",
+    "title": "2026/11/11 更新",
+    "url": "https://manga.nicovideo.jp/comic/40386/new"
+   },
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/sunday-webry/2550689798720514298",
+   "title": "108P!~1年後に絶対108Pする話~",
+   "site": "yanmaga.jp",
+   "thumbFile": "data/thumbs/170826.jpg",
+   "history": [
+    {
+     "date": "11月11日",
+     "label": "第82話 王都の戦い2",
+     "title": "第82話 王都の戦い2",
+     "url": "https://www.sunday-webry.com/episode/12207421984504574421"
+    },
+    {
+     "date": "11月4日",
+     "label": "おまけ",
+     "title": "おまけ",
+     "url": "https://www.sunday-webry.com/episode/12207421984467508049"
+    },
+    {
+     "date": "10月28日",
+     "label": "第81話 王都の戦い1",
+     "title": "第81話 王都の戦い1",
+     "url": "https://www.sunday-webry.com/episode/12207421984440175019"
+    },
+    {
+     "date": "10月21日",
+     "label": "第80話 姫と少年",
+     "title": "第80話 姫と少年",
+     "url": "https://www.sunday-webry.com/episode/12207421984407441972"
+    },
+    {
+     "date": "10月14日",
+     "label": "おまけ",
+     "title": "おまけ",
+     "url": "https://www.sunday-webry.com/episode/12207421984373282709"
+    },
+    {
+     "date": "10月7日",
+     "label": "第79話 ライン王家",
+     "title": "第79話 ライン王家",
+     "url": "https://www.sunday-webry.com/episode/12207421984341276148"
+    },
+    {
+     "date": "9月30日",
+     "label": "第78話 逆撃の時",
+     "title": "第78話 逆撃の時",
+     "url": "https://www.sunday-webry.com/episode/12207421984309321616"
+    },
+    {
+     "date": "9月23日",
+     "label": "おまけ",
+     "title": "おまけ",
+     "url": "https://www.sunday-webry.com/episode/12207421984255374514"
+    },
+    {
+     "date": "9月16日",
+     "label": "第77話 悪巧みの午後",
+     "title": "第77話 悪巧みの午後",
+     "url": "https://www.sunday-webry.com/episode/12207421984242740147"
+    },
+    {
+     "date": "9月9日",
+     "label": "第76話 誤算",
+     "title": "第76話 誤算",
+     "url": "https://www.sunday-webry.com/episode/12207421984209691598"
+    },
+    {
+     "date": "9月2日",
+     "label": "おまけ",
+     "title": "おまけ",
+     "url": "https://www.sunday-webry.com/episode/12207421984178912880"
+    },
+    {
+     "date": "8月26日",
+     "label": "第75話 刃の気配",
+     "title": "第75話 刃の気配",
+     "url": "https://www.sunday-webry.com/episode/12207421984148554605"
+    },
+    {
+     "date": "8月19日",
+     "label": "第74話 大樹",
+     "title": "第74話 大樹",
+     "url": "https://www.sunday-webry.com/episode/12207421984118008921"
+    },
+    {
+     "date": "8月12日",
+     "label": "おまけ",
+     "title": "おまけ",
+     "url": "https://www.sunday-webry.com/episode/12207421984069367126"
+    },
+    {
+     "date": "8月5日",
+     "label": "第73話 雨宿り",
+     "title": "第73話 雨宿り",
+     "url": "https://www.sunday-webry.com/episode/12207421984056517594"
+    }
+   ],
+   "latest": {
+    "date": "11月11日",
+    "label": "第82話 王都の戦い2",
+    "title": "第82話 王都の戦い2",
+    "url": "https://www.sunday-webry.com/episode/12207421984504574421"
+   },
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/ganganonline/45",
+   "title": "ここは俺に任せて先に行けと言ってから10年がたったら伝説になっていた。",
+   "site": "www.ganganonline.com",
+   "thumbFile": "data/thumbs/94794.jpg",
+   "history": [],
+   "latest": null,
+   "error": "更新履歴を取得できませんでした"
+  },
+  {
+   "detailUrl": "https://webcomics.jp/ganganonline/51",
+   "title": "最強の魔導士。ひざに矢をうけてしまったので田舎の衛兵になる",
+   "site": "www.ganganonline.com",
+   "thumbFile": "data/thumbs/91331.jpg",
+   "history": [],
+   "latest": null,
+   "error": "更新履歴を取得できませんでした"
+  },
+  {
+   "detailUrl": "https://webcomics.jp/ganganonline/65",
+   "title": "転生賢者の異世界ライフ ～第二の職業を得て、世界最強になりました～",
+   "site": "www.ganganonline.com",
+   "thumbFile": "data/thumbs/79962.jpg",
+   "history": [],
+   "latest": null,
+   "error": "更新履歴を取得できませんでした"
+  },
+  {
+   "detailUrl": "https://webcomics.jp/ganganonline/43",
+   "title": "神達に拾われた男",
+   "site": "www.ganganonline.com",
+   "thumbFile": "data/thumbs/71635.jpg",
+   "history": [],
+   "latest": null,
+   "error": "更新履歴を取得できませんでした"
+  },
+  {
+   "detailUrl": "https://webcomics.jp/comic-days/4856001361557479910",
+   "title": "ビュー",
+   "site": "omocoro.jp",
+   "thumbFile": "data/thumbs/155725.jpg",
+   "history": [
+    {
+     "date": "11月10日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421984094267193"
+    },
+    {
+     "date": "11月3日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421984094267188"
+    },
+    {
+     "date": "10月27日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421984094267185"
+    },
+    {
+     "date": "10月26日",
+     "label": "第1話 友情なき戦いが始まった",
+     "title": "第1話 友情なき戦いが始まった",
+     "url": "https://comic-days.com/episode/4856001361557479910"
+    },
+    {
+     "date": "10月20日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421984094267180"
+    },
+    {
+     "date": "10月13日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983825783093"
+    },
+    {
+     "date": "9月29日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983825783090"
+    },
+    {
+     "date": "9月22日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983825783087"
+    },
+    {
+     "date": "9月15日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983825783084"
+    },
+    {
+     "date": "9月8日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983825783081"
+    },
+    {
+     "date": "9月1日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983825783078"
+    },
+    {
+     "date": "8月11日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983825783075"
+    },
+    {
+     "date": "8月4日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983825783072"
+    },
+    {
+     "date": "7月28日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983825783067"
+    },
+    {
+     "date": "7月21日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983825783063"
+    }
+   ],
+   "latest": {
+    "date": "11月10日",
+    "label": "更新",
+    "title": "更新",
+    "url": "https://comic-days.com/episode/12207421984094267193"
+   },
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/pixiv-comic/5531",
+   "title": "俺ん家が女子の溜まり場になっている件",
+   "site": "comic-walker.com",
+   "thumbFile": "data/thumbs/88680.jpg",
+   "history": [],
+   "latest": null,
+   "error": "更新履歴を取得できませんでした"
+  },
+  {
+   "detailUrl": "https://webcomics.jp/seiga/48017",
+   "title": "バーナード嬢曰く。",
+   "site": "manga.nicovideo.jp",
+   "thumbFile": "data/thumbs/106170.jpg",
+   "history": [
+    {
+     "date": "11月10日",
+     "label": "2026/11/10 更新",
+     "title": "2026/11/10 更新",
+     "url": "https://manga.nicovideo.jp/comic/48017/new"
+    },
+    {
+     "date": "10月13日",
+     "label": "2026/10/13 更新",
+     "title": "2026/10/13 更新",
+     "url": "https://manga.nicovideo.jp/comic/48017/new"
+    },
+    {
+     "date": "9月8日",
+     "label": "2026/09/08 更新",
+     "title": "2026/09/08 更新",
+     "url": "https://manga.nicovideo.jp/comic/48017/new"
+    },
+    {
+     "date": "8月11日",
+     "label": "2026/08/11 更新",
+     "title": "2026/08/11 更新",
+     "url": "https://manga.nicovideo.jp/comic/48017/new"
+    },
+    {
+     "date": "7月14日",
+     "label": "2026/07/14 更新",
+     "title": "2026/07/14 更新",
+     "url": "https://manga.nicovideo.jp/comic/48017/new"
+    },
+    {
+     "date": "6月9日",
+     "label": "2026/06/09 更新",
+     "title": "2026/06/09 更新",
+     "url": "https://manga.nicovideo.jp/comic/48017/new"
+    },
+    {
+     "date": "2026年5月12日",
+     "label": "2026/05/12 更新",
+     "title": "2026/05/12 更新",
+     "url": "https://manga.nicovideo.jp/comic/48017/new"
+    },
+    {
+     "date": "2026年4月14日",
+     "label": "2026/04/14 更新",
+     "title": "2026/04/14 更新",
+     "url": "https://manga.nicovideo.jp/comic/48017/new"
+    },
+    {
+     "date": "2026年3月10日",
+     "label": "2026/03/10 更新",
+     "title": "2026/03/10 更新",
+     "url": "https://manga.nicovideo.jp/comic/48017/new"
+    },
+    {
+     "date": "2026年2月10日",
+     "label": "2026/02/10 更新",
+     "title": "2026/02/10 更新",
+     "url": "https://manga.nicovideo.jp/comic/48017/new"
+    },
+    {
+     "date": "2026年1月13日",
+     "label": "2026/01/13 更新",
+     "title": "2026/01/13 更新",
+     "url": "https://manga.nicovideo.jp/comic/48017/new"
+    },
+    {
+     "date": "2025年12月9日",
+     "label": "2025/12/09 更新",
+     "title": "2025/12/09 更新",
+     "url": "https://manga.nicovideo.jp/comic/48017/new"
+    },
+    {
+     "date": "2025年11月11日",
+     "label": "2025/11/11 更新",
+     "title": "2025/11/11 更新",
+     "url": "https://manga.nicovideo.jp/comic/48017/new"
+    },
+    {
+     "date": "2025年10月14日",
+     "label": "2025/10/14 更新",
+     "title": "2025/10/14 更新",
+     "url": "https://manga.nicovideo.jp/comic/48017/new"
+    },
+    {
+     "date": "2025年9月9日",
+     "label": "2025/09/09 更新",
+     "title": "2025/09/09 更新",
+     "url": "https://manga.nicovideo.jp/comic/48017/new"
+    }
+   ],
+   "latest": {
+    "date": "11月10日",
+    "label": "2026/11/10 更新",
+    "title": "2026/11/10 更新",
+    "url": "https://manga.nicovideo.jp/comic/48017/new"
+   },
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/shonenjump-plus/17106567254627463963",
+   "title": "サンキューピッチ",
+   "site": "shonenjumpplus.com",
+   "thumbFile": "data/thumbs/174929.jpg",
+   "history": [
+    {
+     "date": "11月10日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191257737706434"
+    },
+    {
+     "date": "10月27日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191257538010084"
+    },
+    {
+     "date": "10月13日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191257227136496"
+    },
+    {
+     "date": "9月29日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191256784141585"
+    },
+    {
+     "date": "9月15日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191256637715980"
+    },
+    {
+     "date": "9月1日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191256340472390"
+    },
+    {
+     "date": "8月18日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191255890794028"
+    },
+    {
+     "date": "8月5日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/17106567254627463963"
+    },
+    {
+     "date": "8月4日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191255607512595"
+    },
+    {
+     "date": "7月21日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191255348929748"
+    },
+    {
+     "date": "7月7日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191254933946041"
+    },
+    {
+     "date": "6月23日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191254640655200"
+    },
+    {
+     "date": "6月9日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191254350319358"
+    },
+    {
+     "date": "5月26日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191254047172099"
+    },
+    {
+     "date": "2026年5月12日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253189534697938064"
+    }
+   ],
+   "latest": {
+    "date": "11月10日",
+    "label": "更新",
+    "title": "更新",
+    "url": "https://shonenjumpplus.com/episode/9253191257737706434"
+   },
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/ganganonline/47",
+   "title": "ゴブリンスレイヤー",
+   "site": "www.ganganonline.com",
+   "thumbFile": "data/thumbs/47612.jpg",
+   "history": [],
+   "latest": null,
+   "error": "更新履歴を取得できませんでした"
+  },
+  {
+   "detailUrl": "https://webcomics.jp/gardo/3269754496561198824",
+   "title": "サラリーマンが異世界に行ったら四天王になった話",
+   "site": "comic-gardo.com",
+   "thumbFile": "data/thumbs/98392.jpg",
+   "history": [
+    {
+     "date": "11月9日",
+     "label": "第128話「塔の外の秘密」",
+     "title": "第128話「塔の外の秘密」",
+     "url": "https://comic-gardo.com/episode/12207421984317346661"
+    },
+    {
+     "date": "10月19日",
+     "label": "第127話「朝日が昇り、扉が開かれる」",
+     "title": "第127話「朝日が昇り、扉が開かれる」",
+     "url": "https://comic-gardo.com/episode/12207421984217047501"
+    },
+    {
+     "date": "10月5日",
+     "label": "第126話「七色の光」",
+     "title": "第126話「七色の光」",
+     "url": "https://comic-gardo.com/episode/12207421984157381487"
+    },
+    {
+     "date": "9月14日",
+     "label": "第125話「起死回生の一歩」",
+     "title": "第125話「起死回生の一歩」",
+     "url": "https://comic-gardo.com/episode/12207421984094260353"
+    },
+    {
+     "date": "8月31日",
+     "label": "第124話「よみがえる砲台」(2)",
+     "title": "第124話「よみがえる砲台」(2)",
+     "url": "https://comic-gardo.com/episode/12207421984005617190"
+    },
+    {
+     "date": "8月17日",
+     "label": "第124話「よみがえる砲台」(1)",
+     "title": "第124話「よみがえる砲台」(1)",
+     "url": "https://comic-gardo.com/episode/12207421983943928501"
+    },
+    {
+     "date": "7月27日",
+     "label": "第123話「厄災の傀儡」",
+     "title": "第123話「厄災の傀儡」",
+     "url": "https://comic-gardo.com/episode/12207421983861465138"
+    },
+    {
+     "date": "7月20日",
+     "label": "第122話「怨嗟の衝動」",
+     "title": "第122話「怨嗟の衝動」",
+     "url": "https://comic-gardo.com/episode/12207421983750131319"
+    },
+    {
+     "date": "6月22日",
+     "label": "第121話「美しい国」",
+     "title": "第121話「美しい国」",
+     "url": "https://comic-gardo.com/episode/12207421983659670776"
+    },
+    {
+     "date": "5月25日",
+     "label": "第120話「敵と仲間を分かつ心」",
+     "title": "第120話「敵と仲間を分かつ心」",
+     "url": "https://comic-gardo.com/episode/12207421983588315688"
+    },
+    {
+     "date": "2026年5月4日",
+     "label": "第119話 「4属性の鎧」",
+     "title": "第119話 「4属性の鎧」",
+     "url": "https://comic-gardo.com/episode/12207421983503250987"
+    },
+    {
+     "date": "2026年4月13日",
+     "label": "第118話「黒の塔の秘密」",
+     "title": "第118話「黒の塔の秘密」",
+     "url": "https://comic-gardo.com/episode/12207421983432948594"
+    },
+    {
+     "date": "2026年3月23日",
+     "label": "第117話「この国の娯楽」",
+     "title": "第117話「この国の娯楽」",
+     "url": "https://comic-gardo.com/episode/12207421983379070318"
+    },
+    {
+     "date": "2026年3月2日",
+     "label": "第116話「明かされた真実」",
+     "title": "第116話「明かされた真実」",
+     "url": "https://comic-gardo.com/episode/2551460910070464183"
+    },
+    {
+     "date": "2026年2月16日",
+     "label": "第115話「アーサーの再起」",
+     "title": "第115話「アーサーの再起」",
+     "url": "https://comic-gardo.com/episode/2551460910018618501"
+    }
+   ],
+   "latest": {
+    "date": "11月9日",
+    "label": "第128話「塔の外の秘密」",
+    "title": "第128話「塔の外の秘密」",
+    "url": "https://comic-gardo.com/episode/12207421984317346661"
+   },
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/magapoke/03401",
+   "title": "Web小説",
+   "site": "webnovels.jp",
+   "thumbFile": "data/thumbs/217903.jpg",
+   "history": [
+    {
+     "date": "11月11日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/03401/episode/446786"
+    }
+   ],
+   "latest": {
+    "date": "11月11日",
+    "label": "更新",
+    "title": "更新",
+    "url": "https://pocket.shonenmagazine.com/title/03401/episode/446786"
+   },
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/seiga/76569",
+   "title": "おせっかい女子、恋をする",
+   "site": "",
+   "thumbFile": "data/thumbs/202625.jpg",
+   "history": [
+    {
+     "date": "11月7日",
+     "label": "2026/11/07 更新",
+     "title": "2026/11/07 更新",
+     "url": "https://manga.nicovideo.jp/comic/76569/new"
+    },
+    {
+     "date": "10月31日",
+     "label": "2026/10/31 更新",
+     "title": "2026/10/31 更新",
+     "url": "https://manga.nicovideo.jp/comic/76569/new"
+    },
+    {
+     "date": "10月24日",
+     "label": "2026/10/24 更新",
+     "title": "2026/10/24 更新",
+     "url": "https://manga.nicovideo.jp/comic/76569/new"
+    },
+    {
+     "date": "10月17日",
+     "label": "2026/10/17 更新",
+     "title": "2026/10/17 更新",
+     "url": "https://manga.nicovideo.jp/comic/76569/new"
+    },
+    {
+     "date": "10月10日",
+     "label": "2026/10/10 更新",
+     "title": "2026/10/10 更新",
+     "url": "https://manga.nicovideo.jp/comic/76569/new"
+    },
+    {
+     "date": "10月3日",
+     "label": "2026/10/03 更新",
+     "title": "2026/10/03 更新",
+     "url": "https://manga.nicovideo.jp/comic/76569/new"
+    },
+    {
+     "date": "9月26日",
+     "label": "2026/09/26 更新",
+     "title": "2026/09/26 更新",
+     "url": "https://manga.nicovideo.jp/comic/76569/new"
+    },
+    {
+     "date": "9月19日",
+     "label": "2026/09/19 更新",
+     "title": "2026/09/19 更新",
+     "url": "https://manga.nicovideo.jp/comic/76569/new"
+    },
+    {
+     "date": "9月12日",
+     "label": "2026/09/12 更新",
+     "title": "2026/09/12 更新",
+     "url": "https://manga.nicovideo.jp/comic/76569/new"
+    },
+    {
+     "date": "9月5日",
+     "label": "2026/09/05 更新",
+     "title": "2026/09/05 更新",
+     "url": "https://manga.nicovideo.jp/comic/76569/new"
+    },
+    {
+     "date": "8月29日",
+     "label": "2026/08/29 更新",
+     "title": "2026/08/29 更新",
+     "url": "https://manga.nicovideo.jp/comic/76569/new"
+    },
+    {
+     "date": "8月22日",
+     "label": "2026/08/22 更新",
+     "title": "2026/08/22 更新",
+     "url": "https://manga.nicovideo.jp/comic/76569/new"
+    },
+    {
+     "date": "8月15日",
+     "label": "2026/08/15 更新",
+     "title": "2026/08/15 更新",
+     "url": "https://manga.nicovideo.jp/comic/76569/new"
+    },
+    {
+     "date": "8月8日",
+     "label": "2026/08/08 更新",
+     "title": "2026/08/08 更新",
+     "url": "https://manga.nicovideo.jp/comic/76569/new"
+    },
+    {
+     "date": "8月1日",
+     "label": "2026/08/01 更新",
+     "title": "2026/08/01 更新",
+     "url": "https://manga.nicovideo.jp/comic/76569/new"
+    }
+   ],
+   "latest": {
+    "date": "11月7日",
+    "label": "2026/11/07 更新",
+    "title": "2026/11/07 更新",
+    "url": "https://manga.nicovideo.jp/comic/76569/new"
+   },
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/seiga/61397",
+   "title": "リコリス・リコイル",
+   "site": "",
+   "thumbFile": "data/thumbs/143668.jpg",
+   "history": [
+    {
+     "date": "11月5日",
+     "label": "2026/11/05 更新",
+     "title": "2026/11/05 更新",
+     "url": "https://manga.nicovideo.jp/comic/61397/new"
+    },
+    {
+     "date": "10月5日",
+     "label": "2026/10/05 更新",
+     "title": "2026/10/05 更新",
+     "url": "https://manga.nicovideo.jp/comic/61397/new"
+    },
+    {
+     "date": "9月5日",
+     "label": "2026/09/05 更新",
+     "title": "2026/09/05 更新",
+     "url": "https://manga.nicovideo.jp/comic/61397/new"
+    },
+    {
+     "date": "7月5日",
+     "label": "2026/07/05 更新",
+     "title": "2026/07/05 更新",
+     "url": "https://manga.nicovideo.jp/comic/61397/new"
+    },
+    {
+     "date": "6月5日",
+     "label": "2026/06/05 更新",
+     "title": "2026/06/05 更新",
+     "url": "https://manga.nicovideo.jp/comic/61397/new"
+    },
+    {
+     "date": "2026年5月5日",
+     "label": "2026/05/05 更新",
+     "title": "2026/05/05 更新",
+     "url": "https://manga.nicovideo.jp/comic/61397/new"
+    },
+    {
+     "date": "2026年4月5日",
+     "label": "2026/04/05 更新",
+     "title": "2026/04/05 更新",
+     "url": "https://manga.nicovideo.jp/comic/61397/new"
+    },
+    {
+     "date": "2026年3月5日",
+     "label": "2026/03/05 更新",
+     "title": "2026/03/05 更新",
+     "url": "https://manga.nicovideo.jp/comic/61397/new"
+    },
+    {
+     "date": "2026年2月5日",
+     "label": "2026/02/05 更新",
+     "title": "2026/02/05 更新",
+     "url": "https://manga.nicovideo.jp/comic/61397/new"
+    },
+    {
+     "date": "2026年1月5日",
+     "label": "2026/01/05 更新",
+     "title": "2026/01/05 更新",
+     "url": "https://manga.nicovideo.jp/comic/61397/new"
+    },
+    {
+     "date": "2025年12月5日",
+     "label": "2025/12/05 更新",
+     "title": "2025/12/05 更新",
+     "url": "https://manga.nicovideo.jp/comic/61397/new"
+    },
+    {
+     "date": "2025年11月5日",
+     "label": "2025/11/05 更新",
+     "title": "2025/11/05 更新",
+     "url": "https://manga.nicovideo.jp/comic/61397/new"
+    },
+    {
+     "date": "2025年10月5日",
+     "label": "2025/10/05 更新",
+     "title": "2025/10/05 更新",
+     "url": "https://manga.nicovideo.jp/comic/61397/new"
+    },
+    {
+     "date": "2025年9月5日",
+     "label": "2025/09/05 更新",
+     "title": "2025/09/05 更新",
+     "url": "https://manga.nicovideo.jp/comic/61397/new"
+    },
+    {
+     "date": "2025年8月5日",
+     "label": "2025/08/05 更新",
+     "title": "2025/08/05 更新",
+     "url": "https://manga.nicovideo.jp/comic/61397/new"
+    }
+   ],
+   "latest": {
+    "date": "11月5日",
+    "label": "2026/11/05 更新",
+    "title": "2026/11/05 更新",
+    "url": "https://manga.nicovideo.jp/comic/61397/new"
+   },
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/flowercomics/438",
+   "title": "詩歌川百景",
+   "site": "",
+   "thumbFile": "data/thumbs/171543.jpg",
+   "history": [],
+   "latest": null,
+   "error": "更新履歴を取得できませんでした"
+  },
+  {
+   "detailUrl": "https://webcomics.jp/shonenjump-plus/17107094914943468502",
+   "title": "ブヨトピア",
+   "site": "",
+   "thumbFile": null,
+   "history": [
+    {
+     "date": "15時間前",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191257737710642"
+    },
+    {
+     "date": "11月6日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191257689746017"
+    },
+    {
+     "date": "10月30日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191257538010377"
+    },
+    {
+     "date": "10月23日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191257382361447"
+    },
+    {
+     "date": "10月16日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191257227139490"
+    },
+    {
+     "date": "10月2日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191256784142282"
+    },
+    {
+     "date": "9月25日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191256672020365"
+    },
+    {
+     "date": "9月11日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191256479734230"
+    },
+    {
+     "date": "9月4日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191256340472631"
+    },
+    {
+     "date": "8月21日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191255890794359"
+    },
+    {
+     "date": "8月14日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191255729393896"
+    },
+    {
+     "date": "8月7日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191255607513363"
+    },
+    {
+     "date": "7月24日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191255348930401"
+    },
+    {
+     "date": "7月17日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191255124422033"
+    },
+    {
+     "date": "7月10日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191254933946754"
+    }
+   ],
+   "latest": {
+    "date": "15時間前",
+    "label": "更新",
+    "title": "更新",
+    "url": "https://shonenjumpplus.com/episode/9253191257737710642"
+   },
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/comic-days/3270375685389230080",
+   "title": "平和の国の島崎へ",
+   "site": "",
+   "thumbFile": null,
+   "history": [
+    {
+     "date": "11月12日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421984452428778"
+    },
+    {
+     "date": "11月5日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421984434344647"
+    },
+    {
+     "date": "10月29日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421984354093329"
+    },
+    {
+     "date": "10月15日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421984335560942"
+    },
+    {
+     "date": "10月8日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421984303447525"
+    },
+    {
+     "date": "10月1日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421984236884297"
+    },
+    {
+     "date": "9月17日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421984204053952"
+    },
+    {
+     "date": "9月10日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421984142937117"
+    },
+    {
+     "date": "8月27日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421984111123219"
+    },
+    {
+     "date": "8月20日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421984051340414"
+    },
+    {
+     "date": "8月6日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983978692237"
+    },
+    {
+     "date": "7月23日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983961970545"
+    },
+    {
+     "date": "7月16日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983934295184"
+    },
+    {
+     "date": "7月9日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983877396100"
+    },
+    {
+     "date": "6月25日",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983849892450"
+    }
+   ],
+   "latest": {
+    "date": "11月12日",
+    "label": "更新",
+    "title": "更新",
+    "url": "https://comic-days.com/episode/12207421984452428778"
+   },
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/seiga/53111",
+   "title": "転生貴族の万能開拓～【拡大&縮小】スキルを使っていたら最強領地になりました～",
+   "site": "",
+   "thumbFile": null,
+   "history": [
+    {
+     "date": "4時間前",
+     "label": "2026/11/13 更新",
+     "title": "2026/11/13 更新",
+     "url": "https://manga.nicovideo.jp/comic/53111/new"
+    },
+    {
+     "date": "10月23日",
+     "label": "2026/10/23 更新",
+     "title": "2026/10/23 更新",
+     "url": "https://manga.nicovideo.jp/comic/53111/new"
+    },
+    {
+     "date": "10月9日",
+     "label": "2026/10/09 更新",
+     "title": "2026/10/09 更新",
+     "url": "https://manga.nicovideo.jp/comic/53111/new"
+    },
+    {
+     "date": "9月25日",
+     "label": "2026/09/25 更新",
+     "title": "2026/09/25 更新",
+     "url": "https://manga.nicovideo.jp/comic/53111/new"
+    },
+    {
+     "date": "9月11日",
+     "label": "2026/09/11 更新",
+     "title": "2026/09/11 更新",
+     "url": "https://manga.nicovideo.jp/comic/53111/new"
+    },
+    {
+     "date": "8月28日",
+     "label": "2026/08/28 更新",
+     "title": "2026/08/28 更新",
+     "url": "https://manga.nicovideo.jp/comic/53111/new"
+    },
+    {
+     "date": "8月14日",
+     "label": "2026/08/14 更新",
+     "title": "2026/08/14 更新",
+     "url": "https://manga.nicovideo.jp/comic/53111/new"
+    },
+    {
+     "date": "7月24日",
+     "label": "2026/07/24 更新",
+     "title": "2026/07/24 更新",
+     "url": "https://manga.nicovideo.jp/comic/53111/new"
+    },
+    {
+     "date": "7月10日",
+     "label": "2026/07/10 更新",
+     "title": "2026/07/10 更新",
+     "url": "https://manga.nicovideo.jp/comic/53111/new"
+    },
+    {
+     "date": "6月26日",
+     "label": "2026/06/26 更新",
+     "title": "2026/06/26 更新",
+     "url": "https://manga.nicovideo.jp/comic/53111/new"
+    },
+    {
+     "date": "6月12日",
+     "label": "2026/06/12 更新",
+     "title": "2026/06/12 更新",
+     "url": "https://manga.nicovideo.jp/comic/53111/new"
+    },
+    {
+     "date": "5月22日",
+     "label": "2026/05/22 更新",
+     "title": "2026/05/22 更新",
+     "url": "https://manga.nicovideo.jp/comic/53111/new"
+    },
+    {
+     "date": "2026年4月24日",
+     "label": "2026/04/24 更新",
+     "title": "2026/04/24 更新",
+     "url": "https://manga.nicovideo.jp/comic/53111/new"
+    },
+    {
+     "date": "2026年4月10日",
+     "label": "2026/04/10 更新",
+     "title": "2026/04/10 更新",
+     "url": "https://manga.nicovideo.jp/comic/53111/new"
+    },
+    {
+     "date": "2026年3月27日",
+     "label": "2026/03/27 更新",
+     "title": "2026/03/27 更新",
+     "url": "https://manga.nicovideo.jp/comic/53111/new"
+    }
+   ],
+   "latest": {
+    "date": "4時間前",
+    "label": "2026/11/13 更新",
+    "title": "2026/11/13 更新",
+    "url": "https://manga.nicovideo.jp/comic/53111/new"
+   },
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/alphapolis/20000659",
+   "title": "地味薬師令嬢はもう契約更新いたしません。 ～ざまぁ? 没落? 私には関係ないことです～",
+   "site": "",
+   "thumbFile": null,
+   "history": [],
+   "latest": null,
+   "error": "更新履歴を取得できませんでした"
+  }
+ ]
+}
