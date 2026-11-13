@@ -170,6 +170,11 @@
         </div>
         <p class="note">チェックは GitHub Actions が自動で行います。各作品の更新履歴から
         「前回読了した話より後の話」を未読として数えるので、数話まとめて溜まっても続きから読めます。</p>
+        <div style="height:8px"></div>
+        <button class="btn" onclick="runCheckNow()">今すぐチェックを実行</button>
+        <div class="msg" id="checkMsg"></div>
+        <p class="note">ボタンを押すと合図ファイル（data/trigger.txt）を更新してチェックを開始します。
+        反映まで3〜4分かかります。前回のチェックから10分以内のときは実行しません。</p>
       </div>
       <div class="panel">
         <h2>同期（GitHub）</h2>
@@ -290,6 +295,34 @@ async function ghGetJson(path){
   const res = await ghFetch(path);
   const j = await res.json();
   return { data: JSON.parse(b64decodeUtf8(j.content)), sha: j.sha };
+}
+const TRIGGER_PATH = "data/trigger.txt";
+async function ghGetSha(path){
+  const res = await ghFetch(path);
+  const j = await res.json();
+  return j.sha || null;
+}
+// 「今すぐチェック」：合図ファイル（data/trigger.txt）を更新し、その push でワークフローを起動する
+async function runCheckNow(){
+  const msg = document.getElementById("checkMsg");
+  if(!token){ msg.textContent = "未接続です。先にトークンで接続してください。"; return; }
+  const ca = latest && latest.data && latest.data.checkedAt ? Date.parse(latest.data.checkedAt) : 0;
+  if(ca && Date.now() - ca < 10 * 60 * 1000){
+    msg.textContent = "前回のチェックから10分経っていないので、今は実行しません。";
+    return;
+  }
+  msg.textContent = "チェックを開始しています…";
+  try {
+    let sha = null;
+    try { sha = await ghGetSha(TRIGGER_PATH); }
+    catch(e){ if(!(e instanceof GhError && e.status === 404)) throw e; }
+    const body = { message: "webcomic: manual check trigger", content: b64encodeUtf8(new Date().toISOString() + "\n") };
+    if(sha) body.sha = sha;
+    await ghFetch(TRIGGER_PATH, { method: "PUT", body: JSON.stringify(body) });
+    msg.textContent = "チェックを開始しました。反映まで3〜4分かかります。しばらくしてから再読み込みしてください。";
+  } catch(e){
+    msg.textContent = "開始できませんでした：" + e.message;
+  }
 }
 async function ghPutJson(path, dataObj, sha, message){
   const body = { message: message, content: b64encodeUtf8(JSON.stringify(dataObj, null, 1)) };
