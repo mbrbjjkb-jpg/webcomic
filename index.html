@@ -45,6 +45,8 @@
   .thumb{position:absolute; inset:0; width:100%; height:100%; object-fit:cover}
   .body{flex:1; min-width:0; display:flex; flex-direction:column}
   .title{font-size:15.5px; font-weight:700; line-height:1.35; margin:1px 0 3px}
+  .title a{color:inherit; text-decoration:none}
+  .title a:hover{text-decoration:underline}
   .next{font-size:14.5px}
   .next b{color:var(--accent); font-size:15.5px}
   .sub{font-size:12.5px; color:var(--sub); margin-top:3px; display:flex; gap:8px; flex-wrap:wrap; align-items:center}
@@ -410,9 +412,15 @@ function cardHTML(w, mode){
   const thumb = w.thumbFile
     ? '<img class="thumb" alt="" loading="lazy" data-thumb="' + esc(w.thumbFile) + '" style="visibility:hidden">'
     : "";
+  // 全作品タブではタイトルを作品ページへのリンクにする（読了扱いにはしない、ただ開くだけ）
+  let titleHTML = '<div class="title">' + esc(w.title) + "</div>";
+  if(mode === "all"){
+    const target = (w.latestEp && w.latestEp.url) || w.publisherUrl || w.detailUrl;
+    if(target) titleHTML = '<div class="title"><a href="' + esc(target) + '" target="_blank" rel="noopener">' + esc(w.title) + "</a></div>";
+  }
   return '<div class="card">'
     + '<div class="thumbwrap"><span>' + esc(w.title.slice(0, 1)) + "</span>" + thumb + "</div>"
-    + '<div class="body"><div class="title">' + esc(w.title) + "</div>"
+    + '<div class="body">' + titleHTML
     + head + notes
     + '<div class="sub"><span class="chip">' + esc(w.site || "webcomics.jp") + "</span>" + badge + "</div>"
     + '<div class="acts">' + btns + "</div></div></div>";
