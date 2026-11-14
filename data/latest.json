@@ -1,7 +1,114 @@
 {
- "checkedAt": "2026-11-14T10:23:42+09:00",
+ "checkedAt": "2026-11-14T15:27:27+09:00",
  "bookmarkUrl": "https://webcomics.jp/bookmark/3682scqd",
  "works": [
+  {
+   "detailUrl": "https://webcomics.jp/pixiv-comic/10621",
+   "title": "配達先のお姉さんが怖すぎる",
+   "site": "pixivコミック",
+   "thumbFile": "data/thumbs/170429.jpg",
+   "publisherUrl": "https://comic.pixiv.net/works/10621",
+   "comicNo": 170429,
+   "history": [
+    {
+     "date": "2026-11-14",
+     "label": "2026/11/14更新",
+     "title": "2026/11/14更新",
+     "url": null
+    },
+    {
+     "date": "2026-10-17",
+     "label": "2026/10/17更新",
+     "title": "2026/10/17更新",
+     "url": null
+    },
+    {
+     "date": "2026-09-12",
+     "label": "2026/09/12更新",
+     "title": "2026/09/12更新",
+     "url": null
+    },
+    {
+     "date": "2026-08-15",
+     "label": "2026/08/15更新",
+     "title": "2026/08/15更新",
+     "url": null
+    },
+    {
+     "date": "2026-07-11",
+     "label": "2026/07/11更新",
+     "title": "2026/07/11更新",
+     "url": null
+    },
+    {
+     "date": "2026-06-13",
+     "label": "2026/06/13更新",
+     "title": "2026/06/13更新",
+     "url": null
+    },
+    {
+     "date": "2026-05-16",
+     "label": "2026/05/16更新",
+     "title": "2026/05/16更新",
+     "url": null
+    },
+    {
+     "date": "2026-04-11",
+     "label": "2026/04/11更新",
+     "title": "2026/04/11更新",
+     "url": null
+    },
+    {
+     "date": "2026-03-14",
+     "label": "2026/03/14更新",
+     "title": "2026/03/14更新",
+     "url": null
+    },
+    {
+     "date": "2026-02-14",
+     "label": "2026/02/14更新",
+     "title": "2026/02/14更新",
+     "url": null
+    },
+    {
+     "date": "2026-01-17",
+     "label": "2026/01/17更新",
+     "title": "2026/01/17更新",
+     "url": null
+    },
+    {
+     "date": "2025-12-13",
+     "label": "2025/12/13更新",
+     "title": "2025/12/13更新",
+     "url": null
+    },
+    {
+     "date": "2025-11-15",
+     "label": "2025/11/15更新",
+     "title": "2025/11/15更新",
+     "url": null
+    },
+    {
+     "date": "2025-10-18",
+     "label": "2025/10/18更新",
+     "title": "2025/10/18更新",
+     "url": null
+    },
+    {
+     "date": "2025-09-13",
+     "label": "2025/09/13更新",
+     "title": "2025/09/13更新",
+     "url": null
+    }
+   ],
+   "latest": {
+    "date": "2026-11-14",
+    "label": "2026/11/14更新",
+    "title": "2026/11/14更新",
+    "url": null
+   },
+   "error": null
+  },
   {
    "detailUrl": "https://webcomics.jp/shonenjump-plus/10834108156641784254",
    "title": "魔都精兵のスレイブ",
@@ -1083,7 +1190,7 @@
    "comicNo": 192337,
    "history": [
     {
-     "date": "2026-11-14",
+     "date": "2026-11-13",
      "label": "第13話(後編)",
      "title": "第13話(後編)",
      "url": "https://magcomi.com/episode/12207421984210181043"
@@ -1174,7 +1281,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-14",
+    "date": "2026-11-13",
     "label": "第13話(後編)",
     "title": "第13話(後編)",
     "url": "https://magcomi.com/episode/12207421984210181043"
@@ -1190,7 +1297,7 @@
    "comicNo": 193078,
    "history": [
     {
-     "date": "2026-11-14",
+     "date": "2026-11-13",
      "label": "11.13(金)",
      "title": "11.13(金)",
      "url": "https://tonarinoyj.jp/episode/12207421984504172708"
@@ -1281,7 +1388,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-14",
+    "date": "2026-11-13",
     "label": "11.13(金)",
     "title": "11.13(金)",
     "url": "https://tonarinoyj.jp/episode/12207421984504172708"
@@ -1297,7 +1404,7 @@
    "comicNo": 172224,
    "history": [
     {
-     "date": "2026-11-14",
+     "date": "2026-11-13",
      "label": "11.13(金)",
      "title": "11.13(金)",
      "url": "https://tonarinoyj.jp/episode/12207421984486492602"
@@ -1388,7 +1495,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-14",
+    "date": "2026-11-13",
     "label": "11.13(金)",
     "title": "11.13(金)",
     "url": "https://tonarinoyj.jp/episode/12207421984486492602"
@@ -1404,7 +1511,7 @@
    "comicNo": 51593,
    "history": [
     {
-     "date": "2026-11-14",
+     "date": "2026-11-13",
      "label": "11.13(金)",
      "title": "11.13(金)",
      "url": "https://tonarinoyj.jp/episode/12207421984486492593"
@@ -1495,7 +1602,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-14",
+    "date": "2026-11-13",
     "label": "11.13(金)",
     "title": "11.13(金)",
     "url": "https://tonarinoyj.jp/episode/12207421984486492593"
@@ -1511,7 +1618,7 @@
    "comicNo": 98790,
    "history": [
     {
-     "date": "2026-11-14",
+     "date": "2026-11-13",
      "label": "更新",
      "title": "更新",
      "url": "https://kuragebunch.com/episode/12207421984412058835"
@@ -1602,7 +1709,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-14",
+    "date": "2026-11-13",
     "label": "更新",
     "title": "更新",
     "url": "https://kuragebunch.com/episode/12207421984412058835"
@@ -1618,7 +1725,7 @@
    "comicNo": 30741,
    "history": [
     {
-     "date": "2026-11-14",
+     "date": "2026-11-13",
      "label": "更新",
      "title": "更新",
      "url": "https://kuragebunch.com/episode/12207421984182053091"
@@ -1709,7 +1816,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-14",
+    "date": "2026-11-13",
     "label": "更新",
     "title": "更新",
     "url": "https://kuragebunch.com/episode/12207421984182053091"
@@ -1725,7 +1832,7 @@
    "comicNo": 86130,
    "history": [
     {
-     "date": "2026-11-14",
+     "date": "2026-11-13",
      "label": "第154話「【大学生編】第26話」",
      "title": "第154話「【大学生編】第26話」",
      "url": "https://comic-gardo.com/episode/12207421984125549170"
@@ -1816,7 +1923,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-14",
+    "date": "2026-11-13",
     "label": "第154話「【大学生編】第26話」",
     "title": "第154話「【大学生編】第26話」",
     "url": "https://comic-gardo.com/episode/12207421984125549170"
@@ -1832,7 +1939,7 @@
    "comicNo": 155718,
    "history": [
     {
-     "date": "2026-11-14",
+     "date": "2026-11-13",
      "label": "更新",
      "title": "更新",
      "url": "https://kuragebunch.com/episode/12207421984238014667"
@@ -1923,7 +2030,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-14",
+    "date": "2026-11-13",
     "label": "更新",
     "title": "更新",
     "url": "https://kuragebunch.com/episode/12207421984238014667"
@@ -1939,7 +2046,7 @@
    "comicNo": 144232,
    "history": [
     {
-     "date": "2026-11-14",
+     "date": "2026-11-13",
      "label": "最終更新:11/13",
      "title": "最終更新:11/13",
      "url": "https://comicborder.com/episode/12207421984500286285"
@@ -2030,7 +2137,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-14",
+    "date": "2026-11-13",
     "label": "最終更新:11/13",
     "title": "最終更新:11/13",
     "url": "https://comicborder.com/episode/12207421984500286285"
@@ -2046,7 +2153,7 @@
    "comicNo": 155523,
    "history": [
     {
-     "date": "2026-11-14",
+     "date": "2026-11-13",
      "label": "最新話を読む",
      "title": "最新話を読む",
      "url": "https://comic-action.com/episode/12207421984411755235"
@@ -2137,7 +2244,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-14",
+    "date": "2026-11-13",
     "label": "最新話を読む",
     "title": "最新話を読む",
     "url": "https://comic-action.com/episode/12207421984411755235"
@@ -17320,113 +17427,6 @@
     "label": "第81話",
     "title": "第81話",
     "url": "https://comic-walker.com/detail/KC_004033_S/episodes/KC_0040330010000011_E?episodeType=latest"
-   },
-   "error": null
-  },
-  {
-   "detailUrl": "https://webcomics.jp/pixiv-comic/10621",
-   "title": "配達先のお姉さんが怖すぎる",
-   "site": "pixivコミック",
-   "thumbFile": "data/thumbs/170429.jpg",
-   "publisherUrl": "https://comic.pixiv.net/works/10621",
-   "comicNo": 170429,
-   "history": [
-    {
-     "date": "2026-10-17",
-     "label": "2026/10/17更新",
-     "title": "2026/10/17更新",
-     "url": null
-    },
-    {
-     "date": "2026-09-12",
-     "label": "2026/09/12更新",
-     "title": "2026/09/12更新",
-     "url": null
-    },
-    {
-     "date": "2026-08-15",
-     "label": "2026/08/15更新",
-     "title": "2026/08/15更新",
-     "url": null
-    },
-    {
-     "date": "2026-07-11",
-     "label": "2026/07/11更新",
-     "title": "2026/07/11更新",
-     "url": null
-    },
-    {
-     "date": "2026-06-13",
-     "label": "2026/06/13更新",
-     "title": "2026/06/13更新",
-     "url": null
-    },
-    {
-     "date": "2026-05-16",
-     "label": "2026/05/16更新",
-     "title": "2026/05/16更新",
-     "url": null
-    },
-    {
-     "date": "2026-04-11",
-     "label": "2026/04/11更新",
-     "title": "2026/04/11更新",
-     "url": null
-    },
-    {
-     "date": "2026-03-14",
-     "label": "2026/03/14更新",
-     "title": "2026/03/14更新",
-     "url": null
-    },
-    {
-     "date": "2026-02-14",
-     "label": "2026/02/14更新",
-     "title": "2026/02/14更新",
-     "url": null
-    },
-    {
-     "date": "2026-01-17",
-     "label": "2026/01/17更新",
-     "title": "2026/01/17更新",
-     "url": null
-    },
-    {
-     "date": "2025-12-13",
-     "label": "2025/12/13更新",
-     "title": "2025/12/13更新",
-     "url": null
-    },
-    {
-     "date": "2025-11-15",
-     "label": "2025/11/15更新",
-     "title": "2025/11/15更新",
-     "url": null
-    },
-    {
-     "date": "2025-10-18",
-     "label": "2025/10/18更新",
-     "title": "2025/10/18更新",
-     "url": null
-    },
-    {
-     "date": "2025-09-13",
-     "label": "2025/09/13更新",
-     "title": "2025/09/13更新",
-     "url": null
-    },
-    {
-     "date": "2025-08-16",
-     "label": "2025/08/16更新",
-     "title": "2025/08/16更新",
-     "url": null
-    }
-   ],
-   "latest": {
-    "date": "2026-10-17",
-    "label": "2026/10/17更新",
-    "title": "2026/10/17更新",
-    "url": null
    },
    "error": null
   },
