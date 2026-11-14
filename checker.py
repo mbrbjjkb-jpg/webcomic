@@ -727,7 +727,7 @@ def enrich_mangaone_history(history, publisher_url):
 
 EXTRA_LABEL_KEYWORDS = (
     "イラスト", "人気投票", "お知らせ", "休載", "告知",
-    "企画", "アンケート", "募集", "発売記念",
+    "企画", "アンケート", "募集", "発売記念", "宣伝",
 )
 
 
@@ -850,6 +850,35 @@ def cleanup_debug_files():
     return removed
 
 
+# ---------------------------------------------------------------- 暫定プローブ
+# 話URLが取れない4サイト（ガンガンONLINE／COMIC FUZ／がうがう／pixiv）
+# について、公式の作品ページの生HTMLを data/thumbs/_probe_*.html に
+# 保存し、話一覧の構造（話リンクやAPIの手がかり）を確認するための
+# 一時的な調査コード（2026-11-14）。アダプタ実装が済んだら撤去する。
+# 失敗してもチェック本処理には影響させない。
+
+PROBE_PAGES = {
+    "gangan1863": "https://www.ganganonline.com/title/1863",
+    "fuz3542": "https://comic-fuz.com/manga/3542",
+    "gaugau605051": "https://gaugau.futabanet.jp/list/work/605051da776561856c030000",
+    "pixiv10621": "https://comic.pixiv.net/works/10621",
+}
+
+
+def save_probe_pages():
+    """PROBE_PAGES の生HTMLを THUMBS_DIR/_probe_<name>.html に保存する。"""
+    os.makedirs(THUMBS_DIR, exist_ok=True)
+    for name, url in PROBE_PAGES.items():
+        try:
+            body = fetch_text(url)
+            path = os.path.join(THUMBS_DIR, f"_probe_{name}.html")
+            with open(path, "w", encoding="utf-8") as f:
+                f.write(body)
+            print(f"[checker] probe saved {name}: {len(body)} bytes")
+        except Exception as e:  # プローブの失敗で本処理を止めない
+            print(f"[checker] probe failed {name}: {e}", file=sys.stderr)
+
+
 def main():
     now = datetime.now(JST)
     today = now.date()
@@ -857,6 +886,8 @@ def main():
 
     # v2〜v3 の暫定デバッグファイルが残っていれば掃除する
     cleanup_debug_files()
+    # 暫定プローブ（話URLが取れないサイトの構造調査用）
+    save_probe_pages()
 
     library = read_json(LIBRARY_PATH, {"version": 1, "works": {}, "added": []})
     added_urls = []
