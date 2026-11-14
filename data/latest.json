@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-14T19:05:56+09:00",
+ "checkedAt": "2026-11-14T21:43:10+09:00",
  "bookmarkUrl": "https://webcomics.jp/bookmark/3682scqd",
  "works": [
   {
@@ -3764,7 +3764,8 @@
      "date": "2026-11-11",
      "label": "コミックス第1巻発売宣伝マンガ",
      "title": "コミックス第1巻発売宣伝マンガ",
-     "url": "https://comic-walker.com/detail/KC_006739_S/episodes/KC_0067390000700011_E?co=true&episodeType=latest"
+     "url": "https://comic-walker.com/detail/KC_006739_S/episodes/KC_0067390000700011_E?co=true&episodeType=latest",
+     "extra": true
     },
     {
      "date": "2026-10-28",
@@ -3806,7 +3807,8 @@
      "date": "2026-07-18",
      "label": "コミックス第2巻発売宣伝マンガ",
      "title": "コミックス第2巻発売宣伝マンガ",
-     "url": "https://comic-walker.com/detail/KC_006739_S/episodes/KC_0067390001500011_E?episodeType=latest"
+     "url": "https://comic-walker.com/detail/KC_006739_S/episodes/KC_0067390001500011_E?episodeType=latest",
+     "extra": true
     },
     {
      "date": "2026-06-28",
@@ -3852,10 +3854,10 @@
     }
    ],
    "latest": {
-    "date": "2026-11-11",
-    "label": "コミックス第1巻発売宣伝マンガ",
-    "title": "コミックス第1巻発売宣伝マンガ",
-    "url": "https://comic-walker.com/detail/KC_006739_S/episodes/KC_0067390000700011_E?co=true&episodeType=latest"
+    "date": "2026-10-28",
+    "label": "第14話-2",
+    "title": "第14話-2",
+    "url": "https://comic-walker.com/detail/KC_006739_S/episodes/KC_0067390001800021_E?episodeType=latest"
    },
    "error": null
   },
@@ -5048,7 +5050,8 @@
      "date": "2026-11-11",
      "label": "単行本宣伝話④",
      "title": "単行本宣伝話④",
-     "url": "https://yanmaga.jp/comics/108P1%E5%B9%B4%E5%BE%8C%E3%81%AB%E7%B5%B6%E5%AF%BE108P%E3%81%99%E3%82%8B%E8%A9%B1/798f285ab684f12acffc9da464fad408"
+     "url": "https://yanmaga.jp/comics/108P1%E5%B9%B4%E5%BE%8C%E3%81%AB%E7%B5%B6%E5%AF%BE108P%E3%81%99%E3%82%8B%E8%A9%B1/798f285ab684f12acffc9da464fad408",
+     "extra": true
     },
     {
      "date": "2026-11-11",
@@ -5126,7 +5129,8 @@
      "date": "2026-08-19",
      "label": "単行本宣伝話③",
      "title": "単行本宣伝話③",
-     "url": "https://yanmaga.jp/comics/108P1%E5%B9%B4%E5%BE%8C%E3%81%AB%E7%B5%B6%E5%AF%BE108P%E3%81%99%E3%82%8B%E8%A9%B1/58b8a169452e81675cb180984416ca48"
+     "url": "https://yanmaga.jp/comics/108P1%E5%B9%B4%E5%BE%8C%E3%81%AB%E7%B5%B6%E5%AF%BE108P%E3%81%99%E3%82%8B%E8%A9%B1/58b8a169452e81675cb180984416ca48",
+     "extra": true
     },
     {
      "date": "2026-08-19",
@@ -5137,9 +5141,9 @@
    ],
    "latest": {
     "date": "2026-11-11",
-    "label": "単行本宣伝話④",
-    "title": "単行本宣伝話④",
-    "url": "https://yanmaga.jp/comics/108P1%E5%B9%B4%E5%BE%8C%E3%81%AB%E7%B5%B6%E5%AF%BE108P%E3%81%99%E3%82%8B%E8%A9%B1/798f285ab684f12acffc9da464fad408"
+    "label": "第51話",
+    "title": "第51話",
+    "url": "https://yanmaga.jp/comics/108P1%E5%B9%B4%E5%BE%8C%E3%81%AB%E7%B5%B6%E5%AF%BE108P%E3%81%99%E3%82%8B%E8%A9%B1/91f6e3b94507ddfe5bc78b3ff8afb34e"
    },
    "error": null
   },
@@ -8075,7 +8079,8 @@
      "date": "2026-09-04",
      "label": "コミックス13巻宣伝漫画",
      "title": "コミックス13巻宣伝漫画",
-     "url": "https://takecomic.jp/episodes/8bf59ce3257fa"
+     "url": "https://takecomic.jp/episodes/8bf59ce3257fa",
+     "extra": true
     },
     {
      "date": "2026-08-22",
@@ -11885,7 +11890,8 @@
      "date": "2026-04-30",
      "label": "単行本宣伝話",
      "title": "単行本宣伝話",
-     "url": "https://comic-days.com/episode/2550689798303147021"
+     "url": "https://comic-days.com/episode/2550689798303147021",
+     "extra": true
     },
     {
      "date": "2026-04-20",
@@ -16965,7 +16971,8 @@
      "date": "2026-05-13",
      "label": "単行本宣伝話",
      "title": "単行本宣伝話",
-     "url": "https://yanmaga.jp/comics/%E9%AD%94%E5%8A%9B%E6%9E%AF%E3%82%8C%E3%81%AE%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95/bd069d68b8d3c036bb7c73a8e3195e4b"
+     "url": "https://yanmaga.jp/comics/%E9%AD%94%E5%8A%9B%E6%9E%AF%E3%82%8C%E3%81%AE%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95/bd069d68b8d3c036bb7c73a8e3195e4b",
+     "extra": true
     },
     {
      "date": "2026-04-20",
@@ -17830,7 +17837,8 @@
      "date": "2025-11-19",
      "label": "単行本宣伝話",
      "title": "単行本宣伝話",
-     "url": "https://yanmaga.jp/comics/%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E5%A6%B9/cd650c0865a8686652b31df30d49391f"
+     "url": "https://yanmaga.jp/comics/%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E5%A6%B9/cd650c0865a8686652b31df30d49391f",
+     "extra": true
     },
     {
      "date": "2025-10-16",
@@ -19585,13 +19593,15 @@
      "date": "2026-07-17",
      "label": "【単行本宣伝話】",
      "title": "【単行本宣伝話】",
-     "url": "https://pocket.shonenmagazine.com/title/01648/episode/437333"
+     "url": "https://pocket.shonenmagazine.com/title/01648/episode/437333",
+     "extra": true
     },
     {
      "date": "2026-07-17",
      "label": "【単行本宣伝話】",
      "title": "【単行本宣伝話】",
-     "url": "https://pocket.shonenmagazine.com/title/01648/episode/431743"
+     "url": "https://pocket.shonenmagazine.com/title/01648/episode/431743",
+     "extra": true
     },
     {
      "date": "2026-07-07",
@@ -20280,13 +20290,15 @@
      "date": "2026-07-19",
      "label": "【単行本宣伝話】",
      "title": "【単行本宣伝話】",
-     "url": "https://pocket.shonenmagazine.com/title/02602/episode/426995"
+     "url": "https://pocket.shonenmagazine.com/title/02602/episode/426995",
+     "extra": true
     },
     {
      "date": "2026-07-09",
      "label": "【単行本宣伝話】",
      "title": "【単行本宣伝話】",
-     "url": "https://pocket.shonenmagazine.com/title/02602/episode/431738"
+     "url": "https://pocket.shonenmagazine.com/title/02602/episode/431738",
+     "extra": true
     },
     {
      "date": "2026-06-19",
@@ -20316,7 +20328,8 @@
      "date": "2026-05-25",
      "label": "【単行本宣伝話】",
      "title": "【単行本宣伝話】",
-     "url": "https://pocket.shonenmagazine.com/title/02602/episode/437327"
+     "url": "https://pocket.shonenmagazine.com/title/02602/episode/437327",
+     "extra": true
     },
     {
      "date": "2026-05-15",
@@ -20959,7 +20972,8 @@
      "date": "2026-08-27",
      "label": "第2巻宣伝話",
      "title": "第2巻宣伝話",
-     "url": "https://comic-days.com/episode/2550912965222334583"
+     "url": "https://comic-days.com/episode/2550912965222334583",
+     "extra": true
     },
     {
      "date": "2026-08-27",
@@ -21048,10 +21062,10 @@
     }
    ],
    "latest": {
-    "date": "2026-08-27",
-    "label": "第2巻宣伝話",
-    "title": "第2巻宣伝話",
-    "url": "https://comic-days.com/episode/2550912965222334583"
+    "date": "2026-03-13",
+    "label": "更新",
+    "title": "更新",
+    "url": "https://comic-days.com/episode/2550912965918818731"
    },
    "error": null
   },
@@ -21302,19 +21316,22 @@
      "date": "2026-06-06",
      "label": "【単行本宣伝話】",
      "title": "【単行本宣伝話】",
-     "url": "https://pocket.shonenmagazine.com/title/00321/episode/400050"
+     "url": "https://pocket.shonenmagazine.com/title/00321/episode/400050",
+     "extra": true
     },
     {
      "date": "2026-06-06",
      "label": "【単行本宣伝話】",
      "title": "【単行本宣伝話】",
-     "url": "https://pocket.shonenmagazine.com/title/00321/episode/393997"
+     "url": "https://pocket.shonenmagazine.com/title/00321/episode/393997",
+     "extra": true
     },
     {
      "date": "2026-06-06",
      "label": "【単行本宣伝話】",
      "title": "【単行本宣伝話】",
-     "url": "https://pocket.shonenmagazine.com/title/00321/episode/388629"
+     "url": "https://pocket.shonenmagazine.com/title/00321/episode/388629",
+     "extra": true
     },
     {
      "date": "2025-08-01",
@@ -21326,13 +21343,15 @@
      "date": "2025-05-18",
      "label": "【単行本宣伝話】「今回の特装版はカレンダーか～」",
      "title": "【単行本宣伝話】「今回の特装版はカレンダーか～」",
-     "url": "https://pocket.shonenmagazine.com/title/00321/episode/293723"
+     "url": "https://pocket.shonenmagazine.com/title/00321/episode/293723",
+     "extra": true
     },
     {
      "date": "2025-05-18",
      "label": "【単行本宣伝話】「KC第⑤巻発売ですよ」",
      "title": "【単行本宣伝話】「KC第⑤巻発売ですよ」",
-     "url": "https://pocket.shonenmagazine.com/title/00321/episode/264960"
+     "url": "https://pocket.shonenmagazine.com/title/00321/episode/264960",
+     "extra": true
     },
     {
      "date": "2025-05-18",
@@ -21344,7 +21363,8 @@
      "date": "2025-05-18",
      "label": "【単行本宣伝話】「もうすぐ④巻の発売日だったよね」",
      "title": "【単行本宣伝話】「もうすぐ④巻の発売日だったよね」",
-     "url": "https://pocket.shonenmagazine.com/title/00321/episode/245121"
+     "url": "https://pocket.shonenmagazine.com/title/00321/episode/245121",
+     "extra": true
     },
     {
      "date": "2025-05-18",
