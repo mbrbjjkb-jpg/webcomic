@@ -748,6 +748,7 @@ async function loadAll(){
   document.getElementById("view-connect").style.display = "none";
   document.getElementById("mainUi").style.display = "";
   await maybeInitialize();
+  await maybeRegisterNewWorks();
   rerender();
 }
 async function maybeInitialize(){
@@ -770,6 +771,38 @@ async function maybeInitialize(){
   if(!made) return;
   library.sha = await ghPutJson(LIB_PATH, data, library.sha, "webcomic: initialize library");
   globalMsg("初期化しました：全" + made + "作品を、現時点の最新話まで読了として登録しました。これからの更新だけが未読に溜まります。", "ok");
+}
+async function maybeRegisterNewWorks(){
+  // ブックマークに後から追加された作品など、latest にはあるのに
+  // library に未登録の作品を「現時点の最新話まで読了」で自動登録する。
+  // 初期化（maybeInitialize）は library 全体が空のときだけ走るため、
+  // 未登録のままだと computeView が未読0件として扱い続け、その作品の
+  // 更新が未読リストに一生出てこない。ここで登録しておけば、次に
+  // 新しい更新が来たときから未読に出るようになる。
+  // 既存エントリには一切触れず、追加があるときだけ保存する。
+  // 保存に失敗した場合は saveLibrary 側で表示が元に戻り、次回の
+  // 読み込み時にまた未登録として検出されるので再試行できる。
+  if(!library || !latest || !library.data) return;
+  const registered = library.data.works || {};
+  const missing = [];
+  for(const w of latest.data.works || []){
+    const hist = w.history || [];
+    if(!hist.length) continue;            // 履歴が無い作品は登録しない
+    if(registered[w.detailUrl]) continue; // 登録済みには触れない
+    missing.push(w);
+  }
+  if(!missing.length) return;
+  const ok = await saveLibrary(d => {
+    d.works = d.works || {};
+    for(const w of missing){
+      if(d.works[w.detailUrl]) continue;  // 競合リトライ時などに既存へ触れない
+      const head = w.history[0];          // 履歴の先頭＝最新 overall（非本編含む）
+      d.works[w.detailUrl] = { lastReadUrl: head.url || "", lastReadTitle: epLabel(head), lastReadFp: histFp(head) };
+    }
+  }, "webcomic: register new works", false);
+  if(ok){
+    globalMsg("新しく追加された " + missing.length + " 作品を、現時点の最新話まで読了として登録しました。これからの更新だけが未読に溜まります。", "ok");
+  }
 }
 async function connect(){
   const input = document.getElementById("tokenInput");
