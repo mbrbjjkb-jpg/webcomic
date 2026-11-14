@@ -1,7 +1,544 @@
 {
- "checkedAt": "2026-11-14T22:17:19+09:00",
+ "checkedAt": "2026-11-15T04:52:27+09:00",
  "bookmarkUrl": "https://webcomics.jp/bookmark/3682scqd",
  "works": [
+  {
+   "detailUrl": "https://webcomics.jp/younganimal/05f14f4afa1d7",
+   "title": "無自覚な天才少女は気付かない",
+   "site": "ヤングアニマルWeb",
+   "thumbFile": "data/thumbs/148591.jpg",
+   "publisherUrl": "https://younganimal.com/series/05f14f4afa1d7",
+   "comicNo": 148591,
+   "history": [
+    {
+     "date": "2026-11-15",
+     "label": "第39話③",
+     "title": "第39話③",
+     "url": "https://younganimal.com/episodes/3d9e3b1a711e7"
+    },
+    {
+     "date": "2026-10-30",
+     "label": "第39話②",
+     "title": "第39話②",
+     "url": "https://younganimal.com/episodes/2ae15f240a316"
+    },
+    {
+     "date": "2026-10-23",
+     "label": "第39話①",
+     "title": "第39話①",
+     "url": "https://younganimal.com/episodes/577160c0d90a0"
+    },
+    {
+     "date": "2026-10-17",
+     "label": "第38話③",
+     "title": "第38話③",
+     "url": "https://younganimal.com/episodes/dd5afc82f49e3"
+    },
+    {
+     "date": "2026-10-02",
+     "label": "第38話②",
+     "title": "第38話②",
+     "url": "https://younganimal.com/episodes/c4b07b073b8ba"
+    },
+    {
+     "date": "2026-09-18",
+     "label": "第38話①",
+     "title": "第38話①",
+     "url": "https://younganimal.com/episodes/3c994cb9fdb56"
+    },
+    {
+     "date": "2026-09-13",
+     "label": "第37話③",
+     "title": "第37話③",
+     "url": "https://younganimal.com/episodes/41dbedcf9c67e"
+    },
+    {
+     "date": "2026-08-28",
+     "label": "第37話②",
+     "title": "第37話②",
+     "url": "https://younganimal.com/episodes/d01079763386d"
+    },
+    {
+     "date": "2026-08-21",
+     "label": "第37話①",
+     "title": "第37話①",
+     "url": "https://younganimal.com/episodes/a62efae42483a"
+    },
+    {
+     "date": "2026-08-15",
+     "label": "第36話③",
+     "title": "第36話③",
+     "url": "https://younganimal.com/episodes/867c3ccb83c24"
+    },
+    {
+     "date": "2026-08-01",
+     "label": "第36話②",
+     "title": "第36話②",
+     "url": "https://younganimal.com/episodes/da336f45c52b0"
+    },
+    {
+     "date": "2026-07-17",
+     "label": "第36話①",
+     "title": "第36話①",
+     "url": "https://younganimal.com/episodes/e884159e1205f"
+    },
+    {
+     "date": "2026-07-10",
+     "label": "第35話③",
+     "title": "第35話③",
+     "url": "https://younganimal.com/episodes/c057037d259a0"
+    },
+    {
+     "date": "2026-06-27",
+     "label": "コミックス7巻PR",
+     "title": "コミックス7巻PR",
+     "url": "https://younganimal.com/episodes/9630d93bb4e54"
+    },
+    {
+     "date": "2026-06-27",
+     "label": "第35話②",
+     "title": "第35話②",
+     "url": "https://younganimal.com/episodes/be65922960855"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-15",
+    "label": "第39話③",
+    "title": "第39話③",
+    "url": "https://younganimal.com/episodes/3d9e3b1a711e7"
+   },
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/shonenjump-plus/16457717013869519536",
+   "title": "ふつうの軽音部",
+   "site": "少年ジャンプ+",
+   "thumbFile": "data/thumbs/163061.jpg",
+   "publisherUrl": "https://shonenjumpplus.com/episode/16457717013869519536",
+   "comicNo": 163061,
+   "history": [
+    {
+     "date": "2026-11-15",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191257737711371"
+    },
+    {
+     "date": "2026-11-01",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191257538010554"
+    },
+    {
+     "date": "2026-10-25",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191257382361683"
+    },
+    {
+     "date": "2026-10-18",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191257227141488"
+    },
+    {
+     "date": "2026-10-04",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191256784142745"
+    },
+    {
+     "date": "2026-09-28",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/16457717013869519536"
+    },
+    {
+     "date": "2026-09-27",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191256672028416"
+    },
+    {
+     "date": "2026-09-20",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191256637716567"
+    },
+    {
+     "date": "2026-09-13",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191256479734451"
+    },
+    {
+     "date": "2026-08-30",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191256195090213"
+    },
+    {
+     "date": "2026-08-23",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191255890794651"
+    },
+    {
+     "date": "2026-08-16",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191255729394157"
+    },
+    {
+     "date": "2026-08-09",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191255607514268"
+    },
+    {
+     "date": "2026-07-26",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191255348930828"
+    },
+    {
+     "date": "2026-07-19",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191255124422315"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-15",
+    "label": "更新",
+    "title": "更新",
+    "url": "https://shonenjumpplus.com/episode/9253191257737711371"
+   },
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/magapoke/01152",
+   "title": "転生貴族、鑑定スキルで成り上がる～弱小領地を受け継いだので、優秀な人材を増やしていたら、最強領地にな...",
+   "site": "マガポケ",
+   "thumbFile": "data/thumbs/105724.jpg",
+   "publisherUrl": "https://pocket.shonenmagazine.com/title/01152",
+   "comicNo": 105724,
+   "history": [
+    {
+     "date": "2026-11-15",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/01152/episode/407787"
+    },
+    {
+     "date": "2026-11-13",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/01152/episode/445527"
+    },
+    {
+     "date": "2026-11-07",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/01152/episode/444548"
+    },
+    {
+     "date": "2026-10-23",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/01152/episode/312616"
+    },
+    {
+     "date": "2026-10-02",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/01152/episode/443457"
+    },
+    {
+     "date": "2026-09-27",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/01152/episode/346712"
+    },
+    {
+     "date": "2026-09-11",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/01152/episode/442468"
+    },
+    {
+     "date": "2026-08-21",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/01152/episode/441620"
+    },
+    {
+     "date": "2026-07-31",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/01152/episode/440677"
+    },
+    {
+     "date": "2026-07-10",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/01152/episode/439664"
+    },
+    {
+     "date": "2026-06-19",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/01152/episode/438336"
+    },
+    {
+     "date": "2026-06-05",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/01152/episode/439030"
+    },
+    {
+     "date": "2026-05-29",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/01152/episode/436358"
+    },
+    {
+     "date": "2026-05-21",
+     "label": "【第174話】飛行船",
+     "title": "【第174話】飛行船",
+     "url": "https://pocket.shonenmagazine.com/title/01152/episode/432245"
+    },
+    {
+     "date": "2026-05-01",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/01152/episode/434698"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-15",
+    "label": "更新",
+    "title": "更新",
+    "url": "https://pocket.shonenmagazine.com/title/01152/episode/407787"
+   },
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/yanmaga/MADE_IN_YAMATO",
+   "title": "MADE IN YAMATO",
+   "site": "ヤンマガWeb",
+   "thumbFile": "data/thumbs/209635.jpg",
+   "publisherUrl": "https://yanmaga.jp/comics/MADE_IN_YAMATO",
+   "comicNo": 209635,
+   "history": [
+    {
+     "date": "2026-11-15",
+     "label": "第24話 禁断症状を乗り越えろ",
+     "title": "第24話 禁断症状を乗り越えろ",
+     "url": "https://yanmaga.jp/comics/MADE_IN_YAMATO/910c2be2a8e6ad89512738b59f17595b"
+    },
+    {
+     "date": "2026-11-07",
+     "label": "第23話 山は脂肪を落とす突起である",
+     "title": "第23話 山は脂肪を落とす突起である",
+     "url": "https://yanmaga.jp/comics/MADE_IN_YAMATO/68962d53b487a5ca8f8c9a1995c9bea9"
+    },
+    {
+     "date": "2026-10-31",
+     "label": "第22話 大和VS.健康診断",
+     "title": "第22話 大和VS.健康診断",
+     "url": "https://yanmaga.jp/comics/MADE_IN_YAMATO/13be539a19ad22b0d96648690e69fcdd"
+    },
+    {
+     "date": "2026-10-17",
+     "label": "第21話 激突!関東女子フィジーク後編",
+     "title": "第21話 激突!関東女子フィジーク後編",
+     "url": "https://yanmaga.jp/comics/MADE_IN_YAMATO/a78eaef6b2eff16b9c382b9b7741f42d"
+    },
+    {
+     "date": "2026-10-10",
+     "label": "第20話 激突!関東女子フィジーク前編",
+     "title": "第20話 激突!関東女子フィジーク前編",
+     "url": "https://yanmaga.jp/comics/MADE_IN_YAMATO/22c25afc395a530069b7ab85d5e181a0"
+    },
+    {
+     "date": "2026-10-03",
+     "label": "第19話 密着! 減量末期",
+     "title": "第19話 密着! 減量末期",
+     "url": "https://yanmaga.jp/comics/MADE_IN_YAMATO/de88e2b47c813b6b230fa004e2e34520"
+    },
+    {
+     "date": "2026-09-26",
+     "label": "第18話 宗教弾圧!?",
+     "title": "第18話 宗教弾圧!?",
+     "url": "https://yanmaga.jp/comics/MADE_IN_YAMATO/21be124c150d23c094522ff9acf4111b"
+    },
+    {
+     "date": "2026-09-19",
+     "label": "第17話 筋肉センサーを信じろ",
+     "title": "第17話 筋肉センサーを信じろ",
+     "url": "https://yanmaga.jp/comics/MADE_IN_YAMATO/4e4ce800ab8201a77ce51f5b2ca6c960"
+    },
+    {
+     "date": "2026-09-12",
+     "label": "第16話 バズる筋肉",
+     "title": "第16話 バズる筋肉",
+     "url": "https://yanmaga.jp/comics/MADE_IN_YAMATO/c32392985c2d4f865615c1dba73779d3"
+    },
+    {
+     "date": "2026-09-05",
+     "label": "単行本宣伝話",
+     "title": "単行本宣伝話",
+     "url": "https://yanmaga.jp/comics/MADE_IN_YAMATO/ea0bb408644127221dbb90d9cb7f656e",
+     "extra": true
+    },
+    {
+     "date": "2026-09-05",
+     "label": "第15話 重りの流儀",
+     "title": "第15話 重りの流儀",
+     "url": "https://yanmaga.jp/comics/MADE_IN_YAMATO/fd40ef7ac3e294ed0802c81ddd6d79ab"
+    },
+    {
+     "date": "2026-08-29",
+     "label": "第14話 筋肉の女神、白寺まりあ",
+     "title": "第14話 筋肉の女神、白寺まりあ",
+     "url": "https://yanmaga.jp/comics/MADE_IN_YAMATO/ca64e55ab76f9f9c924d8a663adc4ebf"
+    },
+    {
+     "date": "2026-08-22",
+     "label": "第13話 ライバルと新商品",
+     "title": "第13話 ライバルと新商品",
+     "url": "https://yanmaga.jp/comics/MADE_IN_YAMATO/922c71dc782038361bcb6dba392fa20f"
+    },
+    {
+     "date": "2026-08-15",
+     "label": "第12話 ガンバレ花ちゃん",
+     "title": "第12話 ガンバレ花ちゃん",
+     "url": "https://yanmaga.jp/comics/MADE_IN_YAMATO/fba69cbf0a91338aee8fa5af726067d6"
+    },
+    {
+     "date": "2026-08-08",
+     "label": "第11話 私はジムに行きたい",
+     "title": "第11話 私はジムに行きたい",
+     "url": "https://yanmaga.jp/comics/MADE_IN_YAMATO/5087226005a66382b9952b0c3276f8f2"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-15",
+    "label": "第24話 禁断症状を乗り越えろ",
+    "title": "第24話 禁断症状を乗り越えろ",
+    "url": "https://yanmaga.jp/comics/MADE_IN_YAMATO/910c2be2a8e6ad89512738b59f17595b"
+   },
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/comic-days/13933686331630536721",
+   "title": "この世界は不完全すぎる",
+   "site": "コミックDAYS",
+   "thumbFile": "data/thumbs/104565.jpg",
+   "publisherUrl": "https://comic-days.com/episode/13933686331630536721",
+   "comicNo": 104565,
+   "history": [
+    {
+     "date": "2026-11-15",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/2551460909859040075"
+    },
+    {
+     "date": "2026-08-09",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421984009192210"
+    },
+    {
+     "date": "2026-08-08",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/2551460909859040068"
+    },
+    {
+     "date": "2026-05-30",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/2551460909859040059"
+    },
+    {
+     "date": "2026-05-16",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/2551460909859040044"
+    },
+    {
+     "date": "2026-05-12",
+     "label": "特別企画 このふかの制作現場に潜入せよ",
+     "title": "特別企画 このふかの制作現場に潜入せよ",
+     "url": "https://comic-days.com/episode/2550912964557009885",
+     "extra": true
+    },
+    {
+     "date": "2026-05-02",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/2551460909859040036"
+    },
+    {
+     "date": "2026-04-18",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/2551460909859040030"
+    },
+    {
+     "date": "2026-04-04",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/2551460909859040024"
+    },
+    {
+     "date": "2026-03-21",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/2551460909859040018"
+    },
+    {
+     "date": "2026-03-07",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/2551460909859040012"
+    },
+    {
+     "date": "2026-02-21",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/2550912965918819151"
+    },
+    {
+     "date": "2026-02-07",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/2550912965918819142"
+    },
+    {
+     "date": "2026-01-24",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/2550912965918819135"
+    },
+    {
+     "date": "2026-01-10",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/2550912965918819127"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-15",
+    "label": "更新",
+    "title": "更新",
+    "url": "https://comic-days.com/episode/2551460909859040075"
+   },
+   "error": null
+  },
   {
    "detailUrl": "https://webcomics.jp/pixiv-comic/10621",
    "title": "配達先のお姉さんが怖すぎる",
@@ -118,7 +655,7 @@
    "comicNo": 84914,
    "history": [
     {
-     "date": "2026-11-14",
+     "date": "2026-11-15",
      "label": "[イラスト+第3回人気投票企画]魔都精兵のスレイブ",
      "title": "[イラスト+第3回人気投票企画]魔都精兵のスレイブ",
      "url": "https://shonenjumpplus.com/episode/11990162089564825418",
@@ -2570,113 +3107,6 @@
     "label": "更新",
     "title": "更新",
     "url": "https://pocket.shonenmagazine.com/title/01349/episode/446087"
-   },
-   "error": null
-  },
-  {
-   "detailUrl": "https://webcomics.jp/magapoke/01152",
-   "title": "転生貴族、鑑定スキルで成り上がる～弱小領地を受け継いだので、優秀な人材を増やしていたら、最強領地にな...",
-   "site": "マガポケ",
-   "thumbFile": "data/thumbs/105724.jpg",
-   "publisherUrl": "https://pocket.shonenmagazine.com/title/01152",
-   "comicNo": 105724,
-   "history": [
-    {
-     "date": "2026-11-13",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://pocket.shonenmagazine.com/title/01152/episode/445527"
-    },
-    {
-     "date": "2026-11-07",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://pocket.shonenmagazine.com/title/01152/episode/444548"
-    },
-    {
-     "date": "2026-10-23",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://pocket.shonenmagazine.com/title/01152/episode/312616"
-    },
-    {
-     "date": "2026-10-02",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://pocket.shonenmagazine.com/title/01152/episode/443457"
-    },
-    {
-     "date": "2026-09-27",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://pocket.shonenmagazine.com/title/01152/episode/346712"
-    },
-    {
-     "date": "2026-09-11",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://pocket.shonenmagazine.com/title/01152/episode/442468"
-    },
-    {
-     "date": "2026-08-21",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://pocket.shonenmagazine.com/title/01152/episode/441620"
-    },
-    {
-     "date": "2026-07-31",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://pocket.shonenmagazine.com/title/01152/episode/440677"
-    },
-    {
-     "date": "2026-07-10",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://pocket.shonenmagazine.com/title/01152/episode/439664"
-    },
-    {
-     "date": "2026-06-19",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://pocket.shonenmagazine.com/title/01152/episode/438336"
-    },
-    {
-     "date": "2026-06-05",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://pocket.shonenmagazine.com/title/01152/episode/439030"
-    },
-    {
-     "date": "2026-05-29",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://pocket.shonenmagazine.com/title/01152/episode/436358"
-    },
-    {
-     "date": "2026-05-21",
-     "label": "【第174話】飛行船",
-     "title": "【第174話】飛行船",
-     "url": "https://pocket.shonenmagazine.com/title/01152/episode/432245"
-    },
-    {
-     "date": "2026-05-01",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://pocket.shonenmagazine.com/title/01152/episode/434698"
-    },
-    {
-     "date": "2026-04-30",
-     "label": "【第173話】鑑定眼",
-     "title": "【第173話】鑑定眼",
-     "url": "https://pocket.shonenmagazine.com/title/01152/episode/431643"
-    }
-   ],
-   "latest": {
-    "date": "2026-11-13",
-    "label": "更新",
-    "title": "更新",
-    "url": "https://pocket.shonenmagazine.com/title/01152/episode/445527"
    },
    "error": null
   },
@@ -12230,113 +12660,6 @@
    "error": null
   },
   {
-   "detailUrl": "https://webcomics.jp/shonenjump-plus/16457717013869519536",
-   "title": "ふつうの軽音部",
-   "site": "少年ジャンプ+",
-   "thumbFile": "data/thumbs/163061.jpg",
-   "publisherUrl": "https://shonenjumpplus.com/episode/16457717013869519536",
-   "comicNo": 163061,
-   "history": [
-    {
-     "date": "2026-11-01",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191257538010554"
-    },
-    {
-     "date": "2026-10-25",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191257382361683"
-    },
-    {
-     "date": "2026-10-18",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191257227141488"
-    },
-    {
-     "date": "2026-10-04",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191256784142745"
-    },
-    {
-     "date": "2026-09-28",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/16457717013869519536"
-    },
-    {
-     "date": "2026-09-27",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191256672028416"
-    },
-    {
-     "date": "2026-09-20",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191256637716567"
-    },
-    {
-     "date": "2026-09-13",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191256479734451"
-    },
-    {
-     "date": "2026-08-30",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191256195090213"
-    },
-    {
-     "date": "2026-08-23",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191255890794651"
-    },
-    {
-     "date": "2026-08-16",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191255729394157"
-    },
-    {
-     "date": "2026-08-09",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191255607514268"
-    },
-    {
-     "date": "2026-07-26",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191255348930828"
-    },
-    {
-     "date": "2026-07-19",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191255124422315"
-    },
-    {
-     "date": "2026-07-12",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191254933947127"
-    }
-   ],
-   "latest": {
-    "date": "2026-11-01",
-    "label": "更新",
-    "title": "更新",
-    "url": "https://shonenjumpplus.com/episode/9253191257538010554"
-   },
-   "error": null
-  },
-  {
    "detailUrl": "https://webcomics.jp/pixiv-comic/5873",
    "title": "氷属性男子とクールな同僚女子",
    "site": "pixivコミック",
@@ -13083,113 +13406,6 @@
     "label": "2026/10/30 更新",
     "title": "2026/10/30 更新",
     "url": "https://manga.nicovideo.jp/comic/46238/new"
-   },
-   "error": null
-  },
-  {
-   "detailUrl": "https://webcomics.jp/younganimal/05f14f4afa1d7",
-   "title": "無自覚な天才少女は気付かない",
-   "site": "ヤングアニマルWeb",
-   "thumbFile": "data/thumbs/148591.jpg",
-   "publisherUrl": "https://younganimal.com/series/05f14f4afa1d7",
-   "comicNo": 148591,
-   "history": [
-    {
-     "date": "2026-10-30",
-     "label": "第39話②",
-     "title": "第39話②",
-     "url": "https://younganimal.com/episodes/2ae15f240a316"
-    },
-    {
-     "date": "2026-10-23",
-     "label": "第39話①",
-     "title": "第39話①",
-     "url": "https://younganimal.com/episodes/577160c0d90a0"
-    },
-    {
-     "date": "2026-10-17",
-     "label": "第38話③",
-     "title": "第38話③",
-     "url": "https://younganimal.com/episodes/dd5afc82f49e3"
-    },
-    {
-     "date": "2026-10-02",
-     "label": "第38話②",
-     "title": "第38話②",
-     "url": "https://younganimal.com/episodes/c4b07b073b8ba"
-    },
-    {
-     "date": "2026-09-18",
-     "label": "第38話①",
-     "title": "第38話①",
-     "url": "https://younganimal.com/episodes/3c994cb9fdb56"
-    },
-    {
-     "date": "2026-09-13",
-     "label": "第37話③",
-     "title": "第37話③",
-     "url": "https://younganimal.com/episodes/41dbedcf9c67e"
-    },
-    {
-     "date": "2026-08-28",
-     "label": "第37話②",
-     "title": "第37話②",
-     "url": "https://younganimal.com/episodes/d01079763386d"
-    },
-    {
-     "date": "2026-08-21",
-     "label": "第37話①",
-     "title": "第37話①",
-     "url": "https://younganimal.com/episodes/a62efae42483a"
-    },
-    {
-     "date": "2026-08-15",
-     "label": "第36話③",
-     "title": "第36話③",
-     "url": "https://younganimal.com/episodes/867c3ccb83c24"
-    },
-    {
-     "date": "2026-08-01",
-     "label": "第36話②",
-     "title": "第36話②",
-     "url": "https://younganimal.com/episodes/da336f45c52b0"
-    },
-    {
-     "date": "2026-07-17",
-     "label": "第36話①",
-     "title": "第36話①",
-     "url": "https://younganimal.com/episodes/e884159e1205f"
-    },
-    {
-     "date": "2026-07-10",
-     "label": "第35話③",
-     "title": "第35話③",
-     "url": "https://younganimal.com/episodes/c057037d259a0"
-    },
-    {
-     "date": "2026-06-27",
-     "label": "コミックス7巻PR",
-     "title": "コミックス7巻PR",
-     "url": "https://younganimal.com/episodes/9630d93bb4e54"
-    },
-    {
-     "date": "2026-06-27",
-     "label": "第35話②",
-     "title": "第35話②",
-     "url": "https://younganimal.com/episodes/be65922960855"
-    },
-    {
-     "date": "2026-06-19",
-     "label": "第35話①",
-     "title": "第35話①",
-     "url": "https://younganimal.com/episodes/baa771307842c"
-    }
-   ],
-   "latest": {
-    "date": "2026-10-30",
-    "label": "第39話②",
-    "title": "第39話②",
-    "url": "https://younganimal.com/episodes/2ae15f240a316"
    },
    "error": null
   },
