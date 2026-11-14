@@ -707,6 +707,205 @@ def enrich_mangaone_history(history, publisher_url):
     return history, filled
 
 
+# ---------------------------------------------------------------- 話URL補完（日付照合型）
+# ガンガンONLINE／COMIC FUZ／がうがう は、webcomics.jp の履歴が
+# 「日付だけ」で話URLを持たない。そのため公式の作品ページから
+# 話一覧を取り、日付で履歴エントリと突き合わせて話URLを補完する
+# （マンガワン対応と同じ枠組みだが、照合キーは日付）。
+#   - ガンガン: 作品ページの __NEXT_DATA__
+#     （props.pageProps.data.default.chapters）に話一覧があり、
+#     publishingPeriod の開始日が更新日。status 3（次回更新）は除外
+#   - FUZ: 作品ページの __NEXT_DATA__（pageProps.chapters の各
+#     セクション）に話一覧があり、updatedDate が更新日。話URLは
+#     https://comic-fuz.com/manga/viewer/<chapterId>
+#   - がうがう: 作品ページの話グリッドに話リンクと更新日がある
+#     （古い話には日付表示が無いものがあり、それらは照合できない）
+# 日付が同じ話が複数ある場合は本編を優先し、同種なら古い方
+# （続きの開始にふさわしい方）を採用する。失敗しても履歴は壊さない。
+# pixivコミックは作品ページが完全なクライアント描画で、公開APIも
+# 見つからなかったため、今回は対象外（2026-11-14 調査）。
+
+_NEXT_DATA_RE = re.compile(
+    r'<script id="__NEXT_DATA__" type="application/json">(.*?)</script>',
+    re.S)
+
+
+def _next_data_json(html):
+    """Next.js ページの __NEXT_DATA__ JSON を返す（無ければ None）。"""
+    m = _NEXT_DATA_RE.search(html or "")
+    if not m:
+        return None
+    try:
+        return json.loads(m.group(1))
+    except Exception:
+        return None
+
+
+def _is_main_episode_label(label):
+    """特典・おまけ等の非本編ラベルかどうか（本編なら True）。"""
+    return not any(kw in (label or "")
+                   for kw in ("特典", "おまけ", "告知", "お知らせ"))
+
+
+def parse_gangan_episodes(html, title_id):
+    """ガンガン作品ページから (更新日ISO, ラベル, 話URL, 本編か) の一覧を返す。"""
+    data = _next_data_json(html)
+    chapters = []
+    try:
+        chapters = data["props"]["pageProps"]["data"]["default"]["chapters"] or []
+    except Exception:
+        return []
+    out = []
+    for ch in chapters:
+        if not isinstance(ch, dict):
+            continue
+        label = (ch.get("mainText") or "").strip()
+        if not label or label.startswith("次回更新"):
+            continue
+        if ch.get("status") == 3:
+            continue
+        m = re.match(r"(\d{4})\.(\d{1,2})\.(\d{1,2})",
+                     ch.get("publishingPeriod") or "")
+        cid = ch.get("id")
+        if not m or cid is None:
+            continue
+        date_iso = f"{m.group(1)}-{int(m.group(2)):02d}-{int(m.group(3)):02d}"
+        url = (f"https://www.ganganonline.com/title/{title_id}"
+               f"/chapter/{cid}")
+        out.append((date_iso, label, url, _is_main_episode_label(label)))
+    return out
+
+
+def parse_fuz_episodes(html):
+    """FUZ作品ページから (更新日ISO, ラベル, 話URL, 本編か) の一覧を返す。"""
+    data = _next_data_json(html)
+    sections = []
+    try:
+        sections = data["props"]["pageProps"]["chapters"] or []
+    except Exception:
+        return []
+    out = []
+    for sec in sections:
+        if not isinstance(sec, dict):
+            continue
+        for ch in sec.get("chapters") or []:
+            if not isinstance(ch, dict):
+                continue
+            label = (ch.get("chapterMainName") or "").strip()
+            m = re.match(r"(\d{4})/(\d{1,2})/(\d{1,2})",
+                         ch.get("updatedDate") or "")
+            cid = ch.get("chapterId")
+            if not label or not m or cid is None:
+                continue
+            date_iso = (f"{m.group(1)}-{int(m.group(2)):02d}"
+                        f"-{int(m.group(3)):02d}")
+            url = f"https://comic-fuz.com/manga/viewer/{cid}"
+            out.append((date_iso, label, url, _is_main_episode_label(label)))
+    return out
+
+
+def parse_gaugau_episodes(html):
+    """がうがう作品ページから (更新日ISO, ラベル, 話URL, 本編か) の一覧を返す。"""
+    out = []
+    blocks = re.split(r'<div class="episode__grid">', html or "")
+    for b in blocks[1:]:
+        m = re.search(
+            r'<a href="(https://gaugau\.futabanet\.jp/list/work/[^"]+'
+            r'/episodes/\d+)"', b)
+        if not m:
+            continue
+        url = m.group(1)
+        num = re.search(r'<div class="episode__num">([^<]*)</div>', b)
+        label = (num.group(1).strip() if num else "") or "更新"
+        dm = re.search(r"<span>(\d{4})年(\d{1,2})月(\d{1,2})日 更新</span>", b)
+        if not dm:
+            continue  # 日付が無い古い話は照合できない
+        date_iso = (f"{dm.group(1)}-{int(dm.group(2)):02d}"
+                    f"-{int(dm.group(3)):02d}")
+        is_main = label.startswith("第") and _is_main_episode_label(label)
+        out.append((date_iso, label, url, is_main))
+    return out
+
+
+def fill_history_urls_by_date(history, episodes):
+    """履歴の url=None エントリを、日付で突き合わせた話URLで補完する。
+
+    (履歴, 補完件数) を返す。同日の話が複数ある場合は本編を優先し、
+    同種なら一覧の後方（＝古い方）を採用する。
+    """
+    missing = [h for h in history if not h.get("url")]
+    if not missing or not episodes:
+        return history, 0
+    by_date = {}
+    for date_iso, _label, url, is_main in episodes:
+        cur = by_date.get(date_iso)
+        if cur is None or is_main or is_main == cur[1]:
+            by_date[date_iso] = (url, is_main)
+    filled = 0
+    for h in history:
+        if not h.get("url"):
+            cand = by_date.get(h.get("date"))
+            if cand:
+                h["url"] = cand[0]
+                filled += 1
+    return history, filled
+
+
+def _enrich_by_date_history(history, publisher_url, parser, site_name):
+    """日付照合型の補完の共通処理（parser は作品ページHTMLを受け取る）。"""
+    if not any(not h.get("url") for h in history):
+        return history, 0
+    try:
+        html = fetch_text(publisher_url)
+        polite_sleep()
+        return fill_history_urls_by_date(history, parser(html))
+    except Exception as e:
+        print(f"[checker] {site_name} enrich failed ({publisher_url}): {e}",
+              file=sys.stderr)
+        return history, 0
+
+
+def is_gangan_work(site, publisher_url):
+    if site and "ガンガン" in site:
+        return True
+    return bool(publisher_url) and "ganganonline.com" in publisher_url
+
+
+def is_fuz_work(site, publisher_url):
+    if site and "FUZ" in (site or ""):
+        return True
+    return bool(publisher_url) and "comic-fuz.com" in publisher_url
+
+
+def is_gaugau_work(site, publisher_url):
+    if site and "がうがう" in site:
+        return True
+    return bool(publisher_url) and "gaugau.futabanet.jp" in publisher_url
+
+
+def enrich_gangan_history(history, publisher_url):
+    """ガンガン作品の履歴に話URLを補完する。(履歴, 補完件数) を返す。"""
+    m = re.search(r"ganganonline\.com/title/(\d+)", publisher_url or "")
+    if not m:
+        return history, 0
+    title_id = m.group(1)
+    return _enrich_by_date_history(
+        history, publisher_url,
+        lambda html: parse_gangan_episodes(html, title_id), "gangan")
+
+
+def enrich_fuz_history(history, publisher_url):
+    """FUZ作品の履歴に話URLを補完する。(履歴, 補完件数) を返す。"""
+    return _enrich_by_date_history(
+        history, publisher_url, parse_fuz_episodes, "fuz")
+
+
+def enrich_gaugau_history(history, publisher_url):
+    """がうがう作品の履歴に話URLを補完する。(履歴, 補完件数) を返す。"""
+    return _enrich_by_date_history(
+        history, publisher_url, parse_gaugau_episodes, "gaugau")
+
+
 # ---------------------------------------------------------------- 非本編の分類（案2）
 # webcomics.jp の「最近の更新」には、本編の話だけでなくイラスト・
 # 人気投票企画・休載のお知らせ等の「話でない更新」も並ぶ。これらが
@@ -834,11 +1033,12 @@ def read_json(path, default):
 # ため、削除も bot コミットに乗ってリポジトリから消える）。
 
 def cleanup_debug_files():
-    """THUMBS_DIR に残っている _debug_*.html を削除し、削除件数を返す。"""
+    """THUMBS_DIR に残っている _debug_*.html / _probe_*.html を削除し、削除件数を返す。"""
     removed = 0
     if os.path.isdir(THUMBS_DIR):
         for name in os.listdir(THUMBS_DIR):
-            if name.startswith("_debug_") and name.endswith(".html"):
+            if (name.startswith("_debug_") or name.startswith("_probe_")) \
+                    and name.endswith(".html"):
                 try:
                     os.remove(os.path.join(THUMBS_DIR, name))
                     removed += 1
@@ -850,35 +1050,6 @@ def cleanup_debug_files():
     return removed
 
 
-# ---------------------------------------------------------------- 暫定プローブ
-# 話URLが取れない4サイト（ガンガンONLINE／COMIC FUZ／がうがう／pixiv）
-# について、公式の作品ページの生HTMLを data/thumbs/_probe_*.html に
-# 保存し、話一覧の構造（話リンクやAPIの手がかり）を確認するための
-# 一時的な調査コード（2026-11-14）。アダプタ実装が済んだら撤去する。
-# 失敗してもチェック本処理には影響させない。
-
-PROBE_PAGES = {
-    "gangan1863": "https://www.ganganonline.com/title/1863",
-    "fuz3542": "https://comic-fuz.com/manga/3542",
-    "gaugau605051": "https://gaugau.futabanet.jp/list/work/605051da776561856c030000",
-    "pixiv10621": "https://comic.pixiv.net/works/10621",
-}
-
-
-def save_probe_pages():
-    """PROBE_PAGES の生HTMLを THUMBS_DIR/_probe_<name>.html に保存する。"""
-    os.makedirs(THUMBS_DIR, exist_ok=True)
-    for name, url in PROBE_PAGES.items():
-        try:
-            body = fetch_text(url)
-            path = os.path.join(THUMBS_DIR, f"_probe_{name}.html")
-            with open(path, "w", encoding="utf-8") as f:
-                f.write(body)
-            print(f"[checker] probe saved {name}: {len(body)} bytes")
-        except Exception as e:  # プローブの失敗で本処理を止めない
-            print(f"[checker] probe failed {name}: {e}", file=sys.stderr)
-
-
 def main():
     now = datetime.now(JST)
     today = now.date()
@@ -886,8 +1057,6 @@ def main():
 
     # v2〜v3 の暫定デバッグファイルが残っていれば掃除する
     cleanup_debug_files()
-    # 暫定プローブ（話URLが取れないサイトの構造調査用）
-    save_probe_pages()
 
     library = read_json(LIBRARY_PATH, {"version": 1, "works": {}, "added": []})
     added_urls = []
@@ -996,6 +1165,18 @@ def main():
         if history and is_mangaone_work(site, publisher_url):
             history, n_filled = enrich_mangaone_history(
                 history, publisher_url)
+            mangaone_filled_total += n_filled
+
+        # 日付照合型の話URL補完：ガンガン／FUZ／がうがう（2026-11-14）
+        if history and is_gangan_work(site, publisher_url):
+            history, n_filled = enrich_gangan_history(
+                history, publisher_url)
+            mangaone_filled_total += n_filled
+        if history and is_fuz_work(site, publisher_url):
+            history, n_filled = enrich_fuz_history(history, publisher_url)
+            mangaone_filled_total += n_filled
+        if history and is_gaugau_work(site, publisher_url):
+            history, n_filled = enrich_gaugau_history(history, publisher_url)
             mangaone_filled_total += n_filled
 
         # 非本編の分類（案2）：履歴が確定した最終ステップとして、
