@@ -28,6 +28,7 @@ Python 標準ライブラリのみで動作する。
 import json
 import os
 import re
+import subprocess
 import sys
 import time
 import urllib.error
@@ -98,6 +99,51 @@ def fetch_bytes(url, ua=None):
 
 def fetch_text(url, ua=None):
     return fetch_bytes(url, ua=ua).decode("utf-8", errors="replace")
+
+
+# チェック実行環境からしか分からない失敗（取得拒否など）を、コミットされる
+# ファイルに残すための診断ログ。data/thumbs/_probe_log.txt に書かれる
+DIAG_LINES = []
+
+
+def diag(msg):
+    line = str(msg)
+    DIAG_LINES.append(line)
+    print(f"[diag] {line}")
+
+
+def fetch_text_browser(url):
+    """ブラウザ風の完全なヘッダーで取得する。(本文, 取得手段) を返す。
+
+    COMICリュウは専用UAどころか urllib の素の取得自体を弾く可能性が
+    あるため、urllib で失敗したら curl にフォールバックする。
+    どちらも失敗したら、両方のエラーを含む例外を送出する。
+    """
+    req = urllib.request.Request(url, headers={
+        "User-Agent": BROWSER_UA,
+        "Accept": ("text/html,application/xhtml+xml,application/xml;"
+                   "q=0.9,*/*;q=0.8"),
+        "Accept-Language": "ja,en-US;q=0.9,en;q=0.8",
+    })
+    try:
+        with urllib.request.urlopen(req, timeout=TIMEOUT) as res:
+            return res.read().decode("utf-8", errors="replace"), "urllib"
+    except Exception as e1:
+        try:
+            out = subprocess.run(
+                ["curl", "-sS", "-L", "--max-time", str(TIMEOUT),
+                 "-A", BROWSER_UA,
+                 "-H", "Accept-Language: ja,en-US;q=0.9,en;q=0.8",
+                 url],
+                capture_output=True, timeout=TIMEOUT + 15)
+            if out.returncode == 0 and out.stdout:
+                return (out.stdout.decode("utf-8", errors="replace"),
+                        "curl")
+            raise RuntimeError(
+                f"rc={out.returncode} "
+                f"{out.stderr.decode('utf-8', 'replace')[:200]}")
+        except Exception as e2:
+            raise RuntimeError(f"urllib: {e1!r} / curl: {e2!r}")
 
 
 def fetch_final_url(url):
@@ -1116,10 +1162,15 @@ def enrich_ryu_paid_flags(history, publisher_url):
     if not history or not publisher_url:
         return history, 0
     try:
-        html = fetch_text(publisher_url, ua=BROWSER_UA)
+        html, via = fetch_text_browser(publisher_url)
         polite_sleep()
-        return apply_ryu_paid_flags(history, parse_ryu_episodes(html))
+        episodes = parse_ryu_episodes(html)
+        history, paid = apply_ryu_paid_flags(history, episodes)
+        diag(f"ryu paid {publisher_url}: via={via} "
+             f"bytes={len(html)} episodes={len(episodes)} paid={paid}")
+        return history, paid
     except Exception as e:
+        diag(f"ryu paid {publisher_url}: FAILED {e!r}")
         print(f"[checker] ryu paid enrich failed ({publisher_url}): {e}",
               file=sys.stderr)
         return history, 0
@@ -1220,12 +1271,14 @@ def save_probe_pages():
     os.makedirs(THUMBS_DIR, exist_ok=True)
     for name, url in PROBE_PAGES.items():
         try:
-            body = fetch_text(url, ua=BROWSER_UA)
+            body, via = fetch_text_browser(url)
             path = os.path.join(THUMBS_DIR, f"_probe_{name}.html")
             with open(path, "w", encoding="utf-8") as f:
                 f.write(body)
+            diag(f"probe {name}: via={via} bytes={len(body)} saved")
             print(f"[checker] probe saved {name}: {len(body)} bytes")
         except Exception as e:  # プローブの失敗で本処理を止めない
+            diag(f"probe {name}: FAILED {e!r}")
             print(f"[checker] probe failed {name}: {e}", file=sys.stderr)
 
 
@@ -1420,6 +1473,16 @@ def main():
     with open(tmp_path, "w", encoding="utf-8") as f:
         json.dump(result, f, ensure_ascii=False, indent=1)
     os.replace(tmp_path, LATEST_PATH)
+
+    # 診断ログ（取得失敗の切り分け用。コミット対象の data/thumbs に置く）
+    try:
+        os.makedirs(THUMBS_DIR, exist_ok=True)
+        with open(os.path.join(THUMBS_DIR, "_probe_log.txt"),
+                  "w", encoding="utf-8") as f:
+            f.write(f"checkedAt: {now.isoformat(timespec='seconds')}\n")
+            f.write("\n".join(DIAG_LINES) + "\n")
+    except Exception as e:
+        print(f"[checker] diag log failed: {e}", file=sys.stderr)
 
     errors = sum(1 for w in out_works if w["error"])
     print(
