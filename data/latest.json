@@ -1,7 +1,114 @@
 {
- "checkedAt": "2026-11-15T12:08:33+09:00",
+ "checkedAt": "2026-11-15T12:28:38+09:00",
  "bookmarkUrl": "https://webcomics.jp/bookmark/3682scqd",
  "works": [
+  {
+   "detailUrl": "https://webcomics.jp/comic-days/13932016480029480667",
+   "title": "K2",
+   "site": "コミックDAYS",
+   "thumbFile": "data/thumbs/107068.jpg",
+   "publisherUrl": "https://comic-days.com/episode/13932016480029480667",
+   "comicNo": 107068,
+   "history": [
+    {
+     "date": "2026-11-15",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983947538313"
+    },
+    {
+     "date": "2026-11-01",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983947538305"
+    },
+    {
+     "date": "2026-10-18",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983379584077"
+    },
+    {
+     "date": "2026-10-04",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983379584073"
+    },
+    {
+     "date": "2026-09-20",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983379584070"
+    },
+    {
+     "date": "2026-09-06",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983379584067"
+    },
+    {
+     "date": "2026-08-28",
+     "label": "第1話 消えた傷",
+     "title": "第1話 消えた傷",
+     "url": "https://comic-days.com/episode/13932016480029480667"
+    },
+    {
+     "date": "2026-08-16",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983379584064"
+    },
+    {
+     "date": "2026-08-16",
+     "label": "第25話 継承(後編)",
+     "title": "第25話 継承(後編)",
+     "url": "https://comic-days.com/episode/13932016480029500381"
+    },
+    {
+     "date": "2026-08-02",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983379584061"
+    },
+    {
+     "date": "2026-07-19",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983379584058"
+    },
+    {
+     "date": "2026-07-05",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983379584054"
+    },
+    {
+     "date": "2026-06-21",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983379584051"
+    },
+    {
+     "date": "2026-06-07",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983379584048"
+    },
+    {
+     "date": "2026-05-17",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/2551460909501894924"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-15",
+    "label": "更新",
+    "title": "更新",
+    "url": "https://comic-days.com/episode/12207421983947538313"
+   },
+   "error": null
+  },
   {
    "detailUrl": "https://webcomics.jp/younganimal/05f14f4afa1d7",
    "title": "無自覚な天才少女は気付かない",
@@ -213,6 +320,113 @@
     "label": "更新",
     "title": "更新",
     "url": "https://shonenjumpplus.com/episode/9253191257737711371"
+   },
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/yanmaga/E58F8CE6989FE381AEE382A2E3839D",
+   "title": "双星のアポクリファ",
+   "site": "ヤンマガWeb",
+   "thumbFile": "data/thumbs/192405.jpg",
+   "publisherUrl": "https://yanmaga.jp/comics/%E5%8F%8C%E6%98%9F%E3%81%AE%E3%82%A2%E3%83%9D%E3%82%AF%E3%83%AA%E3%83%95%E3%82%A1",
+   "comicNo": 192405,
+   "history": [
+    {
+     "date": "2026-11-15",
+     "label": "第53話 帰路へ",
+     "title": "第53話 帰路へ",
+     "url": "https://yanmaga.jp/comics/%E5%8F%8C%E6%98%9F%E3%81%AE%E3%82%A2%E3%83%9D%E3%82%AF%E3%83%AA%E3%83%95%E3%82%A1/b7ae4530792bea5b258f31967418f513"
+    },
+    {
+     "date": "2026-11-01",
+     "label": "第52話 救われぬ者",
+     "title": "第52話 救われぬ者",
+     "url": "https://yanmaga.jp/comics/%E5%8F%8C%E6%98%9F%E3%81%AE%E3%82%A2%E3%83%9D%E3%82%AF%E3%83%AA%E3%83%95%E3%82%A1/61a58fb1ddf56b0e3300114af59a0907"
+    },
+    {
+     "date": "2026-10-25",
+     "label": "第51話 冬の果て、光差す",
+     "title": "第51話 冬の果て、光差す",
+     "url": "https://yanmaga.jp/comics/%E5%8F%8C%E6%98%9F%E3%81%AE%E3%82%A2%E3%83%9D%E3%82%AF%E3%83%AA%E3%83%95%E3%82%A1/2b39fd2eb9f246f353e82f580c3e7059"
+    },
+    {
+     "date": "2026-10-18",
+     "label": "第50話 おかえり",
+     "title": "第50話 おかえり",
+     "url": "https://yanmaga.jp/comics/%E5%8F%8C%E6%98%9F%E3%81%AE%E3%82%A2%E3%83%9D%E3%82%AF%E3%83%AA%E3%83%95%E3%82%A1/69b489139e62251b9496686f4976357d"
+    },
+    {
+     "date": "2026-10-04",
+     "label": "第49話 猛攻の果てに",
+     "title": "第49話 猛攻の果てに",
+     "url": "https://yanmaga.jp/comics/%E5%8F%8C%E6%98%9F%E3%81%AE%E3%82%A2%E3%83%9D%E3%82%AF%E3%83%AA%E3%83%95%E3%82%A1/b2de035666bafa9a2f43a49fef3e9eb6"
+    },
+    {
+     "date": "2026-09-27",
+     "label": "第48話 勝機",
+     "title": "第48話 勝機",
+     "url": "https://yanmaga.jp/comics/%E5%8F%8C%E6%98%9F%E3%81%AE%E3%82%A2%E3%83%9D%E3%82%AF%E3%83%AA%E3%83%95%E3%82%A1/2effecdf6e00f0d86723686b04523d1b"
+    },
+    {
+     "date": "2026-09-20",
+     "label": "第47話 少女は王冠を戴く",
+     "title": "第47話 少女は王冠を戴く",
+     "url": "https://yanmaga.jp/comics/%E5%8F%8C%E6%98%9F%E3%81%AE%E3%82%A2%E3%83%9D%E3%82%AF%E3%83%AA%E3%83%95%E3%82%A1/6d69d6836051accd595803c1ff9b0627"
+    },
+    {
+     "date": "2026-09-06",
+     "label": "第46話 公女リゼル",
+     "title": "第46話 公女リゼル",
+     "url": "https://yanmaga.jp/comics/%E5%8F%8C%E6%98%9F%E3%81%AE%E3%82%A2%E3%83%9D%E3%82%AF%E3%83%AA%E3%83%95%E3%82%A1/d714b9fad500657d8c4cdac60f1adf46"
+    },
+    {
+     "date": "2026-08-30",
+     "label": "第45話 双貌に堕つ",
+     "title": "第45話 双貌に堕つ",
+     "url": "https://yanmaga.jp/comics/%E5%8F%8C%E6%98%9F%E3%81%AE%E3%82%A2%E3%83%9D%E3%82%AF%E3%83%AA%E3%83%95%E3%82%A1/dc44dda05093a3586ab66e6dca085eaa"
+    },
+    {
+     "date": "2026-08-23",
+     "label": "第44話 光は君へ",
+     "title": "第44話 光は君へ",
+     "url": "https://yanmaga.jp/comics/%E5%8F%8C%E6%98%9F%E3%81%AE%E3%82%A2%E3%83%9D%E3%82%AF%E3%83%AA%E3%83%95%E3%82%A1/f7aee5d39c76438aa0ccb92d82425ac5"
+    },
+    {
+     "date": "2026-08-09",
+     "label": "第43話 再会、されど君は",
+     "title": "第43話 再会、されど君は",
+     "url": "https://yanmaga.jp/comics/%E5%8F%8C%E6%98%9F%E3%81%AE%E3%82%A2%E3%83%9D%E3%82%AF%E3%83%AA%E3%83%95%E3%82%A1/946ff5d186892f4fc0dfa82437ec1ced"
+    },
+    {
+     "date": "2026-08-02",
+     "label": "第42話 女王VS女王",
+     "title": "第42話 女王VS女王",
+     "url": "https://yanmaga.jp/comics/%E5%8F%8C%E6%98%9F%E3%81%AE%E3%82%A2%E3%83%9D%E3%82%AF%E3%83%AA%E3%83%95%E3%82%A1/1069c38416b9a3168bf76db5cc5dec3f"
+    },
+    {
+     "date": "2026-07-26",
+     "label": "第41話 開戦",
+     "title": "第41話 開戦",
+     "url": "https://yanmaga.jp/comics/%E5%8F%8C%E6%98%9F%E3%81%AE%E3%82%A2%E3%83%9D%E3%82%AF%E3%83%AA%E3%83%95%E3%82%A1/885aaf9cb55a8e3a5b644343f52d3e5b"
+    },
+    {
+     "date": "2026-07-12",
+     "label": "第40話 その光は誰がために",
+     "title": "第40話 その光は誰がために",
+     "url": "https://yanmaga.jp/comics/%E5%8F%8C%E6%98%9F%E3%81%AE%E3%82%A2%E3%83%9D%E3%82%AF%E3%83%AA%E3%83%95%E3%82%A1/e773f5e3aca795a0fc6b5703ea9482e0"
+    },
+    {
+     "date": "2026-07-05",
+     "label": "第39話 氷の奥で脈を打つ",
+     "title": "第39話 氷の奥で脈を打つ",
+     "url": "https://yanmaga.jp/comics/%E5%8F%8C%E6%98%9F%E3%81%AE%E3%82%A2%E3%83%9D%E3%82%AF%E3%83%AA%E3%83%95%E3%82%A1/efca1c81c75e25826f0f14160c3b696a"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-15",
+    "label": "第53話 帰路へ",
+    "title": "第53話 帰路へ",
+    "url": "https://yanmaga.jp/comics/%E5%8F%8C%E6%98%9F%E3%81%AE%E3%82%A2%E3%83%9D%E3%82%AF%E3%83%AA%E3%83%95%E3%82%A1/b7ae4530792bea5b258f31967418f513"
    },
    "error": null
   },
@@ -654,7 +868,7 @@
    "comicNo": 104565,
    "history": [
     {
-     "date": "2026-11-15",
+     "date": "2026-11-14",
      "label": "更新",
      "title": "更新",
      "url": "https://comic-days.com/episode/2551460909859040075"
@@ -746,7 +960,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-15",
+    "date": "2026-11-14",
     "label": "更新",
     "title": "更新",
     "url": "https://comic-days.com/episode/2551460909859040075"
@@ -965,6 +1179,115 @@
     "label": "更新",
     "title": "更新",
     "url": "https://shonenjumpplus.com/episode/9253191256784142533"
+   },
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/yanmaga/E88196E381AAE3828BE4B999E5A5B3",
+   "title": "聖なる乙女と秘めごとを",
+   "site": "ヤンマガWeb",
+   "thumbFile": "data/thumbs/172524.jpg",
+   "publisherUrl": "https://yanmaga.jp/comics/%E8%81%96%E3%81%AA%E3%82%8B%E4%B9%99%E5%A5%B3%E3%81%A8%E7%A7%98%E3%82%81%E3%81%94%E3%81%A8%E3%82%92",
+   "comicNo": 172524,
+   "history": [
+    {
+     "date": "2026-11-14",
+     "label": "100万部突破記念宣伝マンガ",
+     "title": "100万部突破記念宣伝マンガ",
+     "url": "https://yanmaga.jp/comics/%E8%81%96%E3%81%AA%E3%82%8B%E4%B9%99%E5%A5%B3%E3%81%A8%E7%A7%98%E3%82%81%E3%81%94%E3%81%A8%E3%82%92/add68a7289f78278efc2831c97c38f6f",
+     "extra": true
+    },
+    {
+     "date": "2026-11-14",
+     "label": "第119話 神より恵みを賜れば",
+     "title": "第119話 神より恵みを賜れば",
+     "url": "https://yanmaga.jp/comics/%E8%81%96%E3%81%AA%E3%82%8B%E4%B9%99%E5%A5%B3%E3%81%A8%E7%A7%98%E3%82%81%E3%81%94%E3%81%A8%E3%82%92/3b7e55092a5e917ad03237f02fcb64da"
+    },
+    {
+     "date": "2026-11-07",
+     "label": "第118話 柔肌を包む黒色を",
+     "title": "第118話 柔肌を包む黒色を",
+     "url": "https://yanmaga.jp/comics/%E8%81%96%E3%81%AA%E3%82%8B%E4%B9%99%E5%A5%B3%E3%81%A8%E7%A7%98%E3%82%81%E3%81%94%E3%81%A8%E3%82%92/b4df897a288116ab6bfb520535189ab9"
+    },
+    {
+     "date": "2026-10-31",
+     "label": "第117話 めんどうくささと可愛げと",
+     "title": "第117話 めんどうくささと可愛げと",
+     "url": "https://yanmaga.jp/comics/%E8%81%96%E3%81%AA%E3%82%8B%E4%B9%99%E5%A5%B3%E3%81%A8%E7%A7%98%E3%82%81%E3%81%94%E3%81%A8%E3%82%92/6eb4a24b34de78724f328dc482627793"
+    },
+    {
+     "date": "2026-10-24",
+     "label": "第116話 眠りの奇蹟を試すなら",
+     "title": "第116話 眠りの奇蹟を試すなら",
+     "url": "https://yanmaga.jp/comics/%E8%81%96%E3%81%AA%E3%82%8B%E4%B9%99%E5%A5%B3%E3%81%A8%E7%A7%98%E3%82%81%E3%81%94%E3%81%A8%E3%82%92/55889a88caa7eb92879a0674fe03eec0"
+    },
+    {
+     "date": "2026-10-17",
+     "label": "第115話 傷んだ心をあやせたら",
+     "title": "第115話 傷んだ心をあやせたら",
+     "url": "https://yanmaga.jp/comics/%E8%81%96%E3%81%AA%E3%82%8B%E4%B9%99%E5%A5%B3%E3%81%A8%E7%A7%98%E3%82%81%E3%81%94%E3%81%A8%E3%82%92/35f0673e37fc4e5170ca5f003cd93166"
+    },
+    {
+     "date": "2026-10-10",
+     "label": "第114話 寒空の下を歩こう",
+     "title": "第114話 寒空の下を歩こう",
+     "url": "https://yanmaga.jp/comics/%E8%81%96%E3%81%AA%E3%82%8B%E4%B9%99%E5%A5%B3%E3%81%A8%E7%A7%98%E3%82%81%E3%81%94%E3%81%A8%E3%82%92/b6590d7631f5562d71363e5a1021cb89"
+    },
+    {
+     "date": "2026-10-03",
+     "label": "特別編 研究員の秘めごと",
+     "title": "特別編 研究員の秘めごと",
+     "url": "https://yanmaga.jp/comics/%E8%81%96%E3%81%AA%E3%82%8B%E4%B9%99%E5%A5%B3%E3%81%A8%E7%A7%98%E3%82%81%E3%81%94%E3%81%A8%E3%82%92/177ec194375c5d3fa8a646e796ba4b4b"
+    },
+    {
+     "date": "2026-09-26",
+     "label": "第113話 秘密は甘い罪の味",
+     "title": "第113話 秘密は甘い罪の味",
+     "url": "https://yanmaga.jp/comics/%E8%81%96%E3%81%AA%E3%82%8B%E4%B9%99%E5%A5%B3%E3%81%A8%E7%A7%98%E3%82%81%E3%81%94%E3%81%A8%E3%82%92/06d3b9ab9fad6d974db4d27882caa99f"
+    },
+    {
+     "date": "2026-09-19",
+     "label": "第112話 日記を持つ乙女",
+     "title": "第112話 日記を持つ乙女",
+     "url": "https://yanmaga.jp/comics/%E8%81%96%E3%81%AA%E3%82%8B%E4%B9%99%E5%A5%B3%E3%81%A8%E7%A7%98%E3%82%81%E3%81%94%E3%81%A8%E3%82%92/5a69072f9259dc7ff47d74a227490bf6"
+    },
+    {
+     "date": "2026-09-12",
+     "label": "第111話 それは降り積もる雪のように",
+     "title": "第111話 それは降り積もる雪のように",
+     "url": "https://yanmaga.jp/comics/%E8%81%96%E3%81%AA%E3%82%8B%E4%B9%99%E5%A5%B3%E3%81%A8%E7%A7%98%E3%82%81%E3%81%94%E3%81%A8%E3%82%92/52e40d152fa2eac9e0ff5ec5ca434a69"
+    },
+    {
+     "date": "2026-09-05",
+     "label": "第110話 そして花開く",
+     "title": "第110話 そして花開く",
+     "url": "https://yanmaga.jp/comics/%E8%81%96%E3%81%AA%E3%82%8B%E4%B9%99%E5%A5%B3%E3%81%A8%E7%A7%98%E3%82%81%E3%81%94%E3%81%A8%E3%82%92/90e5d31359075d0ef02bdc8e5603e050"
+    },
+    {
+     "date": "2026-08-29",
+     "label": "第109話 夢から覚めた日常を",
+     "title": "第109話 夢から覚めた日常を",
+     "url": "https://yanmaga.jp/comics/%E8%81%96%E3%81%AA%E3%82%8B%E4%B9%99%E5%A5%B3%E3%81%A8%E7%A7%98%E3%82%81%E3%81%94%E3%81%A8%E3%82%92/26481eae9a87465cd0400dc804d21900"
+    },
+    {
+     "date": "2026-08-22",
+     "label": "第108話 探しものはなんですか",
+     "title": "第108話 探しものはなんですか",
+     "url": "https://yanmaga.jp/comics/%E8%81%96%E3%81%AA%E3%82%8B%E4%B9%99%E5%A5%B3%E3%81%A8%E7%A7%98%E3%82%81%E3%81%94%E3%81%A8%E3%82%92/5006b5e63908a985060db09d63b6542a"
+    },
+    {
+     "date": "2026-08-15",
+     "label": "単行本宣伝話",
+     "title": "単行本宣伝話",
+     "url": "https://yanmaga.jp/comics/%E8%81%96%E3%81%AA%E3%82%8B%E4%B9%99%E5%A5%B3%E3%81%A8%E7%A7%98%E3%82%81%E3%81%94%E3%81%A8%E3%82%92/2a9a5f08333390f311e0430f1be3e1a8",
+     "extra": true
+    }
+   ],
+   "latest": {
+    "date": "2026-11-14",
+    "label": "第119話 神より恵みを賜れば",
+    "title": "第119話 神より恵みを賜れば",
+    "url": "https://yanmaga.jp/comics/%E8%81%96%E3%81%AA%E3%82%8B%E4%B9%99%E5%A5%B3%E3%81%A8%E7%A7%98%E3%82%81%E3%81%94%E3%81%A8%E3%82%92/3b7e55092a5e917ad03237f02fcb64da"
    },
    "error": null
   },
@@ -12763,113 +13086,6 @@
     "label": "2026/11/02 更新",
     "title": "2026/11/02 更新",
     "url": "https://manga.nicovideo.jp/comic/45341/new"
-   },
-   "error": null
-  },
-  {
-   "detailUrl": "https://webcomics.jp/comic-days/13932016480029480667",
-   "title": "K2",
-   "site": "コミックDAYS",
-   "thumbFile": "data/thumbs/107068.jpg",
-   "publisherUrl": "https://comic-days.com/episode/13932016480029480667",
-   "comicNo": 107068,
-   "history": [
-    {
-     "date": "2026-11-01",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983947538305"
-    },
-    {
-     "date": "2026-10-18",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983379584077"
-    },
-    {
-     "date": "2026-10-04",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983379584073"
-    },
-    {
-     "date": "2026-09-20",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983379584070"
-    },
-    {
-     "date": "2026-09-06",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983379584067"
-    },
-    {
-     "date": "2026-08-28",
-     "label": "第1話 消えた傷",
-     "title": "第1話 消えた傷",
-     "url": "https://comic-days.com/episode/13932016480029480667"
-    },
-    {
-     "date": "2026-08-16",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983379584064"
-    },
-    {
-     "date": "2026-08-16",
-     "label": "第25話 継承(後編)",
-     "title": "第25話 継承(後編)",
-     "url": "https://comic-days.com/episode/13932016480029500381"
-    },
-    {
-     "date": "2026-08-02",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983379584061"
-    },
-    {
-     "date": "2026-07-19",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983379584058"
-    },
-    {
-     "date": "2026-07-05",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983379584054"
-    },
-    {
-     "date": "2026-06-21",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983379584051"
-    },
-    {
-     "date": "2026-06-07",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983379584048"
-    },
-    {
-     "date": "2026-05-17",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://comic-days.com/episode/2551460909501894924"
-    },
-    {
-     "date": "2026-05-03",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://comic-days.com/episode/2551460909501894918"
-    }
-   ],
-   "latest": {
-    "date": "2026-11-01",
-    "label": "更新",
-    "title": "更新",
-    "url": "https://comic-days.com/episode/12207421983947538305"
    },
    "error": null
   },
