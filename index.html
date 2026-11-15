@@ -264,7 +264,9 @@ function isExtraEp(h){ return !!(h && h.extra); }
 // 未読が無ければ null（w.unread は古い順に並んでいる）
 function continueEp(w){
   if(!w || !w.unread || !w.unread.length) return null;
-  for(const h of w.unread){ if(!isExtraEp(h)) return h; }
+  // 有料の話は飛び先にしない（COMICリュウ等）。無料の未読が無ければ
+  // 無料の最新話（latestEp）にフォールバックする
+  for(const h of w.unread){ if(!isExtraEp(h) && !h.paid) return h; }
   return w.latestEp || w.unread[0];
 }
 function b64encodeUtf8(str){
@@ -680,8 +682,10 @@ async function openWork(detailUrl, btn){
   }
   // 読了位置は履歴の先頭（非本編を含む最新の更新）まで進める。
   // 本編の最新話（latestEp）で保存すると、先頭にある非本編の
-  // 未読が残り続けてしまうため、ここは意図的に先頭を使う
-  const head = w.history[0] || w.latestEp;
+  // 未読が残り続けてしまうため、ここは意図的に先頭を使う。
+  // ただし有料の話は飛ばす：先頭が有料の場合は、最も新しい無料の
+  // 話まで進める（有料の話は、無料化したときに未読として出る）
+  const head = (w.history.find(h => !h.paid)) || w.history[0] || w.latestEp;
   const ok = await saveLibrary(d => {
     d.works = d.works || {};
     d.works[detailUrl] = { lastReadUrl: head.url || "", lastReadTitle: epLabel(head), lastReadFp: histFp(head) };
