@@ -972,6 +972,80 @@ def select_latest(history):
     return history[0] if history else None
 
 
+# ---------------------------------------------------------------- COMICリュウの latest
+# COMICリュウは、過去話の再掲（無料公開の入れ替え等）が「最近の更新」
+# の先頭に来ることがあり、日付が新しい順＝最新話にならない
+# （2026-11-15『セントールの悩み』で報告：最新話として第211話が
+# 表示されたが、無料で読める最新話は第214話だった。履歴には
+# 第212〜214話が 9/18 付けで第211話より下にあった）。
+# このサイトでは「最新話」を、非本編を除いた履歴の中で話数
+# （第N話）が最大のエントリとする。話数が読み取れるエントリが
+# 無ければ通常の選択にフォールバックする。履歴の並び自体と
+# 未読判定（読了位置の指紋照合）は変更しない。
+
+_EPISODE_NUM_RE = re.compile(r"第(\d+)話")
+_EPISODE_PART_NUM_RE = re.compile(r"[-（(](\d+)")
+
+
+def _episode_number_key(entry):
+    """エントリの話数キー (話数, 分割順) を返す。話数が無ければ None。
+
+    分割順は数値サフィックス（-2／(2) 等）を優先し、次に
+    前編＜中編＜後編 の順で評価する。
+    """
+    label = entry.get("label") or entry.get("title") or ""
+    m = _EPISODE_NUM_RE.search(label)
+    if not m:
+        return None
+    part = 0
+    pm = _EPISODE_PART_NUM_RE.match(label[m.end():])
+    if pm:
+        part = int(pm.group(1))
+    elif "後編" in label:
+        part = 90
+    elif "中編" in label:
+        part = 50
+    elif "前編" in label:
+        part = 10
+    return (int(m.group(1)), part)
+
+
+def select_latest_ryu(history):
+    """COMICリュウ用：話数が最大の本編エントリを latest とする。
+
+    話数が読み取れる本編エントリが無ければ None（呼び出し側で
+    通常の select_latest にフォールバックする）。同点の場合は
+    日付が新しい方を採る。
+    """
+    best = None
+    best_key = None
+    for entry in history or []:
+        if is_extra_entry(entry):
+            continue
+        key = _episode_number_key(entry)
+        if key is None:
+            continue
+        full_key = (key[0], key[1], entry.get("date") or "")
+        if best_key is None or full_key > best_key:
+            best, best_key = entry, full_key
+    return best
+
+
+def is_ryu_work(site, publisher_url):
+    if site and "リュウ" in site:
+        return True
+    return bool(publisher_url) and "comic-ryu.jp" in publisher_url
+
+
+def select_latest_for_work(history, site, publisher_url):
+    """作品に応じた latest の選択（COMICリュウは話数最大を優先）。"""
+    if is_ryu_work(site, publisher_url):
+        latest = select_latest_ryu(history)
+        if latest is not None:
+            return latest
+    return select_latest(history)
+
+
 # ---------------------------------------------------------------- 判定ヘルパ
 
 def is_fresh(when_text, today):
@@ -1218,8 +1292,9 @@ def main():
                 "comicNo": comic_no,
                 "history": history,
                 # 案2：最新話表示は本編から選ぶ（履歴先頭がイラスト・
-                # 告知等の非本編でも、本編の最新話を指すようにする）
-                "latest": select_latest(history),
+                # 告知等の非本編でも、本編の最新話を指すようにする）。
+                # COMICリュウは再掲で日付順が崩れるため話数最大を優先
+                "latest": select_latest_for_work(history, site, publisher_url),
                 "error": error,
             }
         )
