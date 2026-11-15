@@ -1066,9 +1066,15 @@ def select_latest_for_work(history, site, publisher_url):
 # data/ryu_paid.json（話URLのhashの一覧）で管理し、チェッカーは
 # それを参照して履歴エントリに "paid": true の印を付ける方式に
 # 切り替えた（本人が方式を承認）。最新話の選択は、無料の話の中
-# から話数最大を選ぶ（select_latest_ryu）。新しい有料話が出たら
-# リストに hash を追加する。リストから外れた話の印は消えるので、
-# 無料化した話は次回チェックで対象に戻る。
+# から話数最大を選ぶ（select_latest_ryu）。リストから外れた話の
+# 印は消えるので、無料化した話は次回チェックで対象に戻る。
+#
+# 新しい話への追従は自動ローテーションで行う：作品ごとの有料集合は
+# latest.json の各作品に "paidHashes" として持ち越し、話数最大の話
+# が前回から変わっていたら（＝新しい話が出たら）「新しい最大話が
+# 有料、それまでの有料話は無料化」とみなして集合を入れ替える
+# （ryu_paid_state_for_work）。ryu_paid.json は初回の種と、状態が
+# 失われたときの再投入用になる。
 
 _RYU_EPISODE_HASH_RE = re.compile(r"/episodes/([0-9a-f]+)")
 
@@ -1104,6 +1110,53 @@ def apply_ryu_paid_list(history, paid_hashes):
         elif entry.get("paid"):
             del entry["paid"]
     return history, paid
+
+
+def _entry_hash(entry):
+    m = _RYU_EPISODE_HASH_RE.search((entry or {}).get("url") or "")
+    return m.group(1) if m else None
+
+
+def _max_numbered_entry(history):
+    """本編で話数が最大のエントリ（無ければ None）。"""
+    best = None
+    best_key = None
+    for entry in history or []:
+        if is_extra_entry(entry):
+            continue
+        key = _episode_number_key(entry)
+        if key is None:
+            continue
+        if best_key is None or key > best_key:
+            best, best_key = entry, key
+    return best
+
+
+def ryu_paid_state_for_work(prev_work, history, seed_hashes):
+    """作品ごとの有料hash集合を決める。(集合, ローテーション有無) を返す。
+
+    前回結果に "paidHashes" があれば引き継ぎ、無ければ種リスト
+    （data/ryu_paid.json）のうち、この作品の履歴に現れるものを
+    初期値にする。その上で、話数最大の話が前回から変わっていたら
+    （＝新しい話が出たら）ローテーションする：新しい最大話を有料
+    とし、それまでの有料話は無料化したものとして集合から外す。
+    新しい話が2話以上まとめて出た場合も、最大話だけが有料で
+    その1つ前が無料最新になるため、この入れ替えで合う。
+    """
+    prev_history = (prev_work or {}).get("history") or []
+    carried = (prev_work or {}).get("paidHashes")
+    if carried is None:
+        hist_hashes = {_entry_hash(e) for e in history or []}
+        paid = {h for h in seed_hashes if h in hist_hashes}
+    else:
+        paid = set(carried)
+    cur_hash = _entry_hash(_max_numbered_entry(history))
+    prev_hash = _entry_hash(_max_numbered_entry(prev_history))
+    rotated = False
+    if cur_hash and prev_hash and cur_hash != prev_hash:
+        paid = {cur_hash}
+        rotated = True
+    return paid, rotated
 
 
 # ---------------------------------------------------------------- 判定ヘルパ
@@ -1193,8 +1246,8 @@ def main():
     cleanup_debug_files()
 
     # COMICリュウの有料話リスト（手動管理。詳細は有料リストの節）
-    ryu_paid_hashes = load_ryu_paid_hashes()
-    print(f"[checker] ryu paid list: {len(ryu_paid_hashes)} episode(s)")
+    ryu_paid_seed = load_ryu_paid_hashes()
+    print(f"[checker] ryu paid list: {len(ryu_paid_seed)} episode(s)")
 
     library = read_json(LIBRARY_PATH, {"version": 1, "works": {}, "added": []})
     added_urls = []
@@ -1317,17 +1370,24 @@ def main():
             history, n_filled = enrich_gaugau_history(history, publisher_url)
             mangaone_filled_total += n_filled
 
-        # COMICリュウ：手動の有料リスト（data/ryu_paid.json）を参照し、
-        # 履歴に有料の印を付ける（最新話の選択とアプリの飛び先で使う）
-        if history and is_ryu_work(site, publisher_url):
-            history, _n_paid = apply_ryu_paid_list(history, ryu_paid_hashes)
-
         # 非本編の分類（案2）：履歴が確定した最終ステップとして、
         # イラスト・告知等の「話でない更新」に印を付ける。履歴自体と
         # 未読判定は従来どおりで、latest の再選択（下の out_works 側）
         # とアプリの飛び先選択だけがこの印を使う
         history = mark_extra_entries(history)
         extra_entries_total += sum(1 for h in history if h.get("extra"))
+
+        # COMICリュウ：有料リスト＋自動ローテーションで履歴に有料の印を
+        # 付ける（最新話の選択とアプリの飛び先で使う）。作品ごとの
+        # 有料集合は paidHashes として結果に持ち越す
+        work_paid_hashes = None
+        if history and is_ryu_work(site, publisher_url):
+            paid_set, rotated = ryu_paid_state_for_work(
+                prev, history, ryu_paid_seed)
+            history, _n_paid = apply_ryu_paid_list(history, paid_set)
+            work_paid_hashes = sorted(paid_set)
+            if rotated:
+                print(f"[checker] ryu paid rotated: {title}")
 
         # サムネイル（無ければダウンロード）
         thumb_file = None
@@ -1364,6 +1424,9 @@ def main():
                 # 告知等の非本編でも、本編の最新話を指すようにする）。
                 # COMICリュウは再掲で日付順が崩れるため話数最大を優先
                 "latest": select_latest_for_work(history, site, publisher_url),
+                # COMICリュウ作品のみ：有料集合の持ち越し（次回チェックの
+                # ローテーション判定に使う。他サイトは null）
+                "paidHashes": work_paid_hashes,
                 "error": error,
             }
         )
