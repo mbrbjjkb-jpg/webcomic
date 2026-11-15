@@ -28,7 +28,6 @@ Python 標準ライブラリのみで動作する。
 import json
 import os
 import re
-import subprocess
 import sys
 import time
 import urllib.error
@@ -45,13 +44,7 @@ USER_AGENT = (
     "webcomic-manager-checker/1.0 "
     "(personal use; +https://github.com/mbrbjjkb-jpg/webcomic)"
 )
-# 一部の公式サイト（COMICリュウ等）は専用UAを弾くため、そちらには
-# 一般的なブラウザの UA を使う
-BROWSER_UA = (
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-    "AppleWebKit/537.36 (KHTML, like Gecko) "
-    "Chrome/126.0.0.0 Safari/537.36"
-)
+
 REQUEST_INTERVAL = 0.3  # 秒
 TIMEOUT = 30
 MAX_BOOKMARK_PAGES = 20
@@ -61,6 +54,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "data")
 LIBRARY_PATH = os.path.join(DATA_DIR, "library.json")
 LATEST_PATH = os.path.join(DATA_DIR, "latest.json")
+RYU_PAID_PATH = os.path.join(DATA_DIR, "ryu_paid.json")
 THUMBS_DIR = os.path.join(DATA_DIR, "thumbs")
 
 # 作品詳細ページ: https://webcomics.jp/<サイト略称>/<作品ID>
@@ -99,51 +93,6 @@ def fetch_bytes(url, ua=None):
 
 def fetch_text(url, ua=None):
     return fetch_bytes(url, ua=ua).decode("utf-8", errors="replace")
-
-
-# チェック実行環境からしか分からない失敗（取得拒否など）を、コミットされる
-# ファイルに残すための診断ログ。data/thumbs/_probe_log.txt に書かれる
-DIAG_LINES = []
-
-
-def diag(msg):
-    line = str(msg)
-    DIAG_LINES.append(line)
-    print(f"[diag] {line}")
-
-
-def fetch_text_browser(url):
-    """ブラウザ風の完全なヘッダーで取得する。(本文, 取得手段) を返す。
-
-    COMICリュウは専用UAどころか urllib の素の取得自体を弾く可能性が
-    あるため、urllib で失敗したら curl にフォールバックする。
-    どちらも失敗したら、両方のエラーを含む例外を送出する。
-    """
-    req = urllib.request.Request(url, headers={
-        "User-Agent": BROWSER_UA,
-        "Accept": ("text/html,application/xhtml+xml,application/xml;"
-                   "q=0.9,*/*;q=0.8"),
-        "Accept-Language": "ja,en-US;q=0.9,en;q=0.8",
-    })
-    try:
-        with urllib.request.urlopen(req, timeout=TIMEOUT) as res:
-            return res.read().decode("utf-8", errors="replace"), "urllib"
-    except Exception as e1:
-        try:
-            out = subprocess.run(
-                ["curl", "-sS", "-L", "--max-time", str(TIMEOUT),
-                 "-A", BROWSER_UA,
-                 "-H", "Accept-Language: ja,en-US;q=0.9,en;q=0.8",
-                 url],
-                capture_output=True, timeout=TIMEOUT + 15)
-            if out.returncode == 0 and out.stdout:
-                return (out.stdout.decode("utf-8", errors="replace"),
-                        "curl")
-            raise RuntimeError(
-                f"rc={out.returncode} "
-                f"{out.stderr.decode('utf-8', 'replace')[:200]}")
-        except Exception as e2:
-            raise RuntimeError(f"urllib: {e1!r} / curl: {e2!r}")
 
 
 def fetch_final_url(url):
@@ -1103,77 +1052,58 @@ def select_latest_for_work(history, site, publisher_url):
 
 
 # ---------------------------------------------------------------- COMICリュウの無料／有料
-# COMICリュウは最新話が有料（先行配信）のことがあり、話数最大の話が
-# そのまま最新話の飛び先になると、有料ページに飛んでしまう
-# （2026-11-15『ヒトミ先生の保健室』第109話が有料で無料最新は
-# 第108話、『モンスター娘のいる日常』第97話が有料で無料最新は
-# 第96話、と報告）。そこで公式の作品ページ（series）の話一覧から
-# 話ごとの無料／有料を読み取り、履歴エントリに "paid": true の印を
-# 付ける。最新話の選択は、無料の話の中から話数最大を選ぶ
-# （select_latest_ryu）。有料だった話が後から無料化されれば、
-# 次回チェックで印が外れて対象に入る。作品ページが読めない場合は
-# 印を付けず、従来の話数最大の選択にフォールバックする。
+# COMICリュウは最新話が有料（先行配信）で、その1つ前が無料という
+# 構成が基本（2026-11-15 に本人が3作品ともそうなっていると確認）。
+# 話数最大の話がそのまま最新話の飛び先になると、有料ページに飛んで
+# しまう（『ヒトミ先生の保健室』第109話が有料で無料最新は第108話、
+# 『モンスター娘のいる日常』第97話が有料で無料最新は第96話）。
 #
-# 作品ページの話カードは /episodes/<hash> へのリンクで、カード内に
-# 無料の話だけ「無料」の表示がある（有料の話は価格などが表示される）。
-# ヘッダーの「最新話を読む」には「無料会員登録」の文言が含まれるため、
-# 判定前にその語を除いてから「無料」を探す。
+# 当初は公式の作品ページから無料／有料を自動で読み取る方式を実装
+# したが、COMICリュウはチェック実行環境（GitHub Actions）からの
+# アクセスを通信環境ごと制限しており（urllib・curl・プロキシ経由
+# すべて「アクセスを制限しております」ページか403）、自動取得は
+# 不可能と判明した（2026-11-15）。そのため、有料の話は手動リスト
+# data/ryu_paid.json（話URLのhashの一覧）で管理し、チェッカーは
+# それを参照して履歴エントリに "paid": true の印を付ける方式に
+# 切り替えた（本人が方式を承認）。最新話の選択は、無料の話の中
+# から話数最大を選ぶ（select_latest_ryu）。新しい有料話が出たら
+# リストに hash を追加する。リストから外れた話の印は消えるので、
+# 無料化した話は次回チェックで対象に戻る。
 
-_RYU_EPISODE_LINK_RE = re.compile(
-    r'<a[^>]+href="(/episodes/[0-9a-f]+)"[^>]*>(.*?)</a>', re.S)
 _RYU_EPISODE_HASH_RE = re.compile(r"/episodes/([0-9a-f]+)")
 
 
-def parse_ryu_episodes(html):
-    """COMICリュウ作品ページから (話URLのhash, 無料か) の一覧を返す。"""
-    out = []
-    for m in _RYU_EPISODE_LINK_RE.finditer(html or ""):
-        inner = re.sub(r"<[^>]+>", " ", m.group(2))
-        inner = inner.replace("無料会員登録", "")
-        if _EPISODE_NUM_RE.search(inner) is None:
-            continue
-        out.append((m.group(1).split("/")[-1], "無料" in inner))
-    return out
+def load_ryu_paid_hashes(path=None):
+    """data/ryu_paid.json から有料話の hash 集合を読む。無ければ空集合。"""
+    data = read_json(path or RYU_PAID_PATH, {"paid": []})
+    hashes = set()
+    for item in data.get("paid", []) or []:
+        if isinstance(item, dict):
+            h = item.get("hash")
+        else:
+            h = item
+        if h:
+            hashes.add(str(h))
+    return hashes
 
 
-def apply_ryu_paid_flags(history, episodes):
+def apply_ryu_paid_list(history, paid_hashes):
     """履歴エントリに有料の印を付ける。(履歴, 有料件数) を返す。
 
-    episodes は parse_ryu_episodes の結果（hash, 無料か）。
-    作品ページに載っていない話（古い話等）は判定不能のため印を付けない。
+    paid_hashes は load_ryu_paid_hashes の結果（話URLのhash集合）。
+    リストに無い話からは印を外す（無料化・リスト修正に追従するため）。
     """
-    by_hash = {h: free for h, free in episodes}
     paid = 0
     for entry in history or []:
         m = _RYU_EPISODE_HASH_RE.search(entry.get("url") or "")
-        if not m:
-            continue
-        free = by_hash.get(m.group(1))
-        if free is False and not entry.get("paid"):
-            entry["paid"] = True
+        is_paid = bool(m) and m.group(1) in paid_hashes
+        if is_paid:
+            if not entry.get("paid"):
+                entry["paid"] = True
             paid += 1
-        elif free is True and entry.get("paid"):
+        elif entry.get("paid"):
             del entry["paid"]
     return history, paid
-
-
-def enrich_ryu_paid_flags(history, publisher_url):
-    """COMICリュウ作品の履歴に有料の印を付ける。(履歴, 有料件数) を返す。"""
-    if not history or not publisher_url:
-        return history, 0
-    try:
-        html, via = fetch_text_browser(publisher_url)
-        polite_sleep()
-        episodes = parse_ryu_episodes(html)
-        history, paid = apply_ryu_paid_flags(history, episodes)
-        diag(f"ryu paid {publisher_url}: via={via} "
-             f"bytes={len(html)} episodes={len(episodes)} paid={paid}")
-        return history, paid
-    except Exception as e:
-        diag(f"ryu paid {publisher_url}: FAILED {e!r}")
-        print(f"[checker] ryu paid enrich failed ({publisher_url}): {e}",
-              file=sys.stderr)
-        return history, 0
 
 
 # ---------------------------------------------------------------- 判定ヘルパ
@@ -1242,7 +1172,7 @@ def cleanup_debug_files():
     if os.path.isdir(THUMBS_DIR):
         for name in os.listdir(THUMBS_DIR):
             if (name.startswith("_debug_") or name.startswith("_probe_")) \
-                    and name.endswith(".html"):
+                    and (name.endswith(".html") or name == "_probe_log.txt"):
                 try:
                     os.remove(os.path.join(THUMBS_DIR, name))
                     removed += 1
@@ -1254,34 +1184,6 @@ def cleanup_debug_files():
     return removed
 
 
-# ---------------------------------------------------------------- 暫定プローブ（第2弾）
-# COMICリュウの作品ページ（series）の生HTMLを保存し、話ごとの
-# 無料／有料の表示構造を確認するための一時的な調査コード
-# （2026-11-15）。対応が済んだら撤去する。
-
-PROBE_PAGES = {
-    "ryu_e92448": "https://comic-ryu.jp/series/e92448d696cc0",
-    "ryu_a8dd9e": "https://comic-ryu.jp/series/a8dd9ec30f1a2",
-    "ryu_7a1f7a": "https://comic-ryu.jp/series/7a1f7ac365752",
-}
-
-
-def save_probe_pages():
-    """PROBE_PAGES の生HTMLを THUMBS_DIR/_probe_<name>.html に保存する。"""
-    os.makedirs(THUMBS_DIR, exist_ok=True)
-    for name, url in PROBE_PAGES.items():
-        try:
-            body, via = fetch_text_browser(url)
-            path = os.path.join(THUMBS_DIR, f"_probe_{name}.html")
-            with open(path, "w", encoding="utf-8") as f:
-                f.write(body)
-            diag(f"probe {name}: via={via} bytes={len(body)} saved")
-            print(f"[checker] probe saved {name}: {len(body)} bytes")
-        except Exception as e:  # プローブの失敗で本処理を止めない
-            diag(f"probe {name}: FAILED {e!r}")
-            print(f"[checker] probe failed {name}: {e}", file=sys.stderr)
-
-
 def main():
     now = datetime.now(JST)
     today = now.date()
@@ -1289,8 +1191,10 @@ def main():
 
     # v2〜v3 の暫定デバッグファイルが残っていれば掃除する
     cleanup_debug_files()
-    # 暫定プローブ（COMICリュウの無料／有料の構造調査用）
-    save_probe_pages()
+
+    # COMICリュウの有料話リスト（手動管理。詳細は有料リストの節）
+    ryu_paid_hashes = load_ryu_paid_hashes()
+    print(f"[checker] ryu paid list: {len(ryu_paid_hashes)} episode(s)")
 
     library = read_json(LIBRARY_PATH, {"version": 1, "works": {}, "added": []})
     added_urls = []
@@ -1413,10 +1317,10 @@ def main():
             history, n_filled = enrich_gaugau_history(history, publisher_url)
             mangaone_filled_total += n_filled
 
-        # COMICリュウ：公式の作品ページから話ごとの無料／有料を読み取り、
+        # COMICリュウ：手動の有料リスト（data/ryu_paid.json）を参照し、
         # 履歴に有料の印を付ける（最新話の選択とアプリの飛び先で使う）
         if history and is_ryu_work(site, publisher_url):
-            history, _n_paid = enrich_ryu_paid_flags(history, publisher_url)
+            history, _n_paid = apply_ryu_paid_list(history, ryu_paid_hashes)
 
         # 非本編の分類（案2）：履歴が確定した最終ステップとして、
         # イラスト・告知等の「話でない更新」に印を付ける。履歴自体と
@@ -1473,16 +1377,6 @@ def main():
     with open(tmp_path, "w", encoding="utf-8") as f:
         json.dump(result, f, ensure_ascii=False, indent=1)
     os.replace(tmp_path, LATEST_PATH)
-
-    # 診断ログ（取得失敗の切り分け用。コミット対象の data/thumbs に置く）
-    try:
-        os.makedirs(THUMBS_DIR, exist_ok=True)
-        with open(os.path.join(THUMBS_DIR, "_probe_log.txt"),
-                  "w", encoding="utf-8") as f:
-            f.write(f"checkedAt: {now.isoformat(timespec='seconds')}\n")
-            f.write("\n".join(DIAG_LINES) + "\n")
-    except Exception as e:
-        print(f"[checker] diag log failed: {e}", file=sys.stderr)
 
     errors = sum(1 for w in out_works if w["error"])
     print(
