@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-15T13:38:07+09:00",
+ "checkedAt": "2026-11-15T14:53:48+09:00",
  "bookmarkUrl": "https://webcomics.jp/bookmark/3682scqd",
  "works": [
   {
@@ -12012,6 +12012,113 @@
     "label": "Karte.5 僕は遭遇した",
     "title": "Karte.5 僕は遭遇した",
     "url": "https://championcross.jp/episodes/8c5f09aaf8707"
+   },
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/shonenjump-plus/17107419589536396171",
+   "title": "ヒトナー",
+   "site": "少年ジャンプ+",
+   "thumbFile": "data/thumbs/164420.jpg",
+   "publisherUrl": "https://shonenjumpplus.com/episode/17107419589536396171",
+   "comicNo": 164420,
+   "history": [
+    {
+     "date": "2026-11-04",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191257689745622"
+    },
+    {
+     "date": "2026-10-21",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191257382361132"
+    },
+    {
+     "date": "2026-10-07",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191257069547881"
+    },
+    {
+     "date": "2026-09-23",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191256672010607"
+    },
+    {
+     "date": "2026-09-09",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191256479733993"
+    },
+    {
+     "date": "2026-08-26",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191256195089742"
+    },
+    {
+     "date": "2026-08-12",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191255729392691"
+    },
+    {
+     "date": "2026-07-29",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191255561725753"
+    },
+    {
+     "date": "2026-07-15",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191255124421756"
+    },
+    {
+     "date": "2026-07-01",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191254783402541"
+    },
+    {
+     "date": "2026-06-17",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191254500135561"
+    },
+    {
+     "date": "2026-06-03",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191254199645478"
+    },
+    {
+     "date": "2026-05-20",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191253895587181"
+    },
+    {
+     "date": "2026-05-06",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/17107419589696005118"
+    },
+    {
+     "date": "2026-04-29",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/17107419589696004428"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-04",
+    "label": "更新",
+    "title": "更新",
+    "url": "https://shonenjumpplus.com/episode/9253191257689745622"
    },
    "error": null
   },
