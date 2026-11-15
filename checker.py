@@ -44,6 +44,13 @@ USER_AGENT = (
     "webcomic-manager-checker/1.0 "
     "(personal use; +https://github.com/mbrbjjkb-jpg/webcomic)"
 )
+# 一部の公式サイト（COMICリュウ等）は専用UAを弾くため、そちらには
+# 一般的なブラウザの UA を使う
+BROWSER_UA = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) "
+    "Chrome/126.0.0.0 Safari/537.36"
+)
 REQUEST_INTERVAL = 0.3  # 秒
 TIMEOUT = 30
 MAX_BOOKMARK_PAGES = 20
@@ -82,14 +89,15 @@ REL_WEEK_RE = re.compile(r"(\d+)\s*週間前")
 
 # ---------------------------------------------------------------- HTTP
 
-def fetch_bytes(url):
-    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+def fetch_bytes(url, ua=None):
+    req = urllib.request.Request(
+        url, headers={"User-Agent": ua or USER_AGENT})
     with urllib.request.urlopen(req, timeout=TIMEOUT) as res:
         return res.read()
 
 
-def fetch_text(url):
-    return fetch_bytes(url).decode("utf-8", errors="replace")
+def fetch_text(url, ua=None):
+    return fetch_bytes(url, ua=ua).decode("utf-8", errors="replace")
 
 
 def fetch_final_url(url):
@@ -1022,6 +1030,8 @@ def select_latest_ryu(history):
     for entry in history or []:
         if is_extra_entry(entry):
             continue
+        if entry.get("paid"):
+            continue  # 有料の話は最新話の候補にしない
         key = _episode_number_key(entry)
         if key is None:
             continue
@@ -1044,6 +1054,75 @@ def select_latest_for_work(history, site, publisher_url):
         if latest is not None:
             return latest
     return select_latest(history)
+
+
+# ---------------------------------------------------------------- COMICリュウの無料／有料
+# COMICリュウは最新話が有料（先行配信）のことがあり、話数最大の話が
+# そのまま最新話の飛び先になると、有料ページに飛んでしまう
+# （2026-11-15『ヒトミ先生の保健室』第109話が有料で無料最新は
+# 第108話、『モンスター娘のいる日常』第97話が有料で無料最新は
+# 第96話、と報告）。そこで公式の作品ページ（series）の話一覧から
+# 話ごとの無料／有料を読み取り、履歴エントリに "paid": true の印を
+# 付ける。最新話の選択は、無料の話の中から話数最大を選ぶ
+# （select_latest_ryu）。有料だった話が後から無料化されれば、
+# 次回チェックで印が外れて対象に入る。作品ページが読めない場合は
+# 印を付けず、従来の話数最大の選択にフォールバックする。
+#
+# 作品ページの話カードは /episodes/<hash> へのリンクで、カード内に
+# 無料の話だけ「無料」の表示がある（有料の話は価格などが表示される）。
+# ヘッダーの「最新話を読む」には「無料会員登録」の文言が含まれるため、
+# 判定前にその語を除いてから「無料」を探す。
+
+_RYU_EPISODE_LINK_RE = re.compile(
+    r'<a[^>]+href="(/episodes/[0-9a-f]+)"[^>]*>(.*?)</a>', re.S)
+_RYU_EPISODE_HASH_RE = re.compile(r"/episodes/([0-9a-f]+)")
+
+
+def parse_ryu_episodes(html):
+    """COMICリュウ作品ページから (話URLのhash, 無料か) の一覧を返す。"""
+    out = []
+    for m in _RYU_EPISODE_LINK_RE.finditer(html or ""):
+        inner = re.sub(r"<[^>]+>", " ", m.group(2))
+        inner = inner.replace("無料会員登録", "")
+        if _EPISODE_NUM_RE.search(inner) is None:
+            continue
+        out.append((m.group(1).split("/")[-1], "無料" in inner))
+    return out
+
+
+def apply_ryu_paid_flags(history, episodes):
+    """履歴エントリに有料の印を付ける。(履歴, 有料件数) を返す。
+
+    episodes は parse_ryu_episodes の結果（hash, 無料か）。
+    作品ページに載っていない話（古い話等）は判定不能のため印を付けない。
+    """
+    by_hash = {h: free for h, free in episodes}
+    paid = 0
+    for entry in history or []:
+        m = _RYU_EPISODE_HASH_RE.search(entry.get("url") or "")
+        if not m:
+            continue
+        free = by_hash.get(m.group(1))
+        if free is False and not entry.get("paid"):
+            entry["paid"] = True
+            paid += 1
+        elif free is True and entry.get("paid"):
+            del entry["paid"]
+    return history, paid
+
+
+def enrich_ryu_paid_flags(history, publisher_url):
+    """COMICリュウ作品の履歴に有料の印を付ける。(履歴, 有料件数) を返す。"""
+    if not history or not publisher_url:
+        return history, 0
+    try:
+        html = fetch_text(publisher_url, ua=BROWSER_UA)
+        polite_sleep()
+        return apply_ryu_paid_flags(history, parse_ryu_episodes(html))
+    except Exception as e:
+        print(f"[checker] ryu paid enrich failed ({publisher_url}): {e}",
+              file=sys.stderr)
+        return history, 0
 
 
 # ---------------------------------------------------------------- 判定ヘルパ
@@ -1141,7 +1220,7 @@ def save_probe_pages():
     os.makedirs(THUMBS_DIR, exist_ok=True)
     for name, url in PROBE_PAGES.items():
         try:
-            body = fetch_text(url)
+            body = fetch_text(url, ua=BROWSER_UA)
             path = os.path.join(THUMBS_DIR, f"_probe_{name}.html")
             with open(path, "w", encoding="utf-8") as f:
                 f.write(body)
@@ -1280,6 +1359,11 @@ def main():
         if history and is_gaugau_work(site, publisher_url):
             history, n_filled = enrich_gaugau_history(history, publisher_url)
             mangaone_filled_total += n_filled
+
+        # COMICリュウ：公式の作品ページから話ごとの無料／有料を読み取り、
+        # 履歴に有料の印を付ける（最新話の選択とアプリの飛び先で使う）
+        if history and is_ryu_work(site, publisher_url):
+            history, _n_paid = enrich_ryu_paid_flags(history, publisher_url)
 
         # 非本編の分類（案2）：履歴が確定した最終ステップとして、
         # イラスト・告知等の「話でない更新」に印を付ける。履歴自体と
