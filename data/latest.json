@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-15T04:52:27+09:00",
+ "checkedAt": "2026-11-15T09:57:42+09:00",
  "bookmarkUrl": "https://webcomics.jp/bookmark/3682scqd",
  "works": [
   {
@@ -217,109 +217,323 @@
    "error": null
   },
   {
-   "detailUrl": "https://webcomics.jp/magapoke/01152",
-   "title": "転生貴族、鑑定スキルで成り上がる～弱小領地を受け継いだので、優秀な人材を増やしていたら、最強領地にな...",
+   "detailUrl": "https://webcomics.jp/magapoke/02368",
+   "title": "魔女と傭兵",
    "site": "マガポケ",
-   "thumbFile": "data/thumbs/105724.jpg",
-   "publisherUrl": "https://pocket.shonenmagazine.com/title/01152",
-   "comicNo": 105724,
+   "thumbFile": "data/thumbs/163684.jpg",
+   "publisherUrl": "https://pocket.shonenmagazine.com/title/02368",
+   "comicNo": 163684,
    "history": [
     {
      "date": "2026-11-15",
      "label": "更新",
      "title": "更新",
-     "url": "https://pocket.shonenmagazine.com/title/01152/episode/407787"
+     "url": "https://pocket.shonenmagazine.com/title/02368/episode/446106"
     },
     {
-     "date": "2026-11-13",
+     "date": "2026-11-08",
      "label": "更新",
      "title": "更新",
-     "url": "https://pocket.shonenmagazine.com/title/01152/episode/445527"
+     "url": "https://pocket.shonenmagazine.com/title/02368/episode/445759"
     },
     {
-     "date": "2026-11-07",
+     "date": "2026-11-01",
      "label": "更新",
      "title": "更新",
-     "url": "https://pocket.shonenmagazine.com/title/01152/episode/444548"
+     "url": "https://pocket.shonenmagazine.com/title/02368/episode/445027"
     },
     {
-     "date": "2026-10-23",
+     "date": "2026-10-18",
      "label": "更新",
      "title": "更新",
-     "url": "https://pocket.shonenmagazine.com/title/01152/episode/312616"
+     "url": "https://pocket.shonenmagazine.com/title/02368/episode/444697"
     },
     {
-     "date": "2026-10-02",
+     "date": "2026-10-11",
      "label": "更新",
      "title": "更新",
-     "url": "https://pocket.shonenmagazine.com/title/01152/episode/443457"
+     "url": "https://pocket.shonenmagazine.com/title/02368/episode/444570"
     },
     {
-     "date": "2026-09-27",
+     "date": "2026-10-04",
      "label": "更新",
      "title": "更新",
-     "url": "https://pocket.shonenmagazine.com/title/01152/episode/346712"
+     "url": "https://pocket.shonenmagazine.com/title/02368/episode/443834"
     },
     {
-     "date": "2026-09-11",
+     "date": "2026-09-20",
      "label": "更新",
      "title": "更新",
-     "url": "https://pocket.shonenmagazine.com/title/01152/episode/442468"
+     "url": "https://pocket.shonenmagazine.com/title/02368/episode/443481"
     },
     {
-     "date": "2026-08-21",
+     "date": "2026-09-13",
      "label": "更新",
      "title": "更新",
-     "url": "https://pocket.shonenmagazine.com/title/01152/episode/441620"
+     "url": "https://pocket.shonenmagazine.com/title/02368/episode/442828"
     },
     {
-     "date": "2026-07-31",
+     "date": "2026-08-30",
      "label": "更新",
      "title": "更新",
-     "url": "https://pocket.shonenmagazine.com/title/01152/episode/440677"
+     "url": "https://pocket.shonenmagazine.com/title/02368/episode/442488"
     },
     {
-     "date": "2026-07-10",
+     "date": "2026-08-23",
      "label": "更新",
      "title": "更新",
-     "url": "https://pocket.shonenmagazine.com/title/01152/episode/439664"
+     "url": "https://pocket.shonenmagazine.com/title/02368/episode/442188"
     },
     {
-     "date": "2026-06-19",
+     "date": "2026-08-16",
      "label": "更新",
      "title": "更新",
-     "url": "https://pocket.shonenmagazine.com/title/01152/episode/438336"
+     "url": "https://pocket.shonenmagazine.com/title/02368/episode/441639"
     },
     {
-     "date": "2026-06-05",
+     "date": "2026-08-02",
      "label": "更新",
      "title": "更新",
-     "url": "https://pocket.shonenmagazine.com/title/01152/episode/439030"
+     "url": "https://pocket.shonenmagazine.com/title/02368/episode/441300"
     },
     {
-     "date": "2026-05-29",
+     "date": "2026-07-26",
      "label": "更新",
      "title": "更新",
-     "url": "https://pocket.shonenmagazine.com/title/01152/episode/436358"
+     "url": "https://pocket.shonenmagazine.com/title/02368/episode/441020"
     },
     {
-     "date": "2026-05-21",
-     "label": "【第174話】飛行船",
-     "title": "【第174話】飛行船",
-     "url": "https://pocket.shonenmagazine.com/title/01152/episode/432245"
-    },
-    {
-     "date": "2026-05-01",
+     "date": "2026-07-19",
      "label": "更新",
      "title": "更新",
-     "url": "https://pocket.shonenmagazine.com/title/01152/episode/434698"
+     "url": "https://pocket.shonenmagazine.com/title/02368/episode/440699"
+    },
+    {
+     "date": "2026-07-12",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/02368/episode/440251"
     }
    ],
    "latest": {
     "date": "2026-11-15",
     "label": "更新",
     "title": "更新",
-    "url": "https://pocket.shonenmagazine.com/title/01152/episode/407787"
+    "url": "https://pocket.shonenmagazine.com/title/02368/episode/446106"
+   },
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/ganganonline/1851",
+   "title": "ブルーアーカイブ ゲーム開発部だいぼうけん!",
+   "site": "ガンガンONLINE",
+   "thumbFile": "data/thumbs/163060.jpg",
+   "publisherUrl": "https://www.ganganonline.com/title/1851",
+   "comicNo": 163060,
+   "history": [
+    {
+     "date": "2026-11-15",
+     "label": "2026.11.15更新",
+     "title": "2026.11.15更新",
+     "url": "https://www.ganganonline.com/title/1851/chapter/134537"
+    },
+    {
+     "date": "2026-10-11",
+     "label": "2026.10.11更新",
+     "title": "2026.10.11更新",
+     "url": "https://www.ganganonline.com/title/1851/chapter/133121"
+    },
+    {
+     "date": "2026-09-06",
+     "label": "2026.09.06更新",
+     "title": "2026.09.06更新",
+     "url": null
+    },
+    {
+     "date": "2026-08-09",
+     "label": "2026.08.09更新",
+     "title": "2026.08.09更新",
+     "url": null
+    },
+    {
+     "date": "2026-07-12",
+     "label": "2026.07.12更新",
+     "title": "2026.07.12更新",
+     "url": null
+    },
+    {
+     "date": "2026-06-07",
+     "label": "2026.06.07更新",
+     "title": "2026.06.07更新",
+     "url": null
+    },
+    {
+     "date": "2026-05-10",
+     "label": "2026.05.10更新",
+     "title": "2026.05.10更新",
+     "url": null
+    },
+    {
+     "date": "2026-04-05",
+     "label": "2026.04.05更新",
+     "title": "2026.04.05更新",
+     "url": null
+    },
+    {
+     "date": "2026-03-08",
+     "label": "2026.03.08更新",
+     "title": "2026.03.08更新",
+     "url": null
+    },
+    {
+     "date": "2026-02-08",
+     "label": "2026.02.08更新",
+     "title": "2026.02.08更新",
+     "url": null
+    },
+    {
+     "date": "2026-01-11",
+     "label": "2026.01.11更新",
+     "title": "2026.01.11更新",
+     "url": null
+    },
+    {
+     "date": "2025-12-07",
+     "label": "2025.12.07更新",
+     "title": "2025.12.07更新",
+     "url": null
+    },
+    {
+     "date": "2025-11-09",
+     "label": "2025.11.09更新",
+     "title": "2025.11.09更新",
+     "url": null
+    },
+    {
+     "date": "2025-10-12",
+     "label": "2025.10.12更新",
+     "title": "2025.10.12更新",
+     "url": null
+    },
+    {
+     "date": "2025-09-07",
+     "label": "2025.09.07更新",
+     "title": "2025.09.07更新",
+     "url": null
+    }
+   ],
+   "latest": {
+    "date": "2026-11-15",
+    "label": "2026.11.15更新",
+    "title": "2026.11.15更新",
+    "url": "https://www.ganganonline.com/title/1851/chapter/134537"
+   },
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/ganganonline/1480",
+   "title": "お隣の天使様にいつの間にか駄目人間にされていた件",
+   "site": "ガンガンONLINE",
+   "thumbFile": "data/thumbs/138703.jpg",
+   "publisherUrl": "https://www.ganganonline.com/title/1480",
+   "comicNo": 138703,
+   "history": [
+    {
+     "date": "2026-11-15",
+     "label": "2026.11.15更新",
+     "title": "2026.11.15更新",
+     "url": "https://www.ganganonline.com/title/1480/chapter/131441"
+    },
+    {
+     "date": "2026-11-01",
+     "label": "2026.11.01更新",
+     "title": "2026.11.01更新",
+     "url": "https://www.ganganonline.com/title/1480/chapter/131444"
+    },
+    {
+     "date": "2026-10-18",
+     "label": "2026.10.18更新",
+     "title": "2026.10.18更新",
+     "url": null
+    },
+    {
+     "date": "2026-10-04",
+     "label": "2026.10.04更新",
+     "title": "2026.10.04更新",
+     "url": null
+    },
+    {
+     "date": "2026-09-20",
+     "label": "2026.09.20更新",
+     "title": "2026.09.20更新",
+     "url": null
+    },
+    {
+     "date": "2026-09-06",
+     "label": "2026.09.06更新",
+     "title": "2026.09.06更新",
+     "url": null
+    },
+    {
+     "date": "2026-08-23",
+     "label": "2026.08.23更新",
+     "title": "2026.08.23更新",
+     "url": null
+    },
+    {
+     "date": "2026-08-09",
+     "label": "2026.08.09更新",
+     "title": "2026.08.09更新",
+     "url": null
+    },
+    {
+     "date": "2026-07-26",
+     "label": "2026.07.26更新",
+     "title": "2026.07.26更新",
+     "url": null
+    },
+    {
+     "date": "2026-07-12",
+     "label": "2026.07.12更新",
+     "title": "2026.07.12更新",
+     "url": null
+    },
+    {
+     "date": "2026-06-28",
+     "label": "2026.06.28更新",
+     "title": "2026.06.28更新",
+     "url": null
+    },
+    {
+     "date": "2026-06-14",
+     "label": "2026.06.14更新",
+     "title": "2026.06.14更新",
+     "url": null
+    },
+    {
+     "date": "2026-05-31",
+     "label": "2026.05.31更新",
+     "title": "2026.05.31更新",
+     "url": null
+    },
+    {
+     "date": "2026-05-17",
+     "label": "2026.05.17更新",
+     "title": "2026.05.17更新",
+     "url": null
+    },
+    {
+     "date": "2026-05-03",
+     "label": "2026.05.03更新",
+     "title": "2026.05.03更新",
+     "url": null
+    }
+   ],
+   "latest": {
+    "date": "2026-11-15",
+    "label": "2026.11.15更新",
+    "title": "2026.11.15更新",
+    "url": "https://www.ganganonline.com/title/1480/chapter/131441"
    },
    "error": null
   },
@@ -655,7 +869,7 @@
    "comicNo": 84914,
    "history": [
     {
-     "date": "2026-11-15",
+     "date": "2026-11-14",
      "label": "[イラスト+第3回人気投票企画]魔都精兵のスレイブ",
      "title": "[イラスト+第3回人気投票企画]魔都精兵のスレイブ",
      "url": "https://shonenjumpplus.com/episode/11990162089564825418",
