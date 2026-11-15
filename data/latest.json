@@ -1,7 +1,223 @@
 {
- "checkedAt": "2026-11-15T19:40:41+09:00",
+ "checkedAt": "2026-11-16T05:18:51+09:00",
  "bookmarkUrl": "https://webcomics.jp/bookmark/3682scqd",
  "works": [
+  {
+   "detailUrl": "https://webcomics.jp/shonenjump-plus/316112896905504410",
+   "title": "ラーメン赤猫",
+   "site": "少年ジャンプ+",
+   "thumbFile": "data/thumbs/131802.jpg",
+   "publisherUrl": "https://shonenjumpplus.com/episode/316112896905504410",
+   "comicNo": 131802,
+   "history": [
+    {
+     "date": "2026-11-16",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191257982513603"
+    },
+    {
+     "date": "2026-11-09",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191257737706151"
+    },
+    {
+     "date": "2026-11-02",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191257689745178"
+    },
+    {
+     "date": "2026-10-26",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191257538010014"
+    },
+    {
+     "date": "2026-10-19",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191257382360854"
+    },
+    {
+     "date": "2026-10-12",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191257227135928"
+    },
+    {
+     "date": "2026-10-05",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191257069547358"
+    },
+    {
+     "date": "2026-09-28",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191256784139833"
+    },
+    {
+     "date": "2026-09-21",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191256671999271"
+    },
+    {
+     "date": "2026-09-14",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191256637715865"
+    },
+    {
+     "date": "2026-09-07",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191256479733774"
+    },
+    {
+     "date": "2026-08-31",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191256340472327"
+    },
+    {
+     "date": "2026-08-24",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191256195089488"
+    },
+    {
+     "date": "2026-08-17",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191255890793929"
+    },
+    {
+     "date": "2026-08-10",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191255729391354"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-16",
+    "label": "更新",
+    "title": "更新",
+    "url": "https://shonenjumpplus.com/episode/9253191257982513603"
+   },
+   "paidHashes": null,
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/comic-fuz/3500",
+   "title": "囚人転生",
+   "site": "COMIC FUZ",
+   "thumbFile": "data/thumbs/169491.jpg",
+   "publisherUrl": "https://comic-fuz.com/manga/3500",
+   "comicNo": 169491,
+   "history": [
+    {
+     "date": "2026-11-16",
+     "label": "2026/11/16更新",
+     "title": "2026/11/16更新",
+     "url": "https://comic-fuz.com/manga/viewer/81874"
+    },
+    {
+     "date": "2026-11-09",
+     "label": "2026/11/09更新",
+     "title": "2026/11/09更新",
+     "url": "https://comic-fuz.com/manga/viewer/81706"
+    },
+    {
+     "date": "2026-11-02",
+     "label": "2026/11/02更新",
+     "title": "2026/11/02更新",
+     "url": "https://comic-fuz.com/manga/viewer/81892"
+    },
+    {
+     "date": "2026-10-26",
+     "label": "2026/10/26更新",
+     "title": "2026/10/26更新",
+     "url": "https://comic-fuz.com/manga/viewer/81181"
+    },
+    {
+     "date": "2026-10-12",
+     "label": "2026/10/12更新",
+     "title": "2026/10/12更新",
+     "url": "https://comic-fuz.com/manga/viewer/81061"
+    },
+    {
+     "date": "2026-10-05",
+     "label": "2026/10/05更新",
+     "title": "2026/10/05更新",
+     "url": "https://comic-fuz.com/manga/viewer/80800"
+    },
+    {
+     "date": "2026-09-21",
+     "label": "2026/09/21更新",
+     "title": "2026/09/21更新",
+     "url": "https://comic-fuz.com/manga/viewer/80728"
+    },
+    {
+     "date": "2026-09-14",
+     "label": "2026/09/14更新",
+     "title": "2026/09/14更新",
+     "url": "https://comic-fuz.com/manga/viewer/80455"
+    },
+    {
+     "date": "2026-09-07",
+     "label": "2026/09/07更新",
+     "title": "2026/09/07更新",
+     "url": "https://comic-fuz.com/manga/viewer/80308"
+    },
+    {
+     "date": "2026-08-31",
+     "label": "2026/08/31更新",
+     "title": "2026/08/31更新",
+     "url": "https://comic-fuz.com/manga/viewer/79736"
+    },
+    {
+     "date": "2026-08-10",
+     "label": "2026/08/10更新",
+     "title": "2026/08/10更新",
+     "url": "https://comic-fuz.com/manga/viewer/79547"
+    },
+    {
+     "date": "2026-08-03",
+     "label": "2026/08/03更新",
+     "title": "2026/08/03更新",
+     "url": "https://comic-fuz.com/manga/viewer/79544"
+    },
+    {
+     "date": "2026-07-27",
+     "label": "2026/07/27更新",
+     "title": "2026/07/27更新",
+     "url": "https://comic-fuz.com/manga/viewer/79493"
+    },
+    {
+     "date": "2026-07-20",
+     "label": "2026/07/20更新",
+     "title": "2026/07/20更新",
+     "url": "https://comic-fuz.com/manga/viewer/79367"
+    },
+    {
+     "date": "2026-07-13",
+     "label": "2026/07/13更新",
+     "title": "2026/07/13更新",
+     "url": "https://comic-fuz.com/manga/viewer/79187"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-16",
+    "label": "2026/11/16更新",
+    "title": "2026/11/16更新",
+    "url": "https://comic-fuz.com/manga/viewer/81874"
+   },
+   "paidHashes": null,
+   "error": null
+  },
   {
    "detailUrl": "https://webcomics.jp/comic-days/13932016480029480667",
    "title": "K2",
@@ -11,7 +227,7 @@
    "comicNo": 107068,
    "history": [
     {
-     "date": "2026-11-15",
+     "date": "2026-11-16",
      "label": "更新",
      "title": "更新",
      "url": "https://comic-days.com/episode/12207421983947538313"
@@ -102,7 +318,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-15",
+    "date": "2026-11-16",
     "label": "更新",
     "title": "更新",
     "url": "https://comic-days.com/episode/12207421983947538313"
@@ -7906,114 +8122,6 @@
    "error": null
   },
   {
-   "detailUrl": "https://webcomics.jp/shonenjump-plus/316112896905504410",
-   "title": "ラーメン赤猫",
-   "site": "少年ジャンプ+",
-   "thumbFile": "data/thumbs/131802.jpg",
-   "publisherUrl": "https://shonenjumpplus.com/episode/316112896905504410",
-   "comicNo": 131802,
-   "history": [
-    {
-     "date": "2026-11-09",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191257737706151"
-    },
-    {
-     "date": "2026-11-02",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191257689745178"
-    },
-    {
-     "date": "2026-10-26",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191257538010014"
-    },
-    {
-     "date": "2026-10-19",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191257382360854"
-    },
-    {
-     "date": "2026-10-12",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191257227135928"
-    },
-    {
-     "date": "2026-10-05",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191257069547358"
-    },
-    {
-     "date": "2026-09-28",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191256784139833"
-    },
-    {
-     "date": "2026-09-21",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191256671999271"
-    },
-    {
-     "date": "2026-09-14",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191256637715865"
-    },
-    {
-     "date": "2026-09-07",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191256479733774"
-    },
-    {
-     "date": "2026-08-31",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191256340472327"
-    },
-    {
-     "date": "2026-08-24",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191256195089488"
-    },
-    {
-     "date": "2026-08-17",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191255890793929"
-    },
-    {
-     "date": "2026-08-10",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191255729391354"
-    },
-    {
-     "date": "2026-08-03",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191255607512335"
-    }
-   ],
-   "latest": {
-    "date": "2026-11-09",
-    "label": "更新",
-    "title": "更新",
-    "url": "https://shonenjumpplus.com/episode/9253191257737706151"
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
    "detailUrl": "https://webcomics.jp/shonenjump-plus/10834108156648240735",
    "title": "SPY×FAMILY",
    "site": "少年ジャンプ+",
@@ -8117,114 +8225,6 @@
     "label": "更新",
     "title": "更新",
     "url": "https://shonenjumpplus.com/episode/9253191257737706084"
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
-   "detailUrl": "https://webcomics.jp/comic-fuz/3500",
-   "title": "囚人転生",
-   "site": "COMIC FUZ",
-   "thumbFile": "data/thumbs/169491.jpg",
-   "publisherUrl": "https://comic-fuz.com/manga/3500",
-   "comicNo": 169491,
-   "history": [
-    {
-     "date": "2026-11-09",
-     "label": "2026/11/09更新",
-     "title": "2026/11/09更新",
-     "url": "https://comic-fuz.com/manga/viewer/81706"
-    },
-    {
-     "date": "2026-11-02",
-     "label": "2026/11/02更新",
-     "title": "2026/11/02更新",
-     "url": "https://comic-fuz.com/manga/viewer/81892"
-    },
-    {
-     "date": "2026-10-26",
-     "label": "2026/10/26更新",
-     "title": "2026/10/26更新",
-     "url": "https://comic-fuz.com/manga/viewer/81181"
-    },
-    {
-     "date": "2026-10-12",
-     "label": "2026/10/12更新",
-     "title": "2026/10/12更新",
-     "url": "https://comic-fuz.com/manga/viewer/81061"
-    },
-    {
-     "date": "2026-10-05",
-     "label": "2026/10/05更新",
-     "title": "2026/10/05更新",
-     "url": "https://comic-fuz.com/manga/viewer/80800"
-    },
-    {
-     "date": "2026-09-21",
-     "label": "2026/09/21更新",
-     "title": "2026/09/21更新",
-     "url": "https://comic-fuz.com/manga/viewer/80728"
-    },
-    {
-     "date": "2026-09-14",
-     "label": "2026/09/14更新",
-     "title": "2026/09/14更新",
-     "url": "https://comic-fuz.com/manga/viewer/80455"
-    },
-    {
-     "date": "2026-09-07",
-     "label": "2026/09/07更新",
-     "title": "2026/09/07更新",
-     "url": "https://comic-fuz.com/manga/viewer/80308"
-    },
-    {
-     "date": "2026-08-31",
-     "label": "2026/08/31更新",
-     "title": "2026/08/31更新",
-     "url": "https://comic-fuz.com/manga/viewer/79736"
-    },
-    {
-     "date": "2026-08-10",
-     "label": "2026/08/10更新",
-     "title": "2026/08/10更新",
-     "url": "https://comic-fuz.com/manga/viewer/79547"
-    },
-    {
-     "date": "2026-08-03",
-     "label": "2026/08/03更新",
-     "title": "2026/08/03更新",
-     "url": "https://comic-fuz.com/manga/viewer/79544"
-    },
-    {
-     "date": "2026-07-27",
-     "label": "2026/07/27更新",
-     "title": "2026/07/27更新",
-     "url": "https://comic-fuz.com/manga/viewer/79493"
-    },
-    {
-     "date": "2026-07-20",
-     "label": "2026/07/20更新",
-     "title": "2026/07/20更新",
-     "url": "https://comic-fuz.com/manga/viewer/79367"
-    },
-    {
-     "date": "2026-07-13",
-     "label": "2026/07/13更新",
-     "title": "2026/07/13更新",
-     "url": "https://comic-fuz.com/manga/viewer/79187"
-    },
-    {
-     "date": "2026-07-06",
-     "label": "2026/07/06更新",
-     "title": "2026/07/06更新",
-     "url": "https://comic-fuz.com/manga/viewer/78914"
-    }
-   ],
-   "latest": {
-    "date": "2026-11-09",
-    "label": "2026/11/09更新",
-    "title": "2026/11/09更新",
-    "url": "https://comic-fuz.com/manga/viewer/81706"
    },
    "paidHashes": null,
    "error": null
