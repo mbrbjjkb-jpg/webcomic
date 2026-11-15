@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-15T14:53:48+09:00",
+ "checkedAt": "2026-11-15T16:47:13+09:00",
  "bookmarkUrl": "https://webcomics.jp/bookmark/3682scqd",
  "works": [
   {
@@ -760,7 +760,7 @@
    "comicNo": 209635,
    "history": [
     {
-     "date": "2026-11-15",
+     "date": "2026-11-14",
      "label": "第24話 禁断症状を乗り越えろ",
      "title": "第24話 禁断症状を乗り越えろ",
      "url": "https://yanmaga.jp/comics/MADE_IN_YAMATO/910c2be2a8e6ad89512738b59f17595b"
@@ -852,7 +852,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-15",
+    "date": "2026-11-14",
     "label": "第24話 禁断症状を乗り越えろ",
     "title": "第24話 禁断症状を乗り越えろ",
     "url": "https://yanmaga.jp/comics/MADE_IN_YAMATO/910c2be2a8e6ad89512738b59f17595b"
@@ -19282,7 +19282,8 @@
      "date": "2026-09-18",
      "label": "第97話",
      "title": "第97話",
-     "url": "https://comic-ryu.jp/episodes/1ed94f8e35609"
+     "url": "https://comic-ryu.jp/episodes/1ed94f8e35609",
+     "paid": true
     },
     {
      "date": "2026-09-18",
@@ -19365,9 +19366,9 @@
    ],
    "latest": {
     "date": "2026-09-18",
-    "label": "第97話",
-    "title": "第97話",
-    "url": "https://comic-ryu.jp/episodes/1ed94f8e35609"
+    "label": "第96話",
+    "title": "第96話",
+    "url": "https://comic-ryu.jp/episodes/6735d4319ad28"
    },
    "error": null
   },
@@ -20132,7 +20133,8 @@
      "date": "2026-09-19",
      "label": "第109話",
      "title": "第109話",
-     "url": "https://comic-ryu.jp/episodes/73bf913cc1dd8"
+     "url": "https://comic-ryu.jp/episodes/73bf913cc1dd8",
+     "paid": true
     },
     {
      "date": "2026-09-19",
@@ -20215,9 +20217,9 @@
    ],
    "latest": {
     "date": "2026-09-19",
-    "label": "第109話",
-    "title": "第109話",
-    "url": "https://comic-ryu.jp/episodes/73bf913cc1dd8"
+    "label": "第108話",
+    "title": "第108話",
+    "url": "https://comic-ryu.jp/episodes/3cad642941444"
    },
    "error": null
   },
