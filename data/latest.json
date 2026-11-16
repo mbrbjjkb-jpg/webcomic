@@ -1,7 +1,118 @@
 {
- "checkedAt": "2026-11-16T05:18:51+09:00",
+ "checkedAt": "2026-11-16T09:56:13+09:00",
  "bookmarkUrl": "https://webcomics.jp/bookmark/3682scqd",
  "works": [
+  {
+   "detailUrl": "https://webcomics.jp/comicpash/10dda680f7062",
+   "title": "え、社内システム全てワンオペしている私を解雇ですか?",
+   "site": "コミックPASH! neo",
+   "thumbFile": "data/thumbs/137922.jpg",
+   "publisherUrl": "https://comicpash.jp/series/10dda680f7062",
+   "comicNo": 137922,
+   "history": [
+    {
+     "date": "2026-11-16",
+     "label": "第45話",
+     "title": "第45話",
+     "url": "https://comicpash.jp/episodes/5fe1b7f37a30d"
+    },
+    {
+     "date": "2026-11-02",
+     "label": "第44話",
+     "title": "第44話",
+     "url": "https://comicpash.jp/episodes/e76049d3646dd"
+    },
+    {
+     "date": "2026-10-19",
+     "label": "第43話後半",
+     "title": "第43話後半",
+     "url": "https://comicpash.jp/episodes/eab6b088cca22"
+    },
+    {
+     "date": "2026-10-05",
+     "label": "第43話前半",
+     "title": "第43話前半",
+     "url": "https://comicpash.jp/episodes/099501d544cb5"
+    },
+    {
+     "date": "2026-09-07",
+     "label": "第42話後半",
+     "title": "第42話後半",
+     "url": "https://comicpash.jp/episodes/8c58e6b0fdff8"
+    },
+    {
+     "date": "2026-08-18",
+     "label": "第42話前半",
+     "title": "第42話前半",
+     "url": "https://comicpash.jp/episodes/ef70143502af7"
+    },
+    {
+     "date": "2026-08-03",
+     "label": "第41話",
+     "title": "第41話",
+     "url": "https://comicpash.jp/episodes/ba5242a6e1fc2"
+    },
+    {
+     "date": "2026-07-21",
+     "label": "第40話",
+     "title": "第40話",
+     "url": "https://comicpash.jp/episodes/2445430ca035a"
+    },
+    {
+     "date": "2026-06-15",
+     "label": "第39話",
+     "title": "第39話",
+     "url": "https://comicpash.jp/episodes/15cf976540bc3"
+    },
+    {
+     "date": "2026-06-01",
+     "label": "単行本5巻発売告知漫画②",
+     "title": "単行本5巻発売告知漫画②",
+     "url": "https://comicpash.jp/episodes/539738f0db0fa",
+     "extra": true
+    },
+    {
+     "date": "2026-05-29",
+     "label": "単行本5巻発売告知漫画①",
+     "title": "単行本5巻発売告知漫画①",
+     "url": "https://comicpash.jp/episodes/b508605cabf62",
+     "extra": true
+    },
+    {
+     "date": "2026-05-18",
+     "label": "第38話",
+     "title": "第38話",
+     "url": "https://comicpash.jp/episodes/3d898ea3ea0e0"
+    },
+    {
+     "date": "2026-04-21",
+     "label": "単行本5巻発売告知漫画",
+     "title": "単行本5巻発売告知漫画",
+     "url": "https://comicpash.jp/episodes/8d9015114cbd5",
+     "extra": true
+    },
+    {
+     "date": "2026-03-02",
+     "label": "第37話",
+     "title": "第37話",
+     "url": "https://comicpash.jp/episodes/64283e2bddb71"
+    },
+    {
+     "date": "2026-02-17",
+     "label": "第36話",
+     "title": "第36話",
+     "url": "https://comicpash.jp/episodes/455078b7df97a"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-16",
+    "label": "第45話",
+    "title": "第45話",
+    "url": "https://comicpash.jp/episodes/5fe1b7f37a30d"
+   },
+   "paidHashes": null,
+   "error": null
+  },
   {
    "detailUrl": "https://webcomics.jp/shonenjump-plus/316112896905504410",
    "title": "ラーメン赤猫",
@@ -12879,117 +12990,6 @@
     "label": "2026.11.03更新",
     "title": "2026.11.03更新",
     "url": "https://www.ganganonline.com/title/69/chapter/126330"
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
-   "detailUrl": "https://webcomics.jp/comicpash/10dda680f7062",
-   "title": "え、社内システム全てワンオペしている私を解雇ですか?",
-   "site": "コミックPASH! neo",
-   "thumbFile": "data/thumbs/137922.jpg",
-   "publisherUrl": "https://comicpash.jp/series/10dda680f7062",
-   "comicNo": 137922,
-   "history": [
-    {
-     "date": "2026-11-02",
-     "label": "第44話",
-     "title": "第44話",
-     "url": "https://comicpash.jp/episodes/e76049d3646dd"
-    },
-    {
-     "date": "2026-10-19",
-     "label": "第43話後半",
-     "title": "第43話後半",
-     "url": "https://comicpash.jp/episodes/eab6b088cca22"
-    },
-    {
-     "date": "2026-10-05",
-     "label": "第43話前半",
-     "title": "第43話前半",
-     "url": "https://comicpash.jp/episodes/099501d544cb5"
-    },
-    {
-     "date": "2026-09-07",
-     "label": "第42話後半",
-     "title": "第42話後半",
-     "url": "https://comicpash.jp/episodes/8c58e6b0fdff8"
-    },
-    {
-     "date": "2026-08-18",
-     "label": "第42話前半",
-     "title": "第42話前半",
-     "url": "https://comicpash.jp/episodes/ef70143502af7"
-    },
-    {
-     "date": "2026-08-03",
-     "label": "第41話",
-     "title": "第41話",
-     "url": "https://comicpash.jp/episodes/ba5242a6e1fc2"
-    },
-    {
-     "date": "2026-07-21",
-     "label": "第40話",
-     "title": "第40話",
-     "url": "https://comicpash.jp/episodes/2445430ca035a"
-    },
-    {
-     "date": "2026-06-15",
-     "label": "第39話",
-     "title": "第39話",
-     "url": "https://comicpash.jp/episodes/15cf976540bc3"
-    },
-    {
-     "date": "2026-06-01",
-     "label": "単行本5巻発売告知漫画②",
-     "title": "単行本5巻発売告知漫画②",
-     "url": "https://comicpash.jp/episodes/539738f0db0fa",
-     "extra": true
-    },
-    {
-     "date": "2026-05-29",
-     "label": "単行本5巻発売告知漫画①",
-     "title": "単行本5巻発売告知漫画①",
-     "url": "https://comicpash.jp/episodes/b508605cabf62",
-     "extra": true
-    },
-    {
-     "date": "2026-05-18",
-     "label": "第38話",
-     "title": "第38話",
-     "url": "https://comicpash.jp/episodes/3d898ea3ea0e0"
-    },
-    {
-     "date": "2026-04-21",
-     "label": "単行本5巻発売告知漫画",
-     "title": "単行本5巻発売告知漫画",
-     "url": "https://comicpash.jp/episodes/8d9015114cbd5",
-     "extra": true
-    },
-    {
-     "date": "2026-03-02",
-     "label": "第37話",
-     "title": "第37話",
-     "url": "https://comicpash.jp/episodes/64283e2bddb71"
-    },
-    {
-     "date": "2026-02-17",
-     "label": "第36話",
-     "title": "第36話",
-     "url": "https://comicpash.jp/episodes/455078b7df97a"
-    },
-    {
-     "date": "2026-01-19",
-     "label": "第35話",
-     "title": "第35話",
-     "url": "https://comicpash.jp/episodes/05d13c003f290/"
-    }
-   ],
-   "latest": {
-    "date": "2026-11-02",
-    "label": "第44話",
-    "title": "第44話",
-    "url": "https://comicpash.jp/episodes/e76049d3646dd"
    },
    "paidHashes": null,
    "error": null
