@@ -1,7 +1,440 @@
 {
- "checkedAt": "2026-11-16T09:56:13+09:00",
+ "checkedAt": "2026-11-16T19:57:47+09:00",
  "bookmarkUrl": "https://webcomics.jp/bookmark/3682scqd",
  "works": [
+  {
+   "detailUrl": "https://webcomics.jp/zenon/3269632237267691927",
+   "title": "北斗の拳 世紀末ドラマ撮影伝",
+   "site": "ゼノン編集部",
+   "thumbFile": "data/thumbs/115304.jpg",
+   "publisherUrl": "https://comic-zenon.com/episode/3269632237267691927",
+   "comicNo": 115304,
+   "history": [
+    {
+     "date": "2026-11-16",
+     "label": "第96話 あのヒロイン、帰還",
+     "title": "第96話 あのヒロイン、帰還",
+     "url": "https://comic-zenon.com/episode/12207421984318179953"
+    },
+    {
+     "date": "2026-10-26",
+     "label": "第95話 炎のスタント、燃える",
+     "title": "第95話 炎のスタント、燃える",
+     "url": "https://comic-zenon.com/episode/12207421984187046629"
+    },
+    {
+     "date": "2026-09-28",
+     "label": "第94話 山の役者を探し出せ",
+     "title": "第94話 山の役者を探し出せ",
+     "url": "https://comic-zenon.com/episode/12207421984187046622"
+    },
+    {
+     "date": "2026-09-14",
+     "label": "第93話 南斗最後の将、現る!?",
+     "title": "第93話 南斗最後の将、現る!?",
+     "url": "https://comic-zenon.com/episode/12207421984064600734"
+    },
+    {
+     "date": "2026-08-31",
+     "label": "第92話 因縁の対決は、テレビで",
+     "title": "第92話 因縁の対決は、テレビで",
+     "url": "https://comic-zenon.com/episode/12207421983918558666"
+    },
+    {
+     "date": "2026-07-28",
+     "label": "第91話 雨月リュウガ、飛び立つ",
+     "title": "第91話 雨月リュウガ、飛び立つ",
+     "url": "https://comic-zenon.com/episode/12207421983805456446"
+    },
+    {
+     "date": "2026-07-14",
+     "label": "第90話 竜牙、漆黒を駆ける",
+     "title": "第90話 竜牙、漆黒を駆ける",
+     "url": "https://comic-zenon.com/episode/12207421983667954393"
+    },
+    {
+     "date": "2026-06-29",
+     "label": "特別編 リュウガの息吹",
+     "title": "特別編 リュウガの息吹",
+     "url": "https://comic-zenon.com/episode/12207421983890338577"
+    },
+    {
+     "date": "2026-05-22",
+     "label": "第89話 雨月の隠された秘密",
+     "title": "第89話 雨月の隠された秘密",
+     "url": "https://comic-zenon.com/episode/12207421983695381193"
+    },
+    {
+     "date": "2026-05-08",
+     "label": "第88話 悩める原口監督",
+     "title": "第88話 悩める原口監督",
+     "url": "https://comic-zenon.com/episode/12207421983562777744"
+    },
+    {
+     "date": "2026-04-25",
+     "label": "第87話 雨月リュウガ、加速す",
+     "title": "第87話 雨月リュウガ、加速す",
+     "url": "https://comic-zenon.com/episode/12207421983459960138"
+    },
+    {
+     "date": "2026-03-28",
+     "label": "第86話 ワガママな俳優?",
+     "title": "第86話 ワガママな俳優?",
+     "url": "https://comic-zenon.com/episode/12207421983459960132"
+    },
+    {
+     "date": "2026-03-14",
+     "label": "第85話 島田、一筋の涙",
+     "title": "第85話 島田、一筋の涙",
+     "url": "https://comic-zenon.com/episode/12207421983349097117"
+    },
+    {
+     "date": "2026-02-28",
+     "label": "第84話 トキ役大石、最後の輝き",
+     "title": "第84話 トキ役大石、最後の輝き",
+     "url": "https://comic-zenon.com/episode/2551460909968333567"
+    },
+    {
+     "date": "2026-02-13",
+     "label": "休載告知",
+     "title": "休載告知",
+     "url": "https://comic-zenon.com/episode/12207421983380289225",
+     "extra": true
+    }
+   ],
+   "latest": {
+    "date": "2026-11-16",
+    "label": "第96話 あのヒロイン、帰還",
+    "title": "第96話 あのヒロイン、帰還",
+    "url": "https://comic-zenon.com/episode/12207421984318179953"
+   },
+   "paidHashes": null,
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/seiga/45341",
+   "title": "新米オッサン冒険者、最強パーティに死ぬほど鍛えられて無敵になる",
+   "site": "ニコニコ漫画",
+   "thumbFile": "data/thumbs/99620.jpg",
+   "publisherUrl": "https://manga.nicovideo.jp/comic/45341",
+   "comicNo": 99620,
+   "history": [
+    {
+     "date": "2026-11-16",
+     "label": "2026/11/16 更新",
+     "title": "2026/11/16 更新",
+     "url": "https://manga.nicovideo.jp/comic/45341/new"
+    },
+    {
+     "date": "2026-11-02",
+     "label": "2026/11/02 更新",
+     "title": "2026/11/02 更新",
+     "url": "https://manga.nicovideo.jp/comic/45341/new"
+    },
+    {
+     "date": "2026-10-19",
+     "label": "2026/10/19 更新",
+     "title": "2026/10/19 更新",
+     "url": "https://manga.nicovideo.jp/comic/45341/new"
+    },
+    {
+     "date": "2026-10-12",
+     "label": "2026/10/12 更新",
+     "title": "2026/10/12 更新",
+     "url": "https://manga.nicovideo.jp/comic/45341/new"
+    },
+    {
+     "date": "2026-10-05",
+     "label": "2026/10/05 更新",
+     "title": "2026/10/05 更新",
+     "url": "https://manga.nicovideo.jp/comic/45341/new"
+    },
+    {
+     "date": "2026-09-21",
+     "label": "2026/09/21 更新",
+     "title": "2026/09/21 更新",
+     "url": "https://manga.nicovideo.jp/comic/45341/new"
+    },
+    {
+     "date": "2026-09-07",
+     "label": "2026/09/07 更新",
+     "title": "2026/09/07 更新",
+     "url": "https://manga.nicovideo.jp/comic/45341/new"
+    },
+    {
+     "date": "2026-08-24",
+     "label": "2026/08/24 更新",
+     "title": "2026/08/24 更新",
+     "url": "https://manga.nicovideo.jp/comic/45341/new"
+    },
+    {
+     "date": "2026-07-27",
+     "label": "2026/07/27 更新",
+     "title": "2026/07/27 更新",
+     "url": "https://manga.nicovideo.jp/comic/45341/new"
+    },
+    {
+     "date": "2026-07-13",
+     "label": "2026/07/13 更新",
+     "title": "2026/07/13 更新",
+     "url": "https://manga.nicovideo.jp/comic/45341/new"
+    },
+    {
+     "date": "2026-06-29",
+     "label": "2026/06/29 更新",
+     "title": "2026/06/29 更新",
+     "url": "https://manga.nicovideo.jp/comic/45341/new"
+    },
+    {
+     "date": "2026-06-15",
+     "label": "2026/06/15 更新",
+     "title": "2026/06/15 更新",
+     "url": "https://manga.nicovideo.jp/comic/45341/new"
+    },
+    {
+     "date": "2026-06-01",
+     "label": "2026/06/01 更新",
+     "title": "2026/06/01 更新",
+     "url": "https://manga.nicovideo.jp/comic/45341/new"
+    },
+    {
+     "date": "2026-05-18",
+     "label": "2026/05/18 更新",
+     "title": "2026/05/18 更新",
+     "url": "https://manga.nicovideo.jp/comic/45341/new"
+    },
+    {
+     "date": "2026-05-01",
+     "label": "2026/05/01 更新",
+     "title": "2026/05/01 更新",
+     "url": "https://manga.nicovideo.jp/comic/45341/new"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-16",
+    "label": "2026/11/16 更新",
+    "title": "2026/11/16 更新",
+    "url": "https://manga.nicovideo.jp/comic/45341/new"
+   },
+   "paidHashes": null,
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/comic-walker/KC_000547_S",
+   "title": "世界最高の暗殺者、異世界貴族に転生する",
+   "site": "カドコミ",
+   "thumbFile": "data/thumbs/90737.jpg",
+   "publisherUrl": "https://comic-walker.com/detail/KC_000547_S",
+   "comicNo": 90737,
+   "history": [
+    {
+     "date": "2026-11-16",
+     "label": "第46話-1",
+     "title": "第46話-1",
+     "url": "https://comic-walker.com/detail/KC_000547_S/episodes/KC_0005470005100011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-10-26",
+     "label": "第45話-2",
+     "title": "第45話-2",
+     "url": "https://comic-walker.com/detail/KC_000547_S/episodes/KC_0005470005000021_E?episodeType=latest"
+    },
+    {
+     "date": "2026-09-28",
+     "label": "第45話-1",
+     "title": "第45話-1",
+     "url": "https://comic-walker.com/detail/KC_000547_S/episodes/KC_0005470005000011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-08-17",
+     "label": "第44話-2",
+     "title": "第44話-2",
+     "url": "https://comic-walker.com/detail/KC_000547_S/episodes/KC_0005470004900021_E?episodeType=latest"
+    },
+    {
+     "date": "2026-07-20",
+     "label": "第44話-1",
+     "title": "第44話-1",
+     "url": "https://comic-walker.com/detail/KC_000547_S/episodes/KC_0005470004900011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-06-15",
+     "label": "第43話-2",
+     "title": "第43話-2",
+     "url": "https://comic-walker.com/detail/KC_000547_S/episodes/KC_0005470004800021_E?episodeType=latest"
+    },
+    {
+     "date": "2026-06-01",
+     "label": "第43話-1",
+     "title": "第43話-1",
+     "url": "https://comic-walker.com/detail/KC_000547_S/episodes/KC_0005470004800011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-04-13",
+     "label": "第42話-2",
+     "title": "第42話-2",
+     "url": "https://comic-walker.com/detail/KC_000547_S/episodes/KC_0005470004700021_E?episodeType=latest"
+    },
+    {
+     "date": "2026-03-30",
+     "label": "第42話-1",
+     "title": "第42話-1",
+     "url": "https://comic-walker.com/detail/KC_000547_S/episodes/KC_0005470004700011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-02-02",
+     "label": "第41話-2",
+     "title": "第41話-2",
+     "url": "https://comic-walker.com/detail/KC_000547_S/episodes/KC_0005470004600021_E?episodeType=latest"
+    },
+    {
+     "date": "2026-01-26",
+     "label": "第41話-1",
+     "title": "第41話-1",
+     "url": "https://comic-walker.com/detail/KC_000547_S/episodes/KC_0005470004600011_E?episodeType=latest"
+    },
+    {
+     "date": "2025-12-15",
+     "label": "第40話-2",
+     "title": "第40話-2",
+     "url": "https://comic-walker.com/detail/KC_000547_S/episodes/KC_0005470004500021_E?episodeType=latest"
+    },
+    {
+     "date": "2025-11-24",
+     "label": "第2話-1",
+     "title": "第2話-1",
+     "url": "https://comic-walker.com/detail/KC_000547_S/episodes/KC_0005470000300011_E?episodeType=latest"
+    },
+    {
+     "date": "2025-10-06",
+     "label": "第39話-2",
+     "title": "第39話-2",
+     "url": "https://comic-walker.com/detail/KC_000547_S/episodes/KC_0005470004400021_E?episodeType=latest"
+    },
+    {
+     "date": "2025-09-15",
+     "label": "第39話-1",
+     "title": "第39話-1",
+     "url": "https://comic-walker.com/detail/KC_000547_S/episodes/KC_0005470004400011_E?episodeType=latest"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-16",
+    "label": "第46話-1",
+    "title": "第46話-1",
+    "url": "https://comic-walker.com/detail/KC_000547_S/episodes/KC_0005470005100011_E?episodeType=latest"
+   },
+   "paidHashes": null,
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/seiga/39335",
+   "title": "復讐を希う最強勇者は、闇の力で殲滅無双する",
+   "site": "ニコニコ漫画",
+   "thumbFile": "data/thumbs/86218.jpg",
+   "publisherUrl": "https://manga.nicovideo.jp/comic/39335",
+   "comicNo": 86218,
+   "history": [
+    {
+     "date": "2026-11-16",
+     "label": "2026/11/16 更新",
+     "title": "2026/11/16 更新",
+     "url": "https://manga.nicovideo.jp/comic/39335/new"
+    },
+    {
+     "date": "2026-10-26",
+     "label": "2026/10/26 更新",
+     "title": "2026/10/26 更新",
+     "url": "https://manga.nicovideo.jp/comic/39335/new"
+    },
+    {
+     "date": "2026-10-12",
+     "label": "2026/10/12 更新",
+     "title": "2026/10/12 更新",
+     "url": "https://manga.nicovideo.jp/comic/39335/new"
+    },
+    {
+     "date": "2026-09-28",
+     "label": "2026/09/28 更新",
+     "title": "2026/09/28 更新",
+     "url": "https://manga.nicovideo.jp/comic/39335/new"
+    },
+    {
+     "date": "2026-09-14",
+     "label": "2026/09/14 更新",
+     "title": "2026/09/14 更新",
+     "url": "https://manga.nicovideo.jp/comic/39335/new"
+    },
+    {
+     "date": "2026-08-31",
+     "label": "2026/08/31 更新",
+     "title": "2026/08/31 更新",
+     "url": "https://manga.nicovideo.jp/comic/39335/new"
+    },
+    {
+     "date": "2026-08-17",
+     "label": "2026/08/17 更新",
+     "title": "2026/08/17 更新",
+     "url": "https://manga.nicovideo.jp/comic/39335/new"
+    },
+    {
+     "date": "2026-07-27",
+     "label": "2026/07/27 更新",
+     "title": "2026/07/27 更新",
+     "url": "https://manga.nicovideo.jp/comic/39335/new"
+    },
+    {
+     "date": "2026-07-13",
+     "label": "2026/07/13 更新",
+     "title": "2026/07/13 更新",
+     "url": "https://manga.nicovideo.jp/comic/39335/new"
+    },
+    {
+     "date": "2026-06-29",
+     "label": "2026/06/29 更新",
+     "title": "2026/06/29 更新",
+     "url": "https://manga.nicovideo.jp/comic/39335/new"
+    },
+    {
+     "date": "2026-06-15",
+     "label": "2026/06/15 更新",
+     "title": "2026/06/15 更新",
+     "url": "https://manga.nicovideo.jp/comic/39335/new"
+    },
+    {
+     "date": "2026-05-25",
+     "label": "2026/05/25 更新",
+     "title": "2026/05/25 更新",
+     "url": "https://manga.nicovideo.jp/comic/39335/new"
+    },
+    {
+     "date": "2026-05-11",
+     "label": "2026/05/11 更新",
+     "title": "2026/05/11 更新",
+     "url": "https://manga.nicovideo.jp/comic/39335/new"
+    },
+    {
+     "date": "2026-04-27",
+     "label": "2026/04/27 更新",
+     "title": "2026/04/27 更新",
+     "url": "https://manga.nicovideo.jp/comic/39335/new"
+    },
+    {
+     "date": "2026-04-13",
+     "label": "2026/04/13 更新",
+     "title": "2026/04/13 更新",
+     "url": "https://manga.nicovideo.jp/comic/39335/new"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-16",
+    "label": "2026/11/16 更新",
+    "title": "2026/11/16 更新",
+    "url": "https://manga.nicovideo.jp/comic/39335/new"
+   },
+   "paidHashes": null,
+   "error": null
+  },
   {
    "detailUrl": "https://webcomics.jp/comicpash/10dda680f7062",
    "title": "え、社内システム全てワンオペしている私を解雇ですか?",
@@ -338,7 +771,7 @@
    "comicNo": 107068,
    "history": [
     {
-     "date": "2026-11-16",
+     "date": "2026-11-15",
      "label": "更新",
      "title": "更新",
      "url": "https://comic-days.com/episode/12207421983947538313"
@@ -429,7 +862,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-16",
+    "date": "2026-11-15",
     "label": "更新",
     "title": "更新",
     "url": "https://comic-days.com/episode/12207421983947538313"
@@ -13212,114 +13645,6 @@
    "error": null
   },
   {
-   "detailUrl": "https://webcomics.jp/seiga/45341",
-   "title": "新米オッサン冒険者、最強パーティに死ぬほど鍛えられて無敵になる",
-   "site": "ニコニコ漫画",
-   "thumbFile": "data/thumbs/99620.jpg",
-   "publisherUrl": "https://manga.nicovideo.jp/comic/45341",
-   "comicNo": 99620,
-   "history": [
-    {
-     "date": "2026-11-02",
-     "label": "2026/11/02 更新",
-     "title": "2026/11/02 更新",
-     "url": "https://manga.nicovideo.jp/comic/45341/new"
-    },
-    {
-     "date": "2026-10-19",
-     "label": "2026/10/19 更新",
-     "title": "2026/10/19 更新",
-     "url": "https://manga.nicovideo.jp/comic/45341/new"
-    },
-    {
-     "date": "2026-10-12",
-     "label": "2026/10/12 更新",
-     "title": "2026/10/12 更新",
-     "url": "https://manga.nicovideo.jp/comic/45341/new"
-    },
-    {
-     "date": "2026-10-05",
-     "label": "2026/10/05 更新",
-     "title": "2026/10/05 更新",
-     "url": "https://manga.nicovideo.jp/comic/45341/new"
-    },
-    {
-     "date": "2026-09-21",
-     "label": "2026/09/21 更新",
-     "title": "2026/09/21 更新",
-     "url": "https://manga.nicovideo.jp/comic/45341/new"
-    },
-    {
-     "date": "2026-09-07",
-     "label": "2026/09/07 更新",
-     "title": "2026/09/07 更新",
-     "url": "https://manga.nicovideo.jp/comic/45341/new"
-    },
-    {
-     "date": "2026-08-24",
-     "label": "2026/08/24 更新",
-     "title": "2026/08/24 更新",
-     "url": "https://manga.nicovideo.jp/comic/45341/new"
-    },
-    {
-     "date": "2026-07-27",
-     "label": "2026/07/27 更新",
-     "title": "2026/07/27 更新",
-     "url": "https://manga.nicovideo.jp/comic/45341/new"
-    },
-    {
-     "date": "2026-07-13",
-     "label": "2026/07/13 更新",
-     "title": "2026/07/13 更新",
-     "url": "https://manga.nicovideo.jp/comic/45341/new"
-    },
-    {
-     "date": "2026-06-29",
-     "label": "2026/06/29 更新",
-     "title": "2026/06/29 更新",
-     "url": "https://manga.nicovideo.jp/comic/45341/new"
-    },
-    {
-     "date": "2026-06-15",
-     "label": "2026/06/15 更新",
-     "title": "2026/06/15 更新",
-     "url": "https://manga.nicovideo.jp/comic/45341/new"
-    },
-    {
-     "date": "2026-06-01",
-     "label": "2026/06/01 更新",
-     "title": "2026/06/01 更新",
-     "url": "https://manga.nicovideo.jp/comic/45341/new"
-    },
-    {
-     "date": "2026-05-18",
-     "label": "2026/05/18 更新",
-     "title": "2026/05/18 更新",
-     "url": "https://manga.nicovideo.jp/comic/45341/new"
-    },
-    {
-     "date": "2026-05-01",
-     "label": "2026/05/01 更新",
-     "title": "2026/05/01 更新",
-     "url": "https://manga.nicovideo.jp/comic/45341/new"
-    },
-    {
-     "date": "2026-04-20",
-     "label": "2026/04/20 更新",
-     "title": "2026/04/20 更新",
-     "url": "https://manga.nicovideo.jp/comic/45341/new"
-    }
-   ],
-   "latest": {
-    "date": "2026-11-02",
-    "label": "2026/11/02 更新",
-    "title": "2026/11/02 更新",
-    "url": "https://manga.nicovideo.jp/comic/45341/new"
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
    "detailUrl": "https://webcomics.jp/pixiv-comic/5873",
    "title": "氷属性男子とクールな同僚女子",
    "site": "pixivコミック",
@@ -14830,331 +15155,6 @@
     "label": "第12話③「球技大会!」",
     "title": "第12話③「球技大会!」",
     "url": "https://comic-walker.com/detail/KC_006262_S/episodes/KC_0062620002300031_E?episodeType=latest"
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
-   "detailUrl": "https://webcomics.jp/zenon/3269632237267691927",
-   "title": "北斗の拳 世紀末ドラマ撮影伝",
-   "site": "ゼノン編集部",
-   "thumbFile": "data/thumbs/115304.jpg",
-   "publisherUrl": "https://comic-zenon.com/episode/3269632237267691927",
-   "comicNo": 115304,
-   "history": [
-    {
-     "date": "2026-10-26",
-     "label": "第95話 炎のスタント、燃える",
-     "title": "第95話 炎のスタント、燃える",
-     "url": "https://comic-zenon.com/episode/12207421984187046629"
-    },
-    {
-     "date": "2026-09-28",
-     "label": "第94話 山の役者を探し出せ",
-     "title": "第94話 山の役者を探し出せ",
-     "url": "https://comic-zenon.com/episode/12207421984187046622"
-    },
-    {
-     "date": "2026-09-14",
-     "label": "第93話 南斗最後の将、現る!?",
-     "title": "第93話 南斗最後の将、現る!?",
-     "url": "https://comic-zenon.com/episode/12207421984064600734"
-    },
-    {
-     "date": "2026-08-31",
-     "label": "第92話 因縁の対決は、テレビで",
-     "title": "第92話 因縁の対決は、テレビで",
-     "url": "https://comic-zenon.com/episode/12207421983918558666"
-    },
-    {
-     "date": "2026-07-28",
-     "label": "第91話 雨月リュウガ、飛び立つ",
-     "title": "第91話 雨月リュウガ、飛び立つ",
-     "url": "https://comic-zenon.com/episode/12207421983805456446"
-    },
-    {
-     "date": "2026-07-14",
-     "label": "第90話 竜牙、漆黒を駆ける",
-     "title": "第90話 竜牙、漆黒を駆ける",
-     "url": "https://comic-zenon.com/episode/12207421983667954393"
-    },
-    {
-     "date": "2026-06-29",
-     "label": "特別編 リュウガの息吹",
-     "title": "特別編 リュウガの息吹",
-     "url": "https://comic-zenon.com/episode/12207421983890338577"
-    },
-    {
-     "date": "2026-05-22",
-     "label": "第89話 雨月の隠された秘密",
-     "title": "第89話 雨月の隠された秘密",
-     "url": "https://comic-zenon.com/episode/12207421983695381193"
-    },
-    {
-     "date": "2026-05-08",
-     "label": "第88話 悩める原口監督",
-     "title": "第88話 悩める原口監督",
-     "url": "https://comic-zenon.com/episode/12207421983562777744"
-    },
-    {
-     "date": "2026-04-25",
-     "label": "第87話 雨月リュウガ、加速す",
-     "title": "第87話 雨月リュウガ、加速す",
-     "url": "https://comic-zenon.com/episode/12207421983459960138"
-    },
-    {
-     "date": "2026-03-28",
-     "label": "第86話 ワガママな俳優?",
-     "title": "第86話 ワガママな俳優?",
-     "url": "https://comic-zenon.com/episode/12207421983459960132"
-    },
-    {
-     "date": "2026-03-14",
-     "label": "第85話 島田、一筋の涙",
-     "title": "第85話 島田、一筋の涙",
-     "url": "https://comic-zenon.com/episode/12207421983349097117"
-    },
-    {
-     "date": "2026-02-28",
-     "label": "第84話 トキ役大石、最後の輝き",
-     "title": "第84話 トキ役大石、最後の輝き",
-     "url": "https://comic-zenon.com/episode/2551460909968333567"
-    },
-    {
-     "date": "2026-02-13",
-     "label": "休載告知",
-     "title": "休載告知",
-     "url": "https://comic-zenon.com/episode/12207421983380289225",
-     "extra": true
-    },
-    {
-     "date": "2026-01-23",
-     "label": "第83話 ケンシロウ橘、脚本と対決す",
-     "title": "第83話 ケンシロウ橘、脚本と対決す",
-     "url": "https://comic-zenon.com/episode/2551460909968333557"
-    }
-   ],
-   "latest": {
-    "date": "2026-10-26",
-    "label": "第95話 炎のスタント、燃える",
-    "title": "第95話 炎のスタント、燃える",
-    "url": "https://comic-zenon.com/episode/12207421984187046629"
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
-   "detailUrl": "https://webcomics.jp/comic-walker/KC_000547_S",
-   "title": "世界最高の暗殺者、異世界貴族に転生する",
-   "site": "カドコミ",
-   "thumbFile": "data/thumbs/90737.jpg",
-   "publisherUrl": "https://comic-walker.com/detail/KC_000547_S",
-   "comicNo": 90737,
-   "history": [
-    {
-     "date": "2026-10-26",
-     "label": "第45話-2",
-     "title": "第45話-2",
-     "url": "https://comic-walker.com/detail/KC_000547_S/episodes/KC_0005470005000021_E?episodeType=latest"
-    },
-    {
-     "date": "2026-09-28",
-     "label": "第45話-1",
-     "title": "第45話-1",
-     "url": "https://comic-walker.com/detail/KC_000547_S/episodes/KC_0005470005000011_E?episodeType=latest"
-    },
-    {
-     "date": "2026-08-17",
-     "label": "第44話-2",
-     "title": "第44話-2",
-     "url": "https://comic-walker.com/detail/KC_000547_S/episodes/KC_0005470004900021_E?episodeType=latest"
-    },
-    {
-     "date": "2026-07-20",
-     "label": "第44話-1",
-     "title": "第44話-1",
-     "url": "https://comic-walker.com/detail/KC_000547_S/episodes/KC_0005470004900011_E?episodeType=latest"
-    },
-    {
-     "date": "2026-06-15",
-     "label": "第43話-2",
-     "title": "第43話-2",
-     "url": "https://comic-walker.com/detail/KC_000547_S/episodes/KC_0005470004800021_E?episodeType=latest"
-    },
-    {
-     "date": "2026-06-01",
-     "label": "第43話-1",
-     "title": "第43話-1",
-     "url": "https://comic-walker.com/detail/KC_000547_S/episodes/KC_0005470004800011_E?episodeType=latest"
-    },
-    {
-     "date": "2026-04-13",
-     "label": "第42話-2",
-     "title": "第42話-2",
-     "url": "https://comic-walker.com/detail/KC_000547_S/episodes/KC_0005470004700021_E?episodeType=latest"
-    },
-    {
-     "date": "2026-03-30",
-     "label": "第42話-1",
-     "title": "第42話-1",
-     "url": "https://comic-walker.com/detail/KC_000547_S/episodes/KC_0005470004700011_E?episodeType=latest"
-    },
-    {
-     "date": "2026-02-02",
-     "label": "第41話-2",
-     "title": "第41話-2",
-     "url": "https://comic-walker.com/detail/KC_000547_S/episodes/KC_0005470004600021_E?episodeType=latest"
-    },
-    {
-     "date": "2026-01-26",
-     "label": "第41話-1",
-     "title": "第41話-1",
-     "url": "https://comic-walker.com/detail/KC_000547_S/episodes/KC_0005470004600011_E?episodeType=latest"
-    },
-    {
-     "date": "2025-12-15",
-     "label": "第40話-2",
-     "title": "第40話-2",
-     "url": "https://comic-walker.com/detail/KC_000547_S/episodes/KC_0005470004500021_E?episodeType=latest"
-    },
-    {
-     "date": "2025-11-24",
-     "label": "第2話-1",
-     "title": "第2話-1",
-     "url": "https://comic-walker.com/detail/KC_000547_S/episodes/KC_0005470000300011_E?episodeType=latest"
-    },
-    {
-     "date": "2025-10-06",
-     "label": "第39話-2",
-     "title": "第39話-2",
-     "url": "https://comic-walker.com/detail/KC_000547_S/episodes/KC_0005470004400021_E?episodeType=latest"
-    },
-    {
-     "date": "2025-09-15",
-     "label": "第39話-1",
-     "title": "第39話-1",
-     "url": "https://comic-walker.com/detail/KC_000547_S/episodes/KC_0005470004400011_E?episodeType=latest"
-    },
-    {
-     "date": "2025-08-18",
-     "label": "第38話-3",
-     "title": "第38話-3",
-     "url": "https://comic-walker.com/detail/KC_000547_S/episodes/KC_0005470004300031_E?episodeType=latest"
-    }
-   ],
-   "latest": {
-    "date": "2026-10-26",
-    "label": "第45話-2",
-    "title": "第45話-2",
-    "url": "https://comic-walker.com/detail/KC_000547_S/episodes/KC_0005470005000021_E?episodeType=latest"
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
-   "detailUrl": "https://webcomics.jp/seiga/39335",
-   "title": "復讐を希う最強勇者は、闇の力で殲滅無双する",
-   "site": "ニコニコ漫画",
-   "thumbFile": "data/thumbs/86218.jpg",
-   "publisherUrl": "https://manga.nicovideo.jp/comic/39335",
-   "comicNo": 86218,
-   "history": [
-    {
-     "date": "2026-10-26",
-     "label": "2026/10/26 更新",
-     "title": "2026/10/26 更新",
-     "url": "https://manga.nicovideo.jp/comic/39335/new"
-    },
-    {
-     "date": "2026-10-12",
-     "label": "2026/10/12 更新",
-     "title": "2026/10/12 更新",
-     "url": "https://manga.nicovideo.jp/comic/39335/new"
-    },
-    {
-     "date": "2026-09-28",
-     "label": "2026/09/28 更新",
-     "title": "2026/09/28 更新",
-     "url": "https://manga.nicovideo.jp/comic/39335/new"
-    },
-    {
-     "date": "2026-09-14",
-     "label": "2026/09/14 更新",
-     "title": "2026/09/14 更新",
-     "url": "https://manga.nicovideo.jp/comic/39335/new"
-    },
-    {
-     "date": "2026-08-31",
-     "label": "2026/08/31 更新",
-     "title": "2026/08/31 更新",
-     "url": "https://manga.nicovideo.jp/comic/39335/new"
-    },
-    {
-     "date": "2026-08-17",
-     "label": "2026/08/17 更新",
-     "title": "2026/08/17 更新",
-     "url": "https://manga.nicovideo.jp/comic/39335/new"
-    },
-    {
-     "date": "2026-07-27",
-     "label": "2026/07/27 更新",
-     "title": "2026/07/27 更新",
-     "url": "https://manga.nicovideo.jp/comic/39335/new"
-    },
-    {
-     "date": "2026-07-13",
-     "label": "2026/07/13 更新",
-     "title": "2026/07/13 更新",
-     "url": "https://manga.nicovideo.jp/comic/39335/new"
-    },
-    {
-     "date": "2026-06-29",
-     "label": "2026/06/29 更新",
-     "title": "2026/06/29 更新",
-     "url": "https://manga.nicovideo.jp/comic/39335/new"
-    },
-    {
-     "date": "2026-06-15",
-     "label": "2026/06/15 更新",
-     "title": "2026/06/15 更新",
-     "url": "https://manga.nicovideo.jp/comic/39335/new"
-    },
-    {
-     "date": "2026-05-25",
-     "label": "2026/05/25 更新",
-     "title": "2026/05/25 更新",
-     "url": "https://manga.nicovideo.jp/comic/39335/new"
-    },
-    {
-     "date": "2026-05-11",
-     "label": "2026/05/11 更新",
-     "title": "2026/05/11 更新",
-     "url": "https://manga.nicovideo.jp/comic/39335/new"
-    },
-    {
-     "date": "2026-04-27",
-     "label": "2026/04/27 更新",
-     "title": "2026/04/27 更新",
-     "url": "https://manga.nicovideo.jp/comic/39335/new"
-    },
-    {
-     "date": "2026-04-13",
-     "label": "2026/04/13 更新",
-     "title": "2026/04/13 更新",
-     "url": "https://manga.nicovideo.jp/comic/39335/new"
-    },
-    {
-     "date": "2026-03-30",
-     "label": "2026/03/30 更新",
-     "title": "2026/03/30 更新",
-     "url": "https://manga.nicovideo.jp/comic/39335/new"
-    }
-   ],
-   "latest": {
-    "date": "2026-10-26",
-    "label": "2026/10/26 更新",
-    "title": "2026/10/26 更新",
-    "url": "https://manga.nicovideo.jp/comic/39335/new"
    },
    "paidHashes": null,
    "error": null
