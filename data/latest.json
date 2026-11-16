@@ -1,7 +1,115 @@
 {
- "checkedAt": "2026-11-16T19:57:47+09:00",
+ "checkedAt": "2026-11-17T08:42:50+09:00",
  "bookmarkUrl": "https://webcomics.jp/bookmark/3682scqd",
  "works": [
+  {
+   "detailUrl": "https://webcomics.jp/shonenjump-plus/8603475606561483665",
+   "title": "続テルマエ・ロマエ",
+   "site": "少年ジャンプ+",
+   "thumbFile": "data/thumbs/164049.jpg",
+   "publisherUrl": "https://shonenjumpplus.com/episode/8603475606561483665",
+   "comicNo": 164049,
+   "history": [
+    {
+     "date": "2026-11-17",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191257982513720"
+    },
+    {
+     "date": "2026-10-06",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191257069547652"
+    },
+    {
+     "date": "2026-07-21",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191255348929809"
+    },
+    {
+     "date": "2026-05-19",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191253895587081"
+    },
+    {
+     "date": "2025-09-02",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/17107094910082444350"
+    },
+    {
+     "date": "2025-07-15",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/17106567267387687963"
+    },
+    {
+     "date": "2025-06-17",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/17106567266627682280"
+    },
+    {
+     "date": "2025-02-25",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/17106567263769426706"
+    },
+    {
+     "date": "2024-12-31",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/17106567262008969282"
+    },
+    {
+     "date": "2024-11-05",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/17106567256672632742"
+    },
+    {
+     "date": "2024-07-30",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/17106371892606494922"
+    },
+    {
+     "date": "2024-04-09",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/17106371852950440430"
+    },
+    {
+     "date": "2024-03-12",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9324103625676410604"
+    },
+    {
+     "date": "2024-03-05",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9324103623760114202"
+    },
+    {
+     "date": "2024-02-20",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9324074615349451535"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-17",
+    "label": "更新",
+    "title": "更新",
+    "url": "https://shonenjumpplus.com/episode/9253191257982513720"
+   },
+   "paidHashes": null,
+   "error": null
+  },
   {
    "detailUrl": "https://webcomics.jp/zenon/3269632237267691927",
    "title": "北斗の拳 世紀末ドラマ撮影伝",
@@ -11,7 +119,7 @@
    "comicNo": 115304,
    "history": [
     {
-     "date": "2026-11-16",
+     "date": "2026-11-17",
      "label": "第96話 あのヒロイン、帰還",
      "title": "第96話 あのヒロイン、帰還",
      "url": "https://comic-zenon.com/episode/12207421984318179953"
@@ -103,7 +211,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "label": "第96話 あのヒロイン、帰還",
     "title": "第96話 あのヒロイン、帰還",
     "url": "https://comic-zenon.com/episode/12207421984318179953"
@@ -228,7 +336,7 @@
    "comicNo": 90737,
    "history": [
     {
-     "date": "2026-11-16",
+     "date": "2026-11-17",
      "label": "第46話-1",
      "title": "第46話-1",
      "url": "https://comic-walker.com/detail/KC_000547_S/episodes/KC_0005470005100011_E?episodeType=latest"
@@ -319,7 +427,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "label": "第46話-1",
     "title": "第46話-1",
     "url": "https://comic-walker.com/detail/KC_000547_S/episodes/KC_0005470005100011_E?episodeType=latest"
@@ -19224,114 +19332,6 @@
     "label": "第5話①",
     "title": "第5話①",
     "url": "https://comic-walker.com/detail/KC_005148_S/episodes/KC_0051480000800011_E?episodeType=latest"
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
-   "detailUrl": "https://webcomics.jp/shonenjump-plus/8603475606561483665",
-   "title": "続テルマエ・ロマエ",
-   "site": "少年ジャンプ+",
-   "thumbFile": "data/thumbs/164049.jpg",
-   "publisherUrl": "https://shonenjumpplus.com/episode/8603475606561483665",
-   "comicNo": 164049,
-   "history": [
-    {
-     "date": "2026-10-06",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191257069547652"
-    },
-    {
-     "date": "2026-07-21",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191255348929809"
-    },
-    {
-     "date": "2026-05-19",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191253895587081"
-    },
-    {
-     "date": "2025-09-02",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/17107094910082444350"
-    },
-    {
-     "date": "2025-07-15",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/17106567267387687963"
-    },
-    {
-     "date": "2025-06-17",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/17106567266627682280"
-    },
-    {
-     "date": "2025-02-25",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/17106567263769426706"
-    },
-    {
-     "date": "2024-12-31",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/17106567262008969282"
-    },
-    {
-     "date": "2024-11-05",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/17106567256672632742"
-    },
-    {
-     "date": "2024-07-30",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/17106371892606494922"
-    },
-    {
-     "date": "2024-04-09",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/17106371852950440430"
-    },
-    {
-     "date": "2024-03-12",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9324103625676410604"
-    },
-    {
-     "date": "2024-03-05",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9324103623760114202"
-    },
-    {
-     "date": "2024-02-20",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9324074615349451535"
-    },
-    {
-     "date": "2024-02-13",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/8603475606566558682"
-    }
-   ],
-   "latest": {
-    "date": "2026-10-06",
-    "label": "更新",
-    "title": "更新",
-    "url": "https://shonenjumpplus.com/episode/9253191257069547652"
    },
    "paidHashes": null,
    "error": null
