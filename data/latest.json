@@ -1,7 +1,115 @@
 {
- "checkedAt": "2026-11-17T12:42:34+09:00",
+ "checkedAt": "2026-11-17T18:59:21+09:00",
  "bookmarkUrl": "https://webcomics.jp/bookmark/3682scqd",
  "works": [
+  {
+   "detailUrl": "https://webcomics.jp/magcomi/13933686331650787935",
+   "title": "転生幼女はあきらめない",
+   "site": "MAGCOMI",
+   "thumbFile": "data/thumbs/104564.jpg",
+   "publisherUrl": "https://magcomi.com/episode/13933686331650787935",
+   "comicNo": 104564,
+   "history": [
+    {
+     "date": "2026-11-17",
+     "label": "第72話①",
+     "title": "第72話①",
+     "url": "https://magcomi.com/episode/12207421984374937251"
+    },
+    {
+     "date": "2026-11-03",
+     "label": "第71話②",
+     "title": "第71話②",
+     "url": "https://magcomi.com/episode/12207421984304225711"
+    },
+    {
+     "date": "2026-10-20",
+     "label": "第71話①",
+     "title": "第71話①",
+     "url": "https://magcomi.com/episode/12207421984112495356"
+    },
+    {
+     "date": "2026-10-06",
+     "label": "番外編",
+     "title": "番外編",
+     "url": "https://magcomi.com/episode/12207421984174948929"
+    },
+    {
+     "date": "2026-09-01",
+     "label": "第70話②",
+     "title": "第70話②",
+     "url": "https://magcomi.com/episode/12207421984023174219"
+    },
+    {
+     "date": "2026-08-18",
+     "label": "第70話①",
+     "title": "第70話①",
+     "url": "https://magcomi.com/episode/12207421983980139787"
+    },
+    {
+     "date": "2026-08-04",
+     "label": "第69話②",
+     "title": "第69話②",
+     "url": "https://magcomi.com/episode/12207421983935452941"
+    },
+    {
+     "date": "2026-07-21",
+     "label": "第69話①",
+     "title": "第69話①",
+     "url": "https://magcomi.com/episode/12207421983850995786"
+    },
+    {
+     "date": "2026-07-07",
+     "label": "第68話②",
+     "title": "第68話②",
+     "url": "https://magcomi.com/episode/12207421983777871700"
+    },
+    {
+     "date": "2026-06-16",
+     "label": "第68話①",
+     "title": "第68話①",
+     "url": "https://magcomi.com/episode/12207421983727314951"
+    },
+    {
+     "date": "2026-06-02",
+     "label": "第67話②",
+     "title": "第67話②",
+     "url": "https://magcomi.com/episode/12207421983672065048"
+    },
+    {
+     "date": "2026-05-19",
+     "label": "第67話①",
+     "title": "第67話①",
+     "url": "https://magcomi.com/episode/12207421983541594246"
+    },
+    {
+     "date": "2026-05-05",
+     "label": "第66話②",
+     "title": "第66話②",
+     "url": "https://magcomi.com/episode/12207421983646025988"
+    },
+    {
+     "date": "2026-04-07",
+     "label": "第65話",
+     "title": "第65話",
+     "url": "https://magcomi.com/episode/12207421983322682536"
+    },
+    {
+     "date": "2026-03-03",
+     "label": "第64話",
+     "title": "第64話",
+     "url": "https://magcomi.com/episode/2551460909863511223"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-17",
+    "label": "第72話①",
+    "title": "第72話①",
+    "url": "https://magcomi.com/episode/12207421984374937251"
+   },
+   "paidHashes": null,
+   "error": null
+  },
   {
    "detailUrl": "https://webcomics.jp/comic-walker/KC_006262_S",
    "title": "彼女にしたい女子一位、の隣で見つけたあまりちゃん",
@@ -1022,7 +1130,7 @@
    "comicNo": 115304,
    "history": [
     {
-     "date": "2026-11-17",
+     "date": "2026-11-16",
      "label": "第96話 あのヒロイン、帰還",
      "title": "第96話 あのヒロイン、帰還",
      "url": "https://comic-zenon.com/episode/12207421984318179953"
@@ -1114,7 +1222,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-17",
+    "date": "2026-11-16",
     "label": "第96話 あのヒロイン、帰還",
     "title": "第96話 あのヒロイン、帰還",
     "url": "https://comic-zenon.com/episode/12207421984318179953"
