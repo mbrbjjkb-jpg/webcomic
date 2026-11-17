@@ -1,7 +1,712 @@
 {
- "checkedAt": "2026-11-17T08:42:50+09:00",
+ "checkedAt": "2026-11-17T12:42:34+09:00",
  "bookmarkUrl": "https://webcomics.jp/bookmark/3682scqd",
  "works": [
+  {
+   "detailUrl": "https://webcomics.jp/comic-walker/KC_006262_S",
+   "title": "彼女にしたい女子一位、の隣で見つけたあまりちゃん",
+   "site": "カドコミ",
+   "thumbFile": "data/thumbs/182363.jpg",
+   "publisherUrl": "https://comic-walker.com/detail/KC_006262_S",
+   "comicNo": 182363,
+   "history": [
+    {
+     "date": "2026-11-17",
+     "label": "第13話①「走るしかない」",
+     "title": "第13話①「走るしかない」",
+     "url": "https://comic-walker.com/detail/KC_006262_S/episodes/KC_0062620002400011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-10-27",
+     "label": "第12話③「球技大会!」",
+     "title": "第12話③「球技大会!」",
+     "url": "https://comic-walker.com/detail/KC_006262_S/episodes/KC_0062620002300031_E?episodeType=latest"
+    },
+    {
+     "date": "2026-10-13",
+     "label": "第12話②「球技大会!」",
+     "title": "第12話②「球技大会!」",
+     "url": "https://comic-walker.com/detail/KC_006262_S/episodes/KC_0062620002300021_E?episodeType=latest"
+    },
+    {
+     "date": "2026-09-29",
+     "label": "第12話①「球技大会!」",
+     "title": "第12話①「球技大会!」",
+     "url": "https://comic-walker.com/detail/KC_006262_S/episodes/KC_0062620002300011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-09-08",
+     "label": "第11.5話「あまりの夜」",
+     "title": "第11.5話「あまりの夜」",
+     "url": "https://comic-walker.com/detail/KC_006262_S/episodes/KC_0062620002200011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-08-18",
+     "label": "第11話②「かなわないな」",
+     "title": "第11話②「かなわないな」",
+     "url": "https://comic-walker.com/detail/KC_006262_S/episodes/KC_0062620002100021_E?episodeType=latest"
+    },
+    {
+     "date": "2026-08-04",
+     "label": "第11話①「かなわないな」",
+     "title": "第11話①「かなわないな」",
+     "url": "https://comic-walker.com/detail/KC_006262_S/episodes/KC_0062620002100011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-07-27",
+     "label": "コミックス2巻のお知らせ",
+     "title": "コミックス2巻のお知らせ",
+     "url": "https://comic-walker.com/detail/KC_006262_S/episodes/KC_0062620002000011_E?episodeType=latest",
+     "extra": true
+    },
+    {
+     "date": "2026-06-23",
+     "label": "休載イラスト",
+     "title": "休載イラスト",
+     "url": "https://comic-walker.com/detail/KC_006262_S/episodes/KC_0062620001900011_E?episodeType=latest",
+     "extra": true
+    },
+    {
+     "date": "2026-05-19",
+     "label": "第10話③「もう一度」",
+     "title": "第10話③「もう一度」",
+     "url": "https://comic-walker.com/detail/KC_006262_S/episodes/KC_0062620001800031_E?episodeType=latest"
+    },
+    {
+     "date": "2026-05-05",
+     "label": "第10話②「もう一度」",
+     "title": "第10話②「もう一度」",
+     "url": "https://comic-walker.com/detail/KC_006262_S/episodes/KC_0062620001800021_E?episodeType=latest"
+    },
+    {
+     "date": "2026-04-21",
+     "label": "第10話①「もう一度」",
+     "title": "第10話①「もう一度」",
+     "url": "https://comic-walker.com/detail/KC_006262_S/episodes/KC_0062620001800011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-03-24",
+     "label": "第9話②「勇気の出しかた」",
+     "title": "第9話②「勇気の出しかた」",
+     "url": "https://comic-walker.com/detail/KC_006262_S/episodes/KC_0062620001700021_E?episodeType=latest"
+    },
+    {
+     "date": "2026-03-10",
+     "label": "第9話①「勇気の出しかた」",
+     "title": "第9話①「勇気の出しかた」",
+     "url": "https://comic-walker.com/detail/KC_006262_S/episodes/KC_0062620001700011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-02-24",
+     "label": "第8話②「1st ハイスクール・イベント」",
+     "title": "第8話②「1st ハイスクール・イベント」",
+     "url": "https://comic-walker.com/detail/KC_006262_S/episodes/KC_0062620001600021_E?episodeType=latest"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-17",
+    "label": "第13話①「走るしかない」",
+    "title": "第13話①「走るしかない」",
+    "url": "https://comic-walker.com/detail/KC_006262_S/episodes/KC_0062620002400011_E?episodeType=latest"
+   },
+   "paidHashes": null,
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/comic-walker/KC_001662_S",
+   "title": "転生コロシアム～最弱スキルで最強の女たちを攻略して奴隷ハーレム作ります～",
+   "site": "カドコミ",
+   "thumbFile": "data/thumbs/139380.jpg",
+   "publisherUrl": "https://comic-walker.com/detail/KC_001662_S",
+   "comicNo": 139380,
+   "history": [
+    {
+     "date": "2026-11-17",
+     "label": "第43話:結婚式③",
+     "title": "第43話:結婚式③",
+     "url": "https://comic-walker.com/detail/KC_001662_S/episodes/KC_0016620005400031_E?episodeType=latest"
+    },
+    {
+     "date": "2026-11-10",
+     "label": "第43話:結婚式②",
+     "title": "第43話:結婚式②",
+     "url": "https://comic-walker.com/detail/KC_001662_S/episodes/KC_0016620005400021_E?episodeType=latest"
+    },
+    {
+     "date": "2026-11-03",
+     "label": "第43話:結婚式①",
+     "title": "第43話:結婚式①",
+     "url": "https://comic-walker.com/detail/KC_001662_S/episodes/KC_0016620005400011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-10-20",
+     "label": "第42話:男の覚悟③",
+     "title": "第42話:男の覚悟③",
+     "url": "https://comic-walker.com/detail/KC_001662_S/episodes/KC_0016620005200031_E?episodeType=latest"
+    },
+    {
+     "date": "2026-10-13",
+     "label": "第42話:男の覚悟②",
+     "title": "第42話:男の覚悟②",
+     "url": "https://comic-walker.com/detail/KC_001662_S/episodes/KC_0016620005200021_E?episodeType=latest"
+    },
+    {
+     "date": "2026-10-06",
+     "label": "第42話:男の覚悟①",
+     "title": "第42話:男の覚悟①",
+     "url": "https://comic-walker.com/detail/KC_001662_S/episodes/KC_0016620005200011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-09-09",
+     "label": "コミックス告知",
+     "title": "コミックス告知",
+     "url": "https://comic-walker.com/detail/KC_001662_S/episodes/KC_0016620005300011_E?episodeType=latest",
+     "extra": true
+    },
+    {
+     "date": "2026-08-18",
+     "label": "第41話:「女の先輩」として③",
+     "title": "第41話:「女の先輩」として③",
+     "url": "https://comic-walker.com/detail/KC_001662_S/episodes/KC_0016620005100031_E?episodeType=latest"
+    },
+    {
+     "date": "2026-08-11",
+     "label": "第41話:「女の先輩」として②",
+     "title": "第41話:「女の先輩」として②",
+     "url": "https://comic-walker.com/detail/KC_001662_S/episodes/KC_0016620005100021_E?episodeType=latest"
+    },
+    {
+     "date": "2026-08-04",
+     "label": "第41話:「女の先輩」として①",
+     "title": "第41話:「女の先輩」として①",
+     "url": "https://comic-walker.com/detail/KC_001662_S/episodes/KC_0016620005100011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-07-21",
+     "label": "第40話:親友だから③",
+     "title": "第40話:親友だから③",
+     "url": "https://comic-walker.com/detail/KC_001662_S/episodes/KC_0016620005000031_E?episodeType=latest"
+    },
+    {
+     "date": "2026-07-14",
+     "label": "第40話:親友だから②",
+     "title": "第40話:親友だから②",
+     "url": "https://comic-walker.com/detail/KC_001662_S/episodes/KC_0016620005000021_E?episodeType=latest"
+    },
+    {
+     "date": "2026-07-07",
+     "label": "第40話:親友だから①",
+     "title": "第40話:親友だから①",
+     "url": "https://comic-walker.com/detail/KC_001662_S/episodes/KC_0016620005000011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-06-16",
+     "label": "第39話:天才と無能③",
+     "title": "第39話:天才と無能③",
+     "url": "https://comic-walker.com/detail/KC_001662_S/episodes/KC_0016620004900031_E?episodeType=latest"
+    },
+    {
+     "date": "2026-06-09",
+     "label": "第39話:天才と無能②",
+     "title": "第39話:天才と無能②",
+     "url": "https://comic-walker.com/detail/KC_001662_S/episodes/KC_0016620004900021_E?episodeType=latest"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-17",
+    "label": "第43話:結婚式③",
+    "title": "第43話:結婚式③",
+    "url": "https://comic-walker.com/detail/KC_001662_S/episodes/KC_0016620005400031_E?episodeType=latest"
+   },
+   "paidHashes": null,
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/mangacross/452b0e17e1bf3",
+   "title": "僕の心のヤバイやつ ラブコメディが始まらない",
+   "site": "チャンピオンクロス",
+   "thumbFile": "data/thumbs/191450.jpg",
+   "publisherUrl": "https://championcross.jp/series/452b0e17e1bf3",
+   "comicNo": 191450,
+   "history": [
+    {
+     "date": "2026-11-17",
+     "label": "Score.30 新年会とおみくじ",
+     "title": "Score.30 新年会とおみくじ",
+     "url": "https://championcross.jp/episodes/eb72c24e16e99"
+    },
+    {
+     "date": "2026-11-03",
+     "label": "Score.29 2人のクリスマス②",
+     "title": "Score.29 2人のクリスマス②",
+     "url": "https://championcross.jp/episodes/29def858f3973"
+    },
+    {
+     "date": "2026-10-20",
+     "label": "Score.28 2人のクリスマス①",
+     "title": "Score.28 2人のクリスマス①",
+     "url": "https://championcross.jp/episodes/77fae3321c8e3"
+    },
+    {
+     "date": "2026-10-07",
+     "label": "Score.27 ニコちゃんとショッピング",
+     "title": "Score.27 ニコちゃんとショッピング",
+     "url": "https://championcross.jp/episodes/4be55382b3cd4"
+    },
+    {
+     "date": "2026-09-16",
+     "label": "Score.26 陣宗太と市川京太郎",
+     "title": "Score.26 陣宗太と市川京太郎",
+     "url": "https://championcross.jp/episodes/5aa67bb728b36"
+    },
+    {
+     "date": "2026-09-01",
+     "label": "Score.25 山田再び",
+     "title": "Score.25 山田再び",
+     "url": "https://championcross.jp/episodes/8fc18b76cad62"
+    },
+    {
+     "date": "2026-08-18",
+     "label": "Score.24 初めての合コン",
+     "title": "Score.24 初めての合コン",
+     "url": "https://championcross.jp/episodes/34a7baa8ddfba"
+    },
+    {
+     "date": "2026-07-21",
+     "label": "Score.23 陣くんちへお見舞い",
+     "title": "Score.23 陣くんちへお見舞い",
+     "url": "https://championcross.jp/episodes/12b20e86e9336"
+    },
+    {
+     "date": "2026-07-07",
+     "label": "Score.22 市川香菜のモヤモヤ",
+     "title": "Score.22 市川香菜のモヤモヤ",
+     "url": "https://championcross.jp/episodes/d9c0758607b96"
+    },
+    {
+     "date": "2026-06-16",
+     "label": "Score.21 2人は漕いだ",
+     "title": "Score.21 2人は漕いだ",
+     "url": "https://championcross.jp/episodes/fccffb40f5d36/"
+    },
+    {
+     "date": "2026-06-02",
+     "label": "Score.20 俺は祝いたい",
+     "title": "Score.20 俺は祝いたい",
+     "url": "https://championcross.jp/episodes/c78c3245ee7c9/"
+    },
+    {
+     "date": "2026-05-19",
+     "label": "Score.19 俺は釣り合いたい②",
+     "title": "Score.19 俺は釣り合いたい②",
+     "url": "https://championcross.jp/episodes/dea1f02dfa804/"
+    },
+    {
+     "date": "2026-05-19",
+     "label": "Score.17 打ち上げと新メンバー",
+     "title": "Score.17 打ち上げと新メンバー",
+     "url": null
+    },
+    {
+     "date": "2026-05-05",
+     "label": "Score.18 俺は釣り合いたい①",
+     "title": "Score.18 俺は釣り合いたい①",
+     "url": "https://championcross.jp/episodes/3e7af091125e6/"
+    },
+    {
+     "date": "2026-04-07",
+     "label": "Score.17 『打ち上げと新メンバー』",
+     "title": "Score.17 『打ち上げと新メンバー』",
+     "url": "https://championcross.jp/episodes/517dd0e8dea07/"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-17",
+    "label": "Score.30 新年会とおみくじ",
+    "title": "Score.30 新年会とおみくじ",
+    "url": "https://championcross.jp/episodes/eb72c24e16e99"
+   },
+   "paidHashes": null,
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/gaugau/62c794c27765610f03000000",
+   "title": "狂戦士なモブ、無自覚に本編を破壊する",
+   "site": "がうがうモンスター",
+   "thumbFile": "data/thumbs/157937.jpg",
+   "publisherUrl": "https://gaugau.futabanet.jp/list/work/62c794c27765610f03000000",
+   "comicNo": 157937,
+   "history": [
+    {
+     "date": "2026-11-17",
+     "label": "11/17 更新",
+     "title": "11/17 更新",
+     "url": "https://gaugau.futabanet.jp/list/work/62c794c27765610f03000000/episodes/93"
+    },
+    {
+     "date": "2026-10-20",
+     "label": "10/20 更新",
+     "title": "10/20 更新",
+     "url": "https://gaugau.futabanet.jp/list/work/62c794c27765610f03000000/episodes/92"
+    },
+    {
+     "date": "2026-10-13",
+     "label": "10/13 更新",
+     "title": "10/13 更新",
+     "url": "https://gaugau.futabanet.jp/list/work/62c794c27765610f03000000/episodes/91"
+    },
+    {
+     "date": "2026-09-22",
+     "label": "9/22 更新",
+     "title": "9/22 更新",
+     "url": null
+    },
+    {
+     "date": "2026-09-08",
+     "label": "9/8 更新",
+     "title": "9/8 更新",
+     "url": null
+    },
+    {
+     "date": "2026-08-11",
+     "label": "8/11 更新",
+     "title": "8/11 更新",
+     "url": null
+    },
+    {
+     "date": "2026-07-28",
+     "label": "7/28 更新",
+     "title": "7/28 更新",
+     "url": null
+    },
+    {
+     "date": "2026-07-14",
+     "label": "7/14 更新",
+     "title": "7/14 更新",
+     "url": null
+    },
+    {
+     "date": "2026-06-30",
+     "label": "6/30 更新",
+     "title": "6/30 更新",
+     "url": null
+    },
+    {
+     "date": "2026-06-16",
+     "label": "6/16 更新",
+     "title": "6/16 更新",
+     "url": null
+    },
+    {
+     "date": "2026-06-02",
+     "label": "6/2 更新",
+     "title": "6/2 更新",
+     "url": null
+    },
+    {
+     "date": "2026-05-19",
+     "label": "5/19 更新",
+     "title": "5/19 更新",
+     "url": null
+    },
+    {
+     "date": "2026-05-05",
+     "label": "5/5 更新",
+     "title": "5/5 更新",
+     "url": null
+    },
+    {
+     "date": "2026-04-07",
+     "label": "4/7 更新",
+     "title": "4/7 更新",
+     "url": null
+    },
+    {
+     "date": "2026-03-24",
+     "label": "3/24 更新",
+     "title": "3/24 更新",
+     "url": null
+    }
+   ],
+   "latest": {
+    "date": "2026-11-17",
+    "label": "11/17 更新",
+    "title": "11/17 更新",
+    "url": "https://gaugau.futabanet.jp/list/work/62c794c27765610f03000000/episodes/93"
+   },
+   "paidHashes": null,
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/seiga/46452",
+   "title": "転生ゴブリンだけど質問ある?",
+   "site": "ニコニコ漫画",
+   "thumbFile": "data/thumbs/101494.jpg",
+   "publisherUrl": "https://manga.nicovideo.jp/comic/46452",
+   "comicNo": 101494,
+   "history": [
+    {
+     "date": "2026-11-17",
+     "label": "2026/11/17 更新",
+     "title": "2026/11/17 更新",
+     "url": "https://manga.nicovideo.jp/comic/46452/new"
+    },
+    {
+     "date": "2026-11-03",
+     "label": "2026/11/03 更新",
+     "title": "2026/11/03 更新",
+     "url": "https://manga.nicovideo.jp/comic/46452/new"
+    },
+    {
+     "date": "2026-10-20",
+     "label": "2026/10/20 更新",
+     "title": "2026/10/20 更新",
+     "url": "https://manga.nicovideo.jp/comic/46452/new"
+    },
+    {
+     "date": "2026-10-06",
+     "label": "2026/10/06 更新",
+     "title": "2026/10/06 更新",
+     "url": "https://manga.nicovideo.jp/comic/46452/new"
+    },
+    {
+     "date": "2026-09-22",
+     "label": "2026/09/22 更新",
+     "title": "2026/09/22 更新",
+     "url": "https://manga.nicovideo.jp/comic/46452/new"
+    },
+    {
+     "date": "2026-09-08",
+     "label": "2026/09/08 更新",
+     "title": "2026/09/08 更新",
+     "url": "https://manga.nicovideo.jp/comic/46452/new"
+    },
+    {
+     "date": "2026-08-25",
+     "label": "2026/08/25 更新",
+     "title": "2026/08/25 更新",
+     "url": "https://manga.nicovideo.jp/comic/46452/new"
+    },
+    {
+     "date": "2026-08-11",
+     "label": "2026/08/11 更新",
+     "title": "2026/08/11 更新",
+     "url": "https://manga.nicovideo.jp/comic/46452/new"
+    },
+    {
+     "date": "2026-07-28",
+     "label": "2026/07/28 更新",
+     "title": "2026/07/28 更新",
+     "url": "https://manga.nicovideo.jp/comic/46452/new"
+    },
+    {
+     "date": "2026-07-14",
+     "label": "2026/07/14 更新",
+     "title": "2026/07/14 更新",
+     "url": "https://manga.nicovideo.jp/comic/46452/new"
+    },
+    {
+     "date": "2026-06-30",
+     "label": "2026/06/30 更新",
+     "title": "2026/06/30 更新",
+     "url": "https://manga.nicovideo.jp/comic/46452/new"
+    },
+    {
+     "date": "2026-06-16",
+     "label": "2026/06/16 更新",
+     "title": "2026/06/16 更新",
+     "url": "https://manga.nicovideo.jp/comic/46452/new"
+    },
+    {
+     "date": "2026-06-02",
+     "label": "2026/06/02 更新",
+     "title": "2026/06/02 更新",
+     "url": "https://manga.nicovideo.jp/comic/46452/new"
+    },
+    {
+     "date": "2026-05-19",
+     "label": "2026/05/19 更新",
+     "title": "2026/05/19 更新",
+     "url": "https://manga.nicovideo.jp/comic/46452/new"
+    },
+    {
+     "date": "2026-05-05",
+     "label": "2026/05/05 更新",
+     "title": "2026/05/05 更新",
+     "url": "https://manga.nicovideo.jp/comic/46452/new"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-17",
+    "label": "2026/11/17 更新",
+    "title": "2026/11/17 更新",
+    "url": "https://manga.nicovideo.jp/comic/46452/new"
+   },
+   "paidHashes": null,
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/younganimal/b7095b9a09c9f",
+   "title": "放課後のアイドルには秘密がある",
+   "site": "ヤングアニマルWeb",
+   "thumbFile": "data/thumbs/148610.jpg",
+   "publisherUrl": "https://younganimal.com/series/b7095b9a09c9f",
+   "comicNo": 148610,
+   "history": [
+    {
+     "date": "2026-11-17",
+     "label": "第95話 昼野くんの告白",
+     "title": "第95話 昼野くんの告白",
+     "url": "https://younganimal.com/episodes/7bfd07af57eb5"
+    },
+    {
+     "date": "2026-11-01",
+     "label": "第94話 昼野くんと保健室の先生",
+     "title": "第94話 昼野くんと保健室の先生",
+     "url": "https://younganimal.com/episodes/3e256aabf8e6b"
+    },
+    {
+     "date": "2026-10-18",
+     "label": "第93話 鈴木まおの怒り",
+     "title": "第93話 鈴木まおの怒り",
+     "url": "https://younganimal.com/episodes/86fa20dc3e6e8"
+    },
+    {
+     "date": "2026-10-04",
+     "label": "第92話 黒宮さんの嫉妬",
+     "title": "第92話 黒宮さんの嫉妬",
+     "url": "https://younganimal.com/episodes/dc2600adf2aa4"
+    },
+    {
+     "date": "2026-09-20",
+     "label": "第91話 茂川さんの画策",
+     "title": "第91話 茂川さんの画策",
+     "url": "https://younganimal.com/episodes/f95ed4cfe5b3d"
+    },
+    {
+     "date": "2026-09-06",
+     "label": "第90話 黒宮さんの直感",
+     "title": "第90話 黒宮さんの直感",
+     "url": "https://younganimal.com/episodes/9ec8b316985d2"
+    },
+    {
+     "date": "2026-08-23",
+     "label": "第89話 昼野くんと茂川さん",
+     "title": "第89話 昼野くんと茂川さん",
+     "url": "https://younganimal.com/episodes/19249a92e606c"
+    },
+    {
+     "date": "2026-08-09",
+     "label": "第88話 あかりちゃんの青春",
+     "title": "第88話 あかりちゃんの青春",
+     "url": "https://younganimal.com/episodes/c632de4087ce4"
+    },
+    {
+     "date": "2026-07-28",
+     "label": "第87話 黒宮さんたちの新しい一年",
+     "title": "第87話 黒宮さんたちの新しい一年",
+     "url": "https://younganimal.com/episodes/64f8cc587c3c9"
+    },
+    {
+     "date": "2026-07-14",
+     "label": "第86話 日和ちゃんのママ",
+     "title": "第86話 日和ちゃんのママ",
+     "url": "https://younganimal.com/episodes/d96595a1294a1"
+    },
+    {
+     "date": "2026-06-30",
+     "label": "第85話 黒宮さんとバレンタインデー②",
+     "title": "第85話 黒宮さんとバレンタインデー②",
+     "url": "https://younganimal.com/episodes/73f81f4533ae0"
+    },
+    {
+     "date": "2026-06-16",
+     "label": "第84話 黒宮さんとバレンタインデー",
+     "title": "第84話 黒宮さんとバレンタインデー",
+     "url": "https://younganimal.com/episodes/58f9e2143a7fd"
+    },
+    {
+     "date": "2026-06-01",
+     "label": "第83話 黒宮さんと鈴木まお",
+     "title": "第83話 黒宮さんと鈴木まお",
+     "url": "https://younganimal.com/episodes/821d6d73cd5e3"
+    },
+    {
+     "date": "2026-05-17",
+     "label": "第82話 昼野くんの服",
+     "title": "第82話 昼野くんの服",
+     "url": "https://younganimal.com/episodes/7025e496c73a6"
+    },
+    {
+     "date": "2026-05-04",
+     "label": "第81話 黒宮さんと第三言語②",
+     "title": "第81話 黒宮さんと第三言語②",
+     "url": "https://younganimal.com/episodes/0b5ffe559a482"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-17",
+    "label": "第95話 昼野くんの告白",
+    "title": "第95話 昼野くんの告白",
+    "url": "https://younganimal.com/episodes/7bfd07af57eb5"
+   },
+   "paidHashes": null,
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/comicride/24baa34eefbfd",
+   "title": "退魔師転生 ～過酷なエロゲ世界でキツネ顔の関西弁な性悪男はどないすりゃええですか?～",
+   "site": "ライコミ",
+   "thumbFile": "data/thumbs/207672.jpg",
+   "publisherUrl": "https://comicride.jp/series/24baa34eefbfd",
+   "comicNo": 207672,
+   "history": [
+    {
+     "date": "2026-11-17",
+     "label": "第5話前編",
+     "title": "第5話前編",
+     "url": "https://comicride.jp/episodes/74757a64b656b"
+    },
+    {
+     "date": "2026-09-19",
+     "label": "第4話",
+     "title": "第4話",
+     "url": "https://comicride.jp/episodes/5cc9f950aa718"
+    },
+    {
+     "date": "2026-08-17",
+     "label": "第3話",
+     "title": "第3話",
+     "url": "https://comicride.jp/episodes/ae4c5491850e9"
+    },
+    {
+     "date": "2026-07-28",
+     "label": "第2話②",
+     "title": "第2話②",
+     "url": "https://comicride.jp/episodes/146c0deef6af7"
+    },
+    {
+     "date": "2026-07-14",
+     "label": "第2話①",
+     "title": "第2話①",
+     "url": "https://comicride.jp/episodes/dca46b2a0f434"
+    },
+    {
+     "date": "2026-05-14",
+     "label": "第1話",
+     "title": "第1話",
+     "url": "https://comicride.jp/episodes/8a90065a3c256"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-17",
+    "label": "第5話前編",
+    "title": "第5話前編",
+    "url": "https://comicride.jp/episodes/74757a64b656b"
+   },
+   "paidHashes": null,
+   "error": null
+  },
   {
    "detailUrl": "https://webcomics.jp/shonenjump-plus/8603475606561483665",
    "title": "続テルマエ・ロマエ",
@@ -106,6 +811,204 @@
     "label": "更新",
     "title": "更新",
     "url": "https://shonenjumpplus.com/episode/9253191257982513720"
+   },
+   "paidHashes": null,
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/yanmaga/E982AAE7A59EE381AEE5ADAB_E3838",
+   "title": "邪神の孫 ダークエルフ姉妹と過ごす異世界引きこもり生活",
+   "site": "ヤンマガWeb",
+   "thumbFile": "data/thumbs/192912.jpg",
+   "publisherUrl": "https://yanmaga.jp/comics/%E9%82%AA%E7%A5%9E%E3%81%AE%E5%AD%AB_%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95%E5%A7%89%E5%A6%B9%E3%81%A8%E9%81%8E%E3%81%94%E3%81%99%E7%95%B0%E4%B8%96%E7%95%8C%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A%E7%94%9F%E6%B4%BB",
+   "comicNo": 192912,
+   "history": [
+    {
+     "date": "2026-11-17",
+     "label": "第14話「カタクラ邪神国」②",
+     "title": "第14話「カタクラ邪神国」②",
+     "url": "https://yanmaga.jp/comics/%E9%82%AA%E7%A5%9E%E3%81%AE%E5%AD%AB_%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95%E5%A7%89%E5%A6%B9%E3%81%A8%E9%81%8E%E3%81%94%E3%81%99%E7%95%B0%E4%B8%96%E7%95%8C%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A%E7%94%9F%E6%B4%BB/03038f495986e6fee5574dd8f30cb398"
+    },
+    {
+     "date": "2026-11-03",
+     "label": "第14話「カタクラ邪神国」①",
+     "title": "第14話「カタクラ邪神国」①",
+     "url": "https://yanmaga.jp/comics/%E9%82%AA%E7%A5%9E%E3%81%AE%E5%AD%AB_%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95%E5%A7%89%E5%A6%B9%E3%81%A8%E9%81%8E%E3%81%94%E3%81%99%E7%95%B0%E4%B8%96%E7%95%8C%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A%E7%94%9F%E6%B4%BB/0dea9c1ad28a9639c2c7de7d53a19fde"
+    },
+    {
+     "date": "2026-10-13",
+     "label": "第13話「3人なりの〝夏休み〞」②",
+     "title": "第13話「3人なりの〝夏休み〞」②",
+     "url": "https://yanmaga.jp/comics/%E9%82%AA%E7%A5%9E%E3%81%AE%E5%AD%AB_%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95%E5%A7%89%E5%A6%B9%E3%81%A8%E9%81%8E%E3%81%94%E3%81%99%E7%95%B0%E4%B8%96%E7%95%8C%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A%E7%94%9F%E6%B4%BB/090841fa3c8480ba8ac4268ee90486ab"
+    },
+    {
+     "date": "2026-09-29",
+     "label": "第13話「3人なりの〝夏休み〞」①",
+     "title": "第13話「3人なりの〝夏休み〞」①",
+     "url": "https://yanmaga.jp/comics/%E9%82%AA%E7%A5%9E%E3%81%AE%E5%AD%AB_%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95%E5%A7%89%E5%A6%B9%E3%81%A8%E9%81%8E%E3%81%94%E3%81%99%E7%95%B0%E4%B8%96%E7%95%8C%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A%E7%94%9F%E6%B4%BB/29d1164322ebf4af1d4c2958cb990079"
+    },
+    {
+     "date": "2026-09-15",
+     "label": "第12話「(1ヵ月遅れの)タナバタ」②",
+     "title": "第12話「(1ヵ月遅れの)タナバタ」②",
+     "url": "https://yanmaga.jp/comics/%E9%82%AA%E7%A5%9E%E3%81%AE%E5%AD%AB_%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95%E5%A7%89%E5%A6%B9%E3%81%A8%E9%81%8E%E3%81%94%E3%81%99%E7%95%B0%E4%B8%96%E7%95%8C%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A%E7%94%9F%E6%B4%BB/e96b0a82a1bbbf2fc7b10bf12612b4ea"
+    },
+    {
+     "date": "2026-09-01",
+     "label": "第12話「(1ヵ月遅れの)タナバタ」①",
+     "title": "第12話「(1ヵ月遅れの)タナバタ」①",
+     "url": "https://yanmaga.jp/comics/%E9%82%AA%E7%A5%9E%E3%81%AE%E5%AD%AB_%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95%E5%A7%89%E5%A6%B9%E3%81%A8%E9%81%8E%E3%81%94%E3%81%99%E7%95%B0%E4%B8%96%E7%95%8C%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A%E7%94%9F%E6%B4%BB/e58c86e0452aa17f64044b3254253a20"
+    },
+    {
+     "date": "2026-08-11",
+     "label": "第11話「殺人おっぱい」②",
+     "title": "第11話「殺人おっぱい」②",
+     "url": "https://yanmaga.jp/comics/%E9%82%AA%E7%A5%9E%E3%81%AE%E5%AD%AB_%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95%E5%A7%89%E5%A6%B9%E3%81%A8%E9%81%8E%E3%81%94%E3%81%99%E7%95%B0%E4%B8%96%E7%95%8C%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A%E7%94%9F%E6%B4%BB/8432081d544e972d8b11fada92e8e743"
+    },
+    {
+     "date": "2026-07-28",
+     "label": "第11話「殺人おっぱい」①",
+     "title": "第11話「殺人おっぱい」①",
+     "url": "https://yanmaga.jp/comics/%E9%82%AA%E7%A5%9E%E3%81%AE%E5%AD%AB_%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95%E5%A7%89%E5%A6%B9%E3%81%A8%E9%81%8E%E3%81%94%E3%81%99%E7%95%B0%E4%B8%96%E7%95%8C%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A%E7%94%9F%E6%B4%BB/2231fb57b0ededb3145c4e0b6fc1323e"
+    },
+    {
+     "date": "2026-07-14",
+     "label": "第10話「サトシ、闘病中のできごと」②",
+     "title": "第10話「サトシ、闘病中のできごと」②",
+     "url": "https://yanmaga.jp/comics/%E9%82%AA%E7%A5%9E%E3%81%AE%E5%AD%AB_%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95%E5%A7%89%E5%A6%B9%E3%81%A8%E9%81%8E%E3%81%94%E3%81%99%E7%95%B0%E4%B8%96%E7%95%8C%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A%E7%94%9F%E6%B4%BB/72126fca569d5276831408b5bd9abae3"
+    },
+    {
+     "date": "2026-06-30",
+     "label": "第10話「サトシ、闘病中のできごと」①",
+     "title": "第10話「サトシ、闘病中のできごと」①",
+     "url": "https://yanmaga.jp/comics/%E9%82%AA%E7%A5%9E%E3%81%AE%E5%AD%AB_%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95%E5%A7%89%E5%A6%B9%E3%81%A8%E9%81%8E%E3%81%94%E3%81%99%E7%95%B0%E4%B8%96%E7%95%8C%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A%E7%94%9F%E6%B4%BB/3df9b7b15fe497aa77c5356914c9409b"
+    },
+    {
+     "date": "2026-06-16",
+     "label": "第9話「JKの生態」②",
+     "title": "第9話「JKの生態」②",
+     "url": "https://yanmaga.jp/comics/%E9%82%AA%E7%A5%9E%E3%81%AE%E5%AD%AB_%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95%E5%A7%89%E5%A6%B9%E3%81%A8%E9%81%8E%E3%81%94%E3%81%99%E7%95%B0%E4%B8%96%E7%95%8C%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A%E7%94%9F%E6%B4%BB/d8d78eafc88cfd9537a30f15e25470d3"
+    },
+    {
+     "date": "2026-06-02",
+     "label": "第9話「JKの生態」①",
+     "title": "第9話「JKの生態」①",
+     "url": "https://yanmaga.jp/comics/%E9%82%AA%E7%A5%9E%E3%81%AE%E5%AD%AB_%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95%E5%A7%89%E5%A6%B9%E3%81%A8%E9%81%8E%E3%81%94%E3%81%99%E7%95%B0%E4%B8%96%E7%95%8C%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A%E7%94%9F%E6%B4%BB/1a13257060e22ef0eac5e4a217bfd6b5"
+    },
+    {
+     "date": "2026-05-19",
+     "label": "第8話「勇者パーティ」②",
+     "title": "第8話「勇者パーティ」②",
+     "url": "https://yanmaga.jp/comics/%E9%82%AA%E7%A5%9E%E3%81%AE%E5%AD%AB_%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95%E5%A7%89%E5%A6%B9%E3%81%A8%E9%81%8E%E3%81%94%E3%81%99%E7%95%B0%E4%B8%96%E7%95%8C%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A%E7%94%9F%E6%B4%BB/807d34ddd95d05f7d899cd7b550faf6f"
+    },
+    {
+     "date": "2026-05-05",
+     "label": "第8話「勇者パーティ」①",
+     "title": "第8話「勇者パーティ」①",
+     "url": "https://yanmaga.jp/comics/%E9%82%AA%E7%A5%9E%E3%81%AE%E5%AD%AB_%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95%E5%A7%89%E5%A6%B9%E3%81%A8%E9%81%8E%E3%81%94%E3%81%99%E7%95%B0%E4%B8%96%E7%95%8C%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A%E7%94%9F%E6%B4%BB/d1d27b4466f0b56214debf75a5183083"
+    },
+    {
+     "date": "2026-04-14",
+     "label": "第7話「滅びろ!ばれんたいん」②",
+     "title": "第7話「滅びろ!ばれんたいん」②",
+     "url": "https://yanmaga.jp/comics/%E9%82%AA%E7%A5%9E%E3%81%AE%E5%AD%AB_%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95%E5%A7%89%E5%A6%B9%E3%81%A8%E9%81%8E%E3%81%94%E3%81%99%E7%95%B0%E4%B8%96%E7%95%8C%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A%E7%94%9F%E6%B4%BB/2845f91e489128bafa12f3753b643288"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-17",
+    "label": "第14話「カタクラ邪神国」②",
+    "title": "第14話「カタクラ邪神国」②",
+    "url": "https://yanmaga.jp/comics/%E9%82%AA%E7%A5%9E%E3%81%AE%E5%AD%AB_%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95%E5%A7%89%E5%A6%B9%E3%81%A8%E9%81%8E%E3%81%94%E3%81%99%E7%95%B0%E4%B8%96%E7%95%8C%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A%E7%94%9F%E6%B4%BB/03038f495986e6fee5574dd8f30cb398"
+   },
+   "paidHashes": null,
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/magapoke/03322",
+   "title": "排水溝につまったスライムを日々かたづけるだけの底辺職、なぜか実力者たちの熱い視線を集めてしまう",
+   "site": "マガポケ",
+   "thumbFile": "data/thumbs/213995.jpg",
+   "publisherUrl": "https://pocket.shonenmagazine.com/title/03322",
+   "comicNo": 213995,
+   "history": [
+    {
+     "date": "2026-11-17",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/03322/episode/446119"
+    },
+    {
+     "date": "2026-11-10",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/03322/episode/445780"
+    },
+    {
+     "date": "2026-11-03",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/03322/episode/445562"
+    },
+    {
+     "date": "2026-10-27",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/03322/episode/445042"
+    },
+    {
+     "date": "2026-10-20",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/03322/episode/444709"
+    },
+    {
+     "date": "2026-10-13",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/03322/episode/444129"
+    },
+    {
+     "date": "2026-09-29",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/03322/episode/443851"
+    },
+    {
+     "date": "2026-09-22",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/03322/episode/443502"
+    },
+    {
+     "date": "2026-09-15",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/03322/episode/443122"
+    },
+    {
+     "date": "2026-09-08",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/03322/episode/442839"
+    },
+    {
+     "date": "2026-09-01",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/03322/episode/442503"
+    },
+    {
+     "date": "2026-08-25",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/03322/episode/442502"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-17",
+    "label": "更新",
+    "title": "更新",
+    "url": "https://pocket.shonenmagazine.com/title/03322/episode/446119"
    },
    "paidHashes": null,
    "error": null
@@ -328,6 +1231,330 @@
    "error": null
   },
   {
+   "detailUrl": "https://webcomics.jp/comic-days/12207421983529861572",
+   "title": "ゆーあーすらっがー",
+   "site": "コミックDAYS",
+   "thumbFile": "data/thumbs/205651.jpg",
+   "publisherUrl": "https://comic-days.com/episode/12207421983529861572",
+   "comicNo": 205651,
+   "history": [
+    {
+     "date": "2026-11-16",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983529861637"
+    },
+    {
+     "date": "2026-11-02",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983529861634"
+    },
+    {
+     "date": "2026-10-19",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983529861631"
+    },
+    {
+     "date": "2026-10-05",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983529861628"
+    },
+    {
+     "date": "2026-09-21",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983529861625"
+    },
+    {
+     "date": "2026-09-07",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983529861622"
+    },
+    {
+     "date": "2026-08-24",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983529861619"
+    },
+    {
+     "date": "2026-08-10",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983529861616"
+    },
+    {
+     "date": "2026-07-27",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983529861613"
+    },
+    {
+     "date": "2026-07-13",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983529861609"
+    },
+    {
+     "date": "2026-06-29",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983529861605"
+    },
+    {
+     "date": "2026-06-15",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983529861601"
+    },
+    {
+     "date": "2026-06-01",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983529861597"
+    },
+    {
+     "date": "2026-05-18",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983529861589"
+    },
+    {
+     "date": "2026-05-04",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983529861586"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-16",
+    "label": "更新",
+    "title": "更新",
+    "url": "https://comic-days.com/episode/12207421983529861637"
+   },
+   "paidHashes": null,
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/comic-days/2550912964447755944",
+   "title": "傷口と包帯",
+   "site": "コミックDAYS",
+   "thumbFile": "data/thumbs/164705.jpg",
+   "publisherUrl": "https://comic-days.com/episode/2550912964447755944",
+   "comicNo": 164705,
+   "history": [
+    {
+     "date": "2026-11-16",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421984125480638"
+    },
+    {
+     "date": "2026-11-02",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983484134576"
+    },
+    {
+     "date": "2026-10-19",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983484134562"
+    },
+    {
+     "date": "2026-10-05",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983484134551"
+    },
+    {
+     "date": "2026-09-22",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983484134542"
+    },
+    {
+     "date": "2026-08-25",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983484134531"
+    },
+    {
+     "date": "2026-08-11",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421984009192172"
+    },
+    {
+     "date": "2026-07-28",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983484134520"
+    },
+    {
+     "date": "2026-07-14",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983885095812"
+    },
+    {
+     "date": "2026-07-14",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/2551460909710194232"
+    },
+    {
+     "date": "2026-06-30",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/2551460909710194216"
+    },
+    {
+     "date": "2026-06-16",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/2551460909710194203"
+    },
+    {
+     "date": "2026-06-02",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/2551460909710194193"
+    },
+    {
+     "date": "2026-05-19",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983637327369"
+    },
+    {
+     "date": "2026-05-05",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/2551460909710194183"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-16",
+    "label": "更新",
+    "title": "更新",
+    "url": "https://comic-days.com/episode/12207421984125480638"
+   },
+   "paidHashes": null,
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/comic-walker/KC_000789_S",
+   "title": "J⇔M ジェイエム",
+   "site": "カドコミ",
+   "thumbFile": "data/thumbs/150970.jpg",
+   "publisherUrl": "https://comic-walker.com/detail/KC_000789_S",
+   "comicNo": 150970,
+   "history": [
+    {
+     "date": "2026-11-16",
+     "label": "第四十三話",
+     "title": "第四十三話",
+     "url": "https://comic-walker.com/detail/KC_000789_S/episodes/KC_0007890004400011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-10-12",
+     "label": "第四十二話",
+     "title": "第四十二話",
+     "url": "https://comic-walker.com/detail/KC_000789_S/episodes/KC_0007890004300011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-09-14",
+     "label": "第四十一話",
+     "title": "第四十一話",
+     "url": "https://comic-walker.com/detail/KC_000789_S/episodes/KC_0007890004200011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-08-17",
+     "label": "第四十話",
+     "title": "第四十話",
+     "url": "https://comic-walker.com/detail/KC_000789_S/episodes/KC_0007890004100011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-07-13",
+     "label": "第三十九話",
+     "title": "第三十九話",
+     "url": "https://comic-walker.com/detail/KC_000789_S/episodes/KC_0007890004000011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-06-15",
+     "label": "第三十八話",
+     "title": "第三十八話",
+     "url": "https://comic-walker.com/detail/KC_000789_S/episodes/KC_0007890003900011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-05-11",
+     "label": "第三十七話",
+     "title": "第三十七話",
+     "url": "https://comic-walker.com/detail/KC_000789_S/episodes/KC_0007890003800011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-04-13",
+     "label": "第三十六話",
+     "title": "第三十六話",
+     "url": "https://comic-walker.com/detail/KC_000789_S/episodes/KC_0007890003700011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-03-16",
+     "label": "第三十五話",
+     "title": "第三十五話",
+     "url": "https://comic-walker.com/detail/KC_000789_S/episodes/KC_0007890003600011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-02-09",
+     "label": "第三十四話",
+     "title": "第三十四話",
+     "url": "https://comic-walker.com/detail/KC_000789_S/episodes/KC_0007890003500011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-01-12",
+     "label": "第三十三話",
+     "title": "第三十三話",
+     "url": "https://comic-walker.com/detail/KC_000789_S/episodes/KC_0007890003400011_E?episodeType=latest"
+    },
+    {
+     "date": "2025-12-15",
+     "label": "第三十二話",
+     "title": "第三十二話",
+     "url": "https://comic-walker.com/detail/KC_000789_S/episodes/KC_0007890003300011_E?episodeType=latest"
+    },
+    {
+     "date": "2025-11-17",
+     "label": "第三十一話",
+     "title": "第三十一話",
+     "url": "https://comic-walker.com/detail/KC_000789_S/episodes/KC_0007890003200011_E?episodeType=latest"
+    },
+    {
+     "date": "2025-10-13",
+     "label": "第三十話",
+     "title": "第三十話",
+     "url": "https://comic-walker.com/detail/KC_000789_S/episodes/KC_0007890003100011_E?episodeType=latest"
+    },
+    {
+     "date": "2025-09-08",
+     "label": "第二十九話",
+     "title": "第二十九話",
+     "url": "https://comic-walker.com/detail/KC_000789_S/episodes/KC_0007890003000011_E?episodeType=latest"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-16",
+    "label": "第四十三話",
+    "title": "第四十三話",
+    "url": "https://comic-walker.com/detail/KC_000789_S/episodes/KC_0007890004400011_E?episodeType=latest"
+   },
+   "paidHashes": null,
+   "error": null
+  },
+  {
    "detailUrl": "https://webcomics.jp/comic-walker/KC_000547_S",
    "title": "世界最高の暗殺者、異世界貴族に転生する",
    "site": "カドコミ",
@@ -336,7 +1563,7 @@
    "comicNo": 90737,
    "history": [
     {
-     "date": "2026-11-17",
+     "date": "2026-11-16",
      "label": "第46話-1",
      "title": "第46話-1",
      "url": "https://comic-walker.com/detail/KC_000547_S/episodes/KC_0005470005100011_E?episodeType=latest"
@@ -427,10 +1654,118 @@
     }
    ],
    "latest": {
-    "date": "2026-11-17",
+    "date": "2026-11-16",
     "label": "第46話-1",
     "title": "第46話-1",
     "url": "https://comic-walker.com/detail/KC_000547_S/episodes/KC_0005470005100011_E?episodeType=latest"
+   },
+   "paidHashes": null,
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/gardo/2550912965636020058",
+   "title": "クラス転移したら、なぜか引きこもりの俺まで異世界に連れてかれたんだが ～俺だけのユニークギフト『自宅...",
+   "site": "コミックガルド",
+   "thumbFile": "data/thumbs/187950.jpg",
+   "publisherUrl": "https://comic-gardo.com/episode/2550912965636020058",
+   "comicNo": 187950,
+   "history": [
+    {
+     "date": "2026-11-16",
+     "label": "第15話「勇者降臨」(1)",
+     "title": "第15話「勇者降臨」(1)",
+     "url": "https://comic-gardo.com/episode/12207421984383892557"
+    },
+    {
+     "date": "2026-11-02",
+     "label": "第14話「聖川和馬のプロローグ」(3)",
+     "title": "第14話「聖川和馬のプロローグ」(3)",
+     "url": "https://comic-gardo.com/episode/12207421984284337615"
+    },
+    {
+     "date": "2026-10-19",
+     "label": "第14話「聖川和馬のプロローグ」(2)",
+     "title": "第14話「聖川和馬のプロローグ」(2)",
+     "url": "https://comic-gardo.com/episode/12207421984251695842"
+    },
+    {
+     "date": "2026-09-28",
+     "label": "第14話「聖川和馬のプロローグ」(1)",
+     "title": "第14話「聖川和馬のプロローグ」(1)",
+     "url": "https://comic-gardo.com/episode/12207421984188204245"
+    },
+    {
+     "date": "2026-09-21",
+     "label": "第13話「繋がれる意志」(2)",
+     "title": "第13話「繋がれる意志」(2)",
+     "url": "https://comic-gardo.com/episode/12207421984125548442"
+    },
+    {
+     "date": "2026-09-07",
+     "label": "第13話「繋がれる意志」(1)",
+     "title": "第13話「繋がれる意志」(1)",
+     "url": "https://comic-gardo.com/episode/12207421984065286816"
+    },
+    {
+     "date": "2026-08-24",
+     "label": "第12話「トレーニングルーム」(2)",
+     "title": "第12話「トレーニングルーム」(2)",
+     "url": "https://comic-gardo.com/episode/12207421983974311107"
+    },
+    {
+     "date": "2026-08-10",
+     "label": "第12話「トレーニングルーム」(1)",
+     "title": "第12話「トレーニングルーム」(1)",
+     "url": "https://comic-gardo.com/episode/12207421983917680261"
+    },
+    {
+     "date": "2026-07-20",
+     "label": "第11話「その頃のクラスメイトたち」(2)",
+     "title": "第11話「その頃のクラスメイトたち」(2)",
+     "url": "https://comic-gardo.com/episode/12207421983861464895"
+    },
+    {
+     "date": "2026-07-06",
+     "label": "第11話「その頃のクラスメイトたち」(1)",
+     "title": "第11話「その頃のクラスメイトたち」(1)",
+     "url": "https://comic-gardo.com/episode/12207421983805724266"
+    },
+    {
+     "date": "2026-06-22",
+     "label": "第10話「騎士の聖骸」(3)",
+     "title": "第10話「騎士の聖骸」(3)",
+     "url": "https://comic-gardo.com/episode/12207421983750131405"
+    },
+    {
+     "date": "2026-06-08",
+     "label": "第10話「騎士の聖骸」(2)",
+     "title": "第10話「騎士の聖骸」(2)",
+     "url": "https://comic-gardo.com/episode/12207421983659774675"
+    },
+    {
+     "date": "2026-05-25",
+     "label": "第10話「騎士の聖骸」(1)",
+     "title": "第10話「騎士の聖骸」(1)",
+     "url": "https://comic-gardo.com/episode/12207421983614933630"
+    },
+    {
+     "date": "2026-05-11",
+     "label": "第9話「バリエッタという男」(3)",
+     "title": "第9話「バリエッタという男」(3)",
+     "url": "https://comic-gardo.com/episode/12207421983351634984"
+    },
+    {
+     "date": "2026-04-20",
+     "label": "第9話「バリエッタという男」(2)",
+     "title": "第9話「バリエッタという男」(2)",
+     "url": "https://comic-gardo.com/episode/2551460910070464259"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-16",
+    "label": "第15話「勇者降臨」(1)",
+    "title": "第15話「勇者降臨」(1)",
+    "url": "https://comic-gardo.com/episode/12207421984383892557"
    },
    "paidHashes": null,
    "error": null
@@ -7905,115 +9240,6 @@
    "error": null
   },
   {
-   "detailUrl": "https://webcomics.jp/comic-walker/KC_001662_S",
-   "title": "転生コロシアム～最弱スキルで最強の女たちを攻略して奴隷ハーレム作ります～",
-   "site": "カドコミ",
-   "thumbFile": "data/thumbs/139380.jpg",
-   "publisherUrl": "https://comic-walker.com/detail/KC_001662_S",
-   "comicNo": 139380,
-   "history": [
-    {
-     "date": "2026-11-10",
-     "label": "第43話:結婚式②",
-     "title": "第43話:結婚式②",
-     "url": "https://comic-walker.com/detail/KC_001662_S/episodes/KC_0016620005400021_E?episodeType=latest"
-    },
-    {
-     "date": "2026-11-03",
-     "label": "第43話:結婚式①",
-     "title": "第43話:結婚式①",
-     "url": "https://comic-walker.com/detail/KC_001662_S/episodes/KC_0016620005400011_E?episodeType=latest"
-    },
-    {
-     "date": "2026-10-20",
-     "label": "第42話:男の覚悟③",
-     "title": "第42話:男の覚悟③",
-     "url": "https://comic-walker.com/detail/KC_001662_S/episodes/KC_0016620005200031_E?episodeType=latest"
-    },
-    {
-     "date": "2026-10-13",
-     "label": "第42話:男の覚悟②",
-     "title": "第42話:男の覚悟②",
-     "url": "https://comic-walker.com/detail/KC_001662_S/episodes/KC_0016620005200021_E?episodeType=latest"
-    },
-    {
-     "date": "2026-10-06",
-     "label": "第42話:男の覚悟①",
-     "title": "第42話:男の覚悟①",
-     "url": "https://comic-walker.com/detail/KC_001662_S/episodes/KC_0016620005200011_E?episodeType=latest"
-    },
-    {
-     "date": "2026-09-09",
-     "label": "コミックス告知",
-     "title": "コミックス告知",
-     "url": "https://comic-walker.com/detail/KC_001662_S/episodes/KC_0016620005300011_E?episodeType=latest",
-     "extra": true
-    },
-    {
-     "date": "2026-08-18",
-     "label": "第41話:「女の先輩」として③",
-     "title": "第41話:「女の先輩」として③",
-     "url": "https://comic-walker.com/detail/KC_001662_S/episodes/KC_0016620005100031_E?episodeType=latest"
-    },
-    {
-     "date": "2026-08-11",
-     "label": "第41話:「女の先輩」として②",
-     "title": "第41話:「女の先輩」として②",
-     "url": "https://comic-walker.com/detail/KC_001662_S/episodes/KC_0016620005100021_E?episodeType=latest"
-    },
-    {
-     "date": "2026-08-04",
-     "label": "第41話:「女の先輩」として①",
-     "title": "第41話:「女の先輩」として①",
-     "url": "https://comic-walker.com/detail/KC_001662_S/episodes/KC_0016620005100011_E?episodeType=latest"
-    },
-    {
-     "date": "2026-07-21",
-     "label": "第40話:親友だから③",
-     "title": "第40話:親友だから③",
-     "url": "https://comic-walker.com/detail/KC_001662_S/episodes/KC_0016620005000031_E?episodeType=latest"
-    },
-    {
-     "date": "2026-07-14",
-     "label": "第40話:親友だから②",
-     "title": "第40話:親友だから②",
-     "url": "https://comic-walker.com/detail/KC_001662_S/episodes/KC_0016620005000021_E?episodeType=latest"
-    },
-    {
-     "date": "2026-07-07",
-     "label": "第40話:親友だから①",
-     "title": "第40話:親友だから①",
-     "url": "https://comic-walker.com/detail/KC_001662_S/episodes/KC_0016620005000011_E?episodeType=latest"
-    },
-    {
-     "date": "2026-06-16",
-     "label": "第39話:天才と無能③",
-     "title": "第39話:天才と無能③",
-     "url": "https://comic-walker.com/detail/KC_001662_S/episodes/KC_0016620004900031_E?episodeType=latest"
-    },
-    {
-     "date": "2026-06-09",
-     "label": "第39話:天才と無能②",
-     "title": "第39話:天才と無能②",
-     "url": "https://comic-walker.com/detail/KC_001662_S/episodes/KC_0016620004900021_E?episodeType=latest"
-    },
-    {
-     "date": "2026-06-02",
-     "label": "第39話:天才と無能①",
-     "title": "第39話:天才と無能①",
-     "url": "https://comic-walker.com/detail/KC_001662_S/episodes/KC_0016620004900011_E?episodeType=latest"
-    }
-   ],
-   "latest": {
-    "date": "2026-11-10",
-    "label": "第43話:結婚式②",
-    "title": "第43話:結婚式②",
-    "url": "https://comic-walker.com/detail/KC_001662_S/episodes/KC_0016620005400021_E?episodeType=latest"
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
    "detailUrl": "https://webcomics.jp/comic-walker/KC_001643_S",
    "title": "役立たずスキルに人生を注ぎ込み25年、今さら最強の冒険譚",
    "site": "カドコミ",
@@ -13104,114 +14330,6 @@
    "error": null
   },
   {
-   "detailUrl": "https://webcomics.jp/seiga/46452",
-   "title": "転生ゴブリンだけど質問ある?",
-   "site": "ニコニコ漫画",
-   "thumbFile": "data/thumbs/101494.jpg",
-   "publisherUrl": "https://manga.nicovideo.jp/comic/46452",
-   "comicNo": 101494,
-   "history": [
-    {
-     "date": "2026-11-03",
-     "label": "2026/11/03 更新",
-     "title": "2026/11/03 更新",
-     "url": "https://manga.nicovideo.jp/comic/46452/new"
-    },
-    {
-     "date": "2026-10-20",
-     "label": "2026/10/20 更新",
-     "title": "2026/10/20 更新",
-     "url": "https://manga.nicovideo.jp/comic/46452/new"
-    },
-    {
-     "date": "2026-10-06",
-     "label": "2026/10/06 更新",
-     "title": "2026/10/06 更新",
-     "url": "https://manga.nicovideo.jp/comic/46452/new"
-    },
-    {
-     "date": "2026-09-22",
-     "label": "2026/09/22 更新",
-     "title": "2026/09/22 更新",
-     "url": "https://manga.nicovideo.jp/comic/46452/new"
-    },
-    {
-     "date": "2026-09-08",
-     "label": "2026/09/08 更新",
-     "title": "2026/09/08 更新",
-     "url": "https://manga.nicovideo.jp/comic/46452/new"
-    },
-    {
-     "date": "2026-08-25",
-     "label": "2026/08/25 更新",
-     "title": "2026/08/25 更新",
-     "url": "https://manga.nicovideo.jp/comic/46452/new"
-    },
-    {
-     "date": "2026-08-11",
-     "label": "2026/08/11 更新",
-     "title": "2026/08/11 更新",
-     "url": "https://manga.nicovideo.jp/comic/46452/new"
-    },
-    {
-     "date": "2026-07-28",
-     "label": "2026/07/28 更新",
-     "title": "2026/07/28 更新",
-     "url": "https://manga.nicovideo.jp/comic/46452/new"
-    },
-    {
-     "date": "2026-07-14",
-     "label": "2026/07/14 更新",
-     "title": "2026/07/14 更新",
-     "url": "https://manga.nicovideo.jp/comic/46452/new"
-    },
-    {
-     "date": "2026-06-30",
-     "label": "2026/06/30 更新",
-     "title": "2026/06/30 更新",
-     "url": "https://manga.nicovideo.jp/comic/46452/new"
-    },
-    {
-     "date": "2026-06-16",
-     "label": "2026/06/16 更新",
-     "title": "2026/06/16 更新",
-     "url": "https://manga.nicovideo.jp/comic/46452/new"
-    },
-    {
-     "date": "2026-06-02",
-     "label": "2026/06/02 更新",
-     "title": "2026/06/02 更新",
-     "url": "https://manga.nicovideo.jp/comic/46452/new"
-    },
-    {
-     "date": "2026-05-19",
-     "label": "2026/05/19 更新",
-     "title": "2026/05/19 更新",
-     "url": "https://manga.nicovideo.jp/comic/46452/new"
-    },
-    {
-     "date": "2026-05-05",
-     "label": "2026/05/05 更新",
-     "title": "2026/05/05 更新",
-     "url": "https://manga.nicovideo.jp/comic/46452/new"
-    },
-    {
-     "date": "2026-04-21",
-     "label": "2026/04/21 更新",
-     "title": "2026/04/21 更新",
-     "url": "https://manga.nicovideo.jp/comic/46452/new"
-    }
-   ],
-   "latest": {
-    "date": "2026-11-03",
-    "label": "2026/11/03 更新",
-    "title": "2026/11/03 更新",
-    "url": "https://manga.nicovideo.jp/comic/46452/new"
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
    "detailUrl": "https://webcomics.jp/seiga/56540",
    "title": "クラス転移に巻き込まれたコンビニ店員のおっさん、勇者には必要なかった余り物スキルを駆使して最強となる...",
    "site": "ニコニコ漫画",
@@ -13315,114 +14433,6 @@
     "label": "2026/11/03 更新",
     "title": "2026/11/03 更新",
     "url": "https://manga.nicovideo.jp/comic/56540/new"
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
-   "detailUrl": "https://webcomics.jp/mangacross/452b0e17e1bf3",
-   "title": "僕の心のヤバイやつ ラブコメディが始まらない",
-   "site": "チャンピオンクロス",
-   "thumbFile": "data/thumbs/191450.jpg",
-   "publisherUrl": "https://championcross.jp/series/452b0e17e1bf3",
-   "comicNo": 191450,
-   "history": [
-    {
-     "date": "2026-11-03",
-     "label": "Score.29 2人のクリスマス②",
-     "title": "Score.29 2人のクリスマス②",
-     "url": "https://championcross.jp/episodes/29def858f3973"
-    },
-    {
-     "date": "2026-10-20",
-     "label": "Score.28 2人のクリスマス①",
-     "title": "Score.28 2人のクリスマス①",
-     "url": "https://championcross.jp/episodes/77fae3321c8e3"
-    },
-    {
-     "date": "2026-10-07",
-     "label": "Score.27 ニコちゃんとショッピング",
-     "title": "Score.27 ニコちゃんとショッピング",
-     "url": "https://championcross.jp/episodes/4be55382b3cd4"
-    },
-    {
-     "date": "2026-09-16",
-     "label": "Score.26 陣宗太と市川京太郎",
-     "title": "Score.26 陣宗太と市川京太郎",
-     "url": "https://championcross.jp/episodes/5aa67bb728b36"
-    },
-    {
-     "date": "2026-09-01",
-     "label": "Score.25 山田再び",
-     "title": "Score.25 山田再び",
-     "url": "https://championcross.jp/episodes/8fc18b76cad62"
-    },
-    {
-     "date": "2026-08-18",
-     "label": "Score.24 初めての合コン",
-     "title": "Score.24 初めての合コン",
-     "url": "https://championcross.jp/episodes/34a7baa8ddfba"
-    },
-    {
-     "date": "2026-07-21",
-     "label": "Score.23 陣くんちへお見舞い",
-     "title": "Score.23 陣くんちへお見舞い",
-     "url": "https://championcross.jp/episodes/12b20e86e9336"
-    },
-    {
-     "date": "2026-07-07",
-     "label": "Score.22 市川香菜のモヤモヤ",
-     "title": "Score.22 市川香菜のモヤモヤ",
-     "url": "https://championcross.jp/episodes/d9c0758607b96"
-    },
-    {
-     "date": "2026-06-16",
-     "label": "Score.21 2人は漕いだ",
-     "title": "Score.21 2人は漕いだ",
-     "url": "https://championcross.jp/episodes/fccffb40f5d36/"
-    },
-    {
-     "date": "2026-06-02",
-     "label": "Score.20 俺は祝いたい",
-     "title": "Score.20 俺は祝いたい",
-     "url": "https://championcross.jp/episodes/c78c3245ee7c9/"
-    },
-    {
-     "date": "2026-05-19",
-     "label": "Score.19 俺は釣り合いたい②",
-     "title": "Score.19 俺は釣り合いたい②",
-     "url": "https://championcross.jp/episodes/dea1f02dfa804/"
-    },
-    {
-     "date": "2026-05-19",
-     "label": "Score.17 打ち上げと新メンバー",
-     "title": "Score.17 打ち上げと新メンバー",
-     "url": null
-    },
-    {
-     "date": "2026-05-05",
-     "label": "Score.18 俺は釣り合いたい①",
-     "title": "Score.18 俺は釣り合いたい①",
-     "url": "https://championcross.jp/episodes/3e7af091125e6/"
-    },
-    {
-     "date": "2026-04-07",
-     "label": "Score.17 『打ち上げと新メンバー』",
-     "title": "Score.17 『打ち上げと新メンバー』",
-     "url": "https://championcross.jp/episodes/517dd0e8dea07/"
-    },
-    {
-     "date": "2026-03-17",
-     "label": "Score.16 『つづく』",
-     "title": "Score.16 『つづく』",
-     "url": "https://championcross.jp/episodes/18c2f2aa33f4d/"
-    }
-   ],
-   "latest": {
-    "date": "2026-11-03",
-    "label": "Score.29 2人のクリスマス②",
-    "title": "Score.29 2人のクリスマス②",
-    "url": "https://championcross.jp/episodes/29def858f3973"
    },
    "paidHashes": null,
    "error": null
@@ -15153,116 +16163,6 @@
     "label": "更新",
     "title": "更新",
     "url": "https://comic-days.com/episode/12207421983645809601"
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
-   "detailUrl": "https://webcomics.jp/comic-walker/KC_006262_S",
-   "title": "彼女にしたい女子一位、の隣で見つけたあまりちゃん",
-   "site": "カドコミ",
-   "thumbFile": "data/thumbs/182363.jpg",
-   "publisherUrl": "https://comic-walker.com/detail/KC_006262_S",
-   "comicNo": 182363,
-   "history": [
-    {
-     "date": "2026-10-27",
-     "label": "第12話③「球技大会!」",
-     "title": "第12話③「球技大会!」",
-     "url": "https://comic-walker.com/detail/KC_006262_S/episodes/KC_0062620002300031_E?episodeType=latest"
-    },
-    {
-     "date": "2026-10-13",
-     "label": "第12話②「球技大会!」",
-     "title": "第12話②「球技大会!」",
-     "url": "https://comic-walker.com/detail/KC_006262_S/episodes/KC_0062620002300021_E?episodeType=latest"
-    },
-    {
-     "date": "2026-09-29",
-     "label": "第12話①「球技大会!」",
-     "title": "第12話①「球技大会!」",
-     "url": "https://comic-walker.com/detail/KC_006262_S/episodes/KC_0062620002300011_E?episodeType=latest"
-    },
-    {
-     "date": "2026-09-08",
-     "label": "第11.5話「あまりの夜」",
-     "title": "第11.5話「あまりの夜」",
-     "url": "https://comic-walker.com/detail/KC_006262_S/episodes/KC_0062620002200011_E?episodeType=latest"
-    },
-    {
-     "date": "2026-08-18",
-     "label": "第11話②「かなわないな」",
-     "title": "第11話②「かなわないな」",
-     "url": "https://comic-walker.com/detail/KC_006262_S/episodes/KC_0062620002100021_E?episodeType=latest"
-    },
-    {
-     "date": "2026-08-04",
-     "label": "第11話①「かなわないな」",
-     "title": "第11話①「かなわないな」",
-     "url": "https://comic-walker.com/detail/KC_006262_S/episodes/KC_0062620002100011_E?episodeType=latest"
-    },
-    {
-     "date": "2026-07-27",
-     "label": "コミックス2巻のお知らせ",
-     "title": "コミックス2巻のお知らせ",
-     "url": "https://comic-walker.com/detail/KC_006262_S/episodes/KC_0062620002000011_E?episodeType=latest",
-     "extra": true
-    },
-    {
-     "date": "2026-06-23",
-     "label": "休載イラスト",
-     "title": "休載イラスト",
-     "url": "https://comic-walker.com/detail/KC_006262_S/episodes/KC_0062620001900011_E?episodeType=latest",
-     "extra": true
-    },
-    {
-     "date": "2026-05-19",
-     "label": "第10話③「もう一度」",
-     "title": "第10話③「もう一度」",
-     "url": "https://comic-walker.com/detail/KC_006262_S/episodes/KC_0062620001800031_E?episodeType=latest"
-    },
-    {
-     "date": "2026-05-05",
-     "label": "第10話②「もう一度」",
-     "title": "第10話②「もう一度」",
-     "url": "https://comic-walker.com/detail/KC_006262_S/episodes/KC_0062620001800021_E?episodeType=latest"
-    },
-    {
-     "date": "2026-04-21",
-     "label": "第10話①「もう一度」",
-     "title": "第10話①「もう一度」",
-     "url": "https://comic-walker.com/detail/KC_006262_S/episodes/KC_0062620001800011_E?episodeType=latest"
-    },
-    {
-     "date": "2026-03-24",
-     "label": "第9話②「勇気の出しかた」",
-     "title": "第9話②「勇気の出しかた」",
-     "url": "https://comic-walker.com/detail/KC_006262_S/episodes/KC_0062620001700021_E?episodeType=latest"
-    },
-    {
-     "date": "2026-03-10",
-     "label": "第9話①「勇気の出しかた」",
-     "title": "第9話①「勇気の出しかた」",
-     "url": "https://comic-walker.com/detail/KC_006262_S/episodes/KC_0062620001700011_E?episodeType=latest"
-    },
-    {
-     "date": "2026-02-24",
-     "label": "第8話②「1st ハイスクール・イベント」",
-     "title": "第8話②「1st ハイスクール・イベント」",
-     "url": "https://comic-walker.com/detail/KC_006262_S/episodes/KC_0062620001600021_E?episodeType=latest"
-    },
-    {
-     "date": "2026-02-10",
-     "label": "第8話①「1st ハイスクール・イベント」",
-     "title": "第8話①「1st ハイスクール・イベント」",
-     "url": "https://comic-walker.com/detail/KC_006262_S/episodes/KC_0062620001600011_E?episodeType=latest"
-    }
-   ],
-   "latest": {
-    "date": "2026-10-27",
-    "label": "第12話③「球技大会!」",
-    "title": "第12話③「球技大会!」",
-    "url": "https://comic-walker.com/detail/KC_006262_S/episodes/KC_0062620002300031_E?episodeType=latest"
    },
    "paidHashes": null,
    "error": null
@@ -17705,114 +18605,6 @@
     "label": "更新",
     "title": "更新",
     "url": "https://kuragebunch.com/episode/12207421983996461936"
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
-   "detailUrl": "https://webcomics.jp/gaugau/62c794c27765610f03000000",
-   "title": "狂戦士なモブ、無自覚に本編を破壊する",
-   "site": "がうがうモンスター",
-   "thumbFile": "data/thumbs/157937.jpg",
-   "publisherUrl": "https://gaugau.futabanet.jp/list/work/62c794c27765610f03000000",
-   "comicNo": 157937,
-   "history": [
-    {
-     "date": "2026-10-20",
-     "label": "10/20 更新",
-     "title": "10/20 更新",
-     "url": "https://gaugau.futabanet.jp/list/work/62c794c27765610f03000000/episodes/92"
-    },
-    {
-     "date": "2026-10-13",
-     "label": "10/13 更新",
-     "title": "10/13 更新",
-     "url": "https://gaugau.futabanet.jp/list/work/62c794c27765610f03000000/episodes/91"
-    },
-    {
-     "date": "2026-09-22",
-     "label": "9/22 更新",
-     "title": "9/22 更新",
-     "url": "https://gaugau.futabanet.jp/list/work/62c794c27765610f03000000/episodes/90"
-    },
-    {
-     "date": "2026-09-08",
-     "label": "9/8 更新",
-     "title": "9/8 更新",
-     "url": null
-    },
-    {
-     "date": "2026-08-11",
-     "label": "8/11 更新",
-     "title": "8/11 更新",
-     "url": null
-    },
-    {
-     "date": "2026-07-28",
-     "label": "7/28 更新",
-     "title": "7/28 更新",
-     "url": null
-    },
-    {
-     "date": "2026-07-14",
-     "label": "7/14 更新",
-     "title": "7/14 更新",
-     "url": null
-    },
-    {
-     "date": "2026-06-30",
-     "label": "6/30 更新",
-     "title": "6/30 更新",
-     "url": null
-    },
-    {
-     "date": "2026-06-16",
-     "label": "6/16 更新",
-     "title": "6/16 更新",
-     "url": null
-    },
-    {
-     "date": "2026-06-02",
-     "label": "6/2 更新",
-     "title": "6/2 更新",
-     "url": null
-    },
-    {
-     "date": "2026-05-19",
-     "label": "5/19 更新",
-     "title": "5/19 更新",
-     "url": null
-    },
-    {
-     "date": "2026-05-05",
-     "label": "5/5 更新",
-     "title": "5/5 更新",
-     "url": null
-    },
-    {
-     "date": "2026-04-07",
-     "label": "4/7 更新",
-     "title": "4/7 更新",
-     "url": null
-    },
-    {
-     "date": "2026-03-24",
-     "label": "3/24 更新",
-     "title": "3/24 更新",
-     "url": null
-    },
-    {
-     "date": "2026-03-10",
-     "label": "3/10 更新",
-     "title": "3/10 更新",
-     "url": null
-    }
-   ],
-   "latest": {
-    "date": "2026-10-20",
-    "label": "10/20 更新",
-    "title": "10/20 更新",
-    "url": "https://gaugau.futabanet.jp/list/work/62c794c27765610f03000000/episodes/92"
    },
    "paidHashes": null,
    "error": null
