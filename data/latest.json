@@ -1,7 +1,550 @@
 {
- "checkedAt": "2026-11-17T20:41:04+09:00",
+ "checkedAt": "2026-11-18T07:50:44+09:00",
  "bookmarkUrl": "https://webcomics.jp/bookmark/3682scqd",
  "works": [
+  {
+   "detailUrl": "https://webcomics.jp/yanmaga/108P1E5B9B4E5BE8CE381ABE7B5B6E",
+   "title": "108P!~1年後に絶対108Pする話~",
+   "site": "ヤンマガWeb",
+   "thumbFile": "data/thumbs/196102.jpg",
+   "publisherUrl": "https://yanmaga.jp/comics/108P1%E5%B9%B4%E5%BE%8C%E3%81%AB%E7%B5%B6%E5%AF%BE108P%E3%81%99%E3%82%8B%E8%A9%B1",
+   "comicNo": 196102,
+   "history": [
+    {
+     "date": "2026-11-18",
+     "label": "第52話",
+     "title": "第52話",
+     "url": "https://yanmaga.jp/comics/108P1%E5%B9%B4%E5%BE%8C%E3%81%AB%E7%B5%B6%E5%AF%BE108P%E3%81%99%E3%82%8B%E8%A9%B1/df4b62b0cb3e5b56b222c1cf5a01cb83"
+    },
+    {
+     "date": "2026-11-11",
+     "label": "単行本宣伝話④",
+     "title": "単行本宣伝話④",
+     "url": "https://yanmaga.jp/comics/108P1%E5%B9%B4%E5%BE%8C%E3%81%AB%E7%B5%B6%E5%AF%BE108P%E3%81%99%E3%82%8B%E8%A9%B1/798f285ab684f12acffc9da464fad408",
+     "extra": true
+    },
+    {
+     "date": "2026-11-11",
+     "label": "第51話",
+     "title": "第51話",
+     "url": "https://yanmaga.jp/comics/108P1%E5%B9%B4%E5%BE%8C%E3%81%AB%E7%B5%B6%E5%AF%BE108P%E3%81%99%E3%82%8B%E8%A9%B1/91f6e3b94507ddfe5bc78b3ff8afb34e"
+    },
+    {
+     "date": "2026-11-04",
+     "label": "第50話",
+     "title": "第50話",
+     "url": "https://yanmaga.jp/comics/108P1%E5%B9%B4%E5%BE%8C%E3%81%AB%E7%B5%B6%E5%AF%BE108P%E3%81%99%E3%82%8B%E8%A9%B1/1d4e34791bcec1cea07d62bdb72364b1"
+    },
+    {
+     "date": "2026-10-28",
+     "label": "第49話",
+     "title": "第49話",
+     "url": "https://yanmaga.jp/comics/108P1%E5%B9%B4%E5%BE%8C%E3%81%AB%E7%B5%B6%E5%AF%BE108P%E3%81%99%E3%82%8B%E8%A9%B1/ad207eabe0930a79b2713ebe2b51427e"
+    },
+    {
+     "date": "2026-10-21",
+     "label": "第48話",
+     "title": "第48話",
+     "url": "https://yanmaga.jp/comics/108P1%E5%B9%B4%E5%BE%8C%E3%81%AB%E7%B5%B6%E5%AF%BE108P%E3%81%99%E3%82%8B%E8%A9%B1/9cf90f9360cd2627198ee068d4c1f646"
+    },
+    {
+     "date": "2026-10-14",
+     "label": "第47話",
+     "title": "第47話",
+     "url": "https://yanmaga.jp/comics/108P1%E5%B9%B4%E5%BE%8C%E3%81%AB%E7%B5%B6%E5%AF%BE108P%E3%81%99%E3%82%8B%E8%A9%B1/c919fb32ddc5cdff8ee8cf7acce4876c"
+    },
+    {
+     "date": "2026-10-07",
+     "label": "おまけ⑥",
+     "title": "おまけ⑥",
+     "url": "https://yanmaga.jp/comics/108P1%E5%B9%B4%E5%BE%8C%E3%81%AB%E7%B5%B6%E5%AF%BE108P%E3%81%99%E3%82%8B%E8%A9%B1/3e6747671dc00af2a17052740e612880"
+    },
+    {
+     "date": "2026-09-30",
+     "label": "第46話",
+     "title": "第46話",
+     "url": "https://yanmaga.jp/comics/108P1%E5%B9%B4%E5%BE%8C%E3%81%AB%E7%B5%B6%E5%AF%BE108P%E3%81%99%E3%82%8B%E8%A9%B1/f9bebe9112d407df5d2c1e790f38ea52"
+    },
+    {
+     "date": "2026-09-23",
+     "label": "第45話",
+     "title": "第45話",
+     "url": "https://yanmaga.jp/comics/108P1%E5%B9%B4%E5%BE%8C%E3%81%AB%E7%B5%B6%E5%AF%BE108P%E3%81%99%E3%82%8B%E8%A9%B1/b0c75f1474abd065f509feef87cae048"
+    },
+    {
+     "date": "2026-09-16",
+     "label": "第44話",
+     "title": "第44話",
+     "url": "https://yanmaga.jp/comics/108P1%E5%B9%B4%E5%BE%8C%E3%81%AB%E7%B5%B6%E5%AF%BE108P%E3%81%99%E3%82%8B%E8%A9%B1/fef0f364dfcbf9df0b3399ccd3544384"
+    },
+    {
+     "date": "2026-09-09",
+     "label": "第43話",
+     "title": "第43話",
+     "url": "https://yanmaga.jp/comics/108P1%E5%B9%B4%E5%BE%8C%E3%81%AB%E7%B5%B6%E5%AF%BE108P%E3%81%99%E3%82%8B%E8%A9%B1/cf09843e0dcd5439a2a71a6f5af42d21"
+    },
+    {
+     "date": "2026-09-02",
+     "label": "おまけ⑤",
+     "title": "おまけ⑤",
+     "url": "https://yanmaga.jp/comics/108P1%E5%B9%B4%E5%BE%8C%E3%81%AB%E7%B5%B6%E5%AF%BE108P%E3%81%99%E3%82%8B%E8%A9%B1/3a6a32be862f8ab77cb4c9811de48d56"
+    },
+    {
+     "date": "2026-08-26",
+     "label": "第42話②",
+     "title": "第42話②",
+     "url": "https://yanmaga.jp/comics/108P1%E5%B9%B4%E5%BE%8C%E3%81%AB%E7%B5%B6%E5%AF%BE108P%E3%81%99%E3%82%8B%E8%A9%B1/bf37d37070b2d0d99b02a869968b7940"
+    },
+    {
+     "date": "2026-08-19",
+     "label": "単行本宣伝話③",
+     "title": "単行本宣伝話③",
+     "url": "https://yanmaga.jp/comics/108P1%E5%B9%B4%E5%BE%8C%E3%81%AB%E7%B5%B6%E5%AF%BE108P%E3%81%99%E3%82%8B%E8%A9%B1/58b8a169452e81675cb180984416ca48",
+     "extra": true
+    }
+   ],
+   "latest": {
+    "date": "2026-11-18",
+    "label": "第52話",
+    "title": "第52話",
+    "url": "https://yanmaga.jp/comics/108P1%E5%B9%B4%E5%BE%8C%E3%81%AB%E7%B5%B6%E5%AF%BE108P%E3%81%99%E3%82%8B%E8%A9%B1/df4b62b0cb3e5b56b222c1cf5a01cb83"
+   },
+   "paidHashes": null,
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/yanmaga/E9AD94E58A9BE69EAFE3828CE381AE",
+   "title": "魔力枯れのダークエルフ",
+   "site": "ヤンマガWeb",
+   "thumbFile": "data/thumbs/193032.jpg",
+   "publisherUrl": "https://yanmaga.jp/comics/%E9%AD%94%E5%8A%9B%E6%9E%AF%E3%82%8C%E3%81%AE%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95",
+   "comicNo": 193032,
+   "history": [
+    {
+     "date": "2026-11-18",
+     "label": "第11話 超えるべき壁が見えてる②",
+     "title": "第11話 超えるべき壁が見えてる②",
+     "url": "https://yanmaga.jp/comics/%E9%AD%94%E5%8A%9B%E6%9E%AF%E3%82%8C%E3%81%AE%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95/d89b9178641d5acf520854c3bbe67a14"
+    },
+    {
+     "date": "2026-11-18",
+     "label": "第11話 超えるべき壁が見えてる①",
+     "title": "第11話 超えるべき壁が見えてる①",
+     "url": "https://yanmaga.jp/comics/%E9%AD%94%E5%8A%9B%E6%9E%AF%E3%82%8C%E3%81%AE%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95/6a45ce5008df90891077b26b6dc2ad92"
+    },
+    {
+     "date": "2026-10-20",
+     "label": "第10話 超えるしかない②",
+     "title": "第10話 超えるしかない②",
+     "url": "https://yanmaga.jp/comics/%E9%AD%94%E5%8A%9B%E6%9E%AF%E3%82%8C%E3%81%AE%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95/6c0c66f987f434a4d849df6078282ea8"
+    },
+    {
+     "date": "2026-10-20",
+     "label": "第10話 超えるしかない①",
+     "title": "第10話 超えるしかない①",
+     "url": "https://yanmaga.jp/comics/%E9%AD%94%E5%8A%9B%E6%9E%AF%E3%82%8C%E3%81%AE%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95/979eaf55cf3ba8f0d65c467dc63e836b"
+    },
+    {
+     "date": "2026-09-16",
+     "label": "第9話 また知りたくなる②",
+     "title": "第9話 また知りたくなる②",
+     "url": "https://yanmaga.jp/comics/%E9%AD%94%E5%8A%9B%E6%9E%AF%E3%82%8C%E3%81%AE%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95/bf46dfb26ad7ef35616dc803ba1a1ceb"
+    },
+    {
+     "date": "2026-09-16",
+     "label": "第9話 また知りたくなる①",
+     "title": "第9話 また知りたくなる①",
+     "url": "https://yanmaga.jp/comics/%E9%AD%94%E5%8A%9B%E6%9E%AF%E3%82%8C%E3%81%AE%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95/e2661f795d96d26c934e3c72d2ecb4f0"
+    },
+    {
+     "date": "2026-07-16",
+     "label": "第8話 世界の見え方②",
+     "title": "第8話 世界の見え方②",
+     "url": "https://yanmaga.jp/comics/%E9%AD%94%E5%8A%9B%E6%9E%AF%E3%82%8C%E3%81%AE%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95/7c3385270e15ba49f174a8a0d6f3c532"
+    },
+    {
+     "date": "2026-07-16",
+     "label": "第8話 世界の見え方①",
+     "title": "第8話 世界の見え方①",
+     "url": "https://yanmaga.jp/comics/%E9%AD%94%E5%8A%9B%E6%9E%AF%E3%82%8C%E3%81%AE%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95/4fbafad76c61471bc34cdc2373f4fc15"
+    },
+    {
+     "date": "2026-06-18",
+     "label": "第7話 燼の鳥<後編>②",
+     "title": "第7話 燼の鳥<後編>②",
+     "url": "https://yanmaga.jp/comics/%E9%AD%94%E5%8A%9B%E6%9E%AF%E3%82%8C%E3%81%AE%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95/84932ee24ddda2c89530548d268054e4"
+    },
+    {
+     "date": "2026-06-18",
+     "label": "第7話 燼の鳥<後編>①",
+     "title": "第7話 燼の鳥<後編>①",
+     "url": "https://yanmaga.jp/comics/%E9%AD%94%E5%8A%9B%E6%9E%AF%E3%82%8C%E3%81%AE%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95/504f138e47536c294d3d8774935c0cf4"
+    },
+    {
+     "date": "2026-06-11",
+     "label": "第6話 燼の鳥<前編>②",
+     "title": "第6話 燼の鳥<前編>②",
+     "url": "https://yanmaga.jp/comics/%E9%AD%94%E5%8A%9B%E6%9E%AF%E3%82%8C%E3%81%AE%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95/a94d29ce0ef4b0582e56f7f2e428aefb"
+    },
+    {
+     "date": "2026-06-04",
+     "label": "第6話 燼の鳥<前編>①",
+     "title": "第6話 燼の鳥<前編>①",
+     "url": "https://yanmaga.jp/comics/%E9%AD%94%E5%8A%9B%E6%9E%AF%E3%82%8C%E3%81%AE%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95/0d11fa5607d5b1db8ed2d2a06aafcdaa"
+    },
+    {
+     "date": "2026-05-13",
+     "label": "単行本宣伝話",
+     "title": "単行本宣伝話",
+     "url": "https://yanmaga.jp/comics/%E9%AD%94%E5%8A%9B%E6%9E%AF%E3%82%8C%E3%81%AE%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95/bd069d68b8d3c036bb7c73a8e3195e4b",
+     "extra": true
+    },
+    {
+     "date": "2026-04-20",
+     "label": "第5話 見た目と本質②",
+     "title": "第5話 見た目と本質②",
+     "url": "https://yanmaga.jp/comics/%E9%AD%94%E5%8A%9B%E6%9E%AF%E3%82%8C%E3%81%AE%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95/932abaedfb6b7d461487d0cef6ecf1c6"
+    },
+    {
+     "date": "2026-04-20",
+     "label": "第5話 見た目と本質①",
+     "title": "第5話 見た目と本質①",
+     "url": "https://yanmaga.jp/comics/%E9%AD%94%E5%8A%9B%E6%9E%AF%E3%82%8C%E3%81%AE%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95/b5eca110282277ce9bd3631293528bd3"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-18",
+    "label": "第11話 超えるべき壁が見えてる②",
+    "title": "第11話 超えるべき壁が見えてる②",
+    "url": "https://yanmaga.jp/comics/%E9%AD%94%E5%8A%9B%E6%9E%AF%E3%82%8C%E3%81%AE%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95/d89b9178641d5acf520854c3bbe67a14"
+   },
+   "paidHashes": null,
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/sunday-webry/2550689798720514298",
+   "title": "ロードマギアの弟子",
+   "site": "サンデーうぇぶり",
+   "thumbFile": "data/thumbs/170826.jpg",
+   "publisherUrl": "https://www.sunday-webry.com/episode/2550689798720514298",
+   "comicNo": 170826,
+   "history": [
+    {
+     "date": "2026-11-18",
+     "label": "第83話 王都の戦い3",
+     "title": "第83話 王都の戦い3",
+     "url": "https://www.sunday-webry.com/episode/12207421984535973165"
+    },
+    {
+     "date": "2026-11-11",
+     "label": "第82話 王都の戦い2",
+     "title": "第82話 王都の戦い2",
+     "url": "https://www.sunday-webry.com/episode/12207421984504574421"
+    },
+    {
+     "date": "2026-11-04",
+     "label": "おまけ",
+     "title": "おまけ",
+     "url": "https://www.sunday-webry.com/episode/12207421984467508049"
+    },
+    {
+     "date": "2026-10-28",
+     "label": "第81話 王都の戦い1",
+     "title": "第81話 王都の戦い1",
+     "url": "https://www.sunday-webry.com/episode/12207421984440175019"
+    },
+    {
+     "date": "2026-10-21",
+     "label": "第80話 姫と少年",
+     "title": "第80話 姫と少年",
+     "url": "https://www.sunday-webry.com/episode/12207421984407441972"
+    },
+    {
+     "date": "2026-10-14",
+     "label": "おまけ",
+     "title": "おまけ",
+     "url": "https://www.sunday-webry.com/episode/12207421984373282709"
+    },
+    {
+     "date": "2026-10-07",
+     "label": "第79話 ライン王家",
+     "title": "第79話 ライン王家",
+     "url": "https://www.sunday-webry.com/episode/12207421984341276148"
+    },
+    {
+     "date": "2026-09-30",
+     "label": "第78話 逆撃の時",
+     "title": "第78話 逆撃の時",
+     "url": "https://www.sunday-webry.com/episode/12207421984309321616"
+    },
+    {
+     "date": "2026-09-23",
+     "label": "おまけ",
+     "title": "おまけ",
+     "url": "https://www.sunday-webry.com/episode/12207421984255374514"
+    },
+    {
+     "date": "2026-09-16",
+     "label": "第77話 悪巧みの午後",
+     "title": "第77話 悪巧みの午後",
+     "url": "https://www.sunday-webry.com/episode/12207421984242740147"
+    },
+    {
+     "date": "2026-09-09",
+     "label": "第76話 誤算",
+     "title": "第76話 誤算",
+     "url": "https://www.sunday-webry.com/episode/12207421984209691598"
+    },
+    {
+     "date": "2026-09-02",
+     "label": "おまけ",
+     "title": "おまけ",
+     "url": "https://www.sunday-webry.com/episode/12207421984178912880"
+    },
+    {
+     "date": "2026-08-26",
+     "label": "第75話 刃の気配",
+     "title": "第75話 刃の気配",
+     "url": "https://www.sunday-webry.com/episode/12207421984148554605"
+    },
+    {
+     "date": "2026-08-19",
+     "label": "第74話 大樹",
+     "title": "第74話 大樹",
+     "url": "https://www.sunday-webry.com/episode/12207421984118008921"
+    },
+    {
+     "date": "2026-08-12",
+     "label": "おまけ",
+     "title": "おまけ",
+     "url": "https://www.sunday-webry.com/episode/12207421984069367126"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-18",
+    "label": "第83話 王都の戦い3",
+    "title": "第83話 王都の戦い3",
+    "url": "https://www.sunday-webry.com/episode/12207421984535973165"
+   },
+   "paidHashes": null,
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/ganganonline/45",
+   "title": "ここは俺に任せて先に行けと言ってから10年がたったら伝説になっていた。",
+   "site": "ガンガンONLINE",
+   "thumbFile": "data/thumbs/94794.jpg",
+   "publisherUrl": "https://www.ganganonline.com/title/45",
+   "comicNo": 94794,
+   "history": [
+    {
+     "date": "2026-11-18",
+     "label": "2026.11.18更新",
+     "title": "2026.11.18更新",
+     "url": "https://www.ganganonline.com/title/45/chapter/132128"
+    },
+    {
+     "date": "2026-11-11",
+     "label": "2026.11.11更新",
+     "title": "2026.11.11更新",
+     "url": "https://www.ganganonline.com/title/45/chapter/132131"
+    },
+    {
+     "date": "2026-11-04",
+     "label": "2026.11.04更新",
+     "title": "2026.11.04更新",
+     "url": null
+    },
+    {
+     "date": "2026-10-28",
+     "label": "2026.10.28更新",
+     "title": "2026.10.28更新",
+     "url": null
+    },
+    {
+     "date": "2026-10-21",
+     "label": "2026.10.21更新",
+     "title": "2026.10.21更新",
+     "url": null
+    },
+    {
+     "date": "2026-10-14",
+     "label": "2026.10.14更新",
+     "title": "2026.10.14更新",
+     "url": null
+    },
+    {
+     "date": "2026-10-07",
+     "label": "2026.10.07更新",
+     "title": "2026.10.07更新",
+     "url": null
+    },
+    {
+     "date": "2026-09-30",
+     "label": "2026.09.30更新",
+     "title": "2026.09.30更新",
+     "url": null
+    },
+    {
+     "date": "2026-09-23",
+     "label": "2026.09.23更新",
+     "title": "2026.09.23更新",
+     "url": null
+    },
+    {
+     "date": "2026-09-16",
+     "label": "2026.09.16更新",
+     "title": "2026.09.16更新",
+     "url": null
+    },
+    {
+     "date": "2026-09-09",
+     "label": "2026.09.09更新",
+     "title": "2026.09.09更新",
+     "url": null
+    },
+    {
+     "date": "2026-09-02",
+     "label": "2026.09.02更新",
+     "title": "2026.09.02更新",
+     "url": null
+    },
+    {
+     "date": "2026-08-26",
+     "label": "2026.08.26更新",
+     "title": "2026.08.26更新",
+     "url": null
+    },
+    {
+     "date": "2026-08-19",
+     "label": "2026.08.19更新",
+     "title": "2026.08.19更新",
+     "url": null
+    },
+    {
+     "date": "2026-08-12",
+     "label": "2026.08.12更新",
+     "title": "2026.08.12更新",
+     "url": null
+    }
+   ],
+   "latest": {
+    "date": "2026-11-18",
+    "label": "2026.11.18更新",
+    "title": "2026.11.18更新",
+    "url": "https://www.ganganonline.com/title/45/chapter/132128"
+   },
+   "paidHashes": null,
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/ganganonline/65",
+   "title": "転生賢者の異世界ライフ ～第二の職業を得て、世界最強になりました～",
+   "site": "ガンガンONLINE",
+   "thumbFile": "data/thumbs/79962.jpg",
+   "publisherUrl": "https://www.ganganonline.com/title/65",
+   "comicNo": 79962,
+   "history": [
+    {
+     "date": "2026-11-18",
+     "label": "2026.11.18更新",
+     "title": "2026.11.18更新",
+     "url": "https://www.ganganonline.com/title/65/chapter/131360"
+    },
+    {
+     "date": "2026-11-11",
+     "label": "2026.11.11更新",
+     "title": "2026.11.11更新",
+     "url": "https://www.ganganonline.com/title/65/chapter/131363"
+    },
+    {
+     "date": "2026-11-04",
+     "label": "2026.11.04更新",
+     "title": "2026.11.04更新",
+     "url": null
+    },
+    {
+     "date": "2026-10-28",
+     "label": "2026.10.28更新",
+     "title": "2026.10.28更新",
+     "url": null
+    },
+    {
+     "date": "2026-10-21",
+     "label": "2026.10.21更新",
+     "title": "2026.10.21更新",
+     "url": null
+    },
+    {
+     "date": "2026-10-14",
+     "label": "2026.10.14更新",
+     "title": "2026.10.14更新",
+     "url": null
+    },
+    {
+     "date": "2026-10-07",
+     "label": "2026.10.07更新",
+     "title": "2026.10.07更新",
+     "url": null
+    },
+    {
+     "date": "2026-09-30",
+     "label": "2026.09.30更新",
+     "title": "2026.09.30更新",
+     "url": null
+    },
+    {
+     "date": "2026-09-23",
+     "label": "2026.09.23更新",
+     "title": "2026.09.23更新",
+     "url": null
+    },
+    {
+     "date": "2026-09-16",
+     "label": "2026.09.16更新",
+     "title": "2026.09.16更新",
+     "url": null
+    },
+    {
+     "date": "2026-09-09",
+     "label": "2026.09.09更新",
+     "title": "2026.09.09更新",
+     "url": null
+    },
+    {
+     "date": "2026-09-02",
+     "label": "2026.09.02更新",
+     "title": "2026.09.02更新",
+     "url": null
+    },
+    {
+     "date": "2026-08-26",
+     "label": "2026.08.26更新",
+     "title": "2026.08.26更新",
+     "url": null
+    },
+    {
+     "date": "2026-08-19",
+     "label": "2026.08.19更新",
+     "title": "2026.08.19更新",
+     "url": null
+    },
+    {
+     "date": "2026-08-12",
+     "label": "2026.08.12更新",
+     "title": "2026.08.12更新",
+     "url": null
+    }
+   ],
+   "latest": {
+    "date": "2026-11-18",
+    "label": "2026.11.18更新",
+    "title": "2026.11.18更新",
+    "url": "https://www.ganganonline.com/title/65/chapter/131360"
+   },
+   "paidHashes": null,
+   "error": null
+  },
   {
    "detailUrl": "https://webcomics.jp/magcomi/13933686331650787935",
    "title": "転生幼女はあきらめない",
@@ -11,7 +554,7 @@
    "comicNo": 104564,
    "history": [
     {
-     "date": "2026-11-17",
+     "date": "2026-11-18",
      "label": "第72話①",
      "title": "第72話①",
      "url": "https://magcomi.com/episode/12207421984374937251"
@@ -102,7 +645,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "label": "第72話①",
     "title": "第72話①",
     "url": "https://magcomi.com/episode/12207421984374937251"
@@ -119,7 +662,7 @@
    "comicNo": 182363,
    "history": [
     {
-     "date": "2026-11-17",
+     "date": "2026-11-18",
      "label": "第13話①「走るしかない」",
      "title": "第13話①「走るしかない」",
      "url": "https://comic-walker.com/detail/KC_006262_S/episodes/KC_0062620002400011_E?episodeType=latest"
@@ -212,7 +755,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "label": "第13話①「走るしかない」",
     "title": "第13話①「走るしかない」",
     "url": "https://comic-walker.com/detail/KC_006262_S/episodes/KC_0062620002400011_E?episodeType=latest"
@@ -229,7 +772,7 @@
    "comicNo": 139380,
    "history": [
     {
-     "date": "2026-11-17",
+     "date": "2026-11-18",
      "label": "第43話:結婚式③",
      "title": "第43話:結婚式③",
      "url": "https://comic-walker.com/detail/KC_001662_S/episodes/KC_0016620005400031_E?episodeType=latest"
@@ -321,7 +864,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "label": "第43話:結婚式③",
     "title": "第43話:結婚式③",
     "url": "https://comic-walker.com/detail/KC_001662_S/episodes/KC_0016620005400031_E?episodeType=latest"
@@ -338,7 +881,7 @@
    "comicNo": 191450,
    "history": [
     {
-     "date": "2026-11-17",
+     "date": "2026-11-18",
      "label": "Score.30 新年会とおみくじ",
      "title": "Score.30 新年会とおみくじ",
      "url": "https://championcross.jp/episodes/eb72c24e16e99"
@@ -429,7 +972,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "label": "Score.30 新年会とおみくじ",
     "title": "Score.30 新年会とおみくじ",
     "url": "https://championcross.jp/episodes/eb72c24e16e99"
@@ -446,10 +989,10 @@
    "comicNo": 157937,
    "history": [
     {
-     "date": "2026-11-17",
+     "date": "2026-11-18",
      "label": "11/17 更新",
      "title": "11/17 更新",
-     "url": "https://gaugau.futabanet.jp/list/work/62c794c27765610f03000000/episodes/93"
+     "url": null
     },
     {
      "date": "2026-10-20",
@@ -537,10 +1080,10 @@
     }
    ],
    "latest": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "label": "11/17 更新",
     "title": "11/17 更新",
-    "url": "https://gaugau.futabanet.jp/list/work/62c794c27765610f03000000/episodes/93"
+    "url": null
    },
    "paidHashes": null,
    "error": null
@@ -8373,332 +8916,6 @@
    "error": null
   },
   {
-   "detailUrl": "https://webcomics.jp/yanmaga/108P1E5B9B4E5BE8CE381ABE7B5B6E",
-   "title": "108P!~1年後に絶対108Pする話~",
-   "site": "ヤンマガWeb",
-   "thumbFile": "data/thumbs/196102.jpg",
-   "publisherUrl": "https://yanmaga.jp/comics/108P1%E5%B9%B4%E5%BE%8C%E3%81%AB%E7%B5%B6%E5%AF%BE108P%E3%81%99%E3%82%8B%E8%A9%B1",
-   "comicNo": 196102,
-   "history": [
-    {
-     "date": "2026-11-11",
-     "label": "単行本宣伝話④",
-     "title": "単行本宣伝話④",
-     "url": "https://yanmaga.jp/comics/108P1%E5%B9%B4%E5%BE%8C%E3%81%AB%E7%B5%B6%E5%AF%BE108P%E3%81%99%E3%82%8B%E8%A9%B1/798f285ab684f12acffc9da464fad408",
-     "extra": true
-    },
-    {
-     "date": "2026-11-11",
-     "label": "第51話",
-     "title": "第51話",
-     "url": "https://yanmaga.jp/comics/108P1%E5%B9%B4%E5%BE%8C%E3%81%AB%E7%B5%B6%E5%AF%BE108P%E3%81%99%E3%82%8B%E8%A9%B1/91f6e3b94507ddfe5bc78b3ff8afb34e"
-    },
-    {
-     "date": "2026-11-04",
-     "label": "第50話",
-     "title": "第50話",
-     "url": "https://yanmaga.jp/comics/108P1%E5%B9%B4%E5%BE%8C%E3%81%AB%E7%B5%B6%E5%AF%BE108P%E3%81%99%E3%82%8B%E8%A9%B1/1d4e34791bcec1cea07d62bdb72364b1"
-    },
-    {
-     "date": "2026-10-28",
-     "label": "第49話",
-     "title": "第49話",
-     "url": "https://yanmaga.jp/comics/108P1%E5%B9%B4%E5%BE%8C%E3%81%AB%E7%B5%B6%E5%AF%BE108P%E3%81%99%E3%82%8B%E8%A9%B1/ad207eabe0930a79b2713ebe2b51427e"
-    },
-    {
-     "date": "2026-10-21",
-     "label": "第48話",
-     "title": "第48話",
-     "url": "https://yanmaga.jp/comics/108P1%E5%B9%B4%E5%BE%8C%E3%81%AB%E7%B5%B6%E5%AF%BE108P%E3%81%99%E3%82%8B%E8%A9%B1/9cf90f9360cd2627198ee068d4c1f646"
-    },
-    {
-     "date": "2026-10-14",
-     "label": "第47話",
-     "title": "第47話",
-     "url": "https://yanmaga.jp/comics/108P1%E5%B9%B4%E5%BE%8C%E3%81%AB%E7%B5%B6%E5%AF%BE108P%E3%81%99%E3%82%8B%E8%A9%B1/c919fb32ddc5cdff8ee8cf7acce4876c"
-    },
-    {
-     "date": "2026-10-07",
-     "label": "おまけ⑥",
-     "title": "おまけ⑥",
-     "url": "https://yanmaga.jp/comics/108P1%E5%B9%B4%E5%BE%8C%E3%81%AB%E7%B5%B6%E5%AF%BE108P%E3%81%99%E3%82%8B%E8%A9%B1/3e6747671dc00af2a17052740e612880"
-    },
-    {
-     "date": "2026-09-30",
-     "label": "第46話",
-     "title": "第46話",
-     "url": "https://yanmaga.jp/comics/108P1%E5%B9%B4%E5%BE%8C%E3%81%AB%E7%B5%B6%E5%AF%BE108P%E3%81%99%E3%82%8B%E8%A9%B1/f9bebe9112d407df5d2c1e790f38ea52"
-    },
-    {
-     "date": "2026-09-23",
-     "label": "第45話",
-     "title": "第45話",
-     "url": "https://yanmaga.jp/comics/108P1%E5%B9%B4%E5%BE%8C%E3%81%AB%E7%B5%B6%E5%AF%BE108P%E3%81%99%E3%82%8B%E8%A9%B1/b0c75f1474abd065f509feef87cae048"
-    },
-    {
-     "date": "2026-09-16",
-     "label": "第44話",
-     "title": "第44話",
-     "url": "https://yanmaga.jp/comics/108P1%E5%B9%B4%E5%BE%8C%E3%81%AB%E7%B5%B6%E5%AF%BE108P%E3%81%99%E3%82%8B%E8%A9%B1/fef0f364dfcbf9df0b3399ccd3544384"
-    },
-    {
-     "date": "2026-09-09",
-     "label": "第43話",
-     "title": "第43話",
-     "url": "https://yanmaga.jp/comics/108P1%E5%B9%B4%E5%BE%8C%E3%81%AB%E7%B5%B6%E5%AF%BE108P%E3%81%99%E3%82%8B%E8%A9%B1/cf09843e0dcd5439a2a71a6f5af42d21"
-    },
-    {
-     "date": "2026-09-02",
-     "label": "おまけ⑤",
-     "title": "おまけ⑤",
-     "url": "https://yanmaga.jp/comics/108P1%E5%B9%B4%E5%BE%8C%E3%81%AB%E7%B5%B6%E5%AF%BE108P%E3%81%99%E3%82%8B%E8%A9%B1/3a6a32be862f8ab77cb4c9811de48d56"
-    },
-    {
-     "date": "2026-08-26",
-     "label": "第42話②",
-     "title": "第42話②",
-     "url": "https://yanmaga.jp/comics/108P1%E5%B9%B4%E5%BE%8C%E3%81%AB%E7%B5%B6%E5%AF%BE108P%E3%81%99%E3%82%8B%E8%A9%B1/bf37d37070b2d0d99b02a869968b7940"
-    },
-    {
-     "date": "2026-08-19",
-     "label": "単行本宣伝話③",
-     "title": "単行本宣伝話③",
-     "url": "https://yanmaga.jp/comics/108P1%E5%B9%B4%E5%BE%8C%E3%81%AB%E7%B5%B6%E5%AF%BE108P%E3%81%99%E3%82%8B%E8%A9%B1/58b8a169452e81675cb180984416ca48",
-     "extra": true
-    },
-    {
-     "date": "2026-08-19",
-     "label": "第42話①",
-     "title": "第42話①",
-     "url": "https://yanmaga.jp/comics/108P1%E5%B9%B4%E5%BE%8C%E3%81%AB%E7%B5%B6%E5%AF%BE108P%E3%81%99%E3%82%8B%E8%A9%B1/e55d851d116c25e8d779d90f1b402c5a"
-    }
-   ],
-   "latest": {
-    "date": "2026-11-11",
-    "label": "第51話",
-    "title": "第51話",
-    "url": "https://yanmaga.jp/comics/108P1%E5%B9%B4%E5%BE%8C%E3%81%AB%E7%B5%B6%E5%AF%BE108P%E3%81%99%E3%82%8B%E8%A9%B1/91f6e3b94507ddfe5bc78b3ff8afb34e"
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
-   "detailUrl": "https://webcomics.jp/sunday-webry/2550689798720514298",
-   "title": "ロードマギアの弟子",
-   "site": "サンデーうぇぶり",
-   "thumbFile": "data/thumbs/170826.jpg",
-   "publisherUrl": "https://www.sunday-webry.com/episode/2550689798720514298",
-   "comicNo": 170826,
-   "history": [
-    {
-     "date": "2026-11-11",
-     "label": "第82話 王都の戦い2",
-     "title": "第82話 王都の戦い2",
-     "url": "https://www.sunday-webry.com/episode/12207421984504574421"
-    },
-    {
-     "date": "2026-11-04",
-     "label": "おまけ",
-     "title": "おまけ",
-     "url": "https://www.sunday-webry.com/episode/12207421984467508049"
-    },
-    {
-     "date": "2026-10-28",
-     "label": "第81話 王都の戦い1",
-     "title": "第81話 王都の戦い1",
-     "url": "https://www.sunday-webry.com/episode/12207421984440175019"
-    },
-    {
-     "date": "2026-10-21",
-     "label": "第80話 姫と少年",
-     "title": "第80話 姫と少年",
-     "url": "https://www.sunday-webry.com/episode/12207421984407441972"
-    },
-    {
-     "date": "2026-10-14",
-     "label": "おまけ",
-     "title": "おまけ",
-     "url": "https://www.sunday-webry.com/episode/12207421984373282709"
-    },
-    {
-     "date": "2026-10-07",
-     "label": "第79話 ライン王家",
-     "title": "第79話 ライン王家",
-     "url": "https://www.sunday-webry.com/episode/12207421984341276148"
-    },
-    {
-     "date": "2026-09-30",
-     "label": "第78話 逆撃の時",
-     "title": "第78話 逆撃の時",
-     "url": "https://www.sunday-webry.com/episode/12207421984309321616"
-    },
-    {
-     "date": "2026-09-23",
-     "label": "おまけ",
-     "title": "おまけ",
-     "url": "https://www.sunday-webry.com/episode/12207421984255374514"
-    },
-    {
-     "date": "2026-09-16",
-     "label": "第77話 悪巧みの午後",
-     "title": "第77話 悪巧みの午後",
-     "url": "https://www.sunday-webry.com/episode/12207421984242740147"
-    },
-    {
-     "date": "2026-09-09",
-     "label": "第76話 誤算",
-     "title": "第76話 誤算",
-     "url": "https://www.sunday-webry.com/episode/12207421984209691598"
-    },
-    {
-     "date": "2026-09-02",
-     "label": "おまけ",
-     "title": "おまけ",
-     "url": "https://www.sunday-webry.com/episode/12207421984178912880"
-    },
-    {
-     "date": "2026-08-26",
-     "label": "第75話 刃の気配",
-     "title": "第75話 刃の気配",
-     "url": "https://www.sunday-webry.com/episode/12207421984148554605"
-    },
-    {
-     "date": "2026-08-19",
-     "label": "第74話 大樹",
-     "title": "第74話 大樹",
-     "url": "https://www.sunday-webry.com/episode/12207421984118008921"
-    },
-    {
-     "date": "2026-08-12",
-     "label": "おまけ",
-     "title": "おまけ",
-     "url": "https://www.sunday-webry.com/episode/12207421984069367126"
-    },
-    {
-     "date": "2026-08-05",
-     "label": "第73話 雨宿り",
-     "title": "第73話 雨宿り",
-     "url": "https://www.sunday-webry.com/episode/12207421984056517594"
-    }
-   ],
-   "latest": {
-    "date": "2026-11-11",
-    "label": "第82話 王都の戦い2",
-    "title": "第82話 王都の戦い2",
-    "url": "https://www.sunday-webry.com/episode/12207421984504574421"
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
-   "detailUrl": "https://webcomics.jp/ganganonline/45",
-   "title": "ここは俺に任せて先に行けと言ってから10年がたったら伝説になっていた。",
-   "site": "ガンガンONLINE",
-   "thumbFile": "data/thumbs/94794.jpg",
-   "publisherUrl": "https://www.ganganonline.com/title/45",
-   "comicNo": 94794,
-   "history": [
-    {
-     "date": "2026-11-11",
-     "label": "2026.11.11更新",
-     "title": "2026.11.11更新",
-     "url": "https://www.ganganonline.com/title/45/chapter/132131"
-    },
-    {
-     "date": "2026-11-04",
-     "label": "2026.11.04更新",
-     "title": "2026.11.04更新",
-     "url": "https://www.ganganonline.com/title/45/chapter/130278"
-    },
-    {
-     "date": "2026-10-28",
-     "label": "2026.10.28更新",
-     "title": "2026.10.28更新",
-     "url": null
-    },
-    {
-     "date": "2026-10-21",
-     "label": "2026.10.21更新",
-     "title": "2026.10.21更新",
-     "url": null
-    },
-    {
-     "date": "2026-10-14",
-     "label": "2026.10.14更新",
-     "title": "2026.10.14更新",
-     "url": null
-    },
-    {
-     "date": "2026-10-07",
-     "label": "2026.10.07更新",
-     "title": "2026.10.07更新",
-     "url": null
-    },
-    {
-     "date": "2026-09-30",
-     "label": "2026.09.30更新",
-     "title": "2026.09.30更新",
-     "url": null
-    },
-    {
-     "date": "2026-09-23",
-     "label": "2026.09.23更新",
-     "title": "2026.09.23更新",
-     "url": null
-    },
-    {
-     "date": "2026-09-16",
-     "label": "2026.09.16更新",
-     "title": "2026.09.16更新",
-     "url": null
-    },
-    {
-     "date": "2026-09-09",
-     "label": "2026.09.09更新",
-     "title": "2026.09.09更新",
-     "url": null
-    },
-    {
-     "date": "2026-09-02",
-     "label": "2026.09.02更新",
-     "title": "2026.09.02更新",
-     "url": null
-    },
-    {
-     "date": "2026-08-26",
-     "label": "2026.08.26更新",
-     "title": "2026.08.26更新",
-     "url": null
-    },
-    {
-     "date": "2026-08-19",
-     "label": "2026.08.19更新",
-     "title": "2026.08.19更新",
-     "url": null
-    },
-    {
-     "date": "2026-08-12",
-     "label": "2026.08.12更新",
-     "title": "2026.08.12更新",
-     "url": null
-    },
-    {
-     "date": "2026-08-05",
-     "label": "2026.08.05更新",
-     "title": "2026.08.05更新",
-     "url": null
-    }
-   ],
-   "latest": {
-    "date": "2026-11-11",
-    "label": "2026.11.11更新",
-    "title": "2026.11.11更新",
-    "url": "https://www.ganganonline.com/title/45/chapter/132131"
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
    "detailUrl": "https://webcomics.jp/ganganonline/51",
    "title": "最強の魔導士。ひざに矢をうけてしまったので田舎の衛兵になる",
    "site": "ガンガンONLINE",
@@ -8802,114 +9019,6 @@
     "label": "2026.11.11更新",
     "title": "2026.11.11更新",
     "url": "https://www.ganganonline.com/title/51/chapter/126045"
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
-   "detailUrl": "https://webcomics.jp/ganganonline/65",
-   "title": "転生賢者の異世界ライフ ～第二の職業を得て、世界最強になりました～",
-   "site": "ガンガンONLINE",
-   "thumbFile": "data/thumbs/79962.jpg",
-   "publisherUrl": "https://www.ganganonline.com/title/65",
-   "comicNo": 79962,
-   "history": [
-    {
-     "date": "2026-11-11",
-     "label": "2026.11.11更新",
-     "title": "2026.11.11更新",
-     "url": "https://www.ganganonline.com/title/65/chapter/131363"
-    },
-    {
-     "date": "2026-11-04",
-     "label": "2026.11.04更新",
-     "title": "2026.11.04更新",
-     "url": "https://www.ganganonline.com/title/65/chapter/131366"
-    },
-    {
-     "date": "2026-10-28",
-     "label": "2026.10.28更新",
-     "title": "2026.10.28更新",
-     "url": null
-    },
-    {
-     "date": "2026-10-21",
-     "label": "2026.10.21更新",
-     "title": "2026.10.21更新",
-     "url": null
-    },
-    {
-     "date": "2026-10-14",
-     "label": "2026.10.14更新",
-     "title": "2026.10.14更新",
-     "url": null
-    },
-    {
-     "date": "2026-10-07",
-     "label": "2026.10.07更新",
-     "title": "2026.10.07更新",
-     "url": null
-    },
-    {
-     "date": "2026-09-30",
-     "label": "2026.09.30更新",
-     "title": "2026.09.30更新",
-     "url": null
-    },
-    {
-     "date": "2026-09-23",
-     "label": "2026.09.23更新",
-     "title": "2026.09.23更新",
-     "url": null
-    },
-    {
-     "date": "2026-09-16",
-     "label": "2026.09.16更新",
-     "title": "2026.09.16更新",
-     "url": null
-    },
-    {
-     "date": "2026-09-09",
-     "label": "2026.09.09更新",
-     "title": "2026.09.09更新",
-     "url": null
-    },
-    {
-     "date": "2026-09-02",
-     "label": "2026.09.02更新",
-     "title": "2026.09.02更新",
-     "url": null
-    },
-    {
-     "date": "2026-08-26",
-     "label": "2026.08.26更新",
-     "title": "2026.08.26更新",
-     "url": null
-    },
-    {
-     "date": "2026-08-19",
-     "label": "2026.08.19更新",
-     "title": "2026.08.19更新",
-     "url": null
-    },
-    {
-     "date": "2026-08-12",
-     "label": "2026.08.12更新",
-     "title": "2026.08.12更新",
-     "url": null
-    },
-    {
-     "date": "2026-08-05",
-     "label": "2026.08.05更新",
-     "title": "2026.08.05更新",
-     "url": null
-    }
-   ],
-   "latest": {
-    "date": "2026-11-11",
-    "label": "2026.11.11更新",
-    "title": "2026.11.11更新",
-    "url": "https://www.ganganonline.com/title/65/chapter/131363"
    },
    "paidHashes": null,
    "error": null
@@ -18821,115 +18930,6 @@
     "label": "2026.10.20更新",
     "title": "2026.10.20更新",
     "url": "https://www.ganganonline.com/title/36/chapter/133298"
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
-   "detailUrl": "https://webcomics.jp/yanmaga/E9AD94E58A9BE69EAFE3828CE381AE",
-   "title": "魔力枯れのダークエルフ",
-   "site": "ヤンマガWeb",
-   "thumbFile": "data/thumbs/193032.jpg",
-   "publisherUrl": "https://yanmaga.jp/comics/%E9%AD%94%E5%8A%9B%E6%9E%AF%E3%82%8C%E3%81%AE%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95",
-   "comicNo": 193032,
-   "history": [
-    {
-     "date": "2026-10-20",
-     "label": "第10話 超えるしかない②",
-     "title": "第10話 超えるしかない②",
-     "url": "https://yanmaga.jp/comics/%E9%AD%94%E5%8A%9B%E6%9E%AF%E3%82%8C%E3%81%AE%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95/6c0c66f987f434a4d849df6078282ea8"
-    },
-    {
-     "date": "2026-10-20",
-     "label": "第10話 超えるしかない①",
-     "title": "第10話 超えるしかない①",
-     "url": "https://yanmaga.jp/comics/%E9%AD%94%E5%8A%9B%E6%9E%AF%E3%82%8C%E3%81%AE%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95/979eaf55cf3ba8f0d65c467dc63e836b"
-    },
-    {
-     "date": "2026-09-16",
-     "label": "第9話 また知りたくなる②",
-     "title": "第9話 また知りたくなる②",
-     "url": "https://yanmaga.jp/comics/%E9%AD%94%E5%8A%9B%E6%9E%AF%E3%82%8C%E3%81%AE%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95/bf46dfb26ad7ef35616dc803ba1a1ceb"
-    },
-    {
-     "date": "2026-09-16",
-     "label": "第9話 また知りたくなる①",
-     "title": "第9話 また知りたくなる①",
-     "url": "https://yanmaga.jp/comics/%E9%AD%94%E5%8A%9B%E6%9E%AF%E3%82%8C%E3%81%AE%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95/e2661f795d96d26c934e3c72d2ecb4f0"
-    },
-    {
-     "date": "2026-07-16",
-     "label": "第8話 世界の見え方②",
-     "title": "第8話 世界の見え方②",
-     "url": "https://yanmaga.jp/comics/%E9%AD%94%E5%8A%9B%E6%9E%AF%E3%82%8C%E3%81%AE%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95/7c3385270e15ba49f174a8a0d6f3c532"
-    },
-    {
-     "date": "2026-07-16",
-     "label": "第8話 世界の見え方①",
-     "title": "第8話 世界の見え方①",
-     "url": "https://yanmaga.jp/comics/%E9%AD%94%E5%8A%9B%E6%9E%AF%E3%82%8C%E3%81%AE%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95/4fbafad76c61471bc34cdc2373f4fc15"
-    },
-    {
-     "date": "2026-06-18",
-     "label": "第7話 燼の鳥<後編>②",
-     "title": "第7話 燼の鳥<後編>②",
-     "url": "https://yanmaga.jp/comics/%E9%AD%94%E5%8A%9B%E6%9E%AF%E3%82%8C%E3%81%AE%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95/84932ee24ddda2c89530548d268054e4"
-    },
-    {
-     "date": "2026-06-18",
-     "label": "第7話 燼の鳥<後編>①",
-     "title": "第7話 燼の鳥<後編>①",
-     "url": "https://yanmaga.jp/comics/%E9%AD%94%E5%8A%9B%E6%9E%AF%E3%82%8C%E3%81%AE%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95/504f138e47536c294d3d8774935c0cf4"
-    },
-    {
-     "date": "2026-06-11",
-     "label": "第6話 燼の鳥<前編>②",
-     "title": "第6話 燼の鳥<前編>②",
-     "url": "https://yanmaga.jp/comics/%E9%AD%94%E5%8A%9B%E6%9E%AF%E3%82%8C%E3%81%AE%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95/a94d29ce0ef4b0582e56f7f2e428aefb"
-    },
-    {
-     "date": "2026-06-04",
-     "label": "第6話 燼の鳥<前編>①",
-     "title": "第6話 燼の鳥<前編>①",
-     "url": "https://yanmaga.jp/comics/%E9%AD%94%E5%8A%9B%E6%9E%AF%E3%82%8C%E3%81%AE%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95/0d11fa5607d5b1db8ed2d2a06aafcdaa"
-    },
-    {
-     "date": "2026-05-13",
-     "label": "単行本宣伝話",
-     "title": "単行本宣伝話",
-     "url": "https://yanmaga.jp/comics/%E9%AD%94%E5%8A%9B%E6%9E%AF%E3%82%8C%E3%81%AE%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95/bd069d68b8d3c036bb7c73a8e3195e4b",
-     "extra": true
-    },
-    {
-     "date": "2026-04-20",
-     "label": "第5話 見た目と本質②",
-     "title": "第5話 見た目と本質②",
-     "url": "https://yanmaga.jp/comics/%E9%AD%94%E5%8A%9B%E6%9E%AF%E3%82%8C%E3%81%AE%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95/932abaedfb6b7d461487d0cef6ecf1c6"
-    },
-    {
-     "date": "2026-04-20",
-     "label": "第5話 見た目と本質①",
-     "title": "第5話 見た目と本質①",
-     "url": "https://yanmaga.jp/comics/%E9%AD%94%E5%8A%9B%E6%9E%AF%E3%82%8C%E3%81%AE%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95/b5eca110282277ce9bd3631293528bd3"
-    },
-    {
-     "date": "2026-03-17",
-     "label": "第4話 次の100年②",
-     "title": "第4話 次の100年②",
-     "url": "https://yanmaga.jp/comics/%E9%AD%94%E5%8A%9B%E6%9E%AF%E3%82%8C%E3%81%AE%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95/6818798351f918ce5bd3fba2436c3159"
-    },
-    {
-     "date": "2026-03-17",
-     "label": "第4話 次の100年①",
-     "title": "第4話 次の100年①",
-     "url": "https://yanmaga.jp/comics/%E9%AD%94%E5%8A%9B%E6%9E%AF%E3%82%8C%E3%81%AE%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95/2ff3ab02beb676eee21cb1b3615fcac1"
-    }
-   ],
-   "latest": {
-    "date": "2026-10-20",
-    "label": "第10話 超えるしかない②",
-    "title": "第10話 超えるしかない②",
-    "url": "https://yanmaga.jp/comics/%E9%AD%94%E5%8A%9B%E6%9E%AF%E3%82%8C%E3%81%AE%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95/6c0c66f987f434a4d849df6078282ea8"
    },
    "paidHashes": null,
    "error": null
