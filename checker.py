@@ -830,11 +830,37 @@ def parse_gaugau_episodes(html):
     return out
 
 
+# がうがう形式の履歴ラベル（「11/17 更新」）。ラベル自体が更新日を持つ
+_SLASH_UPDATE_LABEL_RE = re.compile(r"^\s*(\d{1,2})/(\d{1,2})\s*更新\s*$")
+
+
+def _parse_iso_date(s):
+    try:
+        return date.fromisoformat(s or "")
+    except (TypeError, ValueError):
+        return None
+
+
 def fill_history_urls_by_date(history, episodes):
     """履歴の url=None エントリを、日付で突き合わせた話URLで補完する。
 
     (履歴, 補完件数) を返す。同日の話が複数ある場合は本編を優先し、
     同種なら一覧の後方（＝古い方）を採用する。
+
+    照合は3段階（上から順に適用し、埋まったエントリは次へ進まない）：
+      1. 履歴の日付と話の日付の完全一致（従来どおり）
+      2. ラベルの日付で照合：がうがうの履歴ラベルは「11/17 更新」の
+         形で更新日そのものを含む。保存された履歴の日付がラベルと
+         1日ずれることがある（2026-11-18『狂戦士なモブ』：履歴の
+         date=2026-11-18 だがラベルは「11/17 更新」で、公式ページの
+         話の日付も 2026-11-17。このため完全一致では補完できず、
+         「続きを読む」が話ページではなく作品ページに飛んでいた）。
+         ラベルの月日と一致する話の日付が、保存日付から3日以内に
+         あればそれを採用する（年またぎも候補に含める）
+      3. 前後1日のゆらぎ：ラベルに日付が無いサイト向け。±1日に
+         ある話の日付が1つだけで、かつ他の履歴エントリの日付と
+         重ならない（＝その話を本来の日付で主張するエントリが
+         無い）場合だけ採用し、隣の話のURLを奪わないようにする
     """
     missing = [h for h in history if not h.get("url")]
     if not missing or not episodes:
@@ -845,12 +871,68 @@ def fill_history_urls_by_date(history, episodes):
         if cur is None or is_main or is_main == cur[1]:
             by_date[date_iso] = (url, is_main)
     filled = 0
+    used_ep_dates = set()  # 補完に使った話の日付（段階3の奪い合い防止）
+
+    # 段階1: 日付の完全一致
     for h in history:
         if not h.get("url"):
             cand = by_date.get(h.get("date"))
             if cand:
                 h["url"] = cand[0]
+                used_ep_dates.add(h.get("date"))
                 filled += 1
+
+    # 段階2: ラベルの月日（「M/D 更新」）で照合
+    for h in history:
+        if h.get("url"):
+            continue
+        m = _SLASH_UPDATE_LABEL_RE.match(
+            h.get("label") or h.get("title") or "")
+        if not m:
+            continue
+        mo, da = int(m.group(1)), int(m.group(2))
+        cands = []
+        for date_iso in by_date:
+            d = _parse_iso_date(date_iso)
+            if d and (d.month, d.day) == (mo, da):
+                cands.append((date_iso, d))
+        if not cands:
+            continue
+        hdate = _parse_iso_date(h.get("date"))
+        if hdate is not None:
+            near = [(iso, d) for iso, d in cands
+                    if abs((d - hdate).days) <= 3]
+            if not near:
+                continue
+            near.sort(key=lambda t: abs((t[1] - hdate).days))
+            pick = near[0][0]
+        else:
+            if len(cands) != 1:
+                continue
+            pick = cands[0][0]
+        h["url"] = by_date[pick][0]
+        used_ep_dates.add(pick)
+        filled += 1
+
+    # 段階3: 前後1日のゆらぎ（候補が1つだけ・他エントリと競合しない場合のみ）
+    claimed_dates = {h.get("date") for h in history if h.get("date")}
+    for h in history:
+        if h.get("url"):
+            continue
+        hdate = _parse_iso_date(h.get("date"))
+        if hdate is None:
+            continue
+        cands = []
+        for date_iso in by_date:
+            if date_iso in claimed_dates or date_iso in used_ep_dates:
+                continue
+            d = _parse_iso_date(date_iso)
+            if d and abs((d - hdate).days) == 1:
+                cands.append(date_iso)
+        if len(cands) == 1:
+            h["url"] = by_date[cands[0]][0]
+            used_ep_dates.add(cands[0])
+            filled += 1
     return history, filled
 
 
