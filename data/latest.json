@@ -1,7 +1,440 @@
 {
- "checkedAt": "2026-11-18T20:28:40+09:00",
+ "checkedAt": "2026-11-19T07:04:55+09:00",
  "bookmarkUrl": "https://webcomics.jp/bookmark/3682scqd",
  "works": [
+  {
+   "detailUrl": "https://webcomics.jp/yanmaga/E38182E381AAE3819FE381AEE5A6B9",
+   "title": "あなたの妹",
+   "site": "ヤンマガWeb",
+   "thumbFile": "data/thumbs/186436.jpg",
+   "publisherUrl": "https://yanmaga.jp/comics/%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E5%A6%B9",
+   "comicNo": 186436,
+   "history": [
+    {
+     "date": "2026-11-19",
+     "label": "最終話",
+     "title": "最終話",
+     "url": "https://yanmaga.jp/comics/%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E5%A6%B9/e1a0e1c6d9a774cdf2c2fddb4db421ed"
+    },
+    {
+     "date": "2026-10-15",
+     "label": "第20話",
+     "title": "第20話",
+     "url": "https://yanmaga.jp/comics/%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E5%A6%B9/79e2b1878dabcfdfa5dddb956a9fb891"
+    },
+    {
+     "date": "2026-09-17",
+     "label": "第19話",
+     "title": "第19話",
+     "url": "https://yanmaga.jp/comics/%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E5%A6%B9/4b1630c7f769263e0e606aa9effbcbb8"
+    },
+    {
+     "date": "2026-08-20",
+     "label": "第18話",
+     "title": "第18話",
+     "url": "https://yanmaga.jp/comics/%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E5%A6%B9/882f5f4e9bbe310e03790ec4a354bfc6"
+    },
+    {
+     "date": "2026-06-18",
+     "label": "第17話",
+     "title": "第17話",
+     "url": "https://yanmaga.jp/comics/%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E5%A6%B9/7ba516b22ee951cedcc54f3e2bad088d"
+    },
+    {
+     "date": "2026-05-21",
+     "label": "第16話",
+     "title": "第16話",
+     "url": "https://yanmaga.jp/comics/%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E5%A6%B9/4a11a714646a6d2ec248dc9d07f6aab0"
+    },
+    {
+     "date": "2026-04-16",
+     "label": "第15話",
+     "title": "第15話",
+     "url": "https://yanmaga.jp/comics/%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E5%A6%B9/a2a7bfb43544b5133aad0bfc5f4311b4"
+    },
+    {
+     "date": "2026-03-19",
+     "label": "第14話",
+     "title": "第14話",
+     "url": "https://yanmaga.jp/comics/%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E5%A6%B9/07fad7a1f9dce18f98310c43251a89bb"
+    },
+    {
+     "date": "2026-02-19",
+     "label": "第13話",
+     "title": "第13話",
+     "url": "https://yanmaga.jp/comics/%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E5%A6%B9/05cffea098821ee00f6941b020026640"
+    },
+    {
+     "date": "2026-01-15",
+     "label": "第12話",
+     "title": "第12話",
+     "url": "https://yanmaga.jp/comics/%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E5%A6%B9/12c379f3715f44771a4702df52dc3280"
+    },
+    {
+     "date": "2025-12-18",
+     "label": "第11話",
+     "title": "第11話",
+     "url": "https://yanmaga.jp/comics/%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E5%A6%B9/8f7b94eb046f4a8a9fa45391c26d54c6"
+    },
+    {
+     "date": "2025-11-20",
+     "label": "第10話",
+     "title": "第10話",
+     "url": "https://yanmaga.jp/comics/%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E5%A6%B9/aded66acd5e693bf57a578aa6d4dfcc2"
+    },
+    {
+     "date": "2025-11-19",
+     "label": "単行本宣伝話",
+     "title": "単行本宣伝話",
+     "url": "https://yanmaga.jp/comics/%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E5%A6%B9/cd650c0865a8686652b31df30d49391f",
+     "extra": true
+    },
+    {
+     "date": "2025-10-16",
+     "label": "第9話",
+     "title": "第9話",
+     "url": "https://yanmaga.jp/comics/%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E5%A6%B9/2a23fc2884ab63657ca61e986d27f239"
+    },
+    {
+     "date": "2025-09-18",
+     "label": "第8話",
+     "title": "第8話",
+     "url": "https://yanmaga.jp/comics/%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E5%A6%B9/b53517f92541add3480a8b689d65f9d7"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-19",
+    "label": "最終話",
+    "title": "最終話",
+    "url": "https://yanmaga.jp/comics/%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E5%A6%B9/e1a0e1c6d9a774cdf2c2fddb4db421ed"
+   },
+   "paidHashes": null,
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/comic-fuz/3542",
+   "title": "チハヤリスタート!",
+   "site": "COMIC FUZ",
+   "thumbFile": "data/thumbs/172771.jpg",
+   "publisherUrl": "https://comic-fuz.com/manga/3542",
+   "comicNo": 172771,
+   "history": [
+    {
+     "date": "2026-11-19",
+     "label": "2026/11/19更新",
+     "title": "2026/11/19更新",
+     "url": "https://comic-fuz.com/manga/viewer/82000"
+    },
+    {
+     "date": "2026-11-12",
+     "label": "2026/11/12更新",
+     "title": "2026/11/12更新",
+     "url": "https://comic-fuz.com/manga/viewer/81712"
+    },
+    {
+     "date": "2026-11-05",
+     "label": "2026/11/05更新",
+     "title": "2026/11/05更新",
+     "url": "https://comic-fuz.com/manga/viewer/81709"
+    },
+    {
+     "date": "2026-10-29",
+     "label": "2026/10/29更新",
+     "title": "2026/10/29更新",
+     "url": "https://comic-fuz.com/manga/viewer/81196"
+    },
+    {
+     "date": "2026-10-22",
+     "label": "2026/10/22更新",
+     "title": "2026/10/22更新",
+     "url": null
+    },
+    {
+     "date": "2026-10-15",
+     "label": "2026/10/15更新",
+     "title": "2026/10/15更新",
+     "url": "https://comic-fuz.com/manga/viewer/80761"
+    },
+    {
+     "date": "2026-10-08",
+     "label": "2026/10/08更新",
+     "title": "2026/10/08更新",
+     "url": "https://comic-fuz.com/manga/viewer/81151"
+    },
+    {
+     "date": "2026-10-01",
+     "label": "2026/10/01更新",
+     "title": "2026/10/01更新",
+     "url": "https://comic-fuz.com/manga/viewer/80758"
+    },
+    {
+     "date": "2026-09-24",
+     "label": "2026/09/24更新",
+     "title": "2026/09/24更新",
+     "url": "https://comic-fuz.com/manga/viewer/80638"
+    },
+    {
+     "date": "2026-09-17",
+     "label": "2026/09/17更新",
+     "title": "2026/09/17更新",
+     "url": "https://comic-fuz.com/manga/viewer/80635"
+    },
+    {
+     "date": "2026-09-10",
+     "label": "2026/09/10更新",
+     "title": "2026/09/10更新",
+     "url": "https://comic-fuz.com/manga/viewer/80122"
+    },
+    {
+     "date": "2026-09-03",
+     "label": "2026/09/03更新",
+     "title": "2026/09/03更新",
+     "url": "https://comic-fuz.com/manga/viewer/79703"
+    },
+    {
+     "date": "2026-08-27",
+     "label": "2026/08/27更新",
+     "title": "2026/08/27更新",
+     "url": "https://comic-fuz.com/manga/viewer/80359"
+    },
+    {
+     "date": "2026-08-20",
+     "label": "2026/08/20更新",
+     "title": "2026/08/20更新",
+     "url": "https://comic-fuz.com/manga/viewer/79700"
+    },
+    {
+     "date": "2026-08-06",
+     "label": "2026/08/06更新",
+     "title": "2026/08/06更新",
+     "url": "https://comic-fuz.com/manga/viewer/79697"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-19",
+    "label": "2026/11/19更新",
+    "title": "2026/11/19更新",
+    "url": "https://comic-fuz.com/manga/viewer/82000"
+   },
+   "paidHashes": null,
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/tonarinoyj/13932016480028985383",
+   "title": "ワンパンマン",
+   "site": "となりのヤングジャンプ",
+   "thumbFile": "data/thumbs/322.jpg",
+   "publisherUrl": "https://tonarinoyj.jp/episode/13932016480028985383",
+   "comicNo": 322,
+   "history": [
+    {
+     "date": "2026-11-19",
+     "label": "11.18(水)",
+     "title": "11.18(水)",
+     "url": "https://tonarinoyj.jp/episode/12207421984536516748"
+    },
+    {
+     "date": "2026-11-05",
+     "label": "11.04(水)",
+     "title": "11.04(水)",
+     "url": "https://tonarinoyj.jp/episode/12207421984477313965"
+    },
+    {
+     "date": "2026-10-22",
+     "label": "10.21(水)",
+     "title": "10.21(水)",
+     "url": "https://tonarinoyj.jp/episode/12207421984402522227"
+    },
+    {
+     "date": "2026-10-08",
+     "label": "10.07(水)",
+     "title": "10.07(水)",
+     "url": "https://tonarinoyj.jp/episode/12207421984346359674"
+    },
+    {
+     "date": "2026-09-24",
+     "label": "09.23(水)",
+     "title": "09.23(水)",
+     "url": "https://tonarinoyj.jp/episode/12207421984252262240"
+    },
+    {
+     "date": "2026-09-10",
+     "label": "09.09(水)",
+     "title": "09.09(水)",
+     "url": "https://tonarinoyj.jp/episode/12207421984214112687"
+    },
+    {
+     "date": "2026-08-27",
+     "label": "08.26(水)",
+     "title": "08.26(水)",
+     "url": "https://tonarinoyj.jp/episode/12207421984148777688"
+    },
+    {
+     "date": "2026-08-13",
+     "label": "08.12(水)",
+     "title": "08.12(水)",
+     "url": "https://tonarinoyj.jp/episode/12207421984090138482"
+    },
+    {
+     "date": "2026-07-30",
+     "label": "07.29(水)",
+     "title": "07.29(水)",
+     "url": "https://tonarinoyj.jp/episode/12207421984027809074"
+    },
+    {
+     "date": "2026-07-16",
+     "label": "07.15(水)",
+     "title": "07.15(水)",
+     "url": "https://tonarinoyj.jp/episode/12207421983970095493"
+    },
+    {
+     "date": "2026-07-02",
+     "label": "07.01(水)",
+     "title": "07.01(水)",
+     "url": "https://tonarinoyj.jp/episode/12207421983914398381"
+    },
+    {
+     "date": "2026-06-18",
+     "label": "06.17(水)",
+     "title": "06.17(水)",
+     "url": "https://tonarinoyj.jp/episode/12207421983858673174"
+    },
+    {
+     "date": "2026-06-04",
+     "label": "06.03(水)",
+     "title": "06.03(水)",
+     "url": "https://tonarinoyj.jp/episode/12207421983782428034"
+    },
+    {
+     "date": "2026-05-21",
+     "label": "05.20(水)",
+     "title": "05.20(水)",
+     "url": "https://tonarinoyj.jp/episode/12207421983746616006"
+    },
+    {
+     "date": "2026-05-07",
+     "label": "05.06(水)",
+     "title": "05.06(水)",
+     "url": "https://tonarinoyj.jp/episode/12207421983661137049"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-19",
+    "label": "11.18(水)",
+    "title": "11.18(水)",
+    "url": "https://tonarinoyj.jp/episode/12207421984536516748"
+   },
+   "paidHashes": null,
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/sunday-webry/2550912965970720742",
+   "title": "ギャル神官はリザレがダルい",
+   "site": "サンデーうぇぶり",
+   "thumbFile": "data/thumbs/192627.jpg",
+   "publisherUrl": "https://www.sunday-webry.com/episode/2550912965970720742",
+   "comicNo": 192627,
+   "history": [
+    {
+     "date": "2026-11-19",
+     "label": "第25話 ポー中とカタリナ",
+     "title": "第25話 ポー中とカタリナ",
+     "url": "https://www.sunday-webry.com/episode/12207421984538980098"
+    },
+    {
+     "date": "2026-11-05",
+     "label": "第24話 ギャルと勲章",
+     "title": "第24話 ギャルと勲章",
+     "url": "https://www.sunday-webry.com/episode/12207421984475733800"
+    },
+    {
+     "date": "2026-10-22",
+     "label": "第23話 ギャルと叙勲式",
+     "title": "第23話 ギャルと叙勲式",
+     "url": "https://www.sunday-webry.com/episode/12207421984410757660"
+    },
+    {
+     "date": "2026-10-08",
+     "label": "幕間6 ポー中と飛行艇",
+     "title": "幕間6 ポー中と飛行艇",
+     "url": "https://www.sunday-webry.com/episode/12207421984345205902"
+    },
+    {
+     "date": "2026-09-24",
+     "label": "第22話 ギャルと式典準備",
+     "title": "第22話 ギャルと式典準備",
+     "url": "https://www.sunday-webry.com/episode/12207421984256437272"
+    },
+    {
+     "date": "2026-09-10",
+     "label": "第21話 ギャルと夜景",
+     "title": "第21話 ギャルと夜景",
+     "url": "https://www.sunday-webry.com/episode/12207421984212819277"
+    },
+    {
+     "date": "2026-08-27",
+     "label": "第20話 ギャルとデート",
+     "title": "第20話 ギャルとデート",
+     "url": "https://www.sunday-webry.com/episode/12207421984152775881"
+    },
+    {
+     "date": "2026-08-10",
+     "label": "単行本PR",
+     "title": "単行本PR",
+     "url": "https://www.sunday-webry.com/episode/12207421984064510112"
+    },
+    {
+     "date": "2026-08-06",
+     "label": "第19話 ギャルと大聖堂",
+     "title": "第19話 ギャルと大聖堂",
+     "url": "https://www.sunday-webry.com/episode/12207421984059469546"
+    },
+    {
+     "date": "2026-07-23",
+     "label": "第18話 勇者と決着",
+     "title": "第18話 勇者と決着",
+     "url": "https://www.sunday-webry.com/episode/12207421984000769351"
+    },
+    {
+     "date": "2026-07-09",
+     "label": "第17話 勇者と激闘",
+     "title": "第17話 勇者と激闘",
+     "url": "https://www.sunday-webry.com/episode/12207421983942454941"
+    },
+    {
+     "date": "2026-06-25",
+     "label": "第16.5話 ギャルと心配",
+     "title": "第16.5話 ギャルと心配",
+     "url": "https://www.sunday-webry.com/episode/12207421983885239234"
+    },
+    {
+     "date": "2026-06-11",
+     "label": "第16話 勇者とドライゼル",
+     "title": "第16話 勇者とドライゼル",
+     "url": "https://www.sunday-webry.com/episode/12207421983824825926"
+    },
+    {
+     "date": "2026-05-28",
+     "label": "第15話 勇者とポータル",
+     "title": "第15話 勇者とポータル",
+     "url": "https://www.sunday-webry.com/episode/12207421983773006372"
+    },
+    {
+     "date": "2026-05-14",
+     "label": "第14話 ギャルとネクロマンサー",
+     "title": "第14話 ギャルとネクロマンサー",
+     "url": "https://www.sunday-webry.com/episode/12207421983718070805"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-19",
+    "label": "第25話 ポー中とカタリナ",
+    "title": "第25話 ポー中とカタリナ",
+    "url": "https://www.sunday-webry.com/episode/12207421984538980098"
+   },
+   "paidHashes": null,
+   "error": null
+  },
   {
    "detailUrl": "https://webcomics.jp/comicbushi/66994e3cc9cde",
    "title": "目の前の惨劇で前世を思い出したけど、あまりにも問題山積みでいっぱいいっぱいです。",
@@ -11,7 +444,7 @@
    "comicNo": 178133,
    "history": [
     {
-     "date": "2026-11-18",
+     "date": "2026-11-19",
      "label": "20-②",
      "title": "20-②",
      "url": "https://comic-growl.com/episodes/fc5fb51300124"
@@ -103,7 +536,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "label": "20-②",
     "title": "20-②",
     "url": "https://comic-growl.com/episodes/fc5fb51300124"
@@ -336,7 +769,7 @@
    "comicNo": 167262,
    "history": [
     {
-     "date": "2026-11-18",
+     "date": "2026-11-19",
      "label": "更新",
      "title": "更新",
      "url": "https://comic-days.com/episode/12207421983379583689"
@@ -428,7 +861,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "label": "更新",
     "title": "更新",
     "url": "https://comic-days.com/episode/12207421983379583689"
@@ -445,7 +878,7 @@
    "comicNo": 191756,
    "history": [
     {
-     "date": "2026-11-18",
+     "date": "2026-11-19",
      "label": "第15話-1",
      "title": "第15話-1",
      "url": "https://comic-walker.com/detail/KC_006739_S/episodes/KC_0067390001900011_E?episodeType=latest"
@@ -538,7 +971,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "label": "第15話-1",
     "title": "第15話-1",
     "url": "https://comic-walker.com/detail/KC_006739_S/episodes/KC_0067390001900011_E?episodeType=latest"
@@ -555,7 +988,7 @@
    "comicNo": 163810,
    "history": [
     {
-     "date": "2026-11-18",
+     "date": "2026-11-19",
      "label": "11.18(水)",
      "title": "11.18(水)",
      "url": "https://tonarinoyj.jp/episode/12207421984516805796"
@@ -646,7 +1079,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "label": "11.18(水)",
     "title": "11.18(水)",
     "url": "https://tonarinoyj.jp/episode/12207421984516805796"
@@ -8054,114 +8487,6 @@
    "error": null
   },
   {
-   "detailUrl": "https://webcomics.jp/comic-fuz/3542",
-   "title": "チハヤリスタート!",
-   "site": "COMIC FUZ",
-   "thumbFile": "data/thumbs/172771.jpg",
-   "publisherUrl": "https://comic-fuz.com/manga/3542",
-   "comicNo": 172771,
-   "history": [
-    {
-     "date": "2026-11-12",
-     "label": "2026/11/12更新",
-     "title": "2026/11/12更新",
-     "url": "https://comic-fuz.com/manga/viewer/81712"
-    },
-    {
-     "date": "2026-11-05",
-     "label": "2026/11/05更新",
-     "title": "2026/11/05更新",
-     "url": "https://comic-fuz.com/manga/viewer/81709"
-    },
-    {
-     "date": "2026-10-29",
-     "label": "2026/10/29更新",
-     "title": "2026/10/29更新",
-     "url": "https://comic-fuz.com/manga/viewer/81196"
-    },
-    {
-     "date": "2026-10-22",
-     "label": "2026/10/22更新",
-     "title": "2026/10/22更新",
-     "url": null
-    },
-    {
-     "date": "2026-10-15",
-     "label": "2026/10/15更新",
-     "title": "2026/10/15更新",
-     "url": "https://comic-fuz.com/manga/viewer/80761"
-    },
-    {
-     "date": "2026-10-08",
-     "label": "2026/10/08更新",
-     "title": "2026/10/08更新",
-     "url": "https://comic-fuz.com/manga/viewer/81151"
-    },
-    {
-     "date": "2026-10-01",
-     "label": "2026/10/01更新",
-     "title": "2026/10/01更新",
-     "url": "https://comic-fuz.com/manga/viewer/80758"
-    },
-    {
-     "date": "2026-09-24",
-     "label": "2026/09/24更新",
-     "title": "2026/09/24更新",
-     "url": "https://comic-fuz.com/manga/viewer/80638"
-    },
-    {
-     "date": "2026-09-17",
-     "label": "2026/09/17更新",
-     "title": "2026/09/17更新",
-     "url": "https://comic-fuz.com/manga/viewer/80635"
-    },
-    {
-     "date": "2026-09-10",
-     "label": "2026/09/10更新",
-     "title": "2026/09/10更新",
-     "url": "https://comic-fuz.com/manga/viewer/80122"
-    },
-    {
-     "date": "2026-09-03",
-     "label": "2026/09/03更新",
-     "title": "2026/09/03更新",
-     "url": "https://comic-fuz.com/manga/viewer/79703"
-    },
-    {
-     "date": "2026-08-27",
-     "label": "2026/08/27更新",
-     "title": "2026/08/27更新",
-     "url": "https://comic-fuz.com/manga/viewer/80359"
-    },
-    {
-     "date": "2026-08-20",
-     "label": "2026/08/20更新",
-     "title": "2026/08/20更新",
-     "url": "https://comic-fuz.com/manga/viewer/79700"
-    },
-    {
-     "date": "2026-08-06",
-     "label": "2026/08/06更新",
-     "title": "2026/08/06更新",
-     "url": "https://comic-fuz.com/manga/viewer/79697"
-    },
-    {
-     "date": "2026-07-30",
-     "label": "2026/07/30更新",
-     "title": "2026/07/30更新",
-     "url": "https://comic-fuz.com/manga/viewer/78941"
-    }
-   ],
-   "latest": {
-    "date": "2026-11-12",
-    "label": "2026/11/12更新",
-    "title": "2026/11/12更新",
-    "url": "https://comic-fuz.com/manga/viewer/81712"
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
    "detailUrl": "https://webcomics.jp/ganganonline/11",
    "title": "スライム倒して300年、知らないうちにレベルMAXになってました",
    "site": "ガンガンONLINE",
@@ -13677,222 +14002,6 @@
     "label": "2026/11/05 更新",
     "title": "2026/11/05 更新",
     "url": "https://manga.nicovideo.jp/comic/71123/new"
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
-   "detailUrl": "https://webcomics.jp/tonarinoyj/13932016480028985383",
-   "title": "ワンパンマン",
-   "site": "となりのヤングジャンプ",
-   "thumbFile": "data/thumbs/322.jpg",
-   "publisherUrl": "https://tonarinoyj.jp/episode/13932016480028985383",
-   "comicNo": 322,
-   "history": [
-    {
-     "date": "2026-11-05",
-     "label": "11.04(水)",
-     "title": "11.04(水)",
-     "url": "https://tonarinoyj.jp/episode/12207421984477313965"
-    },
-    {
-     "date": "2026-10-22",
-     "label": "10.21(水)",
-     "title": "10.21(水)",
-     "url": "https://tonarinoyj.jp/episode/12207421984402522227"
-    },
-    {
-     "date": "2026-10-08",
-     "label": "10.07(水)",
-     "title": "10.07(水)",
-     "url": "https://tonarinoyj.jp/episode/12207421984346359674"
-    },
-    {
-     "date": "2026-09-24",
-     "label": "09.23(水)",
-     "title": "09.23(水)",
-     "url": "https://tonarinoyj.jp/episode/12207421984252262240"
-    },
-    {
-     "date": "2026-09-10",
-     "label": "09.09(水)",
-     "title": "09.09(水)",
-     "url": "https://tonarinoyj.jp/episode/12207421984214112687"
-    },
-    {
-     "date": "2026-08-27",
-     "label": "08.26(水)",
-     "title": "08.26(水)",
-     "url": "https://tonarinoyj.jp/episode/12207421984148777688"
-    },
-    {
-     "date": "2026-08-13",
-     "label": "08.12(水)",
-     "title": "08.12(水)",
-     "url": "https://tonarinoyj.jp/episode/12207421984090138482"
-    },
-    {
-     "date": "2026-07-30",
-     "label": "07.29(水)",
-     "title": "07.29(水)",
-     "url": "https://tonarinoyj.jp/episode/12207421984027809074"
-    },
-    {
-     "date": "2026-07-16",
-     "label": "07.15(水)",
-     "title": "07.15(水)",
-     "url": "https://tonarinoyj.jp/episode/12207421983970095493"
-    },
-    {
-     "date": "2026-07-02",
-     "label": "07.01(水)",
-     "title": "07.01(水)",
-     "url": "https://tonarinoyj.jp/episode/12207421983914398381"
-    },
-    {
-     "date": "2026-06-18",
-     "label": "06.17(水)",
-     "title": "06.17(水)",
-     "url": "https://tonarinoyj.jp/episode/12207421983858673174"
-    },
-    {
-     "date": "2026-06-04",
-     "label": "06.03(水)",
-     "title": "06.03(水)",
-     "url": "https://tonarinoyj.jp/episode/12207421983782428034"
-    },
-    {
-     "date": "2026-05-21",
-     "label": "05.20(水)",
-     "title": "05.20(水)",
-     "url": "https://tonarinoyj.jp/episode/12207421983746616006"
-    },
-    {
-     "date": "2026-05-07",
-     "label": "05.06(水)",
-     "title": "05.06(水)",
-     "url": "https://tonarinoyj.jp/episode/12207421983661137049"
-    },
-    {
-     "date": "2026-04-23",
-     "label": "04.22(水)",
-     "title": "04.22(水)",
-     "url": "https://tonarinoyj.jp/episode/12207421983638405950"
-    }
-   ],
-   "latest": {
-    "date": "2026-11-05",
-    "label": "11.04(水)",
-    "title": "11.04(水)",
-    "url": "https://tonarinoyj.jp/episode/12207421984477313965"
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
-   "detailUrl": "https://webcomics.jp/sunday-webry/2550912965970720742",
-   "title": "ギャル神官はリザレがダルい",
-   "site": "サンデーうぇぶり",
-   "thumbFile": "data/thumbs/192627.jpg",
-   "publisherUrl": "https://www.sunday-webry.com/episode/2550912965970720742",
-   "comicNo": 192627,
-   "history": [
-    {
-     "date": "2026-11-05",
-     "label": "第24話 ギャルと勲章",
-     "title": "第24話 ギャルと勲章",
-     "url": "https://www.sunday-webry.com/episode/12207421984475733800"
-    },
-    {
-     "date": "2026-10-22",
-     "label": "第23話 ギャルと叙勲式",
-     "title": "第23話 ギャルと叙勲式",
-     "url": "https://www.sunday-webry.com/episode/12207421984410757660"
-    },
-    {
-     "date": "2026-10-08",
-     "label": "幕間6 ポー中と飛行艇",
-     "title": "幕間6 ポー中と飛行艇",
-     "url": "https://www.sunday-webry.com/episode/12207421984345205902"
-    },
-    {
-     "date": "2026-09-24",
-     "label": "第22話 ギャルと式典準備",
-     "title": "第22話 ギャルと式典準備",
-     "url": "https://www.sunday-webry.com/episode/12207421984256437272"
-    },
-    {
-     "date": "2026-09-10",
-     "label": "第21話 ギャルと夜景",
-     "title": "第21話 ギャルと夜景",
-     "url": "https://www.sunday-webry.com/episode/12207421984212819277"
-    },
-    {
-     "date": "2026-08-27",
-     "label": "第20話 ギャルとデート",
-     "title": "第20話 ギャルとデート",
-     "url": "https://www.sunday-webry.com/episode/12207421984152775881"
-    },
-    {
-     "date": "2026-08-10",
-     "label": "単行本PR",
-     "title": "単行本PR",
-     "url": "https://www.sunday-webry.com/episode/12207421984064510112"
-    },
-    {
-     "date": "2026-08-06",
-     "label": "第19話 ギャルと大聖堂",
-     "title": "第19話 ギャルと大聖堂",
-     "url": "https://www.sunday-webry.com/episode/12207421984059469546"
-    },
-    {
-     "date": "2026-07-23",
-     "label": "第18話 勇者と決着",
-     "title": "第18話 勇者と決着",
-     "url": "https://www.sunday-webry.com/episode/12207421984000769351"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "第17話 勇者と激闘",
-     "title": "第17話 勇者と激闘",
-     "url": "https://www.sunday-webry.com/episode/12207421983942454941"
-    },
-    {
-     "date": "2026-06-25",
-     "label": "第16.5話 ギャルと心配",
-     "title": "第16.5話 ギャルと心配",
-     "url": "https://www.sunday-webry.com/episode/12207421983885239234"
-    },
-    {
-     "date": "2026-06-11",
-     "label": "第16話 勇者とドライゼル",
-     "title": "第16話 勇者とドライゼル",
-     "url": "https://www.sunday-webry.com/episode/12207421983824825926"
-    },
-    {
-     "date": "2026-05-28",
-     "label": "第15話 勇者とポータル",
-     "title": "第15話 勇者とポータル",
-     "url": "https://www.sunday-webry.com/episode/12207421983773006372"
-    },
-    {
-     "date": "2026-05-14",
-     "label": "第14話 ギャルとネクロマンサー",
-     "title": "第14話 ギャルとネクロマンサー",
-     "url": "https://www.sunday-webry.com/episode/12207421983718070805"
-    },
-    {
-     "date": "2026-04-30",
-     "label": "第0話 ギャルと出会い",
-     "title": "第0話 ギャルと出会い",
-     "url": "https://www.sunday-webry.com/episode/12207421983660431156"
-    }
-   ],
-   "latest": {
-    "date": "2026-11-05",
-    "label": "第24話 ギャルと勲章",
-    "title": "第24話 ギャルと勲章",
-    "url": "https://www.sunday-webry.com/episode/12207421984475733800"
    },
    "paidHashes": null,
    "error": null
@@ -19689,115 +19798,6 @@
     "label": "2026/10/15 更新",
     "title": "2026/10/15 更新",
     "url": "https://manga.nicovideo.jp/comic/57766/new"
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
-   "detailUrl": "https://webcomics.jp/yanmaga/E38182E381AAE3819FE381AEE5A6B9",
-   "title": "あなたの妹",
-   "site": "ヤンマガWeb",
-   "thumbFile": "data/thumbs/186436.jpg",
-   "publisherUrl": "https://yanmaga.jp/comics/%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E5%A6%B9",
-   "comicNo": 186436,
-   "history": [
-    {
-     "date": "2026-10-15",
-     "label": "第20話",
-     "title": "第20話",
-     "url": "https://yanmaga.jp/comics/%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E5%A6%B9/79e2b1878dabcfdfa5dddb956a9fb891"
-    },
-    {
-     "date": "2026-09-17",
-     "label": "第19話",
-     "title": "第19話",
-     "url": "https://yanmaga.jp/comics/%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E5%A6%B9/4b1630c7f769263e0e606aa9effbcbb8"
-    },
-    {
-     "date": "2026-08-20",
-     "label": "第18話",
-     "title": "第18話",
-     "url": "https://yanmaga.jp/comics/%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E5%A6%B9/882f5f4e9bbe310e03790ec4a354bfc6"
-    },
-    {
-     "date": "2026-06-18",
-     "label": "第17話",
-     "title": "第17話",
-     "url": "https://yanmaga.jp/comics/%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E5%A6%B9/7ba516b22ee951cedcc54f3e2bad088d"
-    },
-    {
-     "date": "2026-05-21",
-     "label": "第16話",
-     "title": "第16話",
-     "url": "https://yanmaga.jp/comics/%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E5%A6%B9/4a11a714646a6d2ec248dc9d07f6aab0"
-    },
-    {
-     "date": "2026-04-16",
-     "label": "第15話",
-     "title": "第15話",
-     "url": "https://yanmaga.jp/comics/%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E5%A6%B9/a2a7bfb43544b5133aad0bfc5f4311b4"
-    },
-    {
-     "date": "2026-03-19",
-     "label": "第14話",
-     "title": "第14話",
-     "url": "https://yanmaga.jp/comics/%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E5%A6%B9/07fad7a1f9dce18f98310c43251a89bb"
-    },
-    {
-     "date": "2026-02-19",
-     "label": "第13話",
-     "title": "第13話",
-     "url": "https://yanmaga.jp/comics/%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E5%A6%B9/05cffea098821ee00f6941b020026640"
-    },
-    {
-     "date": "2026-01-15",
-     "label": "第12話",
-     "title": "第12話",
-     "url": "https://yanmaga.jp/comics/%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E5%A6%B9/12c379f3715f44771a4702df52dc3280"
-    },
-    {
-     "date": "2025-12-18",
-     "label": "第11話",
-     "title": "第11話",
-     "url": "https://yanmaga.jp/comics/%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E5%A6%B9/8f7b94eb046f4a8a9fa45391c26d54c6"
-    },
-    {
-     "date": "2025-11-20",
-     "label": "第10話",
-     "title": "第10話",
-     "url": "https://yanmaga.jp/comics/%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E5%A6%B9/aded66acd5e693bf57a578aa6d4dfcc2"
-    },
-    {
-     "date": "2025-11-19",
-     "label": "単行本宣伝話",
-     "title": "単行本宣伝話",
-     "url": "https://yanmaga.jp/comics/%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E5%A6%B9/cd650c0865a8686652b31df30d49391f",
-     "extra": true
-    },
-    {
-     "date": "2025-10-16",
-     "label": "第9話",
-     "title": "第9話",
-     "url": "https://yanmaga.jp/comics/%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E5%A6%B9/2a23fc2884ab63657ca61e986d27f239"
-    },
-    {
-     "date": "2025-09-18",
-     "label": "第8話",
-     "title": "第8話",
-     "url": "https://yanmaga.jp/comics/%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E5%A6%B9/b53517f92541add3480a8b689d65f9d7"
-    },
-    {
-     "date": "2025-08-21",
-     "label": "第7話",
-     "title": "第7話",
-     "url": "https://yanmaga.jp/comics/%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E5%A6%B9/701ebb45551b979783c8ad0df5becefc"
-    }
-   ],
-   "latest": {
-    "date": "2026-10-15",
-    "label": "第20話",
-    "title": "第20話",
-    "url": "https://yanmaga.jp/comics/%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E5%A6%B9/79e2b1878dabcfdfa5dddb956a9fb891"
    },
    "paidHashes": null,
    "error": null
@@ -26770,7 +26770,7 @@
   {
    "detailUrl": "https://webcomics.jp/youngaceup/1000261",
    "title": "ビブリア古書堂の事件手帖 ～扉子と虚ろな夢～",
-   "site": "ヤングエースUP",
+   "site": "ヤングエースUP(更新終了)",
    "thumbFile": "data/thumbs/164853.jpg",
    "publisherUrl": "https://web-ace.jp/youngaceup/contents/1000261/",
    "comicNo": 164853,
@@ -28392,7 +28392,7 @@
   {
    "detailUrl": "https://webcomics.jp/comic-newtype/nabetama",
    "title": "鍋に弾丸を受けながら",
-   "site": "コミックNewtype",
+   "site": "コミックNewtype(更新終了)",
    "thumbFile": "data/thumbs/119140.jpg",
    "publisherUrl": "https://comic.webnewtype.com/contents/nabetama/",
    "comicNo": 119140,
