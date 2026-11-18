@@ -1,7 +1,116 @@
 {
- "checkedAt": "2026-11-18T17:58:21+09:00",
+ "checkedAt": "2026-11-18T20:28:40+09:00",
  "bookmarkUrl": "https://webcomics.jp/bookmark/3682scqd",
  "works": [
+  {
+   "detailUrl": "https://webcomics.jp/comicbushi/66994e3cc9cde",
+   "title": "目の前の惨劇で前世を思い出したけど、あまりにも問題山積みでいっぱいいっぱいです。",
+   "site": "コミックグロウル",
+   "thumbFile": "data/thumbs/178133.jpg",
+   "publisherUrl": "https://comic-growl.com/series/66994e3cc9cde",
+   "comicNo": 178133,
+   "history": [
+    {
+     "date": "2026-11-18",
+     "label": "20-②",
+     "title": "20-②",
+     "url": "https://comic-growl.com/episodes/fc5fb51300124"
+    },
+    {
+     "date": "2026-11-05",
+     "label": "20-①",
+     "title": "20-①",
+     "url": "https://comic-growl.com/episodes/31a3c6ab9545a"
+    },
+    {
+     "date": "2026-10-21",
+     "label": "19-②",
+     "title": "19-②",
+     "url": "https://comic-growl.com/episodes/032b9bd2ba4d2"
+    },
+    {
+     "date": "2026-10-17",
+     "label": "19-①",
+     "title": "19-①",
+     "url": "https://comic-growl.com/episodes/a0a5aa802deab"
+    },
+    {
+     "date": "2026-09-04",
+     "label": "特別イラスト②",
+     "title": "特別イラスト②",
+     "url": "https://comic-growl.com/episodes/c73bfff90ff72",
+     "extra": true
+    },
+    {
+     "date": "2026-08-23",
+     "label": "18-②",
+     "title": "18-②",
+     "url": "https://comic-growl.com/episodes/7c4333e0f18df"
+    },
+    {
+     "date": "2026-08-05",
+     "label": "18-①",
+     "title": "18-①",
+     "url": "https://comic-growl.com/episodes/f2f2fcbdb7123"
+    },
+    {
+     "date": "2026-07-15",
+     "label": "17-②",
+     "title": "17-②",
+     "url": "https://comic-growl.com/episodes/1dfce59dcf98e"
+    },
+    {
+     "date": "2026-07-07",
+     "label": "17-①",
+     "title": "17-①",
+     "url": "https://comic-growl.com/episodes/7c003819ecc2f"
+    },
+    {
+     "date": "2026-06-19",
+     "label": "16-②",
+     "title": "16-②",
+     "url": "https://comic-growl.com/episodes/9005f35897f0d"
+    },
+    {
+     "date": "2026-06-08",
+     "label": "16-①",
+     "title": "16-①",
+     "url": "https://comic-growl.com/episodes/09ac1166c9e77"
+    },
+    {
+     "date": "2026-05-22",
+     "label": "15-②",
+     "title": "15-②",
+     "url": "https://comic-growl.com/episodes/35027dc8e8625"
+    },
+    {
+     "date": "2026-05-07",
+     "label": "15-①",
+     "title": "15-①",
+     "url": "https://comic-growl.com/episodes/658403b22d642"
+    },
+    {
+     "date": "2026-04-29",
+     "label": "14-②",
+     "title": "14-②",
+     "url": "https://comic-growl.com/episodes/8557fa712a2eb"
+    },
+    {
+     "date": "2026-04-02",
+     "label": "14-①",
+     "title": "14-①",
+     "url": "https://comic-growl.com/episodes/c169696348700"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-18",
+    "label": "20-②",
+    "title": "20-②",
+    "url": "https://comic-growl.com/episodes/fc5fb51300124"
+   },
+   "paidHashes": null,
+   "error": null
+  },
   {
    "detailUrl": "https://webcomics.jp/seiga/52856",
    "title": "北斗の拳 世紀末ドラマ撮影伝",
@@ -12596,115 +12705,6 @@
     "label": "2026年11月6日(金)",
     "title": "2026年11月6日(金)",
     "url": null
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
-   "detailUrl": "https://webcomics.jp/comicbushi/66994e3cc9cde",
-   "title": "目の前の惨劇で前世を思い出したけど、あまりにも問題山積みでいっぱいいっぱいです。",
-   "site": "コミックグロウル",
-   "thumbFile": "data/thumbs/178133.jpg",
-   "publisherUrl": "https://comic-growl.com/series/66994e3cc9cde",
-   "comicNo": 178133,
-   "history": [
-    {
-     "date": "2026-11-05",
-     "label": "20-①",
-     "title": "20-①",
-     "url": "https://comic-growl.com/episodes/31a3c6ab9545a"
-    },
-    {
-     "date": "2026-10-21",
-     "label": "19-②",
-     "title": "19-②",
-     "url": "https://comic-growl.com/episodes/032b9bd2ba4d2"
-    },
-    {
-     "date": "2026-10-17",
-     "label": "19-①",
-     "title": "19-①",
-     "url": "https://comic-growl.com/episodes/a0a5aa802deab"
-    },
-    {
-     "date": "2026-09-04",
-     "label": "特別イラスト②",
-     "title": "特別イラスト②",
-     "url": "https://comic-growl.com/episodes/c73bfff90ff72",
-     "extra": true
-    },
-    {
-     "date": "2026-08-23",
-     "label": "18-②",
-     "title": "18-②",
-     "url": "https://comic-growl.com/episodes/7c4333e0f18df"
-    },
-    {
-     "date": "2026-08-05",
-     "label": "18-①",
-     "title": "18-①",
-     "url": "https://comic-growl.com/episodes/f2f2fcbdb7123"
-    },
-    {
-     "date": "2026-07-15",
-     "label": "17-②",
-     "title": "17-②",
-     "url": "https://comic-growl.com/episodes/1dfce59dcf98e"
-    },
-    {
-     "date": "2026-07-07",
-     "label": "17-①",
-     "title": "17-①",
-     "url": "https://comic-growl.com/episodes/7c003819ecc2f"
-    },
-    {
-     "date": "2026-06-19",
-     "label": "16-②",
-     "title": "16-②",
-     "url": "https://comic-growl.com/episodes/9005f35897f0d"
-    },
-    {
-     "date": "2026-06-08",
-     "label": "16-①",
-     "title": "16-①",
-     "url": "https://comic-growl.com/episodes/09ac1166c9e77"
-    },
-    {
-     "date": "2026-05-22",
-     "label": "15-②",
-     "title": "15-②",
-     "url": "https://comic-growl.com/episodes/35027dc8e8625"
-    },
-    {
-     "date": "2026-05-07",
-     "label": "15-①",
-     "title": "15-①",
-     "url": "https://comic-growl.com/episodes/658403b22d642"
-    },
-    {
-     "date": "2026-04-29",
-     "label": "14-②",
-     "title": "14-②",
-     "url": "https://comic-growl.com/episodes/8557fa712a2eb"
-    },
-    {
-     "date": "2026-04-02",
-     "label": "14-①",
-     "title": "14-①",
-     "url": "https://comic-growl.com/episodes/c169696348700"
-    },
-    {
-     "date": "2026-03-27",
-     "label": "1",
-     "title": "1",
-     "url": "https://comic-growl.com/episodes/3954c1ce45d01"
-    }
-   ],
-   "latest": {
-    "date": "2026-11-05",
-    "label": "20-①",
-    "title": "20-①",
-    "url": "https://comic-growl.com/episodes/31a3c6ab9545a"
    },
    "paidHashes": null,
    "error": null
