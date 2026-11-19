@@ -1,7 +1,439 @@
 {
- "checkedAt": "2026-11-19T20:27:08+09:00",
+ "checkedAt": "2026-11-20T07:38:29+09:00",
  "bookmarkUrl": "https://webcomics.jp/bookmark/3682scqd",
  "works": [
+  {
+   "detailUrl": "https://webcomics.jp/shonenjump-plus/9253191254047172549",
+   "title": "世界を繋ぎ尽くすインターネット巫女",
+   "site": "少年ジャンプ+",
+   "thumbFile": "data/thumbs/208854.jpg",
+   "publisherUrl": "https://shonenjumpplus.com/episode/9253191254047172549",
+   "comicNo": 208854,
+   "history": [
+    {
+     "date": "2026-11-20",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191257982514161"
+    },
+    {
+     "date": "2026-11-13",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191257737710883"
+    },
+    {
+     "date": "2026-10-30",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191257538010425"
+    },
+    {
+     "date": "2026-10-23",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191257382361486"
+    },
+    {
+     "date": "2026-10-16",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191257227140373"
+    },
+    {
+     "date": "2026-10-02",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191256784142467"
+    },
+    {
+     "date": "2026-09-25",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191256672022886"
+    },
+    {
+     "date": "2026-09-18",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191256637716411"
+    },
+    {
+     "date": "2026-09-04",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191256340472698"
+    },
+    {
+     "date": "2026-08-28",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191256195090026"
+    },
+    {
+     "date": "2026-08-21",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191255890794437"
+    },
+    {
+     "date": "2026-08-07",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191255607513614"
+    },
+    {
+     "date": "2026-07-31",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191255561726002"
+    },
+    {
+     "date": "2026-07-24",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191255348930569"
+    },
+    {
+     "date": "2026-07-10",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191254933946767"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-20",
+    "label": "更新",
+    "title": "更新",
+    "url": "https://shonenjumpplus.com/episode/9253191257982514161"
+   },
+   "paidHashes": null,
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/manga-one/232321",
+   "title": "雷雷雷",
+   "site": "マンガワン",
+   "thumbFile": "data/thumbs/180196.jpg",
+   "publisherUrl": "https://manga-one.com/viewer/232321",
+   "comicNo": 180196,
+   "history": [
+    {
+     "date": "2026-11-20",
+     "label": "第54話(前編)",
+     "title": "第54話(前編)",
+     "url": "https://manga-one.com/manga/2341/chapter/361471"
+    },
+    {
+     "date": "2026-10-30",
+     "label": "第53話(後編)",
+     "title": "第53話(後編)",
+     "url": "https://manga-one.com/manga/2341/chapter/360304"
+    },
+    {
+     "date": "2026-10-23",
+     "label": "第53話(前編)",
+     "title": "第53話(前編)",
+     "url": "https://manga-one.com/manga/2341/chapter/359872"
+    },
+    {
+     "date": "2026-10-09",
+     "label": "第52話(後編)",
+     "title": "第52話(後編)",
+     "url": "https://manga-one.com/manga/2341/chapter/359149"
+    },
+    {
+     "date": "2026-10-02",
+     "label": "第52話(中編)",
+     "title": "第52話(中編)",
+     "url": "https://manga-one.com/manga/2341/chapter/358948"
+    },
+    {
+     "date": "2026-09-11",
+     "label": "第52話(前編)",
+     "title": "第52話(前編)",
+     "url": "https://manga-one.com/manga/2341/chapter/358603"
+    },
+    {
+     "date": "2026-09-04",
+     "label": "第51話(後編)",
+     "title": "第51話(後編)",
+     "url": "https://manga-one.com/manga/2341/chapter/358093"
+    },
+    {
+     "date": "2026-08-14",
+     "label": "第51話(前編)",
+     "title": "第51話(前編)",
+     "url": "https://manga-one.com/manga/2341/chapter/357601"
+    },
+    {
+     "date": "2026-08-07",
+     "label": "第50話(後編)",
+     "title": "第50話(後編)",
+     "url": "https://manga-one.com/manga/2341/chapter/357232"
+    },
+    {
+     "date": "2026-07-31",
+     "label": "7巻コミックPR",
+     "title": "7巻コミックPR",
+     "url": "https://manga-one.com/manga/2341/chapter/357628"
+    },
+    {
+     "date": "2026-07-31",
+     "label": "第50話(前編)",
+     "title": "第50話(前編)",
+     "url": "https://manga-one.com/manga/2341/chapter/356650"
+    },
+    {
+     "date": "2026-07-10",
+     "label": "第49話(後編)",
+     "title": "第49話(後編)",
+     "url": "https://manga-one.com/manga/2341/chapter/356218"
+    },
+    {
+     "date": "2026-07-03",
+     "label": "第49話(前編)",
+     "title": "第49話(前編)",
+     "url": "https://manga-one.com/manga/2341/chapter/355618"
+    },
+    {
+     "date": "2026-06-12",
+     "label": "第48話(後編)",
+     "title": "第48話(後編)",
+     "url": "https://manga-one.com/manga/2341/chapter/355345"
+    },
+    {
+     "date": "2026-06-05",
+     "label": "第48話(前編)",
+     "title": "第48話(前編)",
+     "url": "https://manga-one.com/manga/2341/chapter/354631"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-20",
+    "label": "第54話(前編)",
+    "title": "第54話(前編)",
+    "url": "https://manga-one.com/manga/2341/chapter/361471"
+   },
+   "paidHashes": null,
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/ganganonline/1863",
+   "title": "異世界刀匠の魔剣製作ぐらし",
+   "site": "ガンガンONLINE",
+   "thumbFile": "data/thumbs/164154.jpg",
+   "publisherUrl": "https://www.ganganonline.com/title/1863",
+   "comicNo": 164154,
+   "history": [
+    {
+     "date": "2026-11-20",
+     "label": "2026.11.20更新",
+     "title": "2026.11.20更新",
+     "url": "https://www.ganganonline.com/title/1863/chapter/134339"
+    },
+    {
+     "date": "2026-11-13",
+     "label": "2026.11.13更新",
+     "title": "2026.11.13更新",
+     "url": "https://www.ganganonline.com/title/1863/chapter/134342"
+    },
+    {
+     "date": "2026-11-06",
+     "label": "2026.11.06更新",
+     "title": "2026.11.06更新",
+     "url": null
+    },
+    {
+     "date": "2026-10-30",
+     "label": "2026.10.30更新",
+     "title": "2026.10.30更新",
+     "url": null
+    },
+    {
+     "date": "2026-10-23",
+     "label": "2026.10.23更新",
+     "title": "2026.10.23更新",
+     "url": null
+    },
+    {
+     "date": "2026-10-16",
+     "label": "2026.10.16更新",
+     "title": "2026.10.16更新",
+     "url": null
+    },
+    {
+     "date": "2026-10-09",
+     "label": "2026.10.09更新",
+     "title": "2026.10.09更新",
+     "url": null
+    },
+    {
+     "date": "2026-10-02",
+     "label": "2026.10.02更新",
+     "title": "2026.10.02更新",
+     "url": null
+    },
+    {
+     "date": "2026-09-25",
+     "label": "2026.09.25更新",
+     "title": "2026.09.25更新",
+     "url": null
+    },
+    {
+     "date": "2026-09-18",
+     "label": "2026.09.18更新",
+     "title": "2026.09.18更新",
+     "url": null
+    },
+    {
+     "date": "2026-09-11",
+     "label": "2026.09.11更新",
+     "title": "2026.09.11更新",
+     "url": null
+    },
+    {
+     "date": "2026-09-04",
+     "label": "2026.09.04更新",
+     "title": "2026.09.04更新",
+     "url": null
+    },
+    {
+     "date": "2026-08-28",
+     "label": "2026.08.28更新",
+     "title": "2026.08.28更新",
+     "url": null
+    },
+    {
+     "date": "2026-08-21",
+     "label": "2026.08.21更新",
+     "title": "2026.08.21更新",
+     "url": null
+    },
+    {
+     "date": "2026-08-14",
+     "label": "2026.08.14更新",
+     "title": "2026.08.14更新",
+     "url": null
+    }
+   ],
+   "latest": {
+    "date": "2026-11-20",
+    "label": "2026.11.20更新",
+    "title": "2026.11.20更新",
+    "url": "https://www.ganganonline.com/title/1863/chapter/134339"
+   },
+   "paidHashes": null,
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/dre/CD00007",
+   "title": "ブレイド&バスタード",
+   "site": "ドリコミ+",
+   "thumbFile": "data/thumbs/153438.jpg",
+   "publisherUrl": "https://drecomi-plus.jp/series/CD00007",
+   "comicNo": 153438,
+   "history": [
+    {
+     "date": "2026-11-20",
+     "label": "2026年11月20日(金)",
+     "title": "2026年11月20日(金)",
+     "url": null
+    },
+    {
+     "date": "2026-11-06",
+     "label": "2026年11月6日(金)",
+     "title": "2026年11月6日(金)",
+     "url": null
+    },
+    {
+     "date": "2026-10-16",
+     "label": "2026年10月16日(金)",
+     "title": "2026年10月16日(金)",
+     "url": null
+    },
+    {
+     "date": "2026-10-02",
+     "label": "2026年10月2日(金)",
+     "title": "2026年10月2日(金)",
+     "url": null
+    },
+    {
+     "date": "2026-09-18",
+     "label": "2026年9月18日(金)",
+     "title": "2026年9月18日(金)",
+     "url": null
+    },
+    {
+     "date": "2026-09-04",
+     "label": "2026年9月4日(金)",
+     "title": "2026年9月4日(金)",
+     "url": null
+    },
+    {
+     "date": "2026-08-21",
+     "label": "2026年8月21日(金)",
+     "title": "2026年8月21日(金)",
+     "url": null
+    },
+    {
+     "date": "2026-08-07",
+     "label": "2026年8月7日(金)",
+     "title": "2026年8月7日(金)",
+     "url": null
+    },
+    {
+     "date": "2026-07-17",
+     "label": "2026年7月17日(金)",
+     "title": "2026年7月17日(金)",
+     "url": null
+    },
+    {
+     "date": "2026-07-03",
+     "label": "2026年7月3日(金)",
+     "title": "2026年7月3日(金)",
+     "url": null
+    },
+    {
+     "date": "2026-06-19",
+     "label": "2026年6月19日(金)",
+     "title": "2026年6月19日(金)",
+     "url": null
+    },
+    {
+     "date": "2026-06-05",
+     "label": "2026年6月5日(金)",
+     "title": "2026年6月5日(金)",
+     "url": null
+    },
+    {
+     "date": "2026-05-15",
+     "label": "2026年5月15日(金)",
+     "title": "2026年5月15日(金)",
+     "url": null
+    },
+    {
+     "date": "2026-05-01",
+     "label": "2026年5月1日(金)",
+     "title": "2026年5月1日(金)",
+     "url": null
+    },
+    {
+     "date": "2026-04-27",
+     "label": "2026年4月27日(月)",
+     "title": "2026年4月27日(月)",
+     "url": null
+    }
+   ],
+   "latest": {
+    "date": "2026-11-20",
+    "label": "2026年11月20日(金)",
+    "title": "2026年11月20日(金)",
+    "url": null
+   },
+   "paidHashes": null,
+   "error": null
+  },
   {
    "detailUrl": "https://webcomics.jp/comic-earthstar/14079602755509017304",
    "title": "異世界転移して教師になったが、魔女と恐れられている件 ～アオイ先生の学園奮闘日誌～",
@@ -11,7 +443,7 @@
    "comicNo": 154433,
    "history": [
     {
-     "date": "2026-11-19",
+     "date": "2026-11-20",
      "label": "第38話②",
      "title": "第38話②",
      "url": "https://comic-earthstar.com/episode/12207421984416151173"
@@ -102,7 +534,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "label": "第38話②",
     "title": "第38話②",
     "url": "https://comic-earthstar.com/episode/12207421984416151173"
@@ -119,7 +551,7 @@
    "comicNo": 109634,
    "history": [
     {
-     "date": "2026-11-19",
+     "date": "2026-11-20",
      "label": "第30話 前編",
      "title": "第30話 前編",
      "url": "https://comic-earthstar.com/episode/12207421984217651826"
@@ -210,7 +642,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "label": "第30話 前編",
     "title": "第30話 前編",
     "url": "https://comic-earthstar.com/episode/12207421984217651826"
@@ -227,7 +659,7 @@
    "comicNo": 101733,
    "history": [
     {
-     "date": "2026-11-19",
+     "date": "2026-11-20",
      "label": "第43話①",
      "title": "第43話①",
      "url": "https://comic-earthstar.com/episode/12207421984417042071"
@@ -318,7 +750,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "label": "第43話①",
     "title": "第43話①",
     "url": "https://comic-earthstar.com/episode/12207421984417042071"
@@ -335,7 +767,7 @@
    "comicNo": 84574,
    "history": [
     {
-     "date": "2026-11-19",
+     "date": "2026-11-20",
      "label": "第78話②",
      "title": "第78話②",
      "url": "https://comic-earthstar.com/episode/12207421984416150598"
@@ -426,7 +858,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "label": "第78話②",
     "title": "第78話②",
     "url": "https://comic-earthstar.com/episode/12207421984416150598"
@@ -443,7 +875,7 @@
    "comicNo": 83064,
    "history": [
     {
-     "date": "2026-11-19",
+     "date": "2026-11-20",
      "label": "第59話①",
      "title": "第59話①",
      "url": "https://comic-earthstar.com/episode/12207421984217651716"
@@ -534,7 +966,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "label": "第59話①",
     "title": "第59話①",
     "url": "https://comic-earthstar.com/episode/12207421984217651716"
@@ -551,7 +983,7 @@
    "comicNo": 152717,
    "history": [
     {
-     "date": "2026-11-19",
+     "date": "2026-11-20",
      "label": "第18話",
      "title": "第18話",
      "url": "https://comic-days.com/episode/4856001361264085543"
@@ -642,7 +1074,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "label": "第18話",
     "title": "第18話",
     "url": "https://comic-days.com/episode/4856001361264085543"
@@ -767,7 +1199,7 @@
    "comicNo": 144147,
    "history": [
     {
-     "date": "2026-11-19",
+     "date": "2026-11-20",
      "label": "更新",
      "title": "更新",
      "url": "https://comic-days.com/episode/12207421983947538065"
@@ -858,7 +1290,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "label": "更新",
     "title": "更新",
     "url": "https://comic-days.com/episode/12207421983947538065"
@@ -875,7 +1307,7 @@
    "comicNo": 58768,
    "history": [
     {
-     "date": "2026-11-19",
+     "date": "2026-11-20",
      "label": "第71話 「サロモンさん」",
      "title": "第71話 「サロモンさん」",
      "url": "https://comic-walker.com/detail/KC_002221_S/episodes/KC_0022210007500011_E?episodeType=latest"
@@ -967,7 +1399,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "label": "第71話 「サロモンさん」",
     "title": "第71話 「サロモンさん」",
     "url": "https://comic-walker.com/detail/KC_002221_S/episodes/KC_0022210007500011_E?episodeType=latest"
@@ -984,7 +1416,7 @@
    "comicNo": 191881,
    "history": [
     {
-     "date": "2026-11-19",
+     "date": "2026-11-20",
      "label": "第35話",
      "title": "第35話",
      "url": "https://comic-walker.com/detail/KC_006847_S/episodes/KC_0068470003700011_E?episodeType=latest"
@@ -1075,7 +1507,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "label": "第35話",
     "title": "第35話",
     "url": "https://comic-walker.com/detail/KC_006847_S/episodes/KC_0068470003700011_E?episodeType=latest"
@@ -1092,7 +1524,7 @@
    "comicNo": 139282,
    "history": [
     {
-     "date": "2026-11-19",
+     "date": "2026-11-20",
      "label": "第93話 この先、言い訳が必要だ(後編)",
      "title": "第93話 この先、言い訳が必要だ(後編)",
      "url": "https://comic-walker.com/detail/KC_002683_S/episodes/KC_0026830009900021_E?episodeType=latest"
@@ -1184,7 +1616,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "label": "第93話 この先、言い訳が必要だ(後編)",
     "title": "第93話 この先、言い訳が必要だ(後編)",
     "url": "https://comic-walker.com/detail/KC_002683_S/episodes/KC_0026830009900021_E?episodeType=latest"
@@ -1201,7 +1633,7 @@
    "comicNo": 114429,
    "history": [
     {
-     "date": "2026-11-19",
+     "date": "2026-11-20",
      "label": "第48話",
      "title": "第48話",
      "url": "https://comic-walker.com/detail/KC_001699_S/episodes/KC_0016990005600011_E?episodeType=latest"
@@ -1294,7 +1726,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "label": "第48話",
     "title": "第48話",
     "url": "https://comic-walker.com/detail/KC_001699_S/episodes/KC_0016990005600011_E?episodeType=latest"
@@ -9245,114 +9677,6 @@
    "error": null
   },
   {
-   "detailUrl": "https://webcomics.jp/shonenjump-plus/9253191254047172549",
-   "title": "世界を繋ぎ尽くすインターネット巫女",
-   "site": "少年ジャンプ+",
-   "thumbFile": "data/thumbs/208854.jpg",
-   "publisherUrl": "https://shonenjumpplus.com/episode/9253191254047172549",
-   "comicNo": 208854,
-   "history": [
-    {
-     "date": "2026-11-13",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191257737710883"
-    },
-    {
-     "date": "2026-10-30",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191257538010425"
-    },
-    {
-     "date": "2026-10-23",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191257382361486"
-    },
-    {
-     "date": "2026-10-16",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191257227140373"
-    },
-    {
-     "date": "2026-10-02",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191256784142467"
-    },
-    {
-     "date": "2026-09-25",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191256672022886"
-    },
-    {
-     "date": "2026-09-18",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191256637716411"
-    },
-    {
-     "date": "2026-09-04",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191256340472698"
-    },
-    {
-     "date": "2026-08-28",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191256195090026"
-    },
-    {
-     "date": "2026-08-21",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191255890794437"
-    },
-    {
-     "date": "2026-08-07",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191255607513614"
-    },
-    {
-     "date": "2026-07-31",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191255561726002"
-    },
-    {
-     "date": "2026-07-24",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191255348930569"
-    },
-    {
-     "date": "2026-07-10",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191254933946767"
-    },
-    {
-     "date": "2026-07-03",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191254783402744"
-    }
-   ],
-   "latest": {
-    "date": "2026-11-13",
-    "label": "更新",
-    "title": "更新",
-    "url": "https://shonenjumpplus.com/episode/9253191257737710883"
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
    "detailUrl": "https://webcomics.jp/magapoke/01349",
    "title": "さわらないで小手指くん",
    "site": "マガポケ",
@@ -9456,114 +9780,6 @@
     "label": "更新",
     "title": "更新",
     "url": "https://pocket.shonenmagazine.com/title/01349/episode/446087"
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
-   "detailUrl": "https://webcomics.jp/ganganonline/1863",
-   "title": "異世界刀匠の魔剣製作ぐらし",
-   "site": "ガンガンONLINE",
-   "thumbFile": "data/thumbs/164154.jpg",
-   "publisherUrl": "https://www.ganganonline.com/title/1863",
-   "comicNo": 164154,
-   "history": [
-    {
-     "date": "2026-11-13",
-     "label": "2026.11.13更新",
-     "title": "2026.11.13更新",
-     "url": "https://www.ganganonline.com/title/1863/chapter/134342"
-    },
-    {
-     "date": "2026-11-06",
-     "label": "2026.11.06更新",
-     "title": "2026.11.06更新",
-     "url": "https://www.ganganonline.com/title/1863/chapter/133805"
-    },
-    {
-     "date": "2026-10-30",
-     "label": "2026.10.30更新",
-     "title": "2026.10.30更新",
-     "url": null
-    },
-    {
-     "date": "2026-10-23",
-     "label": "2026.10.23更新",
-     "title": "2026.10.23更新",
-     "url": null
-    },
-    {
-     "date": "2026-10-16",
-     "label": "2026.10.16更新",
-     "title": "2026.10.16更新",
-     "url": null
-    },
-    {
-     "date": "2026-10-09",
-     "label": "2026.10.09更新",
-     "title": "2026.10.09更新",
-     "url": null
-    },
-    {
-     "date": "2026-10-02",
-     "label": "2026.10.02更新",
-     "title": "2026.10.02更新",
-     "url": null
-    },
-    {
-     "date": "2026-09-25",
-     "label": "2026.09.25更新",
-     "title": "2026.09.25更新",
-     "url": null
-    },
-    {
-     "date": "2026-09-18",
-     "label": "2026.09.18更新",
-     "title": "2026.09.18更新",
-     "url": null
-    },
-    {
-     "date": "2026-09-11",
-     "label": "2026.09.11更新",
-     "title": "2026.09.11更新",
-     "url": null
-    },
-    {
-     "date": "2026-09-04",
-     "label": "2026.09.04更新",
-     "title": "2026.09.04更新",
-     "url": null
-    },
-    {
-     "date": "2026-08-28",
-     "label": "2026.08.28更新",
-     "title": "2026.08.28更新",
-     "url": null
-    },
-    {
-     "date": "2026-08-21",
-     "label": "2026.08.21更新",
-     "title": "2026.08.21更新",
-     "url": null
-    },
-    {
-     "date": "2026-08-14",
-     "label": "2026.08.14更新",
-     "title": "2026.08.14更新",
-     "url": null
-    },
-    {
-     "date": "2026-08-07",
-     "label": "2026.08.07更新",
-     "title": "2026.08.07更新",
-     "url": null
-    }
-   ],
-   "latest": {
-    "date": "2026-11-13",
-    "label": "2026.11.13更新",
-    "title": "2026.11.13更新",
-    "url": "https://www.ganganonline.com/title/1863/chapter/134342"
    },
    "paidHashes": null,
    "error": null
@@ -14659,114 +14875,6 @@
    "error": null
   },
   {
-   "detailUrl": "https://webcomics.jp/dre/CD00007",
-   "title": "ブレイド&バスタード",
-   "site": "ドリコミ+",
-   "thumbFile": "data/thumbs/153438.jpg",
-   "publisherUrl": "https://drecomi-plus.jp/series/CD00007",
-   "comicNo": 153438,
-   "history": [
-    {
-     "date": "2026-11-06",
-     "label": "2026年11月6日(金)",
-     "title": "2026年11月6日(金)",
-     "url": null
-    },
-    {
-     "date": "2026-10-16",
-     "label": "2026年10月16日(金)",
-     "title": "2026年10月16日(金)",
-     "url": null
-    },
-    {
-     "date": "2026-10-02",
-     "label": "2026年10月2日(金)",
-     "title": "2026年10月2日(金)",
-     "url": null
-    },
-    {
-     "date": "2026-09-18",
-     "label": "2026年9月18日(金)",
-     "title": "2026年9月18日(金)",
-     "url": null
-    },
-    {
-     "date": "2026-09-04",
-     "label": "2026年9月4日(金)",
-     "title": "2026年9月4日(金)",
-     "url": null
-    },
-    {
-     "date": "2026-08-21",
-     "label": "2026年8月21日(金)",
-     "title": "2026年8月21日(金)",
-     "url": null
-    },
-    {
-     "date": "2026-08-07",
-     "label": "2026年8月7日(金)",
-     "title": "2026年8月7日(金)",
-     "url": null
-    },
-    {
-     "date": "2026-07-17",
-     "label": "2026年7月17日(金)",
-     "title": "2026年7月17日(金)",
-     "url": null
-    },
-    {
-     "date": "2026-07-03",
-     "label": "2026年7月3日(金)",
-     "title": "2026年7月3日(金)",
-     "url": null
-    },
-    {
-     "date": "2026-06-19",
-     "label": "2026年6月19日(金)",
-     "title": "2026年6月19日(金)",
-     "url": null
-    },
-    {
-     "date": "2026-06-05",
-     "label": "2026年6月5日(金)",
-     "title": "2026年6月5日(金)",
-     "url": null
-    },
-    {
-     "date": "2026-05-15",
-     "label": "2026年5月15日(金)",
-     "title": "2026年5月15日(金)",
-     "url": null
-    },
-    {
-     "date": "2026-05-01",
-     "label": "2026年5月1日(金)",
-     "title": "2026年5月1日(金)",
-     "url": null
-    },
-    {
-     "date": "2026-04-27",
-     "label": "2026年4月27日(月)",
-     "title": "2026年4月27日(月)",
-     "url": null
-    },
-    {
-     "date": "2026-03-20",
-     "label": "2026年3月20日",
-     "title": "2026年3月20日",
-     "url": null
-    }
-   ],
-   "latest": {
-    "date": "2026-11-06",
-    "label": "2026年11月6日(金)",
-    "title": "2026年11月6日(金)",
-    "url": null
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
    "detailUrl": "https://webcomics.jp/comic-earthstar/14079602755509014457",
    "title": "冒険者になりたいと都に出て行った娘がSランクになってた 黒髪の戦乙女",
    "site": "コミック アース・スター",
@@ -16708,114 +16816,6 @@
     "label": "2026/10/30 更新",
     "title": "2026/10/30 更新",
     "url": "https://manga.nicovideo.jp/comic/46238/new"
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
-   "detailUrl": "https://webcomics.jp/manga-one/232321",
-   "title": "雷雷雷",
-   "site": "マンガワン",
-   "thumbFile": "data/thumbs/180196.jpg",
-   "publisherUrl": "https://manga-one.com/viewer/232321",
-   "comicNo": 180196,
-   "history": [
-    {
-     "date": "2026-10-30",
-     "label": "第53話(後編)",
-     "title": "第53話(後編)",
-     "url": "https://manga-one.com/manga/2341/chapter/360304"
-    },
-    {
-     "date": "2026-10-23",
-     "label": "第53話(前編)",
-     "title": "第53話(前編)",
-     "url": "https://manga-one.com/manga/2341/chapter/359872"
-    },
-    {
-     "date": "2026-10-09",
-     "label": "第52話(後編)",
-     "title": "第52話(後編)",
-     "url": "https://manga-one.com/manga/2341/chapter/359149"
-    },
-    {
-     "date": "2026-10-02",
-     "label": "第52話(中編)",
-     "title": "第52話(中編)",
-     "url": "https://manga-one.com/manga/2341/chapter/358948"
-    },
-    {
-     "date": "2026-09-11",
-     "label": "第52話(前編)",
-     "title": "第52話(前編)",
-     "url": "https://manga-one.com/manga/2341/chapter/358603"
-    },
-    {
-     "date": "2026-09-04",
-     "label": "第51話(後編)",
-     "title": "第51話(後編)",
-     "url": "https://manga-one.com/manga/2341/chapter/358093"
-    },
-    {
-     "date": "2026-08-14",
-     "label": "第51話(前編)",
-     "title": "第51話(前編)",
-     "url": "https://manga-one.com/manga/2341/chapter/357601"
-    },
-    {
-     "date": "2026-08-07",
-     "label": "第50話(後編)",
-     "title": "第50話(後編)",
-     "url": "https://manga-one.com/manga/2341/chapter/357232"
-    },
-    {
-     "date": "2026-07-31",
-     "label": "7巻コミックPR",
-     "title": "7巻コミックPR",
-     "url": "https://manga-one.com/manga/2341/chapter/357628"
-    },
-    {
-     "date": "2026-07-31",
-     "label": "第50話(前編)",
-     "title": "第50話(前編)",
-     "url": "https://manga-one.com/manga/2341/chapter/356650"
-    },
-    {
-     "date": "2026-07-10",
-     "label": "第49話(後編)",
-     "title": "第49話(後編)",
-     "url": "https://manga-one.com/manga/2341/chapter/356218"
-    },
-    {
-     "date": "2026-07-03",
-     "label": "第49話(前編)",
-     "title": "第49話(前編)",
-     "url": "https://manga-one.com/manga/2341/chapter/355618"
-    },
-    {
-     "date": "2026-06-12",
-     "label": "第48話(後編)",
-     "title": "第48話(後編)",
-     "url": "https://manga-one.com/manga/2341/chapter/355345"
-    },
-    {
-     "date": "2026-06-05",
-     "label": "第48話(前編)",
-     "title": "第48話(前編)",
-     "url": "https://manga-one.com/manga/2341/chapter/354631"
-    },
-    {
-     "date": "2026-05-15",
-     "label": "第47話(後編)",
-     "title": "第47話(後編)",
-     "url": "https://manga-one.com/manga/2341/chapter/354331"
-    }
-   ],
-   "latest": {
-    "date": "2026-10-30",
-    "label": "第53話(後編)",
-    "title": "第53話(後編)",
-    "url": "https://manga-one.com/manga/2341/chapter/360304"
    },
    "paidHashes": null,
    "error": null
