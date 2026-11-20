@@ -1,7 +1,659 @@
 {
- "checkedAt": "2026-11-20T11:35:37+09:00",
+ "checkedAt": "2026-11-20T12:32:00+09:00",
  "bookmarkUrl": "https://webcomics.jp/bookmark/3682scqd",
  "works": [
+  {
+   "detailUrl": "https://webcomics.jp/comic-walker/KC_000336_S",
+   "title": "限界超えの天賦は、転生者にしか扱えない ― オーバーリミット・スキルホルダー ―",
+   "site": "カドコミ",
+   "thumbFile": "data/thumbs/111992.jpg",
+   "publisherUrl": "https://comic-walker.com/detail/KC_000336_S",
+   "comicNo": 111992,
+   "history": [
+    {
+     "date": "2026-11-20",
+     "label": "第3章[29]後半",
+     "title": "第3章[29]後半",
+     "url": "https://comic-walker.com/detail/KC_000336_S/episodes/KC_0003360007500021_E?episodeType=latest"
+    },
+    {
+     "date": "2026-11-06",
+     "label": "第3章[29]前半",
+     "title": "第3章[29]前半",
+     "url": "https://comic-walker.com/detail/KC_000336_S/episodes/KC_0003360007500011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-10-16",
+     "label": "第3章[28]後半",
+     "title": "第3章[28]後半",
+     "url": "https://comic-walker.com/detail/KC_000336_S/episodes/KC_0003360007400021_E?episodeType=latest"
+    },
+    {
+     "date": "2026-10-02",
+     "label": "第3章[28]前半",
+     "title": "第3章[28]前半",
+     "url": "https://comic-walker.com/detail/KC_000336_S/episodes/KC_0003360007400011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-09-18",
+     "label": "コミックス第4巻PRマンガ",
+     "title": "コミックス第4巻PRマンガ",
+     "url": "https://comic-walker.com/detail/KC_000336_S/episodes/KC_0003360003700011_E?co=true&episodeType=latest"
+    },
+    {
+     "date": "2026-09-18",
+     "label": "第3章[27]後半",
+     "title": "第3章[27]後半",
+     "url": "https://comic-walker.com/detail/KC_000336_S/episodes/KC_0003360007300021_E?episodeType=latest"
+    },
+    {
+     "date": "2026-09-04",
+     "label": "第3章[27]前半",
+     "title": "第3章[27]前半",
+     "url": "https://comic-walker.com/detail/KC_000336_S/episodes/KC_0003360007300011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-08-21",
+     "label": "第3章[26]後半",
+     "title": "第3章[26]後半",
+     "url": "https://comic-walker.com/detail/KC_000336_S/episodes/KC_0003360007200021_E?episodeType=latest"
+    },
+    {
+     "date": "2026-08-07",
+     "label": "第3章[26]前半",
+     "title": "第3章[26]前半",
+     "url": "https://comic-walker.com/detail/KC_000336_S/episodes/KC_0003360007200011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-07-17",
+     "label": "第3章[25]後半",
+     "title": "第3章[25]後半",
+     "url": "https://comic-walker.com/detail/KC_000336_S/episodes/KC_0003360007100021_E?episodeType=latest"
+    },
+    {
+     "date": "2026-07-03",
+     "label": "第3章[25]前半",
+     "title": "第3章[25]前半",
+     "url": "https://comic-walker.com/detail/KC_000336_S/episodes/KC_0003360007100011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-06-05",
+     "label": "第3章[24]",
+     "title": "第3章[24]",
+     "url": "https://comic-walker.com/detail/KC_000336_S/episodes/KC_0003360007000011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-05-15",
+     "label": "第3章[23]後半",
+     "title": "第3章[23]後半",
+     "url": "https://comic-walker.com/detail/KC_000336_S/episodes/KC_0003360006900021_E?episodeType=latest"
+    },
+    {
+     "date": "2026-05-01",
+     "label": "第3章[23]前半",
+     "title": "第3章[23]前半",
+     "url": "https://comic-walker.com/detail/KC_000336_S/episodes/KC_0003360006900011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-04-17",
+     "label": "第3章[22]後半",
+     "title": "第3章[22]後半",
+     "url": "https://comic-walker.com/detail/KC_000336_S/episodes/KC_0003360006800021_E?episodeType=latest"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-20",
+    "label": "第3章[29]後半",
+    "title": "第3章[29]後半",
+    "url": "https://comic-walker.com/detail/KC_000336_S/episodes/KC_0003360007500021_E?episodeType=latest"
+   },
+   "paidHashes": null,
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/comic-walker/KC_004390_S",
+   "title": "召喚された賢者は異世界を往く～最強なのは不要在庫のアイテムでした～",
+   "site": "カドコミ",
+   "thumbFile": "data/thumbs/87641.jpg",
+   "publisherUrl": "https://comic-walker.com/detail/KC_004390_S",
+   "comicNo": 87641,
+   "history": [
+    {
+     "date": "2026-11-20",
+     "label": "第63話②",
+     "title": "第63話②",
+     "url": "https://comic-walker.com/detail/KC_004390_S/episodes/KC_0043900006500021_E?episodeType=latest"
+    },
+    {
+     "date": "2026-11-06",
+     "label": "第63話①",
+     "title": "第63話①",
+     "url": "https://comic-walker.com/detail/KC_004390_S/episodes/KC_0043900006500011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-10-07",
+     "label": "第62話②",
+     "title": "第62話②",
+     "url": "https://comic-walker.com/detail/KC_004390_S/episodes/KC_0043900006400021_E?episodeType=latest"
+    },
+    {
+     "date": "2026-09-16",
+     "label": "第62話①",
+     "title": "第62話①",
+     "url": "https://comic-walker.com/detail/KC_004390_S/episodes/KC_0043900006400011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-08-05",
+     "label": "第61話②",
+     "title": "第61話②",
+     "url": "https://comic-walker.com/detail/KC_004390_S/episodes/KC_0043900006300021_E?episodeType=latest"
+    },
+    {
+     "date": "2026-06-24",
+     "label": "第61話",
+     "title": "第61話",
+     "url": "https://comic-walker.com/detail/KC_004390_S/episodes/KC_0043900006300011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-05-10",
+     "label": "第60話",
+     "title": "第60話",
+     "url": "https://comic-walker.com/detail/KC_004390_S/episodes/KC_0043900006200011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-04-08",
+     "label": "第59話",
+     "title": "第59話",
+     "url": "https://comic-walker.com/detail/KC_004390_S/episodes/KC_0043900006100011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-03-10",
+     "label": "第58話②",
+     "title": "第58話②",
+     "url": "https://comic-walker.com/detail/KC_004390_S/episodes/KC_0043900006000021_E?episodeType=latest"
+    },
+    {
+     "date": "2026-02-27",
+     "label": "第58話①",
+     "title": "第58話①",
+     "url": "https://comic-walker.com/detail/KC_004390_S/episodes/KC_0043900006000011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-01-24",
+     "label": "第57話②",
+     "title": "第57話②",
+     "url": "https://comic-walker.com/detail/KC_004390_S/episodes/KC_0043900005900021_E?episodeType=latest"
+    },
+    {
+     "date": "2025-12-25",
+     "label": "第57話①",
+     "title": "第57話①",
+     "url": "https://comic-walker.com/detail/KC_004390_S/episodes/KC_0043900005900011_E?episodeType=latest"
+    },
+    {
+     "date": "2025-11-14",
+     "label": "第56話",
+     "title": "第56話",
+     "url": "https://comic-walker.com/detail/KC_004390_S/episodes/KC_0043900005800011_E?episodeType=latest"
+    },
+    {
+     "date": "2025-10-10",
+     "label": "第55話",
+     "title": "第55話",
+     "url": "https://comic-walker.com/detail/KC_004390_S/episodes/KC_0043900005700011_E?episodeType=latest"
+    },
+    {
+     "date": "2025-08-20",
+     "label": "第54話②",
+     "title": "第54話②",
+     "url": "https://comic-walker.com/detail/KC_004390_S/episodes/KC_0043900005600021_E?episodeType=latest"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-20",
+    "label": "第63話②",
+    "title": "第63話②",
+    "url": "https://comic-walker.com/detail/KC_004390_S/episodes/KC_0043900006500021_E?episodeType=latest"
+   },
+   "paidHashes": null,
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/comic-walker/KC_005278_S",
+   "title": "ノロマ魔法と呼ばれた魔法使いは重力魔法で無双する ～まだ重力の概念のない世界にて、少年は万有引力の王...",
+   "site": "カドコミ",
+   "thumbFile": "data/thumbs/161462.jpg",
+   "publisherUrl": "https://comic-walker.com/detail/KC_005278_S",
+   "comicNo": 161462,
+   "history": [
+    {
+     "date": "2026-11-20",
+     "label": "第30話①",
+     "title": "第30話①",
+     "url": "https://comic-walker.com/detail/KC_005278_S/episodes/KC_0052780005200011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-10-30",
+     "label": "第29話④",
+     "title": "第29話④",
+     "url": "https://comic-walker.com/detail/KC_005278_S/episodes/KC_0052780005100041_E?episodeType=latest"
+    },
+    {
+     "date": "2026-10-16",
+     "label": "第29話③",
+     "title": "第29話③",
+     "url": "https://comic-walker.com/detail/KC_005278_S/episodes/KC_0052780005100031_E?episodeType=latest"
+    },
+    {
+     "date": "2026-10-02",
+     "label": "第29話➁",
+     "title": "第29話➁",
+     "url": "https://comic-walker.com/detail/KC_005278_S/episodes/KC_0052780005100021_E?episodeType=latest"
+    },
+    {
+     "date": "2026-09-18",
+     "label": "第29話①",
+     "title": "第29話①",
+     "url": "https://comic-walker.com/detail/KC_005278_S/episodes/KC_0052780005100011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-09-11",
+     "label": "第28話④",
+     "title": "第28話④",
+     "url": "https://comic-walker.com/detail/KC_005278_S/episodes/KC_0052780005000041_E?episodeType=latest"
+    },
+    {
+     "date": "2026-09-04",
+     "label": "第28話③",
+     "title": "第28話③",
+     "url": "https://comic-walker.com/detail/KC_005278_S/episodes/KC_0052780005000031_E?episodeType=latest"
+    },
+    {
+     "date": "2026-08-28",
+     "label": "第28話➁",
+     "title": "第28話➁",
+     "url": "https://comic-walker.com/detail/KC_005278_S/episodes/KC_0052780005000021_E?episodeType=latest"
+    },
+    {
+     "date": "2026-08-21",
+     "label": "第28話①",
+     "title": "第28話①",
+     "url": "https://comic-walker.com/detail/KC_005278_S/episodes/KC_0052780005000011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-08-14",
+     "label": "第27話・下③",
+     "title": "第27話・下③",
+     "url": "https://comic-walker.com/detail/KC_005278_S/episodes/KC_0052780004900051_E?episodeType=latest"
+    },
+    {
+     "date": "2026-07-31",
+     "label": "第27話・下➁",
+     "title": "第27話・下➁",
+     "url": "https://comic-walker.com/detail/KC_005278_S/episodes/KC_0052780004900041_E?episodeType=latest"
+    },
+    {
+     "date": "2026-07-17",
+     "label": "第27話・下①",
+     "title": "第27話・下①",
+     "url": "https://comic-walker.com/detail/KC_005278_S/episodes/KC_0052780004900031_E?episodeType=latest"
+    },
+    {
+     "date": "2026-07-10",
+     "label": "第27話・上➁",
+     "title": "第27話・上➁",
+     "url": "https://comic-walker.com/detail/KC_005278_S/episodes/KC_0052780004900021_E?episodeType=latest"
+    },
+    {
+     "date": "2026-06-26",
+     "label": "第27話・上①",
+     "title": "第27話・上①",
+     "url": "https://comic-walker.com/detail/KC_005278_S/episodes/KC_0052780004900011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-06-19",
+     "label": "描き下ろしイラスト公開!⑯",
+     "title": "描き下ろしイラスト公開!⑯",
+     "url": "https://comic-walker.com/detail/KC_005278_S/episodes/KC_0052780004800011_E?episodeType=latest",
+     "extra": true
+    }
+   ],
+   "latest": {
+    "date": "2026-11-20",
+    "label": "第30話①",
+    "title": "第30話①",
+    "url": "https://comic-walker.com/detail/KC_005278_S/episodes/KC_0052780005200011_E?episodeType=latest"
+   },
+   "paidHashes": null,
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/comic-walker/KC_005090_S",
+   "title": "女友達は頼めば意外とヤらせてくれる",
+   "site": "カドコミ",
+   "thumbFile": "data/thumbs/158374.jpg",
+   "publisherUrl": "https://comic-walker.com/detail/KC_005090_S",
+   "comicNo": 158374,
+   "history": [
+    {
+     "date": "2026-11-20",
+     "label": "第36話②",
+     "title": "第36話②",
+     "url": "https://comic-walker.com/detail/KC_005090_S/episodes/KC_0050900004100021_E?episodeType=latest"
+    },
+    {
+     "date": "2026-10-23",
+     "label": "第36話①",
+     "title": "第36話①",
+     "url": "https://comic-walker.com/detail/KC_005090_S/episodes/KC_0050900004100011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-10-02",
+     "label": "第35話②",
+     "title": "第35話②",
+     "url": "https://comic-walker.com/detail/KC_005090_S/episodes/KC_0050900004000021_E?episodeType=latest"
+    },
+    {
+     "date": "2026-09-18",
+     "label": "第35話①",
+     "title": "第35話①",
+     "url": "https://comic-walker.com/detail/KC_005090_S/episodes/KC_0050900004000011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-09-04",
+     "label": "第34話②",
+     "title": "第34話②",
+     "url": "https://comic-walker.com/detail/KC_005090_S/episodes/KC_0050900003900021_E?episodeType=latest"
+    },
+    {
+     "date": "2026-08-21",
+     "label": "第34話①",
+     "title": "第34話①",
+     "url": "https://comic-walker.com/detail/KC_005090_S/episodes/KC_0050900003900011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-08-07",
+     "label": "特別イラスト2",
+     "title": "特別イラスト2",
+     "url": "https://comic-walker.com/detail/KC_005090_S/episodes/KC_0050900003800011_E?episodeType=latest",
+     "extra": true
+    },
+    {
+     "date": "2026-07-03",
+     "label": "特別イラスト",
+     "title": "特別イラスト",
+     "url": "https://comic-walker.com/detail/KC_005090_S/episodes/KC_0050900003700011_E?episodeType=latest",
+     "extra": true
+    },
+    {
+     "date": "2026-06-19",
+     "label": "第33話②",
+     "title": "第33話②",
+     "url": "https://comic-walker.com/detail/KC_005090_S/episodes/KC_0050900003600021_E?episodeType=latest"
+    },
+    {
+     "date": "2026-06-05",
+     "label": "第33話①",
+     "title": "第33話①",
+     "url": "https://comic-walker.com/detail/KC_005090_S/episodes/KC_0050900003600011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-05-15",
+     "label": "第32話②",
+     "title": "第32話②",
+     "url": "https://comic-walker.com/detail/KC_005090_S/episodes/KC_0050900003500021_E?episodeType=latest"
+    },
+    {
+     "date": "2026-05-01",
+     "label": "第32話①",
+     "title": "第32話①",
+     "url": "https://comic-walker.com/detail/KC_005090_S/episodes/KC_0050900003500011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-04-17",
+     "label": "第31話②",
+     "title": "第31話②",
+     "url": "https://comic-walker.com/detail/KC_005090_S/episodes/KC_0050900003400021_E?episodeType=latest"
+    },
+    {
+     "date": "2026-04-03",
+     "label": "第31話①",
+     "title": "第31話①",
+     "url": "https://comic-walker.com/detail/KC_005090_S/episodes/KC_0050900003400011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-04-01",
+     "label": "特別イラスト",
+     "title": "特別イラスト",
+     "url": "https://comic-walker.com/detail/KC_005090_S/episodes/KC_0050900001900011_E?co=true&episodeType=latest",
+     "extra": true
+    }
+   ],
+   "latest": {
+    "date": "2026-11-20",
+    "label": "第36話②",
+    "title": "第36話②",
+    "url": "https://comic-walker.com/detail/KC_005090_S/episodes/KC_0050900004100021_E?episodeType=latest"
+   },
+   "paidHashes": null,
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/kurage-bunch/14079602755558564262",
+   "title": "魔法医レクスの変態カルテ",
+   "site": "くらげバンチ",
+   "thumbFile": "data/thumbs/161754.jpg",
+   "publisherUrl": "https://kuragebunch.com/episode/14079602755558564262",
+   "comicNo": 161754,
+   "history": [
+    {
+     "date": "2026-11-20",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/12207421983746061525"
+    },
+    {
+     "date": "2026-06-26",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/12207421983559394874"
+    },
+    {
+     "date": "2026-05-29",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/12207421983462674572"
+    },
+    {
+     "date": "2026-04-10",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/2551460910093044889"
+    },
+    {
+     "date": "2026-03-13",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/2551460909807172820"
+    },
+    {
+     "date": "2026-02-06",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/2551460909680042087"
+    },
+    {
+     "date": "2026-01-23",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/2551460909913858690"
+    },
+    {
+     "date": "2026-01-16",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/2551460909913858684"
+    },
+    {
+     "date": "2026-01-09",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/2551460909913858678"
+    },
+    {
+     "date": "2025-12-19",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/2551460909567960309"
+    },
+    {
+     "date": "2025-11-21",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/2551460909787759956"
+    },
+    {
+     "date": "2025-10-10",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/2550912965982557875"
+    },
+    {
+     "date": "2025-09-12",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/2550912965822163442"
+    },
+    {
+     "date": "2025-07-18",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/2550912965702697807"
+    },
+    {
+     "date": "2025-06-13",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/2550912965414385197"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-20",
+    "label": "更新",
+    "title": "更新",
+    "url": "https://kuragebunch.com/episode/12207421983746061525"
+   },
+   "paidHashes": null,
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/kurage-bunch/2550689798358805953",
+   "title": "最後のレストラン Dante",
+   "site": "くらげバンチ",
+   "thumbFile": "data/thumbs/168153.jpg",
+   "publisherUrl": "https://kuragebunch.com/episode/2550689798358805953",
+   "comicNo": 168153,
+   "history": [
+    {
+     "date": "2026-11-20",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/12207421984378155799"
+    },
+    {
+     "date": "2026-11-06",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/12207421984237990642"
+    },
+    {
+     "date": "2026-10-23",
+     "label": "第29話 小野小町様①",
+     "title": "第29話 小野小町様①",
+     "url": "https://kuragebunch.com/episode/12207421984237990637"
+    },
+    {
+     "date": "2026-10-09",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/12207421984089367293"
+    },
+    {
+     "date": "2026-09-25",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/12207421984089367285"
+    },
+    {
+     "date": "2026-09-04",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/12207421983939304010"
+    },
+    {
+     "date": "2026-08-21",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/12207421983939303999"
+    },
+    {
+     "date": "2026-08-07",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/12207421983825596732"
+    },
+    {
+     "date": "2026-07-17",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/12207421983825596719"
+    },
+    {
+     "date": "2026-07-03",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/12207421983714804273"
+    },
+    {
+     "date": "2026-06-19",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/12207421983714804266"
+    },
+    {
+     "date": "2026-06-05",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/12207421983584658930"
+    },
+    {
+     "date": "2026-05-22",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://kuragebunch.com/episode/12207421983584658925"
+    },
+    {
+     "date": "2026-05-12",
+     "label": "第2話 ルイ16世②",
+     "title": "第2話 ルイ16世②",
+     "url": "https://kuragebunch.com/episode/2550689798358805972"
+    },
+    {
+     "date": "2026-05-12",
+     "label": "第2話 ルイ16世①",
+     "title": "第2話 ルイ16世①",
+     "url": "https://kuragebunch.com/episode/2550689798358805968"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-20",
+    "label": "更新",
+    "title": "更新",
+    "url": "https://kuragebunch.com/episode/12207421984378155799"
+   },
+   "paidHashes": null,
+   "error": null
+  },
   {
    "detailUrl": "https://webcomics.jp/seiga/56387",
    "title": "ダークサモナーとデキている",
@@ -1094,98 +1746,114 @@
      "date": "2026-11-20",
      "label": "第18話",
      "title": "第18話",
-     "url": "https://comic-days.com/episode/4856001361264085543"
+     "url": "https://comic-days.com/episode/4856001361264085543",
+     "epNo": 18
     },
     {
      "date": "2026-11-05",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983796398165"
+     "url": "https://comic-days.com/episode/12207421983796398165",
+     "epNo": 65
     },
     {
      "date": "2026-10-22",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983796398146"
+     "url": "https://comic-days.com/episode/12207421983796398146",
+     "epNo": 64
     },
     {
      "date": "2026-10-08",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983796398130"
+     "url": "https://comic-days.com/episode/12207421983796398130",
+     "epNo": 63
     },
     {
      "date": "2026-09-24",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983796398114"
+     "url": "https://comic-days.com/episode/12207421983796398114",
+     "epNo": 62
     },
     {
      "date": "2026-09-10",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983796398092"
+     "url": "https://comic-days.com/episode/12207421983796398092",
+     "epNo": 61
     },
     {
      "date": "2026-08-13",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2551460909968440725"
+     "url": "https://comic-days.com/episode/2551460909968440725",
+     "epNo": 60
     },
     {
      "date": "2026-08-13",
      "label": "第1話",
      "title": "第1話",
-     "url": "https://comic-days.com/episode/4856001361264085413"
+     "url": "https://comic-days.com/episode/4856001361264085413",
+     "epNo": 1
     },
     {
      "date": "2026-07-30",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2551460909968440717"
+     "url": "https://comic-days.com/episode/2551460909968440717",
+     "epNo": 59
     },
     {
      "date": "2026-07-16",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2551460909968440711"
+     "url": "https://comic-days.com/episode/2551460909968440711",
+     "epNo": 58
     },
     {
      "date": "2026-07-02",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2551460909968440702"
+     "url": "https://comic-days.com/episode/2551460909968440702",
+     "epNo": 57
     },
     {
      "date": "2026-06-28",
      "label": "第30話",
      "title": "第30話",
-     "url": "https://comic-days.com/episode/4856001361264085650"
+     "url": "https://comic-days.com/episode/4856001361264085650",
+     "epNo": 30
     },
     {
      "date": "2026-06-18",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2551460909968440689"
+     "url": "https://comic-days.com/episode/2551460909968440689",
+     "epNo": 56
     },
     {
      "date": "2026-06-04",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2551460909968440678"
+     "url": "https://comic-days.com/episode/2551460909968440678",
+     "epNo": 55
     },
     {
      "date": "2026-05-21",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2551460909968440669"
+     "url": "https://comic-days.com/episode/2551460909968440669",
+     "epNo": 54
     }
    ],
    "latest": {
-    "date": "2026-11-20",
-    "label": "第18話",
-    "title": "第18話",
-    "url": "https://comic-days.com/episode/4856001361264085543"
+    "date": "2026-11-05",
+    "label": "更新",
+    "title": "更新",
+    "url": "https://comic-days.com/episode/12207421983796398165",
+    "epNo": 65
    },
    "paidHashes": null,
    "error": null
@@ -1307,101 +1975,117 @@
    "comicNo": 144147,
    "history": [
     {
-     "date": "2026-11-20",
+     "date": "2026-11-19",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983947538065"
+     "url": "https://comic-days.com/episode/12207421983947538065",
+     "epNo": 80
     },
     {
      "date": "2026-11-05",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983947538059"
+     "url": "https://comic-days.com/episode/12207421983947538059",
+     "epNo": 79
     },
     {
      "date": "2026-10-22",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983947538055"
+     "url": "https://comic-days.com/episode/12207421983947538055",
+     "epNo": 78
     },
     {
      "date": "2026-10-08",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983947538051"
+     "url": "https://comic-days.com/episode/12207421983947538051",
+     "epNo": 77
     },
     {
      "date": "2026-09-24",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2551460909968440838"
+     "url": "https://comic-days.com/episode/2551460909968440838",
+     "epNo": 76
     },
     {
      "date": "2026-09-10",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2551460909968440829"
+     "url": "https://comic-days.com/episode/2551460909968440829",
+     "epNo": 75
     },
     {
      "date": "2026-08-27",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2551460909968440820"
+     "url": "https://comic-days.com/episode/2551460909968440820",
+     "epNo": 74
     },
     {
      "date": "2026-07-30",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2551460909968440806"
+     "url": "https://comic-days.com/episode/2551460909968440806",
+     "epNo": 73
     },
     {
      "date": "2026-07-16",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2551460909968440799"
+     "url": "https://comic-days.com/episode/2551460909968440799",
+     "epNo": 72
     },
     {
      "date": "2026-07-02",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2551460909968440793"
+     "url": "https://comic-days.com/episode/2551460909968440793",
+     "epNo": 71
     },
     {
      "date": "2026-06-28",
      "label": "第18話 蟲毒で藻搔く人たち",
      "title": "第18話 蟲毒で藻搔く人たち",
-     "url": "https://comic-days.com/episode/4856001361354896137"
+     "url": "https://comic-days.com/episode/4856001361354896137",
+     "epNo": 18
     },
     {
      "date": "2026-06-18",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2551460909968440787"
+     "url": "https://comic-days.com/episode/2551460909968440787",
+     "epNo": 70
     },
     {
      "date": "2026-06-04",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2551460909968440781"
+     "url": "https://comic-days.com/episode/2551460909968440781",
+     "epNo": 69
     },
     {
      "date": "2026-05-21",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2551460909968440775"
+     "url": "https://comic-days.com/episode/2551460909968440775",
+     "epNo": 68
     },
     {
      "date": "2026-05-17",
      "label": "第1話 相克の幕開き",
      "title": "第1話 相克の幕開き",
-     "url": "https://comic-days.com/episode/316190247015257701"
+     "url": "https://comic-days.com/episode/316190247015257701",
+     "epNo": 1
     }
    ],
    "latest": {
-    "date": "2026-11-20",
+    "date": "2026-11-19",
     "label": "更新",
     "title": "更新",
-    "url": "https://comic-days.com/episode/12207421983947538065"
+    "url": "https://comic-days.com/episode/12207421983947538065",
+    "epNo": 80
    },
    "paidHashes": null,
    "error": null
@@ -1415,7 +2099,7 @@
    "comicNo": 58768,
    "history": [
     {
-     "date": "2026-11-20",
+     "date": "2026-11-19",
      "label": "第71話 「サロモンさん」",
      "title": "第71話 「サロモンさん」",
      "url": "https://comic-walker.com/detail/KC_002221_S/episodes/KC_0022210007500011_E?episodeType=latest"
@@ -1507,7 +2191,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-20",
+    "date": "2026-11-19",
     "label": "第71話 「サロモンさん」",
     "title": "第71話 「サロモンさん」",
     "url": "https://comic-walker.com/detail/KC_002221_S/episodes/KC_0022210007500011_E?episodeType=latest"
@@ -1524,7 +2208,7 @@
    "comicNo": 191881,
    "history": [
     {
-     "date": "2026-11-20",
+     "date": "2026-11-19",
      "label": "第35話",
      "title": "第35話",
      "url": "https://comic-walker.com/detail/KC_006847_S/episodes/KC_0068470003700011_E?episodeType=latest"
@@ -1615,7 +2299,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-20",
+    "date": "2026-11-19",
     "label": "第35話",
     "title": "第35話",
     "url": "https://comic-walker.com/detail/KC_006847_S/episodes/KC_0068470003700011_E?episodeType=latest"
@@ -1632,7 +2316,7 @@
    "comicNo": 139282,
    "history": [
     {
-     "date": "2026-11-20",
+     "date": "2026-11-19",
      "label": "第93話 この先、言い訳が必要だ(後編)",
      "title": "第93話 この先、言い訳が必要だ(後編)",
      "url": "https://comic-walker.com/detail/KC_002683_S/episodes/KC_0026830009900021_E?episodeType=latest"
@@ -1724,7 +2408,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-20",
+    "date": "2026-11-19",
     "label": "第93話 この先、言い訳が必要だ(後編)",
     "title": "第93話 この先、言い訳が必要だ(後編)",
     "url": "https://comic-walker.com/detail/KC_002683_S/episodes/KC_0026830009900021_E?episodeType=latest"
@@ -1741,7 +2425,7 @@
    "comicNo": 114429,
    "history": [
     {
-     "date": "2026-11-20",
+     "date": "2026-11-19",
      "label": "第48話",
      "title": "第48話",
      "url": "https://comic-walker.com/detail/KC_001699_S/episodes/KC_0016990005600011_E?episodeType=latest"
@@ -1834,7 +2518,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-20",
+    "date": "2026-11-19",
     "label": "第48話",
     "title": "第48話",
     "url": "https://comic-walker.com/detail/KC_001699_S/episodes/KC_0016990005600011_E?episodeType=latest"
@@ -3044,37 +3728,43 @@
      "date": "2026-11-18",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983379583689"
+     "url": "https://comic-days.com/episode/12207421983379583689",
+     "epNo": 59
     },
     {
      "date": "2026-11-04",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983379583686"
+     "url": "https://comic-days.com/episode/12207421983379583686",
+     "epNo": 58
     },
     {
      "date": "2026-10-21",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983379583683"
+     "url": "https://comic-days.com/episode/12207421983379583683",
+     "epNo": 57
     },
     {
      "date": "2026-10-07",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983379583676"
+     "url": "https://comic-days.com/episode/12207421983379583676",
+     "epNo": 56
     },
     {
      "date": "2026-09-22",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983379583672"
+     "url": "https://comic-days.com/episode/12207421983379583672",
+     "epNo": 55
     },
     {
      "date": "2026-09-08",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983379583669"
+     "url": "https://comic-days.com/episode/12207421983379583669",
+     "epNo": 54
     },
     {
      "date": "2026-08-25",
@@ -3087,56 +3777,65 @@
      "date": "2026-08-11",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983379583666"
+     "url": "https://comic-days.com/episode/12207421983379583666",
+     "epNo": 53
     },
     {
      "date": "2026-07-14",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983379583663"
+     "url": "https://comic-days.com/episode/12207421983379583663",
+     "epNo": 52
     },
     {
      "date": "2026-06-30",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983379583660"
+     "url": "https://comic-days.com/episode/12207421983379583660",
+     "epNo": 51
     },
     {
      "date": "2026-06-16",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2550912965918818866"
+     "url": "https://comic-days.com/episode/2550912965918818866",
+     "epNo": 50
     },
     {
      "date": "2026-06-02",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2550912965918818861"
+     "url": "https://comic-days.com/episode/2550912965918818861",
+     "epNo": 49
     },
     {
      "date": "2026-05-05",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2550912965918818857"
+     "url": "https://comic-days.com/episode/2550912965918818857",
+     "epNo": 48
     },
     {
      "date": "2026-04-21",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2550912965918818854"
+     "url": "https://comic-days.com/episode/2550912965918818854",
+     "epNo": 47
     },
     {
      "date": "2026-04-07",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2550912965918818851"
+     "url": "https://comic-days.com/episode/2550912965918818851",
+     "epNo": 46
     }
    ],
    "latest": {
     "date": "2026-11-18",
     "label": "更新",
     "title": "更新",
-    "url": "https://comic-days.com/episode/12207421983379583689"
+    "url": "https://comic-days.com/episode/12207421983379583689",
+    "epNo": 59
    },
    "paidHashes": null,
    "error": null
@@ -5358,98 +6057,114 @@
      "date": "2026-11-16",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983529861637"
+     "url": "https://comic-days.com/episode/12207421983529861637",
+     "epNo": 18
     },
     {
      "date": "2026-11-02",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983529861634"
+     "url": "https://comic-days.com/episode/12207421983529861634",
+     "epNo": 17
     },
     {
      "date": "2026-10-19",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983529861631"
+     "url": "https://comic-days.com/episode/12207421983529861631",
+     "epNo": 16
     },
     {
      "date": "2026-10-05",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983529861628"
+     "url": "https://comic-days.com/episode/12207421983529861628",
+     "epNo": 15
     },
     {
      "date": "2026-09-21",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983529861625"
+     "url": "https://comic-days.com/episode/12207421983529861625",
+     "epNo": 14
     },
     {
      "date": "2026-09-07",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983529861622"
+     "url": "https://comic-days.com/episode/12207421983529861622",
+     "epNo": 13
     },
     {
      "date": "2026-08-24",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983529861619"
+     "url": "https://comic-days.com/episode/12207421983529861619",
+     "epNo": 12
     },
     {
      "date": "2026-08-10",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983529861616"
+     "url": "https://comic-days.com/episode/12207421983529861616",
+     "epNo": 11
     },
     {
      "date": "2026-07-27",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983529861613"
+     "url": "https://comic-days.com/episode/12207421983529861613",
+     "epNo": 10
     },
     {
      "date": "2026-07-13",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983529861609"
+     "url": "https://comic-days.com/episode/12207421983529861609",
+     "epNo": 9
     },
     {
      "date": "2026-06-29",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983529861605"
+     "url": "https://comic-days.com/episode/12207421983529861605",
+     "epNo": 8
     },
     {
      "date": "2026-06-15",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983529861601"
+     "url": "https://comic-days.com/episode/12207421983529861601",
+     "epNo": 7
     },
     {
      "date": "2026-06-01",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983529861597"
+     "url": "https://comic-days.com/episode/12207421983529861597",
+     "epNo": 6
     },
     {
      "date": "2026-05-18",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983529861589"
+     "url": "https://comic-days.com/episode/12207421983529861589",
+     "epNo": 5
     },
     {
      "date": "2026-05-04",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983529861586"
+     "url": "https://comic-days.com/episode/12207421983529861586",
+     "epNo": 4
     }
    ],
    "latest": {
     "date": "2026-11-16",
     "label": "更新",
     "title": "更新",
-    "url": "https://comic-days.com/episode/12207421983529861637"
+    "url": "https://comic-days.com/episode/12207421983529861637",
+    "epNo": 18
    },
    "paidHashes": null,
    "error": null
@@ -5472,31 +6187,36 @@
      "date": "2026-11-02",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983484134576"
+     "url": "https://comic-days.com/episode/12207421983484134576",
+     "epNo": 40
     },
     {
      "date": "2026-10-19",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983484134562"
+     "url": "https://comic-days.com/episode/12207421983484134562",
+     "epNo": 39
     },
     {
      "date": "2026-10-05",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983484134551"
+     "url": "https://comic-days.com/episode/12207421983484134551",
+     "epNo": 38
     },
     {
      "date": "2026-09-22",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983484134542"
+     "url": "https://comic-days.com/episode/12207421983484134542",
+     "epNo": 38
     },
     {
      "date": "2026-08-25",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983484134531"
+     "url": "https://comic-days.com/episode/12207421983484134531",
+     "epNo": 37
     },
     {
      "date": "2026-08-11",
@@ -5508,7 +6228,8 @@
      "date": "2026-07-28",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983484134520"
+     "url": "https://comic-days.com/episode/12207421983484134520",
+     "epNo": 36
     },
     {
      "date": "2026-07-14",
@@ -5520,25 +6241,29 @@
      "date": "2026-07-14",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2551460909710194232"
+     "url": "https://comic-days.com/episode/2551460909710194232",
+     "epNo": 35
     },
     {
      "date": "2026-06-30",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2551460909710194216"
+     "url": "https://comic-days.com/episode/2551460909710194216",
+     "epNo": 35
     },
     {
      "date": "2026-06-16",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2551460909710194203"
+     "url": "https://comic-days.com/episode/2551460909710194203",
+     "epNo": 34
     },
     {
      "date": "2026-06-02",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2551460909710194193"
+     "url": "https://comic-days.com/episode/2551460909710194193",
+     "epNo": 34
     },
     {
      "date": "2026-05-19",
@@ -5550,14 +6275,16 @@
      "date": "2026-05-05",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2551460909710194183"
+     "url": "https://comic-days.com/episode/2551460909710194183",
+     "epNo": 33
     }
    ],
    "latest": {
-    "date": "2026-11-16",
+    "date": "2026-11-02",
     "label": "更新",
     "title": "更新",
-    "url": "https://comic-days.com/episode/12207421984125480638"
+    "url": "https://comic-days.com/episode/12207421983484134576",
+    "epNo": 40
    },
    "paidHashes": null,
    "error": null
@@ -6333,98 +7060,114 @@
      "date": "2026-11-15",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983947538313"
+     "url": "https://comic-days.com/episode/12207421983947538313",
+     "epNo": 532
     },
     {
      "date": "2026-11-01",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983947538305"
+     "url": "https://comic-days.com/episode/12207421983947538305",
+     "epNo": 531
     },
     {
      "date": "2026-10-18",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983379584077"
+     "url": "https://comic-days.com/episode/12207421983379584077",
+     "epNo": 530
     },
     {
      "date": "2026-10-04",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983379584073"
+     "url": "https://comic-days.com/episode/12207421983379584073",
+     "epNo": 529
     },
     {
      "date": "2026-09-20",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983379584070"
+     "url": "https://comic-days.com/episode/12207421983379584070",
+     "epNo": 528
     },
     {
      "date": "2026-09-06",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983379584067"
+     "url": "https://comic-days.com/episode/12207421983379584067",
+     "epNo": 527
     },
     {
      "date": "2026-08-28",
      "label": "第1話 消えた傷",
      "title": "第1話 消えた傷",
-     "url": "https://comic-days.com/episode/13932016480029480667"
+     "url": "https://comic-days.com/episode/13932016480029480667",
+     "epNo": 1
     },
     {
      "date": "2026-08-16",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983379584064"
+     "url": "https://comic-days.com/episode/12207421983379584064",
+     "epNo": 526
     },
     {
      "date": "2026-08-16",
      "label": "第25話 継承(後編)",
      "title": "第25話 継承(後編)",
-     "url": "https://comic-days.com/episode/13932016480029500381"
+     "url": "https://comic-days.com/episode/13932016480029500381",
+     "epNo": 25
     },
     {
      "date": "2026-08-02",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983379584061"
+     "url": "https://comic-days.com/episode/12207421983379584061",
+     "epNo": 525
     },
     {
      "date": "2026-07-19",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983379584058"
+     "url": "https://comic-days.com/episode/12207421983379584058",
+     "epNo": 524
     },
     {
      "date": "2026-07-05",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983379584054"
+     "url": "https://comic-days.com/episode/12207421983379584054",
+     "epNo": 523
     },
     {
      "date": "2026-06-21",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983379584051"
+     "url": "https://comic-days.com/episode/12207421983379584051",
+     "epNo": 522
     },
     {
      "date": "2026-06-07",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983379584048"
+     "url": "https://comic-days.com/episode/12207421983379584048",
+     "epNo": 521
     },
     {
      "date": "2026-05-17",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2551460909501894924"
+     "url": "https://comic-days.com/episode/2551460909501894924",
+     "epNo": 520
     }
    ],
    "latest": {
     "date": "2026-11-15",
     "label": "更新",
     "title": "更新",
-    "url": "https://comic-days.com/episode/12207421983947538313"
+    "url": "https://comic-days.com/episode/12207421983947538313",
+    "epNo": 532
    },
    "paidHashes": null,
    "error": null
@@ -10446,98 +11189,114 @@
      "date": "2026-11-12",
      "label": "第343話① 「可哀想な人」",
      "title": "第343話① 「可哀想な人」",
-     "url": "https://comic-days.com/episode/12207421983566481766"
+     "url": "https://comic-days.com/episode/12207421983566481766",
+     "epNo": 343
     },
     {
      "date": "2026-11-04",
      "label": "第342話 「逸した洞察」",
      "title": "第342話 「逸した洞察」",
-     "url": "https://comic-days.com/episode/12207421983566481761"
+     "url": "https://comic-days.com/episode/12207421983566481761",
+     "epNo": 342
     },
     {
      "date": "2026-10-29",
      "label": "第341話 「エンペラーオブレイパー」",
      "title": "第341話 「エンペラーオブレイパー」",
-     "url": "https://comic-days.com/episode/12207421983566481756"
+     "url": "https://comic-days.com/episode/12207421983566481756",
+     "epNo": 341
     },
     {
      "date": "2026-10-23",
      "label": "第340話 「キングレイパー」",
      "title": "第340話 「キングレイパー」",
-     "url": "https://comic-days.com/episode/12207421983566481752"
+     "url": "https://comic-days.com/episode/12207421983566481752",
+     "epNo": 340
     },
     {
      "date": "2026-10-17",
      "label": "第339話② 「射銃」",
      "title": "第339話② 「射銃」",
-     "url": "https://comic-days.com/episode/12207421983566481748"
+     "url": "https://comic-days.com/episode/12207421983566481748",
+     "epNo": 339
     },
     {
      "date": "2026-10-11",
      "label": "第339話① 「射銃」",
      "title": "第339話① 「射銃」",
-     "url": "https://comic-days.com/episode/12207421983566481744"
+     "url": "https://comic-days.com/episode/12207421983566481744",
+     "epNo": 339
     },
     {
      "date": "2026-10-05",
      "label": "第338話 「発破」",
      "title": "第338話 「発破」",
-     "url": "https://comic-days.com/episode/12207421983566481739"
+     "url": "https://comic-days.com/episode/12207421983566481739",
+     "epNo": 338
     },
     {
      "date": "2026-09-29",
      "label": "第337話 「仇討ち」",
      "title": "第337話 「仇討ち」",
-     "url": "https://comic-days.com/episode/12207421983566481732"
+     "url": "https://comic-days.com/episode/12207421983566481732",
+     "epNo": 337
     },
     {
      "date": "2026-09-17",
      "label": "第336話 「人たらしめるもの」",
      "title": "第336話 「人たらしめるもの」",
-     "url": "https://comic-days.com/episode/12207421983566481726"
+     "url": "https://comic-days.com/episode/12207421983566481726",
+     "epNo": 336
     },
     {
      "date": "2026-08-28",
      "label": "第335話 「高IQレスラー」",
      "title": "第335話 「高IQレスラー」",
-     "url": "https://comic-days.com/episode/12207421983566481722"
+     "url": "https://comic-days.com/episode/12207421983566481722",
+     "epNo": 335
     },
     {
      "date": "2026-08-16",
      "label": "第334話 「身体の主導権」",
      "title": "第334話 「身体の主導権」",
-     "url": "https://comic-days.com/episode/12207421983566481716"
+     "url": "https://comic-days.com/episode/12207421983566481716",
+     "epNo": 334
     },
     {
      "date": "2026-08-04",
      "label": "第333話 「起死回生」",
      "title": "第333話 「起死回生」",
-     "url": "https://comic-days.com/episode/12207421983566481712"
+     "url": "https://comic-days.com/episode/12207421983566481712",
+     "epNo": 333
     },
     {
      "date": "2026-07-22",
      "label": "第332話 「正面突破」",
      "title": "第332話 「正面突破」",
-     "url": "https://comic-days.com/episode/12207421983566481706"
+     "url": "https://comic-days.com/episode/12207421983566481706",
+     "epNo": 332
     },
     {
      "date": "2026-07-02",
      "label": "第331話 「愛の力」",
      "title": "第331話 「愛の力」",
-     "url": "https://comic-days.com/episode/12207421983566481702"
+     "url": "https://comic-days.com/episode/12207421983566481702",
+     "epNo": 331
     },
     {
      "date": "2026-06-25",
      "label": "第330話 「公開処刑」",
      "title": "第330話 「公開処刑」",
-     "url": "https://comic-days.com/episode/12207421983566481696"
+     "url": "https://comic-days.com/episode/12207421983566481696",
+     "epNo": 330
     }
    ],
    "latest": {
     "date": "2026-11-12",
     "label": "第343話① 「可哀想な人」",
     "title": "第343話① 「可哀想な人」",
-    "url": "https://comic-days.com/episode/12207421983566481766"
+    "url": "https://comic-days.com/episode/12207421983566481766",
+    "epNo": 343
    },
    "paidHashes": null,
    "error": null
@@ -10986,55 +11745,64 @@
      "date": "2026-11-11",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983796397833"
+     "url": "https://comic-days.com/episode/12207421983796397833",
+     "epNo": 33
     },
     {
      "date": "2026-10-28",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983796397804"
+     "url": "https://comic-days.com/episode/12207421983796397804",
+     "epNo": 32
     },
     {
      "date": "2026-10-14",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983796397780"
+     "url": "https://comic-days.com/episode/12207421983796397780",
+     "epNo": 31
     },
     {
      "date": "2026-09-30",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2550912965502617415"
+     "url": "https://comic-days.com/episode/2550912965502617415",
+     "epNo": 30
     },
     {
      "date": "2026-09-16",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2550912965502617411"
+     "url": "https://comic-days.com/episode/2550912965502617411",
+     "epNo": 29
     },
     {
      "date": "2026-09-02",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2550912965502617408"
+     "url": "https://comic-days.com/episode/2550912965502617408",
+     "epNo": 28
     },
     {
      "date": "2026-08-19",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2550912965502617402"
+     "url": "https://comic-days.com/episode/2550912965502617402",
+     "epNo": 27
     },
     {
      "date": "2026-08-05",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2550912965502617397"
+     "url": "https://comic-days.com/episode/2550912965502617397",
+     "epNo": 26
     },
     {
      "date": "2026-07-22",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2550912965502617390"
+     "url": "https://comic-days.com/episode/2550912965502617390",
+     "epNo": 25
     },
     {
      "date": "2026-07-08",
@@ -11046,38 +11814,44 @@
      "date": "2026-06-24",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2550912965502617383"
+     "url": "https://comic-days.com/episode/2550912965502617383",
+     "epNo": 24
     },
     {
      "date": "2026-06-10",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2550912965502617380"
+     "url": "https://comic-days.com/episode/2550912965502617380",
+     "epNo": 23
     },
     {
      "date": "2026-05-27",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2550912965502617375"
+     "url": "https://comic-days.com/episode/2550912965502617375",
+     "epNo": 22
     },
     {
      "date": "2026-05-13",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2550912965502617368"
+     "url": "https://comic-days.com/episode/2550912965502617368",
+     "epNo": 21
     },
     {
      "date": "2026-04-29",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2550912965502617365"
+     "url": "https://comic-days.com/episode/2550912965502617365",
+     "epNo": 20
     }
    ],
    "latest": {
     "date": "2026-11-11",
     "label": "更新",
     "title": "更新",
-    "url": "https://comic-days.com/episode/12207421983796397833"
+    "url": "https://comic-days.com/episode/12207421983796397833",
+    "epNo": 33
    },
    "paidHashes": null,
    "error": null
@@ -11958,98 +12732,114 @@
      "date": "2026-11-10",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421984094267193"
+     "url": "https://comic-days.com/episode/12207421984094267193",
+     "epNo": 91
     },
     {
      "date": "2026-11-03",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421984094267188"
+     "url": "https://comic-days.com/episode/12207421984094267188",
+     "epNo": 90
     },
     {
      "date": "2026-10-27",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421984094267185"
+     "url": "https://comic-days.com/episode/12207421984094267185",
+     "epNo": 90
     },
     {
      "date": "2026-10-26",
      "label": "第1話 友情なき戦いが始まった",
      "title": "第1話 友情なき戦いが始まった",
-     "url": "https://comic-days.com/episode/4856001361557479910"
+     "url": "https://comic-days.com/episode/4856001361557479910",
+     "epNo": 1
     },
     {
      "date": "2026-10-20",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421984094267180"
+     "url": "https://comic-days.com/episode/12207421984094267180",
+     "epNo": 89
     },
     {
      "date": "2026-10-13",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983825783093"
+     "url": "https://comic-days.com/episode/12207421983825783093",
+     "epNo": 89
     },
     {
      "date": "2026-09-29",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983825783090"
+     "url": "https://comic-days.com/episode/12207421983825783090",
+     "epNo": 88
     },
     {
      "date": "2026-09-22",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983825783087"
+     "url": "https://comic-days.com/episode/12207421983825783087",
+     "epNo": 87
     },
     {
      "date": "2026-09-15",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983825783084"
+     "url": "https://comic-days.com/episode/12207421983825783084",
+     "epNo": 87
     },
     {
      "date": "2026-09-08",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983825783081"
+     "url": "https://comic-days.com/episode/12207421983825783081",
+     "epNo": 86
     },
     {
      "date": "2026-09-01",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983825783078"
+     "url": "https://comic-days.com/episode/12207421983825783078",
+     "epNo": 86
     },
     {
      "date": "2026-08-11",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983825783075"
+     "url": "https://comic-days.com/episode/12207421983825783075",
+     "epNo": 85
     },
     {
      "date": "2026-08-04",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983825783072"
+     "url": "https://comic-days.com/episode/12207421983825783072",
+     "epNo": 84
     },
     {
      "date": "2026-07-28",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983825783067"
+     "url": "https://comic-days.com/episode/12207421983825783067",
+     "epNo": 84
     },
     {
      "date": "2026-07-21",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983825783063"
+     "url": "https://comic-days.com/episode/12207421983825783063",
+     "epNo": 83
     }
    ],
    "latest": {
     "date": "2026-11-10",
     "label": "更新",
     "title": "更新",
-    "url": "https://comic-days.com/episode/12207421984094267193"
+    "url": "https://comic-days.com/episode/12207421984094267193",
+    "epNo": 91
    },
    "paidHashes": null,
    "error": null
@@ -14335,222 +15125,6 @@
    "error": null
   },
   {
-   "detailUrl": "https://webcomics.jp/comic-walker/KC_000336_S",
-   "title": "限界超えの天賦は、転生者にしか扱えない ― オーバーリミット・スキルホルダー ―",
-   "site": "カドコミ",
-   "thumbFile": "data/thumbs/111992.jpg",
-   "publisherUrl": "https://comic-walker.com/detail/KC_000336_S",
-   "comicNo": 111992,
-   "history": [
-    {
-     "date": "2026-11-06",
-     "label": "第3章[29]前半",
-     "title": "第3章[29]前半",
-     "url": "https://comic-walker.com/detail/KC_000336_S/episodes/KC_0003360007500011_E?episodeType=latest"
-    },
-    {
-     "date": "2026-10-16",
-     "label": "第3章[28]後半",
-     "title": "第3章[28]後半",
-     "url": "https://comic-walker.com/detail/KC_000336_S/episodes/KC_0003360007400021_E?episodeType=latest"
-    },
-    {
-     "date": "2026-10-02",
-     "label": "第3章[28]前半",
-     "title": "第3章[28]前半",
-     "url": "https://comic-walker.com/detail/KC_000336_S/episodes/KC_0003360007400011_E?episodeType=latest"
-    },
-    {
-     "date": "2026-09-18",
-     "label": "コミックス第4巻PRマンガ",
-     "title": "コミックス第4巻PRマンガ",
-     "url": "https://comic-walker.com/detail/KC_000336_S/episodes/KC_0003360003700011_E?co=true&episodeType=latest"
-    },
-    {
-     "date": "2026-09-18",
-     "label": "第3章[27]後半",
-     "title": "第3章[27]後半",
-     "url": "https://comic-walker.com/detail/KC_000336_S/episodes/KC_0003360007300021_E?episodeType=latest"
-    },
-    {
-     "date": "2026-09-04",
-     "label": "第3章[27]前半",
-     "title": "第3章[27]前半",
-     "url": "https://comic-walker.com/detail/KC_000336_S/episodes/KC_0003360007300011_E?episodeType=latest"
-    },
-    {
-     "date": "2026-08-21",
-     "label": "第3章[26]後半",
-     "title": "第3章[26]後半",
-     "url": "https://comic-walker.com/detail/KC_000336_S/episodes/KC_0003360007200021_E?episodeType=latest"
-    },
-    {
-     "date": "2026-08-07",
-     "label": "第3章[26]前半",
-     "title": "第3章[26]前半",
-     "url": "https://comic-walker.com/detail/KC_000336_S/episodes/KC_0003360007200011_E?episodeType=latest"
-    },
-    {
-     "date": "2026-07-17",
-     "label": "第3章[25]後半",
-     "title": "第3章[25]後半",
-     "url": "https://comic-walker.com/detail/KC_000336_S/episodes/KC_0003360007100021_E?episodeType=latest"
-    },
-    {
-     "date": "2026-07-03",
-     "label": "第3章[25]前半",
-     "title": "第3章[25]前半",
-     "url": "https://comic-walker.com/detail/KC_000336_S/episodes/KC_0003360007100011_E?episodeType=latest"
-    },
-    {
-     "date": "2026-06-05",
-     "label": "第3章[24]",
-     "title": "第3章[24]",
-     "url": "https://comic-walker.com/detail/KC_000336_S/episodes/KC_0003360007000011_E?episodeType=latest"
-    },
-    {
-     "date": "2026-05-15",
-     "label": "第3章[23]後半",
-     "title": "第3章[23]後半",
-     "url": "https://comic-walker.com/detail/KC_000336_S/episodes/KC_0003360006900021_E?episodeType=latest"
-    },
-    {
-     "date": "2026-05-01",
-     "label": "第3章[23]前半",
-     "title": "第3章[23]前半",
-     "url": "https://comic-walker.com/detail/KC_000336_S/episodes/KC_0003360006900011_E?episodeType=latest"
-    },
-    {
-     "date": "2026-04-17",
-     "label": "第3章[22]後半",
-     "title": "第3章[22]後半",
-     "url": "https://comic-walker.com/detail/KC_000336_S/episodes/KC_0003360006800021_E?episodeType=latest"
-    },
-    {
-     "date": "2026-04-03",
-     "label": "第3章[22]前半",
-     "title": "第3章[22]前半",
-     "url": "https://comic-walker.com/detail/KC_000336_S/episodes/KC_0003360006800011_E?episodeType=latest"
-    }
-   ],
-   "latest": {
-    "date": "2026-11-06",
-    "label": "第3章[29]前半",
-    "title": "第3章[29]前半",
-    "url": "https://comic-walker.com/detail/KC_000336_S/episodes/KC_0003360007500011_E?episodeType=latest"
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
-   "detailUrl": "https://webcomics.jp/comic-walker/KC_004390_S",
-   "title": "召喚された賢者は異世界を往く～最強なのは不要在庫のアイテムでした～",
-   "site": "カドコミ",
-   "thumbFile": "data/thumbs/87641.jpg",
-   "publisherUrl": "https://comic-walker.com/detail/KC_004390_S",
-   "comicNo": 87641,
-   "history": [
-    {
-     "date": "2026-11-06",
-     "label": "第63話①",
-     "title": "第63話①",
-     "url": "https://comic-walker.com/detail/KC_004390_S/episodes/KC_0043900006500011_E?episodeType=latest"
-    },
-    {
-     "date": "2026-10-07",
-     "label": "第62話②",
-     "title": "第62話②",
-     "url": "https://comic-walker.com/detail/KC_004390_S/episodes/KC_0043900006400021_E?episodeType=latest"
-    },
-    {
-     "date": "2026-09-16",
-     "label": "第62話①",
-     "title": "第62話①",
-     "url": "https://comic-walker.com/detail/KC_004390_S/episodes/KC_0043900006400011_E?episodeType=latest"
-    },
-    {
-     "date": "2026-08-05",
-     "label": "第61話②",
-     "title": "第61話②",
-     "url": "https://comic-walker.com/detail/KC_004390_S/episodes/KC_0043900006300021_E?episodeType=latest"
-    },
-    {
-     "date": "2026-06-24",
-     "label": "第61話",
-     "title": "第61話",
-     "url": "https://comic-walker.com/detail/KC_004390_S/episodes/KC_0043900006300011_E?episodeType=latest"
-    },
-    {
-     "date": "2026-05-10",
-     "label": "第60話",
-     "title": "第60話",
-     "url": "https://comic-walker.com/detail/KC_004390_S/episodes/KC_0043900006200011_E?episodeType=latest"
-    },
-    {
-     "date": "2026-04-08",
-     "label": "第59話",
-     "title": "第59話",
-     "url": "https://comic-walker.com/detail/KC_004390_S/episodes/KC_0043900006100011_E?episodeType=latest"
-    },
-    {
-     "date": "2026-03-10",
-     "label": "第58話②",
-     "title": "第58話②",
-     "url": "https://comic-walker.com/detail/KC_004390_S/episodes/KC_0043900006000021_E?episodeType=latest"
-    },
-    {
-     "date": "2026-02-27",
-     "label": "第58話①",
-     "title": "第58話①",
-     "url": "https://comic-walker.com/detail/KC_004390_S/episodes/KC_0043900006000011_E?episodeType=latest"
-    },
-    {
-     "date": "2026-01-24",
-     "label": "第57話②",
-     "title": "第57話②",
-     "url": "https://comic-walker.com/detail/KC_004390_S/episodes/KC_0043900005900021_E?episodeType=latest"
-    },
-    {
-     "date": "2025-12-25",
-     "label": "第57話①",
-     "title": "第57話①",
-     "url": "https://comic-walker.com/detail/KC_004390_S/episodes/KC_0043900005900011_E?episodeType=latest"
-    },
-    {
-     "date": "2025-11-14",
-     "label": "第56話",
-     "title": "第56話",
-     "url": "https://comic-walker.com/detail/KC_004390_S/episodes/KC_0043900005800011_E?episodeType=latest"
-    },
-    {
-     "date": "2025-10-10",
-     "label": "第55話",
-     "title": "第55話",
-     "url": "https://comic-walker.com/detail/KC_004390_S/episodes/KC_0043900005700011_E?episodeType=latest"
-    },
-    {
-     "date": "2025-08-20",
-     "label": "第54話②",
-     "title": "第54話②",
-     "url": "https://comic-walker.com/detail/KC_004390_S/episodes/KC_0043900005600021_E?episodeType=latest"
-    },
-    {
-     "date": "2025-08-06",
-     "label": "第54話",
-     "title": "第54話",
-     "url": "https://comic-walker.com/detail/KC_004390_S/episodes/KC_0043900005600011_E?episodeType=latest"
-    }
-   ],
-   "latest": {
-    "date": "2026-11-06",
-    "label": "第63話①",
-    "title": "第63話①",
-    "url": "https://comic-walker.com/detail/KC_004390_S/episodes/KC_0043900006500011_E?episodeType=latest"
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
    "detailUrl": "https://webcomics.jp/ogyaaa/3269754496829572092",
    "title": "邦画プレゼン女子高生 邦キチ! 映子さん",
    "site": "COMIC OGYAAA!!",
@@ -14762,114 +15336,6 @@
     "label": "2026年11月6日",
     "title": "2026年11月6日",
     "url": null
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
-   "detailUrl": "https://webcomics.jp/kurage-bunch/2550689798358805953",
-   "title": "最後のレストラン Dante",
-   "site": "くらげバンチ",
-   "thumbFile": "data/thumbs/168153.jpg",
-   "publisherUrl": "https://kuragebunch.com/episode/2550689798358805953",
-   "comicNo": 168153,
-   "history": [
-    {
-     "date": "2026-11-06",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://kuragebunch.com/episode/12207421984237990642"
-    },
-    {
-     "date": "2026-10-23",
-     "label": "第29話 小野小町様①",
-     "title": "第29話 小野小町様①",
-     "url": "https://kuragebunch.com/episode/12207421984237990637"
-    },
-    {
-     "date": "2026-10-09",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://kuragebunch.com/episode/12207421984089367293"
-    },
-    {
-     "date": "2026-09-25",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://kuragebunch.com/episode/12207421984089367285"
-    },
-    {
-     "date": "2026-09-04",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://kuragebunch.com/episode/12207421983939304010"
-    },
-    {
-     "date": "2026-08-21",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://kuragebunch.com/episode/12207421983939303999"
-    },
-    {
-     "date": "2026-08-07",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://kuragebunch.com/episode/12207421983825596732"
-    },
-    {
-     "date": "2026-07-17",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://kuragebunch.com/episode/12207421983825596719"
-    },
-    {
-     "date": "2026-07-03",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://kuragebunch.com/episode/12207421983714804273"
-    },
-    {
-     "date": "2026-06-19",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://kuragebunch.com/episode/12207421983714804266"
-    },
-    {
-     "date": "2026-06-05",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://kuragebunch.com/episode/12207421983584658930"
-    },
-    {
-     "date": "2026-05-22",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://kuragebunch.com/episode/12207421983584658925"
-    },
-    {
-     "date": "2026-05-12",
-     "label": "第2話 ルイ16世②",
-     "title": "第2話 ルイ16世②",
-     "url": "https://kuragebunch.com/episode/2550689798358805972"
-    },
-    {
-     "date": "2026-05-12",
-     "label": "第2話 ルイ16世①",
-     "title": "第2話 ルイ16世①",
-     "url": "https://kuragebunch.com/episode/2550689798358805968"
-    },
-    {
-     "date": "2026-05-01",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://kuragebunch.com/episode/12207421983477000265"
-    }
-   ],
-   "latest": {
-    "date": "2026-11-06",
-    "label": "更新",
-    "title": "更新",
-    "url": "https://kuragebunch.com/episode/12207421984237990642"
    },
    "paidHashes": null,
    "error": null
@@ -16280,115 +16746,6 @@
    "error": null
   },
   {
-   "detailUrl": "https://webcomics.jp/comic-walker/KC_005278_S",
-   "title": "ノロマ魔法と呼ばれた魔法使いは重力魔法で無双する ～まだ重力の概念のない世界にて、少年は万有引力の王...",
-   "site": "カドコミ",
-   "thumbFile": "data/thumbs/161462.jpg",
-   "publisherUrl": "https://comic-walker.com/detail/KC_005278_S",
-   "comicNo": 161462,
-   "history": [
-    {
-     "date": "2026-10-30",
-     "label": "第29話④",
-     "title": "第29話④",
-     "url": "https://comic-walker.com/detail/KC_005278_S/episodes/KC_0052780005100041_E?episodeType=latest"
-    },
-    {
-     "date": "2026-10-16",
-     "label": "第29話③",
-     "title": "第29話③",
-     "url": "https://comic-walker.com/detail/KC_005278_S/episodes/KC_0052780005100031_E?episodeType=latest"
-    },
-    {
-     "date": "2026-10-02",
-     "label": "第29話➁",
-     "title": "第29話➁",
-     "url": "https://comic-walker.com/detail/KC_005278_S/episodes/KC_0052780005100021_E?episodeType=latest"
-    },
-    {
-     "date": "2026-09-18",
-     "label": "第29話①",
-     "title": "第29話①",
-     "url": "https://comic-walker.com/detail/KC_005278_S/episodes/KC_0052780005100011_E?episodeType=latest"
-    },
-    {
-     "date": "2026-09-11",
-     "label": "第28話④",
-     "title": "第28話④",
-     "url": "https://comic-walker.com/detail/KC_005278_S/episodes/KC_0052780005000041_E?episodeType=latest"
-    },
-    {
-     "date": "2026-09-04",
-     "label": "第28話③",
-     "title": "第28話③",
-     "url": "https://comic-walker.com/detail/KC_005278_S/episodes/KC_0052780005000031_E?episodeType=latest"
-    },
-    {
-     "date": "2026-08-28",
-     "label": "第28話➁",
-     "title": "第28話➁",
-     "url": "https://comic-walker.com/detail/KC_005278_S/episodes/KC_0052780005000021_E?episodeType=latest"
-    },
-    {
-     "date": "2026-08-21",
-     "label": "第28話①",
-     "title": "第28話①",
-     "url": "https://comic-walker.com/detail/KC_005278_S/episodes/KC_0052780005000011_E?episodeType=latest"
-    },
-    {
-     "date": "2026-08-14",
-     "label": "第27話・下③",
-     "title": "第27話・下③",
-     "url": "https://comic-walker.com/detail/KC_005278_S/episodes/KC_0052780004900051_E?episodeType=latest"
-    },
-    {
-     "date": "2026-07-31",
-     "label": "第27話・下➁",
-     "title": "第27話・下➁",
-     "url": "https://comic-walker.com/detail/KC_005278_S/episodes/KC_0052780004900041_E?episodeType=latest"
-    },
-    {
-     "date": "2026-07-17",
-     "label": "第27話・下①",
-     "title": "第27話・下①",
-     "url": "https://comic-walker.com/detail/KC_005278_S/episodes/KC_0052780004900031_E?episodeType=latest"
-    },
-    {
-     "date": "2026-07-10",
-     "label": "第27話・上➁",
-     "title": "第27話・上➁",
-     "url": "https://comic-walker.com/detail/KC_005278_S/episodes/KC_0052780004900021_E?episodeType=latest"
-    },
-    {
-     "date": "2026-06-26",
-     "label": "第27話・上①",
-     "title": "第27話・上①",
-     "url": "https://comic-walker.com/detail/KC_005278_S/episodes/KC_0052780004900011_E?episodeType=latest"
-    },
-    {
-     "date": "2026-06-19",
-     "label": "描き下ろしイラスト公開!⑯",
-     "title": "描き下ろしイラスト公開!⑯",
-     "url": "https://comic-walker.com/detail/KC_005278_S/episodes/KC_0052780004800011_E?episodeType=latest",
-     "extra": true
-    },
-    {
-     "date": "2026-06-12",
-     "label": "第26話④",
-     "title": "第26話④",
-     "url": "https://comic-walker.com/detail/KC_005278_S/episodes/KC_0052780004700041_E?episodeType=latest"
-    }
-   ],
-   "latest": {
-    "date": "2026-10-30",
-    "label": "第29話④",
-    "title": "第29話④",
-    "url": "https://comic-walker.com/detail/KC_005278_S/episodes/KC_0052780005100041_E?episodeType=latest"
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
    "detailUrl": "https://webcomics.jp/comic-walker/KC_002182_S",
    "title": "宝くじで40億当たったんだけど異世界に移住する",
    "site": "カドコミ",
@@ -17048,7 +17405,8 @@
      "date": "2026-10-28",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983645809601"
+     "url": "https://comic-days.com/episode/12207421983645809601",
+     "epNo": 19
     },
     {
      "date": "2026-10-21",
@@ -17060,13 +17418,15 @@
      "date": "2026-10-14",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983645809595"
+     "url": "https://comic-days.com/episode/12207421983645809595",
+     "epNo": 19
     },
     {
      "date": "2026-09-30",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983645809588"
+     "url": "https://comic-days.com/episode/12207421983645809588",
+     "epNo": 18
     },
     {
      "date": "2026-09-09",
@@ -17078,37 +17438,43 @@
      "date": "2026-08-26",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983645809578"
+     "url": "https://comic-days.com/episode/12207421983645809578",
+     "epNo": 18
     },
     {
      "date": "2026-08-12",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983645809569"
+     "url": "https://comic-days.com/episode/12207421983645809569",
+     "epNo": 17
     },
     {
      "date": "2026-07-29",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2550912965546773207"
+     "url": "https://comic-days.com/episode/2550912965546773207",
+     "epNo": 17
     },
     {
      "date": "2026-07-15",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2550912965546773200"
+     "url": "https://comic-days.com/episode/2550912965546773200",
+     "epNo": 16
     },
     {
      "date": "2026-07-01",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2550912965546773194"
+     "url": "https://comic-days.com/episode/2550912965546773194",
+     "epNo": 16
     },
     {
      "date": "2026-06-17",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2550912965546773188"
+     "url": "https://comic-days.com/episode/2550912965546773188",
+     "epNo": 15
     },
     {
      "date": "2026-05-21",
@@ -17120,13 +17486,15 @@
      "date": "2026-05-20",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2550912965546773179"
+     "url": "https://comic-days.com/episode/2550912965546773179",
+     "epNo": 15
     },
     {
      "date": "2026-05-06",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2550912965546773176"
+     "url": "https://comic-days.com/episode/2550912965546773176",
+     "epNo": 14
     },
     {
      "date": "2026-04-22",
@@ -17139,7 +17507,8 @@
     "date": "2026-10-28",
     "label": "更新",
     "title": "更新",
-    "url": "https://comic-days.com/episode/12207421983645809601"
+    "url": "https://comic-days.com/episode/12207421983645809601",
+    "epNo": 19
    },
    "paidHashes": null,
    "error": null
@@ -17588,19 +17957,22 @@
      "date": "2026-10-25",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2550912965918818817"
+     "url": "https://comic-days.com/episode/2550912965918818817",
+     "epNo": 33
     },
     {
      "date": "2026-10-11",
      "label": "第7話 マーサ&ザ・新生ニセモノーズ",
      "title": "第7話 マーサ&ザ・新生ニセモノーズ",
-     "url": "https://comic-days.com/episode/3270296674401745298"
+     "url": "https://comic-days.com/episode/3270296674401745298",
+     "epNo": 7
     },
     {
      "date": "2026-09-27",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2550912965918818803"
+     "url": "https://comic-days.com/episode/2550912965918818803",
+     "epNo": 32
     },
     {
      "date": "2026-08-23",
@@ -17612,19 +17984,22 @@
      "date": "2026-07-26",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2550912965918818775"
+     "url": "https://comic-days.com/episode/2550912965918818775",
+     "epNo": 31
     },
     {
      "date": "2026-06-28",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2550912965918818759"
+     "url": "https://comic-days.com/episode/2550912965918818759",
+     "epNo": 30
     },
     {
      "date": "2026-05-24",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2550912965918818741"
+     "url": "https://comic-days.com/episode/2550912965918818741",
+     "epNo": 29
     },
     {
      "date": "2026-04-26",
@@ -17636,13 +18011,15 @@
      "date": "2026-03-22",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2550912965918818710"
+     "url": "https://comic-days.com/episode/2550912965918818710",
+     "epNo": 28
     },
     {
      "date": "2026-02-22",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2550912965918818695"
+     "url": "https://comic-days.com/episode/2550912965918818695",
+     "epNo": 27
     },
     {
      "date": "2026-01-25",
@@ -17660,26 +18037,30 @@
      "date": "2025-11-23",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2550912964849502054"
+     "url": "https://comic-days.com/episode/2550912964849502054",
+     "epNo": 26
     },
     {
      "date": "2025-10-26",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2550912964849502021"
+     "url": "https://comic-days.com/episode/2550912964849502021",
+     "epNo": 25
     },
     {
      "date": "2025-09-28",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2550912964849501985"
+     "url": "https://comic-days.com/episode/2550912964849501985",
+     "epNo": 24
     }
    ],
    "latest": {
     "date": "2026-10-25",
     "label": "更新",
     "title": "更新",
-    "url": "https://comic-days.com/episode/2550912965918818817"
+    "url": "https://comic-days.com/episode/2550912965918818817",
+    "epNo": 33
    },
    "paidHashes": null,
    "error": null
@@ -18330,117 +18711,6 @@
     "label": "第81話",
     "title": "第81話",
     "url": "https://comic-walker.com/detail/KC_003631_S/episodes/KC_0036310013400011_E?episodeType=latest"
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
-   "detailUrl": "https://webcomics.jp/comic-walker/KC_005090_S",
-   "title": "女友達は頼めば意外とヤらせてくれる",
-   "site": "カドコミ",
-   "thumbFile": "data/thumbs/158374.jpg",
-   "publisherUrl": "https://comic-walker.com/detail/KC_005090_S",
-   "comicNo": 158374,
-   "history": [
-    {
-     "date": "2026-10-23",
-     "label": "第36話①",
-     "title": "第36話①",
-     "url": "https://comic-walker.com/detail/KC_005090_S/episodes/KC_0050900004100011_E?episodeType=latest"
-    },
-    {
-     "date": "2026-10-02",
-     "label": "第35話②",
-     "title": "第35話②",
-     "url": "https://comic-walker.com/detail/KC_005090_S/episodes/KC_0050900004000021_E?episodeType=latest"
-    },
-    {
-     "date": "2026-09-18",
-     "label": "第35話①",
-     "title": "第35話①",
-     "url": "https://comic-walker.com/detail/KC_005090_S/episodes/KC_0050900004000011_E?episodeType=latest"
-    },
-    {
-     "date": "2026-09-04",
-     "label": "第34話②",
-     "title": "第34話②",
-     "url": "https://comic-walker.com/detail/KC_005090_S/episodes/KC_0050900003900021_E?episodeType=latest"
-    },
-    {
-     "date": "2026-08-21",
-     "label": "第34話①",
-     "title": "第34話①",
-     "url": "https://comic-walker.com/detail/KC_005090_S/episodes/KC_0050900003900011_E?episodeType=latest"
-    },
-    {
-     "date": "2026-08-07",
-     "label": "特別イラスト2",
-     "title": "特別イラスト2",
-     "url": "https://comic-walker.com/detail/KC_005090_S/episodes/KC_0050900003800011_E?episodeType=latest",
-     "extra": true
-    },
-    {
-     "date": "2026-07-03",
-     "label": "特別イラスト",
-     "title": "特別イラスト",
-     "url": "https://comic-walker.com/detail/KC_005090_S/episodes/KC_0050900003700011_E?episodeType=latest",
-     "extra": true
-    },
-    {
-     "date": "2026-06-19",
-     "label": "第33話②",
-     "title": "第33話②",
-     "url": "https://comic-walker.com/detail/KC_005090_S/episodes/KC_0050900003600021_E?episodeType=latest"
-    },
-    {
-     "date": "2026-06-05",
-     "label": "第33話①",
-     "title": "第33話①",
-     "url": "https://comic-walker.com/detail/KC_005090_S/episodes/KC_0050900003600011_E?episodeType=latest"
-    },
-    {
-     "date": "2026-05-15",
-     "label": "第32話②",
-     "title": "第32話②",
-     "url": "https://comic-walker.com/detail/KC_005090_S/episodes/KC_0050900003500021_E?episodeType=latest"
-    },
-    {
-     "date": "2026-05-01",
-     "label": "第32話①",
-     "title": "第32話①",
-     "url": "https://comic-walker.com/detail/KC_005090_S/episodes/KC_0050900003500011_E?episodeType=latest"
-    },
-    {
-     "date": "2026-04-17",
-     "label": "第31話②",
-     "title": "第31話②",
-     "url": "https://comic-walker.com/detail/KC_005090_S/episodes/KC_0050900003400021_E?episodeType=latest"
-    },
-    {
-     "date": "2026-04-03",
-     "label": "第31話①",
-     "title": "第31話①",
-     "url": "https://comic-walker.com/detail/KC_005090_S/episodes/KC_0050900003400011_E?episodeType=latest"
-    },
-    {
-     "date": "2026-04-01",
-     "label": "特別イラスト",
-     "title": "特別イラスト",
-     "url": "https://comic-walker.com/detail/KC_005090_S/episodes/KC_0050900001900011_E?co=true&episodeType=latest",
-     "extra": true
-    },
-    {
-     "date": "2026-03-20",
-     "label": "第30話②",
-     "title": "第30話②",
-     "url": "https://comic-walker.com/detail/KC_005090_S/episodes/KC_0050900003300021_E?episodeType=latest"
-    }
-   ],
-   "latest": {
-    "date": "2026-10-23",
-    "label": "第36話①",
-    "title": "第36話①",
-    "url": "https://comic-walker.com/detail/KC_005090_S/episodes/KC_0050900004100011_E?episodeType=latest"
    },
    "paidHashes": null,
    "error": null
@@ -22971,13 +23241,16 @@
      "date": "2026-03-13",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2550912965918818731"
+     "url": "https://comic-days.com/episode/2550912965918818731",
+     "epNo": 23,
+     "paid": true
     },
     {
      "date": "2026-02-27",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2550912965918818716"
+     "url": "https://comic-days.com/episode/2550912965918818716",
+     "epNo": 22
     },
     {
      "date": "2026-02-13",
@@ -22989,68 +23262,79 @@
      "date": "2026-01-30",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2550912965918818701"
+     "url": "https://comic-days.com/episode/2550912965918818701",
+     "epNo": 22
     },
     {
      "date": "2026-01-16",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2550912965918818685"
+     "url": "https://comic-days.com/episode/2550912965918818685",
+     "epNo": 21
     },
     {
      "date": "2026-01-02",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2550912965918818669"
+     "url": "https://comic-days.com/episode/2550912965918818669",
+     "epNo": 21
     },
     {
      "date": "2025-12-19",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2550912965918818651"
+     "url": "https://comic-days.com/episode/2550912965918818651",
+     "epNo": 20
     },
     {
      "date": "2025-12-05",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2550912965918818628"
+     "url": "https://comic-days.com/episode/2550912965918818628",
+     "epNo": 20
     },
     {
      "date": "2025-11-21",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2550912965918818613"
+     "url": "https://comic-days.com/episode/2550912965918818613",
+     "epNo": 19
     },
     {
      "date": "2025-11-07",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2550689798358217328"
+     "url": "https://comic-days.com/episode/2550689798358217328",
+     "epNo": 19
     },
     {
      "date": "2025-10-24",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2550689798358217319"
+     "url": "https://comic-days.com/episode/2550689798358217319",
+     "epNo": 18
     },
     {
      "date": "2025-10-03",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2550689798358217304"
+     "url": "https://comic-days.com/episode/2550689798358217304",
+     "epNo": 18
     },
     {
      "date": "2025-09-19",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2550689798358217299"
+     "url": "https://comic-days.com/episode/2550689798358217299",
+     "epNo": 17
     }
    ],
    "latest": {
-    "date": "2026-03-13",
+    "date": "2026-02-27",
     "label": "更新",
     "title": "更新",
-    "url": "https://comic-days.com/episode/2550912965918818731"
+    "url": "https://comic-days.com/episode/2550912965918818716",
+    "epNo": 22
    },
    "paidHashes": null,
    "error": null
@@ -24228,114 +24512,6 @@
    "error": null
   },
   {
-   "detailUrl": "https://webcomics.jp/kurage-bunch/14079602755558564262",
-   "title": "魔法医レクスの変態カルテ",
-   "site": "くらげバンチ",
-   "thumbFile": "data/thumbs/161754.jpg",
-   "publisherUrl": "https://kuragebunch.com/episode/14079602755558564262",
-   "comicNo": 161754,
-   "history": [
-    {
-     "date": "2026-06-26",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://kuragebunch.com/episode/12207421983559394874"
-    },
-    {
-     "date": "2026-05-29",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://kuragebunch.com/episode/12207421983462674572"
-    },
-    {
-     "date": "2026-04-10",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://kuragebunch.com/episode/2551460910093044889"
-    },
-    {
-     "date": "2026-03-13",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://kuragebunch.com/episode/2551460909807172820"
-    },
-    {
-     "date": "2026-02-06",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://kuragebunch.com/episode/2551460909680042087"
-    },
-    {
-     "date": "2026-01-23",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://kuragebunch.com/episode/2551460909913858690"
-    },
-    {
-     "date": "2026-01-16",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://kuragebunch.com/episode/2551460909913858684"
-    },
-    {
-     "date": "2026-01-09",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://kuragebunch.com/episode/2551460909913858678"
-    },
-    {
-     "date": "2025-12-19",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://kuragebunch.com/episode/2551460909567960309"
-    },
-    {
-     "date": "2025-11-21",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://kuragebunch.com/episode/2551460909787759956"
-    },
-    {
-     "date": "2025-10-10",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://kuragebunch.com/episode/2550912965982557875"
-    },
-    {
-     "date": "2025-09-12",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://kuragebunch.com/episode/2550912965822163442"
-    },
-    {
-     "date": "2025-07-18",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://kuragebunch.com/episode/2550912965702697807"
-    },
-    {
-     "date": "2025-06-13",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://kuragebunch.com/episode/2550912965414385197"
-    },
-    {
-     "date": "2025-05-16",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://kuragebunch.com/episode/2550912965061526592"
-    }
-   ],
-   "latest": {
-    "date": "2026-06-26",
-    "label": "更新",
-    "title": "更新",
-    "url": "https://kuragebunch.com/episode/12207421983559394874"
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
    "detailUrl": "https://webcomics.jp/gardo/3269754496561210553",
    "title": "骸骨騎士様、只今異世界へお出掛け中",
    "site": "コミックガルド",
@@ -25505,25 +25681,31 @@
      "date": "2026-02-05",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2551460909617418490"
+     "url": "https://comic-days.com/episode/2551460909617418490",
+     "epNo": 33,
+     "paid": true
     },
     {
      "date": "2026-01-29",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2551460909617418482"
+     "url": "https://comic-days.com/episode/2551460909617418482",
+     "epNo": 33,
+     "paid": true
     },
     {
      "date": "2026-01-22",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2551460909617418476"
+     "url": "https://comic-days.com/episode/2551460909617418476",
+     "epNo": 32
     },
     {
      "date": "2026-01-15",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2551460909617418470"
+     "url": "https://comic-days.com/episode/2551460909617418470",
+     "epNo": 31
     },
     {
      "date": "2026-01-08",
@@ -25535,19 +25717,22 @@
      "date": "2026-01-01",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2551460909617418464"
+     "url": "https://comic-days.com/episode/2551460909617418464",
+     "epNo": 30
     },
     {
      "date": "2025-12-25",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2551460909617418457"
+     "url": "https://comic-days.com/episode/2551460909617418457",
+     "epNo": 29
     },
     {
      "date": "2025-12-18",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2550912965579565142"
+     "url": "https://comic-days.com/episode/2550912965579565142",
+     "epNo": 28
     },
     {
      "date": "2025-12-11",
@@ -25559,13 +25744,15 @@
      "date": "2025-12-04",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2550912965579565138"
+     "url": "https://comic-days.com/episode/2550912965579565138",
+     "epNo": 27
     },
     {
      "date": "2025-11-27",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2550912965579565127"
+     "url": "https://comic-days.com/episode/2550912965579565127",
+     "epNo": 26
     },
     {
      "date": "2025-11-20",
@@ -25577,14 +25764,16 @@
      "date": "2025-11-13",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/2550912965579565119"
+     "url": "https://comic-days.com/episode/2550912965579565119",
+     "epNo": 25
     }
    ],
    "latest": {
-    "date": "2026-02-19",
+    "date": "2026-01-22",
     "label": "更新",
     "title": "更新",
-    "url": "https://comic-days.com/episode/2551460909617418505"
+    "url": "https://comic-days.com/episode/2551460909617418476",
+    "epNo": 32
    },
    "paidHashes": null,
    "error": null
