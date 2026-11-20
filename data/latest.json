@@ -1,7 +1,337 @@
 {
- "checkedAt": "2026-11-20T20:20:36+09:00",
+ "checkedAt": "2026-11-21T07:10:02+09:00",
  "bookmarkUrl": "https://webcomics.jp/bookmark/3682scqd",
  "works": [
+  {
+   "detailUrl": "https://webcomics.jp/manga-one/277699",
+   "title": "ミハルの戦場",
+   "site": "マンガワン",
+   "thumbFile": "data/thumbs/182729.jpg",
+   "publisherUrl": "https://manga-one.com/viewer/277699",
+   "comicNo": 182729,
+   "history": [
+    {
+     "date": "2026-11-21",
+     "label": "第34話後編",
+     "title": "第34話後編",
+     "url": "https://manga-one.com/manga/26481/chapter/362086"
+    },
+    {
+     "date": "2026-11-14",
+     "label": "第34話前編",
+     "title": "第34話前編",
+     "url": "https://manga-one.com/manga/26481/chapter/360499"
+    },
+    {
+     "date": "2026-10-10",
+     "label": "休載のお知らせ",
+     "title": "休載のお知らせ",
+     "url": "https://manga-one.com/manga/26481/chapter/360496",
+     "extra": true
+    },
+    {
+     "date": "2026-10-10",
+     "label": "第33話後編",
+     "title": "第33話後編",
+     "url": "https://manga-one.com/manga/26481/chapter/359851"
+    },
+    {
+     "date": "2026-09-26",
+     "label": "第33話中編",
+     "title": "第33話中編",
+     "url": "https://manga-one.com/manga/26481/chapter/359692"
+    },
+    {
+     "date": "2026-09-19",
+     "label": "第33話前編",
+     "title": "第33話前編",
+     "url": "https://manga-one.com/manga/26481/chapter/359368"
+    },
+    {
+     "date": "2026-09-12",
+     "label": "第32話後編",
+     "title": "第32話後編",
+     "url": "https://manga-one.com/manga/26481/chapter/358726"
+    },
+    {
+     "date": "2026-08-29",
+     "label": "第32話前編",
+     "title": "第32話前編",
+     "url": "https://manga-one.com/manga/26481/chapter/358243"
+    },
+    {
+     "date": "2026-08-15",
+     "label": "第31話後編",
+     "title": "第31話後編",
+     "url": "https://manga-one.com/manga/26481/chapter/357754"
+    },
+    {
+     "date": "2026-08-01",
+     "label": "第31話前編",
+     "title": "第31話前編",
+     "url": "https://manga-one.com/manga/26481/chapter/357118"
+    },
+    {
+     "date": "2026-07-18",
+     "label": "第30話後編",
+     "title": "第30話後編",
+     "url": "https://manga-one.com/manga/26481/chapter/356665"
+    },
+    {
+     "date": "2026-07-04",
+     "label": "第30話前編",
+     "title": "第30話前編",
+     "url": "https://manga-one.com/manga/26481/chapter/356419"
+    },
+    {
+     "date": "2026-06-27",
+     "label": "第29話後編",
+     "title": "第29話後編",
+     "url": "https://manga-one.com/manga/26481/chapter/355879"
+    },
+    {
+     "date": "2026-06-13",
+     "label": "第29話前編",
+     "title": "第29話前編",
+     "url": "https://manga-one.com/manga/26481/chapter/355648"
+    },
+    {
+     "date": "2026-06-06",
+     "label": "第28話後編",
+     "title": "第28話後編",
+     "url": "https://manga-one.com/manga/26481/chapter/355048"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-21",
+    "label": "第34話後編",
+    "title": "第34話後編",
+    "url": "https://manga-one.com/manga/26481/chapter/362086"
+   },
+   "paidHashes": null,
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/nova/orcsen",
+   "title": "オルクセン王国史 ～野蛮なオークの国は、如何にして平和なエルフの国を焼き払うに至ったか～",
+   "site": "コミックノヴァ",
+   "thumbFile": "data/thumbs/163004.jpg",
+   "publisherUrl": "https://www.123hon.com/nova/web-comic/orcsen/",
+   "comicNo": 163004,
+   "history": [
+    {
+     "date": "2026-11-21",
+     "label": "オルクセン王国史 第23話",
+     "title": "オルクセン王国史 第23話",
+     "url": null
+    },
+    {
+     "date": "2026-10-03",
+     "label": "オルクセン王国史 第22話",
+     "title": "オルクセン王国史 第22話",
+     "url": null
+    },
+    {
+     "date": "2026-08-22",
+     "label": "オルクセン王国史【休載イラスト04】",
+     "title": "オルクセン王国史【休載イラスト04】",
+     "url": null,
+     "extra": true
+    },
+    {
+     "date": "2026-08-01",
+     "label": "オルクセン王国史 第21話",
+     "title": "オルクセン王国史 第21話",
+     "url": null
+    },
+    {
+     "date": "2026-06-27",
+     "label": "オルクセン王国史 第20話",
+     "title": "オルクセン王国史 第20話",
+     "url": null
+    },
+    {
+     "date": "2026-05-08",
+     "label": "オルクセン王国史 第19話",
+     "title": "オルクセン王国史 第19話",
+     "url": null
+    },
+    {
+     "date": "2026-02-27",
+     "label": "オルクセン王国史 第18話",
+     "title": "オルクセン王国史 第18話",
+     "url": null
+    },
+    {
+     "date": "2026-01-17",
+     "label": "オルクセン王国史 第17話",
+     "title": "オルクセン王国史 第17話",
+     "url": null
+    },
+    {
+     "date": "2025-12-06",
+     "label": "オルクセン王国史【休載イラスト03】",
+     "title": "オルクセン王国史【休載イラスト03】",
+     "url": null,
+     "extra": true
+    },
+    {
+     "date": "2025-11-15",
+     "label": "オルクセン王国史 第16話",
+     "title": "オルクセン王国史 第16話",
+     "url": null
+    },
+    {
+     "date": "2025-09-26",
+     "label": "【休載イラスト02】 2025年09月26日更新",
+     "title": "【休載イラスト02】 2025年09月26日更新",
+     "url": null,
+     "extra": true
+    },
+    {
+     "date": "2025-09-27",
+     "label": "オルクセン王国史【休載イラスト02】",
+     "title": "オルクセン王国史【休載イラスト02】",
+     "url": null,
+     "extra": true
+    },
+    {
+     "date": "2025-08-29",
+     "label": "第15話 2025年08月29日更新",
+     "title": "第15話 2025年08月29日更新",
+     "url": null
+    },
+    {
+     "date": "2025-08-30",
+     "label": "オルクセン王国史 第15話",
+     "title": "オルクセン王国史 第15話",
+     "url": null
+    },
+    {
+     "date": "2025-07-11",
+     "label": "オルクセン王国史 第14話",
+     "title": "オルクセン王国史 第14話",
+     "url": null
+    }
+   ],
+   "latest": {
+    "date": "2026-11-21",
+    "label": "オルクセン王国史 第23話",
+    "title": "オルクセン王国史 第23話",
+    "url": null
+   },
+   "paidHashes": null,
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/nova/isekai_ossan",
+   "title": "異世界還りのおっさんは終末世界で無双する",
+   "site": "コミックノヴァ",
+   "thumbFile": "data/thumbs/123872.jpg",
+   "publisherUrl": "https://www.123hon.com/nova/web-comic/isekai_ossan/",
+   "comicNo": 123872,
+   "history": [
+    {
+     "date": "2026-11-21",
+     "label": "異世界還りのおっさんは終末世界で無双する 第40話",
+     "title": "異世界還りのおっさんは終末世界で無双する 第40話",
+     "url": null
+    },
+    {
+     "date": "2026-10-10",
+     "label": "異世界還りのおっさんは終末世界で無双する 第39話",
+     "title": "異世界還りのおっさんは終末世界で無双する 第39話",
+     "url": null
+    },
+    {
+     "date": "2026-09-12",
+     "label": "異世界還りのおっさんは終末世界で無双する 第38話",
+     "title": "異世界還りのおっさんは終末世界で無双する 第38話",
+     "url": null
+    },
+    {
+     "date": "2026-08-29",
+     "label": "異世界還りのおっさんは終末世界で無双する【連載再開イラスト】",
+     "title": "異世界還りのおっさんは終末世界で無双する【連載再開イラスト】",
+     "url": null,
+     "extra": true
+    },
+    {
+     "date": "2026-04-18",
+     "label": "異世界還りのおっさんは終末世界で無双する 第37話",
+     "title": "異世界還りのおっさんは終末世界で無双する 第37話",
+     "url": null
+    },
+    {
+     "date": "2026-02-07",
+     "label": "異世界還りのおっさんは終末世界で無双する 第36話",
+     "title": "異世界還りのおっさんは終末世界で無双する 第36話",
+     "url": null
+    },
+    {
+     "date": "2025-12-13",
+     "label": "異世界還りのおっさんは終末世界で無双する 第35話",
+     "title": "異世界還りのおっさんは終末世界で無双する 第35話",
+     "url": null
+    },
+    {
+     "date": "2025-10-17",
+     "label": "第34話 2025年10月17日更新",
+     "title": "第34話 2025年10月17日更新",
+     "url": null
+    },
+    {
+     "date": "2025-10-18",
+     "label": "異世界還りのおっさんは終末世界で無双する 第34話",
+     "title": "異世界還りのおっさんは終末世界で無双する 第34話",
+     "url": null
+    },
+    {
+     "date": "2021-09-06",
+     "label": "第1話 2021年09月06日更新",
+     "title": "第1話 2021年09月06日更新",
+     "url": null
+    },
+    {
+     "date": "2025-09-05",
+     "label": "第33話 2025年09月05日更新",
+     "title": "第33話 2025年09月05日更新",
+     "url": null
+    },
+    {
+     "date": "2025-09-06",
+     "label": "異世界還りのおっさんは終末世界で無双する 第33話",
+     "title": "異世界還りのおっさんは終末世界で無双する 第33話",
+     "url": null
+    },
+    {
+     "date": "2025-08-08",
+     "label": "第32話 2025年08月08日更新",
+     "title": "第32話 2025年08月08日更新",
+     "url": null
+    },
+    {
+     "date": "2025-08-09",
+     "label": "異世界還りのおっさんは終末世界で無双する 第32話",
+     "title": "異世界還りのおっさんは終末世界で無双する 第32話",
+     "url": null
+    },
+    {
+     "date": "2025-06-27",
+     "label": "異世界還りのおっさんは終末世界で無双する 第31話",
+     "title": "異世界還りのおっさんは終末世界で無双する 第31話",
+     "url": null
+    }
+   ],
+   "latest": {
+    "date": "2026-11-21",
+    "label": "異世界還りのおっさんは終末世界で無双する 第40話",
+    "title": "異世界還りのおっさんは終末世界で無双する 第40話",
+    "url": null
+   },
+   "paidHashes": null,
+   "error": null
+  },
   {
    "detailUrl": "https://webcomics.jp/zenon/10834108156688953433",
    "title": "モブ子の恋",
@@ -11,7 +341,7 @@
    "comicNo": 76045,
    "history": [
     {
-     "date": "2026-11-20",
+     "date": "2026-11-21",
      "label": "特別編",
      "title": "特別編",
      "url": "https://comic-zenon.com/episode/12207421984449166577"
@@ -102,7 +432,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-20",
+    "date": "2026-11-21",
     "label": "特別編",
     "title": "特別編",
     "url": "https://comic-zenon.com/episode/12207421984449166577"
@@ -335,7 +665,7 @@
    "comicNo": 148591,
    "history": [
     {
-     "date": "2026-11-20",
+     "date": "2026-11-21",
      "label": "第40話①",
      "title": "第40話①",
      "url": "https://younganimal.com/episodes/7fa8e8632b267"
@@ -426,7 +756,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-20",
+    "date": "2026-11-21",
     "label": "第40話①",
     "title": "第40話①",
     "url": "https://younganimal.com/episodes/7fa8e8632b267"
@@ -443,7 +773,7 @@
    "comicNo": 102040,
    "history": [
     {
-     "date": "2026-11-20",
+     "date": "2026-11-21",
      "label": "130話",
      "title": "130話",
      "url": "https://takecomic.jp/episodes/d22f5c968dda5"
@@ -535,7 +865,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-20",
+    "date": "2026-11-21",
     "label": "130話",
     "title": "130話",
     "url": "https://takecomic.jp/episodes/d22f5c968dda5"
@@ -552,7 +882,7 @@
    "comicNo": 111992,
    "history": [
     {
-     "date": "2026-11-20",
+     "date": "2026-11-21",
      "label": "第3章[29]後半",
      "title": "第3章[29]後半",
      "url": "https://comic-walker.com/detail/KC_000336_S/episodes/KC_0003360007500021_E?episodeType=latest"
@@ -643,7 +973,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-20",
+    "date": "2026-11-21",
     "label": "第3章[29]後半",
     "title": "第3章[29]後半",
     "url": "https://comic-walker.com/detail/KC_000336_S/episodes/KC_0003360007500021_E?episodeType=latest"
@@ -660,7 +990,7 @@
    "comicNo": 87641,
    "history": [
     {
-     "date": "2026-11-20",
+     "date": "2026-11-21",
      "label": "第63話②",
      "title": "第63話②",
      "url": "https://comic-walker.com/detail/KC_004390_S/episodes/KC_0043900006500021_E?episodeType=latest"
@@ -751,7 +1081,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-20",
+    "date": "2026-11-21",
     "label": "第63話②",
     "title": "第63話②",
     "url": "https://comic-walker.com/detail/KC_004390_S/episodes/KC_0043900006500021_E?episodeType=latest"
@@ -768,7 +1098,7 @@
    "comicNo": 215354,
    "history": [
     {
-     "date": "2026-11-20",
+     "date": "2026-11-21",
      "label": "第2話:悪魔の報復 前編",
      "title": "第2話:悪魔の報復 前編",
      "url": "https://comic-walker.com/detail/KC_020154_S/episodes/KC_0201540000300011_E?episodeType=latest"
@@ -781,7 +1111,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-20",
+    "date": "2026-11-21",
     "label": "第2話:悪魔の報復 前編",
     "title": "第2話:悪魔の報復 前編",
     "url": "https://comic-walker.com/detail/KC_020154_S/episodes/KC_0201540000300011_E?episodeType=latest"
@@ -798,7 +1128,7 @@
    "comicNo": 211866,
    "history": [
     {
-     "date": "2026-11-20",
+     "date": "2026-11-21",
      "label": "第18話",
      "title": "第18話",
      "url": "https://comic-walker.com/detail/KC_019052_S/episodes/KC_0190520002000011_E?episodeType=latest"
@@ -889,7 +1219,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-20",
+    "date": "2026-11-21",
     "label": "第18話",
     "title": "第18話",
     "url": "https://comic-walker.com/detail/KC_019052_S/episodes/KC_0190520002000011_E?episodeType=latest"
@@ -906,7 +1236,7 @@
    "comicNo": 161462,
    "history": [
     {
-     "date": "2026-11-20",
+     "date": "2026-11-21",
      "label": "第30話①",
      "title": "第30話①",
      "url": "https://comic-walker.com/detail/KC_005278_S/episodes/KC_0052780005200011_E?episodeType=latest"
@@ -998,7 +1328,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-20",
+    "date": "2026-11-21",
     "label": "第30話①",
     "title": "第30話①",
     "url": "https://comic-walker.com/detail/KC_005278_S/episodes/KC_0052780005200011_E?episodeType=latest"
@@ -1015,7 +1345,7 @@
    "comicNo": 158374,
    "history": [
     {
-     "date": "2026-11-20",
+     "date": "2026-11-21",
      "label": "第36話②",
      "title": "第36話②",
      "url": "https://comic-walker.com/detail/KC_005090_S/episodes/KC_0050900004100021_E?episodeType=latest"
@@ -1109,7 +1439,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-20",
+    "date": "2026-11-21",
     "label": "第36話②",
     "title": "第36話②",
     "url": "https://comic-walker.com/detail/KC_005090_S/episodes/KC_0050900004100021_E?episodeType=latest"
@@ -1126,7 +1456,7 @@
    "comicNo": 161754,
    "history": [
     {
-     "date": "2026-11-20",
+     "date": "2026-11-21",
      "label": "更新",
      "title": "更新",
      "url": "https://kuragebunch.com/episode/12207421983746061525"
@@ -1217,7 +1547,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-20",
+    "date": "2026-11-21",
     "label": "更新",
     "title": "更新",
     "url": "https://kuragebunch.com/episode/12207421983746061525"
@@ -1234,7 +1564,7 @@
    "comicNo": 168153,
    "history": [
     {
-     "date": "2026-11-20",
+     "date": "2026-11-21",
      "label": "更新",
      "title": "更新",
      "url": "https://kuragebunch.com/episode/12207421984378155799"
@@ -1325,7 +1655,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-20",
+    "date": "2026-11-21",
     "label": "更新",
     "title": "更新",
     "url": "https://kuragebunch.com/episode/12207421984378155799"
@@ -9172,115 +9502,6 @@
     "label": "第三十一話「令嬢と相談事」",
     "title": "第三十一話「令嬢と相談事」",
     "url": "https://heros-web.com/episodes/d8a94794cb0b3"
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
-   "detailUrl": "https://webcomics.jp/manga-one/277699",
-   "title": "ミハルの戦場",
-   "site": "マンガワン",
-   "thumbFile": "data/thumbs/182729.jpg",
-   "publisherUrl": "https://manga-one.com/viewer/277699",
-   "comicNo": 182729,
-   "history": [
-    {
-     "date": "2026-11-14",
-     "label": "第34話前編",
-     "title": "第34話前編",
-     "url": "https://manga-one.com/manga/26481/chapter/360499"
-    },
-    {
-     "date": "2026-10-10",
-     "label": "休載のお知らせ",
-     "title": "休載のお知らせ",
-     "url": "https://manga-one.com/manga/26481/chapter/360496",
-     "extra": true
-    },
-    {
-     "date": "2026-10-10",
-     "label": "第33話後編",
-     "title": "第33話後編",
-     "url": "https://manga-one.com/manga/26481/chapter/359851"
-    },
-    {
-     "date": "2026-09-26",
-     "label": "第33話中編",
-     "title": "第33話中編",
-     "url": "https://manga-one.com/manga/26481/chapter/359692"
-    },
-    {
-     "date": "2026-09-19",
-     "label": "第33話前編",
-     "title": "第33話前編",
-     "url": "https://manga-one.com/manga/26481/chapter/359368"
-    },
-    {
-     "date": "2026-09-12",
-     "label": "第32話後編",
-     "title": "第32話後編",
-     "url": "https://manga-one.com/manga/26481/chapter/358726"
-    },
-    {
-     "date": "2026-08-29",
-     "label": "第32話前編",
-     "title": "第32話前編",
-     "url": "https://manga-one.com/manga/26481/chapter/358243"
-    },
-    {
-     "date": "2026-08-15",
-     "label": "第31話後編",
-     "title": "第31話後編",
-     "url": "https://manga-one.com/manga/26481/chapter/357754"
-    },
-    {
-     "date": "2026-08-01",
-     "label": "第31話前編",
-     "title": "第31話前編",
-     "url": "https://manga-one.com/manga/26481/chapter/357118"
-    },
-    {
-     "date": "2026-07-18",
-     "label": "第30話後編",
-     "title": "第30話後編",
-     "url": "https://manga-one.com/manga/26481/chapter/356665"
-    },
-    {
-     "date": "2026-07-04",
-     "label": "第30話前編",
-     "title": "第30話前編",
-     "url": "https://manga-one.com/manga/26481/chapter/356419"
-    },
-    {
-     "date": "2026-06-27",
-     "label": "第29話後編",
-     "title": "第29話後編",
-     "url": "https://manga-one.com/manga/26481/chapter/355879"
-    },
-    {
-     "date": "2026-06-13",
-     "label": "第29話前編",
-     "title": "第29話前編",
-     "url": "https://manga-one.com/manga/26481/chapter/355648"
-    },
-    {
-     "date": "2026-06-06",
-     "label": "第28話後編",
-     "title": "第28話後編",
-     "url": "https://manga-one.com/manga/26481/chapter/355048"
-    },
-    {
-     "date": "2026-05-23",
-     "label": "第28話前編",
-     "title": "第28話前編",
-     "url": "https://manga-one.com/manga/26481/chapter/354859"
-    }
-   ],
-   "latest": {
-    "date": "2026-11-14",
-    "label": "第34話前編",
-    "title": "第34話前編",
-    "url": "https://manga-one.com/manga/26481/chapter/360499"
    },
    "paidHashes": null,
    "error": null
@@ -20885,115 +21106,6 @@
    "error": null
   },
   {
-   "detailUrl": "https://webcomics.jp/nova/isekai_ossan",
-   "title": "異世界還りのおっさんは終末世界で無双する",
-   "site": "コミックノヴァ",
-   "thumbFile": "data/thumbs/123872.jpg",
-   "publisherUrl": "https://www.123hon.com/nova/web-comic/isekai_ossan/",
-   "comicNo": 123872,
-   "history": [
-    {
-     "date": "2026-10-10",
-     "label": "異世界還りのおっさんは終末世界で無双する 第39話",
-     "title": "異世界還りのおっさんは終末世界で無双する 第39話",
-     "url": null
-    },
-    {
-     "date": "2026-09-12",
-     "label": "異世界還りのおっさんは終末世界で無双する 第38話",
-     "title": "異世界還りのおっさんは終末世界で無双する 第38話",
-     "url": null
-    },
-    {
-     "date": "2026-08-29",
-     "label": "異世界還りのおっさんは終末世界で無双する【連載再開イラスト】",
-     "title": "異世界還りのおっさんは終末世界で無双する【連載再開イラスト】",
-     "url": null,
-     "extra": true
-    },
-    {
-     "date": "2026-04-18",
-     "label": "異世界還りのおっさんは終末世界で無双する 第37話",
-     "title": "異世界還りのおっさんは終末世界で無双する 第37話",
-     "url": null
-    },
-    {
-     "date": "2026-02-07",
-     "label": "異世界還りのおっさんは終末世界で無双する 第36話",
-     "title": "異世界還りのおっさんは終末世界で無双する 第36話",
-     "url": null
-    },
-    {
-     "date": "2025-12-13",
-     "label": "異世界還りのおっさんは終末世界で無双する 第35話",
-     "title": "異世界還りのおっさんは終末世界で無双する 第35話",
-     "url": null
-    },
-    {
-     "date": "2025-10-17",
-     "label": "第34話 2025年10月17日更新",
-     "title": "第34話 2025年10月17日更新",
-     "url": null
-    },
-    {
-     "date": "2025-10-18",
-     "label": "異世界還りのおっさんは終末世界で無双する 第34話",
-     "title": "異世界還りのおっさんは終末世界で無双する 第34話",
-     "url": null
-    },
-    {
-     "date": "2021-09-06",
-     "label": "第1話 2021年09月06日更新",
-     "title": "第1話 2021年09月06日更新",
-     "url": null
-    },
-    {
-     "date": "2025-09-05",
-     "label": "第33話 2025年09月05日更新",
-     "title": "第33話 2025年09月05日更新",
-     "url": null
-    },
-    {
-     "date": "2025-09-06",
-     "label": "異世界還りのおっさんは終末世界で無双する 第33話",
-     "title": "異世界還りのおっさんは終末世界で無双する 第33話",
-     "url": null
-    },
-    {
-     "date": "2025-08-08",
-     "label": "第32話 2025年08月08日更新",
-     "title": "第32話 2025年08月08日更新",
-     "url": null
-    },
-    {
-     "date": "2025-08-09",
-     "label": "異世界還りのおっさんは終末世界で無双する 第32話",
-     "title": "異世界還りのおっさんは終末世界で無双する 第32話",
-     "url": null
-    },
-    {
-     "date": "2025-06-27",
-     "label": "異世界還りのおっさんは終末世界で無双する 第31話",
-     "title": "異世界還りのおっさんは終末世界で無双する 第31話",
-     "url": null
-    },
-    {
-     "date": "2025-05-16",
-     "label": "異世界還りのおっさんは終末世界で無双する 第30話",
-     "title": "異世界還りのおっさんは終末世界で無双する 第30話",
-     "url": null
-    }
-   ],
-   "latest": {
-    "date": "2026-10-10",
-    "label": "異世界還りのおっさんは終末世界で無双する 第39話",
-    "title": "異世界還りのおっさんは終末世界で無双する 第39話",
-    "url": null
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
    "detailUrl": "https://webcomics.jp/comic-walker/KC_005148_S",
    "title": "ゴブリン令嬢と転生貴族が幸せになるまで",
    "site": "カドコミ",
@@ -21425,118 +21537,6 @@
     "label": "最終説「世界が始まる話」①",
     "title": "最終説「世界が始まる話」①",
     "url": "https://heros-web.com/episodes/e1d105f22de45"
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
-   "detailUrl": "https://webcomics.jp/nova/orcsen",
-   "title": "オルクセン王国史 ～野蛮なオークの国は、如何にして平和なエルフの国を焼き払うに至ったか～",
-   "site": "コミックノヴァ",
-   "thumbFile": "data/thumbs/163004.jpg",
-   "publisherUrl": "https://www.123hon.com/nova/web-comic/orcsen/",
-   "comicNo": 163004,
-   "history": [
-    {
-     "date": "2026-10-03",
-     "label": "オルクセン王国史 第22話",
-     "title": "オルクセン王国史 第22話",
-     "url": null
-    },
-    {
-     "date": "2026-08-22",
-     "label": "オルクセン王国史【休載イラスト04】",
-     "title": "オルクセン王国史【休載イラスト04】",
-     "url": null,
-     "extra": true
-    },
-    {
-     "date": "2026-08-01",
-     "label": "オルクセン王国史 第21話",
-     "title": "オルクセン王国史 第21話",
-     "url": null
-    },
-    {
-     "date": "2026-06-27",
-     "label": "オルクセン王国史 第20話",
-     "title": "オルクセン王国史 第20話",
-     "url": null
-    },
-    {
-     "date": "2026-05-08",
-     "label": "オルクセン王国史 第19話",
-     "title": "オルクセン王国史 第19話",
-     "url": null
-    },
-    {
-     "date": "2026-02-27",
-     "label": "オルクセン王国史 第18話",
-     "title": "オルクセン王国史 第18話",
-     "url": null
-    },
-    {
-     "date": "2026-01-17",
-     "label": "オルクセン王国史 第17話",
-     "title": "オルクセン王国史 第17話",
-     "url": null
-    },
-    {
-     "date": "2025-12-06",
-     "label": "オルクセン王国史【休載イラスト03】",
-     "title": "オルクセン王国史【休載イラスト03】",
-     "url": null,
-     "extra": true
-    },
-    {
-     "date": "2025-11-15",
-     "label": "オルクセン王国史 第16話",
-     "title": "オルクセン王国史 第16話",
-     "url": null
-    },
-    {
-     "date": "2025-09-26",
-     "label": "【休載イラスト02】 2025年09月26日更新",
-     "title": "【休載イラスト02】 2025年09月26日更新",
-     "url": null,
-     "extra": true
-    },
-    {
-     "date": "2025-09-27",
-     "label": "オルクセン王国史【休載イラスト02】",
-     "title": "オルクセン王国史【休載イラスト02】",
-     "url": null,
-     "extra": true
-    },
-    {
-     "date": "2025-08-29",
-     "label": "第15話 2025年08月29日更新",
-     "title": "第15話 2025年08月29日更新",
-     "url": null
-    },
-    {
-     "date": "2025-08-30",
-     "label": "オルクセン王国史 第15話",
-     "title": "オルクセン王国史 第15話",
-     "url": null
-    },
-    {
-     "date": "2025-07-11",
-     "label": "オルクセン王国史 第14話",
-     "title": "オルクセン王国史 第14話",
-     "url": null
-    },
-    {
-     "date": "2025-06-06",
-     "label": "オルクセン王国史 第13話",
-     "title": "オルクセン王国史 第13話",
-     "url": null
-    }
-   ],
-   "latest": {
-    "date": "2026-10-03",
-    "label": "オルクセン王国史 第22話",
-    "title": "オルクセン王国史 第22話",
-    "url": null
    },
    "paidHashes": null,
    "error": null
