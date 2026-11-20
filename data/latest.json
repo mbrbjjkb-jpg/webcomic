@@ -1,7 +1,115 @@
 {
- "checkedAt": "2026-11-20T10:42:44+09:00",
+ "checkedAt": "2026-11-20T11:24:45+09:00",
  "bookmarkUrl": "https://webcomics.jp/bookmark/3682scqd",
  "works": [
+  {
+   "detailUrl": "https://webcomics.jp/seiga/56387",
+   "title": "ダークサモナーとデキている",
+   "site": "ニコニコ漫画",
+   "thumbFile": "data/thumbs/128633.jpg",
+   "publisherUrl": "https://manga.nicovideo.jp/comic/56387",
+   "comicNo": 128633,
+   "history": [
+    {
+     "date": "2026-11-20",
+     "label": "2026/11/20 更新",
+     "title": "2026/11/20 更新",
+     "url": "https://manga.nicovideo.jp/comic/56387/new"
+    },
+    {
+     "date": "2026-11-06",
+     "label": "2026/11/06 更新",
+     "title": "2026/11/06 更新",
+     "url": "https://manga.nicovideo.jp/comic/56387/new"
+    },
+    {
+     "date": "2026-10-23",
+     "label": "2026/10/23 更新",
+     "title": "2026/10/23 更新",
+     "url": "https://manga.nicovideo.jp/comic/56387/new"
+    },
+    {
+     "date": "2026-10-10",
+     "label": "2026/10/10 更新",
+     "title": "2026/10/10 更新",
+     "url": "https://manga.nicovideo.jp/comic/56387/new"
+    },
+    {
+     "date": "2026-10-09",
+     "label": "2026/10/09 更新",
+     "title": "2026/10/09 更新",
+     "url": "https://manga.nicovideo.jp/comic/56387/new"
+    },
+    {
+     "date": "2026-10-02",
+     "label": "2026/10/02 更新",
+     "title": "2026/10/02 更新",
+     "url": "https://manga.nicovideo.jp/comic/56387/new"
+    },
+    {
+     "date": "2026-09-18",
+     "label": "2026/09/18 更新",
+     "title": "2026/09/18 更新",
+     "url": "https://manga.nicovideo.jp/comic/56387/new"
+    },
+    {
+     "date": "2026-08-14",
+     "label": "2026/08/14 更新",
+     "title": "2026/08/14 更新",
+     "url": "https://manga.nicovideo.jp/comic/56387/new"
+    },
+    {
+     "date": "2026-07-31",
+     "label": "2026/07/31 更新",
+     "title": "2026/07/31 更新",
+     "url": "https://manga.nicovideo.jp/comic/56387/new"
+    },
+    {
+     "date": "2026-07-10",
+     "label": "2026/07/10 更新",
+     "title": "2026/07/10 更新",
+     "url": "https://manga.nicovideo.jp/comic/56387/new"
+    },
+    {
+     "date": "2026-06-26",
+     "label": "2026/06/26 更新",
+     "title": "2026/06/26 更新",
+     "url": "https://manga.nicovideo.jp/comic/56387/new"
+    },
+    {
+     "date": "2026-06-12",
+     "label": "2026/06/12 更新",
+     "title": "2026/06/12 更新",
+     "url": "https://manga.nicovideo.jp/comic/56387/new"
+    },
+    {
+     "date": "2026-05-29",
+     "label": "2026/05/29 更新",
+     "title": "2026/05/29 更新",
+     "url": "https://manga.nicovideo.jp/comic/56387/new"
+    },
+    {
+     "date": "2026-05-15",
+     "label": "2026/05/15 更新",
+     "title": "2026/05/15 更新",
+     "url": "https://manga.nicovideo.jp/comic/56387/new"
+    },
+    {
+     "date": "2026-04-24",
+     "label": "2026/04/24 更新",
+     "title": "2026/04/24 更新",
+     "url": "https://manga.nicovideo.jp/comic/56387/new"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-20",
+    "label": "2026/11/20 更新",
+    "title": "2026/11/20 更新",
+    "url": "https://manga.nicovideo.jp/comic/56387/new"
+   },
+   "paidHashes": null,
+   "error": null
+  },
   {
    "detailUrl": "https://webcomics.jp/shonenjump-plus/9253191254047172549",
    "title": "世界を繋ぎ尽くすインターネット巫女",
@@ -13893,114 +14001,6 @@
     "label": "129話",
     "title": "129話",
     "url": "https://takecomic.jp/episodes/4a390a930dae3"
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
-   "detailUrl": "https://webcomics.jp/seiga/56387",
-   "title": "ダークサモナーとデキている",
-   "site": "ニコニコ漫画",
-   "thumbFile": "data/thumbs/128633.jpg",
-   "publisherUrl": "https://manga.nicovideo.jp/comic/56387",
-   "comicNo": 128633,
-   "history": [
-    {
-     "date": "2026-11-06",
-     "label": "2026/11/06 更新",
-     "title": "2026/11/06 更新",
-     "url": "https://manga.nicovideo.jp/comic/56387/new"
-    },
-    {
-     "date": "2026-10-23",
-     "label": "2026/10/23 更新",
-     "title": "2026/10/23 更新",
-     "url": "https://manga.nicovideo.jp/comic/56387/new"
-    },
-    {
-     "date": "2026-10-10",
-     "label": "2026/10/10 更新",
-     "title": "2026/10/10 更新",
-     "url": "https://manga.nicovideo.jp/comic/56387/new"
-    },
-    {
-     "date": "2026-10-09",
-     "label": "2026/10/09 更新",
-     "title": "2026/10/09 更新",
-     "url": "https://manga.nicovideo.jp/comic/56387/new"
-    },
-    {
-     "date": "2026-10-02",
-     "label": "2026/10/02 更新",
-     "title": "2026/10/02 更新",
-     "url": "https://manga.nicovideo.jp/comic/56387/new"
-    },
-    {
-     "date": "2026-09-18",
-     "label": "2026/09/18 更新",
-     "title": "2026/09/18 更新",
-     "url": "https://manga.nicovideo.jp/comic/56387/new"
-    },
-    {
-     "date": "2026-08-14",
-     "label": "2026/08/14 更新",
-     "title": "2026/08/14 更新",
-     "url": "https://manga.nicovideo.jp/comic/56387/new"
-    },
-    {
-     "date": "2026-07-31",
-     "label": "2026/07/31 更新",
-     "title": "2026/07/31 更新",
-     "url": "https://manga.nicovideo.jp/comic/56387/new"
-    },
-    {
-     "date": "2026-07-10",
-     "label": "2026/07/10 更新",
-     "title": "2026/07/10 更新",
-     "url": "https://manga.nicovideo.jp/comic/56387/new"
-    },
-    {
-     "date": "2026-06-26",
-     "label": "2026/06/26 更新",
-     "title": "2026/06/26 更新",
-     "url": "https://manga.nicovideo.jp/comic/56387/new"
-    },
-    {
-     "date": "2026-06-12",
-     "label": "2026/06/12 更新",
-     "title": "2026/06/12 更新",
-     "url": "https://manga.nicovideo.jp/comic/56387/new"
-    },
-    {
-     "date": "2026-05-29",
-     "label": "2026/05/29 更新",
-     "title": "2026/05/29 更新",
-     "url": "https://manga.nicovideo.jp/comic/56387/new"
-    },
-    {
-     "date": "2026-05-15",
-     "label": "2026/05/15 更新",
-     "title": "2026/05/15 更新",
-     "url": "https://manga.nicovideo.jp/comic/56387/new"
-    },
-    {
-     "date": "2026-04-24",
-     "label": "2026/04/24 更新",
-     "title": "2026/04/24 更新",
-     "url": "https://manga.nicovideo.jp/comic/56387/new"
-    },
-    {
-     "date": "2026-04-10",
-     "label": "2026/04/10 更新",
-     "title": "2026/04/10 更新",
-     "url": "https://manga.nicovideo.jp/comic/56387/new"
-    }
-   ],
-   "latest": {
-    "date": "2026-11-06",
-    "label": "2026/11/06 更新",
-    "title": "2026/11/06 更新",
-    "url": "https://manga.nicovideo.jp/comic/56387/new"
    },
    "paidHashes": null,
    "error": null

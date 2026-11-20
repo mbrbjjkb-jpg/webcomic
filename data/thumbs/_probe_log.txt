@@ -1,2 +1,4 @@
-days_seishun: ok bytes=160133 https://comic-days.com/episode/4856001361264085413
-dre_blade: FAILED HTTP Error 403: Forbidden https://drecomi-plus.jp/series/CD00007
+days_rss: ok ua=default bytes=41444 https://comic-days.com/rss/series/4856001361262750886
+days_ep_default: ok ua=default bytes=159881 https://comic-days.com/episode/4856001361264085413
+dre_default: FAILED ua=default HTTP Error 403: Forbidden https://drecomi-plus.jp/series/CD00007
+dre_jina: ok ua=default bytes=342 https://r.jina.ai/https://drecomi-plus.jp/series/CD00007
