@@ -1319,6 +1319,51 @@ def cleanup_debug_files():
     return removed
 
 
+# ------------------------------------------------- 構造確認用プローブ（暫定）
+# コミックDAYS／ドリコミ＋ の話一覧（話数・日付・無料／有料）の取り方を
+# 確認するため、対象2作品の公式ページの生HTMLを1回だけ保存する
+# （2026-11-20 調査）。アダプタ実装が終わったらこの節ごと撤去する。
+# 保存先は data/thumbs/_probe_*.html と _probe_log.txt で、次回実行時の
+# cleanup_debug_files が自動で消す。
+
+PROBE_PAGES = [
+    ("days_seishun",
+     "https://comic-days.com/episode/4856001361264085413"),
+    ("dre_blade",
+     "https://drecomi-plus.jp/series/CD00007"),
+]
+BROWSER_UA = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) "
+    "Chrome/130.0.0.0 Safari/537.36"
+)
+
+
+def save_probe_pages():
+    """PROBE_PAGES の生HTMLと取得結果ログを THUMBS_DIR に保存する。"""
+    lines = []
+    try:
+        os.makedirs(THUMBS_DIR, exist_ok=True)
+        for name, url in PROBE_PAGES:
+            try:
+                html = fetch_text(url, ua=BROWSER_UA)
+                path = os.path.join(THUMBS_DIR, f"_probe_{name}.html")
+                with open(path, "w", encoding="utf-8") as f:
+                    f.write(html)
+                lines.append(
+                    f"{name}: ok bytes={len(html.encode('utf-8'))} {url}")
+            except Exception as e:
+                lines.append(f"{name}: FAILED {e} {url}")
+            polite_sleep()
+        with open(os.path.join(THUMBS_DIR, "_probe_log.txt"),
+                  "w", encoding="utf-8") as f:
+            f.write("\n".join(lines) + "\n")
+    except Exception as e:
+        print(f"[checker] probe failed: {e}", file=sys.stderr)
+    for line in lines:
+        print(f"[checker] probe {line}")
+
+
 def main():
     now = datetime.now(JST)
     today = now.date()
@@ -1326,6 +1371,9 @@ def main():
 
     # v2〜v3 の暫定デバッグファイルが残っていれば掃除する
     cleanup_debug_files()
+
+    # 構造確認用プローブ（暫定。上の節を参照）
+    save_probe_pages()
 
     # COMICリュウの有料話リスト（手動管理。詳細は有料リストの節）
     ryu_paid_seed = load_ryu_paid_hashes()
