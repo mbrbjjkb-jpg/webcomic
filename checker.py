@@ -1321,16 +1321,34 @@ def cleanup_debug_files():
 
 # ------------------------------------------------- 構造確認用プローブ（暫定）
 # コミックDAYS／ドリコミ＋ の話一覧（話数・日付・無料／有料）の取り方を
-# 確認するため、対象2作品の公式ページの生HTMLを1回だけ保存する
+# 確認するため、対象2作品の公式ページの生データを保存する
 # （2026-11-20 調査）。アダプタ実装が終わったらこの節ごと撤去する。
 # 保存先は data/thumbs/_probe_*.html と _probe_log.txt で、次回実行時の
-# cleanup_debug_files が自動で消す。
+# cleanup_debug_files が自動で消す（RSS の生XMLも .html 名で保存する
+# のは掃除対象に入れるため）。
+#
+# 第1弾の結果（2026-11-20 10:45 確認）:
+#   - コミックDAYS 作品ページは取得できたが話一覧は無し。代わりに
+#     head 内にシリーズRSS（/rss/series/<seriesId>）を発見。
+#     RSS は全66話（話数・話URL・公開日・無料公開日らしき第2日付）を持つ
+#   - ドリコミ＋ は Chrome UA でも 403 で取得不可
+# 第2弾は、RSS の生XML（無料日付のタグ名確認）と、ドリコミ＋ の
+# 別UA・プロキシ経由での取得可否を試す。
 
 PROBE_PAGES = [
-    ("days_seishun",
-     "https://comic-days.com/episode/4856001361264085413"),
-    ("dre_blade",
-     "https://drecomi-plus.jp/series/CD00007"),
+    # (保存名, URL, UA種別: "default" か "browser")
+    ("days_rss",
+     "https://comic-days.com/rss/series/4856001361262750886",
+     "default"),
+    ("days_ep_default",
+     "https://comic-days.com/episode/4856001361264085413",
+     "default"),
+    ("dre_default",
+     "https://drecomi-plus.jp/series/CD00007",
+     "default"),
+    ("dre_jina",
+     "https://r.jina.ai/https://drecomi-plus.jp/series/CD00007",
+     "default"),
 ]
 BROWSER_UA = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -1340,20 +1358,22 @@ BROWSER_UA = (
 
 
 def save_probe_pages():
-    """PROBE_PAGES の生HTMLと取得結果ログを THUMBS_DIR に保存する。"""
+    """PROBE_PAGES の生データと取得結果ログを THUMBS_DIR に保存する。"""
     lines = []
     try:
         os.makedirs(THUMBS_DIR, exist_ok=True)
-        for name, url in PROBE_PAGES:
+        for name, url, ua_kind in PROBE_PAGES:
             try:
-                html = fetch_text(url, ua=BROWSER_UA)
+                html = fetch_text(
+                    url, ua=BROWSER_UA if ua_kind == "browser" else None)
                 path = os.path.join(THUMBS_DIR, f"_probe_{name}.html")
                 with open(path, "w", encoding="utf-8") as f:
                     f.write(html)
                 lines.append(
-                    f"{name}: ok bytes={len(html.encode('utf-8'))} {url}")
+                    f"{name}: ok ua={ua_kind} "
+                    f"bytes={len(html.encode('utf-8'))} {url}")
             except Exception as e:
-                lines.append(f"{name}: FAILED {e} {url}")
+                lines.append(f"{name}: FAILED ua={ua_kind} {e} {url}")
             polite_sleep()
         with open(os.path.join(THUMBS_DIR, "_probe_log.txt"),
                   "w", encoding="utf-8") as f:
