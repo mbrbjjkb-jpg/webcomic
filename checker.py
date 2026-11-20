@@ -16,6 +16,8 @@
   7. イラスト・告知等の「話でない更新」は履歴に残しつつ extra の印を
      付け、latest（最新話表示用）は本編エントリから選ぶ（案2。専用処理
      の節を参照）
+  8. コミックDAYS作品はシリーズRSSで話数と無料／有料を付け、latest は
+     話数最大の無料話から選ぶ（再掲載対策。専用処理の節を参照）
 
 Python 標準ライブラリのみで動作する。
 パーサは実HTML（2026-11-13 の実地サンプル）に基づく構造解析：
@@ -991,6 +993,154 @@ def enrich_gaugau_history(history, publisher_url):
         history, publisher_url, parse_gaugau_episodes, "gaugau")
 
 
+# ---------------------------------------------------------------- コミックDAYS
+# コミックDAYSは、過去話の再掲載が webcomics.jp の履歴の先頭に来る
+# ことがあり、日付が新しい順＝最新話にならない（2026-11-20
+# 『ずっと青春ぽいですよ』で報告：最新話として2024年公開の第18話が
+# 選ばれた。本当の無料最新は第65話）。COMICリュウと同じ「話数最大」
+# 方式で解くが、話数と無料／有料は公式のシリーズRSSから取る。作品
+# ページ（話ページ）の head にシリーズRSSのURLがあり、RSS は全話の
+# 話数・話URL・公開日と、無料開始日 <giga:freeTermStartDate> を持つ
+# （2026-11-20 のプローブで生XMLを確認）。
+#
+# 無料／有料の判定（RSS の実データに基づく）:
+#   - 無料開始日があり、それが今日以前 → 無料
+#   - 無料開始日が未来 → まだ無料でない（有料）
+#   - 最新話（RSS内で話数最大）で、無料開始日が無い／未来 → 有料
+#     （先行配信。『ずっと青春ぽいですよ』第66話がこの形）
+#   - それ以外の話 → 無料。無料開始日のタグは全話には付かない
+#     （同作品でも第19〜63話には無く、古い話はチケット等で読める側）
+#
+# 履歴エントリには話数を "epNo" として付け、latest は epNo 最大の
+# 本編・無料エントリから選ぶ（select_latest_days）。話URLが RSS に
+# 無いエントリには印を付けず、その作品は従来の選択にフォールバック
+# する。履歴の並び自体と未読判定（指紋照合）は変更しない。
+
+_DAYS_RSS_ID_RE = re.compile(r"comic-days\.com/rss/series/(\d+)")
+_DAYS_EP_TITLE_RE = re.compile(r"第([0-9０-９]+)話")
+_GIGA_FREE_TAG = "{https://gigaviewer.com}freeTermStartDate"
+_FULLWIDTH_DIGITS = str.maketrans("０１２３４５６７８９", "0123456789")
+
+
+def _rfc822_date(text):
+    """RSS の日付（RFC822形式）を date にする。失敗したら None。"""
+    if not text:
+        return None
+    try:
+        return datetime.strptime(
+            text.strip(), "%a, %d %b %Y %H:%M:%S %z").date()
+    except ValueError:
+        return None
+
+
+def parse_days_rss(xml_text):
+    """コミックDAYSのシリーズRSS → 話リスト。
+
+    返り値は [{"number": int, "url": str, "pubDate": date|None,
+    "freeDate": date|None}]。パースできない場合は空リスト。
+    """
+    import xml.etree.ElementTree as ET
+    try:
+        root = ET.fromstring(xml_text)
+    except ET.ParseError:
+        return []
+    episodes = []
+    for item in root.iter("item"):
+        m = _DAYS_EP_TITLE_RE.search(item.findtext("title") or "")
+        url = item.findtext("link")
+        if not m or not url:
+            continue
+        episodes.append({
+            "number": int(m.group(1).translate(_FULLWIDTH_DIGITS)),
+            "url": url.strip(),
+            "pubDate": _rfc822_date(item.findtext("pubDate")),
+            "freeDate": _rfc822_date(item.findtext(_GIGA_FREE_TAG)),
+        })
+    return episodes
+
+
+def is_days_work(site, publisher_url):
+    if site and "DAYS" in site:
+        return True
+    return bool(publisher_url) and "comic-days.com" in publisher_url
+
+
+def days_episode_paid(ep, max_number, today):
+    """RSSの1話が現時点で有料（無料で読めない先行配信）かどうか。"""
+    free = ep.get("freeDate")
+    if free is not None:
+        return free > today
+    return ep.get("number") == max_number
+
+
+def apply_days_rss(history, episodes, today):
+    """履歴エントリに話数（epNo）と有料の印を付ける。(履歴, 件数) を返す。
+
+    話URLが RSS にあるエントリだけが対象。印の付け外しは毎回
+    やり直す（無料化に追従するため）。
+    """
+    if not episodes:
+        return history, 0
+    by_url = {ep["url"]: ep for ep in episodes}
+    max_number = max(ep["number"] for ep in episodes)
+    matched = 0
+    for entry in history or []:
+        ep = by_url.get(entry.get("url") or "")
+        if ep is None:
+            continue
+        matched += 1
+        entry["epNo"] = ep["number"]
+        if days_episode_paid(ep, max_number, today):
+            entry["paid"] = True
+        elif entry.get("paid"):
+            del entry["paid"]
+    return history, matched
+
+
+def enrich_days_history(history, publisher_url, today):
+    """コミックDAYS作品の履歴に、シリーズRSSから話数と有料の印を付ける。
+
+    (履歴, 対応付け件数) を返す。取得に失敗したら履歴はそのまま。
+    """
+    if not history or not publisher_url:
+        return history, 0
+    try:
+        html = fetch_text(publisher_url)
+        polite_sleep()
+        m = _DAYS_RSS_ID_RE.search(html)
+        if not m:
+            return history, 0
+        xml = fetch_text(f"https://comic-days.com/rss/series/{m.group(1)}")
+        polite_sleep()
+        return apply_days_rss(history, parse_days_rss(xml), today)
+    except Exception as e:
+        print(f"[checker] days enrich failed ({publisher_url}): {e}",
+              file=sys.stderr)
+        return history, 0
+
+
+def select_latest_days(history):
+    """コミックDAYS用：epNo が最大の本編・無料エントリを latest とする。
+
+    epNo 付きのエントリが無ければ None（呼び出し側で通常の
+    select_latest にフォールバックする）。同点は日付が新しい方。
+    """
+    best = None
+    best_key = None
+    for entry in history or []:
+        if is_extra_entry(entry):
+            continue
+        if entry.get("paid"):
+            continue
+        num = entry.get("epNo")
+        if not isinstance(num, int):
+            continue
+        key = (num, entry.get("date") or "")
+        if best_key is None or key > best_key:
+            best, best_key = entry, key
+    return best
+
+
 # ---------------------------------------------------------------- 非本編の分類（案2）
 # webcomics.jp の「最近の更新」には、本編の話だけでなくイラスト・
 # 人気投票企画・休載のお知らせ等の「話でない更新」も並ぶ。これらが
@@ -1125,9 +1275,13 @@ def is_ryu_work(site, publisher_url):
 
 
 def select_latest_for_work(history, site, publisher_url):
-    """作品に応じた latest の選択（COMICリュウは話数最大を優先）。"""
+    """作品に応じた latest の選択（リュウ／DAYSは話数最大を優先）。"""
     if is_ryu_work(site, publisher_url):
         latest = select_latest_ryu(history)
+        if latest is not None:
+            return latest
+    if is_days_work(site, publisher_url):
+        latest = select_latest_days(history)
         if latest is not None:
             return latest
     return select_latest(history)
@@ -1319,71 +1473,6 @@ def cleanup_debug_files():
     return removed
 
 
-# ------------------------------------------------- 構造確認用プローブ（暫定）
-# コミックDAYS／ドリコミ＋ の話一覧（話数・日付・無料／有料）の取り方を
-# 確認するため、対象2作品の公式ページの生データを保存する
-# （2026-11-20 調査）。アダプタ実装が終わったらこの節ごと撤去する。
-# 保存先は data/thumbs/_probe_*.html と _probe_log.txt で、次回実行時の
-# cleanup_debug_files が自動で消す（RSS の生XMLも .html 名で保存する
-# のは掃除対象に入れるため）。
-#
-# 第1弾の結果（2026-11-20 10:45 確認）:
-#   - コミックDAYS 作品ページは取得できたが話一覧は無し。代わりに
-#     head 内にシリーズRSS（/rss/series/<seriesId>）を発見。
-#     RSS は全66話（話数・話URL・公開日・無料公開日らしき第2日付）を持つ
-#   - ドリコミ＋ は Chrome UA でも 403 で取得不可
-# 第2弾は、RSS の生XML（無料日付のタグ名確認）と、ドリコミ＋ の
-# 別UA・プロキシ経由での取得可否を試す。
-
-PROBE_PAGES = [
-    # (保存名, URL, UA種別: "default" か "browser")
-    ("days_rss",
-     "https://comic-days.com/rss/series/4856001361262750886",
-     "default"),
-    ("days_ep_default",
-     "https://comic-days.com/episode/4856001361264085413",
-     "default"),
-    ("dre_default",
-     "https://drecomi-plus.jp/series/CD00007",
-     "default"),
-    ("dre_jina",
-     "https://r.jina.ai/https://drecomi-plus.jp/series/CD00007",
-     "default"),
-]
-BROWSER_UA = (
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-    "AppleWebKit/537.36 (KHTML, like Gecko) "
-    "Chrome/130.0.0.0 Safari/537.36"
-)
-
-
-def save_probe_pages():
-    """PROBE_PAGES の生データと取得結果ログを THUMBS_DIR に保存する。"""
-    lines = []
-    try:
-        os.makedirs(THUMBS_DIR, exist_ok=True)
-        for name, url, ua_kind in PROBE_PAGES:
-            try:
-                html = fetch_text(
-                    url, ua=BROWSER_UA if ua_kind == "browser" else None)
-                path = os.path.join(THUMBS_DIR, f"_probe_{name}.html")
-                with open(path, "w", encoding="utf-8") as f:
-                    f.write(html)
-                lines.append(
-                    f"{name}: ok ua={ua_kind} "
-                    f"bytes={len(html.encode('utf-8'))} {url}")
-            except Exception as e:
-                lines.append(f"{name}: FAILED ua={ua_kind} {e} {url}")
-            polite_sleep()
-        with open(os.path.join(THUMBS_DIR, "_probe_log.txt"),
-                  "w", encoding="utf-8") as f:
-            f.write("\n".join(lines) + "\n")
-    except Exception as e:
-        print(f"[checker] probe failed: {e}", file=sys.stderr)
-    for line in lines:
-        print(f"[checker] probe {line}")
-
-
 def main():
     now = datetime.now(JST)
     today = now.date()
@@ -1391,9 +1480,6 @@ def main():
 
     # v2〜v3 の暫定デバッグファイルが残っていれば掃除する
     cleanup_debug_files()
-
-    # 構造確認用プローブ（暫定。上の節を参照）
-    save_probe_pages()
 
     # COMICリュウの有料話リスト（手動管理。詳細は有料リストの節）
     ryu_paid_seed = load_ryu_paid_hashes()
@@ -1518,6 +1604,13 @@ def main():
             mangaone_filled_total += n_filled
         if history and is_gaugau_work(site, publisher_url):
             history, n_filled = enrich_gaugau_history(history, publisher_url)
+            mangaone_filled_total += n_filled
+
+        # コミックDAYS：シリーズRSSで話数（epNo）と有料の印を付け、
+        # latest は話数最大の無料話から選ぶ（2026-11-20）
+        if history and is_days_work(site, publisher_url):
+            history, n_filled = enrich_days_history(
+                history, publisher_url, today)
             mangaone_filled_total += n_filled
 
         # 非本編の分類（案2）：履歴が確定した最終ステップとして、
