@@ -1,7 +1,115 @@
 {
- "checkedAt": "2026-11-21T11:20:56+09:00",
+ "checkedAt": "2026-11-21T12:03:39+09:00",
  "bookmarkUrl": "https://webcomics.jp/bookmark/3682scqd",
  "works": [
+  {
+   "detailUrl": "https://webcomics.jp/gaugau/615fb9d577656145b30c0000",
+   "title": "与えられたスキルを使って稼いで異世界美女達とイチャイチャしたい",
+   "site": "がうがうモンスター",
+   "thumbFile": "data/thumbs/129711.jpg",
+   "publisherUrl": "https://gaugau.futabanet.jp/list/work/615fb9d577656145b30c0000",
+   "comicNo": 129711,
+   "history": [
+    {
+     "date": "2026-11-07",
+     "label": "11/7 更新",
+     "title": "11/7 更新",
+     "url": "https://gaugau.futabanet.jp/list/work/615fb9d577656145b30c0000/episodes/121"
+    },
+    {
+     "date": "2026-10-24",
+     "label": "10/24 更新",
+     "title": "10/24 更新",
+     "url": "https://gaugau.futabanet.jp/list/work/615fb9d577656145b30c0000/episodes/120"
+    },
+    {
+     "date": "2026-10-10",
+     "label": "10/10 更新",
+     "title": "10/10 更新",
+     "url": "https://gaugau.futabanet.jp/list/work/615fb9d577656145b30c0000/episodes/119"
+    },
+    {
+     "date": "2026-09-19",
+     "label": "9/19 更新",
+     "title": "9/19 更新",
+     "url": null
+    },
+    {
+     "date": "2026-09-12",
+     "label": "9/12 更新",
+     "title": "9/12 更新",
+     "url": null
+    },
+    {
+     "date": "2026-09-05",
+     "label": "9/5 更新",
+     "title": "9/5 更新",
+     "url": null
+    },
+    {
+     "date": "2026-08-29",
+     "label": "8/29 更新",
+     "title": "8/29 更新",
+     "url": null
+    },
+    {
+     "date": "2026-08-22",
+     "label": "8/22 更新",
+     "title": "8/22 更新",
+     "url": null
+    },
+    {
+     "date": "2026-08-15",
+     "label": "8/15 更新",
+     "title": "8/15 更新",
+     "url": null
+    },
+    {
+     "date": "2026-08-08",
+     "label": "8/8 更新",
+     "title": "8/8 更新",
+     "url": null
+    },
+    {
+     "date": "2026-08-01",
+     "label": "8/1 更新",
+     "title": "8/1 更新",
+     "url": null
+    },
+    {
+     "date": "2026-07-25",
+     "label": "7/25 更新",
+     "title": "7/25 更新",
+     "url": null
+    },
+    {
+     "date": "2026-07-18",
+     "label": "7/18 更新",
+     "title": "7/18 更新",
+     "url": null
+    },
+    {
+     "date": "2026-07-04",
+     "label": "7/4 更新",
+     "title": "7/4 更新",
+     "url": null
+    },
+    {
+     "date": "2026-06-20",
+     "label": "6/20 更新",
+     "title": "6/20 更新",
+     "url": null
+    }
+   ],
+   "latest": {
+    "date": "2026-11-07",
+    "label": "11/7 更新",
+    "title": "11/7 更新",
+    "url": "https://gaugau.futabanet.jp/list/work/615fb9d577656145b30c0000/episodes/121"
+   },
+   "paidHashes": null,
+   "error": null
+  },
   {
    "detailUrl": "https://webcomics.jp/seiga/67976",
    "title": "男子高校生だけどギャルにTSしました",
@@ -1673,7 +1781,7 @@
    "comicNo": 161754,
    "history": [
     {
-     "date": "2026-11-21",
+     "date": "2026-11-20",
      "label": "更新",
      "title": "更新",
      "url": "https://kuragebunch.com/episode/12207421983746061525"
@@ -1764,7 +1872,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-21",
+    "date": "2026-11-20",
     "label": "更新",
     "title": "更新",
     "url": "https://kuragebunch.com/episode/12207421983746061525"
@@ -1781,7 +1889,7 @@
    "comicNo": 168153,
    "history": [
     {
-     "date": "2026-11-21",
+     "date": "2026-11-20",
      "label": "更新",
      "title": "更新",
      "url": "https://kuragebunch.com/episode/12207421984378155799"
@@ -1872,7 +1980,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-21",
+    "date": "2026-11-20",
     "label": "更新",
     "title": "更新",
     "url": "https://kuragebunch.com/episode/12207421984378155799"
@@ -15065,114 +15173,6 @@
     "label": "2026/11/08更新",
     "title": "2026/11/08更新",
     "url": null
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
-   "detailUrl": "https://webcomics.jp/gaugau/615fb9d577656145b30c0000",
-   "title": "与えられたスキルを使って稼いで異世界美女達とイチャイチャしたい",
-   "site": "がうがうモンスター",
-   "thumbFile": "data/thumbs/129711.jpg",
-   "publisherUrl": "https://gaugau.futabanet.jp/list/work/615fb9d577656145b30c0000",
-   "comicNo": 129711,
-   "history": [
-    {
-     "date": "2026-11-07",
-     "label": "11/7 更新",
-     "title": "11/7 更新",
-     "url": "https://gaugau.futabanet.jp/list/work/615fb9d577656145b30c0000/episodes/121"
-    },
-    {
-     "date": "2026-10-24",
-     "label": "10/24 更新",
-     "title": "10/24 更新",
-     "url": "https://gaugau.futabanet.jp/list/work/615fb9d577656145b30c0000/episodes/120"
-    },
-    {
-     "date": "2026-10-10",
-     "label": "10/10 更新",
-     "title": "10/10 更新",
-     "url": "https://gaugau.futabanet.jp/list/work/615fb9d577656145b30c0000/episodes/119"
-    },
-    {
-     "date": "2026-09-19",
-     "label": "9/19 更新",
-     "title": "9/19 更新",
-     "url": null
-    },
-    {
-     "date": "2026-09-12",
-     "label": "9/12 更新",
-     "title": "9/12 更新",
-     "url": null
-    },
-    {
-     "date": "2026-09-05",
-     "label": "9/5 更新",
-     "title": "9/5 更新",
-     "url": null
-    },
-    {
-     "date": "2026-08-29",
-     "label": "8/29 更新",
-     "title": "8/29 更新",
-     "url": null
-    },
-    {
-     "date": "2026-08-22",
-     "label": "8/22 更新",
-     "title": "8/22 更新",
-     "url": null
-    },
-    {
-     "date": "2026-08-15",
-     "label": "8/15 更新",
-     "title": "8/15 更新",
-     "url": null
-    },
-    {
-     "date": "2026-08-08",
-     "label": "8/8 更新",
-     "title": "8/8 更新",
-     "url": null
-    },
-    {
-     "date": "2026-08-01",
-     "label": "8/1 更新",
-     "title": "8/1 更新",
-     "url": null
-    },
-    {
-     "date": "2026-07-25",
-     "label": "7/25 更新",
-     "title": "7/25 更新",
-     "url": null
-    },
-    {
-     "date": "2026-07-18",
-     "label": "7/18 更新",
-     "title": "7/18 更新",
-     "url": null
-    },
-    {
-     "date": "2026-07-04",
-     "label": "7/4 更新",
-     "title": "7/4 更新",
-     "url": null
-    },
-    {
-     "date": "2026-06-20",
-     "label": "6/20 更新",
-     "title": "6/20 更新",
-     "url": null
-    }
-   ],
-   "latest": {
-    "date": "2026-11-07",
-    "label": "11/7 更新",
-    "title": "11/7 更新",
-    "url": "https://gaugau.futabanet.jp/list/work/615fb9d577656145b30c0000/episodes/121"
    },
    "paidHashes": null,
    "error": null
