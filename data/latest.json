@@ -1,7 +1,116 @@
 {
- "checkedAt": "2026-11-21T18:08:11+09:00",
+ "checkedAt": "2026-11-21T19:53:03+09:00",
  "bookmarkUrl": "https://webcomics.jp/bookmark/3682scqd",
  "works": [
+  {
+   "detailUrl": "https://webcomics.jp/mangacross/82594f4a166ec",
+   "title": "はるかリセット",
+   "site": "チャンピオンクロス",
+   "thumbFile": "data/thumbs/120798.jpg",
+   "publisherUrl": "https://championcross.jp/series/82594f4a166ec",
+   "comicNo": 120798,
+   "history": [
+    {
+     "date": "2026-11-21",
+     "label": "第242話 旅の雰囲気",
+     "title": "第242話 旅の雰囲気",
+     "url": "https://championcross.jp/episodes/2fb919fb1249f"
+    },
+    {
+     "date": "2026-11-13",
+     "label": "第241話 連れてって",
+     "title": "第241話 連れてって",
+     "url": "https://championcross.jp/episodes/84a65c9c8cb9c"
+    },
+    {
+     "date": "2026-11-06",
+     "label": "第240話 備えあれば…",
+     "title": "第240話 備えあれば…",
+     "url": "https://championcross.jp/episodes/ba6aabd490ff9"
+    },
+    {
+     "date": "2026-10-23",
+     "label": "第239話 温泉と南国",
+     "title": "第239話 温泉と南国",
+     "url": "https://championcross.jp/episodes/82d8b5d384873"
+    },
+    {
+     "date": "2026-10-16",
+     "label": "第238話 眠るのだ",
+     "title": "第238話 眠るのだ",
+     "url": "https://championcross.jp/episodes/d4e3310283bdc"
+    },
+    {
+     "date": "2026-10-10",
+     "label": "第237話 素敵なところ",
+     "title": "第237話 素敵なところ",
+     "url": "https://championcross.jp/episodes/c70c6295c9562"
+    },
+    {
+     "date": "2026-10-04",
+     "label": "第236話 日本で唯一展示されている",
+     "title": "第236話 日本で唯一展示されている",
+     "url": "https://championcross.jp/episodes/0f2a65da02b30"
+    },
+    {
+     "date": "2026-09-18",
+     "label": "第235話 手前味噌",
+     "title": "第235話 手前味噌",
+     "url": "https://championcross.jp/episodes/4382cc5c2b88a"
+    },
+    {
+     "date": "2026-09-04",
+     "label": "第234話 長いつきあいなので",
+     "title": "第234話 長いつきあいなので",
+     "url": "https://championcross.jp/episodes/15cd4652002d1"
+    },
+    {
+     "date": "2026-08-29",
+     "label": "第233話 すでに濡れてるし",
+     "title": "第233話 すでに濡れてるし",
+     "url": "https://championcross.jp/episodes/00045005150fc"
+    },
+    {
+     "date": "2026-08-14",
+     "label": "第232話 魅力がいっぱい",
+     "title": "第232話 魅力がいっぱい",
+     "url": "https://championcross.jp/episodes/4b170dd127884"
+    },
+    {
+     "date": "2026-08-08",
+     "label": "第231話 日本最大級の離島",
+     "title": "第231話 日本最大級の離島",
+     "url": "https://championcross.jp/episodes/8474e1298ebcf"
+    },
+    {
+     "date": "2026-07-24",
+     "label": "第230話 たまには他人に",
+     "title": "第230話 たまには他人に",
+     "url": "https://championcross.jp/episodes/2852c16422751"
+    },
+    {
+     "date": "2026-07-24",
+     "label": "特別イラスト",
+     "title": "特別イラスト",
+     "url": "https://championcross.jp/episodes/901f7ead82aa9",
+     "extra": true
+    },
+    {
+     "date": "2026-07-11",
+     "label": "第229話 馬九行久",
+     "title": "第229話 馬九行久",
+     "url": "https://championcross.jp/episodes/f65a100829acf"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-21",
+    "label": "第242話 旅の雰囲気",
+    "title": "第242話 旅の雰囲気",
+    "url": "https://championcross.jp/episodes/2fb919fb1249f"
+   },
+   "paidHashes": null,
+   "error": null
+  },
   {
    "detailUrl": "https://webcomics.jp/seiga/67455",
    "title": "理想の彼女",
@@ -993,7 +1102,7 @@
    "comicNo": 76045,
    "history": [
     {
-     "date": "2026-11-21",
+     "date": "2026-11-20",
      "label": "特別編",
      "title": "特別編",
      "url": "https://comic-zenon.com/episode/12207421984449166577"
@@ -1084,7 +1193,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-21",
+    "date": "2026-11-20",
     "label": "特別編",
     "title": "特別編",
     "url": "https://comic-zenon.com/episode/12207421984449166577"
@@ -11555,115 +11664,6 @@
     "label": "最新話を読む",
     "title": "最新話を読む",
     "url": "https://comic-action.com/episode/12207421984411755235"
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
-   "detailUrl": "https://webcomics.jp/mangacross/82594f4a166ec",
-   "title": "はるかリセット",
-   "site": "チャンピオンクロス",
-   "thumbFile": "data/thumbs/120798.jpg",
-   "publisherUrl": "https://championcross.jp/series/82594f4a166ec",
-   "comicNo": 120798,
-   "history": [
-    {
-     "date": "2026-11-13",
-     "label": "第241話 連れてって",
-     "title": "第241話 連れてって",
-     "url": "https://championcross.jp/episodes/84a65c9c8cb9c"
-    },
-    {
-     "date": "2026-11-06",
-     "label": "第240話 備えあれば…",
-     "title": "第240話 備えあれば…",
-     "url": "https://championcross.jp/episodes/ba6aabd490ff9"
-    },
-    {
-     "date": "2026-10-23",
-     "label": "第239話 温泉と南国",
-     "title": "第239話 温泉と南国",
-     "url": "https://championcross.jp/episodes/82d8b5d384873"
-    },
-    {
-     "date": "2026-10-16",
-     "label": "第238話 眠るのだ",
-     "title": "第238話 眠るのだ",
-     "url": "https://championcross.jp/episodes/d4e3310283bdc"
-    },
-    {
-     "date": "2026-10-10",
-     "label": "第237話 素敵なところ",
-     "title": "第237話 素敵なところ",
-     "url": "https://championcross.jp/episodes/c70c6295c9562"
-    },
-    {
-     "date": "2026-10-04",
-     "label": "第236話 日本で唯一展示されている",
-     "title": "第236話 日本で唯一展示されている",
-     "url": "https://championcross.jp/episodes/0f2a65da02b30"
-    },
-    {
-     "date": "2026-09-18",
-     "label": "第235話 手前味噌",
-     "title": "第235話 手前味噌",
-     "url": "https://championcross.jp/episodes/4382cc5c2b88a"
-    },
-    {
-     "date": "2026-09-04",
-     "label": "第234話 長いつきあいなので",
-     "title": "第234話 長いつきあいなので",
-     "url": "https://championcross.jp/episodes/15cd4652002d1"
-    },
-    {
-     "date": "2026-08-29",
-     "label": "第233話 すでに濡れてるし",
-     "title": "第233話 すでに濡れてるし",
-     "url": "https://championcross.jp/episodes/00045005150fc"
-    },
-    {
-     "date": "2026-08-14",
-     "label": "第232話 魅力がいっぱい",
-     "title": "第232話 魅力がいっぱい",
-     "url": "https://championcross.jp/episodes/4b170dd127884"
-    },
-    {
-     "date": "2026-08-08",
-     "label": "第231話 日本最大級の離島",
-     "title": "第231話 日本最大級の離島",
-     "url": "https://championcross.jp/episodes/8474e1298ebcf"
-    },
-    {
-     "date": "2026-07-24",
-     "label": "第230話 たまには他人に",
-     "title": "第230話 たまには他人に",
-     "url": "https://championcross.jp/episodes/2852c16422751"
-    },
-    {
-     "date": "2026-07-24",
-     "label": "特別イラスト",
-     "title": "特別イラスト",
-     "url": "https://championcross.jp/episodes/901f7ead82aa9",
-     "extra": true
-    },
-    {
-     "date": "2026-07-11",
-     "label": "第229話 馬九行久",
-     "title": "第229話 馬九行久",
-     "url": "https://championcross.jp/episodes/f65a100829acf"
-    },
-    {
-     "date": "2026-07-03",
-     "label": "第228話 絵画の中の人っぽく",
-     "title": "第228話 絵画の中の人っぽく",
-     "url": "https://championcross.jp/episodes/3b31e386d5fb7"
-    }
-   ],
-   "latest": {
-    "date": "2026-11-13",
-    "label": "第241話 連れてって",
-    "title": "第241話 連れてって",
-    "url": "https://championcross.jp/episodes/84a65c9c8cb9c"
    },
    "paidHashes": null,
    "error": null
