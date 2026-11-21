@@ -832,6 +832,40 @@ def parse_gaugau_episodes(html):
     return out
 
 
+def parse_nova_episodes(html):
+    """コミックノヴァ作品ページから (更新日ISO, ラベル, 話URL, 本編か) の一覧を返す。
+
+    話一覧の各項目は「<span class="story-num">第N話</span>　YYYY年MM月DD日更新」
+    と「読む」リンク（/vw/…）の組。公開が終了した話は日付ではなく
+    「公開は終了しました。」と表示され、リンクも無いので対象外になる
+    （通常、補完できるのは最新話・第1話・告知やイラスト等の、いま
+    読める話だけ）。
+    """
+    out = []
+    seen = set()
+    blocks = re.split(r'<div class="story">', html or "")
+    for b in blocks[1:]:
+        num = re.search(r'<span class="story-num">([^<]*)</span>', b)
+        if not num:
+            continue
+        label = num.group(1).strip()
+        dm = re.search(r"(\d{4})年(\d{1,2})月(\d{1,2})日更新", b)
+        if not dm:
+            continue  # 公開終了（日付が無い）話は照合できない
+        m = re.search(r'href="(https://www\.123hon\.com/vw/[^"]+)"', b)
+        if not m:
+            continue  # 「読む」リンクが無い話は飛び先にできない
+        date_iso = (f"{dm.group(1)}-{int(dm.group(2)):02d}"
+                    f"-{int(dm.group(3)):02d}")
+        url = m.group(1)
+        if (date_iso, url) in seen:
+            continue  # 「第1話を読む」等の重複ブロックを除く
+        seen.add((date_iso, url))
+        is_main = label.startswith("第") and _is_main_episode_label(label)
+        out.append((date_iso, label, url, is_main))
+    return out
+
+
 # がうがう形式の履歴ラベル（「11/17 更新」）。ラベル自体が更新日を持つ
 _SLASH_UPDATE_LABEL_RE = re.compile(r"^\s*(\d{1,2})/(\d{1,2})\s*更新\s*$")
 
@@ -991,6 +1025,24 @@ def enrich_gaugau_history(history, publisher_url):
     """がうがう作品の履歴に話URLを補完する。(履歴, 補完件数) を返す。"""
     return _enrich_by_date_history(
         history, publisher_url, parse_gaugau_episodes, "gaugau")
+
+
+def is_nova_work(site, publisher_url):
+    if site and "ノヴァ" in site:
+        return True
+    return bool(publisher_url) and "123hon.com" in publisher_url
+
+
+def enrich_nova_history(history, publisher_url):
+    """コミックノヴァ作品の履歴に話URLを補完する。(履歴, 補完件数) を返す。
+
+    コミックノヴァは「最新話と第1話だけ公開し、過去話は公開終了」と
+    いう形式で、作品ページに話URLと更新日があるのは読める話だけ。
+    そのため補完できるのも最新話など読める話に限られるが、アプリの
+    飛び先として必要なのは最新話なので、それで足りる（2026-11-21）。
+    """
+    return _enrich_by_date_history(
+        history, publisher_url, parse_nova_episodes, "nova")
 
 
 # ---------------------------------------------------------------- コミックDAYS
@@ -1604,6 +1656,9 @@ def main():
             mangaone_filled_total += n_filled
         if history and is_gaugau_work(site, publisher_url):
             history, n_filled = enrich_gaugau_history(history, publisher_url)
+            mangaone_filled_total += n_filled
+        if history and is_nova_work(site, publisher_url):
+            history, n_filled = enrich_nova_history(history, publisher_url)
             mangaone_filled_total += n_filled
 
         # コミックDAYS：シリーズRSSで話数（epNo）と有料の印を付け、
