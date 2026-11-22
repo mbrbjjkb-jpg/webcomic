@@ -1,7 +1,234 @@
 {
- "checkedAt": "2026-11-22T10:08:35+09:00",
+ "checkedAt": "2026-11-22T13:48:27+09:00",
  "bookmarkUrl": "https://webcomics.jp/bookmark/3682scqd",
  "works": [
+  {
+   "detailUrl": "https://webcomics.jp/comic-days/3270296674401745275",
+   "title": "ザ・キンクス",
+   "site": "コミックDAYS",
+   "thumbFile": "data/thumbs/148685.jpg",
+   "publisherUrl": "https://comic-days.com/episode/3270296674401745275",
+   "comicNo": 148685,
+   "history": [
+    {
+     "date": "2026-11-22",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/2550912965918818836"
+    },
+    {
+     "date": "2026-10-25",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/2550912965918818817",
+     "epNo": 33
+    },
+    {
+     "date": "2026-10-11",
+     "label": "第7話 マーサ&ザ・新生ニセモノーズ",
+     "title": "第7話 マーサ&ザ・新生ニセモノーズ",
+     "url": "https://comic-days.com/episode/3270296674401745298",
+     "epNo": 7
+    },
+    {
+     "date": "2026-09-27",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/2550912965918818803",
+     "epNo": 32
+    },
+    {
+     "date": "2026-08-23",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/2550912965918818788"
+    },
+    {
+     "date": "2026-07-26",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/2550912965918818775",
+     "epNo": 31
+    },
+    {
+     "date": "2026-06-28",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/2550912965918818759",
+     "epNo": 30
+    },
+    {
+     "date": "2026-05-24",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/2550912965918818741",
+     "epNo": 29
+    },
+    {
+     "date": "2026-04-26",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/2550912965918818725"
+    },
+    {
+     "date": "2026-03-22",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/2550912965918818710",
+     "epNo": 28
+    },
+    {
+     "date": "2026-02-22",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/2550912965918818695",
+     "epNo": 27
+    },
+    {
+     "date": "2026-01-25",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/2550912964849502131"
+    },
+    {
+     "date": "2025-12-28",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/2550912964849502089"
+    },
+    {
+     "date": "2025-11-23",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/2550912964849502054",
+     "epNo": 26
+    },
+    {
+     "date": "2025-10-26",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/2550912964849502021",
+     "epNo": 25
+    }
+   ],
+   "latest": {
+    "date": "2026-10-25",
+    "label": "更新",
+    "title": "更新",
+    "url": "https://comic-days.com/episode/2550912965918818817",
+    "epNo": 33
+   },
+   "paidHashes": null,
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/gardo/3269754496561208293",
+   "title": "最果てのパラディン",
+   "site": "コミックガルド",
+   "thumbFile": "data/thumbs/68688.jpg",
+   "publisherUrl": "https://comic-gardo.com/episode/3269754496561208293",
+   "comicNo": 68688,
+   "history": [
+    {
+     "date": "2026-11-22",
+     "label": "第77章「噛傷」",
+     "title": "第77章「噛傷」",
+     "url": "https://comic-gardo.com/episode/12207421984005617628"
+    },
+    {
+     "date": "2026-10-25",
+     "label": "第76章「理解者」(2)",
+     "title": "第76章「理解者」(2)",
+     "url": "https://comic-gardo.com/episode/12207421983891361446"
+    },
+    {
+     "date": "2026-08-02",
+     "label": "第76章「理解者」(1)",
+     "title": "第76章「理解者」(1)",
+     "url": "https://comic-gardo.com/episode/12207421983777233466"
+    },
+    {
+     "date": "2026-07-05",
+     "label": "第75章「無敵の巨人Ⅷ」(2)",
+     "title": "第75章「無敵の巨人Ⅷ」(2)",
+     "url": "https://comic-gardo.com/episode/12207421983638117452"
+    },
+    {
+     "date": "2026-06-07",
+     "label": "第75章「無敵の巨人Ⅷ」(1)",
+     "title": "第75章「無敵の巨人Ⅷ」(1)",
+     "url": "https://comic-gardo.com/episode/12207421983537362210"
+    },
+    {
+     "date": "2026-05-03",
+     "label": "第74章「無敵の巨人Ⅶ」",
+     "title": "第74章「無敵の巨人Ⅶ」",
+     "url": "https://comic-gardo.com/episode/12207421983321788197"
+    },
+    {
+     "date": "2026-04-05",
+     "label": "第73章「無敵の巨人Ⅵ」(3)",
+     "title": "第73章「無敵の巨人Ⅵ」(3)",
+     "url": "https://comic-gardo.com/episode/2551460910044409890"
+    },
+    {
+     "date": "2026-02-08",
+     "label": "第73章「無敵の巨人Ⅵ」(2)",
+     "title": "第73章「無敵の巨人Ⅵ」(2)",
+     "url": "https://comic-gardo.com/episode/2551460909967440537"
+    },
+    {
+     "date": "2026-02-02",
+     "label": "第73章「無敵の巨人Ⅵ」(1)",
+     "title": "第73章「無敵の巨人Ⅵ」(1)",
+     "url": "https://comic-gardo.com/episode/2551460909916370238"
+    },
+    {
+     "date": "2026-02-02",
+     "label": "第72章「無敵の巨人Ⅴ」(3)",
+     "title": "第72章「無敵の巨人Ⅴ」(3)",
+     "url": "https://comic-gardo.com/episode/2551460909813704383"
+    },
+    {
+     "date": "2026-02-02",
+     "label": "第72章「無敵の巨人Ⅴ」(2)",
+     "title": "第72章「無敵の巨人Ⅴ」(2)",
+     "url": "https://comic-gardo.com/episode/2551460909733140774"
+    },
+    {
+     "date": "2026-01-23",
+     "label": "第72章「無敵の巨人Ⅴ」",
+     "title": "第72章「無敵の巨人Ⅴ」",
+     "url": "https://comic-gardo.com/episode/2551460909653449917"
+    },
+    {
+     "date": "2025-11-21",
+     "label": "第71章「無敵の巨人Ⅳ」",
+     "title": "第71章「無敵の巨人Ⅳ」",
+     "url": "https://comic-gardo.com/episode/2550912966009517864"
+    },
+    {
+     "date": "2025-08-29",
+     "label": "第70章「無敵の巨人Ⅲ」",
+     "title": "第70章「無敵の巨人Ⅲ」",
+     "url": "https://comic-gardo.com/episode/2550912965792970569"
+    },
+    {
+     "date": "2025-07-04",
+     "label": "第69章「無敵の巨人Ⅱ」",
+     "title": "第69章「無敵の巨人Ⅱ」",
+     "url": "https://comic-gardo.com/episode/2550912965607840230"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-22",
+    "label": "第77章「噛傷」",
+    "title": "第77章「噛傷」",
+    "url": "https://comic-gardo.com/episode/12207421984005617628"
+   },
+   "paidHashes": null,
+   "error": null
+  },
   {
    "detailUrl": "https://webcomics.jp/shonenjump-plus/16457717013869519536",
    "title": "ふつうの軽音部",
@@ -660,7 +887,7 @@
    "comicNo": 168589,
    "history": [
     {
-     "date": "2026-11-22",
+     "date": "2026-11-21",
      "label": "第27話前半",
      "title": "第27話前半",
      "url": "https://comic-walker.com/detail/KC_005544_S/episodes/KC_0055440004700011_E?episodeType=latest"
@@ -753,7 +980,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-22",
+    "date": "2026-11-21",
     "label": "第27話前半",
     "title": "第27話前半",
     "url": "https://comic-walker.com/detail/KC_005544_S/episodes/KC_0055440004700011_E?episodeType=latest"
@@ -770,7 +997,7 @@
    "comicNo": 209635,
    "history": [
     {
-     "date": "2026-11-22",
+     "date": "2026-11-21",
      "label": "第25話 キレ喰いの恐怖",
      "title": "第25話 キレ喰いの恐怖",
      "url": "https://yanmaga.jp/comics/MADE_IN_YAMATO/693915a992fae04a314f63840b9ddc06"
@@ -862,7 +1089,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-22",
+    "date": "2026-11-21",
     "label": "第25話 キレ喰いの恐怖",
     "title": "第25話 キレ喰いの恐怖",
     "url": "https://yanmaga.jp/comics/MADE_IN_YAMATO/693915a992fae04a314f63840b9ddc06"
@@ -879,7 +1106,7 @@
    "comicNo": 129711,
    "history": [
     {
-     "date": "2026-11-22",
+     "date": "2026-11-21",
      "label": "11/21 更新",
      "title": "11/21 更新",
      "url": "https://gaugau.futabanet.jp/list/work/615fb9d577656145b30c0000/episodes/122"
@@ -970,7 +1197,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-22",
+    "date": "2026-11-21",
     "label": "11/21 更新",
     "title": "11/21 更新",
     "url": "https://gaugau.futabanet.jp/list/work/615fb9d577656145b30c0000/episodes/122"
@@ -18430,234 +18657,6 @@
     "label": "第46話",
     "title": "第46話",
     "url": "https://comicpash.jp/episodes/f62e8ba198789"
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
-   "detailUrl": "https://webcomics.jp/comic-days/3270296674401745275",
-   "title": "ザ・キンクス",
-   "site": "コミックDAYS",
-   "thumbFile": "data/thumbs/148685.jpg",
-   "publisherUrl": "https://comic-days.com/episode/3270296674401745275",
-   "comicNo": 148685,
-   "history": [
-    {
-     "date": "2026-10-25",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://comic-days.com/episode/2550912965918818817",
-     "epNo": 33
-    },
-    {
-     "date": "2026-10-11",
-     "label": "第7話 マーサ&ザ・新生ニセモノーズ",
-     "title": "第7話 マーサ&ザ・新生ニセモノーズ",
-     "url": "https://comic-days.com/episode/3270296674401745298",
-     "epNo": 7
-    },
-    {
-     "date": "2026-09-27",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://comic-days.com/episode/2550912965918818803",
-     "epNo": 32
-    },
-    {
-     "date": "2026-08-23",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://comic-days.com/episode/2550912965918818788"
-    },
-    {
-     "date": "2026-07-26",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://comic-days.com/episode/2550912965918818775",
-     "epNo": 31
-    },
-    {
-     "date": "2026-06-28",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://comic-days.com/episode/2550912965918818759",
-     "epNo": 30
-    },
-    {
-     "date": "2026-05-24",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://comic-days.com/episode/2550912965918818741",
-     "epNo": 29
-    },
-    {
-     "date": "2026-04-26",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://comic-days.com/episode/2550912965918818725"
-    },
-    {
-     "date": "2026-03-22",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://comic-days.com/episode/2550912965918818710",
-     "epNo": 28
-    },
-    {
-     "date": "2026-02-22",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://comic-days.com/episode/2550912965918818695",
-     "epNo": 27
-    },
-    {
-     "date": "2026-01-25",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://comic-days.com/episode/2550912964849502131"
-    },
-    {
-     "date": "2025-12-28",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://comic-days.com/episode/2550912964849502089"
-    },
-    {
-     "date": "2025-11-23",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://comic-days.com/episode/2550912964849502054",
-     "epNo": 26
-    },
-    {
-     "date": "2025-10-26",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://comic-days.com/episode/2550912964849502021",
-     "epNo": 25
-    },
-    {
-     "date": "2025-09-28",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://comic-days.com/episode/2550912964849501985",
-     "epNo": 24
-    }
-   ],
-   "latest": {
-    "date": "2026-10-25",
-    "label": "更新",
-    "title": "更新",
-    "url": "https://comic-days.com/episode/2550912965918818817",
-    "epNo": 33
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
-   "detailUrl": "https://webcomics.jp/gardo/3269754496561208293",
-   "title": "最果てのパラディン",
-   "site": "コミックガルド",
-   "thumbFile": "data/thumbs/68688.jpg",
-   "publisherUrl": "https://comic-gardo.com/episode/3269754496561208293",
-   "comicNo": 68688,
-   "history": [
-    {
-     "date": "2026-10-25",
-     "label": "第76章「理解者」(2)",
-     "title": "第76章「理解者」(2)",
-     "url": "https://comic-gardo.com/episode/12207421983891361446"
-    },
-    {
-     "date": "2026-08-02",
-     "label": "第76章「理解者」(1)",
-     "title": "第76章「理解者」(1)",
-     "url": "https://comic-gardo.com/episode/12207421983777233466"
-    },
-    {
-     "date": "2026-07-05",
-     "label": "第75章「無敵の巨人Ⅷ」(2)",
-     "title": "第75章「無敵の巨人Ⅷ」(2)",
-     "url": "https://comic-gardo.com/episode/12207421983638117452"
-    },
-    {
-     "date": "2026-06-07",
-     "label": "第75章「無敵の巨人Ⅷ」(1)",
-     "title": "第75章「無敵の巨人Ⅷ」(1)",
-     "url": "https://comic-gardo.com/episode/12207421983537362210"
-    },
-    {
-     "date": "2026-05-03",
-     "label": "第74章「無敵の巨人Ⅶ」",
-     "title": "第74章「無敵の巨人Ⅶ」",
-     "url": "https://comic-gardo.com/episode/12207421983321788197"
-    },
-    {
-     "date": "2026-04-05",
-     "label": "第73章「無敵の巨人Ⅵ」(3)",
-     "title": "第73章「無敵の巨人Ⅵ」(3)",
-     "url": "https://comic-gardo.com/episode/2551460910044409890"
-    },
-    {
-     "date": "2026-02-08",
-     "label": "第73章「無敵の巨人Ⅵ」(2)",
-     "title": "第73章「無敵の巨人Ⅵ」(2)",
-     "url": "https://comic-gardo.com/episode/2551460909967440537"
-    },
-    {
-     "date": "2026-02-02",
-     "label": "第73章「無敵の巨人Ⅵ」(1)",
-     "title": "第73章「無敵の巨人Ⅵ」(1)",
-     "url": "https://comic-gardo.com/episode/2551460909916370238"
-    },
-    {
-     "date": "2026-02-02",
-     "label": "第72章「無敵の巨人Ⅴ」(3)",
-     "title": "第72章「無敵の巨人Ⅴ」(3)",
-     "url": "https://comic-gardo.com/episode/2551460909813704383"
-    },
-    {
-     "date": "2026-02-02",
-     "label": "第72章「無敵の巨人Ⅴ」(2)",
-     "title": "第72章「無敵の巨人Ⅴ」(2)",
-     "url": "https://comic-gardo.com/episode/2551460909733140774"
-    },
-    {
-     "date": "2026-01-23",
-     "label": "第72章「無敵の巨人Ⅴ」",
-     "title": "第72章「無敵の巨人Ⅴ」",
-     "url": "https://comic-gardo.com/episode/2551460909653449917"
-    },
-    {
-     "date": "2025-11-21",
-     "label": "第71章「無敵の巨人Ⅳ」",
-     "title": "第71章「無敵の巨人Ⅳ」",
-     "url": "https://comic-gardo.com/episode/2550912966009517864"
-    },
-    {
-     "date": "2025-08-29",
-     "label": "第70章「無敵の巨人Ⅲ」",
-     "title": "第70章「無敵の巨人Ⅲ」",
-     "url": "https://comic-gardo.com/episode/2550912965792970569"
-    },
-    {
-     "date": "2025-07-04",
-     "label": "第69章「無敵の巨人Ⅱ」",
-     "title": "第69章「無敵の巨人Ⅱ」",
-     "url": "https://comic-gardo.com/episode/2550912965607840230"
-    },
-    {
-     "date": "2025-05-02",
-     "label": "第68章「無敵の巨人Ⅰ」",
-     "title": "第68章「無敵の巨人Ⅰ」",
-     "url": "https://comic-gardo.com/episode/2550912965122429721"
-    }
-   ],
-   "latest": {
-    "date": "2026-10-25",
-    "label": "第76章「理解者」(2)",
-    "title": "第76章「理解者」(2)",
-    "url": "https://comic-gardo.com/episode/12207421983891361446"
    },
    "paidHashes": null,
    "error": null
