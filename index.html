@@ -60,6 +60,10 @@
   .next b{color:var(--accent); font-size:15.5px}
   .sub{font-size:12.5px; color:var(--sub); margin-top:3px; display:flex; gap:8px; flex-wrap:wrap; align-items:center}
   .chip{background:var(--chip); border-radius:999px; padding:1px 8px; font-size:12px; color:#444a57}
+  .chip.site-chip{cursor:pointer; text-decoration:underline dotted; text-underline-offset:2px}
+  .chip.site-chip.active{background:var(--accent); color:#fff; text-decoration:none}
+  #siteFilterBar{font-size:13px; color:#444a57; margin:0 0 10px}
+  #siteFilterBar button{margin-left:8px; padding:2px 10px; font-size:12px; border:1px solid var(--line); background:var(--card); border-radius:999px; cursor:pointer; color:var(--ink)}
   .note-warn{font-size:12.5px; color:var(--warn); margin-top:4px}
   .note-err{font-size:12.5px; color:#b03a2a; margin-top:4px}
   .acts{display:flex; gap:8px; margin-top:auto; padding-top:8px; flex-wrap:wrap}
@@ -155,6 +159,7 @@
       <div class="toolbar">
         <input type="search" id="q" placeholder="タイトル・掲載サイトで検索" oninput="renderAll()">
       </div>
+      <div id="siteFilterBar" style="display:none"></div>
       <div id="allList"></div>
     </section>
 
@@ -227,6 +232,7 @@ let token = localStorage.getItem(LS_KEY) || "";
 let library = null;   // {data, sha}
 let latest = null;    // {data, sha}
 let view = [];        // 表示用に計算した作品配列
+let siteFilter = "";  // 全作品タブの掲載元絞り込み（""なら絞り込みなし）
 let undoSnapshot = null; // library.json の変更前JSON文字列
 let busy = false;
 
@@ -559,11 +565,15 @@ function cardHTML(w, mode){
     const target = (w.latestEp && w.latestEp.url) || w.publisherUrl || w.detailUrl;
     if(target) titleHTML = '<div class="title"><a href="' + esc(target) + '" target="_blank" rel="noopener">' + esc(w.title) + "</a>" + manualNote + "</div>";
   }
+  // 全作品タブでは掲載元チップをタップ可能にし、同じ掲載元だけに絞り込めるようにする（2026-11-22 本人指定）
+  const siteChip = (mode === "all" && w.site)
+    ? '<span class="chip site-chip' + (siteFilter === w.site ? " active" : "") + '" data-site="' + esc(w.site) + '" title="タップで同じ掲載元だけ表示">' + esc(w.site) + "</span>"
+    : '<span class="chip">' + esc(w.site || "webcomics.jp") + "</span>";
   return '<div class="card">'
     + '<div class="thumbwrap"><span>' + esc(w.title.slice(0, 1)) + "</span>" + thumb + "</div>"
     + '<div class="body">' + titleHTML
     + head + notes
-    + '<div class="sub"><span class="chip">' + esc(w.site || "webcomics.jp") + "</span>" + badge + "</div>"
+    + '<div class="sub">' + siteChip + badge + "</div>"
     + '<div class="acts">' + btns + "</div></div></div>";
 }
 // サムネイルの遅延読み込み（表示されたカード分だけ Contents API から取得）
@@ -593,6 +603,9 @@ function bindCardButtons(root){
       else markUnread(url);
     });
   });
+  root.querySelectorAll(".site-chip").forEach(chip => {
+    chip.addEventListener("click", () => toggleSiteFilter(chip.getAttribute("data-site")));
+  });
 }
 function renderUnread(){
   const list = unreadWorks();
@@ -602,9 +615,29 @@ function renderUnread(){
   bindCardButtons(el); observeThumbs(el);
   syncHeader();
 }
+// 掲載元チップのタップで同じ掲載元だけに絞り込む。同じ掲載元をもう一度タップすると解除
+function toggleSiteFilter(site){
+  siteFilter = (site && siteFilter !== site) ? site : "";
+  renderAll();
+}
+function clearSiteFilter(){
+  siteFilter = "";
+  renderAll();
+}
 function renderAll(){
   const q = (document.getElementById("q").value || "").trim();
-  const list = orderedList(view.filter(w => !q || w.title.includes(q) || (w.site || "").includes(q)));
+  const list = orderedList(view.filter(w =>
+    (!siteFilter || (w.site || "") === siteFilter) &&
+    (!q || w.title.includes(q) || (w.site || "").includes(q))));
+  const bar = document.getElementById("siteFilterBar");
+  if(siteFilter){
+    bar.style.display = "";
+    bar.innerHTML = "掲載元「" + esc(siteFilter) + "」で絞り込み中（" + list.length + "件）"
+      + '<button type="button" onclick="clearSiteFilter()">× 解除</button>';
+  } else {
+    bar.style.display = "none";
+    bar.innerHTML = "";
+  }
   const el = document.getElementById("allList");
   el.innerHTML = list.length ? list.map(w => cardHTML(w, "all")).join("")
     : '<div class="empty">該当する作品がありません</div>';
