@@ -551,7 +551,7 @@ function cardHTML(w, mode){
     : "";
   // ドリコミ＋は話一覧を自動取得できないため、最新話は作品ページで
   // 手動確認する旨を作品名の横に小さく出す（2026-11-20 本人指定）
-  const manualNote = ((w.publisherUrl || "").includes("drecomi-plus.jp") || (w.site || "").includes("ドリコミ"))
+  const manualNote = ((w.publisherUrl || "").includes("drecomi-plus.jp") || (w.site || "").includes("ドリコミ") || (w.publisherUrl || "").includes("pocket.shonenmagazine.com") || (w.site || "").includes("マガポケ"))
     ? '<span class="manual-note">※最新話は手動表示</span>' : "";
   // 全作品タブではタイトルを作品ページへのリンクにする（読了扱いにはしない、ただ開くだけ）
   let titleHTML = '<div class="title">' + esc(w.title) + manualNote + "</div>";
