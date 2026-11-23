@@ -1,7 +1,427 @@
 {
- "checkedAt": "2026-11-23T21:13:02+09:00",
+ "checkedAt": "2026-11-24T08:41:37+09:00",
  "bookmarkUrl": "https://webcomics.jp/bookmark/3682scqd",
  "works": [
+  {
+   "detailUrl": "https://webcomics.jp/magapoke/03322",
+   "title": "排水溝につまったスライムを日々かたづけるだけの底辺職、なぜか実力者たちの熱い視線を集めてしまう",
+   "site": "マガポケ",
+   "thumbFile": "data/thumbs/213995.jpg",
+   "publisherUrl": "https://pocket.shonenmagazine.com/title/03322",
+   "comicNo": 213995,
+   "history": [
+    {
+     "date": "2026-11-24",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/03322/episode/446366"
+    },
+    {
+     "date": "2026-11-17",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/03322/episode/446119"
+    },
+    {
+     "date": "2026-11-10",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/03322/episode/445780"
+    },
+    {
+     "date": "2026-11-03",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/03322/episode/445562"
+    },
+    {
+     "date": "2026-10-27",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/03322/episode/445042"
+    },
+    {
+     "date": "2026-10-20",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/03322/episode/444709"
+    },
+    {
+     "date": "2026-10-13",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/03322/episode/444129"
+    },
+    {
+     "date": "2026-09-29",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/03322/episode/443851"
+    },
+    {
+     "date": "2026-09-22",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/03322/episode/443502"
+    },
+    {
+     "date": "2026-09-15",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/03322/episode/443122"
+    },
+    {
+     "date": "2026-09-08",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/03322/episode/442839"
+    },
+    {
+     "date": "2026-09-01",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/03322/episode/442503"
+    },
+    {
+     "date": "2026-08-25",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://pocket.shonenmagazine.com/title/03322/episode/442502"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-24",
+    "label": "更新",
+    "title": "更新",
+    "url": "https://pocket.shonenmagazine.com/title/03322/episode/446366"
+   },
+   "paidHashes": null,
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/shonenjump-plus/17106567254627463963",
+   "title": "サンキューピッチ",
+   "site": "少年ジャンプ+",
+   "thumbFile": "data/thumbs/174929.jpg",
+   "publisherUrl": "https://shonenjumpplus.com/episode/17106567254627463963",
+   "comicNo": 174929,
+   "history": [
+    {
+     "date": "2026-11-24",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191257982514459"
+    },
+    {
+     "date": "2026-11-10",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191257737706434"
+    },
+    {
+     "date": "2026-10-27",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191257538010084"
+    },
+    {
+     "date": "2026-10-13",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191257227136496"
+    },
+    {
+     "date": "2026-09-29",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191256784141585"
+    },
+    {
+     "date": "2026-09-15",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191256637715980"
+    },
+    {
+     "date": "2026-09-01",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191256340472390"
+    },
+    {
+     "date": "2026-08-18",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191255890794028"
+    },
+    {
+     "date": "2026-08-05",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/17106567254627463963"
+    },
+    {
+     "date": "2026-08-04",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191255607512595"
+    },
+    {
+     "date": "2026-07-21",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191255348929748"
+    },
+    {
+     "date": "2026-07-07",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191254933946041"
+    },
+    {
+     "date": "2026-06-23",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191254640655200"
+    },
+    {
+     "date": "2026-06-09",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191254350319358"
+    },
+    {
+     "date": "2026-05-26",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://shonenjumpplus.com/episode/9253191254047172099"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-24",
+    "label": "更新",
+    "title": "更新",
+    "url": "https://shonenjumpplus.com/episode/9253191257982514459"
+   },
+   "paidHashes": null,
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/yanmaga/E982AAE7A59EE381AEE5ADAB_E3838",
+   "title": "邪神の孫 ダークエルフ姉妹と過ごす異世界引きこもり生活",
+   "site": "ヤンマガWeb",
+   "thumbFile": "data/thumbs/192912.jpg",
+   "publisherUrl": "https://yanmaga.jp/comics/%E9%82%AA%E7%A5%9E%E3%81%AE%E5%AD%AB_%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95%E5%A7%89%E5%A6%B9%E3%81%A8%E9%81%8E%E3%81%94%E3%81%99%E7%95%B0%E4%B8%96%E7%95%8C%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A%E7%94%9F%E6%B4%BB",
+   "comicNo": 192912,
+   "history": [
+    {
+     "date": "2026-11-24",
+     "label": "第15話「変態だぁあああああ」①",
+     "title": "第15話「変態だぁあああああ」①",
+     "url": "https://yanmaga.jp/comics/%E9%82%AA%E7%A5%9E%E3%81%AE%E5%AD%AB_%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95%E5%A7%89%E5%A6%B9%E3%81%A8%E9%81%8E%E3%81%94%E3%81%99%E7%95%B0%E4%B8%96%E7%95%8C%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A%E7%94%9F%E6%B4%BB/a9f99fc48b1ed6fcd7384b4b4247c771"
+    },
+    {
+     "date": "2026-11-17",
+     "label": "第14話「カタクラ邪神国」②",
+     "title": "第14話「カタクラ邪神国」②",
+     "url": "https://yanmaga.jp/comics/%E9%82%AA%E7%A5%9E%E3%81%AE%E5%AD%AB_%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95%E5%A7%89%E5%A6%B9%E3%81%A8%E9%81%8E%E3%81%94%E3%81%99%E7%95%B0%E4%B8%96%E7%95%8C%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A%E7%94%9F%E6%B4%BB/03038f495986e6fee5574dd8f30cb398"
+    },
+    {
+     "date": "2026-11-03",
+     "label": "第14話「カタクラ邪神国」①",
+     "title": "第14話「カタクラ邪神国」①",
+     "url": "https://yanmaga.jp/comics/%E9%82%AA%E7%A5%9E%E3%81%AE%E5%AD%AB_%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95%E5%A7%89%E5%A6%B9%E3%81%A8%E9%81%8E%E3%81%94%E3%81%99%E7%95%B0%E4%B8%96%E7%95%8C%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A%E7%94%9F%E6%B4%BB/0dea9c1ad28a9639c2c7de7d53a19fde"
+    },
+    {
+     "date": "2026-10-13",
+     "label": "第13話「3人なりの〝夏休み〞」②",
+     "title": "第13話「3人なりの〝夏休み〞」②",
+     "url": "https://yanmaga.jp/comics/%E9%82%AA%E7%A5%9E%E3%81%AE%E5%AD%AB_%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95%E5%A7%89%E5%A6%B9%E3%81%A8%E9%81%8E%E3%81%94%E3%81%99%E7%95%B0%E4%B8%96%E7%95%8C%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A%E7%94%9F%E6%B4%BB/090841fa3c8480ba8ac4268ee90486ab"
+    },
+    {
+     "date": "2026-09-29",
+     "label": "第13話「3人なりの〝夏休み〞」①",
+     "title": "第13話「3人なりの〝夏休み〞」①",
+     "url": "https://yanmaga.jp/comics/%E9%82%AA%E7%A5%9E%E3%81%AE%E5%AD%AB_%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95%E5%A7%89%E5%A6%B9%E3%81%A8%E9%81%8E%E3%81%94%E3%81%99%E7%95%B0%E4%B8%96%E7%95%8C%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A%E7%94%9F%E6%B4%BB/29d1164322ebf4af1d4c2958cb990079"
+    },
+    {
+     "date": "2026-09-15",
+     "label": "第12話「(1ヵ月遅れの)タナバタ」②",
+     "title": "第12話「(1ヵ月遅れの)タナバタ」②",
+     "url": "https://yanmaga.jp/comics/%E9%82%AA%E7%A5%9E%E3%81%AE%E5%AD%AB_%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95%E5%A7%89%E5%A6%B9%E3%81%A8%E9%81%8E%E3%81%94%E3%81%99%E7%95%B0%E4%B8%96%E7%95%8C%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A%E7%94%9F%E6%B4%BB/e96b0a82a1bbbf2fc7b10bf12612b4ea"
+    },
+    {
+     "date": "2026-09-01",
+     "label": "第12話「(1ヵ月遅れの)タナバタ」①",
+     "title": "第12話「(1ヵ月遅れの)タナバタ」①",
+     "url": "https://yanmaga.jp/comics/%E9%82%AA%E7%A5%9E%E3%81%AE%E5%AD%AB_%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95%E5%A7%89%E5%A6%B9%E3%81%A8%E9%81%8E%E3%81%94%E3%81%99%E7%95%B0%E4%B8%96%E7%95%8C%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A%E7%94%9F%E6%B4%BB/e58c86e0452aa17f64044b3254253a20"
+    },
+    {
+     "date": "2026-08-11",
+     "label": "第11話「殺人おっぱい」②",
+     "title": "第11話「殺人おっぱい」②",
+     "url": "https://yanmaga.jp/comics/%E9%82%AA%E7%A5%9E%E3%81%AE%E5%AD%AB_%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95%E5%A7%89%E5%A6%B9%E3%81%A8%E9%81%8E%E3%81%94%E3%81%99%E7%95%B0%E4%B8%96%E7%95%8C%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A%E7%94%9F%E6%B4%BB/8432081d544e972d8b11fada92e8e743"
+    },
+    {
+     "date": "2026-07-28",
+     "label": "第11話「殺人おっぱい」①",
+     "title": "第11話「殺人おっぱい」①",
+     "url": "https://yanmaga.jp/comics/%E9%82%AA%E7%A5%9E%E3%81%AE%E5%AD%AB_%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95%E5%A7%89%E5%A6%B9%E3%81%A8%E9%81%8E%E3%81%94%E3%81%99%E7%95%B0%E4%B8%96%E7%95%8C%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A%E7%94%9F%E6%B4%BB/2231fb57b0ededb3145c4e0b6fc1323e"
+    },
+    {
+     "date": "2026-07-14",
+     "label": "第10話「サトシ、闘病中のできごと」②",
+     "title": "第10話「サトシ、闘病中のできごと」②",
+     "url": "https://yanmaga.jp/comics/%E9%82%AA%E7%A5%9E%E3%81%AE%E5%AD%AB_%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95%E5%A7%89%E5%A6%B9%E3%81%A8%E9%81%8E%E3%81%94%E3%81%99%E7%95%B0%E4%B8%96%E7%95%8C%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A%E7%94%9F%E6%B4%BB/72126fca569d5276831408b5bd9abae3"
+    },
+    {
+     "date": "2026-06-30",
+     "label": "第10話「サトシ、闘病中のできごと」①",
+     "title": "第10話「サトシ、闘病中のできごと」①",
+     "url": "https://yanmaga.jp/comics/%E9%82%AA%E7%A5%9E%E3%81%AE%E5%AD%AB_%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95%E5%A7%89%E5%A6%B9%E3%81%A8%E9%81%8E%E3%81%94%E3%81%99%E7%95%B0%E4%B8%96%E7%95%8C%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A%E7%94%9F%E6%B4%BB/3df9b7b15fe497aa77c5356914c9409b"
+    },
+    {
+     "date": "2026-06-16",
+     "label": "第9話「JKの生態」②",
+     "title": "第9話「JKの生態」②",
+     "url": "https://yanmaga.jp/comics/%E9%82%AA%E7%A5%9E%E3%81%AE%E5%AD%AB_%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95%E5%A7%89%E5%A6%B9%E3%81%A8%E9%81%8E%E3%81%94%E3%81%99%E7%95%B0%E4%B8%96%E7%95%8C%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A%E7%94%9F%E6%B4%BB/d8d78eafc88cfd9537a30f15e25470d3"
+    },
+    {
+     "date": "2026-06-02",
+     "label": "第9話「JKの生態」①",
+     "title": "第9話「JKの生態」①",
+     "url": "https://yanmaga.jp/comics/%E9%82%AA%E7%A5%9E%E3%81%AE%E5%AD%AB_%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95%E5%A7%89%E5%A6%B9%E3%81%A8%E9%81%8E%E3%81%94%E3%81%99%E7%95%B0%E4%B8%96%E7%95%8C%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A%E7%94%9F%E6%B4%BB/1a13257060e22ef0eac5e4a217bfd6b5"
+    },
+    {
+     "date": "2026-05-19",
+     "label": "第8話「勇者パーティ」②",
+     "title": "第8話「勇者パーティ」②",
+     "url": "https://yanmaga.jp/comics/%E9%82%AA%E7%A5%9E%E3%81%AE%E5%AD%AB_%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95%E5%A7%89%E5%A6%B9%E3%81%A8%E9%81%8E%E3%81%94%E3%81%99%E7%95%B0%E4%B8%96%E7%95%8C%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A%E7%94%9F%E6%B4%BB/807d34ddd95d05f7d899cd7b550faf6f"
+    },
+    {
+     "date": "2026-05-05",
+     "label": "第8話「勇者パーティ」①",
+     "title": "第8話「勇者パーティ」①",
+     "url": "https://yanmaga.jp/comics/%E9%82%AA%E7%A5%9E%E3%81%AE%E5%AD%AB_%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95%E5%A7%89%E5%A6%B9%E3%81%A8%E9%81%8E%E3%81%94%E3%81%99%E7%95%B0%E4%B8%96%E7%95%8C%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A%E7%94%9F%E6%B4%BB/d1d27b4466f0b56214debf75a5183083"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-24",
+    "label": "第15話「変態だぁあああああ」①",
+    "title": "第15話「変態だぁあああああ」①",
+    "url": "https://yanmaga.jp/comics/%E9%82%AA%E7%A5%9E%E3%81%AE%E5%AD%AB_%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95%E5%A7%89%E5%A6%B9%E3%81%A8%E9%81%8E%E3%81%94%E3%81%99%E7%95%B0%E4%B8%96%E7%95%8C%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A%E7%94%9F%E6%B4%BB/a9f99fc48b1ed6fcd7384b4b4247c771"
+   },
+   "paidHashes": null,
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/ganganonline/69",
+   "title": "冒険者ライセンスを剥奪されたおっさんだけど、愛娘ができたのでのんびり人生を謳歌する",
+   "site": "ガンガンONLINE",
+   "thumbFile": "data/thumbs/85086.jpg",
+   "publisherUrl": "https://www.ganganonline.com/title/69",
+   "comicNo": 85086,
+   "history": [
+    {
+     "date": "2026-11-24",
+     "label": "2026.11.24更新",
+     "title": "2026.11.24更新",
+     "url": "https://www.ganganonline.com/title/69/chapter/131492"
+    },
+    {
+     "date": "2026-11-03",
+     "label": "2026.11.03更新",
+     "title": "2026.11.03更新",
+     "url": "https://www.ganganonline.com/title/69/chapter/126330"
+    },
+    {
+     "date": "2026-09-22",
+     "label": "2026.09.22更新",
+     "title": "2026.09.22更新",
+     "url": null
+    },
+    {
+     "date": "2026-09-01",
+     "label": "2026.09.01更新",
+     "title": "2026.09.01更新",
+     "url": null
+    },
+    {
+     "date": "2026-08-11",
+     "label": "2026.08.11更新",
+     "title": "2026.08.11更新",
+     "url": null
+    },
+    {
+     "date": "2026-06-30",
+     "label": "2026.06.30更新",
+     "title": "2026.06.30更新",
+     "url": null
+    },
+    {
+     "date": "2026-06-09",
+     "label": "2026.06.09更新",
+     "title": "2026.06.09更新",
+     "url": null
+    },
+    {
+     "date": "2026-05-19",
+     "label": "2026.05.19更新",
+     "title": "2026.05.19更新",
+     "url": null
+    },
+    {
+     "date": "2026-04-28",
+     "label": "2026.04.28更新",
+     "title": "2026.04.28更新",
+     "url": null
+    },
+    {
+     "date": "2026-04-07",
+     "label": "2026.04.07更新",
+     "title": "2026.04.07更新",
+     "url": null
+    },
+    {
+     "date": "2026-03-17",
+     "label": "2026.03.17更新",
+     "title": "2026.03.17更新",
+     "url": null
+    },
+    {
+     "date": "2025-12-16",
+     "label": "2025.12.16更新",
+     "title": "2025.12.16更新",
+     "url": null
+    },
+    {
+     "date": "2025-12-09",
+     "label": "2025.12.09更新",
+     "title": "2025.12.09更新",
+     "url": null
+    },
+    {
+     "date": "2025-12-02",
+     "label": "2025.12.02更新",
+     "title": "2025.12.02更新",
+     "url": null
+    },
+    {
+     "date": "2025-10-07",
+     "label": "2025.10.07更新",
+     "title": "2025.10.07更新",
+     "url": null
+    }
+   ],
+   "latest": {
+    "date": "2026-11-24",
+    "label": "2026.11.24更新",
+    "title": "2026.11.24更新",
+    "url": "https://www.ganganonline.com/title/69/chapter/131492"
+   },
+   "paidHashes": null,
+   "error": null
+  },
   {
    "detailUrl": "https://webcomics.jp/comic-walker/KC_000921_S",
    "title": "陰キャの僕に罰ゲームで告白してきたはずのギャルが、どう見ても僕にベタ惚れです",
@@ -11,7 +431,7 @@
    "comicNo": 136016,
    "history": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "label": "第34話",
      "title": "第34話",
      "url": "https://comic-walker.com/detail/KC_000921_S/episodes/KC_0009210004300011_E?episodeType=latest"
@@ -102,7 +522,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "label": "第34話",
     "title": "第34話",
     "url": "https://comic-walker.com/detail/KC_000921_S/episodes/KC_0009210004300011_E?episodeType=latest"
@@ -119,7 +539,7 @@
    "comicNo": 139041,
    "history": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "label": "第43話 報せ",
      "title": "第43話 報せ",
      "url": "https://championcross.jp/episodes/039ec7042a5bb"
@@ -210,7 +630,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "label": "第43話 報せ",
     "title": "第43話 報せ",
     "url": "https://championcross.jp/episodes/039ec7042a5bb"
@@ -9411,204 +9831,6 @@
    "error": null
   },
   {
-   "detailUrl": "https://webcomics.jp/yanmaga/E982AAE7A59EE381AEE5ADAB_E3838",
-   "title": "邪神の孫 ダークエルフ姉妹と過ごす異世界引きこもり生活",
-   "site": "ヤンマガWeb",
-   "thumbFile": "data/thumbs/192912.jpg",
-   "publisherUrl": "https://yanmaga.jp/comics/%E9%82%AA%E7%A5%9E%E3%81%AE%E5%AD%AB_%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95%E5%A7%89%E5%A6%B9%E3%81%A8%E9%81%8E%E3%81%94%E3%81%99%E7%95%B0%E4%B8%96%E7%95%8C%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A%E7%94%9F%E6%B4%BB",
-   "comicNo": 192912,
-   "history": [
-    {
-     "date": "2026-11-17",
-     "label": "第14話「カタクラ邪神国」②",
-     "title": "第14話「カタクラ邪神国」②",
-     "url": "https://yanmaga.jp/comics/%E9%82%AA%E7%A5%9E%E3%81%AE%E5%AD%AB_%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95%E5%A7%89%E5%A6%B9%E3%81%A8%E9%81%8E%E3%81%94%E3%81%99%E7%95%B0%E4%B8%96%E7%95%8C%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A%E7%94%9F%E6%B4%BB/03038f495986e6fee5574dd8f30cb398"
-    },
-    {
-     "date": "2026-11-03",
-     "label": "第14話「カタクラ邪神国」①",
-     "title": "第14話「カタクラ邪神国」①",
-     "url": "https://yanmaga.jp/comics/%E9%82%AA%E7%A5%9E%E3%81%AE%E5%AD%AB_%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95%E5%A7%89%E5%A6%B9%E3%81%A8%E9%81%8E%E3%81%94%E3%81%99%E7%95%B0%E4%B8%96%E7%95%8C%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A%E7%94%9F%E6%B4%BB/0dea9c1ad28a9639c2c7de7d53a19fde"
-    },
-    {
-     "date": "2026-10-13",
-     "label": "第13話「3人なりの〝夏休み〞」②",
-     "title": "第13話「3人なりの〝夏休み〞」②",
-     "url": "https://yanmaga.jp/comics/%E9%82%AA%E7%A5%9E%E3%81%AE%E5%AD%AB_%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95%E5%A7%89%E5%A6%B9%E3%81%A8%E9%81%8E%E3%81%94%E3%81%99%E7%95%B0%E4%B8%96%E7%95%8C%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A%E7%94%9F%E6%B4%BB/090841fa3c8480ba8ac4268ee90486ab"
-    },
-    {
-     "date": "2026-09-29",
-     "label": "第13話「3人なりの〝夏休み〞」①",
-     "title": "第13話「3人なりの〝夏休み〞」①",
-     "url": "https://yanmaga.jp/comics/%E9%82%AA%E7%A5%9E%E3%81%AE%E5%AD%AB_%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95%E5%A7%89%E5%A6%B9%E3%81%A8%E9%81%8E%E3%81%94%E3%81%99%E7%95%B0%E4%B8%96%E7%95%8C%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A%E7%94%9F%E6%B4%BB/29d1164322ebf4af1d4c2958cb990079"
-    },
-    {
-     "date": "2026-09-15",
-     "label": "第12話「(1ヵ月遅れの)タナバタ」②",
-     "title": "第12話「(1ヵ月遅れの)タナバタ」②",
-     "url": "https://yanmaga.jp/comics/%E9%82%AA%E7%A5%9E%E3%81%AE%E5%AD%AB_%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95%E5%A7%89%E5%A6%B9%E3%81%A8%E9%81%8E%E3%81%94%E3%81%99%E7%95%B0%E4%B8%96%E7%95%8C%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A%E7%94%9F%E6%B4%BB/e96b0a82a1bbbf2fc7b10bf12612b4ea"
-    },
-    {
-     "date": "2026-09-01",
-     "label": "第12話「(1ヵ月遅れの)タナバタ」①",
-     "title": "第12話「(1ヵ月遅れの)タナバタ」①",
-     "url": "https://yanmaga.jp/comics/%E9%82%AA%E7%A5%9E%E3%81%AE%E5%AD%AB_%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95%E5%A7%89%E5%A6%B9%E3%81%A8%E9%81%8E%E3%81%94%E3%81%99%E7%95%B0%E4%B8%96%E7%95%8C%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A%E7%94%9F%E6%B4%BB/e58c86e0452aa17f64044b3254253a20"
-    },
-    {
-     "date": "2026-08-11",
-     "label": "第11話「殺人おっぱい」②",
-     "title": "第11話「殺人おっぱい」②",
-     "url": "https://yanmaga.jp/comics/%E9%82%AA%E7%A5%9E%E3%81%AE%E5%AD%AB_%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95%E5%A7%89%E5%A6%B9%E3%81%A8%E9%81%8E%E3%81%94%E3%81%99%E7%95%B0%E4%B8%96%E7%95%8C%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A%E7%94%9F%E6%B4%BB/8432081d544e972d8b11fada92e8e743"
-    },
-    {
-     "date": "2026-07-28",
-     "label": "第11話「殺人おっぱい」①",
-     "title": "第11話「殺人おっぱい」①",
-     "url": "https://yanmaga.jp/comics/%E9%82%AA%E7%A5%9E%E3%81%AE%E5%AD%AB_%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95%E5%A7%89%E5%A6%B9%E3%81%A8%E9%81%8E%E3%81%94%E3%81%99%E7%95%B0%E4%B8%96%E7%95%8C%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A%E7%94%9F%E6%B4%BB/2231fb57b0ededb3145c4e0b6fc1323e"
-    },
-    {
-     "date": "2026-07-14",
-     "label": "第10話「サトシ、闘病中のできごと」②",
-     "title": "第10話「サトシ、闘病中のできごと」②",
-     "url": "https://yanmaga.jp/comics/%E9%82%AA%E7%A5%9E%E3%81%AE%E5%AD%AB_%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95%E5%A7%89%E5%A6%B9%E3%81%A8%E9%81%8E%E3%81%94%E3%81%99%E7%95%B0%E4%B8%96%E7%95%8C%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A%E7%94%9F%E6%B4%BB/72126fca569d5276831408b5bd9abae3"
-    },
-    {
-     "date": "2026-06-30",
-     "label": "第10話「サトシ、闘病中のできごと」①",
-     "title": "第10話「サトシ、闘病中のできごと」①",
-     "url": "https://yanmaga.jp/comics/%E9%82%AA%E7%A5%9E%E3%81%AE%E5%AD%AB_%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95%E5%A7%89%E5%A6%B9%E3%81%A8%E9%81%8E%E3%81%94%E3%81%99%E7%95%B0%E4%B8%96%E7%95%8C%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A%E7%94%9F%E6%B4%BB/3df9b7b15fe497aa77c5356914c9409b"
-    },
-    {
-     "date": "2026-06-16",
-     "label": "第9話「JKの生態」②",
-     "title": "第9話「JKの生態」②",
-     "url": "https://yanmaga.jp/comics/%E9%82%AA%E7%A5%9E%E3%81%AE%E5%AD%AB_%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95%E5%A7%89%E5%A6%B9%E3%81%A8%E9%81%8E%E3%81%94%E3%81%99%E7%95%B0%E4%B8%96%E7%95%8C%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A%E7%94%9F%E6%B4%BB/d8d78eafc88cfd9537a30f15e25470d3"
-    },
-    {
-     "date": "2026-06-02",
-     "label": "第9話「JKの生態」①",
-     "title": "第9話「JKの生態」①",
-     "url": "https://yanmaga.jp/comics/%E9%82%AA%E7%A5%9E%E3%81%AE%E5%AD%AB_%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95%E5%A7%89%E5%A6%B9%E3%81%A8%E9%81%8E%E3%81%94%E3%81%99%E7%95%B0%E4%B8%96%E7%95%8C%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A%E7%94%9F%E6%B4%BB/1a13257060e22ef0eac5e4a217bfd6b5"
-    },
-    {
-     "date": "2026-05-19",
-     "label": "第8話「勇者パーティ」②",
-     "title": "第8話「勇者パーティ」②",
-     "url": "https://yanmaga.jp/comics/%E9%82%AA%E7%A5%9E%E3%81%AE%E5%AD%AB_%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95%E5%A7%89%E5%A6%B9%E3%81%A8%E9%81%8E%E3%81%94%E3%81%99%E7%95%B0%E4%B8%96%E7%95%8C%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A%E7%94%9F%E6%B4%BB/807d34ddd95d05f7d899cd7b550faf6f"
-    },
-    {
-     "date": "2026-05-05",
-     "label": "第8話「勇者パーティ」①",
-     "title": "第8話「勇者パーティ」①",
-     "url": "https://yanmaga.jp/comics/%E9%82%AA%E7%A5%9E%E3%81%AE%E5%AD%AB_%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95%E5%A7%89%E5%A6%B9%E3%81%A8%E9%81%8E%E3%81%94%E3%81%99%E7%95%B0%E4%B8%96%E7%95%8C%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A%E7%94%9F%E6%B4%BB/d1d27b4466f0b56214debf75a5183083"
-    },
-    {
-     "date": "2026-04-14",
-     "label": "第7話「滅びろ!ばれんたいん」②",
-     "title": "第7話「滅びろ!ばれんたいん」②",
-     "url": "https://yanmaga.jp/comics/%E9%82%AA%E7%A5%9E%E3%81%AE%E5%AD%AB_%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95%E5%A7%89%E5%A6%B9%E3%81%A8%E9%81%8E%E3%81%94%E3%81%99%E7%95%B0%E4%B8%96%E7%95%8C%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A%E7%94%9F%E6%B4%BB/2845f91e489128bafa12f3753b643288"
-    }
-   ],
-   "latest": {
-    "date": "2026-11-17",
-    "label": "第14話「カタクラ邪神国」②",
-    "title": "第14話「カタクラ邪神国」②",
-    "url": "https://yanmaga.jp/comics/%E9%82%AA%E7%A5%9E%E3%81%AE%E5%AD%AB_%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AB%E3%83%95%E5%A7%89%E5%A6%B9%E3%81%A8%E9%81%8E%E3%81%94%E3%81%99%E7%95%B0%E4%B8%96%E7%95%8C%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A%E7%94%9F%E6%B4%BB/03038f495986e6fee5574dd8f30cb398"
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
-   "detailUrl": "https://webcomics.jp/magapoke/03322",
-   "title": "排水溝につまったスライムを日々かたづけるだけの底辺職、なぜか実力者たちの熱い視線を集めてしまう",
-   "site": "マガポケ",
-   "thumbFile": "data/thumbs/213995.jpg",
-   "publisherUrl": "https://pocket.shonenmagazine.com/title/03322",
-   "comicNo": 213995,
-   "history": [
-    {
-     "date": "2026-11-17",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://pocket.shonenmagazine.com/title/03322/episode/446119"
-    },
-    {
-     "date": "2026-11-10",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://pocket.shonenmagazine.com/title/03322/episode/445780"
-    },
-    {
-     "date": "2026-11-03",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://pocket.shonenmagazine.com/title/03322/episode/445562"
-    },
-    {
-     "date": "2026-10-27",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://pocket.shonenmagazine.com/title/03322/episode/445042"
-    },
-    {
-     "date": "2026-10-20",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://pocket.shonenmagazine.com/title/03322/episode/444709"
-    },
-    {
-     "date": "2026-10-13",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://pocket.shonenmagazine.com/title/03322/episode/444129"
-    },
-    {
-     "date": "2026-09-29",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://pocket.shonenmagazine.com/title/03322/episode/443851"
-    },
-    {
-     "date": "2026-09-22",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://pocket.shonenmagazine.com/title/03322/episode/443502"
-    },
-    {
-     "date": "2026-09-15",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://pocket.shonenmagazine.com/title/03322/episode/443122"
-    },
-    {
-     "date": "2026-09-08",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://pocket.shonenmagazine.com/title/03322/episode/442839"
-    },
-    {
-     "date": "2026-09-01",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://pocket.shonenmagazine.com/title/03322/episode/442503"
-    },
-    {
-     "date": "2026-08-25",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://pocket.shonenmagazine.com/title/03322/episode/442502"
-    }
-   ],
-   "latest": {
-    "date": "2026-11-17",
-    "label": "更新",
-    "title": "更新",
-    "url": "https://pocket.shonenmagazine.com/title/03322/episode/446119"
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
    "detailUrl": "https://webcomics.jp/zenon/3269632237267691927",
    "title": "北斗の拳 世紀末ドラマ撮影伝",
    "site": "ゼノン編集部",
@@ -15887,114 +16109,6 @@
    "error": null
   },
   {
-   "detailUrl": "https://webcomics.jp/shonenjump-plus/17106567254627463963",
-   "title": "サンキューピッチ",
-   "site": "少年ジャンプ+",
-   "thumbFile": "data/thumbs/174929.jpg",
-   "publisherUrl": "https://shonenjumpplus.com/episode/17106567254627463963",
-   "comicNo": 174929,
-   "history": [
-    {
-     "date": "2026-11-10",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191257737706434"
-    },
-    {
-     "date": "2026-10-27",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191257538010084"
-    },
-    {
-     "date": "2026-10-13",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191257227136496"
-    },
-    {
-     "date": "2026-09-29",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191256784141585"
-    },
-    {
-     "date": "2026-09-15",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191256637715980"
-    },
-    {
-     "date": "2026-09-01",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191256340472390"
-    },
-    {
-     "date": "2026-08-18",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191255890794028"
-    },
-    {
-     "date": "2026-08-05",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/17106567254627463963"
-    },
-    {
-     "date": "2026-08-04",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191255607512595"
-    },
-    {
-     "date": "2026-07-21",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191255348929748"
-    },
-    {
-     "date": "2026-07-07",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191254933946041"
-    },
-    {
-     "date": "2026-06-23",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191254640655200"
-    },
-    {
-     "date": "2026-06-09",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191254350319358"
-    },
-    {
-     "date": "2026-05-26",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253191254047172099"
-    },
-    {
-     "date": "2026-05-12",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://shonenjumpplus.com/episode/9253189534697938064"
-    }
-   ],
-   "latest": {
-    "date": "2026-11-10",
-    "label": "更新",
-    "title": "更新",
-    "url": "https://shonenjumpplus.com/episode/9253191257737706434"
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
    "detailUrl": "https://webcomics.jp/ganganonline/47",
    "title": "ゴブリンスレイヤー",
    "site": "ガンガンONLINE",
@@ -17720,114 +17834,6 @@
     "label": "2026/11/03 更新",
     "title": "2026/11/03 更新",
     "url": "https://manga.nicovideo.jp/comic/56540/new"
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
-   "detailUrl": "https://webcomics.jp/ganganonline/69",
-   "title": "冒険者ライセンスを剥奪されたおっさんだけど、愛娘ができたのでのんびり人生を謳歌する",
-   "site": "ガンガンONLINE",
-   "thumbFile": "data/thumbs/85086.jpg",
-   "publisherUrl": "https://www.ganganonline.com/title/69",
-   "comicNo": 85086,
-   "history": [
-    {
-     "date": "2026-11-03",
-     "label": "2026.11.03更新",
-     "title": "2026.11.03更新",
-     "url": "https://www.ganganonline.com/title/69/chapter/126330"
-    },
-    {
-     "date": "2026-09-22",
-     "label": "2026.09.22更新",
-     "title": "2026.09.22更新",
-     "url": "https://www.ganganonline.com/title/69/chapter/126333"
-    },
-    {
-     "date": "2026-09-01",
-     "label": "2026.09.01更新",
-     "title": "2026.09.01更新",
-     "url": null
-    },
-    {
-     "date": "2026-08-11",
-     "label": "2026.08.11更新",
-     "title": "2026.08.11更新",
-     "url": null
-    },
-    {
-     "date": "2026-06-30",
-     "label": "2026.06.30更新",
-     "title": "2026.06.30更新",
-     "url": null
-    },
-    {
-     "date": "2026-06-09",
-     "label": "2026.06.09更新",
-     "title": "2026.06.09更新",
-     "url": null
-    },
-    {
-     "date": "2026-05-19",
-     "label": "2026.05.19更新",
-     "title": "2026.05.19更新",
-     "url": null
-    },
-    {
-     "date": "2026-04-28",
-     "label": "2026.04.28更新",
-     "title": "2026.04.28更新",
-     "url": null
-    },
-    {
-     "date": "2026-04-07",
-     "label": "2026.04.07更新",
-     "title": "2026.04.07更新",
-     "url": null
-    },
-    {
-     "date": "2026-03-17",
-     "label": "2026.03.17更新",
-     "title": "2026.03.17更新",
-     "url": null
-    },
-    {
-     "date": "2025-12-16",
-     "label": "2025.12.16更新",
-     "title": "2025.12.16更新",
-     "url": null
-    },
-    {
-     "date": "2025-12-09",
-     "label": "2025.12.09更新",
-     "title": "2025.12.09更新",
-     "url": null
-    },
-    {
-     "date": "2025-12-02",
-     "label": "2025.12.02更新",
-     "title": "2025.12.02更新",
-     "url": null
-    },
-    {
-     "date": "2025-10-07",
-     "label": "2025.10.07更新",
-     "title": "2025.10.07更新",
-     "url": null
-    },
-    {
-     "date": "2025-09-30",
-     "label": "2025.09.30更新",
-     "title": "2025.09.30更新",
-     "url": null
-    }
-   ],
-   "latest": {
-    "date": "2026-11-03",
-    "label": "2026.11.03更新",
-    "title": "2026.11.03更新",
-    "url": "https://www.ganganonline.com/title/69/chapter/126330"
    },
    "paidHashes": null,
    "error": null
