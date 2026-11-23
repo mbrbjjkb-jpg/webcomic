@@ -1,7 +1,223 @@
 {
- "checkedAt": "2026-11-23T10:33:39+09:00",
+ "checkedAt": "2026-11-23T17:41:12+09:00",
  "bookmarkUrl": "https://webcomics.jp/bookmark/3682scqd",
  "works": [
+  {
+   "detailUrl": "https://webcomics.jp/comic-walker/KC_000921_S",
+   "title": "陰キャの僕に罰ゲームで告白してきたはずのギャルが、どう見ても僕にベタ惚れです",
+   "site": "カドコミ",
+   "thumbFile": "data/thumbs/136016.jpg",
+   "publisherUrl": "https://comic-walker.com/detail/KC_000921_S",
+   "comicNo": 136016,
+   "history": [
+    {
+     "date": "2026-11-23",
+     "label": "第34話",
+     "title": "第34話",
+     "url": "https://comic-walker.com/detail/KC_000921_S/episodes/KC_0009210004300011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-10-19",
+     "label": "第33.5話",
+     "title": "第33.5話",
+     "url": "https://comic-walker.com/detail/KC_000921_S/episodes/KC_0009210004200011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-08-31",
+     "label": "第33話",
+     "title": "第33話",
+     "url": "https://comic-walker.com/detail/KC_000921_S/episodes/KC_0009210004100011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-07-20",
+     "label": "第32話",
+     "title": "第32話",
+     "url": "https://comic-walker.com/detail/KC_000921_S/episodes/KC_0009210004000011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-06-01",
+     "label": "第31話",
+     "title": "第31話",
+     "url": "https://comic-walker.com/detail/KC_000921_S/episodes/KC_0009210003900011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-04-20",
+     "label": "第30.5話",
+     "title": "第30.5話",
+     "url": "https://comic-walker.com/detail/KC_000921_S/episodes/KC_0009210003800011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-03-27",
+     "label": "第2話",
+     "title": "第2話",
+     "url": "https://comic-walker.com/detail/KC_000921_S/episodes/KC_0009210000200011_E?co=true&episodeType=latest"
+    },
+    {
+     "date": "2026-03-02",
+     "label": "第30話",
+     "title": "第30話",
+     "url": "https://comic-walker.com/detail/KC_000921_S/episodes/KC_0009210003700011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-01-12",
+     "label": "第29話",
+     "title": "第29話",
+     "url": "https://comic-walker.com/detail/KC_000921_S/episodes/KC_0009210003600011_E?episodeType=latest"
+    },
+    {
+     "date": "2025-12-15",
+     "label": "第28話",
+     "title": "第28話",
+     "url": "https://comic-walker.com/detail/KC_000921_S/episodes/KC_0009210003500011_E?episodeType=latest"
+    },
+    {
+     "date": "2025-10-17",
+     "label": "第27話",
+     "title": "第27話",
+     "url": "https://comic-walker.com/detail/KC_000921_S/episodes/KC_0009210003400011_E?episodeType=latest"
+    },
+    {
+     "date": "2025-09-05",
+     "label": "第26.5話",
+     "title": "第26.5話",
+     "url": "https://comic-walker.com/detail/KC_000921_S/episodes/KC_0009210003300011_E?episodeType=latest"
+    },
+    {
+     "date": "2025-07-25",
+     "label": "第26話",
+     "title": "第26話",
+     "url": "https://comic-walker.com/detail/KC_000921_S/episodes/KC_0009210003200011_E?episodeType=latest"
+    },
+    {
+     "date": "2025-06-20",
+     "label": "第25話",
+     "title": "第25話",
+     "url": "https://comic-walker.com/detail/KC_000921_S/episodes/KC_0009210003100011_E?episodeType=latest"
+    },
+    {
+     "date": "2025-05-09",
+     "label": "第24話",
+     "title": "第24話",
+     "url": "https://comic-walker.com/detail/KC_000921_S/episodes/KC_0009210003000011_E?episodeType=latest"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-23",
+    "label": "第34話",
+    "title": "第34話",
+    "url": "https://comic-walker.com/detail/KC_000921_S/episodes/KC_0009210004300011_E?episodeType=latest"
+   },
+   "paidHashes": null,
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/mangacross/c887451b8309e",
+   "title": "「おかえり、パパ」",
+   "site": "チャンピオンクロス",
+   "thumbFile": "data/thumbs/139041.jpg",
+   "publisherUrl": "https://championcross.jp/series/c887451b8309e",
+   "comicNo": 139041,
+   "history": [
+    {
+     "date": "2026-11-23",
+     "label": "第43話 報せ",
+     "title": "第43話 報せ",
+     "url": "https://championcross.jp/episodes/039ec7042a5bb"
+    },
+    {
+     "date": "2026-10-26",
+     "label": "第42話 暴露",
+     "title": "第42話 暴露",
+     "url": "https://championcross.jp/episodes/fe7b737cb454e"
+    },
+    {
+     "date": "2026-09-28",
+     "label": "第41話 禍福",
+     "title": "第41話 禍福",
+     "url": "https://championcross.jp/episodes/01c965cb1b7cb"
+    },
+    {
+     "date": "2026-08-24",
+     "label": "第40話 蛹化",
+     "title": "第40話 蛹化",
+     "url": "https://championcross.jp/episodes/8ae4167b8d24d"
+    },
+    {
+     "date": "2026-07-28",
+     "label": "第39話 訪問",
+     "title": "第39話 訪問",
+     "url": "https://championcross.jp/episodes/34c08d77459a3"
+    },
+    {
+     "date": "2026-07-07",
+     "label": "6巻描きおろしエピソード「都子の一日」試し読み",
+     "title": "6巻描きおろしエピソード「都子の一日」試し読み",
+     "url": "https://championcross.jp/episodes/00cbccc5bcd7c"
+    },
+    {
+     "date": "2026-06-22",
+     "label": "特別編「HR」",
+     "title": "特別編「HR」",
+     "url": "https://championcross.jp/episodes/1b5683d6dd5da/"
+    },
+    {
+     "date": "2026-05-25",
+     "label": "第38話 プレゼント",
+     "title": "第38話 プレゼント",
+     "url": "https://championcross.jp/episodes/93ee4fbdc8f0f/"
+    },
+    {
+     "date": "2026-04-27",
+     "label": "第37話 内緒話",
+     "title": "第37話 内緒話",
+     "url": "https://championcross.jp/episodes/ebb1537777aeb/"
+    },
+    {
+     "date": "2026-03-23",
+     "label": "第36話 追跡",
+     "title": "第36話 追跡",
+     "url": "https://championcross.jp/episodes/5d645b8e0d4a5/"
+    },
+    {
+     "date": "2026-02-23",
+     "label": "第35話 水族館",
+     "title": "第35話 水族館",
+     "url": "https://championcross.jp/episodes/b252fe4ce87ee/"
+    },
+    {
+     "date": "2026-01-26",
+     "label": "特別編「パート」",
+     "title": "特別編「パート」",
+     "url": "https://championcross.jp/episodes/c42d21072c073/"
+    },
+    {
+     "date": "2025-12-22",
+     "label": "特別編「質問」",
+     "title": "特別編「質問」",
+     "url": "https://championcross.jp/episodes/5f908740605ff/"
+    },
+    {
+     "date": "2025-11-24",
+     "label": "第34話 デート",
+     "title": "第34話 デート",
+     "url": "https://championcross.jp/episodes/468f70e9fb907/"
+    },
+    {
+     "date": "2025-11-10",
+     "label": "5巻描きおろしエピソード「過去」試し読み",
+     "title": "5巻描きおろしエピソード「過去」試し読み",
+     "url": "https://championcross.jp/episodes/9612ac037b869/"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-23",
+    "label": "第43話 報せ",
+    "title": "第43話 報せ",
+    "url": "https://championcross.jp/episodes/039ec7042a5bb"
+   },
+   "paidHashes": null,
+   "error": null
+  },
   {
    "detailUrl": "https://webcomics.jp/shonenjump-plus/316112896905504410",
    "title": "ラーメン赤猫",
@@ -768,7 +984,7 @@
    "comicNo": 148685,
    "history": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-22",
      "label": "更新",
      "title": "更新",
      "url": "https://comic-days.com/episode/2550912965918818836"
@@ -887,7 +1103,7 @@
    "comicNo": 68688,
    "history": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-22",
      "label": "第77章「噛傷」",
      "title": "第77章「噛傷」",
      "url": "https://comic-gardo.com/episode/12207421984005617628"
@@ -978,7 +1194,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-23",
+    "date": "2026-11-22",
     "label": "第77章「噛傷」",
     "title": "第77章「噛傷」",
     "url": "https://comic-gardo.com/episode/12207421984005617628"
@@ -14552,6 +14768,132 @@
    "error": null
   },
   {
+   "detailUrl": "https://webcomics.jp/comic-days/12207421983503111505",
+   "title": "前世が最強魔導師だった俺、異世界魔法で無双する!",
+   "site": "コミックDAYS",
+   "thumbFile": "data/thumbs/205431.jpg",
+   "publisherUrl": "https://comic-days.com/episode/12207421983503111505",
+   "comicNo": 205431,
+   "history": [
+    {
+     "date": "2026-11-11",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983503111604",
+     "epNo": 8
+    },
+    {
+     "date": "2026-11-10",
+     "label": "第2話 ワケアリ零細カンパニーと、大型新人!?①",
+     "title": "第2話 ワケアリ零細カンパニーと、大型新人!?①",
+     "url": "https://comic-days.com/episode/12207421983503111510",
+     "epNo": 2
+    },
+    {
+     "date": "2026-11-04",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983503111601",
+     "epNo": 8
+    },
+    {
+     "date": "2026-10-21",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983503111598",
+     "epNo": 8,
+     "paid": true
+    },
+    {
+     "date": "2026-10-14",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983503111595",
+     "epNo": 8,
+     "paid": true
+    },
+    {
+     "date": "2026-09-23",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983503111592",
+     "epNo": 7
+    },
+    {
+     "date": "2026-09-16",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983503111589",
+     "epNo": 7
+    },
+    {
+     "date": "2026-09-09",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983503111584",
+     "epNo": 7
+    },
+    {
+     "date": "2026-08-12",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983503111581",
+     "epNo": 6
+    },
+    {
+     "date": "2026-08-05",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983503111577",
+     "epNo": 6
+    },
+    {
+     "date": "2026-07-22",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983503111571",
+     "epNo": 6
+    },
+    {
+     "date": "2026-07-15",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983503111567",
+     "epNo": 6
+    },
+    {
+     "date": "2026-07-08",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983503111562",
+     "epNo": 5
+    },
+    {
+     "date": "2026-07-01",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983503111559",
+     "epNo": 5
+    },
+    {
+     "date": "2026-06-24",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983503111556",
+     "epNo": 5
+    }
+   ],
+   "latest": {
+    "date": "2026-11-11",
+    "label": "更新",
+    "title": "更新",
+    "url": "https://comic-days.com/episode/12207421983503111604",
+    "epNo": 8
+   },
+   "paidHashes": null,
+   "error": null
+  },
+  {
    "detailUrl": "https://webcomics.jp/ganganonline/51",
    "title": "最強の魔導士。ひざに矢をうけてしまったので田舎の衛兵になる",
    "site": "ガンガンONLINE",
@@ -18692,114 +19034,6 @@
    "error": null
   },
   {
-   "detailUrl": "https://webcomics.jp/mangacross/c887451b8309e",
-   "title": "「おかえり、パパ」",
-   "site": "チャンピオンクロス",
-   "thumbFile": "data/thumbs/139041.jpg",
-   "publisherUrl": "https://championcross.jp/series/c887451b8309e",
-   "comicNo": 139041,
-   "history": [
-    {
-     "date": "2026-10-26",
-     "label": "第42話 暴露",
-     "title": "第42話 暴露",
-     "url": "https://championcross.jp/episodes/fe7b737cb454e"
-    },
-    {
-     "date": "2026-09-28",
-     "label": "第41話 禍福",
-     "title": "第41話 禍福",
-     "url": "https://championcross.jp/episodes/01c965cb1b7cb"
-    },
-    {
-     "date": "2026-08-24",
-     "label": "第40話 蛹化",
-     "title": "第40話 蛹化",
-     "url": "https://championcross.jp/episodes/8ae4167b8d24d"
-    },
-    {
-     "date": "2026-07-28",
-     "label": "第39話 訪問",
-     "title": "第39話 訪問",
-     "url": "https://championcross.jp/episodes/34c08d77459a3"
-    },
-    {
-     "date": "2026-07-07",
-     "label": "6巻描きおろしエピソード「都子の一日」試し読み",
-     "title": "6巻描きおろしエピソード「都子の一日」試し読み",
-     "url": "https://championcross.jp/episodes/00cbccc5bcd7c"
-    },
-    {
-     "date": "2026-06-22",
-     "label": "特別編「HR」",
-     "title": "特別編「HR」",
-     "url": "https://championcross.jp/episodes/1b5683d6dd5da/"
-    },
-    {
-     "date": "2026-05-25",
-     "label": "第38話 プレゼント",
-     "title": "第38話 プレゼント",
-     "url": "https://championcross.jp/episodes/93ee4fbdc8f0f/"
-    },
-    {
-     "date": "2026-04-27",
-     "label": "第37話 内緒話",
-     "title": "第37話 内緒話",
-     "url": "https://championcross.jp/episodes/ebb1537777aeb/"
-    },
-    {
-     "date": "2026-03-23",
-     "label": "第36話 追跡",
-     "title": "第36話 追跡",
-     "url": "https://championcross.jp/episodes/5d645b8e0d4a5/"
-    },
-    {
-     "date": "2026-02-23",
-     "label": "第35話 水族館",
-     "title": "第35話 水族館",
-     "url": "https://championcross.jp/episodes/b252fe4ce87ee/"
-    },
-    {
-     "date": "2026-01-26",
-     "label": "特別編「パート」",
-     "title": "特別編「パート」",
-     "url": "https://championcross.jp/episodes/c42d21072c073/"
-    },
-    {
-     "date": "2025-12-22",
-     "label": "特別編「質問」",
-     "title": "特別編「質問」",
-     "url": "https://championcross.jp/episodes/5f908740605ff/"
-    },
-    {
-     "date": "2025-11-24",
-     "label": "第34話 デート",
-     "title": "第34話 デート",
-     "url": "https://championcross.jp/episodes/468f70e9fb907/"
-    },
-    {
-     "date": "2025-11-10",
-     "label": "5巻描きおろしエピソード「過去」試し読み",
-     "title": "5巻描きおろしエピソード「過去」試し読み",
-     "url": "https://championcross.jp/episodes/9612ac037b869/"
-    },
-    {
-     "date": "2025-10-27",
-     "label": "第33話 対面",
-     "title": "第33話 対面",
-     "url": "https://championcross.jp/episodes/d0d39370d980e/"
-    }
-   ],
-   "latest": {
-    "date": "2026-10-26",
-    "label": "第42話 暴露",
-    "title": "第42話 暴露",
-    "url": "https://championcross.jp/episodes/fe7b737cb454e"
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
    "detailUrl": "https://webcomics.jp/comicpash/cecfec260f2e6",
    "title": "私の心はおじさんである",
    "site": "コミックPASH! neo",
@@ -20802,114 +21036,6 @@
     "label": "2026/10/19 更新",
     "title": "2026/10/19 更新",
     "url": "https://manga.nicovideo.jp/comic/62782/new"
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
-   "detailUrl": "https://webcomics.jp/comic-walker/KC_000921_S",
-   "title": "陰キャの僕に罰ゲームで告白してきたはずのギャルが、どう見ても僕にベタ惚れです",
-   "site": "カドコミ",
-   "thumbFile": "data/thumbs/136016.jpg",
-   "publisherUrl": "https://comic-walker.com/detail/KC_000921_S",
-   "comicNo": 136016,
-   "history": [
-    {
-     "date": "2026-10-19",
-     "label": "第33.5話",
-     "title": "第33.5話",
-     "url": "https://comic-walker.com/detail/KC_000921_S/episodes/KC_0009210004200011_E?episodeType=latest"
-    },
-    {
-     "date": "2026-08-31",
-     "label": "第33話",
-     "title": "第33話",
-     "url": "https://comic-walker.com/detail/KC_000921_S/episodes/KC_0009210004100011_E?episodeType=latest"
-    },
-    {
-     "date": "2026-07-20",
-     "label": "第32話",
-     "title": "第32話",
-     "url": "https://comic-walker.com/detail/KC_000921_S/episodes/KC_0009210004000011_E?episodeType=latest"
-    },
-    {
-     "date": "2026-06-01",
-     "label": "第31話",
-     "title": "第31話",
-     "url": "https://comic-walker.com/detail/KC_000921_S/episodes/KC_0009210003900011_E?episodeType=latest"
-    },
-    {
-     "date": "2026-04-20",
-     "label": "第30.5話",
-     "title": "第30.5話",
-     "url": "https://comic-walker.com/detail/KC_000921_S/episodes/KC_0009210003800011_E?episodeType=latest"
-    },
-    {
-     "date": "2026-03-27",
-     "label": "第2話",
-     "title": "第2話",
-     "url": "https://comic-walker.com/detail/KC_000921_S/episodes/KC_0009210000200011_E?co=true&episodeType=latest"
-    },
-    {
-     "date": "2026-03-02",
-     "label": "第30話",
-     "title": "第30話",
-     "url": "https://comic-walker.com/detail/KC_000921_S/episodes/KC_0009210003700011_E?episodeType=latest"
-    },
-    {
-     "date": "2026-01-12",
-     "label": "第29話",
-     "title": "第29話",
-     "url": "https://comic-walker.com/detail/KC_000921_S/episodes/KC_0009210003600011_E?episodeType=latest"
-    },
-    {
-     "date": "2025-12-15",
-     "label": "第28話",
-     "title": "第28話",
-     "url": "https://comic-walker.com/detail/KC_000921_S/episodes/KC_0009210003500011_E?episodeType=latest"
-    },
-    {
-     "date": "2025-10-17",
-     "label": "第27話",
-     "title": "第27話",
-     "url": "https://comic-walker.com/detail/KC_000921_S/episodes/KC_0009210003400011_E?episodeType=latest"
-    },
-    {
-     "date": "2025-09-05",
-     "label": "第26.5話",
-     "title": "第26.5話",
-     "url": "https://comic-walker.com/detail/KC_000921_S/episodes/KC_0009210003300011_E?episodeType=latest"
-    },
-    {
-     "date": "2025-07-25",
-     "label": "第26話",
-     "title": "第26話",
-     "url": "https://comic-walker.com/detail/KC_000921_S/episodes/KC_0009210003200011_E?episodeType=latest"
-    },
-    {
-     "date": "2025-06-20",
-     "label": "第25話",
-     "title": "第25話",
-     "url": "https://comic-walker.com/detail/KC_000921_S/episodes/KC_0009210003100011_E?episodeType=latest"
-    },
-    {
-     "date": "2025-05-09",
-     "label": "第24話",
-     "title": "第24話",
-     "url": "https://comic-walker.com/detail/KC_000921_S/episodes/KC_0009210003000011_E?episodeType=latest"
-    },
-    {
-     "date": "2025-04-11",
-     "label": "第23話",
-     "title": "第23話",
-     "url": "https://comic-walker.com/detail/KC_000921_S/episodes/KC_0009210002900011_E?episodeType=latest"
-    }
-   ],
-   "latest": {
-    "date": "2026-10-19",
-    "label": "第33.5話",
-    "title": "第33.5話",
-    "url": "https://comic-walker.com/detail/KC_000921_S/episodes/KC_0009210004200011_E?episodeType=latest"
    },
    "paidHashes": null,
    "error": null
