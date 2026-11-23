@@ -341,15 +341,19 @@ async function ghGetSha(path){
   return j.sha || null;
 }
 // 「今すぐチェック」：合図ファイル（data/trigger.txt）を更新し、その push でワークフローを起動する
+let checkRunning = false;  // チェック開始処理の実行中フラグ（二重発動防止）
 async function runCheckNow(fromHeader){
   const say = (t, isErr) => {
     const m = document.getElementById("checkMsg");
     if(m) m.textContent = t;
     if(fromHeader) globalMsg(t, isErr ? "err" : "");
   };
-  if(!token){ say("未接続です。先にトークンで接続してください。", true); return; }
+  if(checkRunning) return;
+  checkRunning = true;
+  if(!token){ checkRunning = false; say("未接続です。先にトークンで接続してください。", true); return; }
   const ca = latest && latest.data && latest.data.checkedAt ? Date.parse(latest.data.checkedAt) : 0;
   if(ca && Date.now() - ca < 10 * 60 * 1000){
+    checkRunning = false;
     say("前回のチェックから10分経っていないので、今は実行しません。", false);
     return;
   }
@@ -367,6 +371,16 @@ async function runCheckNow(fromHeader){
   } catch(e){
     say("開始できませんでした：" + e.message, true);
   }
+  checkRunning = false;
+}
+// リンクを開いたときの自動チェック：最終チェックから1時間以上経っていたら、
+// 「今すぐ更新」を押したのと同じチェックを裏で開始する（2026-11-23 本人指定）。
+// チェック開始処理中・反映待ちの間は二重に発動しない。リンクを開く動作は止めない。
+function maybeAutoCheck(){
+  if(!token || checkRunning || checkPollTimer) return;
+  const ca = latest && latest.data && latest.data.checkedAt ? Date.parse(latest.data.checkedAt) : 0;
+  if(!ca || Date.now() - ca < 60 * 60 * 1000) return;
+  runCheckNow(true);
 }
 // チェック完了の自動反映：latest.json の checkedAt が新しくなるまで定期確認し、変わったら再描画する
 let checkPollTimer = null;
@@ -606,6 +620,10 @@ function bindCardButtons(root){
   root.querySelectorAll(".site-chip").forEach(chip => {
     chip.addEventListener("click", () => toggleSiteFilter(chip.getAttribute("data-site")));
   });
+  // 全作品タブのタイトルリンク（作品ページを開くリンク）でも自動チェックを発動する
+  root.querySelectorAll(".title a").forEach(a => {
+    a.addEventListener("click", () => maybeAutoCheck());
+  });
 }
 function renderUnread(){
   const list = unreadWorks();
@@ -714,6 +732,7 @@ async function openWork(detailUrl, btn){
   const first = w.nextEp || w.unread[0];
   const target = first.url || w.publisherUrl || w.detailUrl;
   window.open(target, "_blank", "noopener");
+  maybeAutoCheck();
   if(btn){
     const card = btn.closest(".card");
     if(card) card.classList.add("bye");
