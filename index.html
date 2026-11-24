@@ -190,7 +190,7 @@
         <button class="btn" onclick="runCheckNow(false)">今すぐチェックを実行</button>
         <div class="msg" id="checkMsg"></div>
         <p class="note">ボタンを押すと合図ファイル（data/trigger.txt）を更新してチェックを開始します。
-        終わり次第、自動で画面に反映します（3〜4分ほど）。前回のチェックから10分以内のときは実行しません。</p>
+        終わり次第、自動で画面に反映します（数分ほど）。前回のチェックから10分以内のときは実行しません。</p>
       </div>
       <div class="panel">
         <h2>同期（GitHub）</h2>
@@ -366,7 +366,7 @@ async function runCheckNow(fromHeader){
     const body = { message: "webcomic: manual check trigger", content: b64encodeUtf8(new Date().toISOString() + "\n") };
     if(sha) body.sha = sha;
     await ghFetch(TRIGGER_PATH, { method: "PUT", body: JSON.stringify(body) });
-    say("チェックを開始しました。終わり次第、自動で画面に反映します（3〜4分ほど）。", false);
+    say("チェックを開始しました。終わり次第、自動で画面に反映します（数分ほど）。", false);
     startCheckPolling(baseCheckedAt);
   } catch(e){
     say("開始できませんでした：" + e.message, true);
