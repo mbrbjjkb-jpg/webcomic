@@ -1,7 +1,224 @@
 {
- "checkedAt": "2026-11-24T13:36:12+09:00",
+ "checkedAt": "2026-11-24T20:26:05+09:00",
  "bookmarkUrl": "https://webcomics.jp/bookmark/3682scqd",
  "works": [
+  {
+   "detailUrl": "https://webcomics.jp/comic-boost/00290001",
+   "title": "転生したら剣でした",
+   "site": "comicブースト",
+   "thumbFile": "data/thumbs/59636.jpg",
+   "publisherUrl": "https://comic-boost.com/content/00290001",
+   "comicNo": 59636,
+   "history": [
+    {
+     "date": "2026-11-24",
+     "label": "11/24更新",
+     "title": "11/24更新",
+     "url": null
+    },
+    {
+     "date": "2026-09-08",
+     "label": "9/8更新",
+     "title": "9/8更新",
+     "url": null
+    },
+    {
+     "date": "2026-07-14",
+     "label": "7/14更新",
+     "title": "7/14更新",
+     "url": null
+    },
+    {
+     "date": "2026-06-09",
+     "label": "6/9更新",
+     "title": "6/9更新",
+     "url": null
+    },
+    {
+     "date": "2026-05-12",
+     "label": "5/12更新",
+     "title": "5/12更新",
+     "url": null
+    },
+    {
+     "date": "2026-03-10",
+     "label": "3/10更新",
+     "title": "3/10更新",
+     "url": null
+    },
+    {
+     "date": "2026-02-10",
+     "label": "2/10更新",
+     "title": "2/10更新",
+     "url": null
+    },
+    {
+     "date": "2026-01-06",
+     "label": "1/6更新",
+     "title": "1/6更新",
+     "url": null
+    },
+    {
+     "date": "2025-12-09",
+     "label": "12/9更新",
+     "title": "12/9更新",
+     "url": null
+    },
+    {
+     "date": "2025-11-04",
+     "label": "11/4更新",
+     "title": "11/4更新",
+     "url": null
+    },
+    {
+     "date": "2025-09-09",
+     "label": "第90話",
+     "title": "第90話",
+     "url": "https://comic-boost.com/product/00290102"
+    },
+    {
+     "date": "2025-08-05",
+     "label": "第89話",
+     "title": "第89話",
+     "url": "https://comic-boost.com/product/00290101"
+    },
+    {
+     "date": "2025-07-08",
+     "label": "第88話",
+     "title": "第88話",
+     "url": "https://comic-boost.com/product/00290100"
+    },
+    {
+     "date": "2025-06-10",
+     "label": "第87話",
+     "title": "第87話",
+     "url": "https://comic-boost.com/product/00290099"
+    },
+    {
+     "date": "2025-04-29",
+     "label": "第86話",
+     "title": "第86話",
+     "url": "https://comic-boost.com/product/00290098"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-24",
+    "label": "11/24更新",
+    "title": "11/24更新",
+    "url": null
+   },
+   "paidHashes": null,
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/comic-walker/KC_003663_S",
+   "title": "悪人面したB級冒険者 主人公とその幼馴染たちのパパになる",
+   "site": "カドコミ",
+   "thumbFile": "data/thumbs/150792.jpg",
+   "publisherUrl": "https://comic-walker.com/detail/KC_003663_S",
+   "comicNo": 150792,
+   "history": [
+    {
+     "date": "2026-11-24",
+     "label": "第29話-1「遺跡での戦い」",
+     "title": "第29話-1「遺跡での戦い」",
+     "url": "https://comic-walker.com/detail/KC_003663_S/episodes/KC_0036630003500011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-11-10",
+     "label": "第28話-2「意外な助っ人」",
+     "title": "第28話-2「意外な助っ人」",
+     "url": "https://comic-walker.com/detail/KC_003663_S/episodes/KC_0036630003400021_E?episodeType=latest"
+    },
+    {
+     "date": "2026-10-27",
+     "label": "第28話-1「意外な助っ人」",
+     "title": "第28話-1「意外な助っ人」",
+     "url": "https://comic-walker.com/detail/KC_003663_S/episodes/KC_0036630003400011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-10-13",
+     "label": "第27話-2「共闘」",
+     "title": "第27話-2「共闘」",
+     "url": "https://comic-walker.com/detail/KC_003663_S/episodes/KC_0036630003300021_E?episodeType=latest"
+    },
+    {
+     "date": "2026-09-22",
+     "label": "第27話-1「共闘」",
+     "title": "第27話-1「共闘」",
+     "url": "https://comic-walker.com/detail/KC_003663_S/episodes/KC_0036630003300011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-09-08",
+     "label": "第26話-2「家族を守るために」",
+     "title": "第26話-2「家族を守るために」",
+     "url": "https://comic-walker.com/detail/KC_003663_S/episodes/KC_0036630003200021_E?episodeType=latest"
+    },
+    {
+     "date": "2026-08-25",
+     "label": "第26話-1「家族を守るために」",
+     "title": "第26話-1「家族を守るために」",
+     "url": "https://comic-walker.com/detail/KC_003663_S/episodes/KC_0036630003200011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-08-11",
+     "label": "第25話-2「女神教の狙い」",
+     "title": "第25話-2「女神教の狙い」",
+     "url": "https://comic-walker.com/detail/KC_003663_S/episodes/KC_0036630003000021_E?episodeType=latest"
+    },
+    {
+     "date": "2026-07-21",
+     "label": "第25話-1「女神教の狙い」",
+     "title": "第25話-1「女神教の狙い」",
+     "url": "https://comic-walker.com/detail/KC_003663_S/episodes/KC_0036630003000011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-07-07",
+     "label": "第24話-2「父と子と」",
+     "title": "第24話-2「父と子と」",
+     "url": "https://comic-walker.com/detail/KC_003663_S/episodes/KC_0036630002900021_E?episodeType=latest"
+    },
+    {
+     "date": "2026-07-04",
+     "label": "とある少年にとっての英雄(コミックス第3巻発売宣伝)",
+     "title": "とある少年にとっての英雄(コミックス第3巻発売宣伝)",
+     "url": "https://comic-walker.com/detail/KC_003663_S/episodes/KC_0036630001900011_E?co=true&episodeType=latest",
+     "extra": true
+    },
+    {
+     "date": "2026-06-23",
+     "label": "第24話-1「父と子と」",
+     "title": "第24話-1「父と子と」",
+     "url": "https://comic-walker.com/detail/KC_003663_S/episodes/KC_0036630002900011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-06-09",
+     "label": "第23話-3「情報を引き出せ!」",
+     "title": "第23話-3「情報を引き出せ!」",
+     "url": "https://comic-walker.com/detail/KC_003663_S/episodes/KC_0036630002800031_E?episodeType=latest"
+    },
+    {
+     "date": "2026-05-26",
+     "label": "第23話-2「情報を引き出せ!」",
+     "title": "第23話-2「情報を引き出せ!」",
+     "url": "https://comic-walker.com/detail/KC_003663_S/episodes/KC_0036630002800021_E?episodeType=latest"
+    },
+    {
+     "date": "2026-05-12",
+     "label": "第23話-1「情報を引き出せ!」",
+     "title": "第23話-1「情報を引き出せ!」",
+     "url": "https://comic-walker.com/detail/KC_003663_S/episodes/KC_0036630002800011_E?episodeType=latest"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-24",
+    "label": "第29話-1「遺跡での戦い」",
+    "title": "第29話-1「遺跡での戦い」",
+    "url": "https://comic-walker.com/detail/KC_003663_S/episodes/KC_0036630003500011_E?episodeType=latest"
+   },
+   "paidHashes": null,
+   "error": null
+  },
   {
    "detailUrl": "https://webcomics.jp/comic-walker/KC_000641_S",
    "title": "辺境ぐらしの魔王、転生して最強の魔術師になる",
@@ -14127,6 +14344,30 @@
    "error": null
   },
   {
+   "detailUrl": "https://webcomics.jp/sunday-webry/12207421984503439847",
+   "title": "NOナイ妹",
+   "site": "サンデーうぇぶり",
+   "thumbFile": "data/thumbs/217942.jpg",
+   "publisherUrl": "https://www.sunday-webry.com/episode/12207421984503439847",
+   "comicNo": 217942,
+   "history": [
+    {
+     "date": "2026-11-12",
+     "label": "NO.1 こくはく",
+     "title": "NO.1 こくはく",
+     "url": "https://www.sunday-webry.com/episode/12207421984503439847"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-12",
+    "label": "NO.1 こくはく",
+    "title": "NO.1 こくはく",
+    "url": "https://www.sunday-webry.com/episode/12207421984503439847"
+   },
+   "paidHashes": null,
+   "error": null
+  },
+  {
    "detailUrl": "https://webcomics.jp/ganganonline/11",
    "title": "スライム倒して300年、知らないうちにレベルMAXになってました",
    "site": "ガンガンONLINE",
@@ -16649,6 +16890,114 @@
    "error": null
   },
   {
+   "detailUrl": "https://webcomics.jp/hjcomics/281",
+   "title": "魔王の俺が奴隷エルフを嫁にしたんだが、どう愛でればいい?",
+   "site": "ファイアCROSS",
+   "thumbFile": "data/thumbs/73380.jpg",
+   "publisherUrl": "https://firecross.jp/ebook/series/281",
+   "comicNo": 73380,
+   "history": [
+    {
+     "date": "2026-11-06",
+     "label": "2026年11月6日",
+     "title": "2026年11月6日",
+     "url": null
+    },
+    {
+     "date": "2026-09-04",
+     "label": "2026年9月4日",
+     "title": "2026年9月4日",
+     "url": null
+    },
+    {
+     "date": "2026-07-31",
+     "label": "2026年7月31日",
+     "title": "2026年7月31日",
+     "url": null
+    },
+    {
+     "date": "2026-06-26",
+     "label": "2026年6月26日",
+     "title": "2026年6月26日",
+     "url": null
+    },
+    {
+     "date": "2026-05-22",
+     "label": "2026年5月22日",
+     "title": "2026年5月22日",
+     "url": null
+    },
+    {
+     "date": "2026-04-24",
+     "label": "2026年4月24日",
+     "title": "2026年4月24日",
+     "url": null
+    },
+    {
+     "date": "2026-03-06",
+     "label": "2026年3月6日",
+     "title": "2026年3月6日",
+     "url": null
+    },
+    {
+     "date": "2026-01-30",
+     "label": "2026年1月30日",
+     "title": "2026年1月30日",
+     "url": null
+    },
+    {
+     "date": "2025-12-19",
+     "label": "2025年12月19日",
+     "title": "2025年12月19日",
+     "url": null
+    },
+    {
+     "date": "2025-11-07",
+     "label": "2025年11月7日",
+     "title": "2025年11月7日",
+     "url": null
+    },
+    {
+     "date": "2025-09-26",
+     "label": "2025年9月26日",
+     "title": "2025年9月26日",
+     "url": null
+    },
+    {
+     "date": "2025-07-25",
+     "label": "2025年7月25日",
+     "title": "2025年7月25日",
+     "url": null
+    },
+    {
+     "date": "2025-06-13",
+     "label": "2025年6月13日",
+     "title": "2025年6月13日",
+     "url": null
+    },
+    {
+     "date": "2025-04-25",
+     "label": "4月25日",
+     "title": "4月25日",
+     "url": null
+    },
+    {
+     "date": "2025-03-14",
+     "label": "3月14日",
+     "title": "3月14日",
+     "url": null
+    }
+   ],
+   "latest": {
+    "date": "2026-11-06",
+    "label": "2026年11月6日",
+    "title": "2026年11月6日",
+    "url": null
+   },
+   "paidHashes": null,
+   "error": null
+  },
+  {
    "detailUrl": "https://webcomics.jp/comic-walker/KC_005747_S",
    "title": "誰が勇者を殺したか",
    "site": "カドコミ",
@@ -16970,114 +17319,6 @@
     "label": "2026.11.06",
     "title": "2026.11.06",
     "url": "https://comic-ogyaaa.com/episode/12207421984476356323"
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
-   "detailUrl": "https://webcomics.jp/hjcomics/281",
-   "title": "魔王の俺が奴隷エルフを嫁にしたんだが、どう愛でればいい?",
-   "site": "ファイアCROSS",
-   "thumbFile": "data/thumbs/73380.jpg",
-   "publisherUrl": "https://firecross.jp/ebook/series/281",
-   "comicNo": 73380,
-   "history": [
-    {
-     "date": "2026-11-06",
-     "label": "2026年11月6日",
-     "title": "2026年11月6日",
-     "url": null
-    },
-    {
-     "date": "2026-09-04",
-     "label": "2026年9月4日",
-     "title": "2026年9月4日",
-     "url": null
-    },
-    {
-     "date": "2026-07-31",
-     "label": "2026年7月31日",
-     "title": "2026年7月31日",
-     "url": null
-    },
-    {
-     "date": "2026-06-26",
-     "label": "2026年6月26日",
-     "title": "2026年6月26日",
-     "url": null
-    },
-    {
-     "date": "2026-05-22",
-     "label": "2026年5月22日",
-     "title": "2026年5月22日",
-     "url": null
-    },
-    {
-     "date": "2026-04-24",
-     "label": "2026年4月24日",
-     "title": "2026年4月24日",
-     "url": null
-    },
-    {
-     "date": "2026-03-06",
-     "label": "2026年3月6日",
-     "title": "2026年3月6日",
-     "url": null
-    },
-    {
-     "date": "2026-01-30",
-     "label": "2026年1月30日",
-     "title": "2026年1月30日",
-     "url": null
-    },
-    {
-     "date": "2025-12-19",
-     "label": "2025年12月19日",
-     "title": "2025年12月19日",
-     "url": null
-    },
-    {
-     "date": "2025-11-07",
-     "label": "2025年11月7日",
-     "title": "2025年11月7日",
-     "url": null
-    },
-    {
-     "date": "2025-09-26",
-     "label": "2025年9月26日",
-     "title": "2025年9月26日",
-     "url": null
-    },
-    {
-     "date": "2025-07-25",
-     "label": "2025年7月25日",
-     "title": "2025年7月25日",
-     "url": null
-    },
-    {
-     "date": "2025-06-13",
-     "label": "2025年6月13日",
-     "title": "2025年6月13日",
-     "url": null
-    },
-    {
-     "date": "2025-04-25",
-     "label": "4月25日",
-     "title": "4月25日",
-     "url": null
-    },
-    {
-     "date": "2025-03-14",
-     "label": "3月14日",
-     "title": "3月14日",
-     "url": null
-    }
-   ],
-   "latest": {
-    "date": "2026-11-06",
-    "label": "2026年11月6日",
-    "title": "2026年11月6日",
-    "url": null
    },
    "paidHashes": null,
    "error": null
@@ -23476,60 +23717,6 @@
     "label": "[第122話]チェンソーマン 第二部",
     "title": "[第122話]チェンソーマン 第二部",
     "url": "https://shonenjumpplus.com/episode/4856001361023709393"
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
-   "detailUrl": "https://webcomics.jp/comic-boost/00290001",
-   "title": "転生したら剣でした",
-   "site": "comicブースト",
-   "thumbFile": "data/thumbs/59636.jpg",
-   "publisherUrl": "https://comic-boost.com/content/00290001",
-   "comicNo": 59636,
-   "history": [
-    {
-     "date": "2025-09-09",
-     "label": "第90話",
-     "title": "第90話",
-     "url": "https://comic-boost.com/product/00290102"
-    },
-    {
-     "date": "2025-08-05",
-     "label": "第89話",
-     "title": "第89話",
-     "url": "https://comic-boost.com/product/00290101"
-    },
-    {
-     "date": "2025-07-08",
-     "label": "第88話",
-     "title": "第88話",
-     "url": "https://comic-boost.com/product/00290100"
-    },
-    {
-     "date": "2025-06-10",
-     "label": "第87話",
-     "title": "第87話",
-     "url": "https://comic-boost.com/product/00290099"
-    },
-    {
-     "date": "2025-04-29",
-     "label": "第86話",
-     "title": "第86話",
-     "url": "https://comic-boost.com/product/00290098"
-    },
-    {
-     "date": "2025-03-11",
-     "label": "第85話",
-     "title": "第85話",
-     "url": "https://comic-boost.com/product/00290097"
-    }
-   ],
-   "latest": {
-    "date": "2025-09-09",
-    "label": "第90話",
-    "title": "第90話",
-    "url": "https://comic-boost.com/product/00290102"
    },
    "paidHashes": null,
    "error": null
