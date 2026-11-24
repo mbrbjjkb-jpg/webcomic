@@ -1,7 +1,115 @@
 {
- "checkedAt": "2026-11-24T11:07:20+09:00",
+ "checkedAt": "2026-11-24T13:36:12+09:00",
  "bookmarkUrl": "https://webcomics.jp/bookmark/3682scqd",
  "works": [
+  {
+   "detailUrl": "https://webcomics.jp/comic-walker/KC_000641_S",
+   "title": "辺境ぐらしの魔王、転生して最強の魔術師になる",
+   "site": "カドコミ",
+   "thumbFile": "data/thumbs/108252.jpg",
+   "publisherUrl": "https://comic-walker.com/detail/KC_000641_S",
+   "comicNo": 108252,
+   "history": [
+    {
+     "date": "2026-11-24",
+     "label": "第68話 元魔王、成果を報告する",
+     "title": "第68話 元魔王、成果を報告する",
+     "url": "https://comic-walker.com/detail/KC_000641_S/episodes/KC_0006410007000011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-10-24",
+     "label": "第67話 元魔王、ギルドに戻る",
+     "title": "第67話 元魔王、ギルドに戻る",
+     "url": "https://comic-walker.com/detail/KC_000641_S/episodes/KC_0006410006900011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-09-24",
+     "label": "第66話 元魔王、大発見する",
+     "title": "第66話 元魔王、大発見する",
+     "url": "https://comic-walker.com/detail/KC_000641_S/episodes/KC_0006410006800011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-08-24",
+     "label": "第65話 元魔王、第二階層を開拓する",
+     "title": "第65話 元魔王、第二階層を開拓する",
+     "url": "https://comic-walker.com/detail/KC_000641_S/episodes/KC_0006410006700011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-07-24",
+     "label": "第64話 『古代魔術文明の都』探索初日",
+     "title": "第64話 『古代魔術文明の都』探索初日",
+     "url": "https://comic-walker.com/detail/KC_000641_S/episodes/KC_0006410006600011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-06-24",
+     "label": "第63話 元魔王、『古代魔術』を調整する",
+     "title": "第63話 元魔王、『古代魔術』を調整する",
+     "url": "https://comic-walker.com/detail/KC_000641_S/episodes/KC_0006410006400011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-05-24",
+     "label": "第62話 元魔王、ダンジョンの上層で魔術の実験をする",
+     "title": "第62話 元魔王、ダンジョンの上層で魔術の実験をする",
+     "url": "https://comic-walker.com/detail/KC_000641_S/episodes/KC_0006410006300011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-04-24",
+     "label": "第61話 魔術実験の準備と、『ザメル派』の少女の悩み",
+     "title": "第61話 魔術実験の準備と、『ザメル派』の少女の悩み",
+     "url": "https://comic-walker.com/detail/KC_000641_S/episodes/KC_0006410006200011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-02-24",
+     "label": "第60話 元魔王、迷宮探索の説明を受ける",
+     "title": "第60話 元魔王、迷宮探索の説明を受ける",
+     "url": "https://comic-walker.com/detail/KC_000641_S/episodes/KC_0006410006100011_E?episodeType=latest"
+    },
+    {
+     "date": "2026-01-24",
+     "label": "第59話 元魔王、王都で呼び出しを受ける",
+     "title": "第59話 元魔王、王都で呼び出しを受ける",
+     "url": "https://comic-walker.com/detail/KC_000641_S/episodes/KC_0006410006000011_E?episodeType=latest"
+    },
+    {
+     "date": "2025-12-24",
+     "label": "第58話 元魔王と王女の、お忍びデートと里帰り",
+     "title": "第58話 元魔王と王女の、お忍びデートと里帰り",
+     "url": "https://comic-walker.com/detail/KC_000641_S/episodes/KC_0006410005900011_E?episodeType=latest"
+    },
+    {
+     "date": "2025-11-24",
+     "label": "第57話 元魔王と王女、後始末する",
+     "title": "第57話 元魔王と王女、後始末する",
+     "url": "https://comic-walker.com/detail/KC_000641_S/episodes/KC_0006410005800011_E?episodeType=latest"
+    },
+    {
+     "date": "2025-10-24",
+     "label": "第56話 ある魔術師の主張と、怒れる歌姫",
+     "title": "第56話 ある魔術師の主張と、怒れる歌姫",
+     "url": "https://comic-walker.com/detail/KC_000641_S/episodes/KC_0006410005700011_E?episodeType=latest"
+    },
+    {
+     "date": "2025-09-24",
+     "label": "第55話 元魔王、古戦場を調査する",
+     "title": "第55話 元魔王、古戦場を調査する",
+     "url": "https://comic-walker.com/detail/KC_000641_S/episodes/KC_0006410005600011_E?episodeType=latest"
+    },
+    {
+     "date": "2025-08-24",
+     "label": "第54話 古き王家の隠れ家と、秘密文書の発見",
+     "title": "第54話 古き王家の隠れ家と、秘密文書の発見",
+     "url": "https://comic-walker.com/detail/KC_000641_S/episodes/KC_0006410005500011_E?episodeType=latest"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-24",
+    "label": "第68話 元魔王、成果を報告する",
+    "title": "第68話 元魔王、成果を報告する",
+    "url": "https://comic-walker.com/detail/KC_000641_S/episodes/KC_0006410007000011_E?episodeType=latest"
+   },
+   "paidHashes": null,
+   "error": null
+  },
   {
    "detailUrl": "https://webcomics.jp/comic-days/4856001361557479910",
    "title": "地元のいじめっ子達に仕返ししようとしたら、別の戦いが始まった。",
@@ -14,7 +122,8 @@
      "date": "2026-11-24",
      "label": "更新",
      "title": "更新",
-     "url": "https://comic-days.com/episode/12207421984094267199"
+     "url": "https://comic-days.com/episode/12207421984094267199",
+     "epNo": 92
     },
     {
      "date": "2026-11-10",
@@ -116,11 +225,11 @@
     }
    ],
    "latest": {
-    "date": "2026-11-10",
+    "date": "2026-11-24",
     "label": "更新",
     "title": "更新",
-    "url": "https://comic-days.com/episode/12207421984094267193",
-    "epNo": 91
+    "url": "https://comic-days.com/episode/12207421984094267199",
+    "epNo": 92
    },
    "paidHashes": null,
    "error": null
@@ -554,7 +663,7 @@
    "comicNo": 136016,
    "history": [
     {
-     "date": "2026-11-24",
+     "date": "2026-11-23",
      "label": "第34話",
      "title": "第34話",
      "url": "https://comic-walker.com/detail/KC_000921_S/episodes/KC_0009210004300011_E?episodeType=latest"
@@ -645,7 +754,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-24",
+    "date": "2026-11-23",
     "label": "第34話",
     "title": "第34話",
     "url": "https://comic-walker.com/detail/KC_000921_S/episodes/KC_0009210004300011_E?episodeType=latest"
@@ -662,7 +771,7 @@
    "comicNo": 139041,
    "history": [
     {
-     "date": "2026-11-24",
+     "date": "2026-11-23",
      "label": "第43話 報せ",
      "title": "第43話 報せ",
      "url": "https://championcross.jp/episodes/039ec7042a5bb"
@@ -753,7 +862,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-24",
+    "date": "2026-11-23",
     "label": "第43話 報せ",
     "title": "第43話 報せ",
     "url": "https://championcross.jp/episodes/039ec7042a5bb"
@@ -19142,114 +19251,6 @@
     "label": "第46話",
     "title": "第46話",
     "url": "https://comicpash.jp/episodes/f62e8ba198789"
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
-   "detailUrl": "https://webcomics.jp/comic-walker/KC_000641_S",
-   "title": "辺境ぐらしの魔王、転生して最強の魔術師になる",
-   "site": "カドコミ",
-   "thumbFile": "data/thumbs/108252.jpg",
-   "publisherUrl": "https://comic-walker.com/detail/KC_000641_S",
-   "comicNo": 108252,
-   "history": [
-    {
-     "date": "2026-10-24",
-     "label": "第67話 元魔王、ギルドに戻る",
-     "title": "第67話 元魔王、ギルドに戻る",
-     "url": "https://comic-walker.com/detail/KC_000641_S/episodes/KC_0006410006900011_E?episodeType=latest"
-    },
-    {
-     "date": "2026-09-24",
-     "label": "第66話 元魔王、大発見する",
-     "title": "第66話 元魔王、大発見する",
-     "url": "https://comic-walker.com/detail/KC_000641_S/episodes/KC_0006410006800011_E?episodeType=latest"
-    },
-    {
-     "date": "2026-08-24",
-     "label": "第65話 元魔王、第二階層を開拓する",
-     "title": "第65話 元魔王、第二階層を開拓する",
-     "url": "https://comic-walker.com/detail/KC_000641_S/episodes/KC_0006410006700011_E?episodeType=latest"
-    },
-    {
-     "date": "2026-07-24",
-     "label": "第64話 『古代魔術文明の都』探索初日",
-     "title": "第64話 『古代魔術文明の都』探索初日",
-     "url": "https://comic-walker.com/detail/KC_000641_S/episodes/KC_0006410006600011_E?episodeType=latest"
-    },
-    {
-     "date": "2026-06-24",
-     "label": "第63話 元魔王、『古代魔術』を調整する",
-     "title": "第63話 元魔王、『古代魔術』を調整する",
-     "url": "https://comic-walker.com/detail/KC_000641_S/episodes/KC_0006410006400011_E?episodeType=latest"
-    },
-    {
-     "date": "2026-05-24",
-     "label": "第62話 元魔王、ダンジョンの上層で魔術の実験をする",
-     "title": "第62話 元魔王、ダンジョンの上層で魔術の実験をする",
-     "url": "https://comic-walker.com/detail/KC_000641_S/episodes/KC_0006410006300011_E?episodeType=latest"
-    },
-    {
-     "date": "2026-04-24",
-     "label": "第61話 魔術実験の準備と、『ザメル派』の少女の悩み",
-     "title": "第61話 魔術実験の準備と、『ザメル派』の少女の悩み",
-     "url": "https://comic-walker.com/detail/KC_000641_S/episodes/KC_0006410006200011_E?episodeType=latest"
-    },
-    {
-     "date": "2026-02-24",
-     "label": "第60話 元魔王、迷宮探索の説明を受ける",
-     "title": "第60話 元魔王、迷宮探索の説明を受ける",
-     "url": "https://comic-walker.com/detail/KC_000641_S/episodes/KC_0006410006100011_E?episodeType=latest"
-    },
-    {
-     "date": "2026-01-24",
-     "label": "第59話 元魔王、王都で呼び出しを受ける",
-     "title": "第59話 元魔王、王都で呼び出しを受ける",
-     "url": "https://comic-walker.com/detail/KC_000641_S/episodes/KC_0006410006000011_E?episodeType=latest"
-    },
-    {
-     "date": "2025-12-24",
-     "label": "第58話 元魔王と王女の、お忍びデートと里帰り",
-     "title": "第58話 元魔王と王女の、お忍びデートと里帰り",
-     "url": "https://comic-walker.com/detail/KC_000641_S/episodes/KC_0006410005900011_E?episodeType=latest"
-    },
-    {
-     "date": "2025-11-24",
-     "label": "第57話 元魔王と王女、後始末する",
-     "title": "第57話 元魔王と王女、後始末する",
-     "url": "https://comic-walker.com/detail/KC_000641_S/episodes/KC_0006410005800011_E?episodeType=latest"
-    },
-    {
-     "date": "2025-10-24",
-     "label": "第56話 ある魔術師の主張と、怒れる歌姫",
-     "title": "第56話 ある魔術師の主張と、怒れる歌姫",
-     "url": "https://comic-walker.com/detail/KC_000641_S/episodes/KC_0006410005700011_E?episodeType=latest"
-    },
-    {
-     "date": "2025-09-24",
-     "label": "第55話 元魔王、古戦場を調査する",
-     "title": "第55話 元魔王、古戦場を調査する",
-     "url": "https://comic-walker.com/detail/KC_000641_S/episodes/KC_0006410005600011_E?episodeType=latest"
-    },
-    {
-     "date": "2025-08-24",
-     "label": "第54話 古き王家の隠れ家と、秘密文書の発見",
-     "title": "第54話 古き王家の隠れ家と、秘密文書の発見",
-     "url": "https://comic-walker.com/detail/KC_000641_S/episodes/KC_0006410005500011_E?episodeType=latest"
-    },
-    {
-     "date": "2025-07-24",
-     "label": "第53話 元魔王、敵のアジトを探しにいく",
-     "title": "第53話 元魔王、敵のアジトを探しにいく",
-     "url": "https://comic-walker.com/detail/KC_000641_S/episodes/KC_0006410005400011_E?episodeType=latest"
-    }
-   ],
-   "latest": {
-    "date": "2026-10-24",
-    "label": "第67話 元魔王、ギルドに戻る",
-    "title": "第67話 元魔王、ギルドに戻る",
-    "url": "https://comic-walker.com/detail/KC_000641_S/episodes/KC_0006410006900011_E?episodeType=latest"
    },
    "paidHashes": null,
    "error": null
