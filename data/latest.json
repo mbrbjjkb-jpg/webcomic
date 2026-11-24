@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-24T20:26:05+09:00",
+ "checkedAt": "2026-11-24T22:30:45+09:00",
  "bookmarkUrl": "https://webcomics.jp/bookmark/3682scqd",
  "works": [
   {
@@ -4347,6 +4347,66 @@
     "label": "130話",
     "title": "130話",
     "url": "https://takecomic.jp/episodes/d22f5c968dda5"
+   },
+   "paidHashes": null,
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/seiga/86394",
+   "title": "ほんとは私がいいんでしょ?(comipo comics)",
+   "site": "ニコニコ漫画",
+   "thumbFile": "data/thumbs/216443.jpg",
+   "publisherUrl": "https://manga.nicovideo.jp/comic/86394",
+   "comicNo": 216443,
+   "history": [
+    {
+     "date": "2026-11-20",
+     "label": "2026/11/20 更新",
+     "title": "2026/11/20 更新",
+     "url": "https://manga.nicovideo.jp/comic/86394/new"
+    },
+    {
+     "date": "2026-11-13",
+     "label": "2026/11/13 更新",
+     "title": "2026/11/13 更新",
+     "url": "https://manga.nicovideo.jp/comic/86394/new"
+    },
+    {
+     "date": "2026-11-06",
+     "label": "2026/11/06 更新",
+     "title": "2026/11/06 更新",
+     "url": "https://manga.nicovideo.jp/comic/86394/new"
+    },
+    {
+     "date": "2026-10-30",
+     "label": "2026/10/30 更新",
+     "title": "2026/10/30 更新",
+     "url": "https://manga.nicovideo.jp/comic/86394/new"
+    },
+    {
+     "date": "2026-10-23",
+     "label": "2026/10/23 更新",
+     "title": "2026/10/23 更新",
+     "url": "https://manga.nicovideo.jp/comic/86394/new"
+    },
+    {
+     "date": "2026-10-16",
+     "label": "2026/10/16 更新",
+     "title": "2026/10/16 更新",
+     "url": "https://manga.nicovideo.jp/comic/86394/new"
+    },
+    {
+     "date": "2026-10-09",
+     "label": "2026/10/09 更新",
+     "title": "2026/10/09 更新",
+     "url": "https://manga.nicovideo.jp/comic/86394/new"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-20",
+    "label": "2026/11/20 更新",
+    "title": "2026/11/20 更新",
+    "url": "https://manga.nicovideo.jp/comic/86394/new"
    },
    "paidHashes": null,
    "error": null
