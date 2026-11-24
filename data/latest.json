@@ -1,7 +1,130 @@
 {
- "checkedAt": "2026-11-24T08:41:37+09:00",
+ "checkedAt": "2026-11-24T11:07:20+09:00",
  "bookmarkUrl": "https://webcomics.jp/bookmark/3682scqd",
  "works": [
+  {
+   "detailUrl": "https://webcomics.jp/comic-days/4856001361557479910",
+   "title": "地元のいじめっ子達に仕返ししようとしたら、別の戦いが始まった。",
+   "site": "コミックDAYS",
+   "thumbFile": "data/thumbs/155725.jpg",
+   "publisherUrl": "https://comic-days.com/episode/4856001361557479910",
+   "comicNo": 155725,
+   "history": [
+    {
+     "date": "2026-11-24",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421984094267199"
+    },
+    {
+     "date": "2026-11-10",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421984094267193",
+     "epNo": 91
+    },
+    {
+     "date": "2026-11-03",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421984094267188",
+     "epNo": 90
+    },
+    {
+     "date": "2026-10-27",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421984094267185",
+     "epNo": 90
+    },
+    {
+     "date": "2026-10-26",
+     "label": "第1話 友情なき戦いが始まった",
+     "title": "第1話 友情なき戦いが始まった",
+     "url": "https://comic-days.com/episode/4856001361557479910",
+     "epNo": 1
+    },
+    {
+     "date": "2026-10-20",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421984094267180",
+     "epNo": 89
+    },
+    {
+     "date": "2026-10-13",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983825783093",
+     "epNo": 89
+    },
+    {
+     "date": "2026-09-29",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983825783090",
+     "epNo": 88
+    },
+    {
+     "date": "2026-09-22",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983825783087",
+     "epNo": 87
+    },
+    {
+     "date": "2026-09-15",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983825783084",
+     "epNo": 87
+    },
+    {
+     "date": "2026-09-08",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983825783081",
+     "epNo": 86
+    },
+    {
+     "date": "2026-09-01",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983825783078",
+     "epNo": 86
+    },
+    {
+     "date": "2026-08-11",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983825783075",
+     "epNo": 85
+    },
+    {
+     "date": "2026-08-04",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983825783072",
+     "epNo": 84
+    },
+    {
+     "date": "2026-07-28",
+     "label": "更新",
+     "title": "更新",
+     "url": "https://comic-days.com/episode/12207421983825783067",
+     "epNo": 84
+    }
+   ],
+   "latest": {
+    "date": "2026-11-10",
+    "label": "更新",
+    "title": "更新",
+    "url": "https://comic-days.com/episode/12207421984094267193",
+    "epNo": 91
+   },
+   "paidHashes": null,
+   "error": null
+  },
   {
    "detailUrl": "https://webcomics.jp/magapoke/03322",
    "title": "排水溝につまったスライムを日々かたづけるだけの底辺職、なぜか実力者たちの熱い視線を集めてしまう",
@@ -15435,130 +15558,6 @@
     "label": "レッツゴー怪奇組おかわり 第十二話「ぬかどこ」",
     "title": "レッツゴー怪奇組おかわり 第十二話「ぬかどこ」",
     "url": "https://omocoro.jp/kiji/596796/"
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
-   "detailUrl": "https://webcomics.jp/comic-days/4856001361557479910",
-   "title": "地元のいじめっ子達に仕返ししようとしたら、別の戦いが始まった。",
-   "site": "コミックDAYS",
-   "thumbFile": "data/thumbs/155725.jpg",
-   "publisherUrl": "https://comic-days.com/episode/4856001361557479910",
-   "comicNo": 155725,
-   "history": [
-    {
-     "date": "2026-11-10",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://comic-days.com/episode/12207421984094267193",
-     "epNo": 91
-    },
-    {
-     "date": "2026-11-03",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://comic-days.com/episode/12207421984094267188",
-     "epNo": 90
-    },
-    {
-     "date": "2026-10-27",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://comic-days.com/episode/12207421984094267185",
-     "epNo": 90
-    },
-    {
-     "date": "2026-10-26",
-     "label": "第1話 友情なき戦いが始まった",
-     "title": "第1話 友情なき戦いが始まった",
-     "url": "https://comic-days.com/episode/4856001361557479910",
-     "epNo": 1
-    },
-    {
-     "date": "2026-10-20",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://comic-days.com/episode/12207421984094267180",
-     "epNo": 89
-    },
-    {
-     "date": "2026-10-13",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983825783093",
-     "epNo": 89
-    },
-    {
-     "date": "2026-09-29",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983825783090",
-     "epNo": 88
-    },
-    {
-     "date": "2026-09-22",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983825783087",
-     "epNo": 87
-    },
-    {
-     "date": "2026-09-15",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983825783084",
-     "epNo": 87
-    },
-    {
-     "date": "2026-09-08",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983825783081",
-     "epNo": 86
-    },
-    {
-     "date": "2026-09-01",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983825783078",
-     "epNo": 86
-    },
-    {
-     "date": "2026-08-11",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983825783075",
-     "epNo": 85
-    },
-    {
-     "date": "2026-08-04",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983825783072",
-     "epNo": 84
-    },
-    {
-     "date": "2026-07-28",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983825783067",
-     "epNo": 84
-    },
-    {
-     "date": "2026-07-21",
-     "label": "更新",
-     "title": "更新",
-     "url": "https://comic-days.com/episode/12207421983825783063",
-     "epNo": 83
-    }
-   ],
-   "latest": {
-    "date": "2026-11-10",
-    "label": "更新",
-    "title": "更新",
-    "url": "https://comic-days.com/episode/12207421984094267193",
-    "epNo": 91
    },
    "paidHashes": null,
    "error": null
