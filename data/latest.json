@@ -1,7 +1,334 @@
 {
- "checkedAt": "2026-11-25T21:35:43+09:00",
+ "checkedAt": "2026-11-26T08:33:51+09:00",
  "bookmarkUrl": "https://webcomics.jp/bookmark/3682scqd",
  "works": [
+  {
+   "detailUrl": "https://webcomics.jp/comic-ryu/9bfabbed18a82",
+   "title": "勇者の母ですが、魔王軍の幹部になりました。",
+   "site": "COMICリュウライブ",
+   "thumbFile": "data/thumbs/171613.jpg",
+   "publisherUrl": "https://comic-ryu.jp/series/9bfabbed18a82",
+   "comicNo": 171613,
+   "history": [
+    {
+     "date": "2026-11-26",
+     "label": "第42話(前編)",
+     "title": "第42話(前編)",
+     "url": "https://comic-ryu.jp/episodes/ee935fd7dc87b",
+     "paid": true
+    },
+    {
+     "date": "2026-11-11",
+     "label": "第41話(後編)",
+     "title": "第41話(後編)",
+     "url": "https://comic-ryu.jp/episodes/dfddee8968e61"
+    },
+    {
+     "date": "2026-10-24",
+     "label": "第41話(前編)",
+     "title": "第41話(前編)",
+     "url": "https://comic-ryu.jp/episodes/0257da77e3d04"
+    },
+    {
+     "date": "2026-09-26",
+     "label": "第39話(前編)",
+     "title": "第39話(前編)",
+     "url": "https://comic-ryu.jp/episodes/29e7f44327e9e"
+    },
+    {
+     "date": "2026-09-17",
+     "label": "第40話(後編)",
+     "title": "第40話(後編)",
+     "url": "https://comic-ryu.jp/episodes/c06b893b7754c"
+    },
+    {
+     "date": "2026-09-17",
+     "label": "第40話(前編)",
+     "title": "第40話(前編)",
+     "url": "https://comic-ryu.jp/episodes/ca49263540c0a"
+    },
+    {
+     "date": "2026-09-17",
+     "label": "第39話(後編)",
+     "title": "第39話(後編)",
+     "url": "https://comic-ryu.jp/episodes/fb3d41bafbf34"
+    },
+    {
+     "date": "2026-08-27",
+     "label": "8 月 27 日 更新",
+     "title": "8 月 27 日 更新",
+     "url": "https://unicorn.comic-ryu.jp/17960/"
+    },
+    {
+     "date": "2026-08-13",
+     "label": "8 月 13 日 更新",
+     "title": "8 月 13 日 更新",
+     "url": "https://unicorn.comic-ryu.jp/17521/"
+    },
+    {
+     "date": "2026-07-23",
+     "label": "7 月 23 日 更新",
+     "title": "7 月 23 日 更新",
+     "url": "https://unicorn.comic-ryu.jp/16605/"
+    },
+    {
+     "date": "2026-07-09",
+     "label": "7 月 9 日 更新",
+     "title": "7 月 9 日 更新",
+     "url": "https://unicorn.comic-ryu.jp/16573/"
+    },
+    {
+     "date": "2026-06-25",
+     "label": "6 月 25 日 更新",
+     "title": "6 月 25 日 更新",
+     "url": "https://unicorn.comic-ryu.jp/15708/"
+    },
+    {
+     "date": "2026-06-11",
+     "label": "6 月 11 日 更新",
+     "title": "6 月 11 日 更新",
+     "url": "https://unicorn.comic-ryu.jp/15690/"
+    },
+    {
+     "date": "2026-05-28",
+     "label": "5 月 28 日 更新",
+     "title": "5 月 28 日 更新",
+     "url": "https://unicorn.comic-ryu.jp/14894/"
+    },
+    {
+     "date": "2026-05-14",
+     "label": "5 月 14 日 更新",
+     "title": "5 月 14 日 更新",
+     "url": "https://unicorn.comic-ryu.jp/14874/"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-11",
+    "label": "第41話(後編)",
+    "title": "第41話(後編)",
+    "url": "https://comic-ryu.jp/episodes/dfddee8968e61"
+   },
+   "paidHashes": [
+    "ee935fd7dc87b"
+   ],
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/ganganonline/11",
+   "title": "スライム倒して300年、知らないうちにレベルMAXになってました",
+   "site": "ガンガンONLINE",
+   "thumbFile": "data/thumbs/66008.jpg",
+   "publisherUrl": "https://www.ganganonline.com/title/11",
+   "comicNo": 66008,
+   "history": [
+    {
+     "date": "2026-11-26",
+     "label": "2026.11.26更新",
+     "title": "2026.11.26更新",
+     "url": "https://www.ganganonline.com/title/11/chapter/136508"
+    },
+    {
+     "date": "2026-11-12",
+     "label": "2026.11.12更新",
+     "title": "2026.11.12更新",
+     "url": "https://www.ganganonline.com/title/11/chapter/135728"
+    },
+    {
+     "date": "2026-10-29",
+     "label": "2026.10.29更新",
+     "title": "2026.10.29更新",
+     "url": null
+    },
+    {
+     "date": "2026-10-08",
+     "label": "2026.10.08更新",
+     "title": "2026.10.08更新",
+     "url": null
+    },
+    {
+     "date": "2026-09-24",
+     "label": "2026.09.24更新",
+     "title": "2026.09.24更新",
+     "url": null
+    },
+    {
+     "date": "2026-09-10",
+     "label": "2026.09.10更新",
+     "title": "2026.09.10更新",
+     "url": null
+    },
+    {
+     "date": "2026-08-27",
+     "label": "2026.08.27更新",
+     "title": "2026.08.27更新",
+     "url": null
+    },
+    {
+     "date": "2026-08-13",
+     "label": "2026.08.13更新",
+     "title": "2026.08.13更新",
+     "url": null
+    },
+    {
+     "date": "2026-07-30",
+     "label": "2026.07.30更新",
+     "title": "2026.07.30更新",
+     "url": null
+    },
+    {
+     "date": "2026-07-02",
+     "label": "2026.07.02更新",
+     "title": "2026.07.02更新",
+     "url": null
+    },
+    {
+     "date": "2026-06-25",
+     "label": "2026.06.25更新",
+     "title": "2026.06.25更新",
+     "url": null
+    },
+    {
+     "date": "2026-06-04",
+     "label": "2026.06.04更新",
+     "title": "2026.06.04更新",
+     "url": null
+    },
+    {
+     "date": "2026-05-21",
+     "label": "2026.05.21更新",
+     "title": "2026.05.21更新",
+     "url": null
+    },
+    {
+     "date": "2026-05-07",
+     "label": "2026.05.07更新",
+     "title": "2026.05.07更新",
+     "url": null
+    },
+    {
+     "date": "2026-04-16",
+     "label": "2026.04.16更新",
+     "title": "2026.04.16更新",
+     "url": null
+    }
+   ],
+   "latest": {
+    "date": "2026-11-26",
+    "label": "2026.11.26更新",
+    "title": "2026.11.26更新",
+    "url": "https://www.ganganonline.com/title/11/chapter/136508"
+   },
+   "paidHashes": null,
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/ganganonline/6",
+   "title": "月刊少女野崎くん",
+   "site": "ガンガンONLINE",
+   "thumbFile": "data/thumbs/1736.jpg",
+   "publisherUrl": "https://www.ganganonline.com/title/6",
+   "comicNo": 1736,
+   "history": [
+    {
+     "date": "2026-11-26",
+     "label": "2026.11.26更新",
+     "title": "2026.11.26更新",
+     "url": "https://www.ganganonline.com/title/6/chapter/138059"
+    },
+    {
+     "date": "2026-10-22",
+     "label": "2026.10.22更新",
+     "title": "2026.10.22更新",
+     "url": null
+    },
+    {
+     "date": "2026-09-24",
+     "label": "2026.09.24更新",
+     "title": "2026.09.24更新",
+     "url": null
+    },
+    {
+     "date": "2026-06-04",
+     "label": "2026.06.04更新",
+     "title": "2026.06.04更新",
+     "url": null
+    },
+    {
+     "date": "2026-04-30",
+     "label": "2026.04.30更新",
+     "title": "2026.04.30更新",
+     "url": null
+    },
+    {
+     "date": "2026-03-26",
+     "label": "2026.03.26更新",
+     "title": "2026.03.26更新",
+     "url": null
+    },
+    {
+     "date": "2026-02-26",
+     "label": "2026.02.26更新",
+     "title": "2026.02.26更新",
+     "url": null
+    },
+    {
+     "date": "2026-01-29",
+     "label": "2026.01.29更新",
+     "title": "2026.01.29更新",
+     "url": null
+    },
+    {
+     "date": "2025-12-25",
+     "label": "2025.12.25更新",
+     "title": "2025.12.25更新",
+     "url": null
+    },
+    {
+     "date": "2025-10-30",
+     "label": "2025.10.30更新",
+     "title": "2025.10.30更新",
+     "url": null
+    },
+    {
+     "date": "2025-09-25",
+     "label": "2025.09.25更新",
+     "title": "2025.09.25更新",
+     "url": null
+    },
+    {
+     "date": "2025-08-28",
+     "label": "2025.08.28更新",
+     "title": "2025.08.28更新",
+     "url": null
+    },
+    {
+     "date": "2025-07-03",
+     "label": "2025.07.03更新",
+     "title": "2025.07.03更新",
+     "url": null
+    },
+    {
+     "date": "2025-05-22",
+     "label": "2025.05.22更新",
+     "title": "2025.05.22更新",
+     "url": null
+    },
+    {
+     "date": "2025-04-17",
+     "label": "2025.04.17更新",
+     "title": "2025.04.17更新",
+     "url": null
+    }
+   ],
+   "latest": {
+    "date": "2026-11-26",
+    "label": "2026.11.26更新",
+    "title": "2026.11.26更新",
+    "url": "https://www.ganganonline.com/title/6/chapter/138059"
+   },
+   "paidHashes": null,
+   "error": null
+  },
   {
    "detailUrl": "https://webcomics.jp/mynavi-news/glassheart",
    "title": "【漫画】グラスハート",
@@ -11,7 +338,7 @@
    "comicNo": 218523,
    "history": [
     {
-     "date": "2026-11-25",
+     "date": "2026-11-26",
      "label": "【漫画】グラスハート 第7回 あたしの前の一本の線、その向こうは憧れのプロミュージシャンの世界…",
      "title": "【漫画】グラスハート 第7回 あたしの前の一本の線、その向こうは憧れのプロミュージシャンの世界…",
      "url": "https://news.mynavi.jp/article/glassheart-7/"
@@ -48,7 +375,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-25",
+    "date": "2026-11-26",
     "label": "【漫画】グラスハート 第7回 あたしの前の一本の線、その向こうは憧れのプロミュージシャンの世界…",
     "title": "【漫画】グラスハート 第7回 あたしの前の一本の線、その向こうは憧れのプロミュージシャンの世界…",
     "url": "https://news.mynavi.jp/article/glassheart-7/"
@@ -65,7 +392,7 @@
    "comicNo": 186534,
    "history": [
     {
-     "date": "2026-11-25",
+     "date": "2026-11-26",
      "label": "第二十一服「魔女と背信」後編",
      "title": "第二十一服「魔女と背信」後編",
      "url": "https://heros-web.com/episodes/216b2bed9e340"
@@ -157,7 +484,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-25",
+    "date": "2026-11-26",
     "label": "第二十一服「魔女と背信」後編",
     "title": "第二十一服「魔女と背信」後編",
     "url": "https://heros-web.com/episodes/216b2bed9e340"
@@ -282,7 +609,7 @@
    "comicNo": 189962,
    "history": [
     {
-     "date": "2026-11-25",
+     "date": "2026-11-26",
      "label": "更新",
      "title": "更新",
      "url": "https://comic-days.com/episode/12207421984475675716"
@@ -404,7 +731,7 @@
    "comicNo": 187538,
    "history": [
     {
-     "date": "2026-11-25",
+     "date": "2026-11-26",
      "label": "更新",
      "title": "更新",
      "url": "https://comic-days.com/episode/12207421983645809611",
@@ -507,7 +834,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-25",
+    "date": "2026-11-26",
     "label": "更新",
     "title": "更新",
     "url": "https://comic-days.com/episode/12207421983645809611",
@@ -525,7 +852,7 @@
    "comicNo": 84614,
    "history": [
     {
-     "date": "2026-11-25",
+     "date": "2026-11-26",
      "label": "第90話その1",
      "title": "第90話その1",
      "url": "https://comic-walker.com/detail/KC_005332_S/episodes/KC_0053320009200011_E?episodeType=latest"
@@ -616,7 +943,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-25",
+    "date": "2026-11-26",
     "label": "第90話その1",
     "title": "第90話その1",
     "url": "https://comic-walker.com/detail/KC_005332_S/episodes/KC_0053320009200011_E?episodeType=latest"
@@ -633,7 +960,7 @@
    "comicNo": 124779,
    "history": [
     {
-     "date": "2026-11-25",
+     "date": "2026-11-26",
      "label": "#46 天幕のジャードゥーガル",
      "title": "#46 天幕のジャードゥーガル",
      "url": "https://souffle.life/manga/tenmaku-no-ja-dougal/tenmaku046-20261125/"
@@ -724,7 +1051,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-25",
+    "date": "2026-11-26",
     "label": "#46 天幕のジャードゥーガル",
     "title": "#46 天幕のジャードゥーガル",
     "url": "https://souffle.life/manga/tenmaku-no-ja-dougal/tenmaku046-20261125/"
@@ -741,7 +1068,7 @@
    "comicNo": 178011,
    "history": [
     {
-     "date": "2026-11-25",
+     "date": "2026-11-26",
      "label": "11 月 25 日 水",
      "title": "11 月 25 日 水",
      "url": null
@@ -832,7 +1159,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-25",
+    "date": "2026-11-26",
     "label": "11 月 25 日 水",
     "title": "11 月 25 日 水",
     "url": null
@@ -849,7 +1176,7 @@
    "comicNo": 38935,
    "history": [
     {
-     "date": "2026-11-25",
+     "date": "2026-11-26",
      "label": "11 月 25 日 水",
      "title": "11 月 25 日 水",
      "url": null
@@ -940,7 +1267,7 @@
     }
    ],
    "latest": {
-    "date": "2026-11-25",
+    "date": "2026-11-26",
     "label": "11 月 25 日 水",
     "title": "11 月 25 日 水",
     "url": null
@@ -15263,222 +15590,6 @@
    "error": null
   },
   {
-   "detailUrl": "https://webcomics.jp/ganganonline/11",
-   "title": "スライム倒して300年、知らないうちにレベルMAXになってました",
-   "site": "ガンガンONLINE",
-   "thumbFile": "data/thumbs/66008.jpg",
-   "publisherUrl": "https://www.ganganonline.com/title/11",
-   "comicNo": 66008,
-   "history": [
-    {
-     "date": "2026-11-12",
-     "label": "2026.11.12更新",
-     "title": "2026.11.12更新",
-     "url": "https://www.ganganonline.com/title/11/chapter/135728"
-    },
-    {
-     "date": "2026-10-29",
-     "label": "2026.10.29更新",
-     "title": "2026.10.29更新",
-     "url": "https://www.ganganonline.com/title/11/chapter/134240"
-    },
-    {
-     "date": "2026-10-08",
-     "label": "2026.10.08更新",
-     "title": "2026.10.08更新",
-     "url": null
-    },
-    {
-     "date": "2026-09-24",
-     "label": "2026.09.24更新",
-     "title": "2026.09.24更新",
-     "url": null
-    },
-    {
-     "date": "2026-09-10",
-     "label": "2026.09.10更新",
-     "title": "2026.09.10更新",
-     "url": null
-    },
-    {
-     "date": "2026-08-27",
-     "label": "2026.08.27更新",
-     "title": "2026.08.27更新",
-     "url": null
-    },
-    {
-     "date": "2026-08-13",
-     "label": "2026.08.13更新",
-     "title": "2026.08.13更新",
-     "url": null
-    },
-    {
-     "date": "2026-07-30",
-     "label": "2026.07.30更新",
-     "title": "2026.07.30更新",
-     "url": null
-    },
-    {
-     "date": "2026-07-02",
-     "label": "2026.07.02更新",
-     "title": "2026.07.02更新",
-     "url": null
-    },
-    {
-     "date": "2026-06-25",
-     "label": "2026.06.25更新",
-     "title": "2026.06.25更新",
-     "url": null
-    },
-    {
-     "date": "2026-06-04",
-     "label": "2026.06.04更新",
-     "title": "2026.06.04更新",
-     "url": null
-    },
-    {
-     "date": "2026-05-21",
-     "label": "2026.05.21更新",
-     "title": "2026.05.21更新",
-     "url": null
-    },
-    {
-     "date": "2026-05-07",
-     "label": "2026.05.07更新",
-     "title": "2026.05.07更新",
-     "url": null
-    },
-    {
-     "date": "2026-04-16",
-     "label": "2026.04.16更新",
-     "title": "2026.04.16更新",
-     "url": null
-    },
-    {
-     "date": "2026-03-26",
-     "label": "2026.03.26更新",
-     "title": "2026.03.26更新",
-     "url": null
-    }
-   ],
-   "latest": {
-    "date": "2026-11-12",
-    "label": "2026.11.12更新",
-    "title": "2026.11.12更新",
-    "url": "https://www.ganganonline.com/title/11/chapter/135728"
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
-   "detailUrl": "https://webcomics.jp/comic-ryu/9bfabbed18a82",
-   "title": "勇者の母ですが、魔王軍の幹部になりました。",
-   "site": "COMICリュウライブ",
-   "thumbFile": "data/thumbs/171613.jpg",
-   "publisherUrl": "https://comic-ryu.jp/series/9bfabbed18a82",
-   "comicNo": 171613,
-   "history": [
-    {
-     "date": "2026-11-11",
-     "label": "第41話(後編)",
-     "title": "第41話(後編)",
-     "url": "https://comic-ryu.jp/episodes/dfddee8968e61"
-    },
-    {
-     "date": "2026-10-24",
-     "label": "第41話(前編)",
-     "title": "第41話(前編)",
-     "url": "https://comic-ryu.jp/episodes/0257da77e3d04"
-    },
-    {
-     "date": "2026-09-26",
-     "label": "第39話(前編)",
-     "title": "第39話(前編)",
-     "url": "https://comic-ryu.jp/episodes/29e7f44327e9e"
-    },
-    {
-     "date": "2026-09-17",
-     "label": "第40話(後編)",
-     "title": "第40話(後編)",
-     "url": "https://comic-ryu.jp/episodes/c06b893b7754c"
-    },
-    {
-     "date": "2026-09-17",
-     "label": "第40話(前編)",
-     "title": "第40話(前編)",
-     "url": "https://comic-ryu.jp/episodes/ca49263540c0a"
-    },
-    {
-     "date": "2026-09-17",
-     "label": "第39話(後編)",
-     "title": "第39話(後編)",
-     "url": "https://comic-ryu.jp/episodes/fb3d41bafbf34"
-    },
-    {
-     "date": "2026-08-27",
-     "label": "8 月 27 日 更新",
-     "title": "8 月 27 日 更新",
-     "url": "https://unicorn.comic-ryu.jp/17960/"
-    },
-    {
-     "date": "2026-08-13",
-     "label": "8 月 13 日 更新",
-     "title": "8 月 13 日 更新",
-     "url": "https://unicorn.comic-ryu.jp/17521/"
-    },
-    {
-     "date": "2026-07-23",
-     "label": "7 月 23 日 更新",
-     "title": "7 月 23 日 更新",
-     "url": "https://unicorn.comic-ryu.jp/16605/"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "7 月 9 日 更新",
-     "title": "7 月 9 日 更新",
-     "url": "https://unicorn.comic-ryu.jp/16573/"
-    },
-    {
-     "date": "2026-06-25",
-     "label": "6 月 25 日 更新",
-     "title": "6 月 25 日 更新",
-     "url": "https://unicorn.comic-ryu.jp/15708/"
-    },
-    {
-     "date": "2026-06-11",
-     "label": "6 月 11 日 更新",
-     "title": "6 月 11 日 更新",
-     "url": "https://unicorn.comic-ryu.jp/15690/"
-    },
-    {
-     "date": "2026-05-28",
-     "label": "5 月 28 日 更新",
-     "title": "5 月 28 日 更新",
-     "url": "https://unicorn.comic-ryu.jp/14894/"
-    },
-    {
-     "date": "2026-05-14",
-     "label": "5 月 14 日 更新",
-     "title": "5 月 14 日 更新",
-     "url": "https://unicorn.comic-ryu.jp/14874/"
-    },
-    {
-     "date": "2026-04-23",
-     "label": "4 月 23 日 更新",
-     "title": "4 月 23 日 更新",
-     "url": "https://unicorn.comic-ryu.jp/14037/"
-    }
-   ],
-   "latest": {
-    "date": "2026-11-11",
-    "label": "第41話(後編)",
-    "title": "第41話(後編)",
-    "url": "https://comic-ryu.jp/episodes/dfddee8968e61"
-   },
-   "paidHashes": [],
-   "error": null
-  },
-  {
    "detailUrl": "https://webcomics.jp/alphapolis/748000411",
    "title": "転生ババァは見過ごせない! ―元悪徳女帝の二周目ライフ―",
    "site": "アルファポリス",
@@ -21070,114 +21181,6 @@
     "label": "第140話",
     "title": "第140話",
     "url": "https://comic-walker.com/detail/KC_002088_S/episodes/KC_0020880015100011_E?episodeType=latest"
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
-   "detailUrl": "https://webcomics.jp/ganganonline/6",
-   "title": "月刊少女野崎くん",
-   "site": "ガンガンONLINE",
-   "thumbFile": "data/thumbs/1736.jpg",
-   "publisherUrl": "https://www.ganganonline.com/title/6",
-   "comicNo": 1736,
-   "history": [
-    {
-     "date": "2026-10-22",
-     "label": "2026.10.22更新",
-     "title": "2026.10.22更新",
-     "url": "https://www.ganganonline.com/title/6/chapter/136190"
-    },
-    {
-     "date": "2026-09-24",
-     "label": "2026.09.24更新",
-     "title": "2026.09.24更新",
-     "url": null
-    },
-    {
-     "date": "2026-06-04",
-     "label": "2026.06.04更新",
-     "title": "2026.06.04更新",
-     "url": null
-    },
-    {
-     "date": "2026-04-30",
-     "label": "2026.04.30更新",
-     "title": "2026.04.30更新",
-     "url": null
-    },
-    {
-     "date": "2026-03-26",
-     "label": "2026.03.26更新",
-     "title": "2026.03.26更新",
-     "url": null
-    },
-    {
-     "date": "2026-02-26",
-     "label": "2026.02.26更新",
-     "title": "2026.02.26更新",
-     "url": null
-    },
-    {
-     "date": "2026-01-29",
-     "label": "2026.01.29更新",
-     "title": "2026.01.29更新",
-     "url": null
-    },
-    {
-     "date": "2025-12-25",
-     "label": "2025.12.25更新",
-     "title": "2025.12.25更新",
-     "url": null
-    },
-    {
-     "date": "2025-10-30",
-     "label": "2025.10.30更新",
-     "title": "2025.10.30更新",
-     "url": null
-    },
-    {
-     "date": "2025-09-25",
-     "label": "2025.09.25更新",
-     "title": "2025.09.25更新",
-     "url": null
-    },
-    {
-     "date": "2025-08-28",
-     "label": "2025.08.28更新",
-     "title": "2025.08.28更新",
-     "url": null
-    },
-    {
-     "date": "2025-07-03",
-     "label": "2025.07.03更新",
-     "title": "2025.07.03更新",
-     "url": null
-    },
-    {
-     "date": "2025-05-22",
-     "label": "2025.05.22更新",
-     "title": "2025.05.22更新",
-     "url": null
-    },
-    {
-     "date": "2025-04-17",
-     "label": "2025.04.17更新",
-     "title": "2025.04.17更新",
-     "url": null
-    },
-    {
-     "date": "2025-03-13",
-     "label": "2025.03.13更新",
-     "title": "2025.03.13更新",
-     "url": null
-    }
-   ],
-   "latest": {
-    "date": "2026-10-22",
-    "label": "2026.10.22更新",
-    "title": "2026.10.22更新",
-    "url": "https://www.ganganonline.com/title/6/chapter/136190"
    },
    "paidHashes": null,
    "error": null
