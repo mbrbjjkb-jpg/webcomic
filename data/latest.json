@@ -1,7 +1,170 @@
 {
- "checkedAt": "2026-11-25T14:29:43+09:00",
+ "checkedAt": "2026-11-25T21:35:43+09:00",
  "bookmarkUrl": "https://webcomics.jp/bookmark/3682scqd",
  "works": [
+  {
+   "detailUrl": "https://webcomics.jp/mynavi-news/glassheart",
+   "title": "【漫画】グラスハート",
+   "site": "マイナビニュース",
+   "thumbFile": "data/thumbs/218523.jpg",
+   "publisherUrl": "https://news.mynavi.jp/series/glassheart/",
+   "comicNo": 218523,
+   "history": [
+    {
+     "date": "2026-11-25",
+     "label": "【漫画】グラスハート 第7回 あたしの前の一本の線、その向こうは憧れのプロミュージシャンの世界…",
+     "title": "【漫画】グラスハート 第7回 あたしの前の一本の線、その向こうは憧れのプロミュージシャンの世界…",
+     "url": "https://news.mynavi.jp/article/glassheart-7/"
+    },
+    {
+     "date": "2026-11-24",
+     "label": "【漫画】グラスハート 第6回 「それがあんたのドラムだったんだ」憧れの天才が聴いていたのは、バンドを追い出された私の音だった",
+     "title": "【漫画】グラスハート 第6回 「それがあんたのドラムだったんだ」憧れの天才が聴いていたのは、バンドを追い出された私の音だった",
+     "url": "https://news.mynavi.jp/article/glassheart-6/"
+    },
+    {
+     "date": "2026-11-23",
+     "label": "【漫画】グラスハート 第5回 「僕なんて独学で邪道」と言った彼が繰り出すピアノの音色に、店内は騒然",
+     "title": "【漫画】グラスハート 第5回 「僕なんて独学で邪道」と言った彼が繰り出すピアノの音色に、店内は騒然",
+     "url": "https://news.mynavi.jp/article/glassheart-5/"
+    },
+    {
+     "date": "2026-11-22",
+     "label": "【漫画】グラスハート 第4回 「大至急あんたのドラムが欲しい」憧れの天才が、私の音を求めている…!?",
+     "title": "【漫画】グラスハート 第4回 「大至急あんたのドラムが欲しい」憧れの天才が、私の音を求めている…!?",
+     "url": "https://news.mynavi.jp/article/glassheart-4/"
+    },
+    {
+     "date": "2026-11-21",
+     "label": "【漫画】グラスハート 第3回 「あんたうちでドラム叩く気ある?」小難しい話はわからない。でも、電話の向こうの声は知ってる",
+     "title": "【漫画】グラスハート 第3回 「あんたうちでドラム叩く気ある?」小難しい話はわからない。でも、電話の向こうの声は知ってる",
+     "url": "https://news.mynavi.jp/article/glassheart-3/"
+    },
+    {
+     "date": "2026-11-20",
+     "label": "【漫画】グラスハート 第1回 「女だから」でバンドをクビに。ドラムも居場所も失った女子高生に思いがけない出会いが…",
+     "title": "【漫画】グラスハート 第1回 「女だから」でバンドをクビに。ドラムも居場所も失った女子高生に思いがけない出会いが…",
+     "url": "https://news.mynavi.jp/article/glassheart-1/"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-25",
+    "label": "【漫画】グラスハート 第7回 あたしの前の一本の線、その向こうは憧れのプロミュージシャンの世界…",
+    "title": "【漫画】グラスハート 第7回 あたしの前の一本の線、その向こうは憧れのプロミュージシャンの世界…",
+    "url": "https://news.mynavi.jp/article/glassheart-7/"
+   },
+   "paidHashes": null,
+   "error": null
+  },
+  {
+   "detailUrl": "https://webcomics.jp/heros/2b64bc0622a2a",
+   "title": "魔女とくゅらす",
+   "site": "HERO'S Web",
+   "thumbFile": "data/thumbs/186534.jpg",
+   "publisherUrl": "https://heros-web.com/series/2b64bc0622a2a",
+   "comicNo": 186534,
+   "history": [
+    {
+     "date": "2026-11-25",
+     "label": "第二十一服「魔女と背信」後編",
+     "title": "第二十一服「魔女と背信」後編",
+     "url": "https://heros-web.com/episodes/216b2bed9e340"
+    },
+    {
+     "date": "2026-11-12",
+     "label": "第二十一服「魔女と背信」前編",
+     "title": "第二十一服「魔女と背信」前編",
+     "url": "https://heros-web.com/episodes/f5943c2d0576f"
+    },
+    {
+     "date": "2026-11-08",
+     "label": "単行本3巻発売記念イラスト",
+     "title": "単行本3巻発売記念イラスト",
+     "url": "https://heros-web.com/episodes/76681001b6d71",
+     "extra": true
+    },
+    {
+     "date": "2026-10-31",
+     "label": "第二十服「魔女と再起」後編",
+     "title": "第二十服「魔女と再起」後編",
+     "url": "https://heros-web.com/episodes/c638719183d92"
+    },
+    {
+     "date": "2026-10-15",
+     "label": "第二十服「魔女と再起」前編",
+     "title": "第二十服「魔女と再起」前編",
+     "url": "https://heros-web.com/episodes/e17aaaa093709"
+    },
+    {
+     "date": "2026-10-02",
+     "label": "魔女とひととき パート2",
+     "title": "魔女とひととき パート2",
+     "url": "https://heros-web.com/episodes/8fa507956cce8"
+    },
+    {
+     "date": "2026-09-16",
+     "label": "第十九服「魔女と欲望」",
+     "title": "第十九服「魔女と欲望」",
+     "url": "https://heros-web.com/episodes/5ae03d8301b30"
+    },
+    {
+     "date": "2026-09-05",
+     "label": "第十八服「魔女と秘匿」後編",
+     "title": "第十八服「魔女と秘匿」後編",
+     "url": "https://heros-web.com/episodes/7425c80e07cca"
+    },
+    {
+     "date": "2026-08-23",
+     "label": "第十八服「魔女と秘匿」前編",
+     "title": "第十八服「魔女と秘匿」前編",
+     "url": "https://heros-web.com/episodes/14479533b1ab4"
+    },
+    {
+     "date": "2026-08-08",
+     "label": "第十七服「魔女と禁域」後編",
+     "title": "第十七服「魔女と禁域」後編",
+     "url": "https://heros-web.com/episodes/046c9c164eaeb"
+    },
+    {
+     "date": "2026-07-22",
+     "label": "第十七服「魔女と禁域」前編",
+     "title": "第十七服「魔女と禁域」前編",
+     "url": "https://heros-web.com/episodes/b523b40c932e6"
+    },
+    {
+     "date": "2026-07-09",
+     "label": "第十六服「魔女と魅力」後編",
+     "title": "第十六服「魔女と魅力」後編",
+     "url": "https://heros-web.com/episodes/fdb0a87cadfd9"
+    },
+    {
+     "date": "2026-06-10",
+     "label": "第二服「魔女と繁生」後編",
+     "title": "第二服「魔女と繁生」後編",
+     "url": "https://heros-web.com/episodes/31ca085fc9029"
+    },
+    {
+     "date": "2026-05-27",
+     "label": "第十六服「魔女と魅力」前編",
+     "title": "第十六服「魔女と魅力」前編",
+     "url": "https://viewer.heros-web.com/episode/12207421983660076327"
+    },
+    {
+     "date": "2026-05-13",
+     "label": "第十五服「魔女と熱情」後編",
+     "title": "第十五服「魔女と熱情」後編",
+     "url": "https://viewer.heros-web.com/episode/2551460909653355768"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-25",
+    "label": "第二十一服「魔女と背信」後編",
+    "title": "第二十一服「魔女と背信」後編",
+    "url": "https://heros-web.com/episodes/216b2bed9e340"
+   },
+   "paidHashes": null,
+   "error": null
+  },
   {
    "detailUrl": "https://webcomics.jp/seiga/40386",
    "title": "実は俺、最強でした?",
@@ -1335,7 +1498,7 @@
    "comicNo": 59636,
    "history": [
     {
-     "date": "2026-11-25",
+     "date": "2026-11-24",
      "label": "11/24更新",
      "title": "11/24更新",
      "url": null
@@ -1426,58 +1589,10 @@
     }
    ],
    "latest": {
-    "date": "2026-11-25",
+    "date": "2026-11-24",
     "label": "11/24更新",
     "title": "11/24更新",
     "url": null
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
-   "detailUrl": "https://webcomics.jp/mynavi-news/glassheart",
-   "title": "【漫画】グラスハート",
-   "site": "マイナビニュース",
-   "thumbFile": "data/thumbs/218523.jpg",
-   "publisherUrl": "https://news.mynavi.jp/series/glassheart/",
-   "comicNo": 218523,
-   "history": [
-    {
-     "date": "2026-11-25",
-     "label": "【漫画】グラスハート 第6回 「それがあんたのドラムだったんだ」憧れの天才が聴いていたのは、バンドを追い出された私の音だった",
-     "title": "【漫画】グラスハート 第6回 「それがあんたのドラムだったんだ」憧れの天才が聴いていたのは、バンドを追い出された私の音だった",
-     "url": "https://news.mynavi.jp/article/glassheart-6/"
-    },
-    {
-     "date": "2026-11-23",
-     "label": "【漫画】グラスハート 第5回 「僕なんて独学で邪道」と言った彼が繰り出すピアノの音色に、店内は騒然",
-     "title": "【漫画】グラスハート 第5回 「僕なんて独学で邪道」と言った彼が繰り出すピアノの音色に、店内は騒然",
-     "url": "https://news.mynavi.jp/article/glassheart-5/"
-    },
-    {
-     "date": "2026-11-22",
-     "label": "【漫画】グラスハート 第4回 「大至急あんたのドラムが欲しい」憧れの天才が、私の音を求めている…!?",
-     "title": "【漫画】グラスハート 第4回 「大至急あんたのドラムが欲しい」憧れの天才が、私の音を求めている…!?",
-     "url": "https://news.mynavi.jp/article/glassheart-4/"
-    },
-    {
-     "date": "2026-11-21",
-     "label": "【漫画】グラスハート 第3回 「あんたうちでドラム叩く気ある?」小難しい話はわからない。でも、電話の向こうの声は知ってる",
-     "title": "【漫画】グラスハート 第3回 「あんたうちでドラム叩く気ある?」小難しい話はわからない。でも、電話の向こうの声は知ってる",
-     "url": "https://news.mynavi.jp/article/glassheart-3/"
-    },
-    {
-     "date": "2026-11-20",
-     "label": "【漫画】グラスハート 第1回 「女だから」でバンドをクビに。ドラムも居場所も失った女子高生に思いがけない出会いが…",
-     "title": "【漫画】グラスハート 第1回 「女だから」でバンドをクビに。ドラムも居場所も失った女子高生に思いがけない出会いが…",
-     "url": "https://news.mynavi.jp/article/glassheart-1/"
-    }
-   ],
-   "latest": {
-    "date": "2026-11-25",
-    "label": "【漫画】グラスハート 第6回 「それがあんたのドラムだったんだ」憧れの天才が聴いていたのは、バンドを追い出された私の音だった",
-    "title": "【漫画】グラスハート 第6回 「それがあんたのドラムだったんだ」憧れの天才が聴いていたのは、バンドを追い出された私の音だった",
-    "url": "https://news.mynavi.jp/article/glassheart-6/"
    },
    "paidHashes": null,
    "error": null
@@ -14563,116 +14678,6 @@
     "label": "更新",
     "title": "更新",
     "url": "https://pocket.shonenmagazine.com/title/01349/episode/446087"
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
-   "detailUrl": "https://webcomics.jp/heros/2b64bc0622a2a",
-   "title": "魔女とくゅらす",
-   "site": "HERO'S Web",
-   "thumbFile": "data/thumbs/186534.jpg",
-   "publisherUrl": "https://heros-web.com/series/2b64bc0622a2a",
-   "comicNo": 186534,
-   "history": [
-    {
-     "date": "2026-11-12",
-     "label": "第二十一服「魔女と背信」前編",
-     "title": "第二十一服「魔女と背信」前編",
-     "url": "https://heros-web.com/episodes/f5943c2d0576f"
-    },
-    {
-     "date": "2026-11-08",
-     "label": "単行本3巻発売記念イラスト",
-     "title": "単行本3巻発売記念イラスト",
-     "url": "https://heros-web.com/episodes/76681001b6d71",
-     "extra": true
-    },
-    {
-     "date": "2026-10-31",
-     "label": "第二十服「魔女と再起」後編",
-     "title": "第二十服「魔女と再起」後編",
-     "url": "https://heros-web.com/episodes/c638719183d92"
-    },
-    {
-     "date": "2026-10-15",
-     "label": "第二十服「魔女と再起」前編",
-     "title": "第二十服「魔女と再起」前編",
-     "url": "https://heros-web.com/episodes/e17aaaa093709"
-    },
-    {
-     "date": "2026-10-02",
-     "label": "魔女とひととき パート2",
-     "title": "魔女とひととき パート2",
-     "url": "https://heros-web.com/episodes/8fa507956cce8"
-    },
-    {
-     "date": "2026-09-16",
-     "label": "第十九服「魔女と欲望」",
-     "title": "第十九服「魔女と欲望」",
-     "url": "https://heros-web.com/episodes/5ae03d8301b30"
-    },
-    {
-     "date": "2026-09-05",
-     "label": "第十八服「魔女と秘匿」後編",
-     "title": "第十八服「魔女と秘匿」後編",
-     "url": "https://heros-web.com/episodes/7425c80e07cca"
-    },
-    {
-     "date": "2026-08-23",
-     "label": "第十八服「魔女と秘匿」前編",
-     "title": "第十八服「魔女と秘匿」前編",
-     "url": "https://heros-web.com/episodes/14479533b1ab4"
-    },
-    {
-     "date": "2026-08-08",
-     "label": "第十七服「魔女と禁域」後編",
-     "title": "第十七服「魔女と禁域」後編",
-     "url": "https://heros-web.com/episodes/046c9c164eaeb"
-    },
-    {
-     "date": "2026-07-22",
-     "label": "第十七服「魔女と禁域」前編",
-     "title": "第十七服「魔女と禁域」前編",
-     "url": "https://heros-web.com/episodes/b523b40c932e6"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "第十六服「魔女と魅力」後編",
-     "title": "第十六服「魔女と魅力」後編",
-     "url": "https://heros-web.com/episodes/fdb0a87cadfd9"
-    },
-    {
-     "date": "2026-06-10",
-     "label": "第二服「魔女と繁生」後編",
-     "title": "第二服「魔女と繁生」後編",
-     "url": "https://heros-web.com/episodes/31ca085fc9029"
-    },
-    {
-     "date": "2026-05-27",
-     "label": "第十六服「魔女と魅力」前編",
-     "title": "第十六服「魔女と魅力」前編",
-     "url": "https://viewer.heros-web.com/episode/12207421983660076327"
-    },
-    {
-     "date": "2026-05-13",
-     "label": "第十五服「魔女と熱情」後編",
-     "title": "第十五服「魔女と熱情」後編",
-     "url": "https://viewer.heros-web.com/episode/2551460909653355768"
-    },
-    {
-     "date": "2026-05-01",
-     "label": "単行本2巻発売記念イラスト",
-     "title": "単行本2巻発売記念イラスト",
-     "url": "https://viewer.heros-web.com/episode/2551460909653355762",
-     "extra": true
-    }
-   ],
-   "latest": {
-    "date": "2026-11-12",
-    "label": "第二十一服「魔女と背信」前編",
-    "title": "第二十一服「魔女と背信」前編",
-    "url": "https://heros-web.com/episodes/f5943c2d0576f"
    },
    "paidHashes": null,
    "error": null
