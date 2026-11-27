@@ -1,7 +1,115 @@
 {
- "checkedAt": "2026-11-27T15:28:14+09:00",
+ "checkedAt": "2026-11-27T20:59:50+09:00",
  "bookmarkUrl": "https://webcomics.jp/bookmark/3682scqd",
  "works": [
+  {
+   "detailUrl": "https://webcomics.jp/comicpash/cecfec260f2e6",
+   "title": "私の心はおじさんである",
+   "site": "コミックPASH! neo",
+   "thumbFile": "data/thumbs/168070.jpg",
+   "publisherUrl": "https://comicpash.jp/series/cecfec260f2e6",
+   "comicNo": 168070,
+   "history": [
+    {
+     "date": "2026-11-27",
+     "label": "第47話",
+     "title": "第47話",
+     "url": "https://comicpash.jp/episodes/d5294d6fc66ad"
+    },
+    {
+     "date": "2026-10-25",
+     "label": "第46話",
+     "title": "第46話",
+     "url": "https://comicpash.jp/episodes/f62e8ba198789"
+    },
+    {
+     "date": "2026-10-10",
+     "label": "第45話",
+     "title": "第45話",
+     "url": "https://comicpash.jp/episodes/d08f1de3c45df"
+    },
+    {
+     "date": "2026-09-26",
+     "label": "第44話",
+     "title": "第44話",
+     "url": "https://comicpash.jp/episodes/4593809c8d98f"
+    },
+    {
+     "date": "2026-08-29",
+     "label": "第43話",
+     "title": "第43話",
+     "url": "https://comicpash.jp/episodes/e1585fab38e5b"
+    },
+    {
+     "date": "2026-08-15",
+     "label": "第42話",
+     "title": "第42話",
+     "url": "https://comicpash.jp/episodes/e3717ca065d17"
+    },
+    {
+     "date": "2026-07-24",
+     "label": "第41話",
+     "title": "第41話",
+     "url": "https://comicpash.jp/episodes/ce7ce0f2953c3"
+    },
+    {
+     "date": "2026-07-11",
+     "label": "第40話",
+     "title": "第40話",
+     "url": "https://comicpash.jp/episodes/bb444b40206c2"
+    },
+    {
+     "date": "2026-06-12",
+     "label": "第39話",
+     "title": "第39話",
+     "url": "https://comicpash.jp/episodes/e4d850391f73a"
+    },
+    {
+     "date": "2026-05-25",
+     "label": "第38話",
+     "title": "第38話",
+     "url": "https://comicpash.jp/episodes/1d5c152d2d85e"
+    },
+    {
+     "date": "2026-05-08",
+     "label": "第37話",
+     "title": "第37話",
+     "url": "https://comicpash.jp/episodes/d06d09bbd227c"
+    },
+    {
+     "date": "2026-04-26",
+     "label": "第36話",
+     "title": "第36話",
+     "url": "https://comicpash.jp/episodes/29ec0ce0c6356"
+    },
+    {
+     "date": "2026-03-27",
+     "label": "第35話",
+     "title": "第35話",
+     "url": "https://comicpash.jp/episodes/36e2be6ae74bb"
+    },
+    {
+     "date": "2026-03-27",
+     "label": "第1話",
+     "title": "第1話",
+     "url": "https://comicpash.jp/episodes/a1bdb1abcc23f"
+    },
+    {
+     "date": "2026-03-27",
+     "label": "第2話",
+     "title": "第2話",
+     "url": "https://comicpash.jp/episodes/0d420da791000"
+    }
+   ],
+   "latest": {
+    "date": "2026-11-27",
+    "label": "第47話",
+    "title": "第47話",
+    "url": "https://comicpash.jp/episodes/d5294d6fc66ad"
+   },
+   "paidHashes": null,
+   "error": null
+  },
   {
    "detailUrl": "https://webcomics.jp/seiga/22885",
    "title": "異種族レビュアーズ",
@@ -21313,114 +21421,6 @@
     "label": "第25話",
     "title": "第25話",
     "url": "https://younganimal.com/episodes/039af07b909a8"
-   },
-   "paidHashes": null,
-   "error": null
-  },
-  {
-   "detailUrl": "https://webcomics.jp/comicpash/cecfec260f2e6",
-   "title": "私の心はおじさんである",
-   "site": "コミックPASH! neo",
-   "thumbFile": "data/thumbs/168070.jpg",
-   "publisherUrl": "https://comicpash.jp/series/cecfec260f2e6",
-   "comicNo": 168070,
-   "history": [
-    {
-     "date": "2026-10-25",
-     "label": "第46話",
-     "title": "第46話",
-     "url": "https://comicpash.jp/episodes/f62e8ba198789"
-    },
-    {
-     "date": "2026-10-10",
-     "label": "第45話",
-     "title": "第45話",
-     "url": "https://comicpash.jp/episodes/d08f1de3c45df"
-    },
-    {
-     "date": "2026-09-26",
-     "label": "第44話",
-     "title": "第44話",
-     "url": "https://comicpash.jp/episodes/4593809c8d98f"
-    },
-    {
-     "date": "2026-08-29",
-     "label": "第43話",
-     "title": "第43話",
-     "url": "https://comicpash.jp/episodes/e1585fab38e5b"
-    },
-    {
-     "date": "2026-08-15",
-     "label": "第42話",
-     "title": "第42話",
-     "url": "https://comicpash.jp/episodes/e3717ca065d17"
-    },
-    {
-     "date": "2026-07-24",
-     "label": "第41話",
-     "title": "第41話",
-     "url": "https://comicpash.jp/episodes/ce7ce0f2953c3"
-    },
-    {
-     "date": "2026-07-11",
-     "label": "第40話",
-     "title": "第40話",
-     "url": "https://comicpash.jp/episodes/bb444b40206c2"
-    },
-    {
-     "date": "2026-06-12",
-     "label": "第39話",
-     "title": "第39話",
-     "url": "https://comicpash.jp/episodes/e4d850391f73a"
-    },
-    {
-     "date": "2026-05-25",
-     "label": "第38話",
-     "title": "第38話",
-     "url": "https://comicpash.jp/episodes/1d5c152d2d85e"
-    },
-    {
-     "date": "2026-05-08",
-     "label": "第37話",
-     "title": "第37話",
-     "url": "https://comicpash.jp/episodes/d06d09bbd227c"
-    },
-    {
-     "date": "2026-04-26",
-     "label": "第36話",
-     "title": "第36話",
-     "url": "https://comicpash.jp/episodes/29ec0ce0c6356"
-    },
-    {
-     "date": "2026-03-27",
-     "label": "第35話",
-     "title": "第35話",
-     "url": "https://comicpash.jp/episodes/36e2be6ae74bb"
-    },
-    {
-     "date": "2026-03-27",
-     "label": "第1話",
-     "title": "第1話",
-     "url": "https://comicpash.jp/episodes/a1bdb1abcc23f"
-    },
-    {
-     "date": "2026-03-27",
-     "label": "第2話",
-     "title": "第2話",
-     "url": "https://comicpash.jp/episodes/0d420da791000"
-    },
-    {
-     "date": "2026-03-17",
-     "label": "第34話",
-     "title": "第34話",
-     "url": "https://comicpash.jp/episodes/1dc8531bf4b3a"
-    }
-   ],
-   "latest": {
-    "date": "2026-10-25",
-    "label": "第46話",
-    "title": "第46話",
-    "url": "https://comicpash.jp/episodes/f62e8ba198789"
    },
    "paidHashes": null,
    "error": null
